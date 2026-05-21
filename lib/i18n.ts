@@ -108,6 +108,63 @@ const ru: Dict = {
 
   // Lesson 1 (Russian-mode lessons banner — visible in ID mode)
   lessons_ru_only_notice: "Объяснения уроков пока на русском.",
+
+  // Auth
+  nav_login: "Войти",
+  nav_account: "Профиль",
+  nav_logout: "Выйти",
+
+  auth_email: "Email",
+  auth_password: "Пароль",
+  auth_password_confirm: "Повторите пароль",
+  auth_password_min: "Минимум 6 символов",
+
+  auth_login_title: "Вход",
+  auth_login_subtitle: "Войди по email и паролю, чтобы прогресс сохранялся между устройствами.",
+  auth_login_submit: "Войти",
+  auth_no_account: "Ещё нет аккаунта?",
+  auth_signup_link: "Создать",
+
+  auth_signup_title: "Регистрация",
+  auth_signup_subtitle: "Создай аккаунт — прогресс будет синхронизирован на всех устройствах.",
+  auth_signup_submit: "Создать аккаунт",
+  auth_already_have_account: "Уже есть аккаунт?",
+  auth_login_link: "Войти",
+
+  auth_forgot: "Забыли пароль?",
+  auth_forgot_title: "Восстановление пароля",
+  auth_forgot_subtitle: "Введи email — пришлём ссылку для сброса пароля.",
+  auth_forgot_submit: "Прислать ссылку",
+  auth_forgot_sent: "Если такой email зарегистрирован, мы прислали ссылку для сброса.",
+
+  auth_reset_title: "Новый пароль",
+  auth_reset_subtitle: "Придумай новый пароль для своего аккаунта.",
+  auth_reset_submit: "Сохранить пароль",
+  auth_reset_done: "Пароль обновлён. Можешь входить.",
+
+  auth_signup_check_email: "Проверь почту — мы отправили ссылку для подтверждения. После подтверждения вернись и войди.",
+  auth_password_mismatch: "Пароли не совпадают",
+  auth_not_configured: "Авторизация не настроена. Обратись к администратору сайта.",
+
+  // Account
+  account_title: "Личный кабинет",
+  account_signed_in_as: "Вы вошли как",
+  account_stats_words: "Выучено слов",
+  account_stats_lessons: "Пройдено уроков",
+  account_stats_sets: "Активных наборов",
+  account_lesson_progress_title: "Прогресс по урокам",
+  account_vocab_progress_title: "Прогресс по словарю",
+  account_continue: "Продолжить",
+  account_member_since: "Аккаунт создан:",
+  account_local_only_warning: "Сейчас прогресс хранится только в этом браузере. Зарегистрируйся, чтобы он синхронизировался между устройствами.",
+  account_sync_pending: "Синхронизируем локальный прогресс с облаком…",
+  account_sync_done: "Прогресс синхронизирован",
+
+  // Lesson progress
+  lesson_mark_complete: "Пометить пройденным",
+  lesson_completed: "Урок пройден",
+  lesson_mark_incomplete: "Снять отметку",
+  lesson_completed_on: "Пройдено",
 };
 
 const id: Dict = {
@@ -213,6 +270,65 @@ const id: Dict = {
 
   lessons_ru_only_notice:
     "Penjelasan pelajaran masih dalam Bahasa Rusia (akan diterjemahkan).",
+
+  // Auth
+  nav_login: "Masuk",
+  nav_account: "Profil",
+  nav_logout: "Keluar",
+
+  auth_email: "Email",
+  auth_password: "Kata sandi",
+  auth_password_confirm: "Ulangi kata sandi",
+  auth_password_min: "Minimal 6 karakter",
+
+  auth_login_title: "Masuk",
+  auth_login_subtitle: "Masuk dengan email dan kata sandi agar progres tersimpan di semua perangkat.",
+  auth_login_submit: "Masuk",
+  auth_no_account: "Belum punya akun?",
+  auth_signup_link: "Daftar",
+
+  auth_signup_title: "Daftar",
+  auth_signup_subtitle: "Buat akun — progres akan tersinkron di semua perangkatmu.",
+  auth_signup_submit: "Buat akun",
+  auth_already_have_account: "Sudah punya akun?",
+  auth_login_link: "Masuk",
+
+  auth_forgot: "Lupa kata sandi?",
+  auth_forgot_title: "Pemulihan kata sandi",
+  auth_forgot_subtitle: "Masukkan email — kami akan mengirim tautan untuk mengatur ulang.",
+  auth_forgot_submit: "Kirim tautan",
+  auth_forgot_sent: "Jika email tersebut terdaftar, kami sudah mengirim tautan reset.",
+
+  auth_reset_title: "Kata sandi baru",
+  auth_reset_subtitle: "Buat kata sandi baru untuk akunmu.",
+  auth_reset_submit: "Simpan kata sandi",
+  auth_reset_done: "Kata sandi diperbarui. Silakan masuk.",
+
+  auth_signup_check_email:
+    "Periksa email — kami mengirim tautan konfirmasi. Setelah dikonfirmasi, kembali dan masuk.",
+  auth_password_mismatch: "Kata sandi tidak cocok",
+  auth_not_configured: "Autentikasi belum dikonfigurasi. Hubungi administrator.",
+
+  // Account
+  account_title: "Profil",
+  account_signed_in_as: "Anda masuk sebagai",
+  account_stats_words: "Kata dipelajari",
+  account_stats_lessons: "Pelajaran selesai",
+  account_stats_sets: "Koleksi aktif",
+  account_lesson_progress_title: "Progres pelajaran",
+  account_vocab_progress_title: "Progres kosakata",
+  account_continue: "Lanjutkan",
+  account_member_since: "Akun dibuat:",
+  account_local_only_warning:
+    "Saat ini progres hanya tersimpan di peramban ini. Daftar agar progres tersinkron antar perangkat.",
+  account_sync_pending: "Menyinkronkan progres lokal dengan cloud…",
+  account_sync_done: "Progres tersinkron",
+
+  // Lesson progress
+  lesson_mark_complete: "Tandai selesai",
+  lesson_completed: "Pelajaran selesai",
+  lesson_mark_incomplete: "Hapus tanda",
+  lesson_completed_on: "Selesai",
 };
 
 const dicts: Record<Locale, Dict> = { ru, id };

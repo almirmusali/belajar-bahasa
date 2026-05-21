@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { SiteHeader } from "@/components/site-header";
+import { LessonCheckmark } from "@/components/lesson-complete-button";
 import { lessons } from "@/lib/lessons";
 import { useLocale } from "@/lib/use-locale";
 import { t } from "@/lib/i18n";
@@ -59,11 +60,14 @@ export default function Home() {
                 <div className="text-xs font-medium text-muted-foreground">
                   {t(locale, "home_lesson")} {lesson.id}
                 </div>
-                {!lesson.available && (
-                  <span className="rounded-full bg-secondary px-2 py-0.5 text-[10px] uppercase tracking-wider text-muted-foreground">
-                    {t(locale, "home_soon")}
-                  </span>
-                )}
+                <div className="flex items-center gap-2">
+                  <LessonCheckmark lessonId={lesson.id} />
+                  {!lesson.available && (
+                    <span className="rounded-full bg-secondary px-2 py-0.5 text-[10px] uppercase tracking-wider text-muted-foreground">
+                      {t(locale, "home_soon")}
+                    </span>
+                  )}
+                </div>
               </div>
               <h2 className="mt-1 text-lg font-semibold leading-snug group-hover:text-primary">
                 {lesson.title}

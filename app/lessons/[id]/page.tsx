@@ -5,6 +5,7 @@ import {
   LessonHeader,
   LessonNav,
 } from "@/components/lesson-chrome";
+import { LessonCompleteButton } from "@/components/lesson-complete-button";
 import { getLesson, lessons } from "@/lib/lessons";
 import { Lesson01 } from "./lesson-01";
 
@@ -35,6 +36,8 @@ export default async function LessonPage({
         ) : (
           <LessonComingSoon />
         )}
+
+        {lesson.available && <LessonCompleteButton lessonId={lesson.id} />}
 
         <LessonNav prev={prev} next={next} />
       </main>
