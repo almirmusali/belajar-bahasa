@@ -15,8 +15,6 @@ import {
   SkipForward,
   Trash2,
   Undo2,
-  Volume2,
-  VolumeX,
 } from "lucide-react";
 import type { Word } from "@/lib/vocab";
 import { useLearned, useMounted } from "@/lib/use-learned";
@@ -24,6 +22,7 @@ import { cn } from "@/lib/utils";
 
 type Direction = "id-to-tr" | "tr-to-id";
 type SideKind = "id" | "tr";
+type Lang = "id" | "en" | "ru";
 
 const SPEED_PRESETS = [
   { label: "1.5 c", value: 1.5 },
@@ -31,6 +30,12 @@ const SPEED_PRESETS = [
   { label: "5 c", value: 5 },
   { label: "8 c", value: 8 },
 ];
+
+const LANG_META: Record<Lang, { label: string; locale: string }> = {
+  id: { label: "ID", locale: "id-ID" },
+  en: { label: "EN", locale: "en-US" },
+  ru: { label: "RU", locale: "ru-RU" },
+};
 
 export function FlashcardPlayer({
   words,
@@ -50,8 +55,14 @@ export function FlashcardPlayer({
   const [direction, setDirection] = useState<Direction>("id-to-tr");
   const [playing, setPlaying] = useState(false);
   const [speed, setSpeed] = useState(3);
-  const [audioOn, setAudioOn] = useState(true);
+  const [langs, setLangs] = useState<Lang[]>(["id", "en"]);
   const [hideLearned, setHideLearned] = useState(true);
+
+  const langSet = useMemo(() => new Set(langs), [langs]);
+  const toggleLang = (l: Lang) =>
+    setLangs((prev) =>
+      prev.includes(l) ? prev.filter((x) => x !== l) : [...prev, l],
+    );
 
   const effectiveOrder = useMemo(() => {
     if (!mounted || !hideLearned) return baseOrder;
@@ -77,30 +88,52 @@ export function FlashcardPlayer({
     return side === 0 ? "tr" : "id";
   }, [side, direction]);
 
-  const speak = useCallback(
-    (text: string, lang: "id-ID" | "en-US") => {
+  const speakChain = useCallback(
+    (items: Array<{ text: string; locale: string }>) => {
       if (typeof window === "undefined" || !("speechSynthesis" in window))
         return;
       window.speechSynthesis.cancel();
-      const u = new SpeechSynthesisUtterance(text);
-      u.lang = lang;
-      u.rate = 0.95;
+      if (items.length === 0) return;
       const voices = window.speechSynthesis.getVoices();
-      const langPrefix = lang.slice(0, 2);
-      const voice = voices.find(
-        (v) => v.lang === lang || v.lang.startsWith(langPrefix),
-      );
-      if (voice) u.voice = voice;
-      window.speechSynthesis.speak(u);
+      const queue = [...items];
+      const playNext = () => {
+        const item = queue.shift();
+        if (!item) return;
+        const u = new SpeechSynthesisUtterance(item.text);
+        u.lang = item.locale;
+        u.rate = 0.95;
+        const prefix = item.locale.slice(0, 2);
+        const voice = voices.find(
+          (v) => v.lang === item.locale || v.lang.startsWith(prefix),
+        );
+        if (voice) u.voice = voice;
+        u.onend = playNext;
+        window.speechSynthesis.speak(u);
+      };
+      playNext();
     },
     [],
   );
 
+  const speakOne = useCallback(
+    (text: string, lang: Lang) => speakChain([{ text, locale: LANG_META[lang].locale }]),
+    [speakChain],
+  );
+
   useEffect(() => {
-    if (!audioOn || !current) return;
-    if (sideKind === "id") speak(current.id, "id-ID");
-    else if (current.en) speak(current.en, "en-US");
-  }, [pos, side, direction, audioOn, sideKind, current, speak]);
+    if (langSet.size === 0 || !current) return;
+    const chain: Array<{ text: string; locale: string }> = [];
+    if (sideKind === "id") {
+      if (langSet.has("id"))
+        chain.push({ text: current.id, locale: LANG_META.id.locale });
+    } else {
+      if (langSet.has("en") && current.en)
+        chain.push({ text: current.en, locale: LANG_META.en.locale });
+      if (langSet.has("ru"))
+        chain.push({ text: current.ru, locale: LANG_META.ru.locale });
+    }
+    speakChain(chain);
+  }, [pos, side, direction, langSet, sideKind, current, speakChain]);
 
   const flip = useCallback(() => setSide((s) => (s === 0 ? 1 : 0)), []);
   const next = useCallback(() => {
@@ -351,19 +384,25 @@ export function FlashcardPlayer({
           <Shuffle className="h-4 w-4" />
         </IconButton>
         <IconButton
-          onClick={() => speak(current.id, "id-ID")}
+          onClick={() => speakOne(current.id, "id")}
           title="Произнести по-индонезийски"
         >
-          <Volume2 className="h-4 w-4" />
+          <span className="text-[10px] font-semibold">ID</span>
         </IconButton>
         {current.en && (
           <IconButton
-            onClick={() => speak(current.en!, "en-US")}
+            onClick={() => speakOne(current.en!, "en")}
             title="Произнести по-английски"
           >
             <span className="text-[10px] font-semibold">EN</span>
           </IconButton>
         )}
+        <IconButton
+          onClick={() => speakOne(current.ru, "ru")}
+          title="Произнести по-русски"
+        >
+          <span className="text-[10px] font-semibold">RU</span>
+        </IconButton>
       </div>
 
       <div className="grid gap-4 rounded-xl border bg-card p-4 sm:grid-cols-2 lg:grid-cols-4">
@@ -417,23 +456,47 @@ export function FlashcardPlayer({
         </Field>
 
         <Field label="Озвучка">
-          <button
-            type="button"
-            onClick={() => setAudioOn((a) => !a)}
-            className="inline-flex items-center gap-2 rounded-md border px-3 py-1.5 text-sm hover:bg-secondary"
-          >
-            {audioOn ? (
-              <>
-                <Volume2 className="h-4 w-4" /> Вкл
-              </>
-            ) : (
-              <>
-                <VolumeX className="h-4 w-4" /> Выкл
-              </>
-            )}
-          </button>
+          <div className="flex flex-wrap gap-1">
+            {(["id", "en", "ru"] as Lang[]).map((l) => {
+              const active = langSet.has(l);
+              return (
+                <button
+                  key={l}
+                  type="button"
+                  onClick={() => toggleLang(l)}
+                  className={cn(
+                    "rounded-md border px-2 py-1 text-xs font-semibold transition",
+                    active
+                      ? "border-primary bg-primary text-primary-foreground"
+                      : "hover:bg-secondary",
+                  )}
+                  title={LANG_META[l].locale}
+                >
+                  {LANG_META[l].label}
+                </button>
+              );
+            })}
+          </div>
+          <div className="flex flex-wrap gap-2 text-[11px]">
+            <button
+              type="button"
+              onClick={() => setLangs(["id", "en", "ru"])}
+              className="text-muted-foreground hover:text-foreground"
+            >
+              все
+            </button>
+            <button
+              type="button"
+              onClick={() => setLangs([])}
+              className="text-muted-foreground hover:text-foreground"
+            >
+              выкл
+            </button>
+          </div>
           <div className="text-xs text-muted-foreground">
-            ID на одной стороне, EN на другой
+            {langSet.size === 0
+              ? "Без авто-озвучки"
+              : `Авто: ${langs.map((l) => LANG_META[l].label).join(" · ")}`}
           </div>
         </Field>
 
