@@ -75,6 +75,19 @@ export function FlashcardPlayer({
   );
   const [hideLearned, setHideLearned] = useState(true);
   const [studyMode, setStudyMode] = useState(false);
+  const [isTouch, setIsTouch] = useState(false);
+  const [swipeDx, setSwipeDx] = useState(0);
+  const [swipeDy, setSwipeDy] = useState(0);
+
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+    setIsTouch(window.matchMedia("(hover: none)").matches);
+  }, []);
+
+  const pointerStart = useRef<{ x: number; y: number; id: number } | null>(
+    null,
+  );
+  const swipedRef = useRef(false);
 
   // При переключении языка интерфейса обновляем дефолтные чипы озвучки
   useEffect(() => {
@@ -236,6 +249,58 @@ export function FlashcardPlayer({
     unmark(slug, current.id);
   };
 
+  const SWIPE_THRESHOLD = 50;
+
+  const onCardPointerDown = (e: React.PointerEvent<HTMLButtonElement>) => {
+    if (e.pointerType !== "touch") return;
+    pointerStart.current = { x: e.clientX, y: e.clientY, id: e.pointerId };
+    swipedRef.current = false;
+    setSwipeDx(0);
+    setSwipeDy(0);
+  };
+
+  const onCardPointerMove = (e: React.PointerEvent<HTMLButtonElement>) => {
+    const s = pointerStart.current;
+    if (!s || e.pointerId !== s.id) return;
+    setSwipeDx(e.clientX - s.x);
+    setSwipeDy(e.clientY - s.y);
+  };
+
+  const onCardPointerUp = (e: React.PointerEvent<HTMLButtonElement>) => {
+    const s = pointerStart.current;
+    if (!s || e.pointerId !== s.id) return;
+    pointerStart.current = null;
+    const dx = e.clientX - s.x;
+    const dy = e.clientY - s.y;
+    setSwipeDx(0);
+    setSwipeDy(0);
+    const absX = Math.abs(dx);
+    const absY = Math.abs(dy);
+    if (absX < SWIPE_THRESHOLD && absY < SWIPE_THRESHOLD) return; // tap
+    swipedRef.current = true;
+    if (absX > absY) {
+      if (dx < 0) next();
+      else prev();
+    } else {
+      if (dy < 0) handleKnow();
+      else if (currentIsLearned) handleUnknow();
+    }
+  };
+
+  const onCardPointerCancel = () => {
+    pointerStart.current = null;
+    setSwipeDx(0);
+    setSwipeDy(0);
+  };
+
+  const handleCardClick = () => {
+    if (swipedRef.current) {
+      swipedRef.current = false;
+      return;
+    }
+    flip();
+  };
+
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
       if (e.target instanceof HTMLInputElement) return;
@@ -343,9 +408,21 @@ export function FlashcardPlayer({
 
       <button
         type="button"
-        onClick={flip}
+        onClick={handleCardClick}
+        onPointerDown={onCardPointerDown}
+        onPointerMove={onCardPointerMove}
+        onPointerUp={onCardPointerUp}
+        onPointerCancel={onCardPointerCancel}
+        style={{
+          transform:
+            swipeDx || swipeDy
+              ? `translate(${swipeDx * 0.4}px, ${swipeDy * 0.4}px) rotate(${swipeDx * 0.02}deg)`
+              : undefined,
+          transition: swipeDx || swipeDy ? "none" : "transform 200ms ease-out",
+          touchAction: "pan-y",
+        }}
         className={cn(
-          "group relative flex items-center justify-center overflow-hidden rounded-2xl border bg-card p-8 text-center shadow-sm transition hover:border-primary",
+          "group relative flex select-none items-center justify-center overflow-hidden rounded-2xl border bg-card p-8 text-center shadow-sm transition-colors hover:border-primary",
           studyMode
             ? "min-h-[60vh] sm:min-h-[70vh]"
             : "min-h-[260px] sm:min-h-[320px]",
@@ -644,7 +721,7 @@ export function FlashcardPlayer({
 
       {!studyMode && (
         <div className="text-center text-xs text-muted-foreground">
-          {t(locale, "fc_kbd_hint")}
+          {isTouch ? t(locale, "fc_swipe_hint") : t(locale, "fc_kbd_hint")}
         </div>
       )}
     </div>
