@@ -1,0 +1,123 @@
+{
+  "title": "Здоровье",
+  "title_id": "Kesehatan",
+  "description": "Здоровье и недомогание, лекарства, состояния",
+  "description_id": "Sehat dan sakit, obat, keadaan",
+  "words": [
+    {
+      "id": "sehat",
+      "ru": "здоровый",
+      "en": "healthy"
+    },
+    {
+      "id": "sakit",
+      "ru": "больной / больно",
+      "en": "sick / painful"
+    },
+    {
+      "id": "penyakit",
+      "ru": "болезнь",
+      "en": "disease"
+    },
+    {
+      "id": "demam",
+      "ru": "температура / жар",
+      "en": "fever"
+    },
+    {
+      "id": "pilek",
+      "ru": "насморк",
+      "en": "runny nose"
+    },
+    {
+      "id": "batuk",
+      "ru": "кашель",
+      "en": "cough"
+    },
+    {
+      "id": "flu",
+      "ru": "грипп",
+      "en": "flu"
+    },
+    {
+      "id": "pusing",
+      "ru": "кружится голова",
+      "en": "dizzy"
+    },
+    {
+      "id": "sakit kepala",
+      "ru": "головная боль",
+      "en": "headache"
+    },
+    {
+      "id": "sakit perut",
+      "ru": "боль в животе",
+      "en": "stomachache"
+    },
+    {
+      "id": "sakit gigi",
+      "ru": "зубная боль",
+      "en": "toothache"
+    },
+    {
+      "id": "luka",
+      "ru": "рана",
+      "en": "wound"
+    },
+    {
+      "id": "obat",
+      "ru": "лекарство",
+      "en": "medicine"
+    },
+    {
+      "id": "vitamin",
+      "ru": "витамин",
+      "en": "vitamin"
+    },
+    {
+      "id": "istirahat",
+      "ru": "отдых",
+      "en": "rest"
+    },
+    {
+      "id": "tidur",
+      "ru": "сон / спать",
+      "en": "sleep"
+    },
+    {
+      "id": "bangun",
+      "ru": "просыпаться / вставать",
+      "en": "wake up"
+    },
+    {
+      "id": "lelah",
+      "ru": "уставший",
+      "en": "tired"
+    },
+    {
+      "id": "capek",
+      "ru": "уставший (разг.)",
+      "en": "tired (informal)"
+    },
+    {
+      "id": "lapar",
+      "ru": "голодный",
+      "en": "hungry"
+    },
+    {
+      "id": "kenyang",
+      "ru": "сытый",
+      "en": "full"
+    },
+    {
+      "id": "haus",
+      "ru": "жаждущий",
+      "en": "thirsty"
+    },
+    {
+      "id": "mengantuk",
+      "ru": "сонный",
+      "en": "sleepy"
+    }
+  ]
+}

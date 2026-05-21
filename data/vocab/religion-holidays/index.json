@@ -1,0 +1,113 @@
+{
+  "title": "Религия и праздники",
+  "title_id": "Agama dan hari raya",
+  "description": "Религии, традиции, праздники",
+  "description_id": "Agama, tradisi, perayaan",
+  "words": [
+    {
+      "id": "agama",
+      "ru": "религия",
+      "en": "religion"
+    },
+    {
+      "id": "Tuhan",
+      "ru": "Бог",
+      "en": "God"
+    },
+    {
+      "id": "doa",
+      "ru": "молитва",
+      "en": "prayer"
+    },
+    {
+      "id": "berdoa",
+      "ru": "молиться",
+      "en": "to pray"
+    },
+    {
+      "id": "puasa",
+      "ru": "пост",
+      "en": "fasting"
+    },
+    {
+      "id": "Islam",
+      "ru": "ислам",
+      "en": "Islam"
+    },
+    {
+      "id": "Kristen",
+      "ru": "христианство",
+      "en": "Christianity"
+    },
+    {
+      "id": "Hindu",
+      "ru": "индуизм",
+      "en": "Hinduism"
+    },
+    {
+      "id": "Buddha",
+      "ru": "буддизм",
+      "en": "Buddhism"
+    },
+    {
+      "id": "selamat hari raya",
+      "ru": "с праздником",
+      "en": "happy holiday"
+    },
+    {
+      "id": "Lebaran",
+      "ru": "Лебаран (Ид аль-Фитр)",
+      "en": "Eid al-Fitr"
+    },
+    {
+      "id": "Natal",
+      "ru": "Рождество",
+      "en": "Christmas"
+    },
+    {
+      "id": "Tahun Baru",
+      "ru": "Новый год",
+      "en": "New Year"
+    },
+    {
+      "id": "hari libur",
+      "ru": "выходной / праздник",
+      "en": "holiday"
+    },
+    {
+      "id": "pesta",
+      "ru": "вечеринка",
+      "en": "party"
+    },
+    {
+      "id": "ulang tahun",
+      "ru": "день рождения",
+      "en": "birthday"
+    },
+    {
+      "id": "hadiah",
+      "ru": "подарок",
+      "en": "gift"
+    },
+    {
+      "id": "kado",
+      "ru": "подарок",
+      "en": "gift"
+    },
+    {
+      "id": "kue ulang tahun",
+      "ru": "праздничный торт",
+      "en": "birthday cake"
+    },
+    {
+      "id": "lilin",
+      "ru": "свеча",
+      "en": "candle"
+    },
+    {
+      "id": "balon",
+      "ru": "воздушный шар",
+      "en": "balloon"
+    }
+  ]
+}

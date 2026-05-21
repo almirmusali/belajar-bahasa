@@ -1,0 +1,118 @@
+{
+  "title": "Деньги",
+  "title_id": "Uang",
+  "description": "Валюты, банк, цены, бухгалтерия",
+  "description_id": "Mata uang, bank, harga, keuangan",
+  "words": [
+    {
+      "id": "uang",
+      "ru": "деньги",
+      "en": "money"
+    },
+    {
+      "id": "rupiah",
+      "ru": "рупия",
+      "en": "rupiah"
+    },
+    {
+      "id": "dolar",
+      "ru": "доллар",
+      "en": "dollar"
+    },
+    {
+      "id": "rubel",
+      "ru": "рубль",
+      "en": "ruble"
+    },
+    {
+      "id": "harga",
+      "ru": "цена",
+      "en": "price"
+    },
+    {
+      "id": "diskon",
+      "ru": "скидка",
+      "en": "discount"
+    },
+    {
+      "id": "gratis",
+      "ru": "бесплатно",
+      "en": "free"
+    },
+    {
+      "id": "mahal",
+      "ru": "дорогой",
+      "en": "expensive"
+    },
+    {
+      "id": "murah",
+      "ru": "дешёвый",
+      "en": "cheap"
+    },
+    {
+      "id": "kaya",
+      "ru": "богатый",
+      "en": "rich"
+    },
+    {
+      "id": "miskin",
+      "ru": "бедный",
+      "en": "poor"
+    },
+    {
+      "id": "untung",
+      "ru": "прибыль",
+      "en": "profit"
+    },
+    {
+      "id": "rugi",
+      "ru": "убыток",
+      "en": "loss"
+    },
+    {
+      "id": "kartu kredit",
+      "ru": "кредитка",
+      "en": "credit card"
+    },
+    {
+      "id": "rekening",
+      "ru": "счёт (в банке)",
+      "en": "account"
+    },
+    {
+      "id": "transfer",
+      "ru": "перевод",
+      "en": "transfer"
+    },
+    {
+      "id": "tunai",
+      "ru": "наличные",
+      "en": "cash"
+    },
+    {
+      "id": "kembalian",
+      "ru": "сдача",
+      "en": "change"
+    },
+    {
+      "id": "kuitansi",
+      "ru": "квитанция",
+      "en": "receipt"
+    },
+    {
+      "id": "pajak",
+      "ru": "налог",
+      "en": "tax"
+    },
+    {
+      "id": "hutang",
+      "ru": "долг",
+      "en": "debt"
+    },
+    {
+      "id": "pinjaman",
+      "ru": "займ",
+      "en": "loan"
+    }
+  ]
+}

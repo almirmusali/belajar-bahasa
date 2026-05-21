@@ -1,0 +1,148 @@
+{
+  "title": "Предлоги",
+  "title_id": "Kata depan",
+  "description": "В, на, к, от, с, для, без, между…",
+  "description_id": "Di, ke, dari, dengan, untuk, tanpa, antara…",
+  "words": [
+    {
+      "id": "di",
+      "ru": "в, на (место)",
+      "en": "in / at"
+    },
+    {
+      "id": "ke",
+      "ru": "в (направление)",
+      "en": "to"
+    },
+    {
+      "id": "dari",
+      "ru": "из, от",
+      "en": "from"
+    },
+    {
+      "id": "pada",
+      "ru": "на, у",
+      "en": "at / on"
+    },
+    {
+      "id": "dengan",
+      "ru": "с",
+      "en": "with"
+    },
+    {
+      "id": "untuk",
+      "ru": "для",
+      "en": "for"
+    },
+    {
+      "id": "buat",
+      "ru": "для (разг.)",
+      "en": "for (informal)"
+    },
+    {
+      "id": "oleh",
+      "ru": "кем (пассив)",
+      "en": "by"
+    },
+    {
+      "id": "tentang",
+      "ru": "о, про",
+      "en": "about"
+    },
+    {
+      "id": "tanpa",
+      "ru": "без",
+      "en": "without"
+    },
+    {
+      "id": "sampai",
+      "ru": "до",
+      "en": "until"
+    },
+    {
+      "id": "hingga",
+      "ru": "до (формально)",
+      "en": "until (formal)"
+    },
+    {
+      "id": "sejak",
+      "ru": "с (момента)",
+      "en": "since"
+    },
+    {
+      "id": "antara",
+      "ru": "между",
+      "en": "between"
+    },
+    {
+      "id": "melalui",
+      "ru": "через",
+      "en": "through"
+    },
+    {
+      "id": "terhadap",
+      "ru": "по отношению к",
+      "en": "toward"
+    },
+    {
+      "id": "kepada",
+      "ru": "кому (формально)",
+      "en": "to (formal)"
+    },
+    {
+      "id": "atas",
+      "ru": "наверху / над",
+      "en": "above"
+    },
+    {
+      "id": "bawah",
+      "ru": "внизу / под",
+      "en": "below"
+    },
+    {
+      "id": "dalam",
+      "ru": "в / внутри / глубокий",
+      "en": "in / inside / deep"
+    },
+    {
+      "id": "luar",
+      "ru": "снаружи",
+      "en": "outside"
+    },
+    {
+      "id": "depan",
+      "ru": "впереди",
+      "en": "front"
+    },
+    {
+      "id": "belakang",
+      "ru": "позади",
+      "en": "back"
+    },
+    {
+      "id": "samping",
+      "ru": "сбоку",
+      "en": "side"
+    },
+    {
+      "id": "tengah",
+      "ru": "середина",
+      "en": "middle"
+    },
+    {
+      "id": "sekitar",
+      "ru": "вокруг / около",
+      "en": "around"
+    },
+    {
+      "id": "dekat",
+      "ru": "близко",
+      "en": "near"
+    },
+    {
+      "id": "jauh",
+      "ru": "далеко",
+      "en": "far"
+    }
+  ]
+}

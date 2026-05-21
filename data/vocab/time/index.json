@@ -1,0 +1,268 @@
+{
+  "title": "Время",
+  "title_id": "Waktu",
+  "description": "Час, минута, день, неделя, месяц, год, утром / вечером, частота",
+  "description_id": "Jam, menit, hari, minggu, bulan, tahun, frekuensi",
+  "words": [
+    {
+      "id": "waktu",
+      "ru": "время",
+      "en": "time"
+    },
+    {
+      "id": "jam",
+      "ru": "час / часы",
+      "en": "hour / clock"
+    },
+    {
+      "id": "menit",
+      "ru": "минута",
+      "en": "minute"
+    },
+    {
+      "id": "detik",
+      "ru": "секунда",
+      "en": "second"
+    },
+    {
+      "id": "hari",
+      "ru": "день",
+      "en": "day"
+    },
+    {
+      "id": "minggu",
+      "ru": "неделя",
+      "en": "week"
+    },
+    {
+      "id": "bulan",
+      "ru": "месяц / луна",
+      "en": "month / moon"
+    },
+    {
+      "id": "tahun",
+      "ru": "год",
+      "en": "year"
+    },
+    {
+      "id": "abad",
+      "ru": "век",
+      "en": "century"
+    },
+    {
+      "id": "zaman",
+      "ru": "эпоха",
+      "en": "era"
+    },
+    {
+      "id": "masa",
+      "ru": "период",
+      "en": "period"
+    },
+    {
+      "id": "sekarang",
+      "ru": "сейчас",
+      "en": "now"
+    },
+    {
+      "id": "nanti",
+      "ru": "потом",
+      "en": "later"
+    },
+    {
+      "id": "tadi",
+      "ru": "только что",
+      "en": "just now"
+    },
+    {
+      "id": "dulu",
+      "ru": "раньше",
+      "en": "before / used to"
+    },
+    {
+      "id": "dahulu",
+      "ru": "давно",
+      "en": "long ago"
+    },
+    {
+      "id": "kemarin",
+      "ru": "вчера",
+      "en": "yesterday"
+    },
+    {
+      "id": "hari ini",
+      "ru": "сегодня",
+      "en": "today"
+    },
+    {
+      "id": "besok",
+      "ru": "завтра",
+      "en": "tomorrow"
+    },
+    {
+      "id": "lusa",
+      "ru": "послезавтра",
+      "en": "day after tomorrow"
+    },
+    {
+      "id": "pagi",
+      "ru": "утро",
+      "en": "morning"
+    },
+    {
+      "id": "siang",
+      "ru": "день (полдень)",
+      "en": "noon / midday"
+    },
+    {
+      "id": "sore",
+      "ru": "вечер",
+      "en": "afternoon / evening"
+    },
+    {
+      "id": "malam",
+      "ru": "ночь",
+      "en": "night"
+    },
+    {
+      "id": "subuh",
+      "ru": "рассвет",
+      "en": "dawn"
+    },
+    {
+      "id": "senja",
+      "ru": "закат",
+      "en": "dusk"
+    },
+    {
+      "id": "tengah hari",
+      "ru": "полдень",
+      "en": "midday"
+    },
+    {
+      "id": "tengah malam",
+      "ru": "полночь",
+      "en": "midnight"
+    },
+    {
+      "id": "saat ini",
+      "ru": "в данный момент",
+      "en": "at this moment"
+    },
+    {
+      "id": "masa depan",
+      "ru": "будущее",
+      "en": "future"
+    },
+    {
+      "id": "masa lalu",
+      "ru": "прошлое",
+      "en": "past"
+    },
+    {
+      "id": "minggu lalu",
+      "ru": "на прошлой неделе",
+      "en": "last week"
+    },
+    {
+      "id": "minggu depan",
+      "ru": "на следующей неделе",
+      "en": "next week"
+    },
+    {
+      "id": "bulan lalu",
+      "ru": "в прошлом месяце",
+      "en": "last month"
+    },
+    {
+      "id": "bulan depan",
+      "ru": "в следующем месяце",
+      "en": "next month"
+    },
+    {
+      "id": "tahun lalu",
+      "ru": "в прошлом году",
+      "en": "last year"
+    },
+    {
+      "id": "tahun depan",
+      "ru": "в следующем году",
+      "en": "next year"
+    },
+    {
+      "id": "baru-baru ini",
+      "ru": "недавно",
+      "en": "recently"
+    },
+    {
+      "id": "akhir-akhir ini",
+      "ru": "в последнее время",
+      "en": "lately"
+    },
+    {
+      "id": "sebentar",
+      "ru": "минутку",
+      "en": "a moment"
+    },
+    {
+      "id": "sebentar lagi",
+      "ru": "скоро",
+      "en": "soon"
+    },
+    {
+      "id": "segera",
+      "ru": "сразу",
+      "en": "immediately"
+    },
+    {
+      "id": "buru-buru",
+      "ru": "в спешке",
+      "en": "in a hurry"
+    },
+    {
+      "id": "awal",
+      "ru": "начало",
+      "en": "beginning"
+    },
+    {
+      "id": "akhir",
+      "ru": "конец",
+      "en": "end"
+    },
+    {
+      "id": "pertengahan",
+      "ru": "середина",
+      "en": "middle"
+    },
+    {
+      "id": "sering",
+      "ru": "часто",
+      "en": "often"
+    },
+    {
+      "id": "jarang",
+      "ru": "редко",
+      "en": "rarely"
+    },
+    {
+      "id": "kadang-kadang",
+      "ru": "иногда",
+      "en": "sometimes"
+    },
+    {
+      "id": "selalu",
+      "ru": "всегда",
+      "en": "always"
+    },
+    {
+      "id": "tidak pernah",
+      "ru": "никогда",
+      "en": "never"
+    },
+    {
+      "id": "biasanya",
+      "ru": "обычно",
+      "en": "usually"
+    }
+  ]
+}

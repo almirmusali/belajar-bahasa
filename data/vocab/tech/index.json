@@ -1,0 +1,108 @@
+{
+  "title": "Технологии и медиа",
+  "title_id": "Teknologi dan media",
+  "description": "Интернет, гаджеты, контент",
+  "description_id": "Internet, gawai, konten",
+  "words": [
+    {
+      "id": "internet",
+      "ru": "интернет",
+      "en": "internet"
+    },
+    {
+      "id": "wifi",
+      "ru": "вайфай",
+      "en": "wifi"
+    },
+    {
+      "id": "komputer",
+      "ru": "компьютер",
+      "en": "computer"
+    },
+    {
+      "id": "laptop",
+      "ru": "ноутбук",
+      "en": "laptop"
+    },
+    {
+      "id": "ponsel",
+      "ru": "мобильник",
+      "en": "cell phone"
+    },
+    {
+      "id": "hp",
+      "ru": "телефон (разг.)",
+      "en": "phone"
+    },
+    {
+      "id": "telepon",
+      "ru": "телефон",
+      "en": "phone"
+    },
+    {
+      "id": "email",
+      "ru": "электронная почта",
+      "en": "email"
+    },
+    {
+      "id": "aplikasi",
+      "ru": "приложение",
+      "en": "app"
+    },
+    {
+      "id": "situs",
+      "ru": "сайт",
+      "en": "website"
+    },
+    {
+      "id": "media sosial",
+      "ru": "соцсети",
+      "en": "social media"
+    },
+    {
+      "id": "foto",
+      "ru": "фото",
+      "en": "photo"
+    },
+    {
+      "id": "gambar",
+      "ru": "картинка",
+      "en": "picture"
+    },
+    {
+      "id": "video",
+      "ru": "видео",
+      "en": "video"
+    },
+    {
+      "id": "film",
+      "ru": "фильм",
+      "en": "movie"
+    },
+    {
+      "id": "lagu",
+      "ru": "песня",
+      "en": "song"
+    },
+    {
+      "id": "musik",
+      "ru": "музыка",
+      "en": "music"
+    },
+    {
+      "id": "berita",
+      "ru": "новости",
+      "en": "news"
+    },
+    {
+      "id": "informasi",
+      "ru": "информация",
+      "en": "information"
+    },
+    {
+      "id": "data",
+      "ru": "данные",
+      "en": "data"
+    }
+  ]
+}

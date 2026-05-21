@@ -1,0 +1,53 @@
+{
+  "title": "Указательные слова",
+  "title_id": "Kata penunjuk",
+  "description": "Это / то, здесь / там, вот так",
+  "description_id": "Ini / itu, sini / sana, begini / begitu",
+  "words": [
+    {
+      "id": "ini",
+      "ru": "это",
+      "en": "this"
+    },
+    {
+      "id": "itu",
+      "ru": "то",
+      "en": "that"
+    },
+    {
+      "id": "sini",
+      "ru": "здесь",
+      "en": "here"
+    },
+    {
+      "id": "sana",
+      "ru": "там",
+      "en": "there"
+    },
+    {
+      "id": "situ",
+      "ru": "там / у тебя",
+      "en": "there (near you)"
+    },
+    {
+      "id": "begini",
+      "ru": "вот так",
+      "en": "like this"
+    },
+    {
+      "id": "begitu",
+      "ru": "так",
+      "en": "like that"
+    },
+    {
+      "id": "seperti ini",
+      "ru": "как это",
+      "en": "like this"
+    },
+    {
+      "id": "seperti itu",
+      "ru": "как то",
+      "en": "like that"
+    }
+  ]
+}

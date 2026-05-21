@@ -1,0 +1,163 @@
+{
+  "title": "Животные",
+  "title_id": "Hewan",
+  "description": "Домашние, дикие, морские, насекомые",
+  "description_id": "Hewan peliharaan, liar, laut, serangga",
+  "words": [
+    {
+      "id": "binatang",
+      "ru": "животное",
+      "en": "animal"
+    },
+    {
+      "id": "hewan",
+      "ru": "животное",
+      "en": "animal"
+    },
+    {
+      "id": "anjing",
+      "ru": "собака",
+      "en": "dog"
+    },
+    {
+      "id": "kucing",
+      "ru": "кошка",
+      "en": "cat"
+    },
+    {
+      "id": "kerbau",
+      "ru": "буйвол",
+      "en": "buffalo"
+    },
+    {
+      "id": "kuda",
+      "ru": "лошадь",
+      "en": "horse"
+    },
+    {
+      "id": "bebek",
+      "ru": "утка",
+      "en": "duck"
+    },
+    {
+      "id": "burung",
+      "ru": "птица",
+      "en": "bird"
+    },
+    {
+      "id": "ular",
+      "ru": "змея",
+      "en": "snake"
+    },
+    {
+      "id": "katak",
+      "ru": "лягушка",
+      "en": "frog"
+    },
+    {
+      "id": "kura-kura",
+      "ru": "черепаха",
+      "en": "turtle"
+    },
+    {
+      "id": "monyet",
+      "ru": "обезьяна",
+      "en": "monkey"
+    },
+    {
+      "id": "tikus",
+      "ru": "мышь / крыса",
+      "en": "mouse / rat"
+    },
+    {
+      "id": "kelinci",
+      "ru": "кролик",
+      "en": "rabbit"
+    },
+    {
+      "id": "harimau",
+      "ru": "тигр",
+      "en": "tiger"
+    },
+    {
+      "id": "gajah",
+      "ru": "слон",
+      "en": "elephant"
+    },
+    {
+      "id": "singa",
+      "ru": "лев",
+      "en": "lion"
+    },
+    {
+      "id": "beruang",
+      "ru": "медведь",
+      "en": "bear"
+    },
+    {
+      "id": "serigala",
+      "ru": "волк",
+      "en": "wolf"
+    },
+    {
+      "id": "rusa",
+      "ru": "олень",
+      "en": "deer"
+    },
+    {
+      "id": "buaya",
+      "ru": "крокодил",
+      "en": "crocodile"
+    },
+    {
+      "id": "hiu",
+      "ru": "акула",
+      "en": "shark"
+    },
+    {
+      "id": "lumba-lumba",
+      "ru": "дельфин",
+      "en": "dolphin"
+    },
+    {
+      "id": "paus",
+      "ru": "кит",
+      "en": "whale"
+    },
+    {
+      "id": "kupu-kupu",
+      "ru": "бабочка",
+      "en": "butterfly"
+    },
+    {
+      "id": "lebah",
+      "ru": "пчела",
+      "en": "bee"
+    },
+    {
+      "id": "semut",
+      "ru": "муравей",
+      "en": "ant"
+    },
+    {
+      "id": "nyamuk",
+      "ru": "комар",
+      "en": "mosquito"
+    },
+    {
+      "id": "lalat",
+      "ru": "муха",
+      "en": "fly"
+    },
+    {
+      "id": "laba-laba",
+      "ru": "паук",
+      "en": "spider"
+    },
+    {
+      "id": "cecak",
+      "ru": "геккон",
+      "en": "gecko"
+    }
+  ]
+}

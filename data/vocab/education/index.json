@@ -1,0 +1,138 @@
+{
+  "title": "Учёба и язык",
+  "title_id": "Pendidikan dan bahasa",
+  "description": "Школа, учебники, экзамены, лингвистика",
+  "description_id": "Sekolah, buku, ujian, bahasa",
+  "words": [
+    {
+      "id": "pendidikan",
+      "ru": "образование",
+      "en": "education"
+    },
+    {
+      "id": "pelajaran",
+      "ru": "урок / предмет",
+      "en": "lesson"
+    },
+    {
+      "id": "kelas",
+      "ru": "класс",
+      "en": "class"
+    },
+    {
+      "id": "buku",
+      "ru": "книга",
+      "en": "book"
+    },
+    {
+      "id": "buku tulis",
+      "ru": "тетрадь",
+      "en": "notebook"
+    },
+    {
+      "id": "pulpen",
+      "ru": "ручка",
+      "en": "pen"
+    },
+    {
+      "id": "pensil",
+      "ru": "карандаш",
+      "en": "pencil"
+    },
+    {
+      "id": "penghapus",
+      "ru": "ластик",
+      "en": "eraser"
+    },
+    {
+      "id": "penggaris",
+      "ru": "линейка",
+      "en": "ruler"
+    },
+    {
+      "id": "papan tulis",
+      "ru": "доска",
+      "en": "blackboard"
+    },
+    {
+      "id": "ujian",
+      "ru": "экзамен",
+      "en": "exam"
+    },
+    {
+      "id": "tes",
+      "ru": "тест",
+      "en": "test"
+    },
+    {
+      "id": "soal",
+      "ru": "вопрос (задача)",
+      "en": "question"
+    },
+    {
+      "id": "jawaban",
+      "ru": "ответ",
+      "en": "answer"
+    },
+    {
+      "id": "nilai",
+      "ru": "оценка / ценность",
+      "en": "grade / value"
+    },
+    {
+      "id": "ijazah",
+      "ru": "диплом",
+      "en": "diploma"
+    },
+    {
+      "id": "gelar",
+      "ru": "учёная степень",
+      "en": "degree"
+    },
+    {
+      "id": "beasiswa",
+      "ru": "стипендия",
+      "en": "scholarship"
+    },
+    {
+      "id": "tugas rumah",
+      "ru": "домашнее задание",
+      "en": "homework"
+    },
+    {
+      "id": "PR",
+      "ru": "ДЗ",
+      "en": "homework"
+    },
+    {
+      "id": "kamus",
+      "ru": "словарь",
+      "en": "dictionary"
+    },
+    {
+      "id": "bahasa",
+      "ru": "язык",
+      "en": "language"
+    },
+    {
+      "id": "kata",
+      "ru": "слово",
+      "en": "word"
+    },
+    {
+      "id": "kalimat",
+      "ru": "предложение",
+      "en": "sentence"
+    },
+    {
+      "id": "huruf",
+      "ru": "буква",
+      "en": "letter"
+    },
+    {
+      "id": "angka",
+      "ru": "цифра",
+      "en": "number"
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "title": "Одежда",
+  "title_id": "Pakaian",
+  "description": "Базовый гардероб, обувь, аксессуары",
+  "description_id": "Pakaian dasar, alas kaki, aksesori",
+  "words": [
+    {
+      "id": "pakaian",
+      "ru": "одежда",
+      "en": "clothing"
+    },
+    {
+      "id": "baju",
+      "ru": "одежда / рубашка",
+      "en": "shirt / clothing"
+    },
+    {
+      "id": "kemeja",
+      "ru": "рубашка",
+      "en": "shirt"
+    },
+    {
+      "id": "kaos",
+      "ru": "футболка",
+      "en": "t-shirt"
+    },
+    {
+      "id": "celana",
+      "ru": "штаны",
+      "en": "pants"
+    },
+    {
+      "id": "celana pendek",
+      "ru": "шорты",
+      "en": "shorts"
+    },
+    {
+      "id": "celana panjang",
+      "ru": "брюки",
+      "en": "long pants"
+    },
+    {
+      "id": "rok",
+      "ru": "юбка",
+      "en": "skirt"
+    },
+    {
+      "id": "gaun",
+      "ru": "платье",
+      "en": "dress"
+    },
+    {
+      "id": "jaket",
+      "ru": "куртка",
+      "en": "jacket"
+    },
+    {
+      "id": "mantel",
+      "ru": "пальто",
+      "en": "coat"
+    },
+    {
+      "id": "jas",
+      "ru": "пиджак / костюм",
+      "en": "suit / jacket"
+    },
+    {
+      "id": "dasi",
+      "ru": "галстук",
+      "en": "tie"
+    },
+    {
+      "id": "topi",
+      "ru": "шапка",
+      "en": "hat"
+    },
+    {
+      "id": "sepatu",
+      "ru": "обувь",
+      "en": "shoes"
+    },
+    {
+      "id": "sandal",
+      "ru": "сандалии",
+      "en": "sandals"
+    },
+    {
+      "id": "kaus kaki",
+      "ru": "носки",
+      "en": "socks"
+    },
+    {
+      "id": "sarung tangan",
+      "ru": "перчатки",
+      "en": "gloves"
+    },
+    {
+      "id": "syal",
+      "ru": "шарф",
+      "en": "scarf"
+    },
+    {
+      "id": "ikat pinggang",
+      "ru": "ремень",
+      "en": "belt"
+    },
+    {
+      "id": "jam tangan",
+      "ru": "наручные часы",
+      "en": "wristwatch"
+    },
+    {
+      "id": "kacamata",
+      "ru": "очки",
+      "en": "glasses"
+    },
+    {
+      "id": "tas",
+      "ru": "сумка",
+      "en": "bag"
+    },
+    {
+      "id": "ransel",
+      "ru": "рюкзак",
+      "en": "backpack"
+    },
+    {
+      "id": "dompet",
+      "ru": "кошелёк",
+      "en": "wallet"
+    },
+    {
+      "id": "cincin",
+      "ru": "кольцо",
+      "en": "ring"
+    },
+    {
+      "id": "gelang",
+      "ru": "браслет",
+      "en": "bracelet"
+    },
+    {
+      "id": "kalung",
+      "ru": "ожерелье",
+      "en": "necklace"
+    },
+    {
+      "id": "anting",
+      "ru": "серёжки",
+      "en": "earrings"
+    },
+    {
+      "id": "ukuran",
+      "ru": "размер",
+      "en": "size"
+    }
+  ]
+}

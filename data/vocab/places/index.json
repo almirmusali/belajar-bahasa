@@ -1,0 +1,273 @@
+{
+  "title": "Город и места",
+  "title_id": "Kota dan tempat",
+  "description": "Город, инфраструктура, заведения, страны",
+  "description_id": "Kota, infrastruktur, fasilitas, negara",
+  "words": [
+    {
+      "id": "kota",
+      "ru": "город",
+      "en": "city"
+    },
+    {
+      "id": "desa",
+      "ru": "деревня",
+      "en": "village"
+    },
+    {
+      "id": "kampung",
+      "ru": "село",
+      "en": "hamlet"
+    },
+    {
+      "id": "daerah",
+      "ru": "район",
+      "en": "district"
+    },
+    {
+      "id": "wilayah",
+      "ru": "регион",
+      "en": "region"
+    },
+    {
+      "id": "negara",
+      "ru": "страна",
+      "en": "country"
+    },
+    {
+      "id": "ibu kota",
+      "ru": "столица",
+      "en": "capital"
+    },
+    {
+      "id": "dunia",
+      "ru": "мир",
+      "en": "world"
+    },
+    {
+      "id": "Indonesia",
+      "ru": "Индонезия",
+      "en": "Indonesia"
+    },
+    {
+      "id": "Rusia",
+      "ru": "Россия",
+      "en": "Russia"
+    },
+    {
+      "id": "Jakarta",
+      "ru": "Джакарта",
+      "en": "Jakarta"
+    },
+    {
+      "id": "Bali",
+      "ru": "Бали",
+      "en": "Bali"
+    },
+    {
+      "id": "Moskow",
+      "ru": "Москва",
+      "en": "Moscow"
+    },
+    {
+      "id": "tempat",
+      "ru": "место",
+      "en": "place"
+    },
+    {
+      "id": "lokasi",
+      "ru": "локация",
+      "en": "location"
+    },
+    {
+      "id": "jalan",
+      "ru": "дорога / улица",
+      "en": "road / street"
+    },
+    {
+      "id": "gang",
+      "ru": "переулок",
+      "en": "alley"
+    },
+    {
+      "id": "simpang",
+      "ru": "перекрёсток",
+      "en": "intersection"
+    },
+    {
+      "id": "lampu lalu lintas",
+      "ru": "светофор",
+      "en": "traffic light"
+    },
+    {
+      "id": "jembatan",
+      "ru": "мост",
+      "en": "bridge"
+    },
+    {
+      "id": "taman",
+      "ru": "парк / сад",
+      "en": "park"
+    },
+    {
+      "id": "lapangan",
+      "ru": "площадь / поле",
+      "en": "field / square"
+    },
+    {
+      "id": "pasar",
+      "ru": "рынок",
+      "en": "market"
+    },
+    {
+      "id": "toko",
+      "ru": "магазин",
+      "en": "shop"
+    },
+    {
+      "id": "warung",
+      "ru": "ларёк / закусочная",
+      "en": "stall"
+    },
+    {
+      "id": "supermarket",
+      "ru": "супермаркет",
+      "en": "supermarket"
+    },
+    {
+      "id": "mal",
+      "ru": "торговый центр",
+      "en": "mall"
+    },
+    {
+      "id": "kantor",
+      "ru": "офис",
+      "en": "office"
+    },
+    {
+      "id": "sekolah",
+      "ru": "школа",
+      "en": "school"
+    },
+    {
+      "id": "universitas",
+      "ru": "университет",
+      "en": "university"
+    },
+    {
+      "id": "rumah sakit",
+      "ru": "больница",
+      "en": "hospital"
+    },
+    {
+      "id": "klinik",
+      "ru": "клиника",
+      "en": "clinic"
+    },
+    {
+      "id": "apotek",
+      "ru": "аптека",
+      "en": "pharmacy"
+    },
+    {
+      "id": "bank",
+      "ru": "банк",
+      "en": "bank"
+    },
+    {
+      "id": "kantor pos",
+      "ru": "почта",
+      "en": "post office"
+    },
+    {
+      "id": "stasiun",
+      "ru": "станция",
+      "en": "station"
+    },
+    {
+      "id": "bandara",
+      "ru": "аэропорт",
+      "en": "airport"
+    },
+    {
+      "id": "pelabuhan",
+      "ru": "порт",
+      "en": "port"
+    },
+    {
+      "id": "terminal",
+      "ru": "автовокзал",
+      "en": "terminal"
+    },
+    {
+      "id": "halte",
+      "ru": "остановка",
+      "en": "bus stop"
+    },
+    {
+      "id": "restoran",
+      "ru": "ресторан",
+      "en": "restaurant"
+    },
+    {
+      "id": "kafe",
+      "ru": "кафе",
+      "en": "cafe"
+    },
+    {
+      "id": "hotel",
+      "ru": "отель",
+      "en": "hotel"
+    },
+    {
+      "id": "museum",
+      "ru": "музей",
+      "en": "museum"
+    },
+    {
+      "id": "perpustakaan",
+      "ru": "библиотека",
+      "en": "library"
+    },
+    {
+      "id": "gereja",
+      "ru": "церковь",
+      "en": "church"
+    },
+    {
+      "id": "masjid",
+      "ru": "мечеть",
+      "en": "mosque"
+    },
+    {
+      "id": "kuil",
+      "ru": "храм",
+      "en": "temple"
+    },
+    {
+      "id": "pura",
+      "ru": "пура (балийский храм)",
+      "en": "Balinese temple"
+    },
+    {
+      "id": "kuburan",
+      "ru": "кладбище",
+      "en": "cemetery"
+    },
+    {
+      "id": "polisi",
+      "ru": "полиция / полицейский",
+      "en": "police"
+    },
+    {
+      "id": "kantor polisi",
+      "ru": "полицейский участок",
+      "en": "police station"
+    },
+    {
+      "id": "pemadam kebakaran",
+      "ru": "пожарная служба",
+      "en": "fire department"
+    }
+  ]
+}

@@ -1,0 +1,278 @@
+{
+  "title": "Дом и быт",
+  "title_id": "Rumah dan perlengkapan",
+  "description": "Комнаты, мебель, кухонная утварь, бытовые предметы",
+  "description_id": "Ruangan, perabot, peralatan dapur, barang sehari-hari",
+  "words": [
+    {
+      "id": "rumah",
+      "ru": "дом",
+      "en": "house"
+    },
+    {
+      "id": "kamar",
+      "ru": "комната",
+      "en": "room"
+    },
+    {
+      "id": "ruang tamu",
+      "ru": "гостиная",
+      "en": "living room"
+    },
+    {
+      "id": "kamar tidur",
+      "ru": "спальня",
+      "en": "bedroom"
+    },
+    {
+      "id": "kamar mandi",
+      "ru": "ванная",
+      "en": "bathroom"
+    },
+    {
+      "id": "dapur",
+      "ru": "кухня",
+      "en": "kitchen"
+    },
+    {
+      "id": "halaman",
+      "ru": "двор",
+      "en": "yard"
+    },
+    {
+      "id": "garasi",
+      "ru": "гараж",
+      "en": "garage"
+    },
+    {
+      "id": "balkon",
+      "ru": "балкон",
+      "en": "balcony"
+    },
+    {
+      "id": "atap",
+      "ru": "крыша",
+      "en": "roof"
+    },
+    {
+      "id": "lantai",
+      "ru": "пол / этаж",
+      "en": "floor"
+    },
+    {
+      "id": "dinding",
+      "ru": "стена",
+      "en": "wall"
+    },
+    {
+      "id": "pintu",
+      "ru": "дверь",
+      "en": "door"
+    },
+    {
+      "id": "jendela",
+      "ru": "окно",
+      "en": "window"
+    },
+    {
+      "id": "tangga",
+      "ru": "лестница",
+      "en": "stairs"
+    },
+    {
+      "id": "pagar",
+      "ru": "забор",
+      "en": "fence"
+    },
+    {
+      "id": "kunci",
+      "ru": "ключ",
+      "en": "key"
+    },
+    {
+      "id": "meja",
+      "ru": "стол",
+      "en": "table"
+    },
+    {
+      "id": "kursi",
+      "ru": "стул",
+      "en": "chair"
+    },
+    {
+      "id": "sofa",
+      "ru": "диван",
+      "en": "sofa"
+    },
+    {
+      "id": "tempat tidur",
+      "ru": "кровать",
+      "en": "bed"
+    },
+    {
+      "id": "kasur",
+      "ru": "матрас",
+      "en": "mattress"
+    },
+    {
+      "id": "bantal",
+      "ru": "подушка",
+      "en": "pillow"
+    },
+    {
+      "id": "selimut",
+      "ru": "одеяло",
+      "en": "blanket"
+    },
+    {
+      "id": "lemari",
+      "ru": "шкаф",
+      "en": "cupboard"
+    },
+    {
+      "id": "rak",
+      "ru": "полка",
+      "en": "shelf"
+    },
+    {
+      "id": "laci",
+      "ru": "ящик",
+      "en": "drawer"
+    },
+    {
+      "id": "lampu",
+      "ru": "лампа",
+      "en": "lamp"
+    },
+    {
+      "id": "cermin",
+      "ru": "зеркало",
+      "en": "mirror"
+    },
+    {
+      "id": "jam dinding",
+      "ru": "настенные часы",
+      "en": "wall clock"
+    },
+    {
+      "id": "kipas angin",
+      "ru": "вентилятор",
+      "en": "fan"
+    },
+    {
+      "id": "AC",
+      "ru": "кондиционер",
+      "en": "air conditioner"
+    },
+    {
+      "id": "TV",
+      "ru": "телевизор",
+      "en": "TV"
+    },
+    {
+      "id": "kulkas",
+      "ru": "холодильник",
+      "en": "fridge"
+    },
+    {
+      "id": "kompor",
+      "ru": "плита",
+      "en": "stove"
+    },
+    {
+      "id": "oven",
+      "ru": "духовка",
+      "en": "oven"
+    },
+    {
+      "id": "mesin cuci",
+      "ru": "стиральная машина",
+      "en": "washing machine"
+    },
+    {
+      "id": "panci",
+      "ru": "кастрюля",
+      "en": "pot"
+    },
+    {
+      "id": "wajan",
+      "ru": "сковорода",
+      "en": "frying pan"
+    },
+    {
+      "id": "piring",
+      "ru": "тарелка",
+      "en": "plate"
+    },
+    {
+      "id": "mangkuk",
+      "ru": "миска",
+      "en": "bowl"
+    },
+    {
+      "id": "gelas",
+      "ru": "стакан",
+      "en": "glass"
+    },
+    {
+      "id": "cangkir",
+      "ru": "чашка",
+      "en": "cup"
+    },
+    {
+      "id": "sendok",
+      "ru": "ложка",
+      "en": "spoon"
+    },
+    {
+      "id": "garpu",
+      "ru": "вилка",
+      "en": "fork"
+    },
+    {
+      "id": "pisau",
+      "ru": "нож",
+      "en": "knife"
+    },
+    {
+      "id": "sumpit",
+      "ru": "палочки",
+      "en": "chopsticks"
+    },
+    {
+      "id": "tisu",
+      "ru": "салфетка",
+      "en": "tissue"
+    },
+    {
+      "id": "sabun",
+      "ru": "мыло",
+      "en": "soap"
+    },
+    {
+      "id": "sampo",
+      "ru": "шампунь",
+      "en": "shampoo"
+    },
+    {
+      "id": "handuk",
+      "ru": "полотенце",
+      "en": "towel"
+    },
+    {
+      "id": "sikat gigi",
+      "ru": "зубная щётка",
+      "en": "toothbrush"
+    },
+    {
+      "id": "pasta gigi",
+      "ru": "зубная паста",
+      "en": "toothpaste"
+    },
+    {
+      "id": "sisir",
+      "ru": "расчёска",
+      "en": "comb"
+    }
+  ]
+}

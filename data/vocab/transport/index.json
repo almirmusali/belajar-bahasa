@@ -1,0 +1,148 @@
+{
+  "title": "Транспорт",
+  "title_id": "Transportasi",
+  "description": "Автомобиль, общественный транспорт, путешествия",
+  "description_id": "Mobil, transportasi umum, perjalanan",
+  "words": [
+    {
+      "id": "kendaraan",
+      "ru": "транспортное средство",
+      "en": "vehicle"
+    },
+    {
+      "id": "mobil",
+      "ru": "машина",
+      "en": "car"
+    },
+    {
+      "id": "motor",
+      "ru": "мотоцикл",
+      "en": "motorbike"
+    },
+    {
+      "id": "sepeda",
+      "ru": "велосипед",
+      "en": "bicycle"
+    },
+    {
+      "id": "bus",
+      "ru": "автобус",
+      "en": "bus"
+    },
+    {
+      "id": "kereta api",
+      "ru": "поезд",
+      "en": "train"
+    },
+    {
+      "id": "pesawat",
+      "ru": "самолёт",
+      "en": "airplane"
+    },
+    {
+      "id": "kapal",
+      "ru": "корабль",
+      "en": "ship"
+    },
+    {
+      "id": "perahu",
+      "ru": "лодка",
+      "en": "boat"
+    },
+    {
+      "id": "taksi",
+      "ru": "такси",
+      "en": "taxi"
+    },
+    {
+      "id": "ojek",
+      "ru": "мототакси",
+      "en": "motorbike taxi"
+    },
+    {
+      "id": "becak",
+      "ru": "велорикша",
+      "en": "pedicab"
+    },
+    {
+      "id": "truk",
+      "ru": "грузовик",
+      "en": "truck"
+    },
+    {
+      "id": "sopir",
+      "ru": "водитель",
+      "en": "driver"
+    },
+    {
+      "id": "penumpang",
+      "ru": "пассажир",
+      "en": "passenger"
+    },
+    {
+      "id": "tiket",
+      "ru": "билет",
+      "en": "ticket"
+    },
+    {
+      "id": "perjalanan",
+      "ru": "поездка / путешествие",
+      "en": "trip"
+    },
+    {
+      "id": "liburan",
+      "ru": "отпуск / каникулы",
+      "en": "vacation"
+    },
+    {
+      "id": "wisata",
+      "ru": "туризм",
+      "en": "tourism"
+    },
+    {
+      "id": "turis",
+      "ru": "турист",
+      "en": "tourist"
+    },
+    {
+      "id": "peta",
+      "ru": "карта",
+      "en": "map"
+    },
+    {
+      "id": "koper",
+      "ru": "чемодан",
+      "en": "suitcase"
+    },
+    {
+      "id": "paspor",
+      "ru": "паспорт",
+      "en": "passport"
+    },
+    {
+      "id": "visa",
+      "ru": "виза",
+      "en": "visa"
+    },
+    {
+      "id": "bahan bakar",
+      "ru": "топливо",
+      "en": "fuel"
+    },
+    {
+      "id": "bensin",
+      "ru": "бензин",
+      "en": "gasoline"
+    },
+    {
+      "id": "parkir",
+      "ru": "парковка",
+      "en": "parking"
+    },
+    {
+      "id": "macet",
+      "ru": "пробка",
+      "en": "traffic jam"
+    }
+  ]
+}

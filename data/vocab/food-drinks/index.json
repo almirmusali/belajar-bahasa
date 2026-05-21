@@ -1,0 +1,373 @@
+{
+  "title": "Еда и напитки",
+  "title_id": "Makanan dan minuman",
+  "description": "Базовая еда, мясо, специи, индонезийские блюда, напитки",
+  "description_id": "Makanan dasar, daging, bumbu, masakan Indonesia, minuman",
+  "words": [
+    {
+      "id": "makanan",
+      "ru": "еда",
+      "en": "food"
+    },
+    {
+      "id": "minuman",
+      "ru": "напиток",
+      "en": "drink"
+    },
+    {
+      "id": "sarapan",
+      "ru": "завтрак",
+      "en": "breakfast"
+    },
+    {
+      "id": "makan siang",
+      "ru": "обед",
+      "en": "lunch"
+    },
+    {
+      "id": "makan malam",
+      "ru": "ужин",
+      "en": "dinner"
+    },
+    {
+      "id": "makanan ringan",
+      "ru": "перекус",
+      "en": "snack"
+    },
+    {
+      "id": "camilan",
+      "ru": "снэк",
+      "en": "snack"
+    },
+    {
+      "id": "nasi",
+      "ru": "рис (варёный)",
+      "en": "rice (cooked)"
+    },
+    {
+      "id": "beras",
+      "ru": "рис (сырой)",
+      "en": "rice (uncooked)"
+    },
+    {
+      "id": "roti",
+      "ru": "хлеб",
+      "en": "bread"
+    },
+    {
+      "id": "mie",
+      "ru": "лапша",
+      "en": "noodles"
+    },
+    {
+      "id": "sup",
+      "ru": "суп",
+      "en": "soup"
+    },
+    {
+      "id": "sayur",
+      "ru": "овощи / суп с овощами",
+      "en": "vegetable"
+    },
+    {
+      "id": "sayuran",
+      "ru": "овощи",
+      "en": "vegetables"
+    },
+    {
+      "id": "buah",
+      "ru": "фрукт",
+      "en": "fruit"
+    },
+    {
+      "id": "daging",
+      "ru": "мясо",
+      "en": "meat"
+    },
+    {
+      "id": "ikan",
+      "ru": "рыба",
+      "en": "fish"
+    },
+    {
+      "id": "ayam",
+      "ru": "курица / петух",
+      "en": "chicken / rooster"
+    },
+    {
+      "id": "sapi",
+      "ru": "говядина / корова",
+      "en": "beef / cow"
+    },
+    {
+      "id": "kambing",
+      "ru": "коза / козлятина",
+      "en": "goat"
+    },
+    {
+      "id": "babi",
+      "ru": "свинина / свинья",
+      "en": "pork / pig"
+    },
+    {
+      "id": "udang",
+      "ru": "креветка",
+      "en": "shrimp"
+    },
+    {
+      "id": "cumi",
+      "ru": "кальмар",
+      "en": "squid"
+    },
+    {
+      "id": "telur",
+      "ru": "яйцо",
+      "en": "egg"
+    },
+    {
+      "id": "susu",
+      "ru": "молоко",
+      "en": "milk"
+    },
+    {
+      "id": "keju",
+      "ru": "сыр",
+      "en": "cheese"
+    },
+    {
+      "id": "mentega",
+      "ru": "сливочное масло",
+      "en": "butter"
+    },
+    {
+      "id": "minyak",
+      "ru": "масло (растительное)",
+      "en": "oil"
+    },
+    {
+      "id": "gula",
+      "ru": "сахар",
+      "en": "sugar"
+    },
+    {
+      "id": "garam",
+      "ru": "соль",
+      "en": "salt"
+    },
+    {
+      "id": "lada",
+      "ru": "перец",
+      "en": "pepper"
+    },
+    {
+      "id": "merica",
+      "ru": "перец (горошком)",
+      "en": "peppercorn"
+    },
+    {
+      "id": "bumbu",
+      "ru": "специи",
+      "en": "spices"
+    },
+    {
+      "id": "kecap",
+      "ru": "соевый соус",
+      "en": "soy sauce"
+    },
+    {
+      "id": "sambal",
+      "ru": "острая паста",
+      "en": "chili paste"
+    },
+    {
+      "id": "saus",
+      "ru": "соус",
+      "en": "sauce"
+    },
+    {
+      "id": "cuka",
+      "ru": "уксус",
+      "en": "vinegar"
+    },
+    {
+      "id": "tepung",
+      "ru": "мука",
+      "en": "flour"
+    },
+    {
+      "id": "kue",
+      "ru": "пирожное / торт",
+      "en": "cake"
+    },
+    {
+      "id": "permen",
+      "ru": "конфета",
+      "en": "candy"
+    },
+    {
+      "id": "cokelat",
+      "ru": "шоколад / коричневый",
+      "en": "chocolate / brown"
+    },
+    {
+      "id": "es krim",
+      "ru": "мороженое",
+      "en": "ice cream"
+    },
+    {
+      "id": "madu",
+      "ru": "мёд",
+      "en": "honey"
+    },
+    {
+      "id": "selai",
+      "ru": "варенье",
+      "en": "jam"
+    },
+    {
+      "id": "nasi goreng",
+      "ru": "жареный рис",
+      "en": "fried rice"
+    },
+    {
+      "id": "mie goreng",
+      "ru": "жареная лапша",
+      "en": "fried noodles"
+    },
+    {
+      "id": "sate",
+      "ru": "шашлычки",
+      "en": "satay"
+    },
+    {
+      "id": "rendang",
+      "ru": "ренданг (тушёное мясо)",
+      "en": "rendang"
+    },
+    {
+      "id": "soto",
+      "ru": "сото (суп)",
+      "en": "soto soup"
+    },
+    {
+      "id": "bakso",
+      "ru": "бакcо (фрикадельки)",
+      "en": "meatballs"
+    },
+    {
+      "id": "gado-gado",
+      "ru": "гадо-гадо (овощной салат)",
+      "en": "gado-gado"
+    },
+    {
+      "id": "rasa",
+      "ru": "вкус",
+      "en": "taste"
+    },
+    {
+      "id": "enak",
+      "ru": "вкусный",
+      "en": "delicious"
+    },
+    {
+      "id": "lezat",
+      "ru": "очень вкусный",
+      "en": "tasty"
+    },
+    {
+      "id": "sedap",
+      "ru": "вкусный",
+      "en": "delicious"
+    },
+    {
+      "id": "manis",
+      "ru": "сладкий",
+      "en": "sweet"
+    },
+    {
+      "id": "asam",
+      "ru": "кислый",
+      "en": "sour"
+    },
+    {
+      "id": "asin",
+      "ru": "солёный",
+      "en": "salty"
+    },
+    {
+      "id": "pahit",
+      "ru": "горький",
+      "en": "bitter"
+    },
+    {
+      "id": "pedas",
+      "ru": "острый",
+      "en": "spicy"
+    },
+    {
+      "id": "gurih",
+      "ru": "пряный / насыщенный",
+      "en": "savory"
+    },
+    {
+      "id": "hambar",
+      "ru": "пресный",
+      "en": "bland"
+    },
+    {
+      "id": "air",
+      "ru": "вода",
+      "en": "water"
+    },
+    {
+      "id": "air putih",
+      "ru": "питьевая вода",
+      "en": "drinking water"
+    },
+    {
+      "id": "es",
+      "ru": "лёд",
+      "en": "ice"
+    },
+    {
+      "id": "teh",
+      "ru": "чай",
+      "en": "tea"
+    },
+    {
+      "id": "kopi",
+      "ru": "кофе",
+      "en": "coffee"
+    },
+    {
+      "id": "jus",
+      "ru": "сок",
+      "en": "juice"
+    },
+    {
+      "id": "bir",
+      "ru": "пиво",
+      "en": "beer"
+    },
+    {
+      "id": "anggur",
+      "ru": "вино / виноград",
+      "en": "wine / grape"
+    },
+    {
+      "id": "minuman keras",
+      "ru": "крепкий алкоголь",
+      "en": "liquor"
+    },
+    {
+      "id": "soda",
+      "ru": "газировка",
+      "en": "soda"
+    },
+    {
+      "id": "kelapa muda",
+      "ru": "молодой кокос",
+      "en": "young coconut"
+    }
+  ]
+}

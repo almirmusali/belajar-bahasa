@@ -1,0 +1,78 @@
+{
+  "title": "Цвета",
+  "title_id": "Warna",
+  "description": "Основные и оттенки",
+  "description_id": "Warna dasar dan nuansa",
+  "words": [
+    {
+      "id": "warna",
+      "ru": "цвет",
+      "en": "color"
+    },
+    {
+      "id": "merah",
+      "ru": "красный",
+      "en": "red"
+    },
+    {
+      "id": "hijau",
+      "ru": "зелёный",
+      "en": "green"
+    },
+    {
+      "id": "biru",
+      "ru": "синий",
+      "en": "blue"
+    },
+    {
+      "id": "kuning",
+      "ru": "жёлтый",
+      "en": "yellow"
+    },
+    {
+      "id": "hitam",
+      "ru": "чёрный",
+      "en": "black"
+    },
+    {
+      "id": "putih",
+      "ru": "белый",
+      "en": "white"
+    },
+    {
+      "id": "abu-abu",
+      "ru": "серый",
+      "en": "gray"
+    },
+    {
+      "id": "ungu",
+      "ru": "фиолетовый",
+      "en": "purple"
+    },
+    {
+      "id": "oranye",
+      "ru": "оранжевый",
+      "en": "orange"
+    },
+    {
+      "id": "jingga",
+      "ru": "оранжевый",
+      "en": "orange"
+    },
+    {
+      "id": "merah muda",
+      "ru": "розовый",
+      "en": "pink"
+    },
+    {
+      "id": "perak",
+      "ru": "серебряный",
+      "en": "silver"
+    },
+    {
+      "id": "emas",
+      "ru": "золотой",
+      "en": "gold"
+    }
+  ]
+}

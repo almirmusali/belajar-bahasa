@@ -1,0 +1,143 @@
+{
+  "title": "Дни и месяцы",
+  "title_id": "Hari dan bulan",
+  "description": "Дни недели, названия месяцев, сезоны",
+  "description_id": "Hari, bulan, musim",
+  "words": [
+    {
+      "id": "Senin",
+      "ru": "понедельник",
+      "en": "Monday"
+    },
+    {
+      "id": "Selasa",
+      "ru": "вторник",
+      "en": "Tuesday"
+    },
+    {
+      "id": "Rabu",
+      "ru": "среда",
+      "en": "Wednesday"
+    },
+    {
+      "id": "Kamis",
+      "ru": "четверг",
+      "en": "Thursday"
+    },
+    {
+      "id": "Jumat",
+      "ru": "пятница",
+      "en": "Friday"
+    },
+    {
+      "id": "Sabtu",
+      "ru": "суббота",
+      "en": "Saturday"
+    },
+    {
+      "id": "Minggu",
+      "ru": "воскресенье",
+      "en": "Sunday"
+    },
+    {
+      "id": "akhir pekan",
+      "ru": "выходные",
+      "en": "weekend"
+    },
+    {
+      "id": "Januari",
+      "ru": "январь",
+      "en": "January"
+    },
+    {
+      "id": "Februari",
+      "ru": "февраль",
+      "en": "February"
+    },
+    {
+      "id": "Maret",
+      "ru": "март",
+      "en": "March"
+    },
+    {
+      "id": "April",
+      "ru": "апрель",
+      "en": "April"
+    },
+    {
+      "id": "Mei",
+      "ru": "май",
+      "en": "May"
+    },
+    {
+      "id": "Juni",
+      "ru": "июнь",
+      "en": "June"
+    },
+    {
+      "id": "Juli",
+      "ru": "июль",
+      "en": "July"
+    },
+    {
+      "id": "Agustus",
+      "ru": "август",
+      "en": "August"
+    },
+    {
+      "id": "September",
+      "ru": "сентябрь",
+      "en": "September"
+    },
+    {
+      "id": "Oktober",
+      "ru": "октябрь",
+      "en": "October"
+    },
+    {
+      "id": "November",
+      "ru": "ноябрь",
+      "en": "November"
+    },
+    {
+      "id": "Desember",
+      "ru": "декабрь",
+      "en": "December"
+    },
+    {
+      "id": "musim",
+      "ru": "сезон",
+      "en": "season"
+    },
+    {
+      "id": "musim hujan",
+      "ru": "сезон дождей",
+      "en": "rainy season"
+    },
+    {
+      "id": "musim kemarau",
+      "ru": "сухой сезон",
+      "en": "dry season"
+    },
+    {
+      "id": "musim panas",
+      "ru": "лето",
+      "en": "summer"
+    },
+    {
+      "id": "musim dingin",
+      "ru": "зима",
+      "en": "winter"
+    },
+    {
+      "id": "musim semi",
+      "ru": "весна",
+      "en": "spring"
+    },
+    {
+      "id": "musim gugur",
+      "ru": "осень",
+      "en": "autumn"
+    }
+  ]
+}

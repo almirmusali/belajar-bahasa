@@ -1,0 +1,123 @@
+{
+  "title": "Разговорные фразы",
+  "title_id": "Frasa percakapan",
+  "description": "Готовые фразы для общения: вопросы, мнения, реакции",
+  "description_id": "Frasa siap pakai: pertanyaan, pendapat, reaksi",
+  "words": [
+    {
+      "id": "siapa namamu",
+      "ru": "как тебя зовут",
+      "en": "what's your name"
+    },
+    {
+      "id": "siapa nama Anda",
+      "ru": "как Вас зовут",
+      "en": "what is your name (formal)"
+    },
+    {
+      "id": "berapa umurmu",
+      "ru": "сколько тебе лет",
+      "en": "how old are you"
+    },
+    {
+      "id": "dari mana asalmu",
+      "ru": "откуда ты",
+      "en": "where are you from"
+    },
+    {
+      "id": "kamu tinggal di mana",
+      "ru": "где ты живёшь",
+      "en": "where do you live"
+    },
+    {
+      "id": "bisa berbicara bahasa Indonesia",
+      "ru": "говоришь на индонезийском",
+      "en": "can you speak Indonesian"
+    },
+    {
+      "id": "saya tidak mengerti",
+      "ru": "я не понимаю",
+      "en": "I don't understand"
+    },
+    {
+      "id": "saya mengerti",
+      "ru": "я понимаю",
+      "en": "I understand"
+    },
+    {
+      "id": "tolong ulangi",
+      "ru": "повторите, пожалуйста",
+      "en": "please repeat"
+    },
+    {
+      "id": "tolong bicara pelan-pelan",
+      "ru": "говорите помедленнее",
+      "en": "please speak slowly"
+    },
+    {
+      "id": "apa artinya",
+      "ru": "что это значит",
+      "en": "what does it mean"
+    },
+    {
+      "id": "bagaimana mengatakannya",
+      "ru": "как сказать",
+      "en": "how do I say it"
+    },
+    {
+      "id": "saya tidak tahu",
+      "ru": "я не знаю",
+      "en": "I don't know"
+    },
+    {
+      "id": "saya tidak yakin",
+      "ru": "я не уверен",
+      "en": "I'm not sure"
+    },
+    {
+      "id": "tidak masalah",
+      "ru": "не проблема",
+      "en": "no problem"
+    },
+    {
+      "id": "jangan khawatir",
+      "ru": "не волнуйся",
+      "en": "don't worry"
+    },
+    {
+      "id": "tenang saja",
+      "ru": "успокойся",
+      "en": "just relax"
+    },
+    {
+      "id": "tidak masalah bagi saya",
+      "ru": "для меня не проблема",
+      "en": "no problem for me"
+    },
+    {
+      "id": "saya setuju",
+      "ru": "я согласен",
+      "en": "I agree"
+    },
+    {
+      "id": "saya tidak setuju",
+      "ru": "я не согласен",
+      "en": "I disagree"
+    },
+    {
+      "id": "menurut saya",
+      "ru": "по-моему",
+      "en": "in my opinion"
+    },
+    {
+      "id": "saya rasa",
+      "ru": "я думаю",
+      "en": "I think"
+    },
+    {
+      "id": "saya kira",
+      "ru": "мне кажется",
+      "en": "I suppose"
+    }
+  ]
+}

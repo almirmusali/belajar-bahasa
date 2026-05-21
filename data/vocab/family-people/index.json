@@ -1,0 +1,288 @@
+{
+  "title": "Семья и люди",
+  "title_id": "Keluarga dan orang",
+  "description": "Члены семьи, возраст, имя, отношения, друзья",
+  "description_id": "Anggota keluarga, usia, nama, hubungan, teman",
+  "words": [
+    {
+      "id": "keluarga",
+      "ru": "семья",
+      "en": "family"
+    },
+    {
+      "id": "orang tua",
+      "ru": "родители",
+      "en": "parents"
+    },
+    {
+      "id": "ayah",
+      "ru": "отец",
+      "en": "father"
+    },
+    {
+      "id": "bapak",
+      "ru": "отец / господин",
+      "en": "father / sir"
+    },
+    {
+      "id": "ibu",
+      "ru": "мать / госпожа",
+      "en": "mother / ma'am"
+    },
+    {
+      "id": "mama",
+      "ru": "мама",
+      "en": "mom"
+    },
+    {
+      "id": "papa",
+      "ru": "папа",
+      "en": "dad"
+    },
+    {
+      "id": "anak",
+      "ru": "ребёнок",
+      "en": "child"
+    },
+    {
+      "id": "anak laki-laki",
+      "ru": "сын",
+      "en": "son"
+    },
+    {
+      "id": "anak perempuan",
+      "ru": "дочь",
+      "en": "daughter"
+    },
+    {
+      "id": "putra",
+      "ru": "сын (формально)",
+      "en": "son (formal)"
+    },
+    {
+      "id": "putri",
+      "ru": "дочь (формально)",
+      "en": "daughter (formal)"
+    },
+    {
+      "id": "kakak",
+      "ru": "старший брат/сестра",
+      "en": "older sibling"
+    },
+    {
+      "id": "abang",
+      "ru": "старший брат",
+      "en": "older brother"
+    },
+    {
+      "id": "adik",
+      "ru": "младший брат/сестра",
+      "en": "younger sibling"
+    },
+    {
+      "id": "saudara",
+      "ru": "брат / родственник",
+      "en": "brother / relative"
+    },
+    {
+      "id": "saudari",
+      "ru": "сестра",
+      "en": "sister"
+    },
+    {
+      "id": "kakek",
+      "ru": "дедушка",
+      "en": "grandfather"
+    },
+    {
+      "id": "nenek",
+      "ru": "бабушка",
+      "en": "grandmother"
+    },
+    {
+      "id": "paman",
+      "ru": "дядя",
+      "en": "uncle"
+    },
+    {
+      "id": "bibi",
+      "ru": "тётя",
+      "en": "aunt"
+    },
+    {
+      "id": "om",
+      "ru": "дядя (разг.)",
+      "en": "uncle (casual)"
+    },
+    {
+      "id": "tante",
+      "ru": "тётя (разг.)",
+      "en": "aunt (casual)"
+    },
+    {
+      "id": "sepupu",
+      "ru": "двоюродный/ая",
+      "en": "cousin"
+    },
+    {
+      "id": "suami",
+      "ru": "муж",
+      "en": "husband"
+    },
+    {
+      "id": "istri",
+      "ru": "жена",
+      "en": "wife"
+    },
+    {
+      "id": "pasangan",
+      "ru": "пара / супруг(а)",
+      "en": "partner"
+    },
+    {
+      "id": "mertua",
+      "ru": "тесть/тёща",
+      "en": "parent-in-law"
+    },
+    {
+      "id": "menantu",
+      "ru": "зять/невестка",
+      "en": "son / daughter-in-law"
+    },
+    {
+      "id": "cucu",
+      "ru": "внук/внучка",
+      "en": "grandchild"
+    },
+    {
+      "id": "keponakan",
+      "ru": "племянник/племянница",
+      "en": "nephew / niece"
+    },
+    {
+      "id": "teman",
+      "ru": "друг",
+      "en": "friend"
+    },
+    {
+      "id": "sahabat",
+      "ru": "близкий друг",
+      "en": "best friend"
+    },
+    {
+      "id": "pacar",
+      "ru": "парень / девушка",
+      "en": "boyfriend / girlfriend"
+    },
+    {
+      "id": "kenalan",
+      "ru": "знакомый",
+      "en": "acquaintance"
+    },
+    {
+      "id": "tetangga",
+      "ru": "сосед",
+      "en": "neighbor"
+    },
+    {
+      "id": "tamu",
+      "ru": "гость",
+      "en": "guest"
+    },
+    {
+      "id": "orang",
+      "ru": "человек",
+      "en": "person"
+    },
+    {
+      "id": "laki-laki",
+      "ru": "мужчина",
+      "en": "man"
+    },
+    {
+      "id": "pria",
+      "ru": "мужчина (формально)",
+      "en": "man (formal)"
+    },
+    {
+      "id": "perempuan",
+      "ru": "женщина",
+      "en": "woman"
+    },
+    {
+      "id": "wanita",
+      "ru": "женщина (формально)",
+      "en": "woman (formal)"
+    },
+    {
+      "id": "cowok",
+      "ru": "парень (разг.)",
+      "en": "guy (slang)"
+    },
+    {
+      "id": "cewek",
+      "ru": "девушка (разг.)",
+      "en": "girl (slang)"
+    },
+    {
+      "id": "anak-anak",
+      "ru": "дети",
+      "en": "children"
+    },
+    {
+      "id": "remaja",
+      "ru": "подросток",
+      "en": "teenager"
+    },
+    {
+      "id": "dewasa",
+      "ru": "взрослый",
+      "en": "adult"
+    },
+    {
+      "id": "bayi",
+      "ru": "младенец",
+      "en": "baby"
+    },
+    {
+      "id": "balita",
+      "ru": "малыш",
+      "en": "toddler"
+    },
+    {
+      "id": "tua",
+      "ru": "старый",
+      "en": "old"
+    },
+    {
+      "id": "muda",
+      "ru": "молодой",
+      "en": "young"
+    },
+    {
+      "id": "nama",
+      "ru": "имя",
+      "en": "name"
+    },
+    {
+      "id": "umur",
+      "ru": "возраст",
+      "en": "age"
+    },
+    {
+      "id": "usia",
+      "ru": "возраст (формально)",
+      "en": "age (formal)"
+    },
+    {
+      "id": "alamat",
+      "ru": "адрес",
+      "en": "address"
+    },
+    {
+      "id": "nomor telepon",
+      "ru": "номер телефона",
+      "en": "phone number"
+    }
+  ]
+}

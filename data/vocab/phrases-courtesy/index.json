@@ -1,0 +1,173 @@
+{
+  "title": "Приветствия и фразы вежливости",
+  "title_id": "Salam dan frasa kesopanan",
+  "description": "Здороваемся, благодарим, извиняемся, прощаемся",
+  "description_id": "Sapaan, terima kasih, permintaan maaf, perpisahan",
+  "words": [
+    {
+      "id": "halo",
+      "ru": "привет",
+      "en": "hello"
+    },
+    {
+      "id": "hai",
+      "ru": "привет",
+      "en": "hi"
+    },
+    {
+      "id": "selamat pagi",
+      "ru": "доброе утро",
+      "en": "good morning"
+    },
+    {
+      "id": "selamat siang",
+      "ru": "добрый день",
+      "en": "good afternoon"
+    },
+    {
+      "id": "selamat sore",
+      "ru": "добрый вечер",
+      "en": "good evening"
+    },
+    {
+      "id": "selamat malam",
+      "ru": "доброй ночи",
+      "en": "good night"
+    },
+    {
+      "id": "selamat datang",
+      "ru": "добро пожаловать",
+      "en": "welcome"
+    },
+    {
+      "id": "selamat tinggal",
+      "ru": "прощай",
+      "en": "goodbye"
+    },
+    {
+      "id": "selamat jalan",
+      "ru": "счастливого пути",
+      "en": "safe journey"
+    },
+    {
+      "id": "selamat tidur",
+      "ru": "спокойной ночи",
+      "en": "sleep well"
+    },
+    {
+      "id": "selamat makan",
+      "ru": "приятного аппетита",
+      "en": "enjoy your meal"
+    },
+    {
+      "id": "selamat ulang tahun",
+      "ru": "с днём рождения",
+      "en": "happy birthday"
+    },
+    {
+      "id": "apa kabar",
+      "ru": "как дела",
+      "en": "how are you"
+    },
+    {
+      "id": "baik",
+      "ru": "хорошо / хороший",
+      "en": "good / fine"
+    },
+    {
+      "id": "baik-baik saja",
+      "ru": "всё хорошо",
+      "en": "I'm fine"
+    },
+    {
+      "id": "terima kasih",
+      "ru": "спасибо",
+      "en": "thank you"
+    },
+    {
+      "id": "sama-sama",
+      "ru": "пожалуйста (в ответ на спасибо)",
+      "en": "you're welcome"
+    },
+    {
+      "id": "maaf",
+      "ru": "извини",
+      "en": "sorry"
+    },
+    {
+      "id": "permisi",
+      "ru": "разрешите / извините",
+      "en": "excuse me"
+    },
+    {
+      "id": "tolong",
+      "ru": "пожалуйста (просьба)",
+      "en": "please / help"
+    },
+    {
+      "id": "silakan",
+      "ru": "пожалуйста (приглашение)",
+      "en": "please / go ahead"
+    },
+    {
+      "id": "mohon",
+      "ru": "прошу",
+      "en": "please (formal)"
+    },
+    {
+      "id": "sampai jumpa",
+      "ru": "до свидания",
+      "en": "see you"
+    },
+    {
+      "id": "sampai besok",
+      "ru": "до завтра",
+      "en": "see you tomorrow"
+    },
+    {
+      "id": "sampai nanti",
+      "ru": "до встречи",
+      "en": "see you later"
+    },
+    {
+      "id": "senang berkenalan",
+      "ru": "рад знакомству",
+      "en": "nice to meet you"
+    },
+    {
+      "id": "hati-hati",
+      "ru": "осторожно",
+      "en": "be careful"
+    },
+    {
+      "id": "semangat",
+      "ru": "держись / удачи",
+      "en": "go for it"
+    },
+    {
+      "id": "ayo",
+      "ru": "давай / пошли",
+      "en": "let's go"
+    },
+    {
+      "id": "mari",
+      "ru": "давай / идём",
+      "en": "let's"
+    },
+    {
+      "id": "oke",
+      "ru": "ок",
+      "en": "ok"
+    },
+    {
+      "id": "baiklah",
+      "ru": "ладно",
+      "en": "all right"
+    },
+    {
+      "id": "tidak apa-apa",
+      "ru": "ничего страшного",
+      "en": "it's okay"
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "title": "Грамматические маркеры",
+  "title_id": "Penanda tata bahasa",
+  "description": "Отрицание, время, модальность: tidak, sudah, akan, harus…",
+  "description_id": "Negasi, waktu, modalitas: tidak, sudah, akan, harus…",
+  "words": [
+    {
+      "id": "tidak",
+      "ru": "не",
+      "en": "no / not"
+    },
+    {
+      "id": "tak",
+      "ru": "не (краткая форма)",
+      "en": "not (short)"
+    },
+    {
+      "id": "bukan",
+      "ru": "не (с существительным)",
+      "en": "not (with noun)"
+    },
+    {
+      "id": "belum",
+      "ru": "ещё не",
+      "en": "not yet"
+    },
+    {
+      "id": "sudah",
+      "ru": "уже",
+      "en": "already"
+    },
+    {
+      "id": "telah",
+      "ru": "уже (формально)",
+      "en": "already (formal)"
+    },
+    {
+      "id": "pernah",
+      "ru": "когда-либо",
+      "en": "ever"
+    },
+    {
+      "id": "masih",
+      "ru": "всё ещё",
+      "en": "still"
+    },
+    {
+      "id": "baru",
+      "ru": "только что / новый",
+      "en": "just / new"
+    },
+    {
+      "id": "akan",
+      "ru": "будет (будущее)",
+      "en": "will"
+    },
+    {
+      "id": "mau",
+      "ru": "хочу / собираюсь",
+      "en": "want / will"
+    },
+    {
+      "id": "ingin",
+      "ru": "хочу",
+      "en": "want"
+    },
+    {
+      "id": "hendak",
+      "ru": "намерен",
+      "en": "intend to"
+    },
+    {
+      "id": "sedang",
+      "ru": "сейчас (длительное)",
+      "en": "in the middle of"
+    },
+    {
+      "id": "lagi",
+      "ru": "снова / ещё",
+      "en": "again / more"
+    },
+    {
+      "id": "harus",
+      "ru": "должен",
+      "en": "must"
+    },
+    {
+      "id": "wajib",
+      "ru": "обязан",
+      "en": "obligatory"
+    },
+    {
+      "id": "perlu",
+      "ru": "нужно",
+      "en": "need"
+    },
+    {
+      "id": "butuh",
+      "ru": "нуждаюсь",
+      "en": "need"
+    },
+    {
+      "id": "boleh",
+      "ru": "можно",
+      "en": "may"
+    },
+    {
+      "id": "bisa",
+      "ru": "могу / можно",
+      "en": "can"
+    },
+    {
+      "id": "dapat",
+      "ru": "могу / получить",
+      "en": "can / get"
+    },
+    {
+      "id": "mampu",
+      "ru": "в состоянии",
+      "en": "able"
+    },
+    {
+      "id": "jangan",
+      "ru": "не делай",
+      "en": "don't"
+    },
+    {
+      "id": "yang",
+      "ru": "который",
+      "en": "which / that"
+    },
+    {
+      "id": "ada",
+      "ru": "есть / имеется",
+      "en": "there is"
+    },
+    {
+      "id": "adalah",
+      "ru": "является",
+      "en": "is / are"
+    }
+  ]
+}

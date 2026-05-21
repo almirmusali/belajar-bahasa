@@ -1,0 +1,158 @@
+{
+  "title": "Союзы",
+  "title_id": "Kata sambung",
+  "description": "И, или, но, потому что, если, когда, после…",
+  "description_id": "Dan, atau, tapi, karena, kalau, ketika, setelah…",
+  "words": [
+    {
+      "id": "dan",
+      "ru": "и",
+      "en": "and"
+    },
+    {
+      "id": "atau",
+      "ru": "или",
+      "en": "or"
+    },
+    {
+      "id": "tapi",
+      "ru": "но",
+      "en": "but"
+    },
+    {
+      "id": "tetapi",
+      "ru": "но (формально)",
+      "en": "but (formal)"
+    },
+    {
+      "id": "namun",
+      "ru": "однако",
+      "en": "however"
+    },
+    {
+      "id": "karena",
+      "ru": "потому что",
+      "en": "because"
+    },
+    {
+      "id": "sebab",
+      "ru": "по причине",
+      "en": "because"
+    },
+    {
+      "id": "supaya",
+      "ru": "чтобы",
+      "en": "so that"
+    },
+    {
+      "id": "agar",
+      "ru": "чтобы",
+      "en": "so that"
+    },
+    {
+      "id": "kalau",
+      "ru": "если / когда",
+      "en": "if / when"
+    },
+    {
+      "id": "jika",
+      "ru": "если",
+      "en": "if"
+    },
+    {
+      "id": "walaupun",
+      "ru": "хотя",
+      "en": "although"
+    },
+    {
+      "id": "meskipun",
+      "ru": "хотя",
+      "en": "although"
+    },
+    {
+      "id": "sebelum",
+      "ru": "перед",
+      "en": "before"
+    },
+    {
+      "id": "sesudah",
+      "ru": "после",
+      "en": "after"
+    },
+    {
+      "id": "setelah",
+      "ru": "после",
+      "en": "after"
+    },
+    {
+      "id": "ketika",
+      "ru": "когда",
+      "en": "when"
+    },
+    {
+      "id": "saat",
+      "ru": "в момент когда",
+      "en": "at the moment"
+    },
+    {
+      "id": "sambil",
+      "ru": "в то время как",
+      "en": "while"
+    },
+    {
+      "id": "sementara",
+      "ru": "пока",
+      "en": "while"
+    },
+    {
+      "id": "selama",
+      "ru": "в течение",
+      "en": "during"
+    },
+    {
+      "id": "lalu",
+      "ru": "затем",
+      "en": "then"
+    },
+    {
+      "id": "kemudian",
+      "ru": "потом",
+      "en": "then"
+    },
+    {
+      "id": "jadi",
+      "ru": "так что / стать",
+      "en": "so / become"
+    },
+    {
+      "id": "juga",
+      "ru": "тоже",
+      "en": "also"
+    },
+    {
+      "id": "saja",
+      "ru": "только",
+      "en": "only / just"
+    },
+    {
+      "id": "pun",
+      "ru": "даже",
+      "en": "even"
+    },
+    {
+      "id": "bahkan",
+      "ru": "более того",
+      "en": "moreover"
+    },
+    {
+      "id": "misalnya",
+      "ru": "например",
+      "en": "for example"
+    },
+    {
+      "id": "sebagai",
+      "ru": "как (в качестве)",
+      "en": "as"
+    }
+  ]
+}

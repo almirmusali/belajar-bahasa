@@ -1,0 +1,138 @@
+{
+  "title": "Абстрактные понятия",
+  "title_id": "Konsep abstrak",
+  "description": "Идеи, цели, опыт, изменения, жизнь",
+  "description_id": "Ide, tujuan, pengalaman, perubahan, kehidupan",
+  "words": [
+    {
+      "id": "pertanyaan",
+      "ru": "вопрос",
+      "en": "question"
+    },
+    {
+      "id": "masalah",
+      "ru": "проблема",
+      "en": "problem"
+    },
+    {
+      "id": "solusi",
+      "ru": "решение",
+      "en": "solution"
+    },
+    {
+      "id": "ide",
+      "ru": "идея",
+      "en": "idea"
+    },
+    {
+      "id": "rencana",
+      "ru": "план",
+      "en": "plan"
+    },
+    {
+      "id": "tujuan",
+      "ru": "цель",
+      "en": "goal"
+    },
+    {
+      "id": "harapan",
+      "ru": "надежда",
+      "en": "hope"
+    },
+    {
+      "id": "cita-cita",
+      "ru": "мечта (цель в жизни)",
+      "en": "ambition"
+    },
+    {
+      "id": "alasan",
+      "ru": "причина",
+      "en": "reason"
+    },
+    {
+      "id": "hasil",
+      "ru": "результат",
+      "en": "result"
+    },
+    {
+      "id": "contoh",
+      "ru": "пример",
+      "en": "example"
+    },
+    {
+      "id": "fakta",
+      "ru": "факт",
+      "en": "fact"
+    },
+    {
+      "id": "kebenaran",
+      "ru": "правда",
+      "en": "truth"
+    },
+    {
+      "id": "kebohongan",
+      "ru": "ложь",
+      "en": "lie"
+    },
+    {
+      "id": "kabar",
+      "ru": "новость",
+      "en": "news"
+    },
+    {
+      "id": "cerita",
+      "ru": "история",
+      "en": "story"
+    },
+    {
+      "id": "kisah",
+      "ru": "рассказ",
+      "en": "tale"
+    },
+    {
+      "id": "pendapat",
+      "ru": "мнение",
+      "en": "opinion"
+    },
+    {
+      "id": "pengalaman",
+      "ru": "опыт",
+      "en": "experience"
+    },
+    {
+      "id": "kesempatan",
+      "ru": "возможность / шанс",
+      "en": "opportunity"
+    },
+    {
+      "id": "pilihan",
+      "ru": "выбор",
+      "en": "choice"
+    },
+    {
+      "id": "perubahan",
+      "ru": "изменение",
+      "en": "change"
+    },
+    {
+      "id": "kehidupan",
+      "ru": "жизнь",
+      "en": "life"
+    },
+    {
+      "id": "kematian",
+      "ru": "смерть",
+      "en": "death"
+    },
+    {
+      "id": "kelahiran",
+      "ru": "рождение",
+      "en": "birth"
+    },
+    {
+      "id": "pernikahan",
+      "ru": "свадьба / брак",
+      "en": "marriage"
+    }
+  ]
+}

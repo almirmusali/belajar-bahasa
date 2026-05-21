@@ -1,0 +1,108 @@
+{
+  "title": "Наречия и сравнения",
+  "title_id": "Kata keterangan",
+  "description": "Степень, частота, сравнение, способ",
+  "description_id": "Derajat, frekuensi, perbandingan, cara",
+  "words": [
+    {
+      "id": "sangat",
+      "ru": "очень",
+      "en": "very"
+    },
+    {
+      "id": "sekali",
+      "ru": "очень (после прил.)",
+      "en": "very"
+    },
+    {
+      "id": "amat",
+      "ru": "крайне",
+      "en": "extremely"
+    },
+    {
+      "id": "terlalu",
+      "ru": "слишком",
+      "en": "too"
+    },
+    {
+      "id": "agak",
+      "ru": "немного",
+      "en": "a bit"
+    },
+    {
+      "id": "lebih",
+      "ru": "более",
+      "en": "more"
+    },
+    {
+      "id": "paling",
+      "ru": "самый",
+      "en": "most"
+    },
+    {
+      "id": "lebih baik",
+      "ru": "лучше",
+      "en": "better"
+    },
+    {
+      "id": "paling baik",
+      "ru": "самый лучший",
+      "en": "best"
+    },
+    {
+      "id": "sama",
+      "ru": "одинаковый",
+      "en": "same"
+    },
+    {
+      "id": "berbeda",
+      "ru": "разный",
+      "en": "different"
+    },
+    {
+      "id": "beda",
+      "ru": "разница",
+      "en": "difference"
+    },
+    {
+      "id": "mirip",
+      "ru": "похожий",
+      "en": "similar"
+    },
+    {
+      "id": "khusus",
+      "ru": "особенный",
+      "en": "special"
+    },
+    {
+      "id": "umum",
+      "ru": "общий",
+      "en": "general"
+    },
+    {
+      "id": "khas",
+      "ru": "характерный",
+      "en": "characteristic"
+    },
+    {
+      "id": "spesial",
+      "ru": "особый",
+      "en": "special"
+    },
+    {
+      "id": "bersama",
+      "ru": "вместе",
+      "en": "together"
+    },
+    {
+      "id": "sendiri",
+      "ru": "сам / один",
+      "en": "alone / self"
+    },
+    {
+      "id": "sendirian",
+      "ru": "в одиночку",
+      "en": "by oneself"
+    }
+  ]
+}

@@ -1,0 +1,443 @@
+{
+  "title": "Прилагательные",
+  "title_id": "Kata sifat",
+  "description": "Размер, оценка, характер, чувства, состояние",
+  "description_id": "Ukuran, penilaian, sifat, perasaan, keadaan",
+  "words": [
+    {
+      "id": "bagus",
+      "ru": "хороший",
+      "en": "good"
+    },
+    {
+      "id": "jelek",
+      "ru": "плохой / уродливый",
+      "en": "bad / ugly"
+    },
+    {
+      "id": "buruk",
+      "ru": "плохой",
+      "en": "bad"
+    },
+    {
+      "id": "hebat",
+      "ru": "потрясающий",
+      "en": "great"
+    },
+    {
+      "id": "keren",
+      "ru": "крутой",
+      "en": "cool"
+    },
+    {
+      "id": "biasa",
+      "ru": "обычный",
+      "en": "ordinary"
+    },
+    {
+      "id": "luar biasa",
+      "ru": "необычный / выдающийся",
+      "en": "extraordinary"
+    },
+    {
+      "id": "besar",
+      "ru": "большой",
+      "en": "big"
+    },
+    {
+      "id": "kecil",
+      "ru": "маленький",
+      "en": "small"
+    },
+    {
+      "id": "panjang",
+      "ru": "длинный",
+      "en": "long"
+    },
+    {
+      "id": "pendek",
+      "ru": "короткий",
+      "en": "short"
+    },
+    {
+      "id": "tinggi",
+      "ru": "высокий",
+      "en": "tall / high"
+    },
+    {
+      "id": "rendah",
+      "ru": "низкий",
+      "en": "low"
+    },
+    {
+      "id": "lebar",
+      "ru": "широкий",
+      "en": "wide"
+    },
+    {
+      "id": "sempit",
+      "ru": "узкий",
+      "en": "narrow"
+    },
+    {
+      "id": "tebal",
+      "ru": "толстый",
+      "en": "thick"
+    },
+    {
+      "id": "tipis",
+      "ru": "тонкий",
+      "en": "thin"
+    },
+    {
+      "id": "dangkal",
+      "ru": "мелкий",
+      "en": "shallow"
+    },
+    {
+      "id": "banyak",
+      "ru": "много",
+      "en": "many"
+    },
+    {
+      "id": "sedikit",
+      "ru": "мало",
+      "en": "few"
+    },
+    {
+      "id": "cukup",
+      "ru": "достаточно",
+      "en": "enough"
+    },
+    {
+      "id": "kurang",
+      "ru": "недостаточно",
+      "en": "less"
+    },
+    {
+      "id": "lama",
+      "ru": "долгий / старый",
+      "en": "long time / old"
+    },
+    {
+      "id": "kuno",
+      "ru": "древний",
+      "en": "ancient"
+    },
+    {
+      "id": "modern",
+      "ru": "современный",
+      "en": "modern"
+    },
+    {
+      "id": "cepat",
+      "ru": "быстрый",
+      "en": "fast"
+    },
+    {
+      "id": "lambat",
+      "ru": "медленный",
+      "en": "slow"
+    },
+    {
+      "id": "pelan",
+      "ru": "медленный",
+      "en": "slow"
+    },
+    {
+      "id": "mudah",
+      "ru": "лёгкий",
+      "en": "easy"
+    },
+    {
+      "id": "gampang",
+      "ru": "простой",
+      "en": "easy"
+    },
+    {
+      "id": "susah",
+      "ru": "трудный",
+      "en": "difficult"
+    },
+    {
+      "id": "sulit",
+      "ru": "сложный",
+      "en": "difficult"
+    },
+    {
+      "id": "ringan",
+      "ru": "лёгкий (вес)",
+      "en": "light"
+    },
+    {
+      "id": "berat",
+      "ru": "тяжёлый",
+      "en": "heavy"
+    },
+    {
+      "id": "penuh",
+      "ru": "полный",
+      "en": "full"
+    },
+    {
+      "id": "kosong",
+      "ru": "пустой",
+      "en": "empty"
+    },
+    {
+      "id": "kering",
+      "ru": "сухой",
+      "en": "dry"
+    },
+    {
+      "id": "basah",
+      "ru": "мокрый",
+      "en": "wet"
+    },
+    {
+      "id": "terang",
+      "ru": "светлый / яркий",
+      "en": "bright"
+    },
+    {
+      "id": "gelap",
+      "ru": "тёмный",
+      "en": "dark"
+    },
+    {
+      "id": "cerah",
+      "ru": "солнечный",
+      "en": "sunny"
+    },
+    {
+      "id": "mendung",
+      "ru": "облачно",
+      "en": "cloudy"
+    },
+    {
+      "id": "indah",
+      "ru": "красивый",
+      "en": "beautiful"
+    },
+    {
+      "id": "cantik",
+      "ru": "красивая",
+      "en": "pretty"
+    },
+    {
+      "id": "ganteng",
+      "ru": "красивый (м.)",
+      "en": "handsome"
+    },
+    {
+      "id": "tampan",
+      "ru": "красивый (м.)",
+      "en": "handsome"
+    },
+    {
+      "id": "kuat",
+      "ru": "сильный",
+      "en": "strong"
+    },
+    {
+      "id": "lemah",
+      "ru": "слабый",
+      "en": "weak"
+    },
+    {
+      "id": "segar",
+      "ru": "свежий",
+      "en": "fresh"
+    },
+    {
+      "id": "bersih",
+      "ru": "чистый",
+      "en": "clean"
+    },
+    {
+      "id": "kotor",
+      "ru": "грязный",
+      "en": "dirty"
+    },
+    {
+      "id": "rapi",
+      "ru": "опрятный",
+      "en": "tidy"
+    },
+    {
+      "id": "berantakan",
+      "ru": "неубранный",
+      "en": "messy"
+    },
+    {
+      "id": "ramai",
+      "ru": "шумный / людный",
+      "en": "crowded"
+    },
+    {
+      "id": "sepi",
+      "ru": "тихий / безлюдный",
+      "en": "quiet"
+    },
+    {
+      "id": "ramah",
+      "ru": "приветливый",
+      "en": "friendly"
+    },
+    {
+      "id": "sopan",
+      "ru": "вежливый",
+      "en": "polite"
+    },
+    {
+      "id": "kasar",
+      "ru": "грубый",
+      "en": "rude"
+    },
+    {
+      "id": "pintar",
+      "ru": "умный",
+      "en": "smart"
+    },
+    {
+      "id": "pandai",
+      "ru": "способный",
+      "en": "clever"
+    },
+    {
+      "id": "cerdas",
+      "ru": "сообразительный",
+      "en": "intelligent"
+    },
+    {
+      "id": "bodoh",
+      "ru": "глупый",
+      "en": "stupid"
+    },
+    {
+      "id": "rajin",
+      "ru": "усердный",
+      "en": "diligent"
+    },
+    {
+      "id": "malas",
+      "ru": "ленивый",
+      "en": "lazy"
+    },
+    {
+      "id": "berani",
+      "ru": "смелый",
+      "en": "brave"
+    },
+    {
+      "id": "penakut",
+      "ru": "трусливый",
+      "en": "cowardly"
+    },
+    {
+      "id": "baik hati",
+      "ru": "добрый",
+      "en": "kind"
+    },
+    {
+      "id": "jahat",
+      "ru": "злой",
+      "en": "evil"
+    },
+    {
+      "id": "sabar",
+      "ru": "терпеливый",
+      "en": "patient"
+    },
+    {
+      "id": "gemuk",
+      "ru": "толстый",
+      "en": "fat"
+    },
+    {
+      "id": "kurus",
+      "ru": "худой",
+      "en": "thin"
+    },
+    {
+      "id": "langsing",
+      "ru": "стройный",
+      "en": "slim"
+    },
+    {
+      "id": "penting",
+      "ru": "важный",
+      "en": "important"
+    },
+    {
+      "id": "menarik",
+      "ru": "интересный",
+      "en": "interesting"
+    },
+    {
+      "id": "membosankan",
+      "ru": "скучный",
+      "en": "boring"
+    },
+    {
+      "id": "lucu",
+      "ru": "смешной",
+      "en": "funny"
+    },
+    {
+      "id": "serius",
+      "ru": "серьёзный",
+      "en": "serious"
+    },
+    {
+      "id": "aman",
+      "ru": "безопасный",
+      "en": "safe"
+    },
+    {
+      "id": "bahaya",
+      "ru": "опасность",
+      "en": "danger"
+    },
+    {
+      "id": "berbahaya",
+      "ru": "опасный",
+      "en": "dangerous"
+    },
+    {
+      "id": "nyaman",
+      "ru": "удобный",
+      "en": "comfortable"
+    },
+    {
+      "id": "tenang",
+      "ru": "спокойный",
+      "en": "calm"
+    },
+    {
+      "id": "ribut",
+      "ru": "шумный",
+      "en": "noisy"
+    },
+    {
+      "id": "berisik",
+      "ru": "шумный",
+      "en": "noisy"
+    },
+    {
+      "id": "bising",
+      "ru": "шумный",
+      "en": "noisy"
+    },
+    {
+      "id": "asli",
+      "ru": "оригинальный",
+      "en": "original"
+    },
+    {
+      "id": "palsu",
+      "ru": "поддельный",
+      "en": "fake"
+    }
+  ]
+}

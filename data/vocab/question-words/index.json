@@ -1,0 +1,73 @@
+{
+  "title": "Вопросительные слова",
+  "title_id": "Kata tanya",
+  "description": "Что, кто, где, когда, почему, как, сколько",
+  "description_id": "Apa, siapa, di mana, kapan, mengapa, bagaimana, berapa",
+  "words": [
+    {
+      "id": "apa",
+      "ru": "что",
+      "en": "what"
+    },
+    {
+      "id": "siapa",
+      "ru": "кто",
+      "en": "who"
+    },
+    {
+      "id": "mana",
+      "ru": "где / какой",
+      "en": "where / which"
+    },
+    {
+      "id": "di mana",
+      "ru": "где",
+      "en": "where"
+    },
+    {
+      "id": "ke mana",
+      "ru": "куда",
+      "en": "where to"
+    },
+    {
+      "id": "dari mana",
+      "ru": "откуда",
+      "en": "where from"
+    },
+    {
+      "id": "kapan",
+      "ru": "когда",
+      "en": "when"
+    },
+    {
+      "id": "mengapa",
+      "ru": "почему",
+      "en": "why"
+    },
+    {
+      "id": "kenapa",
+      "ru": "почему (разг.)",
+      "en": "why (informal)"
+    },
+    {
+      "id": "bagaimana",
+      "ru": "как",
+      "en": "how"
+    },
+    {
+      "id": "berapa",
+      "ru": "сколько",
+      "en": "how many / how much"
+    },
+    {
+      "id": "yang mana",
+      "ru": "который",
+      "en": "which one"
+    },
+    {
+      "id": "apakah",
+      "ru": "ли (вопрос. частица)",
+      "en": "is (question particle)"
+    }
+  ]
+}

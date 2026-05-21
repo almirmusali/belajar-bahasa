@@ -1,0 +1,78 @@
+{
+  "title": "Местоимения",
+  "title_id": "Kata ganti",
+  "description": "Я, ты, он/она, мы, вы, они и формальные варианты",
+  "description_id": "Saya, kamu, dia, kami, kalian, mereka dan bentuk formal",
+  "words": [
+    {
+      "id": "saya",
+      "ru": "я",
+      "en": "I"
+    },
+    {
+      "id": "aku",
+      "ru": "я (близко)",
+      "en": "I (informal)"
+    },
+    {
+      "id": "kamu",
+      "ru": "ты",
+      "en": "you"
+    },
+    {
+      "id": "kau",
+      "ru": "ты (поэт.)",
+      "en": "you (poetic)"
+    },
+    {
+      "id": "Anda",
+      "ru": "Вы",
+      "en": "you (formal)"
+    },
+    {
+      "id": "dia",
+      "ru": "он / она",
+      "en": "he / she"
+    },
+    {
+      "id": "ia",
+      "ru": "он / она (формально)",
+      "en": "he / she (formal)"
+    },
+    {
+      "id": "beliau",
+      "ru": "он/она (очень уважительно)",
+      "en": "he / she (very respectful)"
+    },
+    {
+      "id": "kita",
+      "ru": "мы (вкл. собеседника)",
+      "en": "we (inclusive)"
+    },
+    {
+      "id": "kami",
+      "ru": "мы (без собеседника)",
+      "en": "we (exclusive)"
+    },
+    {
+      "id": "kalian",
+      "ru": "вы (мн.)",
+      "en": "you (plural)"
+    },
+    {
+      "id": "mereka",
+      "ru": "они",
+      "en": "they"
+    },
+    {
+      "id": "diri",
+      "ru": "сам / себя",
+      "en": "self"
+    },
+    {
+      "id": "diri sendiri",
+      "ru": "сам себя",
+      "en": "oneself"
+    }
+  ]
+}

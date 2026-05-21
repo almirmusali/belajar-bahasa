@@ -1,0 +1,238 @@
+{
+  "title": "Числа",
+  "title_id": "Angka",
+  "description": "От 0 до миллиарда, порядковые, дроби",
+  "description_id": "Dari 0 sampai miliar, bilangan tingkat, pecahan",
+  "words": [
+    {
+      "id": "nol",
+      "ru": "0",
+      "en": "zero"
+    },
+    {
+      "id": "satu",
+      "ru": "1",
+      "en": "one"
+    },
+    {
+      "id": "dua",
+      "ru": "2",
+      "en": "two"
+    },
+    {
+      "id": "tiga",
+      "ru": "3",
+      "en": "three"
+    },
+    {
+      "id": "empat",
+      "ru": "4",
+      "en": "four"
+    },
+    {
+      "id": "lima",
+      "ru": "5",
+      "en": "five"
+    },
+    {
+      "id": "enam",
+      "ru": "6",
+      "en": "six"
+    },
+    {
+      "id": "tujuh",
+      "ru": "7",
+      "en": "seven"
+    },
+    {
+      "id": "delapan",
+      "ru": "8",
+      "en": "eight"
+    },
+    {
+      "id": "sembilan",
+      "ru": "9",
+      "en": "nine"
+    },
+    {
+      "id": "sepuluh",
+      "ru": "10",
+      "en": "ten"
+    },
+    {
+      "id": "sebelas",
+      "ru": "11",
+      "en": "eleven"
+    },
+    {
+      "id": "dua belas",
+      "ru": "12",
+      "en": "twelve"
+    },
+    {
+      "id": "tiga belas",
+      "ru": "13",
+      "en": "thirteen"
+    },
+    {
+      "id": "empat belas",
+      "ru": "14",
+      "en": "fourteen"
+    },
+    {
+      "id": "lima belas",
+      "ru": "15",
+      "en": "fifteen"
+    },
+    {
+      "id": "enam belas",
+      "ru": "16",
+      "en": "sixteen"
+    },
+    {
+      "id": "tujuh belas",
+      "ru": "17",
+      "en": "seventeen"
+    },
+    {
+      "id": "delapan belas",
+      "ru": "18",
+      "en": "eighteen"
+    },
+    {
+      "id": "sembilan belas",
+      "ru": "19",
+      "en": "nineteen"
+    },
+    {
+      "id": "dua puluh",
+      "ru": "20",
+      "en": "twenty"
+    },
+    {
+      "id": "tiga puluh",
+      "ru": "30",
+      "en": "thirty"
+    },
+    {
+      "id": "empat puluh",
+      "ru": "40",
+      "en": "forty"
+    },
+    {
+      "id": "lima puluh",
+      "ru": "50",
+      "en": "fifty"
+    },
+    {
+      "id": "enam puluh",
+      "ru": "60",
+      "en": "sixty"
+    },
+    {
+      "id": "tujuh puluh",
+      "ru": "70",
+      "en": "seventy"
+    },
+    {
+      "id": "delapan puluh",
+      "ru": "80",
+      "en": "eighty"
+    },
+    {
+      "id": "sembilan puluh",
+      "ru": "90",
+      "en": "ninety"
+    },
+    {
+      "id": "seratus",
+      "ru": "100",
+      "en": "one hundred"
+    },
+    {
+      "id": "dua ratus",
+      "ru": "200",
+      "en": "two hundred"
+    },
+    {
+      "id": "lima ratus",
+      "ru": "500",
+      "en": "five hundred"
+    },
+    {
+      "id": "seribu",
+      "ru": "1000",
+      "en": "one thousand"
+    },
+    {
+      "id": "sepuluh ribu",
+      "ru": "10 000",
+      "en": "ten thousand"
+    },
+    {
+      "id": "seratus ribu",
+      "ru": "100 000",
+      "en": "one hundred thousand"
+    },
+    {
+      "id": "sejuta",
+      "ru": "миллион",
+      "en": "one million"
+    },
+    {
+      "id": "semiliar",
+      "ru": "миллиард",
+      "en": "one billion"
+    },
+    {
+      "id": "pertama",
+      "ru": "первый",
+      "en": "first"
+    },
+    {
+      "id": "kedua",
+      "ru": "второй",
+      "en": "second"
+    },
+    {
+      "id": "ketiga",
+      "ru": "третий",
+      "en": "third"
+    },
+    {
+      "id": "keempat",
+      "ru": "четвёртый",
+      "en": "fourth"
+    },
+    {
+      "id": "kelima",
+      "ru": "пятый",
+      "en": "fifth"
+    },
+    {
+      "id": "terakhir",
+      "ru": "последний",
+      "en": "last"
+    },
+    {
+      "id": "setengah",
+      "ru": "половина",
+      "en": "half"
+    },
+    {
+      "id": "seperempat",
+      "ru": "четверть",
+      "en": "quarter"
+    },
+    {
+      "id": "kali",
+      "ru": "раз",
+      "en": "times"
+    },
+    {
+      "id": "pasang",
+      "ru": "пара",
+      "en": "pair"
+    }
+  ]
+}

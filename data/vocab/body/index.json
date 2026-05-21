@@ -1,0 +1,268 @@
+{
+  "title": "Тело",
+  "title_id": "Tubuh",
+  "description": "Части тела от головы до ног, органы",
+  "description_id": "Bagian tubuh dari kepala sampai kaki, organ",
+  "words": [
+    {
+      "id": "tubuh",
+      "ru": "тело",
+      "en": "body"
+    },
+    {
+      "id": "badan",
+      "ru": "тело",
+      "en": "body"
+    },
+    {
+      "id": "kepala",
+      "ru": "голова",
+      "en": "head"
+    },
+    {
+      "id": "rambut",
+      "ru": "волосы",
+      "en": "hair"
+    },
+    {
+      "id": "wajah",
+      "ru": "лицо",
+      "en": "face"
+    },
+    {
+      "id": "muka",
+      "ru": "лицо",
+      "en": "face"
+    },
+    {
+      "id": "dahi",
+      "ru": "лоб",
+      "en": "forehead"
+    },
+    {
+      "id": "mata",
+      "ru": "глаз",
+      "en": "eye"
+    },
+    {
+      "id": "alis",
+      "ru": "бровь",
+      "en": "eyebrow"
+    },
+    {
+      "id": "bulu mata",
+      "ru": "ресница",
+      "en": "eyelash"
+    },
+    {
+      "id": "hidung",
+      "ru": "нос",
+      "en": "nose"
+    },
+    {
+      "id": "pipi",
+      "ru": "щека",
+      "en": "cheek"
+    },
+    {
+      "id": "telinga",
+      "ru": "ухо",
+      "en": "ear"
+    },
+    {
+      "id": "kuping",
+      "ru": "ухо (разг.)",
+      "en": "ear (casual)"
+    },
+    {
+      "id": "mulut",
+      "ru": "рот",
+      "en": "mouth"
+    },
+    {
+      "id": "bibir",
+      "ru": "губа",
+      "en": "lip"
+    },
+    {
+      "id": "gigi",
+      "ru": "зуб",
+      "en": "tooth"
+    },
+    {
+      "id": "lidah",
+      "ru": "язык",
+      "en": "tongue"
+    },
+    {
+      "id": "dagu",
+      "ru": "подбородок",
+      "en": "chin"
+    },
+    {
+      "id": "leher",
+      "ru": "шея",
+      "en": "neck"
+    },
+    {
+      "id": "tenggorokan",
+      "ru": "горло",
+      "en": "throat"
+    },
+    {
+      "id": "bahu",
+      "ru": "плечо",
+      "en": "shoulder"
+    },
+    {
+      "id": "lengan",
+      "ru": "рука (предплечье)",
+      "en": "arm"
+    },
+    {
+      "id": "siku",
+      "ru": "локоть",
+      "en": "elbow"
+    },
+    {
+      "id": "tangan",
+      "ru": "рука (кисть)",
+      "en": "hand"
+    },
+    {
+      "id": "jari",
+      "ru": "палец",
+      "en": "finger"
+    },
+    {
+      "id": "ibu jari",
+      "ru": "большой палец",
+      "en": "thumb"
+    },
+    {
+      "id": "kuku",
+      "ru": "ноготь",
+      "en": "nail"
+    },
+    {
+      "id": "telapak tangan",
+      "ru": "ладонь",
+      "en": "palm"
+    },
+    {
+      "id": "dada",
+      "ru": "грудь",
+      "en": "chest"
+    },
+    {
+      "id": "perut",
+      "ru": "живот",
+      "en": "stomach"
+    },
+    {
+      "id": "pinggang",
+      "ru": "талия",
+      "en": "waist"
+    },
+    {
+      "id": "pinggul",
+      "ru": "бедро",
+      "en": "hip"
+    },
+    {
+      "id": "punggung",
+      "ru": "спина",
+      "en": "back"
+    },
+    {
+      "id": "kaki",
+      "ru": "нога",
+      "en": "leg / foot"
+    },
+    {
+      "id": "paha",
+      "ru": "бедро",
+      "en": "thigh"
+    },
+    {
+      "id": "lutut",
+      "ru": "колено",
+      "en": "knee"
+    },
+    {
+      "id": "betis",
+      "ru": "голень",
+      "en": "calf"
+    },
+    {
+      "id": "telapak kaki",
+      "ru": "ступня",
+      "en": "sole"
+    },
+    {
+      "id": "kulit",
+      "ru": "кожа",
+      "en": "skin"
+    },
+    {
+      "id": "darah",
+      "ru": "кровь",
+      "en": "blood"
+    },
+    {
+      "id": "tulang",
+      "ru": "кость",
+      "en": "bone"
+    },
+    {
+      "id": "otot",
+      "ru": "мышца",
+      "en": "muscle"
+    },
+    {
+      "id": "jantung",
+      "ru": "сердце",
+      "en": "heart"
+    },
+    {
+      "id": "hati",
+      "ru": "печень / душа",
+      "en": "liver / soul"
+    },
+    {
+      "id": "paru-paru",
+      "ru": "лёгкие",
+      "en": "lungs"
+    },
+    {
+      "id": "otak",
+      "ru": "мозг",
+      "en": "brain"
+    },
+    {
+      "id": "ginjal",
+      "ru": "почка",
+      "en": "kidney"
+    },
+    {
+      "id": "perasaan",
+      "ru": "чувство",
+      "en": "feeling"
+    },
+    {
+      "id": "pikiran",
+      "ru": "мысль / ум",
+      "en": "thought / mind"
+    },
+    {
+      "id": "ingatan",
+      "ru": "память",
+      "en": "memory"
+    },
+    {
+      "id": "mimpi",
+      "ru": "сон / мечта",
+      "en": "dream"
+    }
+  ]
+}

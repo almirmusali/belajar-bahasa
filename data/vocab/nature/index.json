@@ -1,0 +1,243 @@
+{
+  "title": "Природа и погода",
+  "title_id": "Alam dan cuaca",
+  "description": "Небо, ландшафт, погодные явления, растения",
+  "description_id": "Langit, lanskap, cuaca, tumbuhan",
+  "words": [
+    {
+      "id": "alam",
+      "ru": "природа",
+      "en": "nature"
+    },
+    {
+      "id": "langit",
+      "ru": "небо",
+      "en": "sky"
+    },
+    {
+      "id": "awan",
+      "ru": "облако",
+      "en": "cloud"
+    },
+    {
+      "id": "matahari",
+      "ru": "солнце",
+      "en": "sun"
+    },
+    {
+      "id": "bintang",
+      "ru": "звезда",
+      "en": "star"
+    },
+    {
+      "id": "hujan",
+      "ru": "дождь",
+      "en": "rain"
+    },
+    {
+      "id": "salju",
+      "ru": "снег",
+      "en": "snow"
+    },
+    {
+      "id": "angin",
+      "ru": "ветер",
+      "en": "wind"
+    },
+    {
+      "id": "badai",
+      "ru": "буря",
+      "en": "storm"
+    },
+    {
+      "id": "petir",
+      "ru": "молния",
+      "en": "thunder"
+    },
+    {
+      "id": "pelangi",
+      "ru": "радуга",
+      "en": "rainbow"
+    },
+    {
+      "id": "kabut",
+      "ru": "туман",
+      "en": "fog"
+    },
+    {
+      "id": "embun",
+      "ru": "роса",
+      "en": "dew"
+    },
+    {
+      "id": "panas",
+      "ru": "жарко / жара",
+      "en": "hot"
+    },
+    {
+      "id": "dingin",
+      "ru": "холодно",
+      "en": "cold"
+    },
+    {
+      "id": "sejuk",
+      "ru": "прохладно",
+      "en": "cool"
+    },
+    {
+      "id": "hangat",
+      "ru": "тёплый",
+      "en": "warm"
+    },
+    {
+      "id": "lembap",
+      "ru": "влажный",
+      "en": "humid"
+    },
+    {
+      "id": "cuaca",
+      "ru": "погода",
+      "en": "weather"
+    },
+    {
+      "id": "gunung",
+      "ru": "гора",
+      "en": "mountain"
+    },
+    {
+      "id": "bukit",
+      "ru": "холм",
+      "en": "hill"
+    },
+    {
+      "id": "lembah",
+      "ru": "долина",
+      "en": "valley"
+    },
+    {
+      "id": "sungai",
+      "ru": "река",
+      "en": "river"
+    },
+    {
+      "id": "danau",
+      "ru": "озеро",
+      "en": "lake"
+    },
+    {
+      "id": "laut",
+      "ru": "море",
+      "en": "sea"
+    },
+    {
+      "id": "samudra",
+      "ru": "океан",
+      "en": "ocean"
+    },
+    {
+      "id": "pantai",
+      "ru": "пляж",
+      "en": "beach"
+    },
+    {
+      "id": "ombak",
+      "ru": "волна",
+      "en": "wave"
+    },
+    {
+      "id": "pulau",
+      "ru": "остров",
+      "en": "island"
+    },
+    {
+      "id": "pasir",
+      "ru": "песок",
+      "en": "sand"
+    },
+    {
+      "id": "batu",
+      "ru": "камень",
+      "en": "stone"
+    },
+    {
+      "id": "tanah",
+      "ru": "земля",
+      "en": "land / soil"
+    },
+    {
+      "id": "lumpur",
+      "ru": "грязь",
+      "en": "mud"
+    },
+    {
+      "id": "api",
+      "ru": "огонь",
+      "en": "fire"
+    },
+    {
+      "id": "asap",
+      "ru": "дым",
+      "en": "smoke"
+    },
+    {
+      "id": "pohon",
+      "ru": "дерево",
+      "en": "tree"
+    },
+    {
+      "id": "hutan",
+      "ru": "лес",
+      "en": "forest"
+    },
+    {
+      "id": "kayu",
+      "ru": "дерево (материал)",
+      "en": "wood"
+    },
+    {
+      "id": "daun",
+      "ru": "лист",
+      "en": "leaf"
+    },
+    {
+      "id": "bunga",
+      "ru": "цветок",
+      "en": "flower"
+    },
+    {
+      "id": "rumput",
+      "ru": "трава",
+      "en": "grass"
+    },
+    {
+      "id": "akar",
+      "ru": "корень",
+      "en": "root"
+    },
+    {
+      "id": "biji",
+      "ru": "семя",
+      "en": "seed"
+    },
+    {
+      "id": "ranting",
+      "ru": "ветка",
+      "en": "branch"
+    },
+    {
+      "id": "sawah",
+      "ru": "рисовое поле",
+      "en": "rice field"
+    },
+    {
+      "id": "ladang",
+      "ru": "поле",
+      "en": "field"
+    },
+    {
+      "id": "kebun",
+      "ru": "сад",
+      "en": "garden"
+    }
+  ]
+}

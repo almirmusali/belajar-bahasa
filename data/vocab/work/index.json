@@ -1,0 +1,218 @@
+{
+  "title": "Работа и профессии",
+  "title_id": "Pekerjaan dan profesi",
+  "description": "Работа, должности, профессии, рабочие отношения",
+  "description_id": "Pekerjaan, jabatan, profesi, hubungan kerja",
+  "words": [
+    {
+      "id": "pekerjaan",
+      "ru": "работа",
+      "en": "job"
+    },
+    {
+      "id": "kerja",
+      "ru": "работа / работать",
+      "en": "work"
+    },
+    {
+      "id": "tugas",
+      "ru": "задача / задание",
+      "en": "task"
+    },
+    {
+      "id": "proyek",
+      "ru": "проект",
+      "en": "project"
+    },
+    {
+      "id": "rapat",
+      "ru": "совещание",
+      "en": "meeting"
+    },
+    {
+      "id": "pertemuan",
+      "ru": "встреча",
+      "en": "meeting"
+    },
+    {
+      "id": "perusahaan",
+      "ru": "компания",
+      "en": "company"
+    },
+    {
+      "id": "bos",
+      "ru": "начальник",
+      "en": "boss"
+    },
+    {
+      "id": "atasan",
+      "ru": "начальник",
+      "en": "superior"
+    },
+    {
+      "id": "rekan",
+      "ru": "коллега",
+      "en": "colleague"
+    },
+    {
+      "id": "kolega",
+      "ru": "коллега",
+      "en": "colleague"
+    },
+    {
+      "id": "klien",
+      "ru": "клиент",
+      "en": "client"
+    },
+    {
+      "id": "pelanggan",
+      "ru": "покупатель",
+      "en": "customer"
+    },
+    {
+      "id": "gaji",
+      "ru": "зарплата",
+      "en": "salary"
+    },
+    {
+      "id": "upah",
+      "ru": "оплата",
+      "en": "wage"
+    },
+    {
+      "id": "guru",
+      "ru": "учитель",
+      "en": "teacher"
+    },
+    {
+      "id": "dosen",
+      "ru": "преподаватель",
+      "en": "lecturer"
+    },
+    {
+      "id": "murid",
+      "ru": "ученик",
+      "en": "pupil"
+    },
+    {
+      "id": "siswa",
+      "ru": "школьник",
+      "en": "student"
+    },
+    {
+      "id": "mahasiswa",
+      "ru": "студент",
+      "en": "university student"
+    },
+    {
+      "id": "dokter",
+      "ru": "врач",
+      "en": "doctor"
+    },
+    {
+      "id": "perawat",
+      "ru": "медсестра",
+      "en": "nurse"
+    },
+    {
+      "id": "pengacara",
+      "ru": "юрист",
+      "en": "lawyer"
+    },
+    {
+      "id": "tentara",
+      "ru": "военный",
+      "en": "soldier"
+    },
+    {
+      "id": "petani",
+      "ru": "фермер",
+      "en": "farmer"
+    },
+    {
+      "id": "nelayan",
+      "ru": "рыбак",
+      "en": "fisherman"
+    },
+    {
+      "id": "pedagang",
+      "ru": "торговец",
+      "en": "trader"
+    },
+    {
+      "id": "penjual",
+      "ru": "продавец",
+      "en": "seller"
+    },
+    {
+      "id": "pembeli",
+      "ru": "покупатель",
+      "en": "buyer"
+    },
+    {
+      "id": "koki",
+      "ru": "повар",
+      "en": "chef"
+    },
+    {
+      "id": "pelayan",
+      "ru": "официант",
+      "en": "waiter"
+    },
+    {
+      "id": "pilot",
+      "ru": "пилот",
+      "en": "pilot"
+    },
+    {
+      "id": "insinyur",
+      "ru": "инженер",
+      "en": "engineer"
+    },
+    {
+      "id": "programmer",
+      "ru": "программист",
+      "en": "programmer"
+    },
+    {
+      "id": "seniman",
+      "ru": "художник / артист",
+      "en": "artist"
+    },
+    {
+      "id": "musisi",
+      "ru": "музыкант",
+      "en": "musician"
+    },
+    {
+      "id": "penulis",
+      "ru": "писатель",
+      "en": "writer"
+    },
+    {
+      "id": "wartawan",
+      "ru": "журналист",
+      "en": "journalist"
+    },
+    {
+      "id": "fotografer",
+      "ru": "фотограф",
+      "en": "photographer"
+    },
+    {
+      "id": "ibu rumah tangga",
+      "ru": "домохозяйка",
+      "en": "housewife"
+    },
+    {
+      "id": "pensiunan",
+      "ru": "пенсионер",
+      "en": "retiree"
+    },
+    {
+      "id": "pengangguran",
+      "ru": "безработный",
+      "en": "unemployed"
+    }
+  ]
+}

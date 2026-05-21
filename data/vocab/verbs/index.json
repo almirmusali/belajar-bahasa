@@ -1,0 +1,893 @@
+{
+  "title": "Глаголы",
+  "title_id": "Kata kerja",
+  "description": "~180 базовых глаголов: движение, действие, чувства, речь, мышление",
+  "description_id": "~180 kata kerja dasar: gerakan, tindakan, perasaan, ucapan, pikiran",
+  "words": [
+    {
+      "id": "pergi",
+      "ru": "идти / уходить",
+      "en": "go"
+    },
+    {
+      "id": "datang",
+      "ru": "приходить",
+      "en": "come"
+    },
+    {
+      "id": "kembali",
+      "ru": "возвращаться",
+      "en": "return"
+    },
+    {
+      "id": "pulang",
+      "ru": "идти домой",
+      "en": "go home"
+    },
+    {
+      "id": "masuk",
+      "ru": "входить",
+      "en": "enter"
+    },
+    {
+      "id": "keluar",
+      "ru": "выходить",
+      "en": "exit"
+    },
+    {
+      "id": "naik",
+      "ru": "подниматься / садиться",
+      "en": "go up / board"
+    },
+    {
+      "id": "turun",
+      "ru": "спускаться / выходить",
+      "en": "go down / get off"
+    },
+    {
+      "id": "lewat",
+      "ru": "проходить мимо",
+      "en": "pass by"
+    },
+    {
+      "id": "berjalan",
+      "ru": "идти / гулять",
+      "en": "walk"
+    },
+    {
+      "id": "jalan-jalan",
+      "ru": "гулять",
+      "en": "stroll"
+    },
+    {
+      "id": "berlari",
+      "ru": "бегать",
+      "en": "run"
+    },
+    {
+      "id": "lari",
+      "ru": "бежать",
+      "en": "run"
+    },
+    {
+      "id": "berenang",
+      "ru": "плавать",
+      "en": "swim"
+    },
+    {
+      "id": "terbang",
+      "ru": "летать",
+      "en": "fly"
+    },
+    {
+      "id": "duduk",
+      "ru": "сидеть",
+      "en": "sit"
+    },
+    {
+      "id": "berdiri",
+      "ru": "стоять",
+      "en": "stand"
+    },
+    {
+      "id": "berbaring",
+      "ru": "лежать",
+      "en": "lie down"
+    },
+    {
+      "id": "makan",
+      "ru": "есть",
+      "en": "eat"
+    },
+    {
+      "id": "minum",
+      "ru": "пить",
+      "en": "drink"
+    },
+    {
+      "id": "masak",
+      "ru": "готовить",
+      "en": "cook"
+    },
+    {
+      "id": "memasak",
+      "ru": "готовить (формально)",
+      "en": "to cook"
+    },
+    {
+      "id": "membeli",
+      "ru": "покупать",
+      "en": "to buy"
+    },
+    {
+      "id": "beli",
+      "ru": "купить",
+      "en": "buy"
+    },
+    {
+      "id": "menjual",
+      "ru": "продавать",
+      "en": "to sell"
+    },
+    {
+      "id": "jual",
+      "ru": "продать",
+      "en": "sell"
+    },
+    {
+      "id": "membayar",
+      "ru": "платить",
+      "en": "to pay"
+    },
+    {
+      "id": "bayar",
+      "ru": "платить",
+      "en": "pay"
+    },
+    {
+      "id": "menerima",
+      "ru": "получать",
+      "en": "to receive"
+    },
+    {
+      "id": "terima",
+      "ru": "получить",
+      "en": "receive"
+    },
+    {
+      "id": "mengembalikan",
+      "ru": "возвращать",
+      "en": "to return (something)"
+    },
+    {
+      "id": "melihat",
+      "ru": "видеть",
+      "en": "to see"
+    },
+    {
+      "id": "lihat",
+      "ru": "смотреть",
+      "en": "look"
+    },
+    {
+      "id": "menonton",
+      "ru": "смотреть (фильм, ТВ)",
+      "en": "to watch"
+    },
+    {
+      "id": "memperhatikan",
+      "ru": "обращать внимание",
+      "en": "pay attention"
+    },
+    {
+      "id": "mendengar",
+      "ru": "слышать",
+      "en": "to hear"
+    },
+    {
+      "id": "dengar",
+      "ru": "слушать",
+      "en": "listen"
+    },
+    {
+      "id": "mendengarkan",
+      "ru": "слушать",
+      "en": "to listen to"
+    },
+    {
+      "id": "berbicara",
+      "ru": "разговаривать",
+      "en": "to speak"
+    },
+    {
+      "id": "bicara",
+      "ru": "говорить",
+      "en": "talk"
+    },
+    {
+      "id": "ngomong",
+      "ru": "говорить (разг.)",
+      "en": "talk (informal)"
+    },
+    {
+      "id": "berkata",
+      "ru": "говорить",
+      "en": "to say"
+    },
+    {
+      "id": "mengatakan",
+      "ru": "сказать",
+      "en": "to say"
+    },
+    {
+      "id": "menjawab",
+      "ru": "отвечать",
+      "en": "to answer"
+    },
+    {
+      "id": "bertanya",
+      "ru": "спрашивать",
+      "en": "to ask"
+    },
+    {
+      "id": "memanggil",
+      "ru": "звать",
+      "en": "to call"
+    },
+    {
+      "id": "membaca",
+      "ru": "читать",
+      "en": "to read"
+    },
+    {
+      "id": "menulis",
+      "ru": "писать",
+      "en": "to write"
+    },
+    {
+      "id": "mencatat",
+      "ru": "записывать",
+      "en": "note down"
+    },
+    {
+      "id": "menggambar",
+      "ru": "рисовать",
+      "en": "to draw"
+    },
+    {
+      "id": "mencari",
+      "ru": "искать",
+      "en": "to search"
+    },
+    {
+      "id": "menemukan",
+      "ru": "находить",
+      "en": "to find"
+    },
+    {
+      "id": "kehilangan",
+      "ru": "терять",
+      "en": "to lose"
+    },
+    {
+      "id": "mengambil",
+      "ru": "брать",
+      "en": "to take"
+    },
+    {
+      "id": "memberikan",
+      "ru": "давать",
+      "en": "to give"
+    },
+    {
+      "id": "memberi",
+      "ru": "давать",
+      "en": "give"
+    },
+    {
+      "id": "membawa",
+      "ru": "приносить / нести",
+      "en": "to bring"
+    },
+    {
+      "id": "mengirim",
+      "ru": "отправлять",
+      "en": "to send"
+    },
+    {
+      "id": "mengantar",
+      "ru": "провожать / доставлять",
+      "en": "to escort / deliver"
+    },
+    {
+      "id": "membuka",
+      "ru": "открывать",
+      "en": "to open"
+    },
+    {
+      "id": "menutup",
+      "ru": "закрывать",
+      "en": "to close"
+    },
+    {
+      "id": "memulai",
+      "ru": "начинать",
+      "en": "to start"
+    },
+    {
+      "id": "mulai",
+      "ru": "начинать",
+      "en": "start"
+    },
+    {
+      "id": "mengakhiri",
+      "ru": "заканчивать",
+      "en": "to end"
+    },
+    {
+      "id": "selesai",
+      "ru": "закончить / готово",
+      "en": "finished"
+    },
+    {
+      "id": "beristirahat",
+      "ru": "отдыхать",
+      "en": "to rest"
+    },
+    {
+      "id": "mencuci",
+      "ru": "стирать / мыть",
+      "en": "to wash"
+    },
+    {
+      "id": "membersihkan",
+      "ru": "чистить",
+      "en": "to clean"
+    },
+    {
+      "id": "menyapu",
+      "ru": "подметать",
+      "en": "to sweep"
+    },
+    {
+      "id": "membantu",
+      "ru": "помогать",
+      "en": "to help"
+    },
+    {
+      "id": "menolong",
+      "ru": "помогать",
+      "en": "to help"
+    },
+    {
+      "id": "berpikir",
+      "ru": "думать",
+      "en": "to think"
+    },
+    {
+      "id": "memikirkan",
+      "ru": "думать о",
+      "en": "to think about"
+    },
+    {
+      "id": "percaya",
+      "ru": "верить",
+      "en": "to believe"
+    },
+    {
+      "id": "mengerti",
+      "ru": "понимать",
+      "en": "to understand"
+    },
+    {
+      "id": "memahami",
+      "ru": "понимать",
+      "en": "to understand"
+    },
+    {
+      "id": "mengetahui",
+      "ru": "знать (формально)",
+      "en": "to know (formal)"
+    },
+    {
+      "id": "ingat",
+      "ru": "помнить",
+      "en": "remember"
+    },
+    {
+      "id": "mengingat",
+      "ru": "помнить",
+      "en": "to remember"
+    },
+    {
+      "id": "lupa",
+      "ru": "забывать",
+      "en": "forget"
+    },
+    {
+      "id": "melupakan",
+      "ru": "забывать",
+      "en": "to forget"
+    },
+    {
+      "id": "suka",
+      "ru": "нравиться",
+      "en": "like"
+    },
+    {
+      "id": "menyukai",
+      "ru": "нравиться",
+      "en": "to like"
+    },
+    {
+      "id": "cinta",
+      "ru": "любить",
+      "en": "love"
+    },
+    {
+      "id": "mencintai",
+      "ru": "любить",
+      "en": "to love"
+    },
+    {
+      "id": "sayang",
+      "ru": "любить / жаль",
+      "en": "love / pity"
+    },
+    {
+      "id": "benci",
+      "ru": "ненавидеть",
+      "en": "hate"
+    },
+    {
+      "id": "marah",
+      "ru": "сердиться",
+      "en": "angry"
+    },
+    {
+      "id": "senang",
+      "ru": "радостный",
+      "en": "happy"
+    },
+    {
+      "id": "gembira",
+      "ru": "весёлый",
+      "en": "cheerful"
+    },
+    {
+      "id": "bahagia",
+      "ru": "счастливый",
+      "en": "happy"
+    },
+    {
+      "id": "sedih",
+      "ru": "грустный",
+      "en": "sad"
+    },
+    {
+      "id": "takut",
+      "ru": "бояться",
+      "en": "afraid"
+    },
+    {
+      "id": "kaget",
+      "ru": "поражённый",
+      "en": "shocked"
+    },
+    {
+      "id": "terkejut",
+      "ru": "удивлён",
+      "en": "surprised"
+    },
+    {
+      "id": "malu",
+      "ru": "стесняться",
+      "en": "shy"
+    },
+    {
+      "id": "bangga",
+      "ru": "гордый",
+      "en": "proud"
+    },
+    {
+      "id": "kecewa",
+      "ru": "разочарованный",
+      "en": "disappointed"
+    },
+    {
+      "id": "bingung",
+      "ru": "в замешательстве",
+      "en": "confused"
+    },
+    {
+      "id": "kesal",
+      "ru": "раздражённый",
+      "en": "annoyed"
+    },
+    {
+      "id": "menangis",
+      "ru": "плакать",
+      "en": "cry"
+    },
+    {
+      "id": "tertawa",
+      "ru": "смеяться",
+      "en": "laugh"
+    },
+    {
+      "id": "tersenyum",
+      "ru": "улыбаться",
+      "en": "smile"
+    },
+    {
+      "id": "merasa",
+      "ru": "чувствовать",
+      "en": "to feel"
+    },
+    {
+      "id": "hidup",
+      "ru": "жить / живой",
+      "en": "live / alive"
+    },
+    {
+      "id": "mati",
+      "ru": "умирать / мёртвый",
+      "en": "die / dead"
+    },
+    {
+      "id": "lahir",
+      "ru": "рождаться",
+      "en": "be born"
+    },
+    {
+      "id": "meninggal",
+      "ru": "умирать (форм.)",
+      "en": "pass away"
+    },
+    {
+      "id": "menikah",
+      "ru": "жениться",
+      "en": "get married"
+    },
+    {
+      "id": "bertemu",
+      "ru": "встречаться",
+      "en": "to meet"
+    },
+    {
+      "id": "ketemu",
+      "ru": "встретиться (разг.)",
+      "en": "meet (informal)"
+    },
+    {
+      "id": "berpisah",
+      "ru": "расставаться",
+      "en": "part / separate"
+    },
+    {
+      "id": "menunggu",
+      "ru": "ждать",
+      "en": "to wait"
+    },
+    {
+      "id": "tunggu",
+      "ru": "подожди",
+      "en": "wait"
+    },
+    {
+      "id": "terlambat",
+      "ru": "опаздывать",
+      "en": "to be late"
+    },
+    {
+      "id": "bermain",
+      "ru": "играть",
+      "en": "to play"
+    },
+    {
+      "id": "main",
+      "ru": "играть",
+      "en": "play"
+    },
+    {
+      "id": "menari",
+      "ru": "танцевать",
+      "en": "to dance"
+    },
+    {
+      "id": "menyanyi",
+      "ru": "петь",
+      "en": "to sing"
+    },
+    {
+      "id": "bernyanyi",
+      "ru": "петь",
+      "en": "to sing"
+    },
+    {
+      "id": "menggunakan",
+      "ru": "использовать",
+      "en": "to use"
+    },
+    {
+      "id": "memakai",
+      "ru": "носить / использовать",
+      "en": "to wear / use"
+    },
+    {
+      "id": "pakai",
+      "ru": "носить",
+      "en": "wear"
+    },
+    {
+      "id": "mencoba",
+      "ru": "пробовать",
+      "en": "to try"
+    },
+    {
+      "id": "berusaha",
+      "ru": "стараться",
+      "en": "to try / endeavor"
+    },
+    {
+      "id": "berhasil",
+      "ru": "успех / удалось",
+      "en": "succeed"
+    },
+    {
+      "id": "gagal",
+      "ru": "потерпеть неудачу",
+      "en": "fail"
+    },
+    {
+      "id": "menang",
+      "ru": "побеждать",
+      "en": "win"
+    },
+    {
+      "id": "kalah",
+      "ru": "проигрывать",
+      "en": "lose"
+    },
+    {
+      "id": "mengubah",
+      "ru": "менять",
+      "en": "to change"
+    },
+    {
+      "id": "mengganti",
+      "ru": "заменять",
+      "en": "to replace"
+    },
+    {
+      "id": "menambah",
+      "ru": "добавлять",
+      "en": "to add"
+    },
+    {
+      "id": "mengurangi",
+      "ru": "уменьшать",
+      "en": "to reduce"
+    },
+    {
+      "id": "memperbaiki",
+      "ru": "чинить",
+      "en": "to repair"
+    },
+    {
+      "id": "merusak",
+      "ru": "ломать",
+      "en": "to damage"
+    },
+    {
+      "id": "membuat",
+      "ru": "делать / создавать",
+      "en": "to make"
+    },
+    {
+      "id": "bikin",
+      "ru": "сделать (разг.)",
+      "en": "make (informal)"
+    },
+    {
+      "id": "melakukan",
+      "ru": "делать",
+      "en": "to do"
+    },
+    {
+      "id": "mempunyai",
+      "ru": "иметь",
+      "en": "to have"
+    },
+    {
+      "id": "punya",
+      "ru": "иметь (разг.)",
+      "en": "have"
+    },
+    {
+      "id": "memiliki",
+      "ru": "владеть",
+      "en": "to own"
+    },
+    {
+      "id": "menjadi",
+      "ru": "становиться",
+      "en": "to become"
+    },
+    {
+      "id": "mengajar",
+      "ru": "учить (других)",
+      "en": "to teach"
+    },
+    {
+      "id": "mengajari",
+      "ru": "обучать",
+      "en": "to instruct"
+    },
+    {
+      "id": "belajar",
+      "ru": "учиться",
+      "en": "to learn"
+    },
+    {
+      "id": "mempelajari",
+      "ru": "изучать",
+      "en": "to study"
+    },
+    {
+      "id": "berlatih",
+      "ru": "тренироваться",
+      "en": "to practice"
+    },
+    {
+      "id": "berolahraga",
+      "ru": "заниматься спортом",
+      "en": "exercise"
+    },
+    {
+      "id": "berlibur",
+      "ru": "отдыхать в отпуске",
+      "en": "to vacation"
+    },
+    {
+      "id": "bersantai",
+      "ru": "расслабляться",
+      "en": "to relax"
+    },
+    {
+      "id": "berbohong",
+      "ru": "врать",
+      "en": "to lie"
+    },
+    {
+      "id": "jujur",
+      "ru": "честный",
+      "en": "honest"
+    },
+    {
+      "id": "mencuri",
+      "ru": "красть",
+      "en": "to steal"
+    },
+    {
+      "id": "menipu",
+      "ru": "обманывать",
+      "en": "to deceive"
+    },
+    {
+      "id": "mengundang",
+      "ru": "приглашать",
+      "en": "to invite"
+    },
+    {
+      "id": "menolak",
+      "ru": "отказывать",
+      "en": "to refuse"
+    },
+    {
+      "id": "menyetujui",
+      "ru": "соглашаться",
+      "en": "to agree to"
+    },
+    {
+      "id": "setuju",
+      "ru": "согласен",
+      "en": "agree"
+    },
+    {
+      "id": "mengizinkan",
+      "ru": "разрешать",
+      "en": "to allow"
+    },
+    {
+      "id": "melarang",
+      "ru": "запрещать",
+      "en": "to forbid"
+    },
+    {
+      "id": "memesan",
+      "ru": "заказывать",
+      "en": "to order"
+    },
+    {
+      "id": "pesan",
+      "ru": "заказ / сообщение",
+      "en": "order / message"
+    },
+    {
+      "id": "mengirimkan",
+      "ru": "присылать",
+      "en": "to send"
+    },
+    {
+      "id": "menelpon",
+      "ru": "звонить",
+      "en": "to call"
+    },
+    {
+      "id": "menelepon",
+      "ru": "звонить (форм.)",
+      "en": "to call (formal)"
+    },
+    {
+      "id": "menjelaskan",
+      "ru": "объяснять",
+      "en": "to explain"
+    },
+    {
+      "id": "memilih",
+      "ru": "выбирать",
+      "en": "to choose"
+    },
+    {
+      "id": "membayangkan",
+      "ru": "представлять",
+      "en": "to imagine"
+    },
+    {
+      "id": "bermimpi",
+      "ru": "мечтать / видеть сон",
+      "en": "to dream"
+    },
+    {
+      "id": "menghitung",
+      "ru": "считать",
+      "en": "to count"
+    },
+    {
+      "id": "menjaga",
+      "ru": "охранять / заботиться",
+      "en": "to guard"
+    },
+    {
+      "id": "melindungi",
+      "ru": "защищать",
+      "en": "to protect"
+    },
+    {
+      "id": "menyelamatkan",
+      "ru": "спасать",
+      "en": "to save"
+    },
+    {
+      "id": "menyembunyikan",
+      "ru": "прятать",
+      "en": "to hide"
+    },
+    {
+      "id": "berhenti",
+      "ru": "останавливаться",
+      "en": "to stop"
+    },
+    {
+      "id": "melanjutkan",
+      "ru": "продолжать",
+      "en": "to continue"
+    },
+    {
+      "id": "lanjut",
+      "ru": "продолжать",
+      "en": "continue"
+    }
+  ]
+}

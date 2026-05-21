@@ -1,0 +1,178 @@
+{
+  "title": "Фрукты и овощи",
+  "title_id": "Buah dan sayur",
+  "description": "Сезонные фрукты, овощи, специи",
+  "description_id": "Buah musiman, sayuran, rempah",
+  "words": [
+    {
+      "id": "apel",
+      "ru": "яблоко",
+      "en": "apple"
+    },
+    {
+      "id": "jeruk",
+      "ru": "апельсин",
+      "en": "orange"
+    },
+    {
+      "id": "pisang",
+      "ru": "банан",
+      "en": "banana"
+    },
+    {
+      "id": "mangga",
+      "ru": "манго",
+      "en": "mango"
+    },
+    {
+      "id": "nanas",
+      "ru": "ананас",
+      "en": "pineapple"
+    },
+    {
+      "id": "semangka",
+      "ru": "арбуз",
+      "en": "watermelon"
+    },
+    {
+      "id": "melon",
+      "ru": "дыня",
+      "en": "melon"
+    },
+    {
+      "id": "stroberi",
+      "ru": "клубника",
+      "en": "strawberry"
+    },
+    {
+      "id": "durian",
+      "ru": "дуриан",
+      "en": "durian"
+    },
+    {
+      "id": "pepaya",
+      "ru": "папайя",
+      "en": "papaya"
+    },
+    {
+      "id": "kelapa",
+      "ru": "кокос",
+      "en": "coconut"
+    },
+    {
+      "id": "alpukat",
+      "ru": "авокадо",
+      "en": "avocado"
+    },
+    {
+      "id": "pir",
+      "ru": "груша",
+      "en": "pear"
+    },
+    {
+      "id": "rambutan",
+      "ru": "рамбутан",
+      "en": "rambutan"
+    },
+    {
+      "id": "manggis",
+      "ru": "мангостин",
+      "en": "mangosteen"
+    },
+    {
+      "id": "salak",
+      "ru": "салак",
+      "en": "snake fruit"
+    },
+    {
+      "id": "lemon",
+      "ru": "лимон",
+      "en": "lemon"
+    },
+    {
+      "id": "tomat",
+      "ru": "помидор",
+      "en": "tomato"
+    },
+    {
+      "id": "kentang",
+      "ru": "картофель",
+      "en": "potato"
+    },
+    {
+      "id": "wortel",
+      "ru": "морковь",
+      "en": "carrot"
+    },
+    {
+      "id": "mentimun",
+      "ru": "огурец",
+      "en": "cucumber"
+    },
+    {
+      "id": "terong",
+      "ru": "баклажан",
+      "en": "eggplant"
+    },
+    {
+      "id": "bayam",
+      "ru": "шпинат",
+      "en": "spinach"
+    },
+    {
+      "id": "kangkung",
+      "ru": "кангкунг (водяной шпинат)",
+      "en": "water spinach"
+    },
+    {
+      "id": "cabai",
+      "ru": "перец чили",
+      "en": "chili"
+    },
+    {
+      "id": "bawang merah",
+      "ru": "красный лук",
+      "en": "shallot"
+    },
+    {
+      "id": "bawang putih",
+      "ru": "чеснок",
+      "en": "garlic"
+    },
+    {
+      "id": "jahe",
+      "ru": "имбирь",
+      "en": "ginger"
+    },
+    {
+      "id": "kunyit",
+      "ru": "куркума",
+      "en": "turmeric"
+    },
+    {
+      "id": "serai",
+      "ru": "лемонграсс",
+      "en": "lemongrass"
+    },
+    {
+      "id": "jagung",
+      "ru": "кукуруза",
+      "en": "corn"
+    },
+    {
+      "id": "kacang",
+      "ru": "орех / боб",
+      "en": "nut / bean"
+    },
+    {
+      "id": "tahu",
+      "ru": "знать / тофу",
+      "en": "to know / tofu"
+    },
+    {
+      "id": "tempe",
+      "ru": "темпе",
+      "en": "tempeh"
+    }
+  ]
+}

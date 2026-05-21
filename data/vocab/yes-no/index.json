@@ -1,0 +1,63 @@
+{
+  "title": "Утверждение и оценка",
+  "title_id": "Penegasan dan penilaian",
+  "description": "Да, нет, верно, неправильно, конечно, возможно",
+  "description_id": "Ya, tidak, benar, salah, tentu, mungkin",
+  "words": [
+    {
+      "id": "ya",
+      "ru": "да",
+      "en": "yes"
+    },
+    {
+      "id": "iya",
+      "ru": "да (разг.)",
+      "en": "yes (informal)"
+    },
+    {
+      "id": "betul",
+      "ru": "верно",
+      "en": "correct"
+    },
+    {
+      "id": "benar",
+      "ru": "правильно",
+      "en": "right"
+    },
+    {
+      "id": "salah",
+      "ru": "неправильно",
+      "en": "wrong"
+    },
+    {
+      "id": "tentu",
+      "ru": "конечно",
+      "en": "certainly"
+    },
+    {
+      "id": "tentu saja",
+      "ru": "конечно же",
+      "en": "of course"
+    },
+    {
+      "id": "pasti",
+      "ru": "точно",
+      "en": "surely"
+    },
+    {
+      "id": "mungkin",
+      "ru": "возможно",
+      "en": "maybe"
+    },
+    {
+      "id": "barangkali",
+      "ru": "может быть",
+      "en": "perhaps"
+    },
+    {
+      "id": "mustahil",
+      "ru": "невозможно",
+      "en": "impossible"
+    }
+  ]
+}
