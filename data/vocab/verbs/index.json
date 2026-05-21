@@ -7,887 +7,3365 @@
     {
       "id": "pergi",
       "ru": "идти / уходить",
-      "en": "go"
+      "en": "go",
+      "examples": [
+        {
+          "id": "Saya pergi ke pasar.",
+          "ru": "Я иду на рынок."
+        },
+        {
+          "id": "Mereka pergi kemarin.",
+          "ru": "Они ушли вчера."
+        },
+        {
+          "id": "Mau pergi ke mana?",
+          "ru": "Куда собираешься?"
+        }
+      ]
     },
     {
       "id": "datang",
       "ru": "приходить",
-      "en": "come"
+      "en": "come",
+      "examples": [
+        {
+          "id": "Dia datang dari Jakarta.",
+          "ru": "Он приехал из Джакарты."
+        },
+        {
+          "id": "Tamu sudah datang.",
+          "ru": "Гости уже пришли."
+        },
+        {
+          "id": "Kapan kamu datang?",
+          "ru": "Когда ты придёшь?"
+        }
+      ]
     },
     {
       "id": "kembali",
       "ru": "возвращаться",
-      "en": "return"
+      "en": "return",
+      "examples": [
+        {
+          "id": "Saya akan kembali besok.",
+          "ru": "Я вернусь завтра."
+        },
+        {
+          "id": "Buku ini kembali ke perpustakaan.",
+          "ru": "Эта книга возвращается в библиотеку."
+        },
+        {
+          "id": "Tolong kembali tepat waktu.",
+          "ru": "Пожалуйста, вернись вовремя."
+        }
+      ]
     },
     {
       "id": "pulang",
       "ru": "идти домой",
-      "en": "go home"
+      "en": "go home",
+      "examples": [
+        {
+          "id": "Saya pulang jam tujuh.",
+          "ru": "Я иду домой в семь."
+        },
+        {
+          "id": "Anak-anak sudah pulang sekolah.",
+          "ru": "Дети уже вернулись из школы."
+        },
+        {
+          "id": "Aku mau pulang sekarang.",
+          "ru": "Я хочу домой сейчас."
+        }
+      ]
     },
     {
       "id": "masuk",
       "ru": "входить",
-      "en": "enter"
+      "en": "enter",
+      "examples": [
+        {
+          "id": "Silakan masuk!",
+          "ru": "Заходите, пожалуйста!"
+        },
+        {
+          "id": "Saya masuk kamar pelan-pelan.",
+          "ru": "Я тихо вошёл в комнату."
+        },
+        {
+          "id": "Dia masuk kerja jam delapan.",
+          "ru": "Он выходит на работу в восемь."
+        }
+      ]
     },
     {
       "id": "keluar",
       "ru": "выходить",
-      "en": "exit"
+      "en": "exit",
+      "examples": [
+        {
+          "id": "Saya keluar rumah pagi-pagi.",
+          "ru": "Я выхожу из дома рано утром."
+        },
+        {
+          "id": "Mereka keluar dari toko.",
+          "ru": "Они вышли из магазина."
+        },
+        {
+          "id": "Jangan keluar saat hujan.",
+          "ru": "Не выходи, когда идёт дождь."
+        }
+      ]
     },
     {
       "id": "naik",
       "ru": "подниматься / садиться",
-      "en": "go up / board"
+      "en": "go up / board",
+      "examples": [
+        {
+          "id": "Kami naik bus ke kota.",
+          "ru": "Мы садимся на автобус в город."
+        },
+        {
+          "id": "Saya naik tangga ke lantai dua.",
+          "ru": "Я поднимаюсь по лестнице на второй этаж."
+        },
+        {
+          "id": "Harga naik lagi.",
+          "ru": "Цена снова выросла."
+        }
+      ]
     },
     {
       "id": "turun",
       "ru": "спускаться / выходить",
-      "en": "go down / get off"
+      "en": "go down / get off",
+      "examples": [
+        {
+          "id": "Saya turun di halte berikutnya.",
+          "ru": "Я выхожу на следующей остановке."
+        },
+        {
+          "id": "Hujan turun deras.",
+          "ru": "Идёт сильный дождь."
+        },
+        {
+          "id": "Tolong turun pelan-pelan.",
+          "ru": "Пожалуйста, спускайся медленно."
+        }
+      ]
     },
     {
       "id": "lewat",
       "ru": "проходить мимо",
-      "en": "pass by"
+      "en": "pass by",
+      "examples": [
+        {
+          "id": "Bus lewat setiap lima menit.",
+          "ru": "Автобус проходит каждые пять минут."
+        },
+        {
+          "id": "Saya lewat depan rumahmu.",
+          "ru": "Я прошёл перед твоим домом."
+        },
+        {
+          "id": "Sudah lewat tengah malam.",
+          "ru": "Уже за полночь."
+        }
+      ]
     },
     {
       "id": "berjalan",
       "ru": "идти / гулять",
-      "en": "walk"
+      "en": "walk",
+      "examples": [
+        {
+          "id": "Saya suka berjalan di taman.",
+          "ru": "Я люблю гулять в парке."
+        },
+        {
+          "id": "Anak itu sudah bisa berjalan.",
+          "ru": "Этот ребёнок уже умеет ходить."
+        },
+        {
+          "id": "Kami berjalan ke sekolah.",
+          "ru": "Мы идём пешком в школу."
+        }
+      ]
     },
     {
       "id": "jalan-jalan",
       "ru": "гулять",
-      "en": "stroll"
+      "en": "stroll",
+      "examples": [
+        {
+          "id": "Mari kita jalan-jalan!",
+          "ru": "Пойдём прогуляемся!"
+        },
+        {
+          "id": "Mereka jalan-jalan di pantai.",
+          "ru": "Они прогуливаются по пляжу."
+        },
+        {
+          "id": "Saya jalan-jalan tiap sore.",
+          "ru": "Я гуляю каждый вечер."
+        }
+      ]
     },
     {
       "id": "berlari",
       "ru": "бегать",
-      "en": "run"
+      "en": "run",
+      "examples": [
+        {
+          "id": "Anjing itu berlari cepat.",
+          "ru": "Эта собака быстро бежит."
+        },
+        {
+          "id": "Saya berlari setiap pagi.",
+          "ru": "Я бегаю каждое утро."
+        },
+        {
+          "id": "Mereka berlari ke pantai.",
+          "ru": "Они побежали к пляжу."
+        }
+      ]
     },
     {
       "id": "lari",
       "ru": "бежать",
-      "en": "run"
+      "en": "run",
+      "examples": [
+        {
+          "id": "Lari! Hujan deras!",
+          "ru": "Беги! Сильный дождь!"
+        },
+        {
+          "id": "Dia lari setiap pagi.",
+          "ru": "Он бегает каждое утро."
+        },
+        {
+          "id": "Kucing lari dari anjing.",
+          "ru": "Кошка убегает от собаки."
+        }
+      ]
     },
     {
       "id": "berenang",
       "ru": "плавать",
-      "en": "swim"
+      "en": "swim",
+      "examples": [
+        {
+          "id": "Saya berenang di laut.",
+          "ru": "Я плаваю в море."
+        },
+        {
+          "id": "Dia tidak bisa berenang.",
+          "ru": "Он не умеет плавать."
+        },
+        {
+          "id": "Ikan berenang di sungai.",
+          "ru": "Рыба плывёт в реке."
+        }
+      ]
     },
     {
       "id": "terbang",
       "ru": "летать",
-      "en": "fly"
+      "en": "fly",
+      "examples": [
+        {
+          "id": "Pesawat terbang tinggi.",
+          "ru": "Самолёт летит высоко."
+        },
+        {
+          "id": "Burung terbang di langit.",
+          "ru": "Птица летит в небе."
+        },
+        {
+          "id": "Kami terbang ke Bali besok.",
+          "ru": "Мы летим на Бали завтра."
+        }
+      ]
     },
     {
       "id": "duduk",
       "ru": "сидеть",
-      "en": "sit"
+      "en": "sit",
+      "examples": [
+        {
+          "id": "Silakan duduk di kursi.",
+          "ru": "Садитесь, пожалуйста, на стул."
+        },
+        {
+          "id": "Saya duduk di depan komputer.",
+          "ru": "Я сижу за компьютером."
+        },
+        {
+          "id": "Mereka duduk di kafe.",
+          "ru": "Они сидят в кафе."
+        }
+      ]
     },
     {
       "id": "berdiri",
       "ru": "стоять",
-      "en": "stand"
+      "en": "stand",
+      "examples": [
+        {
+          "id": "Tolong berdiri.",
+          "ru": "Пожалуйста, встаньте."
+        },
+        {
+          "id": "Dia berdiri di depan pintu.",
+          "ru": "Он стоит перед дверью."
+        },
+        {
+          "id": "Saya berdiri di bus.",
+          "ru": "Я стою в автобусе."
+        }
+      ]
     },
     {
       "id": "berbaring",
       "ru": "лежать",
-      "en": "lie down"
+      "en": "lie down",
+      "examples": [
+        {
+          "id": "Saya berbaring di kasur.",
+          "ru": "Я лежу на матрасе."
+        },
+        {
+          "id": "Anjing itu berbaring di lantai.",
+          "ru": "Эта собака лежит на полу."
+        },
+        {
+          "id": "Tolong berbaring sebentar.",
+          "ru": "Полежи немного, пожалуйста."
+        }
+      ]
     },
     {
       "id": "makan",
       "ru": "есть",
-      "en": "eat"
+      "en": "eat",
+      "examples": [
+        {
+          "id": "Saya makan nasi goreng.",
+          "ru": "Я ем жареный рис."
+        },
+        {
+          "id": "Kami makan bersama.",
+          "ru": "Мы едим вместе."
+        },
+        {
+          "id": "Apa kamu sudah makan?",
+          "ru": "Ты уже поел?"
+        }
+      ]
     },
     {
       "id": "minum",
       "ru": "пить",
-      "en": "drink"
+      "en": "drink",
+      "examples": [
+        {
+          "id": "Saya minum air putih.",
+          "ru": "Я пью воду."
+        },
+        {
+          "id": "Dia minum kopi tiap pagi.",
+          "ru": "Он пьёт кофе каждое утро."
+        },
+        {
+          "id": "Jangan minum terlalu banyak.",
+          "ru": "Не пей слишком много."
+        }
+      ]
     },
     {
       "id": "masak",
       "ru": "готовить",
-      "en": "cook"
+      "en": "cook",
+      "examples": [
+        {
+          "id": "Ibu masak di dapur.",
+          "ru": "Мама готовит на кухне."
+        },
+        {
+          "id": "Saya bisa masak nasi.",
+          "ru": "Я умею варить рис."
+        },
+        {
+          "id": "Hari ini saya masak ikan.",
+          "ru": "Сегодня я готовлю рыбу."
+        }
+      ]
     },
     {
       "id": "memasak",
       "ru": "готовить (формально)",
-      "en": "to cook"
+      "en": "to cook",
+      "examples": [
+        {
+          "id": "Saya sedang memasak.",
+          "ru": "Я сейчас готовлю."
+        },
+        {
+          "id": "Memasak adalah hobi saya.",
+          "ru": "Готовка — моё хобби."
+        },
+        {
+          "id": "Dia memasak untuk keluarga.",
+          "ru": "Он готовит для семьи."
+        }
+      ]
     },
     {
       "id": "membeli",
       "ru": "покупать",
-      "en": "to buy"
+      "en": "to buy",
+      "examples": [
+        {
+          "id": "Saya membeli buku baru.",
+          "ru": "Я купил новую книгу."
+        },
+        {
+          "id": "Dia membeli mobil mahal.",
+          "ru": "Он купил дорогую машину."
+        },
+        {
+          "id": "Mereka membeli rumah di Bali.",
+          "ru": "Они купили дом на Бали."
+        }
+      ]
     },
     {
       "id": "beli",
       "ru": "купить",
-      "en": "buy"
+      "en": "buy",
+      "examples": [
+        {
+          "id": "Beli dua, gratis satu.",
+          "ru": "Купи два, один в подарок."
+        },
+        {
+          "id": "Mau beli apa?",
+          "ru": "Что хочешь купить?"
+        },
+        {
+          "id": "Saya beli kopi tadi.",
+          "ru": "Я только что купил кофе."
+        }
+      ]
     },
     {
       "id": "menjual",
       "ru": "продавать",
-      "en": "to sell"
+      "en": "to sell",
+      "examples": [
+        {
+          "id": "Toko itu menjual makanan.",
+          "ru": "Этот магазин продаёт еду."
+        },
+        {
+          "id": "Saya menjual sepeda lama saya.",
+          "ru": "Я продал свой старый велосипед."
+        },
+        {
+          "id": "Mereka menjual rumah.",
+          "ru": "Они продают дом."
+        }
+      ]
     },
     {
       "id": "jual",
       "ru": "продать",
-      "en": "sell"
+      "en": "sell",
+      "examples": [
+        {
+          "id": "Apa kamu jual handphone?",
+          "ru": "Ты продаёшь телефон?"
+        },
+        {
+          "id": "Saya jual mobil minggu lalu.",
+          "ru": "Я продал машину на прошлой неделе."
+        },
+        {
+          "id": "Mereka jual buah segar.",
+          "ru": "Они продают свежие фрукты."
+        }
+      ]
     },
     {
       "id": "membayar",
       "ru": "платить",
-      "en": "to pay"
+      "en": "to pay",
+      "examples": [
+        {
+          "id": "Saya membayar dengan kartu.",
+          "ru": "Я плачу картой."
+        },
+        {
+          "id": "Tolong membayar di kasir.",
+          "ru": "Пожалуйста, оплатите в кассе."
+        },
+        {
+          "id": "Dia membayar tunai.",
+          "ru": "Он платит наличными."
+        }
+      ]
     },
     {
       "id": "bayar",
       "ru": "платить",
-      "en": "pay"
+      "en": "pay",
+      "examples": [
+        {
+          "id": "Mau bayar bagaimana?",
+          "ru": "Как будете оплачивать?"
+        },
+        {
+          "id": "Saya bayar besok.",
+          "ru": "Я заплачу завтра."
+        },
+        {
+          "id": "Sudah bayar semuanya.",
+          "ru": "Уже всё оплатил."
+        }
+      ]
     },
     {
       "id": "menerima",
       "ru": "получать",
-      "en": "to receive"
+      "en": "to receive",
+      "examples": [
+        {
+          "id": "Saya menerima hadiah dari teman.",
+          "ru": "Я получил подарок от друга."
+        },
+        {
+          "id": "Kami menerima tamu hari ini.",
+          "ru": "Мы сегодня принимаем гостей."
+        },
+        {
+          "id": "Dia menerima pekerjaan baru.",
+          "ru": "Он получил новую работу."
+        }
+      ]
     },
     {
       "id": "terima",
       "ru": "получить",
-      "en": "receive"
+      "en": "receive",
+      "examples": [
+        {
+          "id": "Sudah terima paketnya?",
+          "ru": "Уже получил посылку?"
+        },
+        {
+          "id": "Saya terima pesan kamu.",
+          "ru": "Я получил твоё сообщение."
+        },
+        {
+          "id": "Terima undangan ini.",
+          "ru": "Прими это приглашение."
+        }
+      ]
     },
     {
       "id": "mengembalikan",
       "ru": "возвращать",
-      "en": "to return (something)"
+      "en": "to return (something)",
+      "examples": [
+        {
+          "id": "Saya mengembalikan buku ke perpustakaan.",
+          "ru": "Я вернул книгу в библиотеку."
+        },
+        {
+          "id": "Tolong mengembalikan kunci.",
+          "ru": "Пожалуйста, верни ключ."
+        },
+        {
+          "id": "Dia mengembalikan uang itu.",
+          "ru": "Он вернул эти деньги."
+        }
+      ]
     },
     {
       "id": "melihat",
       "ru": "видеть",
-      "en": "to see"
+      "en": "to see",
+      "examples": [
+        {
+          "id": "Saya melihat pelangi di langit.",
+          "ru": "Я вижу радугу в небе."
+        },
+        {
+          "id": "Apa kamu melihat kucing saya?",
+          "ru": "Ты видел мою кошку?"
+        },
+        {
+          "id": "Mereka melihat film di bioskop.",
+          "ru": "Они смотрят фильм в кинотеатре."
+        }
+      ]
     },
     {
       "id": "lihat",
       "ru": "смотреть",
-      "en": "look"
+      "en": "look",
+      "examples": [
+        {
+          "id": "Lihat ke sini!",
+          "ru": "Посмотри сюда!"
+        },
+        {
+          "id": "Saya lihat dia kemarin.",
+          "ru": "Я видел его вчера."
+        },
+        {
+          "id": "Lihat saja, jangan beli.",
+          "ru": "Просто смотри, не покупай."
+        }
+      ]
     },
     {
       "id": "menonton",
       "ru": "смотреть (фильм, ТВ)",
-      "en": "to watch"
+      "en": "to watch",
+      "examples": [
+        {
+          "id": "Saya menonton TV malam ini.",
+          "ru": "Я смотрю телевизор вечером."
+        },
+        {
+          "id": "Mereka menonton sepak bola.",
+          "ru": "Они смотрят футбол."
+        },
+        {
+          "id": "Mari menonton film bersama.",
+          "ru": "Давайте вместе посмотрим фильм."
+        }
+      ]
     },
     {
       "id": "memperhatikan",
       "ru": "обращать внимание",
-      "en": "pay attention"
+      "en": "pay attention",
+      "examples": [
+        {
+          "id": "Tolong memperhatikan dengan baik.",
+          "ru": "Пожалуйста, внимательно слушайте."
+        },
+        {
+          "id": "Saya memperhatikan suaranya.",
+          "ru": "Я обращаю внимание на его голос."
+        },
+        {
+          "id": "Dia tidak memperhatikan saya.",
+          "ru": "Он не обращает на меня внимания."
+        }
+      ]
     },
     {
       "id": "mendengar",
       "ru": "слышать",
-      "en": "to hear"
+      "en": "to hear",
+      "examples": [
+        {
+          "id": "Saya mendengar suara aneh.",
+          "ru": "Я слышу странный звук."
+        },
+        {
+          "id": "Apa kamu mendengar saya?",
+          "ru": "Ты меня слышишь?"
+        },
+        {
+          "id": "Mereka tidak mendengar berita itu.",
+          "ru": "Они не слышали эту новость."
+        }
+      ]
     },
     {
       "id": "dengar",
       "ru": "слушать",
-      "en": "listen"
+      "en": "listen",
+      "examples": [
+        {
+          "id": "Dengar baik-baik!",
+          "ru": "Слушай внимательно!"
+        },
+        {
+          "id": "Saya dengar kabar dari ibu.",
+          "ru": "Я услышал новости от мамы."
+        },
+        {
+          "id": "Dengar suara hujan?",
+          "ru": "Слышишь шум дождя?"
+        }
+      ]
     },
     {
       "id": "mendengarkan",
       "ru": "слушать",
-      "en": "to listen to"
+      "en": "to listen to",
+      "examples": [
+        {
+          "id": "Saya mendengarkan musik.",
+          "ru": "Я слушаю музыку."
+        },
+        {
+          "id": "Tolong mendengarkan guru.",
+          "ru": "Пожалуйста, слушайте учителя."
+        },
+        {
+          "id": "Mereka mendengarkan radio.",
+          "ru": "Они слушают радио."
+        }
+      ]
     },
     {
       "id": "berbicara",
       "ru": "разговаривать",
-      "en": "to speak"
+      "en": "to speak",
+      "examples": [
+        {
+          "id": "Saya berbicara bahasa Indonesia.",
+          "ru": "Я говорю по-индонезийски."
+        },
+        {
+          "id": "Dia berbicara dengan ibunya.",
+          "ru": "Он разговаривает с мамой."
+        },
+        {
+          "id": "Tolong berbicara pelan-pelan.",
+          "ru": "Пожалуйста, говорите помедленнее."
+        }
+      ]
     },
     {
       "id": "bicara",
       "ru": "говорить",
-      "en": "talk"
+      "en": "talk",
+      "examples": [
+        {
+          "id": "Mau bicara apa?",
+          "ru": "О чём хочешь поговорить?"
+        },
+        {
+          "id": "Saya bicara dengan bos kemarin.",
+          "ru": "Я говорил с боссом вчера."
+        },
+        {
+          "id": "Jangan bicara sambil makan.",
+          "ru": "Не говори с набитым ртом."
+        }
+      ]
     },
     {
       "id": "ngomong",
       "ru": "говорить (разг.)",
-      "en": "talk (informal)"
+      "en": "talk (informal)",
+      "examples": [
+        {
+          "id": "Ngomong apa, sih?",
+          "ru": "Что ты болтаешь?"
+        },
+        {
+          "id": "Saya ngomong sama dia tadi.",
+          "ru": "Я болтал с ним только что."
+        },
+        {
+          "id": "Jangan ngomong keras-keras.",
+          "ru": "Не говори громко."
+        }
+      ]
     },
     {
       "id": "berkata",
       "ru": "говорить",
-      "en": "to say"
+      "en": "to say",
+      "examples": [
+        {
+          "id": "Dia berkata 'selamat'.",
+          "ru": "Он сказал «поздравляю»."
+        },
+        {
+          "id": "Saya berkata yang sebenarnya.",
+          "ru": "Я говорю правду."
+        },
+        {
+          "id": "Mereka berkata tidak ada masalah.",
+          "ru": "Они сказали, что нет проблем."
+        }
+      ]
     },
     {
       "id": "mengatakan",
       "ru": "сказать",
-      "en": "to say"
+      "en": "to say",
+      "examples": [
+        {
+          "id": "Saya mengatakan kebenaran.",
+          "ru": "Я говорю правду."
+        },
+        {
+          "id": "Dia tidak mau mengatakan apa-apa.",
+          "ru": "Он не хочет ничего говорить."
+        },
+        {
+          "id": "Mereka mengatakan akan datang.",
+          "ru": "Они сказали, что придут."
+        }
+      ]
     },
     {
       "id": "menjawab",
       "ru": "отвечать",
-      "en": "to answer"
+      "en": "to answer",
+      "examples": [
+        {
+          "id": "Tolong menjawab pertanyaan saya.",
+          "ru": "Пожалуйста, ответьте на мой вопрос."
+        },
+        {
+          "id": "Dia menjawab dengan cepat.",
+          "ru": "Он отвечает быстро."
+        },
+        {
+          "id": "Saya tidak tahu cara menjawab.",
+          "ru": "Я не знаю, как ответить."
+        }
+      ]
     },
     {
       "id": "bertanya",
       "ru": "спрашивать",
-      "en": "to ask"
+      "en": "to ask",
+      "examples": [
+        {
+          "id": "Saya mau bertanya sesuatu.",
+          "ru": "Я хочу кое-что спросить."
+        },
+        {
+          "id": "Anak itu bertanya banyak.",
+          "ru": "Этот ребёнок много спрашивает."
+        },
+        {
+          "id": "Mereka bertanya tentang rumah.",
+          "ru": "Они спрашивали о доме."
+        }
+      ]
     },
     {
       "id": "memanggil",
       "ru": "звать",
-      "en": "to call"
+      "en": "to call",
+      "examples": [
+        {
+          "id": "Ibu memanggil anak-anak.",
+          "ru": "Мама зовёт детей."
+        },
+        {
+          "id": "Saya memanggil taksi.",
+          "ru": "Я зову такси."
+        },
+        {
+          "id": "Tolong memanggil dokter.",
+          "ru": "Пожалуйста, вызовите врача."
+        }
+      ]
     },
     {
       "id": "membaca",
       "ru": "читать",
-      "en": "to read"
+      "en": "to read",
+      "examples": [
+        {
+          "id": "Saya membaca buku setiap malam.",
+          "ru": "Я читаю книгу каждый вечер."
+        },
+        {
+          "id": "Dia tidak suka membaca.",
+          "ru": "Он не любит читать."
+        },
+        {
+          "id": "Tolong membaca dengan keras.",
+          "ru": "Пожалуйста, читай вслух."
+        }
+      ]
     },
     {
       "id": "menulis",
       "ru": "писать",
-      "en": "to write"
+      "en": "to write",
+      "examples": [
+        {
+          "id": "Saya menulis surat untuk ibu.",
+          "ru": "Я пишу письмо маме."
+        },
+        {
+          "id": "Dia sedang menulis buku.",
+          "ru": "Он пишет книгу."
+        },
+        {
+          "id": "Tolong menulis nama Anda.",
+          "ru": "Пожалуйста, напишите ваше имя."
+        }
+      ]
     },
     {
       "id": "mencatat",
       "ru": "записывать",
-      "en": "note down"
+      "en": "note down",
+      "examples": [
+        {
+          "id": "Saya mencatat semuanya.",
+          "ru": "Я записываю всё."
+        },
+        {
+          "id": "Tolong mencatat alamat ini.",
+          "ru": "Пожалуйста, запиши этот адрес."
+        },
+        {
+          "id": "Mereka mencatat hasil rapat.",
+          "ru": "Они записали итоги совещания."
+        }
+      ]
     },
     {
       "id": "menggambar",
       "ru": "рисовать",
-      "en": "to draw"
+      "en": "to draw",
+      "examples": [
+        {
+          "id": "Anak-anak suka menggambar.",
+          "ru": "Дети любят рисовать."
+        },
+        {
+          "id": "Saya menggambar pemandangan.",
+          "ru": "Я рисую пейзаж."
+        },
+        {
+          "id": "Dia menggambar wajah saya.",
+          "ru": "Он нарисовал моё лицо."
+        }
+      ]
     },
     {
       "id": "mencari",
       "ru": "искать",
-      "en": "to search"
+      "en": "to search",
+      "examples": [
+        {
+          "id": "Saya mencari kunci rumah.",
+          "ru": "Я ищу ключ от дома."
+        },
+        {
+          "id": "Mereka mencari pekerjaan baru.",
+          "ru": "Они ищут новую работу."
+        },
+        {
+          "id": "Tolong mencari di laci.",
+          "ru": "Пожалуйста, поищи в ящике."
+        }
+      ]
     },
     {
       "id": "menemukan",
       "ru": "находить",
-      "en": "to find"
+      "en": "to find",
+      "examples": [
+        {
+          "id": "Saya menemukan dompet di jalan.",
+          "ru": "Я нашёл кошелёк на улице."
+        },
+        {
+          "id": "Dia menemukan jawaban.",
+          "ru": "Он нашёл ответ."
+        },
+        {
+          "id": "Akhirnya kami menemukan rumahnya.",
+          "ru": "Наконец мы нашли его дом."
+        }
+      ]
     },
     {
       "id": "kehilangan",
       "ru": "терять",
-      "en": "to lose"
+      "en": "to lose",
+      "examples": [
+        {
+          "id": "Saya kehilangan dompet.",
+          "ru": "Я потерял кошелёк."
+        },
+        {
+          "id": "Dia kehilangan ayahnya.",
+          "ru": "Он потерял отца."
+        },
+        {
+          "id": "Jangan sampai kehilangan kunci!",
+          "ru": "Только не теряй ключ!"
+        }
+      ]
     },
     {
       "id": "mengambil",
       "ru": "брать",
-      "en": "to take"
+      "en": "to take",
+      "examples": [
+        {
+          "id": "Saya mengambil buku dari rak.",
+          "ru": "Я беру книгу с полки."
+        },
+        {
+          "id": "Tolong mengambil air.",
+          "ru": "Пожалуйста, принеси воды."
+        },
+        {
+          "id": "Dia mengambil uang dari bank.",
+          "ru": "Он снимает деньги в банке."
+        }
+      ]
     },
     {
       "id": "memberikan",
       "ru": "давать",
-      "en": "to give"
+      "en": "to give",
+      "examples": [
+        {
+          "id": "Saya memberikan hadiah kepada ibu.",
+          "ru": "Я дарю подарок маме."
+        },
+        {
+          "id": "Dia memberikan kunci kepada saya.",
+          "ru": "Он дал мне ключ."
+        },
+        {
+          "id": "Mereka memberikan uang kepada anak-anak.",
+          "ru": "Они дают детям деньги."
+        }
+      ]
     },
     {
       "id": "memberi",
       "ru": "давать",
-      "en": "give"
+      "en": "give",
+      "examples": [
+        {
+          "id": "Saya memberi dia bunga.",
+          "ru": "Я подарил ей цветы."
+        },
+        {
+          "id": "Tolong memberi tahu saya.",
+          "ru": "Пожалуйста, скажите мне."
+        },
+        {
+          "id": "Mereka memberi kami makanan.",
+          "ru": "Они дали нам еду."
+        }
+      ]
     },
     {
       "id": "membawa",
       "ru": "приносить / нести",
-      "en": "to bring"
+      "en": "to bring",
+      "examples": [
+        {
+          "id": "Saya membawa payung.",
+          "ru": "Я взял зонт."
+        },
+        {
+          "id": "Tolong membawa buku kemari.",
+          "ru": "Пожалуйста, принеси сюда книгу."
+        },
+        {
+          "id": "Dia membawa anjingnya.",
+          "ru": "Он привёл свою собаку."
+        }
+      ]
     },
     {
       "id": "mengirim",
       "ru": "отправлять",
-      "en": "to send"
+      "en": "to send",
+      "examples": [
+        {
+          "id": "Saya mengirim surat ke teman.",
+          "ru": "Я отправил письмо другу."
+        },
+        {
+          "id": "Dia mengirim email setiap hari.",
+          "ru": "Он отправляет email каждый день."
+        },
+        {
+          "id": "Mereka mengirim paket.",
+          "ru": "Они отправляют посылку."
+        }
+      ]
     },
     {
       "id": "mengantar",
       "ru": "провожать / доставлять",
-      "en": "to escort / deliver"
+      "en": "to escort / deliver",
+      "examples": [
+        {
+          "id": "Saya mengantar anak ke sekolah.",
+          "ru": "Я отвожу ребёнка в школу."
+        },
+        {
+          "id": "Tolong mengantar tamu ke ruang tamu.",
+          "ru": "Пожалуйста, проводите гостей в гостиную."
+        },
+        {
+          "id": "Dia mengantar saya pulang.",
+          "ru": "Он проводил меня домой."
+        }
+      ]
     },
     {
       "id": "membuka",
       "ru": "открывать",
-      "en": "to open"
+      "en": "to open",
+      "examples": [
+        {
+          "id": "Saya membuka pintu.",
+          "ru": "Я открываю дверь."
+        },
+        {
+          "id": "Toko membuka jam delapan.",
+          "ru": "Магазин открывается в восемь."
+        },
+        {
+          "id": "Dia membuka surat itu.",
+          "ru": "Он открыл это письмо."
+        }
+      ]
     },
     {
       "id": "menutup",
       "ru": "закрывать",
-      "en": "to close"
+      "en": "to close",
+      "examples": [
+        {
+          "id": "Tolong menutup jendela.",
+          "ru": "Пожалуйста, закрой окно."
+        },
+        {
+          "id": "Toko menutup jam sepuluh.",
+          "ru": "Магазин закрывается в десять."
+        },
+        {
+          "id": "Dia menutup buku.",
+          "ru": "Он закрыл книгу."
+        }
+      ]
     },
     {
       "id": "memulai",
       "ru": "начинать",
-      "en": "to start"
+      "en": "to start",
+      "examples": [
+        {
+          "id": "Kami memulai rapat sekarang.",
+          "ru": "Мы начинаем совещание сейчас."
+        },
+        {
+          "id": "Saya memulai kerja jam tujuh.",
+          "ru": "Я начинаю работу в семь."
+        },
+        {
+          "id": "Mari memulai pelajaran.",
+          "ru": "Давайте начнём урок."
+        }
+      ]
     },
     {
       "id": "mulai",
       "ru": "начинать",
-      "en": "start"
+      "en": "start",
+      "examples": [
+        {
+          "id": "Mari kita mulai!",
+          "ru": "Давайте начнём!"
+        },
+        {
+          "id": "Hujan mulai turun.",
+          "ru": "Начался дождь."
+        },
+        {
+          "id": "Saya mulai belajar bahasa Indonesia.",
+          "ru": "Я начал учить индонезийский."
+        }
+      ]
     },
     {
       "id": "mengakhiri",
       "ru": "заканчивать",
-      "en": "to end"
+      "en": "to end",
+      "examples": [
+        {
+          "id": "Saya mengakhiri pekerjaan ini.",
+          "ru": "Я заканчиваю эту работу."
+        },
+        {
+          "id": "Mari mengakhiri rapat.",
+          "ru": "Давайте закончим собрание."
+        },
+        {
+          "id": "Dia mengakhiri ceritanya.",
+          "ru": "Он закончил свой рассказ."
+        }
+      ]
     },
     {
       "id": "selesai",
       "ru": "закончить / готово",
-      "en": "finished"
+      "en": "finished",
+      "examples": [
+        {
+          "id": "Pekerjaan saya sudah selesai.",
+          "ru": "Моя работа уже закончена."
+        },
+        {
+          "id": "Selesai makan, kami pulang.",
+          "ru": "Закончив есть, мы ушли домой."
+        },
+        {
+          "id": "Apa sudah selesai?",
+          "ru": "Уже готово?"
+        }
+      ]
     },
     {
       "id": "beristirahat",
       "ru": "отдыхать",
-      "en": "to rest"
+      "en": "to rest",
+      "examples": [
+        {
+          "id": "Saya mau beristirahat sebentar.",
+          "ru": "Я хочу немного отдохнуть."
+        },
+        {
+          "id": "Mereka beristirahat di taman.",
+          "ru": "Они отдыхают в парке."
+        },
+        {
+          "id": "Tolong beristirahat dulu.",
+          "ru": "Пожалуйста, сначала отдохни."
+        }
+      ]
     },
     {
       "id": "mencuci",
       "ru": "стирать / мыть",
-      "en": "to wash"
+      "en": "to wash",
+      "examples": [
+        {
+          "id": "Saya mencuci baju hari ini.",
+          "ru": "Я сегодня стираю одежду."
+        },
+        {
+          "id": "Tolong mencuci tangan dulu.",
+          "ru": "Пожалуйста, сначала помой руки."
+        },
+        {
+          "id": "Dia mencuci mobil setiap minggu.",
+          "ru": "Он моет машину каждую неделю."
+        }
+      ]
     },
     {
       "id": "membersihkan",
       "ru": "чистить",
-      "en": "to clean"
+      "en": "to clean",
+      "examples": [
+        {
+          "id": "Saya membersihkan kamar.",
+          "ru": "Я убираю комнату."
+        },
+        {
+          "id": "Tolong membersihkan meja.",
+          "ru": "Пожалуйста, убери со стола."
+        },
+        {
+          "id": "Mereka membersihkan rumah.",
+          "ru": "Они убираются в доме."
+        }
+      ]
     },
     {
       "id": "menyapu",
       "ru": "подметать",
-      "en": "to sweep"
+      "en": "to sweep",
+      "examples": [
+        {
+          "id": "Ibu menyapu lantai pagi-pagi.",
+          "ru": "Мама подметает пол рано утром."
+        },
+        {
+          "id": "Saya menyapu halaman.",
+          "ru": "Я мету двор."
+        },
+        {
+          "id": "Tolong menyapu di sini.",
+          "ru": "Пожалуйста, подмети здесь."
+        }
+      ]
     },
     {
       "id": "membantu",
       "ru": "помогать",
-      "en": "to help"
+      "en": "to help",
+      "examples": [
+        {
+          "id": "Bolehkah saya membantu?",
+          "ru": "Могу я помочь?"
+        },
+        {
+          "id": "Dia selalu membantu temannya.",
+          "ru": "Он всегда помогает своему другу."
+        },
+        {
+          "id": "Tolong membantu ibu.",
+          "ru": "Помоги маме, пожалуйста."
+        }
+      ]
     },
     {
       "id": "menolong",
       "ru": "помогать",
-      "en": "to help"
+      "en": "to help",
+      "examples": [
+        {
+          "id": "Tolong menolong saya!",
+          "ru": "Помогите мне, пожалуйста!"
+        },
+        {
+          "id": "Dia menolong orang tua di jalan.",
+          "ru": "Он помог пожилому человеку на улице."
+        },
+        {
+          "id": "Polisi menolong anak hilang.",
+          "ru": "Полиция помогла потерявшемуся ребёнку."
+        }
+      ]
     },
     {
       "id": "berpikir",
       "ru": "думать",
-      "en": "to think"
+      "en": "to think",
+      "examples": [
+        {
+          "id": "Saya berpikir tentang hidup.",
+          "ru": "Я размышляю о жизни."
+        },
+        {
+          "id": "Dia berpikir dulu sebelum bicara.",
+          "ru": "Он сначала думает, потом говорит."
+        },
+        {
+          "id": "Tolong berpikir baik-baik.",
+          "ru": "Пожалуйста, хорошо подумай."
+        }
+      ]
     },
     {
       "id": "memikirkan",
       "ru": "думать о",
-      "en": "to think about"
+      "en": "to think about",
+      "examples": [
+        {
+          "id": "Saya memikirkan masalah itu.",
+          "ru": "Я думаю об этой проблеме."
+        },
+        {
+          "id": "Dia memikirkan keluarganya.",
+          "ru": "Он думает о своей семье."
+        },
+        {
+          "id": "Tolong memikirkan baik-baik.",
+          "ru": "Пожалуйста, подумай хорошо."
+        }
+      ]
     },
     {
       "id": "percaya",
       "ru": "верить",
-      "en": "to believe"
+      "en": "to believe",
+      "examples": [
+        {
+          "id": "Saya percaya pada Tuhan.",
+          "ru": "Я верю в Бога."
+        },
+        {
+          "id": "Apa kamu percaya cerita itu?",
+          "ru": "Ты веришь этой истории?"
+        },
+        {
+          "id": "Mereka percaya pada keajaiban.",
+          "ru": "Они верят в чудеса."
+        }
+      ]
     },
     {
       "id": "mengerti",
       "ru": "понимать",
-      "en": "to understand"
+      "en": "to understand",
+      "examples": [
+        {
+          "id": "Saya mengerti bahasa Inggris.",
+          "ru": "Я понимаю английский."
+        },
+        {
+          "id": "Apa kamu mengerti?",
+          "ru": "Ты понимаешь?"
+        },
+        {
+          "id": "Dia tidak mengerti soal ini.",
+          "ru": "Он не понимает этот вопрос."
+        }
+      ]
     },
     {
       "id": "memahami",
       "ru": "понимать",
-      "en": "to understand"
+      "en": "to understand",
+      "examples": [
+        {
+          "id": "Saya memahami situasinya.",
+          "ru": "Я понимаю ситуацию."
+        },
+        {
+          "id": "Dia memahami bahasa Jawa.",
+          "ru": "Он понимает яванский язык."
+        },
+        {
+          "id": "Mari memahami dulu.",
+          "ru": "Давайте сначала разберёмся."
+        }
+      ]
     },
     {
       "id": "mengetahui",
       "ru": "знать (формально)",
-      "en": "to know (formal)"
+      "en": "to know (formal)",
+      "examples": [
+        {
+          "id": "Saya tidak mengetahui hal itu.",
+          "ru": "Я этого не знал."
+        },
+        {
+          "id": "Polisi mengetahui semua.",
+          "ru": "Полиция знает всё."
+        },
+        {
+          "id": "Mereka mengetahui kebenaran.",
+          "ru": "Они знают правду."
+        }
+      ]
     },
     {
       "id": "ingat",
       "ru": "помнить",
-      "en": "remember"
+      "en": "remember",
+      "examples": [
+        {
+          "id": "Saya masih ingat nama dia.",
+          "ru": "Я ещё помню его имя."
+        },
+        {
+          "id": "Ingat membawa payung!",
+          "ru": "Не забудь взять зонт!"
+        },
+        {
+          "id": "Apa kamu ingat saya?",
+          "ru": "Помнишь меня?"
+        }
+      ]
     },
     {
       "id": "mengingat",
       "ru": "помнить",
-      "en": "to remember"
+      "en": "to remember",
+      "examples": [
+        {
+          "id": "Saya selalu mengingat ibu.",
+          "ru": "Я всегда помню маму."
+        },
+        {
+          "id": "Dia mengingat hari ulang tahun.",
+          "ru": "Он помнит день рождения."
+        },
+        {
+          "id": "Tolong mengingat alamat ini.",
+          "ru": "Пожалуйста, запомни этот адрес."
+        }
+      ]
     },
     {
       "id": "lupa",
       "ru": "забывать",
-      "en": "forget"
+      "en": "forget",
+      "examples": [
+        {
+          "id": "Saya lupa kunci di rumah.",
+          "ru": "Я забыл ключ дома."
+        },
+        {
+          "id": "Jangan lupa makan!",
+          "ru": "Не забудь поесть!"
+        },
+        {
+          "id": "Dia lupa nama saya.",
+          "ru": "Он забыл моё имя."
+        }
+      ]
     },
     {
       "id": "melupakan",
       "ru": "забывать",
-      "en": "to forget"
+      "en": "to forget",
+      "examples": [
+        {
+          "id": "Saya tidak bisa melupakan dia.",
+          "ru": "Я не могу его забыть."
+        },
+        {
+          "id": "Tolong jangan melupakan saya.",
+          "ru": "Пожалуйста, не забывай меня."
+        },
+        {
+          "id": "Dia melupakan janjinya.",
+          "ru": "Он забыл своё обещание."
+        }
+      ]
     },
     {
       "id": "suka",
       "ru": "нравиться",
-      "en": "like"
+      "en": "like",
+      "examples": [
+        {
+          "id": "Saya suka kopi.",
+          "ru": "Я люблю кофе."
+        },
+        {
+          "id": "Anak-anak suka cokelat.",
+          "ru": "Дети любят шоколад."
+        },
+        {
+          "id": "Apa kamu suka musik?",
+          "ru": "Любишь музыку?"
+        }
+      ]
     },
     {
       "id": "menyukai",
       "ru": "нравиться",
-      "en": "to like"
+      "en": "to like",
+      "examples": [
+        {
+          "id": "Saya menyukai cerita itu.",
+          "ru": "Мне нравится эта история."
+        },
+        {
+          "id": "Dia menyukai semua hewan.",
+          "ru": "Он любит всех животных."
+        },
+        {
+          "id": "Mereka menyukai film Indonesia.",
+          "ru": "Им нравятся индонезийские фильмы."
+        }
+      ]
     },
     {
       "id": "cinta",
       "ru": "любить",
-      "en": "love"
+      "en": "love",
+      "examples": [
+        {
+          "id": "Saya cinta padamu.",
+          "ru": "Я люблю тебя."
+        },
+        {
+          "id": "Dia cinta keluarganya.",
+          "ru": "Он любит свою семью."
+        },
+        {
+          "id": "Cinta itu indah.",
+          "ru": "Любовь прекрасна."
+        }
+      ]
     },
     {
       "id": "mencintai",
       "ru": "любить",
-      "en": "to love"
+      "en": "to love",
+      "examples": [
+        {
+          "id": "Saya mencintai istri saya.",
+          "ru": "Я люблю свою жену."
+        },
+        {
+          "id": "Dia mencintai anak-anaknya.",
+          "ru": "Он любит своих детей."
+        },
+        {
+          "id": "Mereka mencintai tanah air.",
+          "ru": "Они любят родину."
+        }
+      ]
     },
     {
       "id": "sayang",
       "ru": "любить / жаль",
-      "en": "love / pity"
+      "en": "love / pity",
+      "examples": [
+        {
+          "id": "Saya sayang sama kamu.",
+          "ru": "Я тебя люблю."
+        },
+        {
+          "id": "Dia sayang adiknya.",
+          "ru": "Он любит младшего брата."
+        },
+        {
+          "id": "Sayang sekali, sudah habis.",
+          "ru": "Очень жаль, уже кончилось."
+        }
+      ]
     },
     {
       "id": "benci",
       "ru": "ненавидеть",
-      "en": "hate"
+      "en": "hate",
+      "examples": [
+        {
+          "id": "Saya benci nyamuk.",
+          "ru": "Я ненавижу комаров."
+        },
+        {
+          "id": "Dia benci hujan.",
+          "ru": "Он ненавидит дождь."
+        },
+        {
+          "id": "Jangan benci siapa-siapa.",
+          "ru": "Никого не ненавидь."
+        }
+      ]
     },
     {
       "id": "marah",
       "ru": "сердиться",
-      "en": "angry"
+      "en": "angry",
+      "examples": [
+        {
+          "id": "Ibu marah sama saya.",
+          "ru": "Мама на меня сердится."
+        },
+        {
+          "id": "Jangan marah, ya?",
+          "ru": "Не сердись, ладно?"
+        },
+        {
+          "id": "Dia marah karena terlambat.",
+          "ru": "Он злится из-за опоздания."
+        }
+      ]
     },
     {
       "id": "senang",
       "ru": "радостный",
-      "en": "happy"
+      "en": "happy",
+      "examples": [
+        {
+          "id": "Saya senang bertemu kamu.",
+          "ru": "Я рад тебя видеть."
+        },
+        {
+          "id": "Anak-anak senang main di taman.",
+          "ru": "Дети рады играть в парке."
+        },
+        {
+          "id": "Senang sekali hari ini!",
+          "ru": "Очень радостный день!"
+        }
+      ]
     },
     {
       "id": "gembira",
       "ru": "весёлый",
-      "en": "cheerful"
+      "en": "cheerful",
+      "examples": [
+        {
+          "id": "Hati saya gembira.",
+          "ru": "На душе радостно."
+        },
+        {
+          "id": "Mereka gembira menerima hadiah.",
+          "ru": "Они радостно приняли подарок."
+        },
+        {
+          "id": "Wajahmu kelihatan gembira.",
+          "ru": "У тебя радостное лицо."
+        }
+      ]
     },
     {
       "id": "bahagia",
       "ru": "счастливый",
-      "en": "happy"
+      "en": "happy",
+      "examples": [
+        {
+          "id": "Saya bahagia bersama kamu.",
+          "ru": "Я счастлив с тобой."
+        },
+        {
+          "id": "Keluarga kami bahagia.",
+          "ru": "Наша семья счастлива."
+        },
+        {
+          "id": "Semoga kamu bahagia selalu.",
+          "ru": "Пусть ты будешь всегда счастлив."
+        }
+      ]
     },
     {
       "id": "sedih",
       "ru": "грустный",
-      "en": "sad"
+      "en": "sad",
+      "examples": [
+        {
+          "id": "Saya sedih hari ini.",
+          "ru": "Мне сегодня грустно."
+        },
+        {
+          "id": "Cerita itu membuat sedih.",
+          "ru": "Эта история печальная."
+        },
+        {
+          "id": "Jangan sedih, semua akan baik.",
+          "ru": "Не грусти, всё будет хорошо."
+        }
+      ]
     },
     {
       "id": "takut",
       "ru": "бояться",
-      "en": "afraid"
+      "en": "afraid",
+      "examples": [
+        {
+          "id": "Anak itu takut anjing.",
+          "ru": "Этот ребёнок боится собак."
+        },
+        {
+          "id": "Saya takut gelap.",
+          "ru": "Я боюсь темноты."
+        },
+        {
+          "id": "Jangan takut, ada saya.",
+          "ru": "Не бойся, я рядом."
+        }
+      ]
     },
     {
       "id": "kaget",
       "ru": "поражённый",
-      "en": "shocked"
+      "en": "shocked",
+      "examples": [
+        {
+          "id": "Saya kaget mendengar berita.",
+          "ru": "Я шокирован новостью."
+        },
+        {
+          "id": "Dia kaget melihat saya.",
+          "ru": "Он удивился, увидев меня."
+        },
+        {
+          "id": "Maaf, saya kaget.",
+          "ru": "Извини, я опешил."
+        }
+      ]
     },
     {
       "id": "terkejut",
       "ru": "удивлён",
-      "en": "surprised"
+      "en": "surprised",
+      "examples": [
+        {
+          "id": "Mereka terkejut sekali.",
+          "ru": "Они очень удивились."
+        },
+        {
+          "id": "Saya terkejut dengan hadiah.",
+          "ru": "Я удивлён подарку."
+        },
+        {
+          "id": "Wajahnya terkejut.",
+          "ru": "У него удивлённое лицо."
+        }
+      ]
     },
     {
       "id": "malu",
       "ru": "стесняться",
-      "en": "shy"
+      "en": "shy",
+      "examples": [
+        {
+          "id": "Anak itu malu kepada orang.",
+          "ru": "Этот ребёнок стесняется людей."
+        },
+        {
+          "id": "Saya malu bicara di depan.",
+          "ru": "Я стесняюсь говорить впереди."
+        },
+        {
+          "id": "Jangan malu, bicara saja.",
+          "ru": "Не стесняйся, просто говори."
+        }
+      ]
     },
     {
       "id": "bangga",
       "ru": "гордый",
-      "en": "proud"
+      "en": "proud",
+      "examples": [
+        {
+          "id": "Saya bangga dengan anak saya.",
+          "ru": "Я горжусь своим ребёнком."
+        },
+        {
+          "id": "Ibu bangga padamu.",
+          "ru": "Мама тобой гордится."
+        },
+        {
+          "id": "Mereka bangga jadi orang Indonesia.",
+          "ru": "Они гордятся, что индонезийцы."
+        }
+      ]
     },
     {
       "id": "kecewa",
       "ru": "разочарованный",
-      "en": "disappointed"
+      "en": "disappointed",
+      "examples": [
+        {
+          "id": "Saya kecewa dengan hasilnya.",
+          "ru": "Я разочарован результатом."
+        },
+        {
+          "id": "Dia kecewa pada temannya.",
+          "ru": "Он разочарован в друге."
+        },
+        {
+          "id": "Tolong jangan kecewa.",
+          "ru": "Пожалуйста, не разочаровывайся."
+        }
+      ]
     },
     {
       "id": "bingung",
       "ru": "в замешательстве",
-      "en": "confused"
+      "en": "confused",
+      "examples": [
+        {
+          "id": "Saya bingung dengan soal ini.",
+          "ru": "Я запутался в этом вопросе."
+        },
+        {
+          "id": "Dia bingung mau ke mana.",
+          "ru": "Он не знает, куда идти."
+        },
+        {
+          "id": "Jangan bingung, tanya saja.",
+          "ru": "Не путайся, просто спрашивай."
+        }
+      ]
     },
     {
       "id": "kesal",
       "ru": "раздражённый",
-      "en": "annoyed"
+      "en": "annoyed",
+      "examples": [
+        {
+          "id": "Saya kesal karena hujan.",
+          "ru": "Меня раздражает дождь."
+        },
+        {
+          "id": "Dia kesal sama saya.",
+          "ru": "Он злится на меня."
+        },
+        {
+          "id": "Jangan kesal, sabar saja.",
+          "ru": "Не раздражайся, потерпи."
+        }
+      ]
     },
     {
       "id": "menangis",
       "ru": "плакать",
-      "en": "cry"
+      "en": "cry",
+      "examples": [
+        {
+          "id": "Anak itu menangis keras.",
+          "ru": "Этот ребёнок громко плачет."
+        },
+        {
+          "id": "Saya tidak mau menangis.",
+          "ru": "Я не хочу плакать."
+        },
+        {
+          "id": "Mereka menangis karena bahagia.",
+          "ru": "Они плачут от счастья."
+        }
+      ]
     },
     {
       "id": "tertawa",
       "ru": "смеяться",
-      "en": "laugh"
+      "en": "laugh",
+      "examples": [
+        {
+          "id": "Kami tertawa keras-keras.",
+          "ru": "Мы громко смеялись."
+        },
+        {
+          "id": "Cerita itu lucu, saya tertawa.",
+          "ru": "Эта история смешная, я засмеялся."
+        },
+        {
+          "id": "Dia tertawa sendirian.",
+          "ru": "Он смеётся один."
+        }
+      ]
     },
     {
       "id": "tersenyum",
       "ru": "улыбаться",
-      "en": "smile"
+      "en": "smile",
+      "examples": [
+        {
+          "id": "Dia tersenyum kepada saya.",
+          "ru": "Он улыбается мне."
+        },
+        {
+          "id": "Anak itu tersenyum lucu.",
+          "ru": "Этот ребёнок мило улыбается."
+        },
+        {
+          "id": "Tolong tersenyum untuk foto.",
+          "ru": "Улыбнись для фото."
+        }
+      ]
     },
     {
       "id": "merasa",
       "ru": "чувствовать",
-      "en": "to feel"
+      "en": "to feel",
+      "examples": [
+        {
+          "id": "Saya merasa lelah.",
+          "ru": "Я чувствую усталость."
+        },
+        {
+          "id": "Dia merasa senang.",
+          "ru": "Он чувствует радость."
+        },
+        {
+          "id": "Bagaimana kamu merasa?",
+          "ru": "Как ты себя чувствуешь?"
+        }
+      ]
     },
     {
       "id": "hidup",
       "ru": "жить / живой",
-      "en": "live / alive"
+      "en": "live / alive",
+      "examples": [
+        {
+          "id": "Saya hidup di Jakarta.",
+          "ru": "Я живу в Джакарте."
+        },
+        {
+          "id": "Kakek masih hidup.",
+          "ru": "Дедушка ещё жив."
+        },
+        {
+          "id": "Hidup ini singkat.",
+          "ru": "Жизнь коротка."
+        }
+      ]
     },
     {
       "id": "mati",
       "ru": "умирать / мёртвый",
-      "en": "die / dead"
+      "en": "die / dead",
+      "examples": [
+        {
+          "id": "Lampu mati.",
+          "ru": "Свет погас."
+        },
+        {
+          "id": "Mesin mobil mati.",
+          "ru": "Мотор машины заглох."
+        },
+        {
+          "id": "Bunga itu sudah mati.",
+          "ru": "Этот цветок уже погиб."
+        }
+      ]
     },
     {
       "id": "lahir",
       "ru": "рождаться",
-      "en": "be born"
+      "en": "be born",
+      "examples": [
+        {
+          "id": "Saya lahir di Moskow.",
+          "ru": "Я родился в Москве."
+        },
+        {
+          "id": "Bayi itu baru lahir.",
+          "ru": "Этот малыш только что родился."
+        },
+        {
+          "id": "Tahun berapa kamu lahir?",
+          "ru": "В каком году ты родился?"
+        }
+      ]
     },
     {
       "id": "meninggal",
       "ru": "умирать (форм.)",
-      "en": "pass away"
+      "en": "pass away",
+      "examples": [
+        {
+          "id": "Kakek meninggal tahun lalu.",
+          "ru": "Дедушка умер в прошлом году."
+        },
+        {
+          "id": "Saya turut berduka, dia meninggal.",
+          "ru": "Соболезную, он скончался."
+        },
+        {
+          "id": "Tetangga kami meninggal kemarin.",
+          "ru": "Наш сосед умер вчера."
+        }
+      ]
     },
     {
       "id": "menikah",
       "ru": "жениться",
-      "en": "get married"
+      "en": "get married",
+      "examples": [
+        {
+          "id": "Mereka menikah bulan depan.",
+          "ru": "Они женятся в следующем месяце."
+        },
+        {
+          "id": "Saya akan menikah tahun depan.",
+          "ru": "Я выйду замуж в следующем году."
+        },
+        {
+          "id": "Kapan kamu menikah?",
+          "ru": "Когда ты женишься?"
+        }
+      ]
     },
     {
       "id": "bertemu",
       "ru": "встречаться",
-      "en": "to meet"
+      "en": "to meet",
+      "examples": [
+        {
+          "id": "Saya bertemu teman di kafe.",
+          "ru": "Я встретился с другом в кафе."
+        },
+        {
+          "id": "Senang bertemu Anda.",
+          "ru": "Рад встрече."
+        },
+        {
+          "id": "Kami akan bertemu besok.",
+          "ru": "Мы встретимся завтра."
+        }
+      ]
     },
     {
       "id": "ketemu",
       "ru": "встретиться (разг.)",
-      "en": "meet (informal)"
+      "en": "meet (informal)",
+      "examples": [
+        {
+          "id": "Sampai ketemu lagi!",
+          "ru": "До встречи!"
+        },
+        {
+          "id": "Saya ketemu dia tadi.",
+          "ru": "Я только что его встретил."
+        },
+        {
+          "id": "Yuk, ketemu nanti malam.",
+          "ru": "Давай встретимся вечером."
+        }
+      ]
     },
     {
       "id": "berpisah",
       "ru": "расставаться",
-      "en": "part / separate"
+      "en": "part / separate",
+      "examples": [
+        {
+          "id": "Mereka berpisah tahun lalu.",
+          "ru": "Они расстались в прошлом году."
+        },
+        {
+          "id": "Sedih sekali harus berpisah.",
+          "ru": "Очень грустно расставаться."
+        },
+        {
+          "id": "Kami berpisah di stasiun.",
+          "ru": "Мы попрощались на станции."
+        }
+      ]
     },
     {
       "id": "menunggu",
       "ru": "ждать",
-      "en": "to wait"
+      "en": "to wait",
+      "examples": [
+        {
+          "id": "Saya menunggu bus di halte.",
+          "ru": "Я жду автобус на остановке."
+        },
+        {
+          "id": "Tolong menunggu sebentar.",
+          "ru": "Подождите, пожалуйста, немного."
+        },
+        {
+          "id": "Dia menunggu jawaban saya.",
+          "ru": "Он ждёт моего ответа."
+        }
+      ]
     },
     {
       "id": "tunggu",
       "ru": "подожди",
-      "en": "wait"
+      "en": "wait",
+      "examples": [
+        {
+          "id": "Tunggu sebentar, ya?",
+          "ru": "Подожди немного, ладно?"
+        },
+        {
+          "id": "Saya tunggu di sini.",
+          "ru": "Я жду здесь."
+        },
+        {
+          "id": "Tunggu, jangan pergi!",
+          "ru": "Подожди, не уходи!"
+        }
+      ]
     },
     {
       "id": "terlambat",
       "ru": "опаздывать",
-      "en": "to be late"
+      "en": "to be late",
+      "examples": [
+        {
+          "id": "Maaf, saya terlambat.",
+          "ru": "Извините, я опоздал."
+        },
+        {
+          "id": "Jangan terlambat besok.",
+          "ru": "Не опаздывай завтра."
+        },
+        {
+          "id": "Dia selalu terlambat.",
+          "ru": "Он всегда опаздывает."
+        }
+      ]
     },
     {
       "id": "bermain",
       "ru": "играть",
-      "en": "to play"
+      "en": "to play",
+      "examples": [
+        {
+          "id": "Anak-anak bermain di taman.",
+          "ru": "Дети играют в парке."
+        },
+        {
+          "id": "Saya bermain piano.",
+          "ru": "Я играю на пианино."
+        },
+        {
+          "id": "Mari bermain sepak bola!",
+          "ru": "Давайте играть в футбол!"
+        }
+      ]
     },
     {
       "id": "main",
       "ru": "играть",
-      "en": "play"
+      "en": "play",
+      "examples": [
+        {
+          "id": "Anak suka main air.",
+          "ru": "Дети любят играть с водой."
+        },
+        {
+          "id": "Yuk main bola!",
+          "ru": "Давай в мяч!"
+        },
+        {
+          "id": "Saya main game di rumah.",
+          "ru": "Я играю в игру дома."
+        }
+      ]
     },
     {
       "id": "menari",
       "ru": "танцевать",
-      "en": "to dance"
+      "en": "to dance",
+      "examples": [
+        {
+          "id": "Dia menari dengan indah.",
+          "ru": "Она красиво танцует."
+        },
+        {
+          "id": "Mari menari bersama!",
+          "ru": "Давайте потанцуем вместе!"
+        },
+        {
+          "id": "Saya tidak bisa menari.",
+          "ru": "Я не умею танцевать."
+        }
+      ]
     },
     {
       "id": "menyanyi",
       "ru": "петь",
-      "en": "to sing"
+      "en": "to sing",
+      "examples": [
+        {
+          "id": "Anak itu suka menyanyi.",
+          "ru": "Этот ребёнок любит петь."
+        },
+        {
+          "id": "Mari menyanyi bersama!",
+          "ru": "Давайте петь вместе!"
+        },
+        {
+          "id": "Saya menyanyi di kamar mandi.",
+          "ru": "Я пою в ванной."
+        }
+      ]
     },
     {
       "id": "bernyanyi",
       "ru": "петь",
-      "en": "to sing"
+      "en": "to sing",
+      "examples": [
+        {
+          "id": "Burung bernyanyi pagi-pagi.",
+          "ru": "Птицы поют рано утром."
+        },
+        {
+          "id": "Dia bernyanyi sambil masak.",
+          "ru": "Она поёт во время готовки."
+        },
+        {
+          "id": "Mereka bernyanyi di gereja.",
+          "ru": "Они поют в церкви."
+        }
+      ]
     },
     {
       "id": "menggunakan",
       "ru": "использовать",
-      "en": "to use"
+      "en": "to use",
+      "examples": [
+        {
+          "id": "Saya menggunakan komputer.",
+          "ru": "Я пользуюсь компьютером."
+        },
+        {
+          "id": "Tolong menggunakan masker.",
+          "ru": "Пожалуйста, носите маску."
+        },
+        {
+          "id": "Dia menggunakan kamus.",
+          "ru": "Он использует словарь."
+        }
+      ]
     },
     {
       "id": "memakai",
       "ru": "носить / использовать",
-      "en": "to wear / use"
+      "en": "to wear / use",
+      "examples": [
+        {
+          "id": "Saya memakai jaket.",
+          "ru": "Я надеваю куртку."
+        },
+        {
+          "id": "Anak-anak memakai sepatu.",
+          "ru": "Дети надевают обувь."
+        },
+        {
+          "id": "Tolong memakai sabuk pengaman.",
+          "ru": "Пожалуйста, пристегните ремни."
+        }
+      ]
     },
     {
       "id": "pakai",
       "ru": "носить",
-      "en": "wear"
+      "en": "wear",
+      "examples": [
+        {
+          "id": "Pakai jaket, dingin di luar.",
+          "ru": "Надень куртку, на улице холодно."
+        },
+        {
+          "id": "Saya pakai sepatu hitam.",
+          "ru": "Я надел чёрную обувь."
+        },
+        {
+          "id": "Mau pakai apa hari ini?",
+          "ru": "Что наденешь сегодня?"
+        }
+      ]
     },
     {
       "id": "mencoba",
       "ru": "пробовать",
-      "en": "to try"
+      "en": "to try",
+      "examples": [
+        {
+          "id": "Saya mencoba makanan baru.",
+          "ru": "Я пробую новую еду."
+        },
+        {
+          "id": "Mari mencoba sekali lagi.",
+          "ru": "Давайте попробуем ещё раз."
+        },
+        {
+          "id": "Dia mencoba bicara bahasa Inggris.",
+          "ru": "Он пытается говорить по-английски."
+        }
+      ]
     },
     {
       "id": "berusaha",
       "ru": "стараться",
-      "en": "to try / endeavor"
+      "en": "to try / endeavor",
+      "examples": [
+        {
+          "id": "Saya berusaha keras.",
+          "ru": "Я очень стараюсь."
+        },
+        {
+          "id": "Tolong berusaha lebih baik.",
+          "ru": "Пожалуйста, постарайся лучше."
+        },
+        {
+          "id": "Mereka berusaha mencari kerja.",
+          "ru": "Они пытаются найти работу."
+        }
+      ]
     },
     {
       "id": "berhasil",
       "ru": "успех / удалось",
-      "en": "succeed"
+      "en": "succeed",
+      "examples": [
+        {
+          "id": "Akhirnya saya berhasil!",
+          "ru": "Наконец я добился успеха!"
+        },
+        {
+          "id": "Dia berhasil lulus ujian.",
+          "ru": "Он сдал экзамен."
+        },
+        {
+          "id": "Tim kami berhasil menang.",
+          "ru": "Наша команда выиграла."
+        }
+      ]
     },
     {
       "id": "gagal",
       "ru": "потерпеть неудачу",
-      "en": "fail"
+      "en": "fail",
+      "examples": [
+        {
+          "id": "Saya gagal ujian matematika.",
+          "ru": "Я провалил экзамен по математике."
+        },
+        {
+          "id": "Rencana itu gagal.",
+          "ru": "Этот план провалился."
+        },
+        {
+          "id": "Jangan takut gagal.",
+          "ru": "Не бойся неудачи."
+        }
+      ]
     },
     {
       "id": "menang",
       "ru": "побеждать",
-      "en": "win"
+      "en": "win",
+      "examples": [
+        {
+          "id": "Tim kami menang!",
+          "ru": "Наша команда победила!"
+        },
+        {
+          "id": "Dia menang lotere.",
+          "ru": "Он выиграл в лотерею."
+        },
+        {
+          "id": "Siapa yang menang?",
+          "ru": "Кто выиграл?"
+        }
+      ]
     },
     {
       "id": "kalah",
       "ru": "проигрывать",
-      "en": "lose"
+      "en": "lose",
+      "examples": [
+        {
+          "id": "Tim kami kalah hari ini.",
+          "ru": "Наша команда сегодня проиграла."
+        },
+        {
+          "id": "Saya kalah main catur.",
+          "ru": "Я проиграл в шахматы."
+        },
+        {
+          "id": "Jangan sampai kalah!",
+          "ru": "Только не проиграй!"
+        }
+      ]
     },
     {
       "id": "mengubah",
       "ru": "менять",
-      "en": "to change"
+      "en": "to change",
+      "examples": [
+        {
+          "id": "Saya mengubah rencana.",
+          "ru": "Я меняю план."
+        },
+        {
+          "id": "Dia mengubah pikirannya.",
+          "ru": "Он изменил мнение."
+        },
+        {
+          "id": "Tolong mengubah jadwal.",
+          "ru": "Пожалуйста, измените расписание."
+        }
+      ]
     },
     {
       "id": "mengganti",
       "ru": "заменять",
-      "en": "to replace"
+      "en": "to replace",
+      "examples": [
+        {
+          "id": "Saya mengganti baju basah.",
+          "ru": "Я переодеваюсь из мокрой одежды."
+        },
+        {
+          "id": "Tolong mengganti lampu.",
+          "ru": "Пожалуйста, замени лампу."
+        },
+        {
+          "id": "Dia mengganti pekerjaan.",
+          "ru": "Он сменил работу."
+        }
+      ]
     },
     {
       "id": "menambah",
       "ru": "добавлять",
-      "en": "to add"
+      "en": "to add",
+      "examples": [
+        {
+          "id": "Saya menambah gula sedikit.",
+          "ru": "Я добавил немного сахара."
+        },
+        {
+          "id": "Tolong menambah air.",
+          "ru": "Пожалуйста, добавьте воды."
+        },
+        {
+          "id": "Dia menambah berat badan.",
+          "ru": "Он набрал вес."
+        }
+      ]
     },
     {
       "id": "mengurangi",
       "ru": "уменьшать",
-      "en": "to reduce"
+      "en": "to reduce",
+      "examples": [
+        {
+          "id": "Saya mengurangi gula di kopi.",
+          "ru": "Я уменьшаю сахар в кофе."
+        },
+        {
+          "id": "Tolong mengurangi suara.",
+          "ru": "Пожалуйста, уменьшите громкость."
+        },
+        {
+          "id": "Dia mengurangi kerja.",
+          "ru": "Он сократил работу."
+        }
+      ]
     },
     {
       "id": "memperbaiki",
       "ru": "чинить",
-      "en": "to repair"
+      "en": "to repair",
+      "examples": [
+        {
+          "id": "Saya memperbaiki sepeda.",
+          "ru": "Я ремонтирую велосипед."
+        },
+        {
+          "id": "Tolong memperbaiki kunci pintu.",
+          "ru": "Пожалуйста, почини замок двери."
+        },
+        {
+          "id": "Dia memperbaiki nilainya.",
+          "ru": "Он улучшил свои оценки."
+        }
+      ]
     },
     {
       "id": "merusak",
       "ru": "ломать",
-      "en": "to damage"
+      "en": "to damage",
+      "examples": [
+        {
+          "id": "Anak itu merusak mainan.",
+          "ru": "Этот ребёнок ломает игрушку."
+        },
+        {
+          "id": "Hujan deras merusak atap.",
+          "ru": "Сильный дождь повредил крышу."
+        },
+        {
+          "id": "Jangan merusak buku!",
+          "ru": "Не порти книгу!"
+        }
+      ]
     },
     {
       "id": "membuat",
       "ru": "делать / создавать",
-      "en": "to make"
+      "en": "to make",
+      "examples": [
+        {
+          "id": "Ibu membuat kue.",
+          "ru": "Мама печёт пирог."
+        },
+        {
+          "id": "Saya membuat rencana.",
+          "ru": "Я составляю план."
+        },
+        {
+          "id": "Dia membuat saya senang.",
+          "ru": "Он меня радует."
+        }
+      ]
     },
     {
       "id": "bikin",
       "ru": "сделать (разг.)",
-      "en": "make (informal)"
+      "en": "make (informal)",
+      "examples": [
+        {
+          "id": "Bikin kopi, dong!",
+          "ru": "Свари кофе, пожалуйста!"
+        },
+        {
+          "id": "Saya bikin sarapan.",
+          "ru": "Я готовлю завтрак."
+        },
+        {
+          "id": "Mau bikin apa?",
+          "ru": "Что хочешь приготовить?"
+        }
+      ]
     },
     {
       "id": "melakukan",
       "ru": "делать",
-      "en": "to do"
+      "en": "to do",
+      "examples": [
+        {
+          "id": "Saya melakukan pekerjaan.",
+          "ru": "Я делаю работу."
+        },
+        {
+          "id": "Dia melakukan yang terbaik.",
+          "ru": "Он делает всё возможное."
+        },
+        {
+          "id": "Mari melakukan ini bersama.",
+          "ru": "Давайте сделаем это вместе."
+        }
+      ]
     },
     {
       "id": "mempunyai",
       "ru": "иметь",
-      "en": "to have"
+      "en": "to have",
+      "examples": [
+        {
+          "id": "Saya mempunyai dua anak.",
+          "ru": "У меня двое детей."
+        },
+        {
+          "id": "Mereka mempunyai rumah besar.",
+          "ru": "У них большой дом."
+        },
+        {
+          "id": "Dia mempunyai banyak teman.",
+          "ru": "У него много друзей."
+        }
+      ]
     },
     {
       "id": "punya",
       "ru": "иметь (разг.)",
-      "en": "have"
+      "en": "have",
+      "examples": [
+        {
+          "id": "Saya punya uang sedikit.",
+          "ru": "У меня немного денег."
+        },
+        {
+          "id": "Apa kamu punya pulpen?",
+          "ru": "У тебя есть ручка?"
+        },
+        {
+          "id": "Mereka punya mobil baru.",
+          "ru": "У них новая машина."
+        }
+      ]
     },
     {
       "id": "memiliki",
       "ru": "владеть",
-      "en": "to own"
+      "en": "to own",
+      "examples": [
+        {
+          "id": "Dia memiliki perusahaan.",
+          "ru": "Он владеет компанией."
+        },
+        {
+          "id": "Saya memiliki sepeda.",
+          "ru": "У меня есть велосипед."
+        },
+        {
+          "id": "Mereka memiliki rumah di Bali.",
+          "ru": "У них есть дом на Бали."
+        }
+      ]
     },
     {
       "id": "menjadi",
       "ru": "становиться",
-      "en": "to become"
+      "en": "to become",
+      "examples": [
+        {
+          "id": "Saya mau menjadi dokter.",
+          "ru": "Я хочу стать врачом."
+        },
+        {
+          "id": "Dia menjadi guru sekarang.",
+          "ru": "Он теперь учитель."
+        },
+        {
+          "id": "Mereka menjadi sahabat.",
+          "ru": "Они стали лучшими друзьями."
+        }
+      ]
     },
     {
       "id": "mengajar",
       "ru": "учить (других)",
-      "en": "to teach"
+      "en": "to teach",
+      "examples": [
+        {
+          "id": "Ibu mengajar bahasa Inggris.",
+          "ru": "Мама преподаёт английский."
+        },
+        {
+          "id": "Dia mengajar anak-anak.",
+          "ru": "Он учит детей."
+        },
+        {
+          "id": "Saya mengajar matematika.",
+          "ru": "Я преподаю математику."
+        }
+      ]
     },
     {
       "id": "mengajari",
       "ru": "обучать",
-      "en": "to instruct"
+      "en": "to instruct",
+      "examples": [
+        {
+          "id": "Saya mengajari adik membaca.",
+          "ru": "Я учу младшего брата читать."
+        },
+        {
+          "id": "Tolong mengajari saya.",
+          "ru": "Пожалуйста, научи меня."
+        },
+        {
+          "id": "Dia mengajari kami bahasa Indonesia.",
+          "ru": "Он учит нас индонезийскому."
+        }
+      ]
     },
     {
       "id": "belajar",
       "ru": "учиться",
-      "en": "to learn"
+      "en": "to learn",
+      "examples": [
+        {
+          "id": "Saya belajar bahasa Indonesia.",
+          "ru": "Я учу индонезийский."
+        },
+        {
+          "id": "Anak-anak belajar di sekolah.",
+          "ru": "Дети учатся в школе."
+        },
+        {
+          "id": "Tolong belajar lebih giat.",
+          "ru": "Пожалуйста, занимайся усерднее."
+        }
+      ]
     },
     {
       "id": "mempelajari",
       "ru": "изучать",
-      "en": "to study"
+      "en": "to study",
+      "examples": [
+        {
+          "id": "Saya mempelajari budaya Bali.",
+          "ru": "Я изучаю балийскую культуру."
+        },
+        {
+          "id": "Dia mempelajari sejarah.",
+          "ru": "Он изучает историю."
+        },
+        {
+          "id": "Mari mempelajari ini bersama.",
+          "ru": "Давайте изучим это вместе."
+        }
+      ]
     },
     {
       "id": "berlatih",
       "ru": "тренироваться",
-      "en": "to practice"
+      "en": "to practice",
+      "examples": [
+        {
+          "id": "Saya berlatih setiap hari.",
+          "ru": "Я тренируюсь каждый день."
+        },
+        {
+          "id": "Tim kami berlatih keras.",
+          "ru": "Наша команда упорно тренируется."
+        },
+        {
+          "id": "Tolong berlatih lebih banyak.",
+          "ru": "Пожалуйста, тренируйся больше."
+        }
+      ]
     },
     {
       "id": "berolahraga",
       "ru": "заниматься спортом",
-      "en": "exercise"
+      "en": "exercise",
+      "examples": [
+        {
+          "id": "Saya berolahraga di pagi hari.",
+          "ru": "Я занимаюсь спортом утром."
+        },
+        {
+          "id": "Dia berolahraga tiap minggu.",
+          "ru": "Он тренируется каждую неделю."
+        },
+        {
+          "id": "Berolahraga itu sehat.",
+          "ru": "Спорт полезен."
+        }
+      ]
     },
     {
       "id": "berlibur",
       "ru": "отдыхать в отпуске",
-      "en": "to vacation"
+      "en": "to vacation",
+      "examples": [
+        {
+          "id": "Kami berlibur di Bali.",
+          "ru": "Мы отдыхаем на Бали."
+        },
+        {
+          "id": "Saya mau berlibur ke pantai.",
+          "ru": "Я хочу отдохнуть на пляже."
+        },
+        {
+          "id": "Mereka berlibur tiap tahun.",
+          "ru": "Они отдыхают каждый год."
+        }
+      ]
     },
     {
       "id": "bersantai",
       "ru": "расслабляться",
-      "en": "to relax"
+      "en": "to relax",
+      "examples": [
+        {
+          "id": "Saya bersantai di rumah.",
+          "ru": "Я отдыхаю дома."
+        },
+        {
+          "id": "Mari bersantai sebentar.",
+          "ru": "Давайте немного расслабимся."
+        },
+        {
+          "id": "Dia bersantai di pantai.",
+          "ru": "Он отдыхает на пляже."
+        }
+      ]
     },
     {
       "id": "berbohong",
       "ru": "врать",
-      "en": "to lie"
+      "en": "to lie",
+      "examples": [
+        {
+          "id": "Jangan berbohong!",
+          "ru": "Не ври!"
+        },
+        {
+          "id": "Dia sering berbohong.",
+          "ru": "Он часто врёт."
+        },
+        {
+          "id": "Saya tidak pernah berbohong.",
+          "ru": "Я никогда не вру."
+        }
+      ]
     },
     {
       "id": "jujur",
       "ru": "честный",
-      "en": "honest"
+      "en": "honest",
+      "examples": [
+        {
+          "id": "Anak itu jujur sekali.",
+          "ru": "Этот ребёнок очень честный."
+        },
+        {
+          "id": "Saya selalu jujur.",
+          "ru": "Я всегда честен."
+        },
+        {
+          "id": "Tolong jujur kepada saya.",
+          "ru": "Пожалуйста, будь со мной честен."
+        }
+      ]
     },
     {
       "id": "mencuri",
       "ru": "красть",
-      "en": "to steal"
+      "en": "to steal",
+      "examples": [
+        {
+          "id": "Mereka mencuri uang.",
+          "ru": "Они украли деньги."
+        },
+        {
+          "id": "Jangan mencuri!",
+          "ru": "Не воруй!"
+        },
+        {
+          "id": "Dia mencuri ide saya.",
+          "ru": "Он украл мою идею."
+        }
+      ]
     },
     {
       "id": "menipu",
       "ru": "обманывать",
-      "en": "to deceive"
+      "en": "to deceive",
+      "examples": [
+        {
+          "id": "Dia menipu saya.",
+          "ru": "Он обманул меня."
+        },
+        {
+          "id": "Jangan menipu orang.",
+          "ru": "Не обманывай людей."
+        },
+        {
+          "id": "Mereka menipu pelanggan.",
+          "ru": "Они обманывают клиентов."
+        }
+      ]
     },
     {
       "id": "mengundang",
       "ru": "приглашать",
-      "en": "to invite"
+      "en": "to invite",
+      "examples": [
+        {
+          "id": "Saya mengundang teman ke rumah.",
+          "ru": "Я приглашаю друга домой."
+        },
+        {
+          "id": "Mereka mengundang kami ke pesta.",
+          "ru": "Они пригласили нас на вечеринку."
+        },
+        {
+          "id": "Tolong mengundang dia juga.",
+          "ru": "Пожалуйста, пригласи и его."
+        }
+      ]
     },
     {
       "id": "menolak",
       "ru": "отказывать",
-      "en": "to refuse"
+      "en": "to refuse",
+      "examples": [
+        {
+          "id": "Saya menolak ajakannya.",
+          "ru": "Я отказался от его приглашения."
+        },
+        {
+          "id": "Dia menolak makanan.",
+          "ru": "Он отказался от еды."
+        },
+        {
+          "id": "Tolong jangan menolak.",
+          "ru": "Пожалуйста, не отказывайся."
+        }
+      ]
     },
     {
       "id": "menyetujui",
       "ru": "соглашаться",
-      "en": "to agree to"
+      "en": "to agree to",
+      "examples": [
+        {
+          "id": "Saya menyetujui rencana ini.",
+          "ru": "Я согласен с этим планом."
+        },
+        {
+          "id": "Dia menyetujui semua syarat.",
+          "ru": "Он согласился со всеми условиями."
+        },
+        {
+          "id": "Mereka menyetujui kontrak.",
+          "ru": "Они подписали контракт."
+        }
+      ]
     },
     {
       "id": "setuju",
       "ru": "согласен",
-      "en": "agree"
+      "en": "agree",
+      "examples": [
+        {
+          "id": "Saya setuju dengan kamu.",
+          "ru": "Я с тобой согласен."
+        },
+        {
+          "id": "Apa kamu setuju?",
+          "ru": "Ты согласен?"
+        },
+        {
+          "id": "Mereka tidak setuju.",
+          "ru": "Они не согласны."
+        }
+      ]
     },
     {
       "id": "mengizinkan",
       "ru": "разрешать",
-      "en": "to allow"
+      "en": "to allow",
+      "examples": [
+        {
+          "id": "Ibu mengizinkan saya pergi.",
+          "ru": "Мама разрешила мне пойти."
+        },
+        {
+          "id": "Tolong mengizinkan dia masuk.",
+          "ru": "Пожалуйста, позвольте ему войти."
+        },
+        {
+          "id": "Dia tidak mengizinkan saya.",
+          "ru": "Он мне не позволил."
+        }
+      ]
     },
     {
       "id": "melarang",
       "ru": "запрещать",
-      "en": "to forbid"
+      "en": "to forbid",
+      "examples": [
+        {
+          "id": "Ayah melarang saya pulang malam.",
+          "ru": "Папа запрещает мне поздно возвращаться."
+        },
+        {
+          "id": "Tolong jangan melarang dia.",
+          "ru": "Пожалуйста, не запрещай ему."
+        },
+        {
+          "id": "Mereka melarang kami masuk.",
+          "ru": "Они не пускают нас."
+        }
+      ]
     },
     {
       "id": "memesan",
       "ru": "заказывать",
-      "en": "to order"
+      "en": "to order",
+      "examples": [
+        {
+          "id": "Saya memesan makanan.",
+          "ru": "Я заказываю еду."
+        },
+        {
+          "id": "Dia memesan kamar hotel.",
+          "ru": "Он бронирует номер в отеле."
+        },
+        {
+          "id": "Tolong memesan dua kopi.",
+          "ru": "Закажи, пожалуйста, два кофе."
+        }
+      ]
     },
     {
       "id": "pesan",
       "ru": "заказ / сообщение",
-      "en": "order / message"
+      "en": "order / message",
+      "examples": [
+        {
+          "id": "Mau pesan apa?",
+          "ru": "Что закажете?"
+        },
+        {
+          "id": "Saya pesan nasi goreng.",
+          "ru": "Я заказываю жареный рис."
+        },
+        {
+          "id": "Tolong pesan tiket.",
+          "ru": "Пожалуйста, закажи билет."
+        }
+      ]
     },
     {
       "id": "mengirimkan",
       "ru": "присылать",
-      "en": "to send"
+      "en": "to send",
+      "examples": [
+        {
+          "id": "Saya mengirimkan email tadi.",
+          "ru": "Я только что отправил email."
+        },
+        {
+          "id": "Dia mengirimkan paket.",
+          "ru": "Он отправил посылку."
+        },
+        {
+          "id": "Tolong mengirimkan pesan.",
+          "ru": "Пожалуйста, отправь сообщение."
+        }
+      ]
     },
     {
       "id": "menelpon",
       "ru": "звонить",
-      "en": "to call"
+      "en": "to call",
+      "examples": [
+        {
+          "id": "Saya akan menelpon ibu.",
+          "ru": "Я позвоню маме."
+        },
+        {
+          "id": "Dia menelpon setiap hari.",
+          "ru": "Он звонит каждый день."
+        },
+        {
+          "id": "Tolong menelpon dokter.",
+          "ru": "Пожалуйста, позвони врачу."
+        }
+      ]
     },
     {
       "id": "menelepon",
       "ru": "звонить (форм.)",
-      "en": "to call (formal)"
+      "en": "to call (formal)",
+      "examples": [
+        {
+          "id": "Silakan menelepon ke nomor ini.",
+          "ru": "Пожалуйста, позвоните по этому номеру."
+        },
+        {
+          "id": "Saya menelepon kantor.",
+          "ru": "Я звоню в офис."
+        },
+        {
+          "id": "Dia menelepon kemarin.",
+          "ru": "Он звонил вчера."
+        }
+      ]
     },
     {
       "id": "menjelaskan",
       "ru": "объяснять",
-      "en": "to explain"
+      "en": "to explain",
+      "examples": [
+        {
+          "id": "Tolong menjelaskan kepada saya.",
+          "ru": "Пожалуйста, объясни мне."
+        },
+        {
+          "id": "Dia menjelaskan dengan baik.",
+          "ru": "Он хорошо объясняет."
+        },
+        {
+          "id": "Saya menjelaskan situasinya.",
+          "ru": "Я объясняю ситуацию."
+        }
+      ]
     },
     {
       "id": "memilih",
       "ru": "выбирать",
-      "en": "to choose"
+      "en": "to choose",
+      "examples": [
+        {
+          "id": "Saya memilih warna merah.",
+          "ru": "Я выбираю красный цвет."
+        },
+        {
+          "id": "Tolong memilih dengan hati-hati.",
+          "ru": "Пожалуйста, выбирай осторожно."
+        },
+        {
+          "id": "Dia memilih mobil itu.",
+          "ru": "Он выбрал ту машину."
+        }
+      ]
     },
     {
       "id": "membayangkan",
       "ru": "представлять",
-      "en": "to imagine"
+      "en": "to imagine",
+      "examples": [
+        {
+          "id": "Saya membayangkan masa depan.",
+          "ru": "Я представляю будущее."
+        },
+        {
+          "id": "Coba membayangkan pantai itu.",
+          "ru": "Попробуй представить тот пляж."
+        },
+        {
+          "id": "Dia membayangkan rumah baru.",
+          "ru": "Он представляет новый дом."
+        }
+      ]
     },
     {
       "id": "bermimpi",
       "ru": "мечтать / видеть сон",
-      "en": "to dream"
+      "en": "to dream",
+      "examples": [
+        {
+          "id": "Saya bermimpi tentang ibu.",
+          "ru": "Я видел во сне маму."
+        },
+        {
+          "id": "Anak-anak bermimpi indah.",
+          "ru": "Дети видят сладкие сны."
+        },
+        {
+          "id": "Dia bermimpi jadi pilot.",
+          "ru": "Он мечтает стать пилотом."
+        }
+      ]
     },
     {
       "id": "menghitung",
       "ru": "считать",
-      "en": "to count"
+      "en": "to count",
+      "examples": [
+        {
+          "id": "Saya menghitung uang.",
+          "ru": "Я считаю деньги."
+        },
+        {
+          "id": "Anak-anak belajar menghitung.",
+          "ru": "Дети учатся считать."
+        },
+        {
+          "id": "Tolong menghitung berapa orang.",
+          "ru": "Пожалуйста, посчитай, сколько человек."
+        }
+      ]
     },
     {
       "id": "menjaga",
       "ru": "охранять / заботиться",
-      "en": "to guard"
+      "en": "to guard",
+      "examples": [
+        {
+          "id": "Saya menjaga adik.",
+          "ru": "Я присматриваю за младшим братом."
+        },
+        {
+          "id": "Polisi menjaga jalan.",
+          "ru": "Полиция охраняет дорогу."
+        },
+        {
+          "id": "Tolong menjaga kunci.",
+          "ru": "Пожалуйста, сохрани ключ."
+        }
+      ]
     },
     {
       "id": "melindungi",
       "ru": "защищать",
-      "en": "to protect"
+      "en": "to protect",
+      "examples": [
+        {
+          "id": "Ibu melindungi anaknya.",
+          "ru": "Мама защищает своего ребёнка."
+        },
+        {
+          "id": "Hutan melindungi alam.",
+          "ru": "Лес охраняет природу."
+        },
+        {
+          "id": "Tolong melindungi diri sendiri.",
+          "ru": "Пожалуйста, защити себя."
+        }
+      ]
     },
     {
       "id": "menyelamatkan",
       "ru": "спасать",
-      "en": "to save"
+      "en": "to save",
+      "examples": [
+        {
+          "id": "Dia menyelamatkan anak hanyut.",
+          "ru": "Он спас тонущего ребёнка."
+        },
+        {
+          "id": "Polisi menyelamatkan kami.",
+          "ru": "Полиция нас спасла."
+        },
+        {
+          "id": "Tolong menyelamatkan kucing ini.",
+          "ru": "Пожалуйста, спаси эту кошку."
+        }
+      ]
     },
     {
       "id": "menyembunyikan",
       "ru": "прятать",
-      "en": "to hide"
+      "en": "to hide",
+      "examples": [
+        {
+          "id": "Saya menyembunyikan kado.",
+          "ru": "Я спрятал подарок."
+        },
+        {
+          "id": "Anak itu menyembunyikan permen.",
+          "ru": "Этот ребёнок спрятал конфеты."
+        },
+        {
+          "id": "Jangan menyembunyikan kebenaran.",
+          "ru": "Не скрывай правду."
+        }
+      ]
     },
     {
       "id": "berhenti",
       "ru": "останавливаться",
-      "en": "to stop"
+      "en": "to stop",
+      "examples": [
+        {
+          "id": "Bus berhenti di halte.",
+          "ru": "Автобус останавливается на остановке."
+        },
+        {
+          "id": "Saya berhenti merokok.",
+          "ru": "Я бросил курить."
+        },
+        {
+          "id": "Tolong berhenti sebentar.",
+          "ru": "Пожалуйста, остановись на минутку."
+        }
+      ]
     },
     {
       "id": "melanjutkan",
       "ru": "продолжать",
-      "en": "to continue"
+      "en": "to continue",
+      "examples": [
+        {
+          "id": "Saya melanjutkan pekerjaan.",
+          "ru": "Я продолжаю работу."
+        },
+        {
+          "id": "Tolong melanjutkan ceritanya.",
+          "ru": "Пожалуйста, продолжи рассказ."
+        },
+        {
+          "id": "Dia melanjutkan kuliah.",
+          "ru": "Он продолжает учёбу в вузе."
+        }
+      ]
     },
     {
       "id": "lanjut",
       "ru": "продолжать",
-      "en": "continue"
+      "en": "continue",
+      "examples": [
+        {
+          "id": "Lanjut, jangan berhenti!",
+          "ru": "Продолжай, не останавливайся!"
+        },
+        {
+          "id": "Saya lanjut belajar besok.",
+          "ru": "Я продолжу учиться завтра."
+        },
+        {
+          "id": "Mari lanjut kerja.",
+          "ru": "Давайте продолжим работу."
+        }
+      ]
     }
   ]
 }
