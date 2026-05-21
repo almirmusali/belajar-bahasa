@@ -1,6 +1,6 @@
 // Минимальный service worker: кеш «App Shell» — главная и базовые ассеты,
 // чтобы приложение запускалось офлайн.
-const VERSION = "v1";
+const VERSION = "v3";
 const CACHE = `belajar-${VERSION}`;
 const SHELL = ["/", "/vocab", "/manifest.webmanifest"];
 

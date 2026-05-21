@@ -420,7 +420,7 @@ export function FlashcardPlayer({
               ? `translate(${swipeDx * 0.85}px, ${swipeDy * 0.85}px) rotate(${swipeDx * 0.05}deg)`
               : undefined,
           transition: swipeDx || swipeDy ? "none" : "transform 200ms ease-out",
-          touchAction: "pan-y",
+          touchAction: "none",
         }}
         className={cn(
           "group relative flex select-none flex-col overflow-hidden rounded-2xl border bg-card p-8 pb-6 text-center shadow-sm transition-colors hover:border-primary",
@@ -437,11 +437,11 @@ export function FlashcardPlayer({
           {pos + 1} / {effectiveOrder.length}
         </div>
 
-        <div className="flex flex-1 flex-col items-center justify-center gap-2 px-4">
+        <div className="flex flex-1 flex-col items-center justify-center gap-2 px-4 text-center">
           {sideKind === "target" ? (
             <div
               className={cn(
-                "text-balance font-semibold leading-tight text-primary",
+                "w-full text-balance text-center font-semibold leading-tight text-primary",
                 studyMode
                   ? "text-5xl sm:text-7xl"
                   : "text-3xl sm:text-4xl",
@@ -450,11 +450,11 @@ export function FlashcardPlayer({
               {targetText}
             </div>
           ) : (
-            <div className="flex flex-col items-center gap-2">
+            <div className="flex w-full flex-col items-center gap-2 text-center">
               {current.en ? (
                 <div
                   className={cn(
-                    "text-balance font-semibold leading-tight",
+                    "w-full text-balance text-center font-semibold leading-tight",
                     studyMode
                       ? "text-4xl sm:text-6xl"
                       : "text-2xl sm:text-3xl",
@@ -465,7 +465,7 @@ export function FlashcardPlayer({
               ) : null}
               <div
                 className={cn(
-                  "text-balance leading-tight",
+                  "w-full text-balance text-center leading-tight",
                   current.en
                     ? cn(
                         "text-muted-foreground",
@@ -482,7 +482,7 @@ export function FlashcardPlayer({
                 {nativeText}
               </div>
               {current.note && (
-                <div className="text-xs italic text-muted-foreground/80">
+                <div className="text-center text-xs italic text-muted-foreground/80">
                   {current.note}
                 </div>
               )}
@@ -492,14 +492,14 @@ export function FlashcardPlayer({
 
         {current.examples && current.examples.length > 0 && (
           <div className="mt-4 w-full">
-            <div className="mx-auto max-w-md border-t pt-3">
-              <ul className="space-y-2.5 text-balance">
+            <div className="mx-auto max-w-md border-t pt-3 text-center">
+              <ul className="space-y-2.5 text-balance text-center">
                 {current.examples.slice(0, 3).map((ex, i) => (
-                  <li key={i} className="leading-snug">
+                  <li key={i} className="text-center leading-snug">
                     {sideKind === "target" ? (
                       <div
                         className={cn(
-                          "text-muted-foreground",
+                          "text-center text-muted-foreground",
                           studyMode ? "text-base sm:text-lg" : "text-sm",
                         )}
                       >
@@ -509,7 +509,7 @@ export function FlashcardPlayer({
                       <>
                         <div
                           className={cn(
-                            "text-muted-foreground",
+                            "text-center text-muted-foreground",
                             studyMode ? "text-base sm:text-lg" : "text-sm",
                           )}
                         >
@@ -517,7 +517,7 @@ export function FlashcardPlayer({
                         </div>
                         <div
                           className={cn(
-                            "text-muted-foreground/70",
+                            "text-center text-muted-foreground/70",
                             studyMode ? "text-sm sm:text-base" : "text-xs",
                           )}
                         >
