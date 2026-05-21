@@ -493,30 +493,40 @@ export function FlashcardPlayer({
         {current.examples && current.examples.length > 0 && (
           <div className="mt-4 w-full">
             <div className="mx-auto max-w-md border-t pt-3">
-              <ul className="space-y-1.5 text-balance">
-                {current.examples.slice(0, 3).map((ex, i) => {
-                  const text =
-                    sideKind === "target"
-                      ? locale === "ru"
-                        ? ex.id
-                        : ex.ru
-                      : locale === "ru"
-                        ? ex.ru
-                        : ex.id;
-                  return (
-                    <li
-                      key={i}
-                      className={cn(
-                        "leading-snug",
-                        studyMode
-                          ? "text-base text-muted-foreground sm:text-lg"
-                          : "text-sm text-muted-foreground",
-                      )}
-                    >
-                      {text}
-                    </li>
-                  );
-                })}
+              <ul className="space-y-2.5 text-balance">
+                {current.examples.slice(0, 3).map((ex, i) => (
+                  <li key={i} className="leading-snug">
+                    {sideKind === "target" ? (
+                      <div
+                        className={cn(
+                          "text-muted-foreground",
+                          studyMode ? "text-base sm:text-lg" : "text-sm",
+                        )}
+                      >
+                        {locale === "ru" ? ex.id : ex.ru}
+                      </div>
+                    ) : (
+                      <>
+                        <div
+                          className={cn(
+                            "text-muted-foreground",
+                            studyMode ? "text-base sm:text-lg" : "text-sm",
+                          )}
+                        >
+                          {ex.id}
+                        </div>
+                        <div
+                          className={cn(
+                            "text-muted-foreground/70",
+                            studyMode ? "text-sm sm:text-base" : "text-xs",
+                          )}
+                        >
+                          {ex.ru}
+                        </div>
+                      </>
+                    )}
+                  </li>
+                ))}
               </ul>
             </div>
           </div>
