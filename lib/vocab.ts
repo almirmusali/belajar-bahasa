@@ -11,7 +11,9 @@ export type Word = {
 export type VocabSet = {
   slug: string;
   title: string;
+  titleId?: string;
   description?: string;
+  descriptionId?: string;
   words: Word[];
 };
 
@@ -35,12 +37,17 @@ function readSet(slug: string): VocabSet | undefined {
   const file = path.join(VOCAB_DIR, slug, "index.json");
   if (!fs.existsSync(file)) return undefined;
   try {
-    const raw = JSON.parse(fs.readFileSync(file, "utf8")) as Partial<VocabSet>;
+    const raw = JSON.parse(fs.readFileSync(file, "utf8")) as Partial<VocabSet> & {
+      title_id?: string;
+      description_id?: string;
+    };
     if (!Array.isArray(raw.words)) return undefined;
     return {
       slug,
       title: raw.title ?? slug,
+      titleId: raw.titleId ?? raw.title_id,
       description: raw.description,
+      descriptionId: raw.descriptionId ?? raw.description_id,
       words: raw.words as Word[],
     };
   } catch {

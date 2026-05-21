@@ -1,6 +1,8 @@
 {
   "title": "Личные местоимения",
+  "title_id": "Kata ganti orang",
   "description": "Я, ты, он/она, мы, вы, они",
+  "description_id": "Saya, kamu, dia, kami, kalian, mereka",
   "words": [
     {
       "id": "saya",

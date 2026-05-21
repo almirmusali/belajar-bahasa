@@ -18,17 +18,19 @@ import {
 } from "lucide-react";
 import type { Word } from "@/lib/vocab";
 import { useLearned, useMounted } from "@/lib/use-learned";
+import { useLocale } from "@/lib/use-locale";
+import { t, tf } from "@/lib/i18n";
 import { cn } from "@/lib/utils";
 
-type Direction = "id-to-tr" | "tr-to-id";
-type SideKind = "id" | "tr";
+type Direction = "target-first" | "translation-first";
+type SideKind = "target" | "translation";
 type Lang = "id" | "en" | "ru";
 
 const SPEED_PRESETS = [
-  { label: "1.5 c", value: 1.5 },
-  { label: "3 c", value: 3 },
-  { label: "5 c", value: 5 },
-  { label: "8 c", value: 8 },
+  { label: "1.5", value: 1.5 },
+  { label: "3", value: 3 },
+  { label: "5", value: 5 },
+  { label: "8", value: 8 },
 ];
 
 const LANG_META: Record<Lang, { label: string; locale: string }> = {
@@ -36,6 +38,12 @@ const LANG_META: Record<Lang, { label: string; locale: string }> = {
   en: { label: "EN", locale: "en-US" },
   ru: { label: "RU", locale: "ru-RU" },
 };
+
+function textFor(word: Word, lang: Lang): string | undefined {
+  if (lang === "id") return word.id;
+  if (lang === "en") return word.en;
+  return word.ru;
+}
 
 export function FlashcardPlayer({
   words,
@@ -45,18 +53,31 @@ export function FlashcardPlayer({
   slug: string;
 }) {
   const mounted = useMounted();
+  const { locale } = useLocale();
   const { isLearned, mark, unmark, learnedForSet, clearSet } = useLearned();
+
+  // Какой язык - целевой (изучаемый), какой - родной (помощник)
+  const target: Lang = locale === "ru" ? "id" : "ru";
+  const native: Lang = locale === "ru" ? "ru" : "id";
 
   const [baseOrder, setBaseOrder] = useState<number[]>(() =>
     words.map((_, i) => i),
   );
   const [pos, setPos] = useState(0);
   const [side, setSide] = useState<0 | 1>(0);
-  const [direction, setDirection] = useState<Direction>("id-to-tr");
+  const [direction, setDirection] = useState<Direction>("target-first");
   const [playing, setPlaying] = useState(false);
   const [speed, setSpeed] = useState(3);
-  const [langs, setLangs] = useState<Lang[]>(["id", "en"]);
+  const [langs, setLangs] = useState<Lang[]>(() =>
+    locale === "ru" ? ["id", "en"] : ["ru", "en"],
+  );
   const [hideLearned, setHideLearned] = useState(true);
+
+  // При переключении языка интерфейса обновляем дефолтные чипы озвучки
+  useEffect(() => {
+    setLangs(locale === "ru" ? ["id", "en"] : ["ru", "en"]);
+    setSide(0);
+  }, [locale]);
 
   const langSet = useMemo(() => new Set(langs), [langs]);
   const toggleLang = (l: Lang) =>
@@ -84,8 +105,9 @@ export function FlashcardPlayer({
   const currentIsLearned = current ? isLearned(slug, current.id) : false;
 
   const sideKind: SideKind = useMemo(() => {
-    if (direction === "id-to-tr") return side === 0 ? "id" : "tr";
-    return side === 0 ? "tr" : "id";
+    if (direction === "target-first")
+      return side === 0 ? "target" : "translation";
+    return side === 0 ? "translation" : "target";
   }, [side, direction]);
 
   const speakChain = useCallback(
@@ -116,24 +138,40 @@ export function FlashcardPlayer({
   );
 
   const speakOne = useCallback(
-    (text: string, lang: Lang) => speakChain([{ text, locale: LANG_META[lang].locale }]),
+    (text: string, lang: Lang) =>
+      speakChain([{ text, locale: LANG_META[lang].locale }]),
     [speakChain],
   );
 
   useEffect(() => {
     if (langSet.size === 0 || !current) return;
     const chain: Array<{ text: string; locale: string }> = [];
-    if (sideKind === "id") {
-      if (langSet.has("id"))
-        chain.push({ text: current.id, locale: LANG_META.id.locale });
+    if (sideKind === "target") {
+      if (langSet.has(target)) {
+        const text = textFor(current, target);
+        if (text) chain.push({ text, locale: LANG_META[target].locale });
+      }
     } else {
-      if (langSet.has("en") && current.en)
+      if (langSet.has("en") && current.en) {
         chain.push({ text: current.en, locale: LANG_META.en.locale });
-      if (langSet.has("ru"))
-        chain.push({ text: current.ru, locale: LANG_META.ru.locale });
+      }
+      if (langSet.has(native)) {
+        const text = textFor(current, native);
+        if (text) chain.push({ text, locale: LANG_META[native].locale });
+      }
     }
     speakChain(chain);
-  }, [pos, side, direction, langSet, sideKind, current, speakChain]);
+  }, [
+    pos,
+    side,
+    direction,
+    langSet,
+    sideKind,
+    current,
+    speakChain,
+    target,
+    native,
+  ]);
 
   const flip = useCallback(() => setSide((s) => (s === 0 ? 1 : 0)), []);
   const next = useCallback(() => {
@@ -185,18 +223,11 @@ export function FlashcardPlayer({
     setSide(0);
   };
 
-  const restart = () => {
-    setBaseOrder(words.map((_, i) => i));
-    setPos(0);
-    setSide(0);
-  };
-
   const handleKnow = () => {
     if (!current) return;
     mark(slug, current.id);
     setSide(0);
   };
-
   const handleUnknow = () => {
     if (!current) return;
     unmark(slug, current.id);
@@ -220,7 +251,7 @@ export function FlashcardPlayer({
   if (totalCount === 0) {
     return (
       <div className="rounded-xl border bg-card p-10 text-center text-muted-foreground">
-        В этом наборе нет слов.
+        {t(locale, "fc_empty")}
       </div>
     );
   }
@@ -230,9 +261,11 @@ export function FlashcardPlayer({
       <div className="space-y-4">
         <div className="rounded-2xl border bg-card p-10 text-center">
           <CheckCircle2 className="mx-auto h-10 w-10 text-primary" />
-          <p className="mt-3 text-xl font-semibold">Все слова выучены!</p>
+          <p className="mt-3 text-xl font-semibold">
+            {t(locale, "fc_all_done_title")}
+          </p>
           <p className="mt-1 text-sm text-muted-foreground">
-            {totalCount} / {totalCount} помечены как «знаю».
+            {totalCount} / {totalCount} {t(locale, "fc_all_done_marked")}
           </p>
           <div className="mt-5 flex flex-wrap justify-center gap-2">
             <button
@@ -240,14 +273,14 @@ export function FlashcardPlayer({
               onClick={() => clearSet(slug)}
               className="inline-flex items-center gap-2 rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground hover:bg-primary/90"
             >
-              <RotateCw className="h-4 w-4" /> Изучать снова
+              <RotateCw className="h-4 w-4" /> {t(locale, "fc_study_again")}
             </button>
             <button
               type="button"
               onClick={() => setHideLearned(false)}
               className="inline-flex items-center gap-2 rounded-md border px-4 py-2 text-sm hover:bg-secondary"
             >
-              <Eye className="h-4 w-4" /> Показать выученные
+              <Eye className="h-4 w-4" /> {t(locale, "fc_show_learned")}
             </button>
           </div>
         </div>
@@ -255,17 +288,25 @@ export function FlashcardPlayer({
     );
   }
 
+  // Текст и метка стороны
+  const targetText = textFor(current, target) ?? "";
+  const nativeText = textFor(current, native) ?? "";
+  const sideLabel =
+    sideKind === "target"
+      ? t(locale, "fc_side_target")
+      : t(locale, "fc_side_translation");
+
   return (
     <div className="flex flex-col gap-4">
       <style>{`@keyframes flashcard-tick { from { width: 0% } to { width: 100% } }`}</style>
 
       <div className="flex items-center justify-between text-xs text-muted-foreground">
         <span>
-          Прогресс:{" "}
+          {t(locale, "fc_progress")}{" "}
           <span className="font-semibold text-foreground">
             {learnedCount} / {totalCount}
           </span>{" "}
-          выучено
+          {t(locale, "fc_learned")}
         </span>
         <div className="h-1.5 w-32 overflow-hidden rounded bg-secondary">
           <div
@@ -284,16 +325,16 @@ export function FlashcardPlayer({
         )}
       >
         <div className="absolute left-4 top-3 text-xs font-medium uppercase tracking-wider text-muted-foreground">
-          {sideKind === "id" ? "Индонезийский" : "Перевод"}
+          {sideLabel}
         </div>
         <div className="absolute right-4 top-3 text-xs text-muted-foreground">
           {pos + 1} / {effectiveOrder.length}
         </div>
 
         <div className="flex flex-col items-center gap-2 px-4">
-          {sideKind === "id" ? (
+          {sideKind === "target" ? (
             <div className="text-balance text-3xl font-semibold leading-tight text-primary sm:text-4xl">
-              {current.id}
+              {targetText}
             </div>
           ) : (
             <div className="flex flex-col items-center gap-2">
@@ -310,7 +351,7 @@ export function FlashcardPlayer({
                     : "text-2xl font-semibold text-foreground sm:text-3xl",
                 )}
               >
-                {current.ru}
+                {nativeText}
               </div>
               {current.note && (
                 <div className="text-xs italic text-muted-foreground/80">
@@ -331,13 +372,13 @@ export function FlashcardPlayer({
 
         {currentIsLearned && (
           <div className="absolute bottom-3 left-3 inline-flex items-center gap-1 rounded-full bg-emerald-500/15 px-2 py-0.5 text-[11px] font-medium text-emerald-700 dark:text-emerald-400">
-            <Check className="h-3 w-3" /> выучено
+            <Check className="h-3 w-3" /> {t(locale, "fc_learned")}
           </div>
         )}
       </button>
 
       <div className="flex flex-wrap items-center justify-center gap-2">
-        <IconButton onClick={prev} title="Назад (←)">
+        <IconButton onClick={prev} title={t(locale, "fc_back")}>
           <SkipBack className="h-4 w-4" />
         </IconButton>
         <button
@@ -347,66 +388,74 @@ export function FlashcardPlayer({
         >
           {playing ? (
             <>
-              <Pause className="h-4 w-4" /> Пауза
+              <Pause className="h-4 w-4" /> {t(locale, "fc_pause")}
             </>
           ) : (
             <>
-              <Play className="h-4 w-4" /> Авто
+              <Play className="h-4 w-4" /> {t(locale, "fc_auto")}
             </>
           )}
         </button>
-        <IconButton onClick={next} title="Вперёд (→)">
+        <IconButton onClick={next} title={t(locale, "fc_forward")}>
           <SkipForward className="h-4 w-4" />
         </IconButton>
         {currentIsLearned ? (
           <button
             type="button"
             onClick={handleUnknow}
-            title="Убрать из выученных (K)"
+            title={t(locale, "fc_unknow")}
             className="inline-flex items-center gap-2 rounded-md border border-emerald-500/50 bg-emerald-500/10 px-4 py-2 text-sm font-medium text-emerald-700 transition hover:bg-emerald-500/20 dark:text-emerald-400"
           >
-            <Undo2 className="h-4 w-4" /> Вернуть в учёбу
+            <Undo2 className="h-4 w-4" /> {t(locale, "fc_unknow")}
           </button>
         ) : (
           <button
             type="button"
             onClick={handleKnow}
-            title="Я знаю это слово (K)"
+            title={t(locale, "fc_know")}
             className="inline-flex items-center gap-2 rounded-md border border-emerald-500/40 bg-emerald-500/5 px-4 py-2 text-sm font-medium text-emerald-700 transition hover:bg-emerald-500/15 dark:text-emerald-400"
           >
-            <Check className="h-4 w-4" /> Знаю
+            <Check className="h-4 w-4" /> {t(locale, "fc_know")}
           </button>
         )}
-        <IconButton onClick={flip} title="Перевернуть (пробел)">
+        <IconButton onClick={flip} title={t(locale, "fc_flip")}>
           <RotateCw className="h-4 w-4" />
         </IconButton>
-        <IconButton onClick={shuffle} title="Перемешать">
+        <IconButton onClick={shuffle} title={t(locale, "fc_shuffle")}>
           <Shuffle className="h-4 w-4" />
         </IconButton>
         <IconButton
           onClick={() => speakOne(current.id, "id")}
-          title="Произнести по-индонезийски"
+          title={
+            locale === "ru"
+              ? t(locale, "fc_speak_target")
+              : t(locale, "fc_speak_native")
+          }
         >
           <span className="text-[10px] font-semibold">ID</span>
         </IconButton>
         {current.en && (
           <IconButton
             onClick={() => speakOne(current.en!, "en")}
-            title="Произнести по-английски"
+            title={t(locale, "fc_speak_en")}
           >
             <span className="text-[10px] font-semibold">EN</span>
           </IconButton>
         )}
         <IconButton
           onClick={() => speakOne(current.ru, "ru")}
-          title="Произнести по-русски"
+          title={
+            locale === "ru"
+              ? t(locale, "fc_speak_native")
+              : t(locale, "fc_speak_target")
+          }
         >
           <span className="text-[10px] font-semibold">RU</span>
         </IconButton>
       </div>
 
       <div className="grid gap-4 rounded-xl border bg-card p-4 sm:grid-cols-2 lg:grid-cols-4">
-        <Field label="Скорость">
+        <Field label={t(locale, "fc_settings_speed")}>
           <div className="flex flex-wrap gap-1">
             {SPEED_PRESETS.map((p) => (
               <button
@@ -434,28 +483,32 @@ export function FlashcardPlayer({
             className="mt-2 w-full accent-primary"
           />
           <div className="text-xs text-muted-foreground">
-            {speed.toFixed(1)} c на сторону
+            {speed.toFixed(1)} {t(locale, "fc_settings_speed_unit")}
           </div>
         </Field>
 
-        <Field label="Направление">
+        <Field label={t(locale, "fc_settings_direction")}>
           <button
             type="button"
             onClick={() => {
-              setDirection((d) => (d === "id-to-tr" ? "tr-to-id" : "id-to-tr"));
+              setDirection((d) =>
+                d === "target-first" ? "translation-first" : "target-first",
+              );
               setSide(0);
             }}
             className="inline-flex items-center gap-2 rounded-md border px-3 py-1.5 text-sm hover:bg-secondary"
           >
             <ArrowLeftRight className="h-4 w-4" />
-            {direction === "id-to-tr" ? "ID → перевод" : "перевод → ID"}
+            {direction === "target-first"
+              ? t(locale, "fc_settings_direction_target_first")
+              : t(locale, "fc_settings_direction_translation_first")}
           </button>
           <div className="text-xs text-muted-foreground">
-            Какая сторона первой
+            {t(locale, "fc_settings_direction_hint")}
           </div>
         </Field>
 
-        <Field label="Озвучка">
+        <Field label={t(locale, "fc_settings_audio")}>
           <div className="flex flex-wrap gap-1">
             {(["id", "en", "ru"] as Lang[]).map((l) => {
               const active = langSet.has(l);
@@ -483,24 +536,26 @@ export function FlashcardPlayer({
               onClick={() => setLangs(["id", "en", "ru"])}
               className="text-muted-foreground hover:text-foreground"
             >
-              все
+              {t(locale, "fc_settings_audio_all")}
             </button>
             <button
               type="button"
               onClick={() => setLangs([])}
               className="text-muted-foreground hover:text-foreground"
             >
-              выкл
+              {t(locale, "fc_settings_audio_off")}
             </button>
           </div>
           <div className="text-xs text-muted-foreground">
             {langSet.size === 0
-              ? "Без авто-озвучки"
-              : `Авто: ${langs.map((l) => LANG_META[l].label).join(" · ")}`}
+              ? t(locale, "fc_settings_audio_state_off")
+              : tf(locale, "fc_settings_audio_state", {
+                  langs: langs.map((l) => LANG_META[l].label).join(" · "),
+                })}
           </div>
         </Field>
 
-        <Field label="Выученные">
+        <Field label={t(locale, "fc_settings_learned")}>
           <button
             type="button"
             onClick={() => setHideLearned((h) => !h)}
@@ -508,11 +563,13 @@ export function FlashcardPlayer({
           >
             {hideLearned ? (
               <>
-                <EyeOff className="h-4 w-4" /> Скрыты
+                <EyeOff className="h-4 w-4" />{" "}
+                {t(locale, "fc_settings_learned_hidden")}
               </>
             ) : (
               <>
-                <Eye className="h-4 w-4" /> Показаны
+                <Eye className="h-4 w-4" />{" "}
+                {t(locale, "fc_settings_learned_shown")}
               </>
             )}
           </button>
@@ -520,28 +577,21 @@ export function FlashcardPlayer({
             <button
               type="button"
               onClick={() => {
-                if (
-                  confirm(
-                    "Очистить «выучено» для этого набора? Прогресс сбросится.",
-                  )
-                ) {
+                if (confirm(t(locale, "learned_clear_all_confirm"))) {
                   clearSet(slug);
                 }
               }}
               className="inline-flex items-center gap-1 text-xs text-muted-foreground hover:text-foreground"
             >
-              <Trash2 className="h-3 w-3" /> Сбросить ({learnedCount})
+              <Trash2 className="h-3 w-3" />{" "}
+              {t(locale, "fc_settings_learned_reset")} ({learnedCount})
             </button>
           )}
         </Field>
       </div>
 
       <div className="text-center text-xs text-muted-foreground">
-        <kbd className="rounded border px-1">Space</kbd> — переворот ·{" "}
-        <kbd className="rounded border px-1">←</kbd>{" "}
-        <kbd className="rounded border px-1">→</kbd> — между карточками ·{" "}
-        <kbd className="rounded border px-1">P</kbd> — пауза ·{" "}
-        <kbd className="rounded border px-1">K</kbd> — знаю
+        {t(locale, "fc_kbd_hint")}
       </div>
     </div>
   );

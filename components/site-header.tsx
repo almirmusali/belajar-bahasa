@@ -1,6 +1,12 @@
+"use client";
+
 import Link from "next/link";
+import { LocaleSwitcher } from "@/components/locale-switcher";
+import { useLocale } from "@/lib/use-locale";
+import { t } from "@/lib/i18n";
 
 export function SiteHeader() {
+  const { locale } = useLocale();
   return (
     <header className="sticky top-0 z-40 w-full border-b bg-background/80 backdrop-blur">
       <div className="container mx-auto flex h-14 items-center justify-between px-4">
@@ -9,16 +15,13 @@ export function SiteHeader() {
           <span>Belajar Bahasa</span>
         </Link>
         <nav className="flex items-center gap-4 text-sm text-muted-foreground">
-          <Link href="/" className="hover:text-foreground">Уроки</Link>
-          <Link href="/vocab" className="hover:text-foreground">Словарь</Link>
-          <a
-            href="https://github.com/almirmusali/belajar-bahasa"
-            target="_blank"
-            rel="noreferrer"
-            className="hover:text-foreground"
-          >
-            GitHub
-          </a>
+          <Link href="/" className="hover:text-foreground">
+            {t(locale, "nav_lessons")}
+          </Link>
+          <Link href="/vocab" className="hover:text-foreground">
+            {t(locale, "nav_vocab")}
+          </Link>
+          <LocaleSwitcher />
         </nav>
       </div>
     </header>

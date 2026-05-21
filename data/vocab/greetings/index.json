@@ -1,6 +1,8 @@
 {
   "title": "Приветствия и прощания",
+  "title_id": "Salam dan perpisahan",
   "description": "Базовые фразы из Урока 1",
+  "description_id": "Frasa dasar dari Pelajaran 1",
   "words": [
     {
       "id": "Selamat pagi",

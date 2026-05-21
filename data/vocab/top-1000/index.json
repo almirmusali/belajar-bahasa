@@ -1,6 +1,8 @@
 {
   "title": "1000 базовых слов",
+  "title_id": "1000 kata dasar",
   "description": "Самые употребимые слова и фразы индонезийского, сгруппированные по темам",
+  "description_id": "Kata-kata dan frasa yang paling sering digunakan, dikelompokkan menurut tema",
   "words": [
     {
       "id": "halo",
