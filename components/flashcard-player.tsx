@@ -20,6 +20,7 @@ import {
 } from "lucide-react";
 import type { Word } from "@/lib/vocab";
 import { useLearned, useMounted } from "@/lib/use-learned";
+import { useActivity } from "@/lib/use-activity";
 import { useLocale } from "@/lib/use-locale";
 import { t, tf } from "@/lib/i18n";
 import { cn } from "@/lib/utils";
@@ -57,6 +58,7 @@ export function FlashcardPlayer({
   const mounted = useMounted();
   const { locale } = useLocale();
   const { isLearned, mark, unmark, learnedForSet, clearSet } = useLearned();
+  const { addCard } = useActivity();
 
   // Какой язык - целевой (изучаемый), какой - родной (помощник)
   const target: Lang = locale === "ru" ? "id" : "ru";
@@ -115,6 +117,16 @@ export function FlashcardPlayer({
   }, [effectiveOrder.length, pos]);
 
   const current = words[effectiveOrder[pos]];
+
+  // Считаем просмотры карточек: каждое появление нового слова на экране = +1
+  const seenIdRef = useRef<string | null>(null);
+  useEffect(() => {
+    if (current?.id && current.id !== seenIdRef.current) {
+      seenIdRef.current = current.id;
+      addCard();
+    }
+  }, [current?.id, addCard]);
+
   const learnedIds = learnedForSet(slug);
   const learnedCount = mounted ? learnedIds.length : 0;
   const totalCount = words.length;

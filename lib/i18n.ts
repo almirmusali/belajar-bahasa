@@ -165,6 +165,21 @@ const ru: Dict = {
   lesson_completed: "Урок пройден",
   lesson_mark_incomplete: "Снять отметку",
   lesson_completed_on: "Пройдено",
+
+  // Stats dashboard
+  stats_title: "Статистика обучения",
+  stats_today: "Сегодня",
+  stats_week: "Неделя",
+  stats_month: "Месяц",
+  stats_cards_short: "карточек",
+  stats_time_short: "времени",
+  stats_no_activity: "Начни учить карточки — здесь появится твоя статистика",
+  stats_last_7_days: "Последние 7 дней",
+  stats_view_cards: "карточки",
+  stats_view_time: "время",
+  stats_h: "ч",
+  stats_min: "мин",
+  stats_sec: "с",
 };
 
 const id: Dict = {
@@ -329,6 +344,21 @@ const id: Dict = {
   lesson_completed: "Pelajaran selesai",
   lesson_mark_incomplete: "Hapus tanda",
   lesson_completed_on: "Selesai",
+
+  // Stats dashboard
+  stats_title: "Statistik belajar",
+  stats_today: "Hari ini",
+  stats_week: "Minggu",
+  stats_month: "Bulan",
+  stats_cards_short: "kartu",
+  stats_time_short: "waktu",
+  stats_no_activity: "Mulai belajar kartu — statistikmu akan muncul di sini",
+  stats_last_7_days: "7 hari terakhir",
+  stats_view_cards: "kartu",
+  stats_view_time: "waktu",
+  stats_h: "j",
+  stats_min: "mnt",
+  stats_sec: "d",
 };
 
 const dicts: Record<Locale, Dict> = { ru, id };

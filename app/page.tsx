@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { SiteHeader } from "@/components/site-header";
 import { LessonCheckmark } from "@/components/lesson-complete-button";
+import { StatsDashboard } from "@/components/stats-dashboard";
 import { lessons } from "@/lib/lessons";
 import { useLocale } from "@/lib/use-locale";
 import { t } from "@/lib/i18n";
@@ -39,6 +40,8 @@ export default function Home() {
             </Link>
           </div>
         </section>
+
+        <StatsDashboard />
 
         <section
           id="lessons"
