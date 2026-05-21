@@ -161,16 +161,34 @@ export function FlashcardPlayer({
 
   useEffect(() => {
     if (langSet.size === 0 || !current) return;
-    // Каждое изменение стороны проигрывает ВСЕ выбранные языки в порядке ID → EN → RU.
+    // Озвучка синхронна со стороной карточки: на target-стороне звучит target;
+    // на стороне перевода — выбранные помощники (EN и/или native).
     const chain: Array<{ text: string; locale: string }> = [];
-    if (langSet.has("id"))
-      chain.push({ text: current.id, locale: LANG_META.id.locale });
-    if (langSet.has("en") && current.en)
-      chain.push({ text: current.en, locale: LANG_META.en.locale });
-    if (langSet.has("ru"))
-      chain.push({ text: current.ru, locale: LANG_META.ru.locale });
+    if (sideKind === "target") {
+      if (langSet.has(target)) {
+        const text = textFor(current, target);
+        if (text) chain.push({ text, locale: LANG_META[target].locale });
+      }
+    } else {
+      if (langSet.has("en") && current.en) {
+        chain.push({ text: current.en, locale: LANG_META.en.locale });
+      }
+      if (langSet.has(native)) {
+        const text = textFor(current, native);
+        if (text) chain.push({ text, locale: LANG_META[native].locale });
+      }
+    }
     speakChain(chain);
-  }, [pos, side, langSet, current, speakChain]);
+  }, [
+    pos,
+    side,
+    sideKind,
+    langSet,
+    current,
+    target,
+    native,
+    speakChain,
+  ]);
 
   const flip = useCallback(() => setSide((s) => (s === 0 ? 1 : 0)), []);
   const next = useCallback(() => {
