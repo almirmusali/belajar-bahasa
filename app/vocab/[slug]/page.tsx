@@ -36,7 +36,7 @@ export default async function VocabSetPage({
           )}
         </header>
 
-        <FlashcardPlayer words={set.words} />
+        <FlashcardPlayer words={set.words} slug={set.slug} />
       </main>
     </>
   );

@@ -1,6 +1,7 @@
 import Link from "next/link";
-import { Library } from "lucide-react";
+import { CheckCircle2, Library } from "lucide-react";
 import { SiteHeader } from "@/components/site-header";
+import { VocabProgress } from "@/components/vocab-progress";
 import { getAllVocabSets } from "@/lib/vocab";
 
 export default function VocabIndexPage() {
@@ -21,6 +22,14 @@ export default function VocabIndexPage() {
             Quizlet-стиль: выбери набор, нажми «Авто» и слова сами листаются с
             озвучкой. Скорость и направление настраиваются.
           </p>
+          <div className="mt-5 flex justify-center">
+            <Link
+              href="/vocab/learned"
+              className="inline-flex items-center gap-2 rounded-full border px-4 py-1.5 text-sm hover:bg-secondary"
+            >
+              <CheckCircle2 className="h-4 w-4 text-primary" /> Выученные слова
+            </Link>
+          </div>
         </section>
 
         {sets.length === 0 ? (
@@ -51,6 +60,7 @@ export default function VocabIndexPage() {
                     {s.description}
                   </p>
                 )}
+                <VocabProgress slug={s.slug} total={s.words.length} />
               </Link>
             ))}
           </div>
