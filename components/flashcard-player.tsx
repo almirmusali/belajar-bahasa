@@ -7,6 +7,7 @@ import {
   CheckCircle2,
   Eye,
   EyeOff,
+  GraduationCap,
   Pause,
   Play,
   RotateCw,
@@ -15,6 +16,7 @@ import {
   SkipForward,
   Trash2,
   Undo2,
+  X,
 } from "lucide-react";
 import type { Word } from "@/lib/vocab";
 import { useLearned, useMounted } from "@/lib/use-learned";
@@ -72,6 +74,7 @@ export function FlashcardPlayer({
     locale === "ru" ? ["id", "en"] : ["ru", "en"],
   );
   const [hideLearned, setHideLearned] = useState(true);
+  const [studyMode, setStudyMode] = useState(false);
 
   // При переключении языка интерфейса обновляем дефолтные чипы озвучки
   useEffect(() => {
@@ -300,7 +303,7 @@ export function FlashcardPlayer({
     <div className="flex flex-col gap-4">
       <style>{`@keyframes flashcard-tick { from { width: 0% } to { width: 100% } }`}</style>
 
-      <div className="flex items-center justify-between text-xs text-muted-foreground">
+      <div className="flex items-center justify-between gap-3 text-xs text-muted-foreground">
         <span>
           {t(locale, "fc_progress")}{" "}
           <span className="font-semibold text-foreground">
@@ -308,11 +311,33 @@ export function FlashcardPlayer({
           </span>{" "}
           {t(locale, "fc_learned")}
         </span>
-        <div className="h-1.5 w-32 overflow-hidden rounded bg-secondary">
-          <div
-            className="h-full bg-primary transition-all"
-            style={{ width: `${(learnedCount / totalCount) * 100}%` }}
-          />
+        <div className="flex items-center gap-3">
+          <div className="hidden h-1.5 w-32 overflow-hidden rounded bg-secondary sm:block">
+            <div
+              className="h-full bg-primary transition-all"
+              style={{ width: `${(learnedCount / totalCount) * 100}%` }}
+            />
+          </div>
+          <button
+            type="button"
+            onClick={() => setStudyMode((s) => !s)}
+            className={cn(
+              "inline-flex items-center gap-1.5 rounded-md border px-3 py-1.5 text-sm font-medium transition",
+              studyMode
+                ? "border-primary bg-primary/10 text-primary hover:bg-primary/15"
+                : "hover:bg-secondary",
+            )}
+          >
+            {studyMode ? (
+              <>
+                <X className="h-4 w-4" /> {t(locale, "fc_exit_study")}
+              </>
+            ) : (
+              <>
+                <GraduationCap className="h-4 w-4" /> {t(locale, "fc_study")}
+              </>
+            )}
+          </button>
         </div>
       </div>
 
@@ -320,7 +345,10 @@ export function FlashcardPlayer({
         type="button"
         onClick={flip}
         className={cn(
-          "group relative flex min-h-[260px] items-center justify-center overflow-hidden rounded-2xl border bg-card p-8 text-center shadow-sm transition hover:border-primary sm:min-h-[320px]",
+          "group relative flex items-center justify-center overflow-hidden rounded-2xl border bg-card p-8 text-center shadow-sm transition hover:border-primary",
+          studyMode
+            ? "min-h-[60vh] sm:min-h-[70vh]"
+            : "min-h-[260px] sm:min-h-[320px]",
           currentIsLearned && "border-emerald-500/50 bg-emerald-500/5",
         )}
       >
@@ -333,22 +361,44 @@ export function FlashcardPlayer({
 
         <div className="flex flex-col items-center gap-2 px-4">
           {sideKind === "target" ? (
-            <div className="text-balance text-3xl font-semibold leading-tight text-primary sm:text-4xl">
+            <div
+              className={cn(
+                "text-balance font-semibold leading-tight text-primary",
+                studyMode
+                  ? "text-5xl sm:text-7xl"
+                  : "text-3xl sm:text-4xl",
+              )}
+            >
               {targetText}
             </div>
           ) : (
             <div className="flex flex-col items-center gap-2">
               {current.en ? (
-                <div className="text-balance text-2xl font-semibold leading-tight sm:text-3xl">
+                <div
+                  className={cn(
+                    "text-balance font-semibold leading-tight",
+                    studyMode
+                      ? "text-4xl sm:text-6xl"
+                      : "text-2xl sm:text-3xl",
+                  )}
+                >
                   {current.en}
                 </div>
               ) : null}
               <div
                 className={cn(
-                  "text-balance leading-tight text-muted-foreground",
+                  "text-balance leading-tight",
                   current.en
-                    ? "text-base sm:text-lg"
-                    : "text-2xl font-semibold text-foreground sm:text-3xl",
+                    ? cn(
+                        "text-muted-foreground",
+                        studyMode ? "text-xl sm:text-3xl" : "text-base sm:text-lg",
+                      )
+                    : cn(
+                        "font-semibold text-foreground",
+                        studyMode
+                          ? "text-4xl sm:text-6xl"
+                          : "text-2xl sm:text-3xl",
+                      ),
                 )}
               >
                 {nativeText}
@@ -454,6 +504,7 @@ export function FlashcardPlayer({
         </IconButton>
       </div>
 
+      {!studyMode && (
       <div className="grid gap-4 rounded-xl border bg-card p-4 sm:grid-cols-2 lg:grid-cols-4">
         <Field label={t(locale, "fc_settings_speed")}>
           <div className="flex flex-wrap gap-1">
@@ -589,10 +640,13 @@ export function FlashcardPlayer({
           )}
         </Field>
       </div>
+      )}
 
-      <div className="text-center text-xs text-muted-foreground">
-        {t(locale, "fc_kbd_hint")}
-      </div>
+      {!studyMode && (
+        <div className="text-center text-xs text-muted-foreground">
+          {t(locale, "fc_kbd_hint")}
+        </div>
+      )}
     </div>
   );
 }

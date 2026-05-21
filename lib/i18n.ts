@@ -94,6 +94,8 @@ const ru: Dict = {
   fc_speak_target: "Произнести по-индонезийски",
   fc_speak_en: "Произнести по-английски",
   fc_speak_native: "Произнести по-русски",
+  fc_study: "Изучать",
+  fc_exit_study: "Выйти",
 
   // Install hint
   install_ios_title: "Установить на iPhone",
@@ -195,6 +197,8 @@ const id: Dict = {
   fc_speak_target: "Ucapkan dalam bahasa Rusia",
   fc_speak_en: "Ucapkan dalam bahasa Inggris",
   fc_speak_native: "Ucapkan dalam bahasa Indonesia",
+  fc_study: "Belajar",
+  fc_exit_study: "Keluar",
 
   install_ios_title: "Pasang di iPhone",
   install_ios_body:
