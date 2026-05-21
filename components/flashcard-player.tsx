@@ -161,33 +161,16 @@ export function FlashcardPlayer({
 
   useEffect(() => {
     if (langSet.size === 0 || !current) return;
+    // Каждое изменение стороны проигрывает ВСЕ выбранные языки в порядке ID → EN → RU.
     const chain: Array<{ text: string; locale: string }> = [];
-    if (sideKind === "target") {
-      if (langSet.has(target)) {
-        const text = textFor(current, target);
-        if (text) chain.push({ text, locale: LANG_META[target].locale });
-      }
-    } else {
-      if (langSet.has("en") && current.en) {
-        chain.push({ text: current.en, locale: LANG_META.en.locale });
-      }
-      if (langSet.has(native)) {
-        const text = textFor(current, native);
-        if (text) chain.push({ text, locale: LANG_META[native].locale });
-      }
-    }
+    if (langSet.has("id"))
+      chain.push({ text: current.id, locale: LANG_META.id.locale });
+    if (langSet.has("en") && current.en)
+      chain.push({ text: current.en, locale: LANG_META.en.locale });
+    if (langSet.has("ru"))
+      chain.push({ text: current.ru, locale: LANG_META.ru.locale });
     speakChain(chain);
-  }, [
-    pos,
-    side,
-    direction,
-    langSet,
-    sideKind,
-    current,
-    speakChain,
-    target,
-    native,
-  ]);
+  }, [pos, side, langSet, current, speakChain]);
 
   const flip = useCallback(() => setSide((s) => (s === 0 ? 1 : 0)), []);
   const next = useCallback(() => {
@@ -416,7 +399,7 @@ export function FlashcardPlayer({
         style={{
           transform:
             swipeDx || swipeDy
-              ? `translate(${swipeDx * 0.4}px, ${swipeDy * 0.4}px) rotate(${swipeDx * 0.02}deg)`
+              ? `translate(${swipeDx * 0.85}px, ${swipeDy * 0.85}px) rotate(${swipeDx * 0.05}deg)`
               : undefined,
           transition: swipeDx || swipeDy ? "none" : "transform 200ms ease-out",
           touchAction: "pan-y",
@@ -552,7 +535,11 @@ export function FlashcardPlayer({
           <Shuffle className="h-4 w-4" />
         </IconButton>
         <IconButton
-          onClick={() => speakOne(current.id, "id")}
+          onClick={() => {
+            toggleLang("id");
+            speakOne(current.id, "id");
+          }}
+          highlight={langSet.has("id")}
           title={
             locale === "ru"
               ? t(locale, "fc_speak_target")
@@ -563,14 +550,22 @@ export function FlashcardPlayer({
         </IconButton>
         {current.en && (
           <IconButton
-            onClick={() => speakOne(current.en!, "en")}
+            onClick={() => {
+              toggleLang("en");
+              speakOne(current.en!, "en");
+            }}
+            highlight={langSet.has("en")}
             title={t(locale, "fc_speak_en")}
           >
             <span className="text-[10px] font-semibold">EN</span>
           </IconButton>
         )}
         <IconButton
-          onClick={() => speakOne(current.ru, "ru")}
+          onClick={() => {
+            toggleLang("ru");
+            speakOne(current.ru, "ru");
+          }}
+          highlight={langSet.has("ru")}
           title={
             locale === "ru"
               ? t(locale, "fc_speak_native")
@@ -732,10 +727,12 @@ function IconButton({
   children,
   onClick,
   title,
+  highlight = false,
 }: {
   children: React.ReactNode;
   onClick: () => void;
   title: string;
+  highlight?: boolean;
 }) {
   return (
     <button
@@ -743,7 +740,12 @@ function IconButton({
       onClick={onClick}
       title={title}
       aria-label={title}
-      className="inline-flex h-9 w-9 items-center justify-center rounded-md border bg-background transition hover:bg-secondary"
+      className={cn(
+        "inline-flex h-9 w-9 items-center justify-center rounded-md border bg-background transition",
+        highlight
+          ? "border-primary bg-primary text-primary-foreground hover:bg-primary/90"
+          : "hover:bg-secondary",
+      )}
     >
       {children}
     </button>
