@@ -1,0 +1,26 @@
+{
+  "title": "Числа от 1 до 20",
+  "description": "Базовый счёт",
+  "words": [
+    { "id": "satu", "ru": "1" },
+    { "id": "dua", "ru": "2" },
+    { "id": "tiga", "ru": "3" },
+    { "id": "empat", "ru": "4" },
+    { "id": "lima", "ru": "5" },
+    { "id": "enam", "ru": "6" },
+    { "id": "tujuh", "ru": "7" },
+    { "id": "delapan", "ru": "8" },
+    { "id": "sembilan", "ru": "9" },
+    { "id": "sepuluh", "ru": "10" },
+    { "id": "sebelas", "ru": "11" },
+    { "id": "dua belas", "ru": "12" },
+    { "id": "tiga belas", "ru": "13" },
+    { "id": "empat belas", "ru": "14" },
+    { "id": "lima belas", "ru": "15" },
+    { "id": "enam belas", "ru": "16" },
+    { "id": "tujuh belas", "ru": "17" },
+    { "id": "delapan belas", "ru": "18" },
+    { "id": "sembilan belas", "ru": "19" },
+    { "id": "dua puluh", "ru": "20" }
+  ]
+}

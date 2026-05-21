@@ -10,6 +10,7 @@ export function SiteHeader() {
         </Link>
         <nav className="flex items-center gap-4 text-sm text-muted-foreground">
           <Link href="/" className="hover:text-foreground">Уроки</Link>
+          <Link href="/vocab" className="hover:text-foreground">Словарь</Link>
           <a
             href="https://github.com/almirmusali/belajar-bahasa"
             target="_blank"

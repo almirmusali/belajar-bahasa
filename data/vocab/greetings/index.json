@@ -1,0 +1,19 @@
+{
+  "title": "Приветствия и прощания",
+  "description": "Базовые фразы из Урока 1",
+  "words": [
+    { "id": "Selamat pagi", "ru": "Доброе утро" },
+    { "id": "Selamat siang", "ru": "Добрый день" },
+    { "id": "Selamat sore", "ru": "Добрый вечер" },
+    { "id": "Selamat malam", "ru": "Доброй ночи" },
+    { "id": "Apa kabar?", "ru": "Как дела?" },
+    { "id": "Baik-baik saja", "ru": "Всё хорошо" },
+    { "id": "Terima kasih", "ru": "Спасибо" },
+    { "id": "Sama-sama", "ru": "Пожалуйста (в ответ на спасибо)" },
+    { "id": "Maaf", "ru": "Извините" },
+    { "id": "Tolong", "ru": "Пожалуйста (просьба)" },
+    { "id": "Sampai jumpa", "ru": "До свидания" },
+    { "id": "Sampai besok", "ru": "До завтра" },
+    { "id": "Senang berkenalan dengan Anda", "ru": "Рад знакомству с Вами" }
+  ]
+}
