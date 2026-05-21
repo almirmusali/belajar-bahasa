@@ -1,11 +1,17 @@
 import fs from "node:fs";
 import path from "node:path";
 
+export type Example = {
+  id: string;
+  ru: string;
+};
+
 export type Word = {
   id: string;
   ru: string;
   en?: string;
   note?: string;
+  examples?: Example[];
 };
 
 export type VocabSet = {

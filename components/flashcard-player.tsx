@@ -423,7 +423,7 @@ export function FlashcardPlayer({
           touchAction: "pan-y",
         }}
         className={cn(
-          "group relative flex select-none items-center justify-center overflow-hidden rounded-2xl border bg-card p-8 text-center shadow-sm transition-colors hover:border-primary",
+          "group relative flex select-none flex-col overflow-hidden rounded-2xl border bg-card p-8 pb-6 text-center shadow-sm transition-colors hover:border-primary",
           studyMode
             ? "min-h-[60vh] sm:min-h-[70vh]"
             : "min-h-[260px] sm:min-h-[320px]",
@@ -437,7 +437,7 @@ export function FlashcardPlayer({
           {pos + 1} / {effectiveOrder.length}
         </div>
 
-        <div className="flex flex-col items-center gap-2 px-4">
+        <div className="flex flex-1 flex-col items-center justify-center gap-2 px-4">
           {sideKind === "target" ? (
             <div
               className={cn(
@@ -489,6 +489,38 @@ export function FlashcardPlayer({
             </div>
           )}
         </div>
+
+        {current.examples && current.examples.length > 0 && (
+          <div className="mt-4 w-full">
+            <div className="mx-auto max-w-md border-t pt-3">
+              <ul className="space-y-1.5 text-balance">
+                {current.examples.slice(0, 3).map((ex, i) => {
+                  const text =
+                    sideKind === "target"
+                      ? locale === "ru"
+                        ? ex.id
+                        : ex.ru
+                      : locale === "ru"
+                        ? ex.ru
+                        : ex.id;
+                  return (
+                    <li
+                      key={i}
+                      className={cn(
+                        "leading-snug",
+                        studyMode
+                          ? "text-base text-muted-foreground sm:text-lg"
+                          : "text-sm text-muted-foreground",
+                      )}
+                    >
+                      {text}
+                    </li>
+                  );
+                })}
+              </ul>
+            </div>
+          </div>
+        )}
 
         <div className="absolute inset-x-0 bottom-0 h-1 bg-secondary">
           <div

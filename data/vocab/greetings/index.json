@@ -7,67 +7,132 @@
     {
       "id": "Selamat pagi",
       "ru": "Доброе утро",
-      "en": "Good morning"
+      "en": "Good morning",
+      "examples": [
+        { "id": "Selamat pagi, Pak!", "ru": "Доброе утро, господин!" },
+        { "id": "Selamat pagi, semuanya.", "ru": "Доброе утро всем." },
+        { "id": "Saya bangun jam enam dan bilang \"Selamat pagi\".", "ru": "Я просыпаюсь в шесть и говорю «Доброе утро»." }
+      ]
     },
     {
       "id": "Selamat siang",
       "ru": "Добрый день",
-      "en": "Good afternoon"
+      "en": "Good afternoon",
+      "examples": [
+        { "id": "Selamat siang, Bu.", "ru": "Добрый день, госпожа." },
+        { "id": "Selamat siang, apa kabar?", "ru": "Добрый день, как дела?" },
+        { "id": "Pukul dua belas saatnya bilang \"Selamat siang\".", "ru": "В двенадцать часов время сказать «Добрый день»." }
+      ]
     },
     {
       "id": "Selamat sore",
       "ru": "Добрый вечер",
-      "en": "Good evening"
+      "en": "Good evening",
+      "examples": [
+        { "id": "Selamat sore, teman-teman!", "ru": "Добрый вечер, друзья!" },
+        { "id": "Selamat sore, mau minum teh?", "ru": "Добрый вечер, хочешь чаю?" },
+        { "id": "Pukul lima sore — saya pulang kerja.", "ru": "Пять часов вечера — я возвращаюсь с работы." }
+      ]
     },
     {
       "id": "Selamat malam",
       "ru": "Доброй ночи",
-      "en": "Good night"
+      "en": "Good night",
+      "examples": [
+        { "id": "Selamat malam, sampai besok.", "ru": "Доброй ночи, до завтра." },
+        { "id": "Anak kecil bilang \"Selamat malam\" sebelum tidur.", "ru": "Ребёнок говорит «Доброй ночи» перед сном." },
+        { "id": "Selamat malam, mimpi indah!", "ru": "Доброй ночи, сладких снов!" }
+      ]
     },
     {
       "id": "Apa kabar?",
       "ru": "Как дела?",
-      "en": "How are you?"
+      "en": "How are you?",
+      "examples": [
+        { "id": "Halo Budi, apa kabar?", "ru": "Привет Буди, как дела?" },
+        { "id": "Lama tidak bertemu, apa kabar?", "ru": "Давно не виделись, как дела?" },
+        { "id": "Apa kabar keluarga?", "ru": "Как семья?" }
+      ]
     },
     {
       "id": "Baik-baik saja",
       "ru": "Всё хорошо",
-      "en": "I'm fine"
+      "en": "I'm fine",
+      "examples": [
+        { "id": "— Apa kabar? — Baik-baik saja, terima kasih.", "ru": "— Как дела? — Всё хорошо, спасибо." },
+        { "id": "Saya baik-baik saja, jangan khawatir.", "ru": "У меня всё хорошо, не волнуйся." },
+        { "id": "Kami semua baik-baik saja di rumah.", "ru": "Дома у нас всё хорошо." }
+      ]
     },
     {
       "id": "Terima kasih",
       "ru": "Спасибо",
-      "en": "Thank you"
+      "en": "Thank you",
+      "examples": [
+        { "id": "Terima kasih banyak!", "ru": "Большое спасибо!" },
+        { "id": "Terima kasih atas bantuanmu.", "ru": "Спасибо за твою помощь." },
+        { "id": "Saya selalu mengucapkan terima kasih.", "ru": "Я всегда говорю спасибо." }
+      ]
     },
     {
       "id": "Sama-sama",
       "ru": "Пожалуйста (в ответ на спасибо)",
-      "en": "You're welcome"
+      "en": "You're welcome",
+      "examples": [
+        { "id": "— Terima kasih! — Sama-sama.", "ru": "— Спасибо! — Пожалуйста." },
+        { "id": "Sama-sama, dengan senang hati.", "ru": "Пожалуйста, с удовольствием." },
+        { "id": "Tidak usah, sama-sama saja.", "ru": "Не за что, мы взаимно." }
+      ]
     },
     {
       "id": "Maaf",
       "ru": "Извините",
-      "en": "Sorry"
+      "en": "Sorry",
+      "examples": [
+        { "id": "Maaf, saya terlambat.", "ru": "Извините, я опоздал." },
+        { "id": "Maaf, di mana toilet?", "ru": "Простите, где туалет?" },
+        { "id": "Maaf, saya tidak tahu.", "ru": "Извини, я не знаю." }
+      ]
     },
     {
       "id": "Tolong",
       "ru": "Пожалуйста (просьба)",
-      "en": "Please / help"
+      "en": "Please / Help",
+      "examples": [
+        { "id": "Tolong tutup pintu.", "ru": "Пожалуйста, закрой дверь." },
+        { "id": "Tolong bantu saya.", "ru": "Помоги мне, пожалуйста." },
+        { "id": "Tolong bicara pelan-pelan.", "ru": "Пожалуйста, говорите помедленнее." }
+      ]
     },
     {
       "id": "Sampai jumpa",
       "ru": "До свидания",
-      "en": "See you"
+      "en": "See you",
+      "examples": [
+        { "id": "Sampai jumpa besok!", "ru": "До встречи завтра!" },
+        { "id": "Sampai jumpa lagi, teman.", "ru": "До новой встречи, друг." },
+        { "id": "Saya pulang dulu, sampai jumpa.", "ru": "Я пойду домой, до встречи." }
+      ]
     },
     {
       "id": "Sampai besok",
       "ru": "До завтра",
-      "en": "See you tomorrow"
+      "en": "See you tomorrow",
+      "examples": [
+        { "id": "Sampai besok di sekolah.", "ru": "До завтра в школе." },
+        { "id": "Selamat malam, sampai besok pagi.", "ru": "Доброй ночи, до завтрашнего утра." },
+        { "id": "Sampai besok jam delapan.", "ru": "До завтра в восемь часов." }
+      ]
     },
     {
       "id": "Senang berkenalan dengan Anda",
       "ru": "Рад знакомству с Вами",
-      "en": "Nice to meet you"
+      "en": "Nice to meet you",
+      "examples": [
+        { "id": "Halo, nama saya Andrei. Senang berkenalan dengan Anda.", "ru": "Здравствуйте, меня зовут Андрей. Рад знакомству с Вами." },
+        { "id": "Senang berkenalan dengan Anda juga.", "ru": "Тоже рад знакомству." },
+        { "id": "Akhirnya kita bertemu — senang berkenalan dengan Anda.", "ru": "Наконец-то мы встретились — рад знакомству." }
+      ]
     }
   ]
 }
