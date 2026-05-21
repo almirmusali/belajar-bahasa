@@ -2,18 +2,70 @@
   "title": "Приветствия и прощания",
   "description": "Базовые фразы из Урока 1",
   "words": [
-    { "id": "Selamat pagi", "ru": "Доброе утро" },
-    { "id": "Selamat siang", "ru": "Добрый день" },
-    { "id": "Selamat sore", "ru": "Добрый вечер" },
-    { "id": "Selamat malam", "ru": "Доброй ночи" },
-    { "id": "Apa kabar?", "ru": "Как дела?" },
-    { "id": "Baik-baik saja", "ru": "Всё хорошо" },
-    { "id": "Terima kasih", "ru": "Спасибо" },
-    { "id": "Sama-sama", "ru": "Пожалуйста (в ответ на спасибо)" },
-    { "id": "Maaf", "ru": "Извините" },
-    { "id": "Tolong", "ru": "Пожалуйста (просьба)" },
-    { "id": "Sampai jumpa", "ru": "До свидания" },
-    { "id": "Sampai besok", "ru": "До завтра" },
-    { "id": "Senang berkenalan dengan Anda", "ru": "Рад знакомству с Вами" }
+    {
+      "id": "Selamat pagi",
+      "ru": "Доброе утро",
+      "en": "Good morning"
+    },
+    {
+      "id": "Selamat siang",
+      "ru": "Добрый день",
+      "en": "Good afternoon"
+    },
+    {
+      "id": "Selamat sore",
+      "ru": "Добрый вечер",
+      "en": "Good evening"
+    },
+    {
+      "id": "Selamat malam",
+      "ru": "Доброй ночи",
+      "en": "Good night"
+    },
+    {
+      "id": "Apa kabar?",
+      "ru": "Как дела?",
+      "en": "How are you?"
+    },
+    {
+      "id": "Baik-baik saja",
+      "ru": "Всё хорошо",
+      "en": "I'm fine"
+    },
+    {
+      "id": "Terima kasih",
+      "ru": "Спасибо",
+      "en": "Thank you"
+    },
+    {
+      "id": "Sama-sama",
+      "ru": "Пожалуйста (в ответ на спасибо)",
+      "en": "You're welcome"
+    },
+    {
+      "id": "Maaf",
+      "ru": "Извините",
+      "en": "Sorry"
+    },
+    {
+      "id": "Tolong",
+      "ru": "Пожалуйста (просьба)",
+      "en": "Please / help"
+    },
+    {
+      "id": "Sampai jumpa",
+      "ru": "До свидания",
+      "en": "See you"
+    },
+    {
+      "id": "Sampai besok",
+      "ru": "До завтра",
+      "en": "See you tomorrow"
+    },
+    {
+      "id": "Senang berkenalan dengan Anda",
+      "ru": "Рад знакомству с Вами",
+      "en": "Nice to meet you"
+    }
   ]
 }

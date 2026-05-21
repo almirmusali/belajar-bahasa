@@ -22,7 +22,9 @@ import type { Word } from "@/lib/vocab";
 import { useLearned, useMounted } from "@/lib/use-learned";
 import { cn } from "@/lib/utils";
 
-type Direction = "id-to-ru" | "ru-to-id";
+type Direction = "id-to-tr" | "tr-to-id";
+type SideKind = "id" | "tr";
+
 const SPEED_PRESETS = [
   { label: "1.5 c", value: 1.5 },
   { label: "3 c", value: 3 },
@@ -45,7 +47,7 @@ export function FlashcardPlayer({
   );
   const [pos, setPos] = useState(0);
   const [side, setSide] = useState<0 | 1>(0);
-  const [direction, setDirection] = useState<Direction>("id-to-ru");
+  const [direction, setDirection] = useState<Direction>("id-to-tr");
   const [playing, setPlaying] = useState(false);
   const [speed, setSpeed] = useState(3);
   const [audioOn, setAudioOn] = useState(true);
@@ -70,42 +72,42 @@ export function FlashcardPlayer({
   const totalCount = words.length;
   const currentIsLearned = current ? isLearned(slug, current.id) : false;
 
-  const sideContent = useMemo(() => {
-    if (!current) return { text: "", lang: "id" as const };
-    if (direction === "id-to-ru") {
-      return side === 0
-        ? { text: current.id, lang: "id" as const, note: undefined }
-        : { text: current.ru, lang: "ru" as const, note: current.note };
-    }
-    return side === 0
-      ? { text: current.ru, lang: "ru" as const, note: current.note }
-      : { text: current.id, lang: "id" as const, note: undefined };
-  }, [current, side, direction]);
+  const sideKind: SideKind = useMemo(() => {
+    if (direction === "id-to-tr") return side === 0 ? "id" : "tr";
+    return side === 0 ? "tr" : "id";
+  }, [side, direction]);
 
-  const speak = useCallback((text: string) => {
-    if (typeof window === "undefined" || !("speechSynthesis" in window)) return;
-    window.speechSynthesis.cancel();
-    const u = new SpeechSynthesisUtterance(text);
-    u.lang = "id-ID";
-    u.rate = 0.95;
-    const voices = window.speechSynthesis.getVoices();
-    const idVoice = voices.find(
-      (v) => v.lang === "id-ID" || v.lang.startsWith("id"),
-    );
-    if (idVoice) u.voice = idVoice;
-    window.speechSynthesis.speak(u);
-  }, []);
+  const speak = useCallback(
+    (text: string, lang: "id-ID" | "en-US") => {
+      if (typeof window === "undefined" || !("speechSynthesis" in window))
+        return;
+      window.speechSynthesis.cancel();
+      const u = new SpeechSynthesisUtterance(text);
+      u.lang = lang;
+      u.rate = 0.95;
+      const voices = window.speechSynthesis.getVoices();
+      const langPrefix = lang.slice(0, 2);
+      const voice = voices.find(
+        (v) => v.lang === lang || v.lang.startsWith(langPrefix),
+      );
+      if (voice) u.voice = voice;
+      window.speechSynthesis.speak(u);
+    },
+    [],
+  );
 
   useEffect(() => {
-    if (audioOn && sideContent.lang === "id" && sideContent.text) {
-      speak(sideContent.text);
-    }
-  }, [pos, side, direction, audioOn, sideContent.lang, sideContent.text, speak]);
+    if (!audioOn || !current) return;
+    if (sideKind === "id") speak(current.id, "id-ID");
+    else if (current.en) speak(current.en, "en-US");
+  }, [pos, side, direction, audioOn, sideKind, current, speak]);
 
   const flip = useCallback(() => setSide((s) => (s === 0 ? 1 : 0)), []);
   const next = useCallback(() => {
     setSide(0);
-    setPos((p) => (effectiveOrder.length === 0 ? 0 : (p + 1) % effectiveOrder.length));
+    setPos((p) =>
+      effectiveOrder.length === 0 ? 0 : (p + 1) % effectiveOrder.length,
+    );
   }, [effectiveOrder.length]);
   const prev = useCallback(() => {
     setSide(0);
@@ -160,12 +162,6 @@ export function FlashcardPlayer({
     if (!current) return;
     mark(slug, current.id);
     setSide(0);
-    if (hideLearned) {
-      // current word disappears from filter; pos stays => next word slides in
-      // useEffect clamps pos if it overflowed
-    } else {
-      next();
-    }
   };
 
   const handleUnknow = () => {
@@ -255,24 +251,39 @@ export function FlashcardPlayer({
         )}
       >
         <div className="absolute left-4 top-3 text-xs font-medium uppercase tracking-wider text-muted-foreground">
-          {sideContent.lang === "id" ? "Индонезийский" : "Русский"}
+          {sideKind === "id" ? "Индонезийский" : "Перевод"}
         </div>
         <div className="absolute right-4 top-3 text-xs text-muted-foreground">
           {pos + 1} / {effectiveOrder.length}
         </div>
 
         <div className="flex flex-col items-center gap-2 px-4">
-          <div
-            className={cn(
-              "text-balance text-3xl font-semibold leading-tight sm:text-4xl",
-              sideContent.lang === "id" && "text-primary",
-            )}
-          >
-            {sideContent.text}
-          </div>
-          {sideContent.note && (
-            <div className="text-sm italic text-muted-foreground">
-              {sideContent.note}
+          {sideKind === "id" ? (
+            <div className="text-balance text-3xl font-semibold leading-tight text-primary sm:text-4xl">
+              {current.id}
+            </div>
+          ) : (
+            <div className="flex flex-col items-center gap-2">
+              {current.en ? (
+                <div className="text-balance text-2xl font-semibold leading-tight sm:text-3xl">
+                  {current.en}
+                </div>
+              ) : null}
+              <div
+                className={cn(
+                  "text-balance leading-tight text-muted-foreground",
+                  current.en
+                    ? "text-base sm:text-lg"
+                    : "text-2xl font-semibold text-foreground sm:text-3xl",
+                )}
+              >
+                {current.ru}
+              </div>
+              {current.note && (
+                <div className="text-xs italic text-muted-foreground/80">
+                  {current.note}
+                </div>
+              )}
             </div>
           )}
         </div>
@@ -339,9 +350,20 @@ export function FlashcardPlayer({
         <IconButton onClick={shuffle} title="Перемешать">
           <Shuffle className="h-4 w-4" />
         </IconButton>
-        <IconButton onClick={() => speak(current.id)} title="Произнести">
+        <IconButton
+          onClick={() => speak(current.id, "id-ID")}
+          title="Произнести по-индонезийски"
+        >
           <Volume2 className="h-4 w-4" />
         </IconButton>
+        {current.en && (
+          <IconButton
+            onClick={() => speak(current.en!, "en-US")}
+            title="Произнести по-английски"
+          >
+            <span className="text-[10px] font-semibold">EN</span>
+          </IconButton>
+        )}
       </div>
 
       <div className="grid gap-4 rounded-xl border bg-card p-4 sm:grid-cols-2 lg:grid-cols-4">
@@ -381,13 +403,13 @@ export function FlashcardPlayer({
           <button
             type="button"
             onClick={() => {
-              setDirection((d) => (d === "id-to-ru" ? "ru-to-id" : "id-to-ru"));
+              setDirection((d) => (d === "id-to-tr" ? "tr-to-id" : "id-to-tr"));
               setSide(0);
             }}
             className="inline-flex items-center gap-2 rounded-md border px-3 py-1.5 text-sm hover:bg-secondary"
           >
             <ArrowLeftRight className="h-4 w-4" />
-            {direction === "id-to-ru" ? "ID → RU" : "RU → ID"}
+            {direction === "id-to-tr" ? "ID → перевод" : "перевод → ID"}
           </button>
           <div className="text-xs text-muted-foreground">
             Какая сторона первой
@@ -411,7 +433,7 @@ export function FlashcardPlayer({
             )}
           </button>
           <div className="text-xs text-muted-foreground">
-            Авто-произношение ID
+            ID на одной стороне, EN на другой
           </div>
         </Field>
 

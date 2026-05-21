@@ -4,4999 +4,6248 @@
   "words": [
     {
       "id": "halo",
-      "ru": "привет"
+      "ru": "привет",
+      "en": "hello"
     },
     {
       "id": "hai",
-      "ru": "привет"
+      "ru": "привет",
+      "en": "hi"
     },
     {
       "id": "selamat pagi",
-      "ru": "доброе утро"
+      "ru": "доброе утро",
+      "en": "good morning"
     },
     {
       "id": "selamat siang",
-      "ru": "добрый день"
+      "ru": "добрый день",
+      "en": "good afternoon"
     },
     {
       "id": "selamat sore",
-      "ru": "добрый вечер"
+      "ru": "добрый вечер",
+      "en": "good evening"
     },
     {
       "id": "selamat malam",
-      "ru": "доброй ночи"
+      "ru": "доброй ночи",
+      "en": "good night"
     },
     {
       "id": "selamat datang",
-      "ru": "добро пожаловать"
+      "ru": "добро пожаловать",
+      "en": "welcome"
     },
     {
       "id": "selamat tinggal",
-      "ru": "прощай"
+      "ru": "прощай",
+      "en": "goodbye"
     },
     {
       "id": "selamat jalan",
-      "ru": "счастливого пути"
+      "ru": "счастливого пути",
+      "en": "safe journey"
     },
     {
       "id": "selamat tidur",
-      "ru": "спокойной ночи"
+      "ru": "спокойной ночи",
+      "en": "sleep well"
     },
     {
       "id": "selamat makan",
-      "ru": "приятного аппетита"
+      "ru": "приятного аппетита",
+      "en": "enjoy your meal"
     },
     {
       "id": "selamat ulang tahun",
-      "ru": "с днём рождения"
+      "ru": "с днём рождения",
+      "en": "happy birthday"
     },
     {
       "id": "apa kabar",
-      "ru": "как дела"
+      "ru": "как дела",
+      "en": "how are you"
     },
     {
       "id": "baik",
-      "ru": "хорошо / хороший"
+      "ru": "хорошо / хороший",
+      "en": "good / fine"
     },
     {
       "id": "baik-baik saja",
-      "ru": "всё хорошо"
+      "ru": "всё хорошо",
+      "en": "I'm fine"
     },
     {
       "id": "terima kasih",
-      "ru": "спасибо"
+      "ru": "спасибо",
+      "en": "thank you"
     },
     {
       "id": "sama-sama",
-      "ru": "пожалуйста (в ответ на спасибо)"
+      "ru": "пожалуйста (в ответ на спасибо)",
+      "en": "you're welcome"
     },
     {
       "id": "maaf",
-      "ru": "извини"
+      "ru": "извини",
+      "en": "sorry"
     },
     {
       "id": "permisi",
-      "ru": "разрешите / извините"
+      "ru": "разрешите / извините",
+      "en": "excuse me"
     },
     {
       "id": "tolong",
-      "ru": "пожалуйста (просьба)"
+      "ru": "пожалуйста (просьба)",
+      "en": "please / help"
     },
     {
       "id": "silakan",
-      "ru": "пожалуйста (приглашение)"
+      "ru": "пожалуйста (приглашение)",
+      "en": "please / go ahead"
     },
     {
       "id": "mohon",
-      "ru": "прошу"
+      "ru": "прошу",
+      "en": "please (formal)"
     },
     {
       "id": "sampai jumpa",
-      "ru": "до свидания"
+      "ru": "до свидания",
+      "en": "see you"
     },
     {
       "id": "sampai besok",
-      "ru": "до завтра"
+      "ru": "до завтра",
+      "en": "see you tomorrow"
     },
     {
       "id": "sampai nanti",
-      "ru": "до встречи"
+      "ru": "до встречи",
+      "en": "see you later"
     },
     {
       "id": "senang berkenalan",
-      "ru": "рад знакомству"
+      "ru": "рад знакомству",
+      "en": "nice to meet you"
     },
     {
       "id": "hati-hati",
-      "ru": "осторожно"
+      "ru": "осторожно",
+      "en": "be careful"
     },
     {
       "id": "semangat",
-      "ru": "держись / удачи"
+      "ru": "держись / удачи",
+      "en": "go for it"
     },
     {
       "id": "ayo",
-      "ru": "давай / пошли"
+      "ru": "давай / пошли",
+      "en": "let's go"
     },
     {
       "id": "mari",
-      "ru": "давай / идём"
+      "ru": "давай / идём",
+      "en": "let's"
     },
     {
       "id": "oke",
-      "ru": "ок"
+      "ru": "ок",
+      "en": "ok"
     },
     {
       "id": "baiklah",
-      "ru": "ладно"
+      "ru": "ладно",
+      "en": "all right"
     },
     {
       "id": "tidak apa-apa",
-      "ru": "ничего страшного"
+      "ru": "ничего страшного",
+      "en": "it's okay"
     },
     {
       "id": "saya",
-      "ru": "я"
+      "ru": "я",
+      "en": "I"
     },
     {
       "id": "aku",
-      "ru": "я (близко)"
+      "ru": "я (близко)",
+      "en": "I (informal)"
     },
     {
       "id": "kamu",
-      "ru": "ты"
+      "ru": "ты",
+      "en": "you"
     },
     {
       "id": "kau",
-      "ru": "ты (поэт.)"
+      "ru": "ты (поэт.)",
+      "en": "you (poetic)"
     },
     {
       "id": "Anda",
-      "ru": "Вы"
+      "ru": "Вы",
+      "en": "you (formal)"
     },
     {
       "id": "dia",
-      "ru": "он / она"
+      "ru": "он / она",
+      "en": "he / she"
     },
     {
       "id": "ia",
-      "ru": "он / она (формально)"
+      "ru": "он / она (формально)",
+      "en": "he / she (formal)"
     },
     {
       "id": "beliau",
-      "ru": "он/она (очень уважительно)"
+      "ru": "он/она (очень уважительно)",
+      "en": "he / she (very respectful)"
     },
     {
       "id": "kita",
-      "ru": "мы (вкл. собеседника)"
+      "ru": "мы (вкл. собеседника)",
+      "en": "we (inclusive)"
     },
     {
       "id": "kami",
-      "ru": "мы (без собеседника)"
+      "ru": "мы (без собеседника)",
+      "en": "we (exclusive)"
     },
     {
       "id": "kalian",
-      "ru": "вы (мн.)"
+      "ru": "вы (мн.)",
+      "en": "you (plural)"
     },
     {
       "id": "mereka",
-      "ru": "они"
+      "ru": "они",
+      "en": "they"
     },
     {
       "id": "diri",
-      "ru": "сам / себя"
+      "ru": "сам / себя",
+      "en": "self"
     },
     {
       "id": "diri sendiri",
-      "ru": "сам себя"
+      "ru": "сам себя",
+      "en": "oneself"
     },
     {
       "id": "apa",
-      "ru": "что"
+      "ru": "что",
+      "en": "what"
     },
     {
       "id": "siapa",
-      "ru": "кто"
+      "ru": "кто",
+      "en": "who"
     },
     {
       "id": "mana",
-      "ru": "где / какой"
+      "ru": "где / какой",
+      "en": "where / which"
     },
     {
       "id": "di mana",
-      "ru": "где"
+      "ru": "где",
+      "en": "where"
     },
     {
       "id": "ke mana",
-      "ru": "куда"
+      "ru": "куда",
+      "en": "where to"
     },
     {
       "id": "dari mana",
-      "ru": "откуда"
+      "ru": "откуда",
+      "en": "where from"
     },
     {
       "id": "kapan",
-      "ru": "когда"
+      "ru": "когда",
+      "en": "when"
     },
     {
       "id": "mengapa",
-      "ru": "почему"
+      "ru": "почему",
+      "en": "why"
     },
     {
       "id": "kenapa",
-      "ru": "почему (разг.)"
+      "ru": "почему (разг.)",
+      "en": "why (informal)"
     },
     {
       "id": "bagaimana",
-      "ru": "как"
+      "ru": "как",
+      "en": "how"
     },
     {
       "id": "berapa",
-      "ru": "сколько"
+      "ru": "сколько",
+      "en": "how many / how much"
     },
     {
       "id": "yang mana",
-      "ru": "который"
+      "ru": "который",
+      "en": "which one"
     },
     {
       "id": "apakah",
-      "ru": "ли (вопрос. частица)"
+      "ru": "ли (вопрос. частица)",
+      "en": "is (question particle)"
     },
     {
       "id": "ini",
-      "ru": "это"
+      "ru": "это",
+      "en": "this"
     },
     {
       "id": "itu",
-      "ru": "то"
+      "ru": "то",
+      "en": "that"
     },
     {
       "id": "sini",
-      "ru": "здесь"
+      "ru": "здесь",
+      "en": "here"
     },
     {
       "id": "sana",
-      "ru": "там"
+      "ru": "там",
+      "en": "there"
     },
     {
       "id": "situ",
-      "ru": "там / у тебя"
+      "ru": "там / у тебя",
+      "en": "there (near you)"
     },
     {
       "id": "begini",
-      "ru": "вот так"
+      "ru": "вот так",
+      "en": "like this"
     },
     {
       "id": "begitu",
-      "ru": "так"
+      "ru": "так",
+      "en": "like that"
     },
     {
       "id": "seperti ini",
-      "ru": "как это"
+      "ru": "как это",
+      "en": "like this"
     },
     {
       "id": "seperti itu",
-      "ru": "как то"
+      "ru": "как то",
+      "en": "like that"
     },
     {
       "id": "tidak",
-      "ru": "не"
+      "ru": "не",
+      "en": "no / not"
     },
     {
       "id": "tak",
-      "ru": "не (краткая форма)"
+      "ru": "не (краткая форма)",
+      "en": "not (short)"
     },
     {
       "id": "bukan",
-      "ru": "не (с существительным)"
+      "ru": "не (с существительным)",
+      "en": "not (with noun)"
     },
     {
       "id": "belum",
-      "ru": "ещё не"
+      "ru": "ещё не",
+      "en": "not yet"
     },
     {
       "id": "sudah",
-      "ru": "уже"
+      "ru": "уже",
+      "en": "already"
     },
     {
       "id": "telah",
-      "ru": "уже (формально)"
+      "ru": "уже (формально)",
+      "en": "already (formal)"
     },
     {
       "id": "pernah",
-      "ru": "когда-либо"
+      "ru": "когда-либо",
+      "en": "ever"
     },
     {
       "id": "masih",
-      "ru": "всё ещё"
+      "ru": "всё ещё",
+      "en": "still"
     },
     {
       "id": "baru",
-      "ru": "только что / новый"
+      "ru": "только что / новый",
+      "en": "just / new"
     },
     {
       "id": "akan",
-      "ru": "будет (будущее)"
+      "ru": "будет (будущее)",
+      "en": "will"
     },
     {
       "id": "mau",
-      "ru": "хочу / собираюсь"
+      "ru": "хочу / собираюсь",
+      "en": "want / will"
     },
     {
       "id": "ingin",
-      "ru": "хочу"
+      "ru": "хочу",
+      "en": "want"
     },
     {
       "id": "hendak",
-      "ru": "намерен"
+      "ru": "намерен",
+      "en": "intend to"
     },
     {
       "id": "sedang",
-      "ru": "сейчас (длительное)"
+      "ru": "сейчас (длительное)",
+      "en": "in the middle of"
     },
     {
       "id": "lagi",
-      "ru": "снова / ещё"
+      "ru": "снова / ещё",
+      "en": "again / more"
     },
     {
       "id": "harus",
-      "ru": "должен"
+      "ru": "должен",
+      "en": "must"
     },
     {
       "id": "wajib",
-      "ru": "обязан"
+      "ru": "обязан",
+      "en": "obligatory"
     },
     {
       "id": "perlu",
-      "ru": "нужно"
+      "ru": "нужно",
+      "en": "need"
     },
     {
       "id": "butuh",
-      "ru": "нуждаюсь"
+      "ru": "нуждаюсь",
+      "en": "need"
     },
     {
       "id": "boleh",
-      "ru": "можно"
+      "ru": "можно",
+      "en": "may"
     },
     {
       "id": "bisa",
-      "ru": "могу / можно"
+      "ru": "могу / можно",
+      "en": "can"
     },
     {
       "id": "dapat",
-      "ru": "могу / получить"
+      "ru": "могу / получить",
+      "en": "can / get"
     },
     {
       "id": "mampu",
-      "ru": "в состоянии"
+      "ru": "в состоянии",
+      "en": "able"
     },
     {
       "id": "jangan",
-      "ru": "не делай"
+      "ru": "не делай",
+      "en": "don't"
     },
     {
       "id": "yang",
-      "ru": "который"
+      "ru": "который",
+      "en": "which / that"
     },
     {
       "id": "ada",
-      "ru": "есть / имеется"
+      "ru": "есть / имеется",
+      "en": "there is"
     },
     {
       "id": "adalah",
-      "ru": "является"
+      "ru": "является",
+      "en": "is / are"
     },
     {
       "id": "di",
-      "ru": "в, на (место)"
+      "ru": "в, на (место)",
+      "en": "in / at"
     },
     {
       "id": "ke",
-      "ru": "в (направление)"
+      "ru": "в (направление)",
+      "en": "to"
     },
     {
       "id": "dari",
-      "ru": "из, от"
+      "ru": "из, от",
+      "en": "from"
     },
     {
       "id": "pada",
-      "ru": "на, у"
+      "ru": "на, у",
+      "en": "at / on"
     },
     {
       "id": "dengan",
-      "ru": "с"
+      "ru": "с",
+      "en": "with"
     },
     {
       "id": "untuk",
-      "ru": "для"
+      "ru": "для",
+      "en": "for"
     },
     {
       "id": "buat",
-      "ru": "для (разг.)"
+      "ru": "для (разг.)",
+      "en": "for (informal)"
     },
     {
       "id": "oleh",
-      "ru": "кем (пассив)"
+      "ru": "кем (пассив)",
+      "en": "by"
     },
     {
       "id": "tentang",
-      "ru": "о, про"
+      "ru": "о, про",
+      "en": "about"
     },
     {
       "id": "tanpa",
-      "ru": "без"
+      "ru": "без",
+      "en": "without"
     },
     {
       "id": "sampai",
-      "ru": "до"
+      "ru": "до",
+      "en": "until"
     },
     {
       "id": "hingga",
-      "ru": "до (формально)"
+      "ru": "до (формально)",
+      "en": "until (formal)"
     },
     {
       "id": "sejak",
-      "ru": "с (момента)"
+      "ru": "с (момента)",
+      "en": "since"
     },
     {
       "id": "antara",
-      "ru": "между"
+      "ru": "между",
+      "en": "between"
     },
     {
       "id": "melalui",
-      "ru": "через"
+      "ru": "через",
+      "en": "through"
     },
     {
       "id": "terhadap",
-      "ru": "по отношению к"
+      "ru": "по отношению к",
+      "en": "toward"
     },
     {
       "id": "kepada",
-      "ru": "кому (формально)"
+      "ru": "кому (формально)",
+      "en": "to (formal)"
     },
     {
       "id": "atas",
-      "ru": "наверху / над"
+      "ru": "наверху / над",
+      "en": "above"
     },
     {
       "id": "bawah",
-      "ru": "внизу / под"
+      "ru": "внизу / под",
+      "en": "below"
     },
     {
       "id": "dalam",
-      "ru": "в / внутри / глубокий"
+      "ru": "в / внутри / глубокий",
+      "en": "in / inside / deep"
     },
     {
       "id": "luar",
-      "ru": "снаружи"
+      "ru": "снаружи",
+      "en": "outside"
     },
     {
       "id": "depan",
-      "ru": "впереди"
+      "ru": "впереди",
+      "en": "front"
     },
     {
       "id": "belakang",
-      "ru": "позади"
+      "ru": "позади",
+      "en": "back"
     },
     {
       "id": "samping",
-      "ru": "сбоку"
+      "ru": "сбоку",
+      "en": "side"
     },
     {
       "id": "tengah",
-      "ru": "середина"
+      "ru": "середина",
+      "en": "middle"
     },
     {
       "id": "sekitar",
-      "ru": "вокруг / около"
+      "ru": "вокруг / около",
+      "en": "around"
     },
     {
       "id": "dekat",
-      "ru": "близко"
+      "ru": "близко",
+      "en": "near"
     },
     {
       "id": "jauh",
-      "ru": "далеко"
+      "ru": "далеко",
+      "en": "far"
     },
     {
       "id": "dan",
-      "ru": "и"
+      "ru": "и",
+      "en": "and"
     },
     {
       "id": "atau",
-      "ru": "или"
+      "ru": "или",
+      "en": "or"
     },
     {
       "id": "tapi",
-      "ru": "но"
+      "ru": "но",
+      "en": "but"
     },
     {
       "id": "tetapi",
-      "ru": "но (формально)"
+      "ru": "но (формально)",
+      "en": "but (formal)"
     },
     {
       "id": "namun",
-      "ru": "однако"
+      "ru": "однако",
+      "en": "however"
     },
     {
       "id": "karena",
-      "ru": "потому что"
+      "ru": "потому что",
+      "en": "because"
     },
     {
       "id": "sebab",
-      "ru": "по причине"
+      "ru": "по причине",
+      "en": "because"
     },
     {
       "id": "supaya",
-      "ru": "чтобы"
+      "ru": "чтобы",
+      "en": "so that"
     },
     {
       "id": "agar",
-      "ru": "чтобы"
+      "ru": "чтобы",
+      "en": "so that"
     },
     {
       "id": "kalau",
-      "ru": "если / когда"
+      "ru": "если / когда",
+      "en": "if / when"
     },
     {
       "id": "jika",
-      "ru": "если"
+      "ru": "если",
+      "en": "if"
     },
     {
       "id": "walaupun",
-      "ru": "хотя"
+      "ru": "хотя",
+      "en": "although"
     },
     {
       "id": "meskipun",
-      "ru": "хотя"
+      "ru": "хотя",
+      "en": "although"
     },
     {
       "id": "sebelum",
-      "ru": "перед"
+      "ru": "перед",
+      "en": "before"
     },
     {
       "id": "sesudah",
-      "ru": "после"
+      "ru": "после",
+      "en": "after"
     },
     {
       "id": "setelah",
-      "ru": "после"
+      "ru": "после",
+      "en": "after"
     },
     {
       "id": "ketika",
-      "ru": "когда"
+      "ru": "когда",
+      "en": "when"
     },
     {
       "id": "saat",
-      "ru": "в момент когда"
+      "ru": "в момент когда",
+      "en": "at the moment"
     },
     {
       "id": "sambil",
-      "ru": "в то время как"
+      "ru": "в то время как",
+      "en": "while"
     },
     {
       "id": "sementara",
-      "ru": "пока"
+      "ru": "пока",
+      "en": "while"
     },
     {
       "id": "selama",
-      "ru": "в течение"
+      "ru": "в течение",
+      "en": "during"
     },
     {
       "id": "lalu",
-      "ru": "затем"
+      "ru": "затем",
+      "en": "then"
     },
     {
       "id": "kemudian",
-      "ru": "потом"
+      "ru": "потом",
+      "en": "then"
     },
     {
       "id": "jadi",
-      "ru": "так что / стать"
+      "ru": "так что / стать",
+      "en": "so / become"
     },
     {
       "id": "juga",
-      "ru": "тоже"
+      "ru": "тоже",
+      "en": "also"
     },
     {
       "id": "saja",
-      "ru": "только"
+      "ru": "только",
+      "en": "only / just"
     },
     {
       "id": "pun",
-      "ru": "даже"
+      "ru": "даже",
+      "en": "even"
     },
     {
       "id": "bahkan",
-      "ru": "более того"
+      "ru": "более того",
+      "en": "moreover"
     },
     {
       "id": "misalnya",
-      "ru": "например"
+      "ru": "например",
+      "en": "for example"
     },
     {
       "id": "sebagai",
-      "ru": "как (в качестве)"
+      "ru": "как (в качестве)",
+      "en": "as"
     },
     {
       "id": "ya",
-      "ru": "да"
+      "ru": "да",
+      "en": "yes"
     },
     {
       "id": "iya",
-      "ru": "да (разг.)"
+      "ru": "да (разг.)",
+      "en": "yes (informal)"
     },
     {
       "id": "betul",
-      "ru": "верно"
+      "ru": "верно",
+      "en": "correct"
     },
     {
       "id": "benar",
-      "ru": "правильно"
+      "ru": "правильно",
+      "en": "right"
     },
     {
       "id": "salah",
-      "ru": "неправильно"
+      "ru": "неправильно",
+      "en": "wrong"
     },
     {
       "id": "tentu",
-      "ru": "конечно"
+      "ru": "конечно",
+      "en": "certainly"
     },
     {
       "id": "tentu saja",
-      "ru": "конечно же"
+      "ru": "конечно же",
+      "en": "of course"
     },
     {
       "id": "pasti",
-      "ru": "точно"
+      "ru": "точно",
+      "en": "surely"
     },
     {
       "id": "mungkin",
-      "ru": "возможно"
+      "ru": "возможно",
+      "en": "maybe"
     },
     {
       "id": "barangkali",
-      "ru": "может быть"
+      "ru": "может быть",
+      "en": "perhaps"
     },
     {
       "id": "mustahil",
-      "ru": "невозможно"
+      "ru": "невозможно",
+      "en": "impossible"
     },
     {
       "id": "nol",
-      "ru": "0"
+      "ru": "0",
+      "en": "zero"
     },
     {
       "id": "satu",
-      "ru": "1"
+      "ru": "1",
+      "en": "one"
     },
     {
       "id": "dua",
-      "ru": "2"
+      "ru": "2",
+      "en": "two"
     },
     {
       "id": "tiga",
-      "ru": "3"
+      "ru": "3",
+      "en": "three"
     },
     {
       "id": "empat",
-      "ru": "4"
+      "ru": "4",
+      "en": "four"
     },
     {
       "id": "lima",
-      "ru": "5"
+      "ru": "5",
+      "en": "five"
     },
     {
       "id": "enam",
-      "ru": "6"
+      "ru": "6",
+      "en": "six"
     },
     {
       "id": "tujuh",
-      "ru": "7"
+      "ru": "7",
+      "en": "seven"
     },
     {
       "id": "delapan",
-      "ru": "8"
+      "ru": "8",
+      "en": "eight"
     },
     {
       "id": "sembilan",
-      "ru": "9"
+      "ru": "9",
+      "en": "nine"
     },
     {
       "id": "sepuluh",
-      "ru": "10"
+      "ru": "10",
+      "en": "ten"
     },
     {
       "id": "sebelas",
-      "ru": "11"
+      "ru": "11",
+      "en": "eleven"
     },
     {
       "id": "dua belas",
-      "ru": "12"
+      "ru": "12",
+      "en": "twelve"
     },
     {
       "id": "tiga belas",
-      "ru": "13"
+      "ru": "13",
+      "en": "thirteen"
     },
     {
       "id": "empat belas",
-      "ru": "14"
+      "ru": "14",
+      "en": "fourteen"
     },
     {
       "id": "lima belas",
-      "ru": "15"
+      "ru": "15",
+      "en": "fifteen"
     },
     {
       "id": "enam belas",
-      "ru": "16"
+      "ru": "16",
+      "en": "sixteen"
     },
     {
       "id": "tujuh belas",
-      "ru": "17"
+      "ru": "17",
+      "en": "seventeen"
     },
     {
       "id": "delapan belas",
-      "ru": "18"
+      "ru": "18",
+      "en": "eighteen"
     },
     {
       "id": "sembilan belas",
-      "ru": "19"
+      "ru": "19",
+      "en": "nineteen"
     },
     {
       "id": "dua puluh",
-      "ru": "20"
+      "ru": "20",
+      "en": "twenty"
     },
     {
       "id": "tiga puluh",
-      "ru": "30"
+      "ru": "30",
+      "en": "thirty"
     },
     {
       "id": "empat puluh",
-      "ru": "40"
+      "ru": "40",
+      "en": "forty"
     },
     {
       "id": "lima puluh",
-      "ru": "50"
+      "ru": "50",
+      "en": "fifty"
     },
     {
       "id": "enam puluh",
-      "ru": "60"
+      "ru": "60",
+      "en": "sixty"
     },
     {
       "id": "tujuh puluh",
-      "ru": "70"
+      "ru": "70",
+      "en": "seventy"
     },
     {
       "id": "delapan puluh",
-      "ru": "80"
+      "ru": "80",
+      "en": "eighty"
     },
     {
       "id": "sembilan puluh",
-      "ru": "90"
+      "ru": "90",
+      "en": "ninety"
     },
     {
       "id": "seratus",
-      "ru": "100"
+      "ru": "100",
+      "en": "one hundred"
     },
     {
       "id": "dua ratus",
-      "ru": "200"
+      "ru": "200",
+      "en": "two hundred"
     },
     {
       "id": "lima ratus",
-      "ru": "500"
+      "ru": "500",
+      "en": "five hundred"
     },
     {
       "id": "seribu",
-      "ru": "1000"
+      "ru": "1000",
+      "en": "one thousand"
     },
     {
       "id": "sepuluh ribu",
-      "ru": "10 000"
+      "ru": "10 000",
+      "en": "ten thousand"
     },
     {
       "id": "seratus ribu",
-      "ru": "100 000"
+      "ru": "100 000",
+      "en": "one hundred thousand"
     },
     {
       "id": "sejuta",
-      "ru": "миллион"
+      "ru": "миллион",
+      "en": "one million"
     },
     {
       "id": "semiliar",
-      "ru": "миллиард"
+      "ru": "миллиард",
+      "en": "one billion"
     },
     {
       "id": "pertama",
-      "ru": "первый"
+      "ru": "первый",
+      "en": "first"
     },
     {
       "id": "kedua",
-      "ru": "второй"
+      "ru": "второй",
+      "en": "second"
     },
     {
       "id": "ketiga",
-      "ru": "третий"
+      "ru": "третий",
+      "en": "third"
     },
     {
       "id": "keempat",
-      "ru": "четвёртый"
+      "ru": "четвёртый",
+      "en": "fourth"
     },
     {
       "id": "kelima",
-      "ru": "пятый"
+      "ru": "пятый",
+      "en": "fifth"
     },
     {
       "id": "terakhir",
-      "ru": "последний"
+      "ru": "последний",
+      "en": "last"
     },
     {
       "id": "setengah",
-      "ru": "половина"
+      "ru": "половина",
+      "en": "half"
     },
     {
       "id": "seperempat",
-      "ru": "четверть"
+      "ru": "четверть",
+      "en": "quarter"
     },
     {
       "id": "kali",
-      "ru": "раз"
+      "ru": "раз",
+      "en": "times"
     },
     {
       "id": "pasang",
-      "ru": "пара"
+      "ru": "пара",
+      "en": "pair"
     },
     {
       "id": "waktu",
-      "ru": "время"
+      "ru": "время",
+      "en": "time"
     },
     {
       "id": "jam",
-      "ru": "час / часы"
+      "ru": "час / часы",
+      "en": "hour / clock"
     },
     {
       "id": "menit",
-      "ru": "минута"
+      "ru": "минута",
+      "en": "minute"
     },
     {
       "id": "detik",
-      "ru": "секунда"
+      "ru": "секунда",
+      "en": "second"
     },
     {
       "id": "hari",
-      "ru": "день"
+      "ru": "день",
+      "en": "day"
     },
     {
       "id": "minggu",
-      "ru": "неделя"
+      "ru": "неделя",
+      "en": "week"
     },
     {
       "id": "bulan",
-      "ru": "месяц / луна"
+      "ru": "месяц / луна",
+      "en": "month / moon"
     },
     {
       "id": "tahun",
-      "ru": "год"
+      "ru": "год",
+      "en": "year"
     },
     {
       "id": "abad",
-      "ru": "век"
+      "ru": "век",
+      "en": "century"
     },
     {
       "id": "zaman",
-      "ru": "эпоха"
+      "ru": "эпоха",
+      "en": "era"
     },
     {
       "id": "masa",
-      "ru": "период"
+      "ru": "период",
+      "en": "period"
     },
     {
       "id": "sekarang",
-      "ru": "сейчас"
+      "ru": "сейчас",
+      "en": "now"
     },
     {
       "id": "nanti",
-      "ru": "потом"
+      "ru": "потом",
+      "en": "later"
     },
     {
       "id": "tadi",
-      "ru": "только что"
+      "ru": "только что",
+      "en": "just now"
     },
     {
       "id": "dulu",
-      "ru": "раньше"
+      "ru": "раньше",
+      "en": "before / used to"
     },
     {
       "id": "dahulu",
-      "ru": "давно"
+      "ru": "давно",
+      "en": "long ago"
     },
     {
       "id": "kemarin",
-      "ru": "вчера"
+      "ru": "вчера",
+      "en": "yesterday"
     },
     {
       "id": "hari ini",
-      "ru": "сегодня"
+      "ru": "сегодня",
+      "en": "today"
     },
     {
       "id": "besok",
-      "ru": "завтра"
+      "ru": "завтра",
+      "en": "tomorrow"
     },
     {
       "id": "lusa",
-      "ru": "послезавтра"
+      "ru": "послезавтра",
+      "en": "day after tomorrow"
     },
     {
       "id": "pagi",
-      "ru": "утро"
+      "ru": "утро",
+      "en": "morning"
     },
     {
       "id": "siang",
-      "ru": "день (полдень)"
+      "ru": "день (полдень)",
+      "en": "noon / midday"
     },
     {
       "id": "sore",
-      "ru": "вечер"
+      "ru": "вечер",
+      "en": "afternoon / evening"
     },
     {
       "id": "malam",
-      "ru": "ночь"
+      "ru": "ночь",
+      "en": "night"
     },
     {
       "id": "subuh",
-      "ru": "рассвет"
+      "ru": "рассвет",
+      "en": "dawn"
     },
     {
       "id": "senja",
-      "ru": "закат"
+      "ru": "закат",
+      "en": "dusk"
     },
     {
       "id": "tengah hari",
-      "ru": "полдень"
+      "ru": "полдень",
+      "en": "midday"
     },
     {
       "id": "tengah malam",
-      "ru": "полночь"
+      "ru": "полночь",
+      "en": "midnight"
     },
     {
       "id": "saat ini",
-      "ru": "в данный момент"
+      "ru": "в данный момент",
+      "en": "at this moment"
     },
     {
       "id": "masa depan",
-      "ru": "будущее"
+      "ru": "будущее",
+      "en": "future"
     },
     {
       "id": "masa lalu",
-      "ru": "прошлое"
+      "ru": "прошлое",
+      "en": "past"
     },
     {
       "id": "minggu lalu",
-      "ru": "на прошлой неделе"
+      "ru": "на прошлой неделе",
+      "en": "last week"
     },
     {
       "id": "minggu depan",
-      "ru": "на следующей неделе"
+      "ru": "на следующей неделе",
+      "en": "next week"
     },
     {
       "id": "bulan lalu",
-      "ru": "в прошлом месяце"
+      "ru": "в прошлом месяце",
+      "en": "last month"
     },
     {
       "id": "bulan depan",
-      "ru": "в следующем месяце"
+      "ru": "в следующем месяце",
+      "en": "next month"
     },
     {
       "id": "tahun lalu",
-      "ru": "в прошлом году"
+      "ru": "в прошлом году",
+      "en": "last year"
     },
     {
       "id": "tahun depan",
-      "ru": "в следующем году"
+      "ru": "в следующем году",
+      "en": "next year"
     },
     {
       "id": "baru-baru ini",
-      "ru": "недавно"
+      "ru": "недавно",
+      "en": "recently"
     },
     {
       "id": "akhir-akhir ini",
-      "ru": "в последнее время"
+      "ru": "в последнее время",
+      "en": "lately"
     },
     {
       "id": "sebentar",
-      "ru": "минутку"
+      "ru": "минутку",
+      "en": "a moment"
     },
     {
       "id": "sebentar lagi",
-      "ru": "скоро"
+      "ru": "скоро",
+      "en": "soon"
     },
     {
       "id": "segera",
-      "ru": "сразу"
+      "ru": "сразу",
+      "en": "immediately"
     },
     {
       "id": "buru-buru",
-      "ru": "в спешке"
+      "ru": "в спешке",
+      "en": "in a hurry"
     },
     {
       "id": "awal",
-      "ru": "начало"
+      "ru": "начало",
+      "en": "beginning"
     },
     {
       "id": "akhir",
-      "ru": "конец"
+      "ru": "конец",
+      "en": "end"
     },
     {
       "id": "pertengahan",
-      "ru": "середина"
+      "ru": "середина",
+      "en": "middle"
     },
     {
       "id": "sering",
-      "ru": "часто"
+      "ru": "часто",
+      "en": "often"
     },
     {
       "id": "jarang",
-      "ru": "редко"
+      "ru": "редко",
+      "en": "rarely"
     },
     {
       "id": "kadang-kadang",
-      "ru": "иногда"
+      "ru": "иногда",
+      "en": "sometimes"
     },
     {
       "id": "selalu",
-      "ru": "всегда"
+      "ru": "всегда",
+      "en": "always"
     },
     {
       "id": "tidak pernah",
-      "ru": "никогда"
+      "ru": "никогда",
+      "en": "never"
     },
     {
       "id": "biasanya",
-      "ru": "обычно"
+      "ru": "обычно",
+      "en": "usually"
     },
     {
       "id": "Senin",
-      "ru": "понедельник"
+      "ru": "понедельник",
+      "en": "Monday"
     },
     {
       "id": "Selasa",
-      "ru": "вторник"
+      "ru": "вторник",
+      "en": "Tuesday"
     },
     {
       "id": "Rabu",
-      "ru": "среда"
+      "ru": "среда",
+      "en": "Wednesday"
     },
     {
       "id": "Kamis",
-      "ru": "четверг"
+      "ru": "четверг",
+      "en": "Thursday"
     },
     {
       "id": "Jumat",
-      "ru": "пятница"
+      "ru": "пятница",
+      "en": "Friday"
     },
     {
       "id": "Sabtu",
-      "ru": "суббота"
+      "ru": "суббота",
+      "en": "Saturday"
     },
     {
       "id": "Minggu",
-      "ru": "воскресенье"
+      "ru": "воскресенье",
+      "en": "Sunday"
     },
     {
       "id": "akhir pekan",
-      "ru": "выходные"
+      "ru": "выходные",
+      "en": "weekend"
     },
     {
       "id": "Januari",
-      "ru": "январь"
+      "ru": "январь",
+      "en": "January"
     },
     {
       "id": "Februari",
-      "ru": "февраль"
+      "ru": "февраль",
+      "en": "February"
     },
     {
       "id": "Maret",
-      "ru": "март"
+      "ru": "март",
+      "en": "March"
     },
     {
       "id": "April",
-      "ru": "апрель"
+      "ru": "апрель",
+      "en": "April"
     },
     {
       "id": "Mei",
-      "ru": "май"
+      "ru": "май",
+      "en": "May"
     },
     {
       "id": "Juni",
-      "ru": "июнь"
+      "ru": "июнь",
+      "en": "June"
     },
     {
       "id": "Juli",
-      "ru": "июль"
+      "ru": "июль",
+      "en": "July"
     },
     {
       "id": "Agustus",
-      "ru": "август"
+      "ru": "август",
+      "en": "August"
     },
     {
       "id": "September",
-      "ru": "сентябрь"
+      "ru": "сентябрь",
+      "en": "September"
     },
     {
       "id": "Oktober",
-      "ru": "октябрь"
+      "ru": "октябрь",
+      "en": "October"
     },
     {
       "id": "November",
-      "ru": "ноябрь"
+      "ru": "ноябрь",
+      "en": "November"
     },
     {
       "id": "Desember",
-      "ru": "декабрь"
+      "ru": "декабрь",
+      "en": "December"
     },
     {
       "id": "musim",
-      "ru": "сезон"
+      "ru": "сезон",
+      "en": "season"
     },
     {
       "id": "musim hujan",
-      "ru": "сезон дождей"
+      "ru": "сезон дождей",
+      "en": "rainy season"
     },
     {
       "id": "musim kemarau",
-      "ru": "сухой сезон"
+      "ru": "сухой сезон",
+      "en": "dry season"
     },
     {
       "id": "musim panas",
-      "ru": "лето"
+      "ru": "лето",
+      "en": "summer"
     },
     {
       "id": "musim dingin",
-      "ru": "зима"
+      "ru": "зима",
+      "en": "winter"
     },
     {
       "id": "musim semi",
-      "ru": "весна"
+      "ru": "весна",
+      "en": "spring"
     },
     {
       "id": "musim gugur",
-      "ru": "осень"
+      "ru": "осень",
+      "en": "autumn"
     },
     {
       "id": "keluarga",
-      "ru": "семья"
+      "ru": "семья",
+      "en": "family"
     },
     {
       "id": "orang tua",
-      "ru": "родители"
+      "ru": "родители",
+      "en": "parents"
     },
     {
       "id": "ayah",
-      "ru": "отец"
+      "ru": "отец",
+      "en": "father"
     },
     {
       "id": "bapak",
-      "ru": "отец / господин"
+      "ru": "отец / господин",
+      "en": "father / sir"
     },
     {
       "id": "ibu",
-      "ru": "мать / госпожа"
+      "ru": "мать / госпожа",
+      "en": "mother / ma'am"
     },
     {
       "id": "mama",
-      "ru": "мама"
+      "ru": "мама",
+      "en": "mom"
     },
     {
       "id": "papa",
-      "ru": "папа"
+      "ru": "папа",
+      "en": "dad"
     },
     {
       "id": "anak",
-      "ru": "ребёнок"
+      "ru": "ребёнок",
+      "en": "child"
     },
     {
       "id": "anak laki-laki",
-      "ru": "сын"
+      "ru": "сын",
+      "en": "son"
     },
     {
       "id": "anak perempuan",
-      "ru": "дочь"
+      "ru": "дочь",
+      "en": "daughter"
     },
     {
       "id": "putra",
-      "ru": "сын (формально)"
+      "ru": "сын (формально)",
+      "en": "son (formal)"
     },
     {
       "id": "putri",
-      "ru": "дочь (формально)"
+      "ru": "дочь (формально)",
+      "en": "daughter (formal)"
     },
     {
       "id": "kakak",
-      "ru": "старший брат/сестра"
+      "ru": "старший брат/сестра",
+      "en": "older sibling"
     },
     {
       "id": "abang",
-      "ru": "старший брат"
+      "ru": "старший брат",
+      "en": "older brother"
     },
     {
       "id": "adik",
-      "ru": "младший брат/сестра"
+      "ru": "младший брат/сестра",
+      "en": "younger sibling"
     },
     {
       "id": "saudara",
-      "ru": "брат / родственник"
+      "ru": "брат / родственник",
+      "en": "brother / relative"
     },
     {
       "id": "saudari",
-      "ru": "сестра"
+      "ru": "сестра",
+      "en": "sister"
     },
     {
       "id": "kakek",
-      "ru": "дедушка"
+      "ru": "дедушка",
+      "en": "grandfather"
     },
     {
       "id": "nenek",
-      "ru": "бабушка"
+      "ru": "бабушка",
+      "en": "grandmother"
     },
     {
       "id": "paman",
-      "ru": "дядя"
+      "ru": "дядя",
+      "en": "uncle"
     },
     {
       "id": "bibi",
-      "ru": "тётя"
+      "ru": "тётя",
+      "en": "aunt"
     },
     {
       "id": "om",
-      "ru": "дядя (разг.)"
+      "ru": "дядя (разг.)",
+      "en": "uncle (casual)"
     },
     {
       "id": "tante",
-      "ru": "тётя (разг.)"
+      "ru": "тётя (разг.)",
+      "en": "aunt (casual)"
     },
     {
       "id": "sepupu",
-      "ru": "двоюродный/ая"
+      "ru": "двоюродный/ая",
+      "en": "cousin"
     },
     {
       "id": "suami",
-      "ru": "муж"
+      "ru": "муж",
+      "en": "husband"
     },
     {
       "id": "istri",
-      "ru": "жена"
+      "ru": "жена",
+      "en": "wife"
     },
     {
       "id": "pasangan",
-      "ru": "пара / супруг(а)"
+      "ru": "пара / супруг(а)",
+      "en": "partner"
     },
     {
       "id": "mertua",
-      "ru": "тесть/тёща"
+      "ru": "тесть/тёща",
+      "en": "parent-in-law"
     },
     {
       "id": "menantu",
-      "ru": "зять/невестка"
+      "ru": "зять/невестка",
+      "en": "son / daughter-in-law"
     },
     {
       "id": "cucu",
-      "ru": "внук/внучка"
+      "ru": "внук/внучка",
+      "en": "grandchild"
     },
     {
       "id": "keponakan",
-      "ru": "племянник/племянница"
+      "ru": "племянник/племянница",
+      "en": "nephew / niece"
     },
     {
       "id": "teman",
-      "ru": "друг"
+      "ru": "друг",
+      "en": "friend"
     },
     {
       "id": "sahabat",
-      "ru": "близкий друг"
+      "ru": "близкий друг",
+      "en": "best friend"
     },
     {
       "id": "pacar",
-      "ru": "парень / девушка"
+      "ru": "парень / девушка",
+      "en": "boyfriend / girlfriend"
     },
     {
       "id": "kenalan",
-      "ru": "знакомый"
+      "ru": "знакомый",
+      "en": "acquaintance"
     },
     {
       "id": "tetangga",
-      "ru": "сосед"
+      "ru": "сосед",
+      "en": "neighbor"
     },
     {
       "id": "tamu",
-      "ru": "гость"
+      "ru": "гость",
+      "en": "guest"
     },
     {
       "id": "orang",
-      "ru": "человек"
+      "ru": "человек",
+      "en": "person"
     },
     {
       "id": "laki-laki",
-      "ru": "мужчина"
+      "ru": "мужчина",
+      "en": "man"
     },
     {
       "id": "pria",
-      "ru": "мужчина (формально)"
+      "ru": "мужчина (формально)",
+      "en": "man (formal)"
     },
     {
       "id": "perempuan",
-      "ru": "женщина"
+      "ru": "женщина",
+      "en": "woman"
     },
     {
       "id": "wanita",
-      "ru": "женщина (формально)"
+      "ru": "женщина (формально)",
+      "en": "woman (formal)"
     },
     {
       "id": "cowok",
-      "ru": "парень (разг.)"
+      "ru": "парень (разг.)",
+      "en": "guy (slang)"
     },
     {
       "id": "cewek",
-      "ru": "девушка (разг.)"
+      "ru": "девушка (разг.)",
+      "en": "girl (slang)"
     },
     {
       "id": "anak-anak",
-      "ru": "дети"
+      "ru": "дети",
+      "en": "children"
     },
     {
       "id": "remaja",
-      "ru": "подросток"
+      "ru": "подросток",
+      "en": "teenager"
     },
     {
       "id": "dewasa",
-      "ru": "взрослый"
+      "ru": "взрослый",
+      "en": "adult"
     },
     {
       "id": "bayi",
-      "ru": "младенец"
+      "ru": "младенец",
+      "en": "baby"
     },
     {
       "id": "balita",
-      "ru": "малыш"
+      "ru": "малыш",
+      "en": "toddler"
     },
     {
       "id": "tua",
-      "ru": "старый"
+      "ru": "старый",
+      "en": "old"
     },
     {
       "id": "muda",
-      "ru": "молодой"
+      "ru": "молодой",
+      "en": "young"
     },
     {
       "id": "nama",
-      "ru": "имя"
+      "ru": "имя",
+      "en": "name"
     },
     {
       "id": "umur",
-      "ru": "возраст"
+      "ru": "возраст",
+      "en": "age"
     },
     {
       "id": "usia",
-      "ru": "возраст (формально)"
+      "ru": "возраст (формально)",
+      "en": "age (formal)"
     },
     {
       "id": "alamat",
-      "ru": "адрес"
+      "ru": "адрес",
+      "en": "address"
     },
     {
       "id": "nomor telepon",
-      "ru": "номер телефона"
+      "ru": "номер телефона",
+      "en": "phone number"
     },
     {
       "id": "tubuh",
-      "ru": "тело"
+      "ru": "тело",
+      "en": "body"
     },
     {
       "id": "badan",
-      "ru": "тело"
+      "ru": "тело",
+      "en": "body"
     },
     {
       "id": "kepala",
-      "ru": "голова"
+      "ru": "голова",
+      "en": "head"
     },
     {
       "id": "rambut",
-      "ru": "волосы"
+      "ru": "волосы",
+      "en": "hair"
     },
     {
       "id": "wajah",
-      "ru": "лицо"
+      "ru": "лицо",
+      "en": "face"
     },
     {
       "id": "muka",
-      "ru": "лицо"
+      "ru": "лицо",
+      "en": "face"
     },
     {
       "id": "dahi",
-      "ru": "лоб"
+      "ru": "лоб",
+      "en": "forehead"
     },
     {
       "id": "mata",
-      "ru": "глаз"
+      "ru": "глаз",
+      "en": "eye"
     },
     {
       "id": "alis",
-      "ru": "бровь"
+      "ru": "бровь",
+      "en": "eyebrow"
     },
     {
       "id": "bulu mata",
-      "ru": "ресница"
+      "ru": "ресница",
+      "en": "eyelash"
     },
     {
       "id": "hidung",
-      "ru": "нос"
+      "ru": "нос",
+      "en": "nose"
     },
     {
       "id": "pipi",
-      "ru": "щека"
+      "ru": "щека",
+      "en": "cheek"
     },
     {
       "id": "telinga",
-      "ru": "ухо"
+      "ru": "ухо",
+      "en": "ear"
     },
     {
       "id": "kuping",
-      "ru": "ухо (разг.)"
+      "ru": "ухо (разг.)",
+      "en": "ear (casual)"
     },
     {
       "id": "mulut",
-      "ru": "рот"
+      "ru": "рот",
+      "en": "mouth"
     },
     {
       "id": "bibir",
-      "ru": "губа"
+      "ru": "губа",
+      "en": "lip"
     },
     {
       "id": "gigi",
-      "ru": "зуб"
+      "ru": "зуб",
+      "en": "tooth"
     },
     {
       "id": "lidah",
-      "ru": "язык"
+      "ru": "язык",
+      "en": "tongue"
     },
     {
       "id": "dagu",
-      "ru": "подбородок"
+      "ru": "подбородок",
+      "en": "chin"
     },
     {
       "id": "leher",
-      "ru": "шея"
+      "ru": "шея",
+      "en": "neck"
     },
     {
       "id": "tenggorokan",
-      "ru": "горло"
+      "ru": "горло",
+      "en": "throat"
     },
     {
       "id": "bahu",
-      "ru": "плечо"
+      "ru": "плечо",
+      "en": "shoulder"
     },
     {
       "id": "lengan",
-      "ru": "рука (предплечье)"
+      "ru": "рука (предплечье)",
+      "en": "arm"
     },
     {
       "id": "siku",
-      "ru": "локоть"
+      "ru": "локоть",
+      "en": "elbow"
     },
     {
       "id": "tangan",
-      "ru": "рука (кисть)"
+      "ru": "рука (кисть)",
+      "en": "hand"
     },
     {
       "id": "jari",
-      "ru": "палец"
+      "ru": "палец",
+      "en": "finger"
     },
     {
       "id": "ibu jari",
-      "ru": "большой палец"
+      "ru": "большой палец",
+      "en": "thumb"
     },
     {
       "id": "kuku",
-      "ru": "ноготь"
+      "ru": "ноготь",
+      "en": "nail"
     },
     {
       "id": "telapak tangan",
-      "ru": "ладонь"
+      "ru": "ладонь",
+      "en": "palm"
     },
     {
       "id": "dada",
-      "ru": "грудь"
+      "ru": "грудь",
+      "en": "chest"
     },
     {
       "id": "perut",
-      "ru": "живот"
+      "ru": "живот",
+      "en": "stomach"
     },
     {
       "id": "pinggang",
-      "ru": "талия"
+      "ru": "талия",
+      "en": "waist"
     },
     {
       "id": "pinggul",
-      "ru": "бедро"
+      "ru": "бедро",
+      "en": "hip"
     },
     {
       "id": "punggung",
-      "ru": "спина"
+      "ru": "спина",
+      "en": "back"
     },
     {
       "id": "kaki",
-      "ru": "нога"
+      "ru": "нога",
+      "en": "leg / foot"
     },
     {
       "id": "paha",
-      "ru": "бедро"
+      "ru": "бедро",
+      "en": "thigh"
     },
     {
       "id": "lutut",
-      "ru": "колено"
+      "ru": "колено",
+      "en": "knee"
     },
     {
       "id": "betis",
-      "ru": "голень"
+      "ru": "голень",
+      "en": "calf"
     },
     {
       "id": "telapak kaki",
-      "ru": "ступня"
+      "ru": "ступня",
+      "en": "sole"
     },
     {
       "id": "kulit",
-      "ru": "кожа"
+      "ru": "кожа",
+      "en": "skin"
     },
     {
       "id": "darah",
-      "ru": "кровь"
+      "ru": "кровь",
+      "en": "blood"
     },
     {
       "id": "tulang",
-      "ru": "кость"
+      "ru": "кость",
+      "en": "bone"
     },
     {
       "id": "otot",
-      "ru": "мышца"
+      "ru": "мышца",
+      "en": "muscle"
     },
     {
       "id": "jantung",
-      "ru": "сердце"
+      "ru": "сердце",
+      "en": "heart"
     },
     {
       "id": "hati",
-      "ru": "печень / душа"
+      "ru": "печень / душа",
+      "en": "liver / soul"
     },
     {
       "id": "paru-paru",
-      "ru": "лёгкие"
+      "ru": "лёгкие",
+      "en": "lungs"
     },
     {
       "id": "otak",
-      "ru": "мозг"
+      "ru": "мозг",
+      "en": "brain"
     },
     {
       "id": "ginjal",
-      "ru": "почка"
+      "ru": "почка",
+      "en": "kidney"
     },
     {
       "id": "perasaan",
-      "ru": "чувство"
+      "ru": "чувство",
+      "en": "feeling"
     },
     {
       "id": "pikiran",
-      "ru": "мысль / ум"
+      "ru": "мысль / ум",
+      "en": "thought / mind"
     },
     {
       "id": "ingatan",
-      "ru": "память"
+      "ru": "память",
+      "en": "memory"
     },
     {
       "id": "mimpi",
-      "ru": "сон / мечта"
+      "ru": "сон / мечта",
+      "en": "dream"
     },
     {
       "id": "sehat",
-      "ru": "здоровый"
+      "ru": "здоровый",
+      "en": "healthy"
     },
     {
       "id": "sakit",
-      "ru": "больной / больно"
+      "ru": "больной / больно",
+      "en": "sick / painful"
     },
     {
       "id": "penyakit",
-      "ru": "болезнь"
+      "ru": "болезнь",
+      "en": "disease"
     },
     {
       "id": "demam",
-      "ru": "температура / жар"
+      "ru": "температура / жар",
+      "en": "fever"
     },
     {
       "id": "pilek",
-      "ru": "насморк"
+      "ru": "насморк",
+      "en": "runny nose"
     },
     {
       "id": "batuk",
-      "ru": "кашель"
+      "ru": "кашель",
+      "en": "cough"
     },
     {
       "id": "flu",
-      "ru": "грипп"
+      "ru": "грипп",
+      "en": "flu"
     },
     {
       "id": "pusing",
-      "ru": "кружится голова"
+      "ru": "кружится голова",
+      "en": "dizzy"
     },
     {
       "id": "sakit kepala",
-      "ru": "головная боль"
+      "ru": "головная боль",
+      "en": "headache"
     },
     {
       "id": "sakit perut",
-      "ru": "боль в животе"
+      "ru": "боль в животе",
+      "en": "stomachache"
     },
     {
       "id": "sakit gigi",
-      "ru": "зубная боль"
+      "ru": "зубная боль",
+      "en": "toothache"
     },
     {
       "id": "luka",
-      "ru": "рана"
+      "ru": "рана",
+      "en": "wound"
     },
     {
       "id": "obat",
-      "ru": "лекарство"
+      "ru": "лекарство",
+      "en": "medicine"
     },
     {
       "id": "vitamin",
-      "ru": "витамин"
+      "ru": "витамин",
+      "en": "vitamin"
     },
     {
       "id": "istirahat",
-      "ru": "отдых"
+      "ru": "отдых",
+      "en": "rest"
     },
     {
       "id": "tidur",
-      "ru": "сон / спать"
+      "ru": "сон / спать",
+      "en": "sleep"
     },
     {
       "id": "bangun",
-      "ru": "просыпаться / вставать"
+      "ru": "просыпаться / вставать",
+      "en": "wake up"
     },
     {
       "id": "lelah",
-      "ru": "уставший"
+      "ru": "уставший",
+      "en": "tired"
     },
     {
       "id": "capek",
-      "ru": "уставший (разг.)"
+      "ru": "уставший (разг.)",
+      "en": "tired (informal)"
     },
     {
       "id": "lapar",
-      "ru": "голодный"
+      "ru": "голодный",
+      "en": "hungry"
     },
     {
       "id": "kenyang",
-      "ru": "сытый"
+      "ru": "сытый",
+      "en": "full"
     },
     {
       "id": "haus",
-      "ru": "жаждущий"
+      "ru": "жаждущий",
+      "en": "thirsty"
     },
     {
       "id": "mengantuk",
-      "ru": "сонный"
+      "ru": "сонный",
+      "en": "sleepy"
     },
     {
       "id": "rumah",
-      "ru": "дом"
+      "ru": "дом",
+      "en": "house"
     },
     {
       "id": "kamar",
-      "ru": "комната"
+      "ru": "комната",
+      "en": "room"
     },
     {
       "id": "ruang tamu",
-      "ru": "гостиная"
+      "ru": "гостиная",
+      "en": "living room"
     },
     {
       "id": "kamar tidur",
-      "ru": "спальня"
+      "ru": "спальня",
+      "en": "bedroom"
     },
     {
       "id": "kamar mandi",
-      "ru": "ванная"
+      "ru": "ванная",
+      "en": "bathroom"
     },
     {
       "id": "dapur",
-      "ru": "кухня"
+      "ru": "кухня",
+      "en": "kitchen"
     },
     {
       "id": "halaman",
-      "ru": "двор"
+      "ru": "двор",
+      "en": "yard"
     },
     {
       "id": "garasi",
-      "ru": "гараж"
+      "ru": "гараж",
+      "en": "garage"
     },
     {
       "id": "balkon",
-      "ru": "балкон"
+      "ru": "балкон",
+      "en": "balcony"
     },
     {
       "id": "atap",
-      "ru": "крыша"
+      "ru": "крыша",
+      "en": "roof"
     },
     {
       "id": "lantai",
-      "ru": "пол / этаж"
+      "ru": "пол / этаж",
+      "en": "floor"
     },
     {
       "id": "dinding",
-      "ru": "стена"
+      "ru": "стена",
+      "en": "wall"
     },
     {
       "id": "pintu",
-      "ru": "дверь"
+      "ru": "дверь",
+      "en": "door"
     },
     {
       "id": "jendela",
-      "ru": "окно"
+      "ru": "окно",
+      "en": "window"
     },
     {
       "id": "tangga",
-      "ru": "лестница"
+      "ru": "лестница",
+      "en": "stairs"
     },
     {
       "id": "pagar",
-      "ru": "забор"
+      "ru": "забор",
+      "en": "fence"
     },
     {
       "id": "kunci",
-      "ru": "ключ"
+      "ru": "ключ",
+      "en": "key"
     },
     {
       "id": "meja",
-      "ru": "стол"
+      "ru": "стол",
+      "en": "table"
     },
     {
       "id": "kursi",
-      "ru": "стул"
+      "ru": "стул",
+      "en": "chair"
     },
     {
       "id": "sofa",
-      "ru": "диван"
+      "ru": "диван",
+      "en": "sofa"
     },
     {
       "id": "tempat tidur",
-      "ru": "кровать"
+      "ru": "кровать",
+      "en": "bed"
     },
     {
       "id": "kasur",
-      "ru": "матрас"
+      "ru": "матрас",
+      "en": "mattress"
     },
     {
       "id": "bantal",
-      "ru": "подушка"
+      "ru": "подушка",
+      "en": "pillow"
     },
     {
       "id": "selimut",
-      "ru": "одеяло"
+      "ru": "одеяло",
+      "en": "blanket"
     },
     {
       "id": "lemari",
-      "ru": "шкаф"
+      "ru": "шкаф",
+      "en": "cupboard"
     },
     {
       "id": "rak",
-      "ru": "полка"
+      "ru": "полка",
+      "en": "shelf"
     },
     {
       "id": "laci",
-      "ru": "ящик"
+      "ru": "ящик",
+      "en": "drawer"
     },
     {
       "id": "lampu",
-      "ru": "лампа"
+      "ru": "лампа",
+      "en": "lamp"
     },
     {
       "id": "cermin",
-      "ru": "зеркало"
+      "ru": "зеркало",
+      "en": "mirror"
     },
     {
       "id": "jam dinding",
-      "ru": "настенные часы"
+      "ru": "настенные часы",
+      "en": "wall clock"
     },
     {
       "id": "kipas angin",
-      "ru": "вентилятор"
+      "ru": "вентилятор",
+      "en": "fan"
     },
     {
       "id": "AC",
-      "ru": "кондиционер"
+      "ru": "кондиционер",
+      "en": "air conditioner"
     },
     {
       "id": "TV",
-      "ru": "телевизор"
+      "ru": "телевизор",
+      "en": "TV"
     },
     {
       "id": "kulkas",
-      "ru": "холодильник"
+      "ru": "холодильник",
+      "en": "fridge"
     },
     {
       "id": "kompor",
-      "ru": "плита"
+      "ru": "плита",
+      "en": "stove"
     },
     {
       "id": "oven",
-      "ru": "духовка"
+      "ru": "духовка",
+      "en": "oven"
     },
     {
       "id": "mesin cuci",
-      "ru": "стиральная машина"
+      "ru": "стиральная машина",
+      "en": "washing machine"
     },
     {
       "id": "panci",
-      "ru": "кастрюля"
+      "ru": "кастрюля",
+      "en": "pot"
     },
     {
       "id": "wajan",
-      "ru": "сковорода"
+      "ru": "сковорода",
+      "en": "frying pan"
     },
     {
       "id": "piring",
-      "ru": "тарелка"
+      "ru": "тарелка",
+      "en": "plate"
     },
     {
       "id": "mangkuk",
-      "ru": "миска"
+      "ru": "миска",
+      "en": "bowl"
     },
     {
       "id": "gelas",
-      "ru": "стакан"
+      "ru": "стакан",
+      "en": "glass"
     },
     {
       "id": "cangkir",
-      "ru": "чашка"
+      "ru": "чашка",
+      "en": "cup"
     },
     {
       "id": "sendok",
-      "ru": "ложка"
+      "ru": "ложка",
+      "en": "spoon"
     },
     {
       "id": "garpu",
-      "ru": "вилка"
+      "ru": "вилка",
+      "en": "fork"
     },
     {
       "id": "pisau",
-      "ru": "нож"
+      "ru": "нож",
+      "en": "knife"
     },
     {
       "id": "sumpit",
-      "ru": "палочки"
+      "ru": "палочки",
+      "en": "chopsticks"
     },
     {
       "id": "tisu",
-      "ru": "салфетка"
+      "ru": "салфетка",
+      "en": "tissue"
     },
     {
       "id": "sabun",
-      "ru": "мыло"
+      "ru": "мыло",
+      "en": "soap"
     },
     {
       "id": "sampo",
-      "ru": "шампунь"
+      "ru": "шампунь",
+      "en": "shampoo"
     },
     {
       "id": "handuk",
-      "ru": "полотенце"
+      "ru": "полотенце",
+      "en": "towel"
     },
     {
       "id": "sikat gigi",
-      "ru": "зубная щётка"
+      "ru": "зубная щётка",
+      "en": "toothbrush"
     },
     {
       "id": "pasta gigi",
-      "ru": "зубная паста"
+      "ru": "зубная паста",
+      "en": "toothpaste"
     },
     {
       "id": "sisir",
-      "ru": "расчёска"
+      "ru": "расчёска",
+      "en": "comb"
     },
     {
       "id": "makanan",
-      "ru": "еда"
+      "ru": "еда",
+      "en": "food"
     },
     {
       "id": "minuman",
-      "ru": "напиток"
+      "ru": "напиток",
+      "en": "drink"
     },
     {
       "id": "sarapan",
-      "ru": "завтрак"
+      "ru": "завтрак",
+      "en": "breakfast"
     },
     {
       "id": "makan siang",
-      "ru": "обед"
+      "ru": "обед",
+      "en": "lunch"
     },
     {
       "id": "makan malam",
-      "ru": "ужин"
+      "ru": "ужин",
+      "en": "dinner"
     },
     {
       "id": "makanan ringan",
-      "ru": "перекус"
+      "ru": "перекус",
+      "en": "snack"
     },
     {
       "id": "camilan",
-      "ru": "снэк"
+      "ru": "снэк",
+      "en": "snack"
     },
     {
       "id": "nasi",
-      "ru": "рис (варёный)"
+      "ru": "рис (варёный)",
+      "en": "rice (cooked)"
     },
     {
       "id": "beras",
-      "ru": "рис (сырой)"
+      "ru": "рис (сырой)",
+      "en": "rice (uncooked)"
     },
     {
       "id": "roti",
-      "ru": "хлеб"
+      "ru": "хлеб",
+      "en": "bread"
     },
     {
       "id": "mie",
-      "ru": "лапша"
+      "ru": "лапша",
+      "en": "noodles"
     },
     {
       "id": "sup",
-      "ru": "суп"
+      "ru": "суп",
+      "en": "soup"
     },
     {
       "id": "sayur",
-      "ru": "овощи / суп с овощами"
+      "ru": "овощи / суп с овощами",
+      "en": "vegetable"
     },
     {
       "id": "sayuran",
-      "ru": "овощи"
+      "ru": "овощи",
+      "en": "vegetables"
     },
     {
       "id": "buah",
-      "ru": "фрукт"
+      "ru": "фрукт",
+      "en": "fruit"
     },
     {
       "id": "daging",
-      "ru": "мясо"
+      "ru": "мясо",
+      "en": "meat"
     },
     {
       "id": "ikan",
-      "ru": "рыба"
+      "ru": "рыба",
+      "en": "fish"
     },
     {
       "id": "ayam",
-      "ru": "курица / петух"
+      "ru": "курица / петух",
+      "en": "chicken / rooster"
     },
     {
       "id": "sapi",
-      "ru": "говядина / корова"
+      "ru": "говядина / корова",
+      "en": "beef / cow"
     },
     {
       "id": "kambing",
-      "ru": "коза / козлятина"
+      "ru": "коза / козлятина",
+      "en": "goat"
     },
     {
       "id": "babi",
-      "ru": "свинина / свинья"
+      "ru": "свинина / свинья",
+      "en": "pork / pig"
     },
     {
       "id": "udang",
-      "ru": "креветка"
+      "ru": "креветка",
+      "en": "shrimp"
     },
     {
       "id": "cumi",
-      "ru": "кальмар"
+      "ru": "кальмар",
+      "en": "squid"
     },
     {
       "id": "telur",
-      "ru": "яйцо"
+      "ru": "яйцо",
+      "en": "egg"
     },
     {
       "id": "susu",
-      "ru": "молоко"
+      "ru": "молоко",
+      "en": "milk"
     },
     {
       "id": "keju",
-      "ru": "сыр"
+      "ru": "сыр",
+      "en": "cheese"
     },
     {
       "id": "mentega",
-      "ru": "сливочное масло"
+      "ru": "сливочное масло",
+      "en": "butter"
     },
     {
       "id": "minyak",
-      "ru": "масло (растительное)"
+      "ru": "масло (растительное)",
+      "en": "oil"
     },
     {
       "id": "gula",
-      "ru": "сахар"
+      "ru": "сахар",
+      "en": "sugar"
     },
     {
       "id": "garam",
-      "ru": "соль"
+      "ru": "соль",
+      "en": "salt"
     },
     {
       "id": "lada",
-      "ru": "перец"
+      "ru": "перец",
+      "en": "pepper"
     },
     {
       "id": "merica",
-      "ru": "перец (горошком)"
+      "ru": "перец (горошком)",
+      "en": "peppercorn"
     },
     {
       "id": "bumbu",
-      "ru": "специи"
+      "ru": "специи",
+      "en": "spices"
     },
     {
       "id": "kecap",
-      "ru": "соевый соус"
+      "ru": "соевый соус",
+      "en": "soy sauce"
     },
     {
       "id": "sambal",
-      "ru": "острая паста"
+      "ru": "острая паста",
+      "en": "chili paste"
     },
     {
       "id": "saus",
-      "ru": "соус"
+      "ru": "соус",
+      "en": "sauce"
     },
     {
       "id": "cuka",
-      "ru": "уксус"
+      "ru": "уксус",
+      "en": "vinegar"
     },
     {
       "id": "tepung",
-      "ru": "мука"
+      "ru": "мука",
+      "en": "flour"
     },
     {
       "id": "kue",
-      "ru": "пирожное / торт"
+      "ru": "пирожное / торт",
+      "en": "cake"
     },
     {
       "id": "permen",
-      "ru": "конфета"
+      "ru": "конфета",
+      "en": "candy"
     },
     {
       "id": "cokelat",
-      "ru": "шоколад / коричневый"
+      "ru": "шоколад / коричневый",
+      "en": "chocolate / brown"
     },
     {
       "id": "es krim",
-      "ru": "мороженое"
+      "ru": "мороженое",
+      "en": "ice cream"
     },
     {
       "id": "madu",
-      "ru": "мёд"
+      "ru": "мёд",
+      "en": "honey"
     },
     {
       "id": "selai",
-      "ru": "варенье"
+      "ru": "варенье",
+      "en": "jam"
     },
     {
       "id": "nasi goreng",
-      "ru": "жареный рис"
+      "ru": "жареный рис",
+      "en": "fried rice"
     },
     {
       "id": "mie goreng",
-      "ru": "жареная лапша"
+      "ru": "жареная лапша",
+      "en": "fried noodles"
     },
     {
       "id": "sate",
-      "ru": "шашлычки"
+      "ru": "шашлычки",
+      "en": "satay"
     },
     {
       "id": "rendang",
-      "ru": "ренданг (тушёное мясо)"
+      "ru": "ренданг (тушёное мясо)",
+      "en": "rendang"
     },
     {
       "id": "soto",
-      "ru": "сото (суп)"
+      "ru": "сото (суп)",
+      "en": "soto soup"
     },
     {
       "id": "bakso",
-      "ru": "бакcо (фрикадельки)"
+      "ru": "бакcо (фрикадельки)",
+      "en": "meatballs"
     },
     {
       "id": "gado-gado",
-      "ru": "гадо-гадо (овощной салат)"
+      "ru": "гадо-гадо (овощной салат)",
+      "en": "gado-gado"
     },
     {
       "id": "rasa",
-      "ru": "вкус"
+      "ru": "вкус",
+      "en": "taste"
     },
     {
       "id": "enak",
-      "ru": "вкусный"
+      "ru": "вкусный",
+      "en": "delicious"
     },
     {
       "id": "lezat",
-      "ru": "очень вкусный"
+      "ru": "очень вкусный",
+      "en": "tasty"
     },
     {
       "id": "sedap",
-      "ru": "вкусный"
+      "ru": "вкусный",
+      "en": "delicious"
     },
     {
       "id": "manis",
-      "ru": "сладкий"
+      "ru": "сладкий",
+      "en": "sweet"
     },
     {
       "id": "asam",
-      "ru": "кислый"
+      "ru": "кислый",
+      "en": "sour"
     },
     {
       "id": "asin",
-      "ru": "солёный"
+      "ru": "солёный",
+      "en": "salty"
     },
     {
       "id": "pahit",
-      "ru": "горький"
+      "ru": "горький",
+      "en": "bitter"
     },
     {
       "id": "pedas",
-      "ru": "острый"
+      "ru": "острый",
+      "en": "spicy"
     },
     {
       "id": "gurih",
-      "ru": "пряный / насыщенный"
+      "ru": "пряный / насыщенный",
+      "en": "savory"
     },
     {
       "id": "hambar",
-      "ru": "пресный"
+      "ru": "пресный",
+      "en": "bland"
     },
     {
       "id": "air",
-      "ru": "вода"
+      "ru": "вода",
+      "en": "water"
     },
     {
       "id": "air putih",
-      "ru": "питьевая вода"
+      "ru": "питьевая вода",
+      "en": "drinking water"
     },
     {
       "id": "es",
-      "ru": "лёд"
+      "ru": "лёд",
+      "en": "ice"
     },
     {
       "id": "teh",
-      "ru": "чай"
+      "ru": "чай",
+      "en": "tea"
     },
     {
       "id": "kopi",
-      "ru": "кофе"
+      "ru": "кофе",
+      "en": "coffee"
     },
     {
       "id": "jus",
-      "ru": "сок"
+      "ru": "сок",
+      "en": "juice"
     },
     {
       "id": "bir",
-      "ru": "пиво"
+      "ru": "пиво",
+      "en": "beer"
     },
     {
       "id": "anggur",
-      "ru": "вино / виноград"
+      "ru": "вино / виноград",
+      "en": "wine / grape"
     },
     {
       "id": "minuman keras",
-      "ru": "крепкий алкоголь"
+      "ru": "крепкий алкоголь",
+      "en": "liquor"
     },
     {
       "id": "soda",
-      "ru": "газировка"
+      "ru": "газировка",
+      "en": "soda"
     },
     {
       "id": "kelapa muda",
-      "ru": "молодой кокос"
+      "ru": "молодой кокос",
+      "en": "young coconut"
     },
     {
       "id": "apel",
-      "ru": "яблоко"
+      "ru": "яблоко",
+      "en": "apple"
     },
     {
       "id": "jeruk",
-      "ru": "апельсин"
+      "ru": "апельсин",
+      "en": "orange"
     },
     {
       "id": "pisang",
-      "ru": "банан"
+      "ru": "банан",
+      "en": "banana"
     },
     {
       "id": "mangga",
-      "ru": "манго"
+      "ru": "манго",
+      "en": "mango"
     },
     {
       "id": "nanas",
-      "ru": "ананас"
+      "ru": "ананас",
+      "en": "pineapple"
     },
     {
       "id": "semangka",
-      "ru": "арбуз"
+      "ru": "арбуз",
+      "en": "watermelon"
     },
     {
       "id": "melon",
-      "ru": "дыня"
+      "ru": "дыня",
+      "en": "melon"
     },
     {
       "id": "stroberi",
-      "ru": "клубника"
+      "ru": "клубника",
+      "en": "strawberry"
     },
     {
       "id": "durian",
-      "ru": "дуриан"
+      "ru": "дуриан",
+      "en": "durian"
     },
     {
       "id": "pepaya",
-      "ru": "папайя"
+      "ru": "папайя",
+      "en": "papaya"
     },
     {
       "id": "kelapa",
-      "ru": "кокос"
+      "ru": "кокос",
+      "en": "coconut"
     },
     {
       "id": "alpukat",
-      "ru": "авокадо"
+      "ru": "авокадо",
+      "en": "avocado"
     },
     {
       "id": "pir",
-      "ru": "груша"
+      "ru": "груша",
+      "en": "pear"
     },
     {
       "id": "rambutan",
-      "ru": "рамбутан"
+      "ru": "рамбутан",
+      "en": "rambutan"
     },
     {
       "id": "manggis",
-      "ru": "мангостин"
+      "ru": "мангостин",
+      "en": "mangosteen"
     },
     {
       "id": "salak",
-      "ru": "салак"
+      "ru": "салак",
+      "en": "snake fruit"
     },
     {
       "id": "lemon",
-      "ru": "лимон"
+      "ru": "лимон",
+      "en": "lemon"
     },
     {
       "id": "tomat",
-      "ru": "помидор"
+      "ru": "помидор",
+      "en": "tomato"
     },
     {
       "id": "kentang",
-      "ru": "картофель"
+      "ru": "картофель",
+      "en": "potato"
     },
     {
       "id": "wortel",
-      "ru": "морковь"
+      "ru": "морковь",
+      "en": "carrot"
     },
     {
       "id": "mentimun",
-      "ru": "огурец"
+      "ru": "огурец",
+      "en": "cucumber"
     },
     {
       "id": "terong",
-      "ru": "баклажан"
+      "ru": "баклажан",
+      "en": "eggplant"
     },
     {
       "id": "bayam",
-      "ru": "шпинат"
+      "ru": "шпинат",
+      "en": "spinach"
     },
     {
       "id": "kangkung",
-      "ru": "кангкунг (водяной шпинат)"
+      "ru": "кангкунг (водяной шпинат)",
+      "en": "water spinach"
     },
     {
       "id": "cabai",
-      "ru": "перец чили"
+      "ru": "перец чили",
+      "en": "chili"
     },
     {
       "id": "bawang merah",
-      "ru": "красный лук"
+      "ru": "красный лук",
+      "en": "shallot"
     },
     {
       "id": "bawang putih",
-      "ru": "чеснок"
+      "ru": "чеснок",
+      "en": "garlic"
     },
     {
       "id": "jahe",
-      "ru": "имбирь"
+      "ru": "имбирь",
+      "en": "ginger"
     },
     {
       "id": "kunyit",
-      "ru": "куркума"
+      "ru": "куркума",
+      "en": "turmeric"
     },
     {
       "id": "serai",
-      "ru": "лемонграсс"
+      "ru": "лемонграсс",
+      "en": "lemongrass"
     },
     {
       "id": "jagung",
-      "ru": "кукуруза"
+      "ru": "кукуруза",
+      "en": "corn"
     },
     {
       "id": "kacang",
-      "ru": "орех / боб"
+      "ru": "орех / боб",
+      "en": "nut / bean"
     },
     {
       "id": "tahu",
-      "ru": "знать / тофу"
+      "ru": "знать / тофу",
+      "en": "to know / tofu"
     },
     {
       "id": "tempe",
-      "ru": "темпе"
+      "ru": "темпе",
+      "en": "tempeh"
     },
     {
       "id": "pakaian",
-      "ru": "одежда"
+      "ru": "одежда",
+      "en": "clothing"
     },
     {
       "id": "baju",
-      "ru": "одежда / рубашка"
+      "ru": "одежда / рубашка",
+      "en": "shirt / clothing"
     },
     {
       "id": "kemeja",
-      "ru": "рубашка"
+      "ru": "рубашка",
+      "en": "shirt"
     },
     {
       "id": "kaos",
-      "ru": "футболка"
+      "ru": "футболка",
+      "en": "t-shirt"
     },
     {
       "id": "celana",
-      "ru": "штаны"
+      "ru": "штаны",
+      "en": "pants"
     },
     {
       "id": "celana pendek",
-      "ru": "шорты"
+      "ru": "шорты",
+      "en": "shorts"
     },
     {
       "id": "celana panjang",
-      "ru": "брюки"
+      "ru": "брюки",
+      "en": "long pants"
     },
     {
       "id": "rok",
-      "ru": "юбка"
+      "ru": "юбка",
+      "en": "skirt"
     },
     {
       "id": "gaun",
-      "ru": "платье"
+      "ru": "платье",
+      "en": "dress"
     },
     {
       "id": "jaket",
-      "ru": "куртка"
+      "ru": "куртка",
+      "en": "jacket"
     },
     {
       "id": "mantel",
-      "ru": "пальто"
+      "ru": "пальто",
+      "en": "coat"
     },
     {
       "id": "jas",
-      "ru": "пиджак / костюм"
+      "ru": "пиджак / костюм",
+      "en": "suit / jacket"
     },
     {
       "id": "dasi",
-      "ru": "галстук"
+      "ru": "галстук",
+      "en": "tie"
     },
     {
       "id": "topi",
-      "ru": "шапка"
+      "ru": "шапка",
+      "en": "hat"
     },
     {
       "id": "sepatu",
-      "ru": "обувь"
+      "ru": "обувь",
+      "en": "shoes"
     },
     {
       "id": "sandal",
-      "ru": "сандалии"
+      "ru": "сандалии",
+      "en": "sandals"
     },
     {
       "id": "kaus kaki",
-      "ru": "носки"
+      "ru": "носки",
+      "en": "socks"
     },
     {
       "id": "sarung tangan",
-      "ru": "перчатки"
+      "ru": "перчатки",
+      "en": "gloves"
     },
     {
       "id": "syal",
-      "ru": "шарф"
+      "ru": "шарф",
+      "en": "scarf"
     },
     {
       "id": "ikat pinggang",
-      "ru": "ремень"
+      "ru": "ремень",
+      "en": "belt"
     },
     {
       "id": "jam tangan",
-      "ru": "наручные часы"
+      "ru": "наручные часы",
+      "en": "wristwatch"
     },
     {
       "id": "kacamata",
-      "ru": "очки"
+      "ru": "очки",
+      "en": "glasses"
     },
     {
       "id": "tas",
-      "ru": "сумка"
+      "ru": "сумка",
+      "en": "bag"
     },
     {
       "id": "ransel",
-      "ru": "рюкзак"
+      "ru": "рюкзак",
+      "en": "backpack"
     },
     {
       "id": "dompet",
-      "ru": "кошелёк"
+      "ru": "кошелёк",
+      "en": "wallet"
     },
     {
       "id": "cincin",
-      "ru": "кольцо"
+      "ru": "кольцо",
+      "en": "ring"
     },
     {
       "id": "gelang",
-      "ru": "браслет"
+      "ru": "браслет",
+      "en": "bracelet"
     },
     {
       "id": "kalung",
-      "ru": "ожерелье"
+      "ru": "ожерелье",
+      "en": "necklace"
     },
     {
       "id": "anting",
-      "ru": "серёжки"
+      "ru": "серёжки",
+      "en": "earrings"
     },
     {
       "id": "ukuran",
-      "ru": "размер"
+      "ru": "размер",
+      "en": "size"
     },
     {
       "id": "binatang",
-      "ru": "животное"
+      "ru": "животное",
+      "en": "animal"
     },
     {
       "id": "hewan",
-      "ru": "животное"
+      "ru": "животное",
+      "en": "animal"
     },
     {
       "id": "anjing",
-      "ru": "собака"
+      "ru": "собака",
+      "en": "dog"
     },
     {
       "id": "kucing",
-      "ru": "кошка"
+      "ru": "кошка",
+      "en": "cat"
     },
     {
       "id": "kerbau",
-      "ru": "буйвол"
+      "ru": "буйвол",
+      "en": "buffalo"
     },
     {
       "id": "kuda",
-      "ru": "лошадь"
+      "ru": "лошадь",
+      "en": "horse"
     },
     {
       "id": "bebek",
-      "ru": "утка"
+      "ru": "утка",
+      "en": "duck"
     },
     {
       "id": "burung",
-      "ru": "птица"
+      "ru": "птица",
+      "en": "bird"
     },
     {
       "id": "ular",
-      "ru": "змея"
+      "ru": "змея",
+      "en": "snake"
     },
     {
       "id": "katak",
-      "ru": "лягушка"
+      "ru": "лягушка",
+      "en": "frog"
     },
     {
       "id": "kura-kura",
-      "ru": "черепаха"
+      "ru": "черепаха",
+      "en": "turtle"
     },
     {
       "id": "monyet",
-      "ru": "обезьяна"
+      "ru": "обезьяна",
+      "en": "monkey"
     },
     {
       "id": "tikus",
-      "ru": "мышь / крыса"
+      "ru": "мышь / крыса",
+      "en": "mouse / rat"
     },
     {
       "id": "kelinci",
-      "ru": "кролик"
+      "ru": "кролик",
+      "en": "rabbit"
     },
     {
       "id": "harimau",
-      "ru": "тигр"
+      "ru": "тигр",
+      "en": "tiger"
     },
     {
       "id": "gajah",
-      "ru": "слон"
+      "ru": "слон",
+      "en": "elephant"
     },
     {
       "id": "singa",
-      "ru": "лев"
+      "ru": "лев",
+      "en": "lion"
     },
     {
       "id": "beruang",
-      "ru": "медведь"
+      "ru": "медведь",
+      "en": "bear"
     },
     {
       "id": "serigala",
-      "ru": "волк"
+      "ru": "волк",
+      "en": "wolf"
     },
     {
       "id": "rusa",
-      "ru": "олень"
+      "ru": "олень",
+      "en": "deer"
     },
     {
       "id": "buaya",
-      "ru": "крокодил"
+      "ru": "крокодил",
+      "en": "crocodile"
     },
     {
       "id": "hiu",
-      "ru": "акула"
+      "ru": "акула",
+      "en": "shark"
     },
     {
       "id": "lumba-lumba",
-      "ru": "дельфин"
+      "ru": "дельфин",
+      "en": "dolphin"
     },
     {
       "id": "paus",
-      "ru": "кит"
+      "ru": "кит",
+      "en": "whale"
     },
     {
       "id": "kupu-kupu",
-      "ru": "бабочка"
+      "ru": "бабочка",
+      "en": "butterfly"
     },
     {
       "id": "lebah",
-      "ru": "пчела"
+      "ru": "пчела",
+      "en": "bee"
     },
     {
       "id": "semut",
-      "ru": "муравей"
+      "ru": "муравей",
+      "en": "ant"
     },
     {
       "id": "nyamuk",
-      "ru": "комар"
+      "ru": "комар",
+      "en": "mosquito"
     },
     {
       "id": "lalat",
-      "ru": "муха"
+      "ru": "муха",
+      "en": "fly"
     },
     {
       "id": "laba-laba",
-      "ru": "паук"
+      "ru": "паук",
+      "en": "spider"
     },
     {
       "id": "cecak",
-      "ru": "геккон"
+      "ru": "геккон",
+      "en": "gecko"
     },
     {
       "id": "alam",
-      "ru": "природа"
+      "ru": "природа",
+      "en": "nature"
     },
     {
       "id": "langit",
-      "ru": "небо"
+      "ru": "небо",
+      "en": "sky"
     },
     {
       "id": "awan",
-      "ru": "облако"
+      "ru": "облако",
+      "en": "cloud"
     },
     {
       "id": "matahari",
-      "ru": "солнце"
+      "ru": "солнце",
+      "en": "sun"
     },
     {
       "id": "bintang",
-      "ru": "звезда"
+      "ru": "звезда",
+      "en": "star"
     },
     {
       "id": "hujan",
-      "ru": "дождь"
+      "ru": "дождь",
+      "en": "rain"
     },
     {
       "id": "salju",
-      "ru": "снег"
+      "ru": "снег",
+      "en": "snow"
     },
     {
       "id": "angin",
-      "ru": "ветер"
+      "ru": "ветер",
+      "en": "wind"
     },
     {
       "id": "badai",
-      "ru": "буря"
+      "ru": "буря",
+      "en": "storm"
     },
     {
       "id": "petir",
-      "ru": "молния"
+      "ru": "молния",
+      "en": "thunder"
     },
     {
       "id": "pelangi",
-      "ru": "радуга"
+      "ru": "радуга",
+      "en": "rainbow"
     },
     {
       "id": "kabut",
-      "ru": "туман"
+      "ru": "туман",
+      "en": "fog"
     },
     {
       "id": "embun",
-      "ru": "роса"
+      "ru": "роса",
+      "en": "dew"
     },
     {
       "id": "panas",
-      "ru": "жарко / жара"
+      "ru": "жарко / жара",
+      "en": "hot"
     },
     {
       "id": "dingin",
-      "ru": "холодно"
+      "ru": "холодно",
+      "en": "cold"
     },
     {
       "id": "sejuk",
-      "ru": "прохладно"
+      "ru": "прохладно",
+      "en": "cool"
     },
     {
       "id": "hangat",
-      "ru": "тёплый"
+      "ru": "тёплый",
+      "en": "warm"
     },
     {
       "id": "lembap",
-      "ru": "влажный"
+      "ru": "влажный",
+      "en": "humid"
     },
     {
       "id": "cuaca",
-      "ru": "погода"
+      "ru": "погода",
+      "en": "weather"
     },
     {
       "id": "gunung",
-      "ru": "гора"
+      "ru": "гора",
+      "en": "mountain"
     },
     {
       "id": "bukit",
-      "ru": "холм"
+      "ru": "холм",
+      "en": "hill"
     },
     {
       "id": "lembah",
-      "ru": "долина"
+      "ru": "долина",
+      "en": "valley"
     },
     {
       "id": "sungai",
-      "ru": "река"
+      "ru": "река",
+      "en": "river"
     },
     {
       "id": "danau",
-      "ru": "озеро"
+      "ru": "озеро",
+      "en": "lake"
     },
     {
       "id": "laut",
-      "ru": "море"
+      "ru": "море",
+      "en": "sea"
     },
     {
       "id": "samudra",
-      "ru": "океан"
+      "ru": "океан",
+      "en": "ocean"
     },
     {
       "id": "pantai",
-      "ru": "пляж"
+      "ru": "пляж",
+      "en": "beach"
     },
     {
       "id": "ombak",
-      "ru": "волна"
+      "ru": "волна",
+      "en": "wave"
     },
     {
       "id": "pulau",
-      "ru": "остров"
+      "ru": "остров",
+      "en": "island"
     },
     {
       "id": "pasir",
-      "ru": "песок"
+      "ru": "песок",
+      "en": "sand"
     },
     {
       "id": "batu",
-      "ru": "камень"
+      "ru": "камень",
+      "en": "stone"
     },
     {
       "id": "tanah",
-      "ru": "земля"
+      "ru": "земля",
+      "en": "land / soil"
     },
     {
       "id": "lumpur",
-      "ru": "грязь"
+      "ru": "грязь",
+      "en": "mud"
     },
     {
       "id": "api",
-      "ru": "огонь"
+      "ru": "огонь",
+      "en": "fire"
     },
     {
       "id": "asap",
-      "ru": "дым"
+      "ru": "дым",
+      "en": "smoke"
     },
     {
       "id": "pohon",
-      "ru": "дерево"
+      "ru": "дерево",
+      "en": "tree"
     },
     {
       "id": "hutan",
-      "ru": "лес"
+      "ru": "лес",
+      "en": "forest"
     },
     {
       "id": "kayu",
-      "ru": "дерево (материал)"
+      "ru": "дерево (материал)",
+      "en": "wood"
     },
     {
       "id": "daun",
-      "ru": "лист"
+      "ru": "лист",
+      "en": "leaf"
     },
     {
       "id": "bunga",
-      "ru": "цветок"
+      "ru": "цветок",
+      "en": "flower"
     },
     {
       "id": "rumput",
-      "ru": "трава"
+      "ru": "трава",
+      "en": "grass"
     },
     {
       "id": "akar",
-      "ru": "корень"
+      "ru": "корень",
+      "en": "root"
     },
     {
       "id": "biji",
-      "ru": "семя"
+      "ru": "семя",
+      "en": "seed"
     },
     {
       "id": "ranting",
-      "ru": "ветка"
+      "ru": "ветка",
+      "en": "branch"
     },
     {
       "id": "sawah",
-      "ru": "рисовое поле"
+      "ru": "рисовое поле",
+      "en": "rice field"
     },
     {
       "id": "ladang",
-      "ru": "поле"
+      "ru": "поле",
+      "en": "field"
     },
     {
       "id": "kebun",
-      "ru": "сад"
+      "ru": "сад",
+      "en": "garden"
     },
     {
       "id": "kota",
-      "ru": "город"
+      "ru": "город",
+      "en": "city"
     },
     {
       "id": "desa",
-      "ru": "деревня"
+      "ru": "деревня",
+      "en": "village"
     },
     {
       "id": "kampung",
-      "ru": "село"
+      "ru": "село",
+      "en": "hamlet"
     },
     {
       "id": "daerah",
-      "ru": "район"
+      "ru": "район",
+      "en": "district"
     },
     {
       "id": "wilayah",
-      "ru": "регион"
+      "ru": "регион",
+      "en": "region"
     },
     {
       "id": "negara",
-      "ru": "страна"
+      "ru": "страна",
+      "en": "country"
     },
     {
       "id": "ibu kota",
-      "ru": "столица"
+      "ru": "столица",
+      "en": "capital"
     },
     {
       "id": "dunia",
-      "ru": "мир"
+      "ru": "мир",
+      "en": "world"
     },
     {
       "id": "Indonesia",
-      "ru": "Индонезия"
+      "ru": "Индонезия",
+      "en": "Indonesia"
     },
     {
       "id": "Rusia",
-      "ru": "Россия"
+      "ru": "Россия",
+      "en": "Russia"
     },
     {
       "id": "Jakarta",
-      "ru": "Джакарта"
+      "ru": "Джакарта",
+      "en": "Jakarta"
     },
     {
       "id": "Bali",
-      "ru": "Бали"
+      "ru": "Бали",
+      "en": "Bali"
     },
     {
       "id": "Moskow",
-      "ru": "Москва"
+      "ru": "Москва",
+      "en": "Moscow"
     },
     {
       "id": "tempat",
-      "ru": "место"
+      "ru": "место",
+      "en": "place"
     },
     {
       "id": "lokasi",
-      "ru": "локация"
+      "ru": "локация",
+      "en": "location"
     },
     {
       "id": "jalan",
-      "ru": "дорога / улица"
+      "ru": "дорога / улица",
+      "en": "road / street"
     },
     {
       "id": "gang",
-      "ru": "переулок"
+      "ru": "переулок",
+      "en": "alley"
     },
     {
       "id": "simpang",
-      "ru": "перекрёсток"
+      "ru": "перекрёсток",
+      "en": "intersection"
     },
     {
       "id": "lampu lalu lintas",
-      "ru": "светофор"
+      "ru": "светофор",
+      "en": "traffic light"
     },
     {
       "id": "jembatan",
-      "ru": "мост"
+      "ru": "мост",
+      "en": "bridge"
     },
     {
       "id": "taman",
-      "ru": "парк / сад"
+      "ru": "парк / сад",
+      "en": "park"
     },
     {
       "id": "lapangan",
-      "ru": "площадь / поле"
+      "ru": "площадь / поле",
+      "en": "field / square"
     },
     {
       "id": "pasar",
-      "ru": "рынок"
+      "ru": "рынок",
+      "en": "market"
     },
     {
       "id": "toko",
-      "ru": "магазин"
+      "ru": "магазин",
+      "en": "shop"
     },
     {
       "id": "warung",
-      "ru": "ларёк / закусочная"
+      "ru": "ларёк / закусочная",
+      "en": "stall"
     },
     {
       "id": "supermarket",
-      "ru": "супермаркет"
+      "ru": "супермаркет",
+      "en": "supermarket"
     },
     {
       "id": "mal",
-      "ru": "торговый центр"
+      "ru": "торговый центр",
+      "en": "mall"
     },
     {
       "id": "kantor",
-      "ru": "офис"
+      "ru": "офис",
+      "en": "office"
     },
     {
       "id": "sekolah",
-      "ru": "школа"
+      "ru": "школа",
+      "en": "school"
     },
     {
       "id": "universitas",
-      "ru": "университет"
+      "ru": "университет",
+      "en": "university"
     },
     {
       "id": "rumah sakit",
-      "ru": "больница"
+      "ru": "больница",
+      "en": "hospital"
     },
     {
       "id": "klinik",
-      "ru": "клиника"
+      "ru": "клиника",
+      "en": "clinic"
     },
     {
       "id": "apotek",
-      "ru": "аптека"
+      "ru": "аптека",
+      "en": "pharmacy"
     },
     {
       "id": "bank",
-      "ru": "банк"
+      "ru": "банк",
+      "en": "bank"
     },
     {
       "id": "kantor pos",
-      "ru": "почта"
+      "ru": "почта",
+      "en": "post office"
     },
     {
       "id": "stasiun",
-      "ru": "станция"
+      "ru": "станция",
+      "en": "station"
     },
     {
       "id": "bandara",
-      "ru": "аэропорт"
+      "ru": "аэропорт",
+      "en": "airport"
     },
     {
       "id": "pelabuhan",
-      "ru": "порт"
+      "ru": "порт",
+      "en": "port"
     },
     {
       "id": "terminal",
-      "ru": "автовокзал"
+      "ru": "автовокзал",
+      "en": "terminal"
     },
     {
       "id": "halte",
-      "ru": "остановка"
+      "ru": "остановка",
+      "en": "bus stop"
     },
     {
       "id": "restoran",
-      "ru": "ресторан"
+      "ru": "ресторан",
+      "en": "restaurant"
     },
     {
       "id": "kafe",
-      "ru": "кафе"
+      "ru": "кафе",
+      "en": "cafe"
     },
     {
       "id": "hotel",
-      "ru": "отель"
+      "ru": "отель",
+      "en": "hotel"
     },
     {
       "id": "museum",
-      "ru": "музей"
+      "ru": "музей",
+      "en": "museum"
     },
     {
       "id": "perpustakaan",
-      "ru": "библиотека"
+      "ru": "библиотека",
+      "en": "library"
     },
     {
       "id": "gereja",
-      "ru": "церковь"
+      "ru": "церковь",
+      "en": "church"
     },
     {
       "id": "masjid",
-      "ru": "мечеть"
+      "ru": "мечеть",
+      "en": "mosque"
     },
     {
       "id": "kuil",
-      "ru": "храм"
+      "ru": "храм",
+      "en": "temple"
     },
     {
       "id": "pura",
-      "ru": "пура (балийский храм)"
+      "ru": "пура (балийский храм)",
+      "en": "Balinese temple"
     },
     {
       "id": "kuburan",
-      "ru": "кладбище"
+      "ru": "кладбище",
+      "en": "cemetery"
     },
     {
       "id": "polisi",
-      "ru": "полиция / полицейский"
+      "ru": "полиция / полицейский",
+      "en": "police"
     },
     {
       "id": "kantor polisi",
-      "ru": "полицейский участок"
+      "ru": "полицейский участок",
+      "en": "police station"
     },
     {
       "id": "pemadam kebakaran",
-      "ru": "пожарная служба"
+      "ru": "пожарная служба",
+      "en": "fire department"
     },
     {
       "id": "kendaraan",
-      "ru": "транспортное средство"
+      "ru": "транспортное средство",
+      "en": "vehicle"
     },
     {
       "id": "mobil",
-      "ru": "машина"
+      "ru": "машина",
+      "en": "car"
     },
     {
       "id": "motor",
-      "ru": "мотоцикл"
+      "ru": "мотоцикл",
+      "en": "motorbike"
     },
     {
       "id": "sepeda",
-      "ru": "велосипед"
+      "ru": "велосипед",
+      "en": "bicycle"
     },
     {
       "id": "bus",
-      "ru": "автобус"
+      "ru": "автобус",
+      "en": "bus"
     },
     {
       "id": "kereta api",
-      "ru": "поезд"
+      "ru": "поезд",
+      "en": "train"
     },
     {
       "id": "pesawat",
-      "ru": "самолёт"
+      "ru": "самолёт",
+      "en": "airplane"
     },
     {
       "id": "kapal",
-      "ru": "корабль"
+      "ru": "корабль",
+      "en": "ship"
     },
     {
       "id": "perahu",
-      "ru": "лодка"
+      "ru": "лодка",
+      "en": "boat"
     },
     {
       "id": "taksi",
-      "ru": "такси"
+      "ru": "такси",
+      "en": "taxi"
     },
     {
       "id": "ojek",
-      "ru": "мототакси"
+      "ru": "мототакси",
+      "en": "motorbike taxi"
     },
     {
       "id": "becak",
-      "ru": "велорикша"
+      "ru": "велорикша",
+      "en": "pedicab"
     },
     {
       "id": "truk",
-      "ru": "грузовик"
+      "ru": "грузовик",
+      "en": "truck"
     },
     {
       "id": "sopir",
-      "ru": "водитель"
+      "ru": "водитель",
+      "en": "driver"
     },
     {
       "id": "penumpang",
-      "ru": "пассажир"
+      "ru": "пассажир",
+      "en": "passenger"
     },
     {
       "id": "tiket",
-      "ru": "билет"
+      "ru": "билет",
+      "en": "ticket"
     },
     {
       "id": "perjalanan",
-      "ru": "поездка / путешествие"
+      "ru": "поездка / путешествие",
+      "en": "trip"
     },
     {
       "id": "liburan",
-      "ru": "отпуск / каникулы"
+      "ru": "отпуск / каникулы",
+      "en": "vacation"
     },
     {
       "id": "wisata",
-      "ru": "туризм"
+      "ru": "туризм",
+      "en": "tourism"
     },
     {
       "id": "turis",
-      "ru": "турист"
+      "ru": "турист",
+      "en": "tourist"
     },
     {
       "id": "peta",
-      "ru": "карта"
+      "ru": "карта",
+      "en": "map"
     },
     {
       "id": "koper",
-      "ru": "чемодан"
+      "ru": "чемодан",
+      "en": "suitcase"
     },
     {
       "id": "paspor",
-      "ru": "паспорт"
+      "ru": "паспорт",
+      "en": "passport"
     },
     {
       "id": "visa",
-      "ru": "виза"
+      "ru": "виза",
+      "en": "visa"
     },
     {
       "id": "bahan bakar",
-      "ru": "топливо"
+      "ru": "топливо",
+      "en": "fuel"
     },
     {
       "id": "bensin",
-      "ru": "бензин"
+      "ru": "бензин",
+      "en": "gasoline"
     },
     {
       "id": "parkir",
-      "ru": "парковка"
+      "ru": "парковка",
+      "en": "parking"
     },
     {
       "id": "macet",
-      "ru": "пробка"
+      "ru": "пробка",
+      "en": "traffic jam"
     },
     {
       "id": "pekerjaan",
-      "ru": "работа"
+      "ru": "работа",
+      "en": "job"
     },
     {
       "id": "kerja",
-      "ru": "работа / работать"
+      "ru": "работа / работать",
+      "en": "work"
     },
     {
       "id": "tugas",
-      "ru": "задача / задание"
+      "ru": "задача / задание",
+      "en": "task"
     },
     {
       "id": "proyek",
-      "ru": "проект"
+      "ru": "проект",
+      "en": "project"
     },
     {
       "id": "rapat",
-      "ru": "совещание"
+      "ru": "совещание",
+      "en": "meeting"
     },
     {
       "id": "pertemuan",
-      "ru": "встреча"
+      "ru": "встреча",
+      "en": "meeting"
     },
     {
       "id": "perusahaan",
-      "ru": "компания"
+      "ru": "компания",
+      "en": "company"
     },
     {
       "id": "bos",
-      "ru": "начальник"
+      "ru": "начальник",
+      "en": "boss"
     },
     {
       "id": "atasan",
-      "ru": "начальник"
+      "ru": "начальник",
+      "en": "superior"
     },
     {
       "id": "rekan",
-      "ru": "коллега"
+      "ru": "коллега",
+      "en": "colleague"
     },
     {
       "id": "kolega",
-      "ru": "коллега"
+      "ru": "коллега",
+      "en": "colleague"
     },
     {
       "id": "klien",
-      "ru": "клиент"
+      "ru": "клиент",
+      "en": "client"
     },
     {
       "id": "pelanggan",
-      "ru": "покупатель"
+      "ru": "покупатель",
+      "en": "customer"
     },
     {
       "id": "gaji",
-      "ru": "зарплата"
+      "ru": "зарплата",
+      "en": "salary"
     },
     {
       "id": "upah",
-      "ru": "оплата"
+      "ru": "оплата",
+      "en": "wage"
     },
     {
       "id": "guru",
-      "ru": "учитель"
+      "ru": "учитель",
+      "en": "teacher"
     },
     {
       "id": "dosen",
-      "ru": "преподаватель"
+      "ru": "преподаватель",
+      "en": "lecturer"
     },
     {
       "id": "murid",
-      "ru": "ученик"
+      "ru": "ученик",
+      "en": "pupil"
     },
     {
       "id": "siswa",
-      "ru": "школьник"
+      "ru": "школьник",
+      "en": "student"
     },
     {
       "id": "mahasiswa",
-      "ru": "студент"
+      "ru": "студент",
+      "en": "university student"
     },
     {
       "id": "dokter",
-      "ru": "врач"
+      "ru": "врач",
+      "en": "doctor"
     },
     {
       "id": "perawat",
-      "ru": "медсестра"
+      "ru": "медсестра",
+      "en": "nurse"
     },
     {
       "id": "pengacara",
-      "ru": "юрист"
+      "ru": "юрист",
+      "en": "lawyer"
     },
     {
       "id": "tentara",
-      "ru": "военный"
+      "ru": "военный",
+      "en": "soldier"
     },
     {
       "id": "petani",
-      "ru": "фермер"
+      "ru": "фермер",
+      "en": "farmer"
     },
     {
       "id": "nelayan",
-      "ru": "рыбак"
+      "ru": "рыбак",
+      "en": "fisherman"
     },
     {
       "id": "pedagang",
-      "ru": "торговец"
+      "ru": "торговец",
+      "en": "trader"
     },
     {
       "id": "penjual",
-      "ru": "продавец"
+      "ru": "продавец",
+      "en": "seller"
     },
     {
       "id": "pembeli",
-      "ru": "покупатель"
+      "ru": "покупатель",
+      "en": "buyer"
     },
     {
       "id": "koki",
-      "ru": "повар"
+      "ru": "повар",
+      "en": "chef"
     },
     {
       "id": "pelayan",
-      "ru": "официант"
+      "ru": "официант",
+      "en": "waiter"
     },
     {
       "id": "pilot",
-      "ru": "пилот"
+      "ru": "пилот",
+      "en": "pilot"
     },
     {
       "id": "insinyur",
-      "ru": "инженер"
+      "ru": "инженер",
+      "en": "engineer"
     },
     {
       "id": "programmer",
-      "ru": "программист"
+      "ru": "программист",
+      "en": "programmer"
     },
     {
       "id": "seniman",
-      "ru": "художник / артист"
+      "ru": "художник / артист",
+      "en": "artist"
     },
     {
       "id": "musisi",
-      "ru": "музыкант"
+      "ru": "музыкант",
+      "en": "musician"
     },
     {
       "id": "penulis",
-      "ru": "писатель"
+      "ru": "писатель",
+      "en": "writer"
     },
     {
       "id": "wartawan",
-      "ru": "журналист"
+      "ru": "журналист",
+      "en": "journalist"
     },
     {
       "id": "fotografer",
-      "ru": "фотограф"
+      "ru": "фотограф",
+      "en": "photographer"
     },
     {
       "id": "ibu rumah tangga",
-      "ru": "домохозяйка"
+      "ru": "домохозяйка",
+      "en": "housewife"
     },
     {
       "id": "pensiunan",
-      "ru": "пенсионер"
+      "ru": "пенсионер",
+      "en": "retiree"
     },
     {
       "id": "pengangguran",
-      "ru": "безработный"
+      "ru": "безработный",
+      "en": "unemployed"
     },
     {
       "id": "uang",
-      "ru": "деньги"
+      "ru": "деньги",
+      "en": "money"
     },
     {
       "id": "rupiah",
-      "ru": "рупия"
+      "ru": "рупия",
+      "en": "rupiah"
     },
     {
       "id": "dolar",
-      "ru": "доллар"
+      "ru": "доллар",
+      "en": "dollar"
     },
     {
       "id": "rubel",
-      "ru": "рубль"
+      "ru": "рубль",
+      "en": "ruble"
     },
     {
       "id": "harga",
-      "ru": "цена"
+      "ru": "цена",
+      "en": "price"
     },
     {
       "id": "diskon",
-      "ru": "скидка"
+      "ru": "скидка",
+      "en": "discount"
     },
     {
       "id": "gratis",
-      "ru": "бесплатно"
+      "ru": "бесплатно",
+      "en": "free"
     },
     {
       "id": "mahal",
-      "ru": "дорогой"
+      "ru": "дорогой",
+      "en": "expensive"
     },
     {
       "id": "murah",
-      "ru": "дешёвый"
+      "ru": "дешёвый",
+      "en": "cheap"
     },
     {
       "id": "kaya",
-      "ru": "богатый"
+      "ru": "богатый",
+      "en": "rich"
     },
     {
       "id": "miskin",
-      "ru": "бедный"
+      "ru": "бедный",
+      "en": "poor"
     },
     {
       "id": "untung",
-      "ru": "прибыль"
+      "ru": "прибыль",
+      "en": "profit"
     },
     {
       "id": "rugi",
-      "ru": "убыток"
+      "ru": "убыток",
+      "en": "loss"
     },
     {
       "id": "kartu kredit",
-      "ru": "кредитка"
+      "ru": "кредитка",
+      "en": "credit card"
     },
     {
       "id": "rekening",
-      "ru": "счёт (в банке)"
+      "ru": "счёт (в банке)",
+      "en": "account"
     },
     {
       "id": "transfer",
-      "ru": "перевод"
+      "ru": "перевод",
+      "en": "transfer"
     },
     {
       "id": "tunai",
-      "ru": "наличные"
+      "ru": "наличные",
+      "en": "cash"
     },
     {
       "id": "kembalian",
-      "ru": "сдача"
+      "ru": "сдача",
+      "en": "change"
     },
     {
       "id": "kuitansi",
-      "ru": "квитанция"
+      "ru": "квитанция",
+      "en": "receipt"
     },
     {
       "id": "pajak",
-      "ru": "налог"
+      "ru": "налог",
+      "en": "tax"
     },
     {
       "id": "hutang",
-      "ru": "долг"
+      "ru": "долг",
+      "en": "debt"
     },
     {
       "id": "pinjaman",
-      "ru": "займ"
+      "ru": "займ",
+      "en": "loan"
     },
     {
       "id": "pendidikan",
-      "ru": "образование"
+      "ru": "образование",
+      "en": "education"
     },
     {
       "id": "pelajaran",
-      "ru": "урок / предмет"
+      "ru": "урок / предмет",
+      "en": "lesson"
     },
     {
       "id": "kelas",
-      "ru": "класс"
+      "ru": "класс",
+      "en": "class"
     },
     {
       "id": "buku",
-      "ru": "книга"
+      "ru": "книга",
+      "en": "book"
     },
     {
       "id": "buku tulis",
-      "ru": "тетрадь"
+      "ru": "тетрадь",
+      "en": "notebook"
     },
     {
       "id": "pulpen",
-      "ru": "ручка"
+      "ru": "ручка",
+      "en": "pen"
     },
     {
       "id": "pensil",
-      "ru": "карандаш"
+      "ru": "карандаш",
+      "en": "pencil"
     },
     {
       "id": "penghapus",
-      "ru": "ластик"
+      "ru": "ластик",
+      "en": "eraser"
     },
     {
       "id": "penggaris",
-      "ru": "линейка"
+      "ru": "линейка",
+      "en": "ruler"
     },
     {
       "id": "papan tulis",
-      "ru": "доска"
+      "ru": "доска",
+      "en": "blackboard"
     },
     {
       "id": "ujian",
-      "ru": "экзамен"
+      "ru": "экзамен",
+      "en": "exam"
     },
     {
       "id": "tes",
-      "ru": "тест"
+      "ru": "тест",
+      "en": "test"
     },
     {
       "id": "soal",
-      "ru": "вопрос (задача)"
+      "ru": "вопрос (задача)",
+      "en": "question"
     },
     {
       "id": "jawaban",
-      "ru": "ответ"
+      "ru": "ответ",
+      "en": "answer"
     },
     {
       "id": "nilai",
-      "ru": "оценка / ценность"
+      "ru": "оценка / ценность",
+      "en": "grade / value"
     },
     {
       "id": "ijazah",
-      "ru": "диплом"
+      "ru": "диплом",
+      "en": "diploma"
     },
     {
       "id": "gelar",
-      "ru": "учёная степень"
+      "ru": "учёная степень",
+      "en": "degree"
     },
     {
       "id": "beasiswa",
-      "ru": "стипендия"
+      "ru": "стипендия",
+      "en": "scholarship"
     },
     {
       "id": "tugas rumah",
-      "ru": "домашнее задание"
+      "ru": "домашнее задание",
+      "en": "homework"
     },
     {
       "id": "PR",
-      "ru": "ДЗ"
+      "ru": "ДЗ",
+      "en": "homework"
     },
     {
       "id": "kamus",
-      "ru": "словарь"
+      "ru": "словарь",
+      "en": "dictionary"
     },
     {
       "id": "bahasa",
-      "ru": "язык"
+      "ru": "язык",
+      "en": "language"
     },
     {
       "id": "kata",
-      "ru": "слово"
+      "ru": "слово",
+      "en": "word"
     },
     {
       "id": "kalimat",
-      "ru": "предложение"
+      "ru": "предложение",
+      "en": "sentence"
     },
     {
       "id": "huruf",
-      "ru": "буква"
+      "ru": "буква",
+      "en": "letter"
     },
     {
       "id": "angka",
-      "ru": "цифра"
+      "ru": "цифра",
+      "en": "number"
     },
     {
       "id": "warna",
-      "ru": "цвет"
+      "ru": "цвет",
+      "en": "color"
     },
     {
       "id": "merah",
-      "ru": "красный"
+      "ru": "красный",
+      "en": "red"
     },
     {
       "id": "hijau",
-      "ru": "зелёный"
+      "ru": "зелёный",
+      "en": "green"
     },
     {
       "id": "biru",
-      "ru": "синий"
+      "ru": "синий",
+      "en": "blue"
     },
     {
       "id": "kuning",
-      "ru": "жёлтый"
+      "ru": "жёлтый",
+      "en": "yellow"
     },
     {
       "id": "hitam",
-      "ru": "чёрный"
+      "ru": "чёрный",
+      "en": "black"
     },
     {
       "id": "putih",
-      "ru": "белый"
+      "ru": "белый",
+      "en": "white"
     },
     {
       "id": "abu-abu",
-      "ru": "серый"
+      "ru": "серый",
+      "en": "gray"
     },
     {
       "id": "ungu",
-      "ru": "фиолетовый"
+      "ru": "фиолетовый",
+      "en": "purple"
     },
     {
       "id": "oranye",
-      "ru": "оранжевый"
+      "ru": "оранжевый",
+      "en": "orange"
     },
     {
       "id": "jingga",
-      "ru": "оранжевый"
+      "ru": "оранжевый",
+      "en": "orange"
     },
     {
       "id": "merah muda",
-      "ru": "розовый"
+      "ru": "розовый",
+      "en": "pink"
     },
     {
       "id": "perak",
-      "ru": "серебряный"
+      "ru": "серебряный",
+      "en": "silver"
     },
     {
       "id": "emas",
-      "ru": "золотой"
+      "ru": "золотой",
+      "en": "gold"
     },
     {
       "id": "pergi",
-      "ru": "идти / уходить"
+      "ru": "идти / уходить",
+      "en": "go"
     },
     {
       "id": "datang",
-      "ru": "приходить"
+      "ru": "приходить",
+      "en": "come"
     },
     {
       "id": "kembali",
-      "ru": "возвращаться"
+      "ru": "возвращаться",
+      "en": "return"
     },
     {
       "id": "pulang",
-      "ru": "идти домой"
+      "ru": "идти домой",
+      "en": "go home"
     },
     {
       "id": "masuk",
-      "ru": "входить"
+      "ru": "входить",
+      "en": "enter"
     },
     {
       "id": "keluar",
-      "ru": "выходить"
+      "ru": "выходить",
+      "en": "exit"
     },
     {
       "id": "naik",
-      "ru": "подниматься / садиться"
+      "ru": "подниматься / садиться",
+      "en": "go up / board"
     },
     {
       "id": "turun",
-      "ru": "спускаться / выходить"
+      "ru": "спускаться / выходить",
+      "en": "go down / get off"
     },
     {
       "id": "lewat",
-      "ru": "проходить мимо"
+      "ru": "проходить мимо",
+      "en": "pass by"
     },
     {
       "id": "berjalan",
-      "ru": "идти / гулять"
+      "ru": "идти / гулять",
+      "en": "walk"
     },
     {
       "id": "jalan-jalan",
-      "ru": "гулять"
+      "ru": "гулять",
+      "en": "stroll"
     },
     {
       "id": "berlari",
-      "ru": "бегать"
+      "ru": "бегать",
+      "en": "run"
     },
     {
       "id": "lari",
-      "ru": "бежать"
+      "ru": "бежать",
+      "en": "run"
     },
     {
       "id": "berenang",
-      "ru": "плавать"
+      "ru": "плавать",
+      "en": "swim"
     },
     {
       "id": "terbang",
-      "ru": "летать"
+      "ru": "летать",
+      "en": "fly"
     },
     {
       "id": "duduk",
-      "ru": "сидеть"
+      "ru": "сидеть",
+      "en": "sit"
     },
     {
       "id": "berdiri",
-      "ru": "стоять"
+      "ru": "стоять",
+      "en": "stand"
     },
     {
       "id": "berbaring",
-      "ru": "лежать"
+      "ru": "лежать",
+      "en": "lie down"
     },
     {
       "id": "makan",
-      "ru": "есть"
+      "ru": "есть",
+      "en": "eat"
     },
     {
       "id": "minum",
-      "ru": "пить"
+      "ru": "пить",
+      "en": "drink"
     },
     {
       "id": "masak",
-      "ru": "готовить"
+      "ru": "готовить",
+      "en": "cook"
     },
     {
       "id": "memasak",
-      "ru": "готовить (формально)"
+      "ru": "готовить (формально)",
+      "en": "to cook"
     },
     {
       "id": "membeli",
-      "ru": "покупать"
+      "ru": "покупать",
+      "en": "to buy"
     },
     {
       "id": "beli",
-      "ru": "купить"
+      "ru": "купить",
+      "en": "buy"
     },
     {
       "id": "menjual",
-      "ru": "продавать"
+      "ru": "продавать",
+      "en": "to sell"
     },
     {
       "id": "jual",
-      "ru": "продать"
+      "ru": "продать",
+      "en": "sell"
     },
     {
       "id": "membayar",
-      "ru": "платить"
+      "ru": "платить",
+      "en": "to pay"
     },
     {
       "id": "bayar",
-      "ru": "платить"
+      "ru": "платить",
+      "en": "pay"
     },
     {
       "id": "menerima",
-      "ru": "получать"
+      "ru": "получать",
+      "en": "to receive"
     },
     {
       "id": "terima",
-      "ru": "получить"
+      "ru": "получить",
+      "en": "receive"
     },
     {
       "id": "mengembalikan",
-      "ru": "возвращать"
+      "ru": "возвращать",
+      "en": "to return (something)"
     },
     {
       "id": "melihat",
-      "ru": "видеть"
+      "ru": "видеть",
+      "en": "to see"
     },
     {
       "id": "lihat",
-      "ru": "смотреть"
+      "ru": "смотреть",
+      "en": "look"
     },
     {
       "id": "menonton",
-      "ru": "смотреть (фильм, ТВ)"
+      "ru": "смотреть (фильм, ТВ)",
+      "en": "to watch"
     },
     {
       "id": "memperhatikan",
-      "ru": "обращать внимание"
+      "ru": "обращать внимание",
+      "en": "pay attention"
     },
     {
       "id": "mendengar",
-      "ru": "слышать"
+      "ru": "слышать",
+      "en": "to hear"
     },
     {
       "id": "dengar",
-      "ru": "слушать"
+      "ru": "слушать",
+      "en": "listen"
     },
     {
       "id": "mendengarkan",
-      "ru": "слушать"
+      "ru": "слушать",
+      "en": "to listen to"
     },
     {
       "id": "berbicara",
-      "ru": "разговаривать"
+      "ru": "разговаривать",
+      "en": "to speak"
     },
     {
       "id": "bicara",
-      "ru": "говорить"
+      "ru": "говорить",
+      "en": "talk"
     },
     {
       "id": "ngomong",
-      "ru": "говорить (разг.)"
+      "ru": "говорить (разг.)",
+      "en": "talk (informal)"
     },
     {
       "id": "berkata",
-      "ru": "говорить"
+      "ru": "говорить",
+      "en": "to say"
     },
     {
       "id": "mengatakan",
-      "ru": "сказать"
+      "ru": "сказать",
+      "en": "to say"
     },
     {
       "id": "menjawab",
-      "ru": "отвечать"
+      "ru": "отвечать",
+      "en": "to answer"
     },
     {
       "id": "bertanya",
-      "ru": "спрашивать"
+      "ru": "спрашивать",
+      "en": "to ask"
     },
     {
       "id": "memanggil",
-      "ru": "звать"
+      "ru": "звать",
+      "en": "to call"
     },
     {
       "id": "membaca",
-      "ru": "читать"
+      "ru": "читать",
+      "en": "to read"
     },
     {
       "id": "menulis",
-      "ru": "писать"
+      "ru": "писать",
+      "en": "to write"
     },
     {
       "id": "mencatat",
-      "ru": "записывать"
+      "ru": "записывать",
+      "en": "note down"
     },
     {
       "id": "menggambar",
-      "ru": "рисовать"
+      "ru": "рисовать",
+      "en": "to draw"
     },
     {
       "id": "mencari",
-      "ru": "искать"
+      "ru": "искать",
+      "en": "to search"
     },
     {
       "id": "menemukan",
-      "ru": "находить"
+      "ru": "находить",
+      "en": "to find"
     },
     {
       "id": "kehilangan",
-      "ru": "терять"
+      "ru": "терять",
+      "en": "to lose"
     },
     {
       "id": "mengambil",
-      "ru": "брать"
+      "ru": "брать",
+      "en": "to take"
     },
     {
       "id": "memberikan",
-      "ru": "давать"
+      "ru": "давать",
+      "en": "to give"
     },
     {
       "id": "memberi",
-      "ru": "давать"
+      "ru": "давать",
+      "en": "give"
     },
     {
       "id": "membawa",
-      "ru": "приносить / нести"
+      "ru": "приносить / нести",
+      "en": "to bring"
     },
     {
       "id": "mengirim",
-      "ru": "отправлять"
+      "ru": "отправлять",
+      "en": "to send"
     },
     {
       "id": "mengantar",
-      "ru": "провожать / доставлять"
+      "ru": "провожать / доставлять",
+      "en": "to escort / deliver"
     },
     {
       "id": "membuka",
-      "ru": "открывать"
+      "ru": "открывать",
+      "en": "to open"
     },
     {
       "id": "menutup",
-      "ru": "закрывать"
+      "ru": "закрывать",
+      "en": "to close"
     },
     {
       "id": "memulai",
-      "ru": "начинать"
+      "ru": "начинать",
+      "en": "to start"
     },
     {
       "id": "mulai",
-      "ru": "начинать"
+      "ru": "начинать",
+      "en": "start"
     },
     {
       "id": "mengakhiri",
-      "ru": "заканчивать"
+      "ru": "заканчивать",
+      "en": "to end"
     },
     {
       "id": "selesai",
-      "ru": "закончить / готово"
+      "ru": "закончить / готово",
+      "en": "finished"
     },
     {
       "id": "beristirahat",
-      "ru": "отдыхать"
+      "ru": "отдыхать",
+      "en": "to rest"
     },
     {
       "id": "mencuci",
-      "ru": "стирать / мыть"
+      "ru": "стирать / мыть",
+      "en": "to wash"
     },
     {
       "id": "membersihkan",
-      "ru": "чистить"
+      "ru": "чистить",
+      "en": "to clean"
     },
     {
       "id": "menyapu",
-      "ru": "подметать"
+      "ru": "подметать",
+      "en": "to sweep"
     },
     {
       "id": "membantu",
-      "ru": "помогать"
+      "ru": "помогать",
+      "en": "to help"
     },
     {
       "id": "menolong",
-      "ru": "помогать"
+      "ru": "помогать",
+      "en": "to help"
     },
     {
       "id": "berpikir",
-      "ru": "думать"
+      "ru": "думать",
+      "en": "to think"
     },
     {
       "id": "memikirkan",
-      "ru": "думать о"
+      "ru": "думать о",
+      "en": "to think about"
     },
     {
       "id": "percaya",
-      "ru": "верить"
+      "ru": "верить",
+      "en": "to believe"
     },
     {
       "id": "mengerti",
-      "ru": "понимать"
+      "ru": "понимать",
+      "en": "to understand"
     },
     {
       "id": "memahami",
-      "ru": "понимать"
+      "ru": "понимать",
+      "en": "to understand"
     },
     {
       "id": "mengetahui",
-      "ru": "знать (формально)"
+      "ru": "знать (формально)",
+      "en": "to know (formal)"
     },
     {
       "id": "ingat",
-      "ru": "помнить"
+      "ru": "помнить",
+      "en": "remember"
     },
     {
       "id": "mengingat",
-      "ru": "помнить"
+      "ru": "помнить",
+      "en": "to remember"
     },
     {
       "id": "lupa",
-      "ru": "забывать"
+      "ru": "забывать",
+      "en": "forget"
     },
     {
       "id": "melupakan",
-      "ru": "забывать"
+      "ru": "забывать",
+      "en": "to forget"
     },
     {
       "id": "suka",
-      "ru": "нравиться"
+      "ru": "нравиться",
+      "en": "like"
     },
     {
       "id": "menyukai",
-      "ru": "нравиться"
+      "ru": "нравиться",
+      "en": "to like"
     },
     {
       "id": "cinta",
-      "ru": "любить"
+      "ru": "любить",
+      "en": "love"
     },
     {
       "id": "mencintai",
-      "ru": "любить"
+      "ru": "любить",
+      "en": "to love"
     },
     {
       "id": "sayang",
-      "ru": "любить / жаль"
+      "ru": "любить / жаль",
+      "en": "love / pity"
     },
     {
       "id": "benci",
-      "ru": "ненавидеть"
+      "ru": "ненавидеть",
+      "en": "hate"
     },
     {
       "id": "marah",
-      "ru": "сердиться"
+      "ru": "сердиться",
+      "en": "angry"
     },
     {
       "id": "senang",
-      "ru": "радостный"
+      "ru": "радостный",
+      "en": "happy"
     },
     {
       "id": "gembira",
-      "ru": "весёлый"
+      "ru": "весёлый",
+      "en": "cheerful"
     },
     {
       "id": "bahagia",
-      "ru": "счастливый"
+      "ru": "счастливый",
+      "en": "happy"
     },
     {
       "id": "sedih",
-      "ru": "грустный"
+      "ru": "грустный",
+      "en": "sad"
     },
     {
       "id": "takut",
-      "ru": "бояться"
+      "ru": "бояться",
+      "en": "afraid"
     },
     {
       "id": "kaget",
-      "ru": "поражённый"
+      "ru": "поражённый",
+      "en": "shocked"
     },
     {
       "id": "terkejut",
-      "ru": "удивлён"
+      "ru": "удивлён",
+      "en": "surprised"
     },
     {
       "id": "malu",
-      "ru": "стесняться"
+      "ru": "стесняться",
+      "en": "shy"
     },
     {
       "id": "bangga",
-      "ru": "гордый"
+      "ru": "гордый",
+      "en": "proud"
     },
     {
       "id": "kecewa",
-      "ru": "разочарованный"
+      "ru": "разочарованный",
+      "en": "disappointed"
     },
     {
       "id": "bingung",
-      "ru": "в замешательстве"
+      "ru": "в замешательстве",
+      "en": "confused"
     },
     {
       "id": "kesal",
-      "ru": "раздражённый"
+      "ru": "раздражённый",
+      "en": "annoyed"
     },
     {
       "id": "menangis",
-      "ru": "плакать"
+      "ru": "плакать",
+      "en": "cry"
     },
     {
       "id": "tertawa",
-      "ru": "смеяться"
+      "ru": "смеяться",
+      "en": "laugh"
     },
     {
       "id": "tersenyum",
-      "ru": "улыбаться"
+      "ru": "улыбаться",
+      "en": "smile"
     },
     {
       "id": "merasa",
-      "ru": "чувствовать"
+      "ru": "чувствовать",
+      "en": "to feel"
     },
     {
       "id": "hidup",
-      "ru": "жить / живой"
+      "ru": "жить / живой",
+      "en": "live / alive"
     },
     {
       "id": "mati",
-      "ru": "умирать / мёртвый"
+      "ru": "умирать / мёртвый",
+      "en": "die / dead"
     },
     {
       "id": "lahir",
-      "ru": "рождаться"
+      "ru": "рождаться",
+      "en": "be born"
     },
     {
       "id": "meninggal",
-      "ru": "умирать (форм.)"
+      "ru": "умирать (форм.)",
+      "en": "pass away"
     },
     {
       "id": "menikah",
-      "ru": "жениться"
+      "ru": "жениться",
+      "en": "get married"
     },
     {
       "id": "bertemu",
-      "ru": "встречаться"
+      "ru": "встречаться",
+      "en": "to meet"
     },
     {
       "id": "ketemu",
-      "ru": "встретиться (разг.)"
+      "ru": "встретиться (разг.)",
+      "en": "meet (informal)"
     },
     {
       "id": "berpisah",
-      "ru": "расставаться"
+      "ru": "расставаться",
+      "en": "part / separate"
     },
     {
       "id": "menunggu",
-      "ru": "ждать"
+      "ru": "ждать",
+      "en": "to wait"
     },
     {
       "id": "tunggu",
-      "ru": "подожди"
+      "ru": "подожди",
+      "en": "wait"
     },
     {
       "id": "terlambat",
-      "ru": "опаздывать"
+      "ru": "опаздывать",
+      "en": "to be late"
     },
     {
       "id": "bermain",
-      "ru": "играть"
+      "ru": "играть",
+      "en": "to play"
     },
     {
       "id": "main",
-      "ru": "играть"
+      "ru": "играть",
+      "en": "play"
     },
     {
       "id": "menari",
-      "ru": "танцевать"
+      "ru": "танцевать",
+      "en": "to dance"
     },
     {
       "id": "menyanyi",
-      "ru": "петь"
+      "ru": "петь",
+      "en": "to sing"
     },
     {
       "id": "bernyanyi",
-      "ru": "петь"
+      "ru": "петь",
+      "en": "to sing"
     },
     {
       "id": "menggunakan",
-      "ru": "использовать"
+      "ru": "использовать",
+      "en": "to use"
     },
     {
       "id": "memakai",
-      "ru": "носить / использовать"
+      "ru": "носить / использовать",
+      "en": "to wear / use"
     },
     {
       "id": "pakai",
-      "ru": "носить"
+      "ru": "носить",
+      "en": "wear"
     },
     {
       "id": "mencoba",
-      "ru": "пробовать"
+      "ru": "пробовать",
+      "en": "to try"
     },
     {
       "id": "berusaha",
-      "ru": "стараться"
+      "ru": "стараться",
+      "en": "to try / endeavor"
     },
     {
       "id": "berhasil",
-      "ru": "успех / удалось"
+      "ru": "успех / удалось",
+      "en": "succeed"
     },
     {
       "id": "gagal",
-      "ru": "потерпеть неудачу"
+      "ru": "потерпеть неудачу",
+      "en": "fail"
     },
     {
       "id": "menang",
-      "ru": "побеждать"
+      "ru": "побеждать",
+      "en": "win"
     },
     {
       "id": "kalah",
-      "ru": "проигрывать"
+      "ru": "проигрывать",
+      "en": "lose"
     },
     {
       "id": "mengubah",
-      "ru": "менять"
+      "ru": "менять",
+      "en": "to change"
     },
     {
       "id": "mengganti",
-      "ru": "заменять"
+      "ru": "заменять",
+      "en": "to replace"
     },
     {
       "id": "menambah",
-      "ru": "добавлять"
+      "ru": "добавлять",
+      "en": "to add"
     },
     {
       "id": "mengurangi",
-      "ru": "уменьшать"
+      "ru": "уменьшать",
+      "en": "to reduce"
     },
     {
       "id": "memperbaiki",
-      "ru": "чинить"
+      "ru": "чинить",
+      "en": "to repair"
     },
     {
       "id": "merusak",
-      "ru": "ломать"
+      "ru": "ломать",
+      "en": "to damage"
     },
     {
       "id": "membuat",
-      "ru": "делать / создавать"
+      "ru": "делать / создавать",
+      "en": "to make"
     },
     {
       "id": "bikin",
-      "ru": "сделать (разг.)"
+      "ru": "сделать (разг.)",
+      "en": "make (informal)"
     },
     {
       "id": "melakukan",
-      "ru": "делать"
+      "ru": "делать",
+      "en": "to do"
     },
     {
       "id": "mempunyai",
-      "ru": "иметь"
+      "ru": "иметь",
+      "en": "to have"
     },
     {
       "id": "punya",
-      "ru": "иметь (разг.)"
+      "ru": "иметь (разг.)",
+      "en": "have"
     },
     {
       "id": "memiliki",
-      "ru": "владеть"
+      "ru": "владеть",
+      "en": "to own"
     },
     {
       "id": "menjadi",
-      "ru": "становиться"
+      "ru": "становиться",
+      "en": "to become"
     },
     {
       "id": "mengajar",
-      "ru": "учить (других)"
+      "ru": "учить (других)",
+      "en": "to teach"
     },
     {
       "id": "mengajari",
-      "ru": "обучать"
+      "ru": "обучать",
+      "en": "to instruct"
     },
     {
       "id": "belajar",
-      "ru": "учиться"
+      "ru": "учиться",
+      "en": "to learn"
     },
     {
       "id": "mempelajari",
-      "ru": "изучать"
+      "ru": "изучать",
+      "en": "to study"
     },
     {
       "id": "berlatih",
-      "ru": "тренироваться"
+      "ru": "тренироваться",
+      "en": "to practice"
     },
     {
       "id": "berolahraga",
-      "ru": "заниматься спортом"
+      "ru": "заниматься спортом",
+      "en": "exercise"
     },
     {
       "id": "berlibur",
-      "ru": "отдыхать в отпуске"
+      "ru": "отдыхать в отпуске",
+      "en": "to vacation"
     },
     {
       "id": "bersantai",
-      "ru": "расслабляться"
+      "ru": "расслабляться",
+      "en": "to relax"
     },
     {
       "id": "berbohong",
-      "ru": "врать"
+      "ru": "врать",
+      "en": "to lie"
     },
     {
       "id": "jujur",
-      "ru": "честный"
+      "ru": "честный",
+      "en": "honest"
     },
     {
       "id": "mencuri",
-      "ru": "красть"
+      "ru": "красть",
+      "en": "to steal"
     },
     {
       "id": "menipu",
-      "ru": "обманывать"
+      "ru": "обманывать",
+      "en": "to deceive"
     },
     {
       "id": "mengundang",
-      "ru": "приглашать"
+      "ru": "приглашать",
+      "en": "to invite"
     },
     {
       "id": "menolak",
-      "ru": "отказывать"
+      "ru": "отказывать",
+      "en": "to refuse"
     },
     {
       "id": "menyetujui",
-      "ru": "соглашаться"
+      "ru": "соглашаться",
+      "en": "to agree to"
     },
     {
       "id": "setuju",
-      "ru": "согласен"
+      "ru": "согласен",
+      "en": "agree"
     },
     {
       "id": "mengizinkan",
-      "ru": "разрешать"
+      "ru": "разрешать",
+      "en": "to allow"
     },
     {
       "id": "melarang",
-      "ru": "запрещать"
+      "ru": "запрещать",
+      "en": "to forbid"
     },
     {
       "id": "memesan",
-      "ru": "заказывать"
+      "ru": "заказывать",
+      "en": "to order"
     },
     {
       "id": "pesan",
-      "ru": "заказ / сообщение"
+      "ru": "заказ / сообщение",
+      "en": "order / message"
     },
     {
       "id": "mengirimkan",
-      "ru": "присылать"
+      "ru": "присылать",
+      "en": "to send"
     },
     {
       "id": "menelpon",
-      "ru": "звонить"
+      "ru": "звонить",
+      "en": "to call"
     },
     {
       "id": "menelepon",
-      "ru": "звонить (форм.)"
+      "ru": "звонить (форм.)",
+      "en": "to call (formal)"
     },
     {
       "id": "menjelaskan",
-      "ru": "объяснять"
+      "ru": "объяснять",
+      "en": "to explain"
     },
     {
       "id": "memilih",
-      "ru": "выбирать"
+      "ru": "выбирать",
+      "en": "to choose"
     },
     {
       "id": "membayangkan",
-      "ru": "представлять"
+      "ru": "представлять",
+      "en": "to imagine"
     },
     {
       "id": "bermimpi",
-      "ru": "мечтать / видеть сон"
+      "ru": "мечтать / видеть сон",
+      "en": "to dream"
     },
     {
       "id": "menghitung",
-      "ru": "считать"
+      "ru": "считать",
+      "en": "to count"
     },
     {
       "id": "menjaga",
-      "ru": "охранять / заботиться"
+      "ru": "охранять / заботиться",
+      "en": "to guard"
     },
     {
       "id": "melindungi",
-      "ru": "защищать"
+      "ru": "защищать",
+      "en": "to protect"
     },
     {
       "id": "menyelamatkan",
-      "ru": "спасать"
+      "ru": "спасать",
+      "en": "to save"
     },
     {
       "id": "menyembunyikan",
-      "ru": "прятать"
+      "ru": "прятать",
+      "en": "to hide"
     },
     {
       "id": "berhenti",
-      "ru": "останавливаться"
+      "ru": "останавливаться",
+      "en": "to stop"
     },
     {
       "id": "melanjutkan",
-      "ru": "продолжать"
+      "ru": "продолжать",
+      "en": "to continue"
     },
     {
       "id": "lanjut",
-      "ru": "продолжать"
+      "ru": "продолжать",
+      "en": "continue"
     },
     {
       "id": "bagus",
-      "ru": "хороший"
+      "ru": "хороший",
+      "en": "good"
     },
     {
       "id": "jelek",
-      "ru": "плохой / уродливый"
+      "ru": "плохой / уродливый",
+      "en": "bad / ugly"
     },
     {
       "id": "buruk",
-      "ru": "плохой"
+      "ru": "плохой",
+      "en": "bad"
     },
     {
       "id": "hebat",
-      "ru": "потрясающий"
+      "ru": "потрясающий",
+      "en": "great"
     },
     {
       "id": "keren",
-      "ru": "крутой"
+      "ru": "крутой",
+      "en": "cool"
     },
     {
       "id": "biasa",
-      "ru": "обычный"
+      "ru": "обычный",
+      "en": "ordinary"
     },
     {
       "id": "luar biasa",
-      "ru": "необычный / выдающийся"
+      "ru": "необычный / выдающийся",
+      "en": "extraordinary"
     },
     {
       "id": "besar",
-      "ru": "большой"
+      "ru": "большой",
+      "en": "big"
     },
     {
       "id": "kecil",
-      "ru": "маленький"
+      "ru": "маленький",
+      "en": "small"
     },
     {
       "id": "panjang",
-      "ru": "длинный"
+      "ru": "длинный",
+      "en": "long"
     },
     {
       "id": "pendek",
-      "ru": "короткий"
+      "ru": "короткий",
+      "en": "short"
     },
     {
       "id": "tinggi",
-      "ru": "высокий"
+      "ru": "высокий",
+      "en": "tall / high"
     },
     {
       "id": "rendah",
-      "ru": "низкий"
+      "ru": "низкий",
+      "en": "low"
     },
     {
       "id": "lebar",
-      "ru": "широкий"
+      "ru": "широкий",
+      "en": "wide"
     },
     {
       "id": "sempit",
-      "ru": "узкий"
+      "ru": "узкий",
+      "en": "narrow"
     },
     {
       "id": "tebal",
-      "ru": "толстый"
+      "ru": "толстый",
+      "en": "thick"
     },
     {
       "id": "tipis",
-      "ru": "тонкий"
+      "ru": "тонкий",
+      "en": "thin"
     },
     {
       "id": "dangkal",
-      "ru": "мелкий"
+      "ru": "мелкий",
+      "en": "shallow"
     },
     {
       "id": "banyak",
-      "ru": "много"
+      "ru": "много",
+      "en": "many"
     },
     {
       "id": "sedikit",
-      "ru": "мало"
+      "ru": "мало",
+      "en": "few"
     },
     {
       "id": "cukup",
-      "ru": "достаточно"
+      "ru": "достаточно",
+      "en": "enough"
     },
     {
       "id": "kurang",
-      "ru": "недостаточно"
+      "ru": "недостаточно",
+      "en": "less"
     },
     {
       "id": "lama",
-      "ru": "долгий / старый"
+      "ru": "долгий / старый",
+      "en": "long time / old"
     },
     {
       "id": "kuno",
-      "ru": "древний"
+      "ru": "древний",
+      "en": "ancient"
     },
     {
       "id": "modern",
-      "ru": "современный"
+      "ru": "современный",
+      "en": "modern"
     },
     {
       "id": "cepat",
-      "ru": "быстрый"
+      "ru": "быстрый",
+      "en": "fast"
     },
     {
       "id": "lambat",
-      "ru": "медленный"
+      "ru": "медленный",
+      "en": "slow"
     },
     {
       "id": "pelan",
-      "ru": "медленный"
+      "ru": "медленный",
+      "en": "slow"
     },
     {
       "id": "mudah",
-      "ru": "лёгкий"
+      "ru": "лёгкий",
+      "en": "easy"
     },
     {
       "id": "gampang",
-      "ru": "простой"
+      "ru": "простой",
+      "en": "easy"
     },
     {
       "id": "susah",
-      "ru": "трудный"
+      "ru": "трудный",
+      "en": "difficult"
     },
     {
       "id": "sulit",
-      "ru": "сложный"
+      "ru": "сложный",
+      "en": "difficult"
     },
     {
       "id": "ringan",
-      "ru": "лёгкий (вес)"
+      "ru": "лёгкий (вес)",
+      "en": "light"
     },
     {
       "id": "berat",
-      "ru": "тяжёлый"
+      "ru": "тяжёлый",
+      "en": "heavy"
     },
     {
       "id": "penuh",
-      "ru": "полный"
+      "ru": "полный",
+      "en": "full"
     },
     {
       "id": "kosong",
-      "ru": "пустой"
+      "ru": "пустой",
+      "en": "empty"
     },
     {
       "id": "kering",
-      "ru": "сухой"
+      "ru": "сухой",
+      "en": "dry"
     },
     {
       "id": "basah",
-      "ru": "мокрый"
+      "ru": "мокрый",
+      "en": "wet"
     },
     {
       "id": "terang",
-      "ru": "светлый / яркий"
+      "ru": "светлый / яркий",
+      "en": "bright"
     },
     {
       "id": "gelap",
-      "ru": "тёмный"
+      "ru": "тёмный",
+      "en": "dark"
     },
     {
       "id": "cerah",
-      "ru": "солнечный"
+      "ru": "солнечный",
+      "en": "sunny"
     },
     {
       "id": "mendung",
-      "ru": "облачно"
+      "ru": "облачно",
+      "en": "cloudy"
     },
     {
       "id": "indah",
-      "ru": "красивый"
+      "ru": "красивый",
+      "en": "beautiful"
     },
     {
       "id": "cantik",
-      "ru": "красивая"
+      "ru": "красивая",
+      "en": "pretty"
     },
     {
       "id": "ganteng",
-      "ru": "красивый (м.)"
+      "ru": "красивый (м.)",
+      "en": "handsome"
     },
     {
       "id": "tampan",
-      "ru": "красивый (м.)"
+      "ru": "красивый (м.)",
+      "en": "handsome"
     },
     {
       "id": "kuat",
-      "ru": "сильный"
+      "ru": "сильный",
+      "en": "strong"
     },
     {
       "id": "lemah",
-      "ru": "слабый"
+      "ru": "слабый",
+      "en": "weak"
     },
     {
       "id": "segar",
-      "ru": "свежий"
+      "ru": "свежий",
+      "en": "fresh"
     },
     {
       "id": "bersih",
-      "ru": "чистый"
+      "ru": "чистый",
+      "en": "clean"
     },
     {
       "id": "kotor",
-      "ru": "грязный"
+      "ru": "грязный",
+      "en": "dirty"
     },
     {
       "id": "rapi",
-      "ru": "опрятный"
+      "ru": "опрятный",
+      "en": "tidy"
     },
     {
       "id": "berantakan",
-      "ru": "неубранный"
+      "ru": "неубранный",
+      "en": "messy"
     },
     {
       "id": "ramai",
-      "ru": "шумный / людный"
+      "ru": "шумный / людный",
+      "en": "crowded"
     },
     {
       "id": "sepi",
-      "ru": "тихий / безлюдный"
+      "ru": "тихий / безлюдный",
+      "en": "quiet"
     },
     {
       "id": "ramah",
-      "ru": "приветливый"
+      "ru": "приветливый",
+      "en": "friendly"
     },
     {
       "id": "sopan",
-      "ru": "вежливый"
+      "ru": "вежливый",
+      "en": "polite"
     },
     {
       "id": "kasar",
-      "ru": "грубый"
+      "ru": "грубый",
+      "en": "rude"
     },
     {
       "id": "pintar",
-      "ru": "умный"
+      "ru": "умный",
+      "en": "smart"
     },
     {
       "id": "pandai",
-      "ru": "способный"
+      "ru": "способный",
+      "en": "clever"
     },
     {
       "id": "cerdas",
-      "ru": "сообразительный"
+      "ru": "сообразительный",
+      "en": "intelligent"
     },
     {
       "id": "bodoh",
-      "ru": "глупый"
+      "ru": "глупый",
+      "en": "stupid"
     },
     {
       "id": "rajin",
-      "ru": "усердный"
+      "ru": "усердный",
+      "en": "diligent"
     },
     {
       "id": "malas",
-      "ru": "ленивый"
+      "ru": "ленивый",
+      "en": "lazy"
     },
     {
       "id": "berani",
-      "ru": "смелый"
+      "ru": "смелый",
+      "en": "brave"
     },
     {
       "id": "penakut",
-      "ru": "трусливый"
+      "ru": "трусливый",
+      "en": "cowardly"
     },
     {
       "id": "baik hati",
-      "ru": "добрый"
+      "ru": "добрый",
+      "en": "kind"
     },
     {
       "id": "jahat",
-      "ru": "злой"
+      "ru": "злой",
+      "en": "evil"
     },
     {
       "id": "sabar",
-      "ru": "терпеливый"
+      "ru": "терпеливый",
+      "en": "patient"
     },
     {
       "id": "gemuk",
-      "ru": "толстый"
+      "ru": "толстый",
+      "en": "fat"
     },
     {
       "id": "kurus",
-      "ru": "худой"
+      "ru": "худой",
+      "en": "thin"
     },
     {
       "id": "langsing",
-      "ru": "стройный"
+      "ru": "стройный",
+      "en": "slim"
     },
     {
       "id": "penting",
-      "ru": "важный"
+      "ru": "важный",
+      "en": "important"
     },
     {
       "id": "menarik",
-      "ru": "интересный"
+      "ru": "интересный",
+      "en": "interesting"
     },
     {
       "id": "membosankan",
-      "ru": "скучный"
+      "ru": "скучный",
+      "en": "boring"
     },
     {
       "id": "lucu",
-      "ru": "смешной"
+      "ru": "смешной",
+      "en": "funny"
     },
     {
       "id": "serius",
-      "ru": "серьёзный"
+      "ru": "серьёзный",
+      "en": "serious"
     },
     {
       "id": "aman",
-      "ru": "безопасный"
+      "ru": "безопасный",
+      "en": "safe"
     },
     {
       "id": "bahaya",
-      "ru": "опасность"
+      "ru": "опасность",
+      "en": "danger"
     },
     {
       "id": "berbahaya",
-      "ru": "опасный"
+      "ru": "опасный",
+      "en": "dangerous"
     },
     {
       "id": "nyaman",
-      "ru": "удобный"
+      "ru": "удобный",
+      "en": "comfortable"
     },
     {
       "id": "tenang",
-      "ru": "спокойный"
+      "ru": "спокойный",
+      "en": "calm"
     },
     {
       "id": "ribut",
-      "ru": "шумный"
+      "ru": "шумный",
+      "en": "noisy"
     },
     {
       "id": "berisik",
-      "ru": "шумный"
+      "ru": "шумный",
+      "en": "noisy"
     },
     {
       "id": "bising",
-      "ru": "шумный"
+      "ru": "шумный",
+      "en": "noisy"
     },
     {
       "id": "asli",
-      "ru": "оригинальный"
+      "ru": "оригинальный",
+      "en": "original"
     },
     {
       "id": "palsu",
-      "ru": "поддельный"
+      "ru": "поддельный",
+      "en": "fake"
     },
     {
       "id": "sangat",
-      "ru": "очень"
+      "ru": "очень",
+      "en": "very"
     },
     {
       "id": "sekali",
-      "ru": "очень (после прил.)"
+      "ru": "очень (после прил.)",
+      "en": "very"
     },
     {
       "id": "amat",
-      "ru": "крайне"
+      "ru": "крайне",
+      "en": "extremely"
     },
     {
       "id": "terlalu",
-      "ru": "слишком"
+      "ru": "слишком",
+      "en": "too"
     },
     {
       "id": "agak",
-      "ru": "немного"
+      "ru": "немного",
+      "en": "a bit"
     },
     {
       "id": "lebih",
-      "ru": "более"
+      "ru": "более",
+      "en": "more"
     },
     {
       "id": "paling",
-      "ru": "самый"
+      "ru": "самый",
+      "en": "most"
     },
     {
       "id": "lebih baik",
-      "ru": "лучше"
+      "ru": "лучше",
+      "en": "better"
     },
     {
       "id": "paling baik",
-      "ru": "самый лучший"
+      "ru": "самый лучший",
+      "en": "best"
     },
     {
       "id": "sama",
-      "ru": "одинаковый"
+      "ru": "одинаковый",
+      "en": "same"
     },
     {
       "id": "berbeda",
-      "ru": "разный"
+      "ru": "разный",
+      "en": "different"
     },
     {
       "id": "beda",
-      "ru": "разница"
+      "ru": "разница",
+      "en": "difference"
     },
     {
       "id": "mirip",
-      "ru": "похожий"
+      "ru": "похожий",
+      "en": "similar"
     },
     {
       "id": "khusus",
-      "ru": "особенный"
+      "ru": "особенный",
+      "en": "special"
     },
     {
       "id": "umum",
-      "ru": "общий"
+      "ru": "общий",
+      "en": "general"
     },
     {
       "id": "khas",
-      "ru": "характерный"
+      "ru": "характерный",
+      "en": "characteristic"
     },
     {
       "id": "spesial",
-      "ru": "особый"
+      "ru": "особый",
+      "en": "special"
     },
     {
       "id": "bersama",
-      "ru": "вместе"
+      "ru": "вместе",
+      "en": "together"
     },
     {
       "id": "sendiri",
-      "ru": "сам / один"
+      "ru": "сам / один",
+      "en": "alone / self"
     },
     {
       "id": "sendirian",
-      "ru": "в одиночку"
+      "ru": "в одиночку",
+      "en": "by oneself"
     },
     {
       "id": "internet",
-      "ru": "интернет"
+      "ru": "интернет",
+      "en": "internet"
     },
     {
       "id": "wifi",
-      "ru": "вайфай"
+      "ru": "вайфай",
+      "en": "wifi"
     },
     {
       "id": "komputer",
-      "ru": "компьютер"
+      "ru": "компьютер",
+      "en": "computer"
     },
     {
       "id": "laptop",
-      "ru": "ноутбук"
+      "ru": "ноутбук",
+      "en": "laptop"
     },
     {
       "id": "ponsel",
-      "ru": "мобильник"
+      "ru": "мобильник",
+      "en": "cell phone"
     },
     {
       "id": "hp",
-      "ru": "телефон (разг.)"
+      "ru": "телефон (разг.)",
+      "en": "phone"
     },
     {
       "id": "telepon",
-      "ru": "телефон"
+      "ru": "телефон",
+      "en": "phone"
     },
     {
       "id": "email",
-      "ru": "электронная почта"
+      "ru": "электронная почта",
+      "en": "email"
     },
     {
       "id": "aplikasi",
-      "ru": "приложение"
+      "ru": "приложение",
+      "en": "app"
     },
     {
       "id": "situs",
-      "ru": "сайт"
+      "ru": "сайт",
+      "en": "website"
     },
     {
       "id": "media sosial",
-      "ru": "соцсети"
+      "ru": "соцсети",
+      "en": "social media"
     },
     {
       "id": "foto",
-      "ru": "фото"
+      "ru": "фото",
+      "en": "photo"
     },
     {
       "id": "gambar",
-      "ru": "картинка"
+      "ru": "картинка",
+      "en": "picture"
     },
     {
       "id": "video",
-      "ru": "видео"
+      "ru": "видео",
+      "en": "video"
     },
     {
       "id": "film",
-      "ru": "фильм"
+      "ru": "фильм",
+      "en": "movie"
     },
     {
       "id": "lagu",
-      "ru": "песня"
+      "ru": "песня",
+      "en": "song"
     },
     {
       "id": "musik",
-      "ru": "музыка"
+      "ru": "музыка",
+      "en": "music"
     },
     {
       "id": "berita",
-      "ru": "новости"
+      "ru": "новости",
+      "en": "news"
     },
     {
       "id": "informasi",
-      "ru": "информация"
+      "ru": "информация",
+      "en": "information"
     },
     {
       "id": "data",
-      "ru": "данные"
+      "ru": "данные",
+      "en": "data"
     },
     {
       "id": "agama",
-      "ru": "религия"
+      "ru": "религия",
+      "en": "religion"
     },
     {
       "id": "Tuhan",
-      "ru": "Бог"
+      "ru": "Бог",
+      "en": "God"
     },
     {
       "id": "doa",
-      "ru": "молитва"
+      "ru": "молитва",
+      "en": "prayer"
     },
     {
       "id": "berdoa",
-      "ru": "молиться"
+      "ru": "молиться",
+      "en": "to pray"
     },
     {
       "id": "puasa",
-      "ru": "пост"
+      "ru": "пост",
+      "en": "fasting"
     },
     {
       "id": "Islam",
-      "ru": "ислам"
+      "ru": "ислам",
+      "en": "Islam"
     },
     {
       "id": "Kristen",
-      "ru": "христианство"
+      "ru": "христианство",
+      "en": "Christianity"
     },
     {
       "id": "Hindu",
-      "ru": "индуизм"
+      "ru": "индуизм",
+      "en": "Hinduism"
     },
     {
       "id": "Buddha",
-      "ru": "буддизм"
+      "ru": "буддизм",
+      "en": "Buddhism"
     },
     {
       "id": "selamat hari raya",
-      "ru": "с праздником"
+      "ru": "с праздником",
+      "en": "happy holiday"
     },
     {
       "id": "Lebaran",
-      "ru": "Лебаран (Ид аль-Фитр)"
+      "ru": "Лебаран (Ид аль-Фитр)",
+      "en": "Eid al-Fitr"
     },
     {
       "id": "Natal",
-      "ru": "Рождество"
+      "ru": "Рождество",
+      "en": "Christmas"
     },
     {
       "id": "Tahun Baru",
-      "ru": "Новый год"
+      "ru": "Новый год",
+      "en": "New Year"
     },
     {
       "id": "hari libur",
-      "ru": "выходной / праздник"
+      "ru": "выходной / праздник",
+      "en": "holiday"
     },
     {
       "id": "pesta",
-      "ru": "вечеринка"
+      "ru": "вечеринка",
+      "en": "party"
     },
     {
       "id": "ulang tahun",
-      "ru": "день рождения"
+      "ru": "день рождения",
+      "en": "birthday"
     },
     {
       "id": "hadiah",
-      "ru": "подарок"
+      "ru": "подарок",
+      "en": "gift"
     },
     {
       "id": "kado",
-      "ru": "подарок"
+      "ru": "подарок",
+      "en": "gift"
     },
     {
       "id": "kue ulang tahun",
-      "ru": "праздничный торт"
+      "ru": "праздничный торт",
+      "en": "birthday cake"
     },
     {
       "id": "lilin",
-      "ru": "свеча"
+      "ru": "свеча",
+      "en": "candle"
     },
     {
       "id": "balon",
-      "ru": "воздушный шар"
+      "ru": "воздушный шар",
+      "en": "balloon"
     },
     {
       "id": "pertanyaan",
-      "ru": "вопрос"
+      "ru": "вопрос",
+      "en": "question"
     },
     {
       "id": "masalah",
-      "ru": "проблема"
+      "ru": "проблема",
+      "en": "problem"
     },
     {
       "id": "solusi",
-      "ru": "решение"
+      "ru": "решение",
+      "en": "solution"
     },
     {
       "id": "ide",
-      "ru": "идея"
+      "ru": "идея",
+      "en": "idea"
     },
     {
       "id": "rencana",
-      "ru": "план"
+      "ru": "план",
+      "en": "plan"
     },
     {
       "id": "tujuan",
-      "ru": "цель"
+      "ru": "цель",
+      "en": "goal"
     },
     {
       "id": "harapan",
-      "ru": "надежда"
+      "ru": "надежда",
+      "en": "hope"
     },
     {
       "id": "cita-cita",
-      "ru": "мечта (цель в жизни)"
+      "ru": "мечта (цель в жизни)",
+      "en": "ambition"
     },
     {
       "id": "alasan",
-      "ru": "причина"
+      "ru": "причина",
+      "en": "reason"
     },
     {
       "id": "hasil",
-      "ru": "результат"
+      "ru": "результат",
+      "en": "result"
     },
     {
       "id": "contoh",
-      "ru": "пример"
+      "ru": "пример",
+      "en": "example"
     },
     {
       "id": "fakta",
-      "ru": "факт"
+      "ru": "факт",
+      "en": "fact"
     },
     {
       "id": "kebenaran",
-      "ru": "правда"
+      "ru": "правда",
+      "en": "truth"
     },
     {
       "id": "kebohongan",
-      "ru": "ложь"
+      "ru": "ложь",
+      "en": "lie"
     },
     {
       "id": "kabar",
-      "ru": "новость"
+      "ru": "новость",
+      "en": "news"
     },
     {
       "id": "cerita",
-      "ru": "история"
+      "ru": "история",
+      "en": "story"
     },
     {
       "id": "kisah",
-      "ru": "рассказ"
+      "ru": "рассказ",
+      "en": "tale"
     },
     {
       "id": "pendapat",
-      "ru": "мнение"
+      "ru": "мнение",
+      "en": "opinion"
     },
     {
       "id": "pengalaman",
-      "ru": "опыт"
+      "ru": "опыт",
+      "en": "experience"
     },
     {
       "id": "kesempatan",
-      "ru": "возможность / шанс"
+      "ru": "возможность / шанс",
+      "en": "opportunity"
     },
     {
       "id": "pilihan",
-      "ru": "выбор"
+      "ru": "выбор",
+      "en": "choice"
     },
     {
       "id": "perubahan",
-      "ru": "изменение"
+      "ru": "изменение",
+      "en": "change"
     },
     {
       "id": "kehidupan",
-      "ru": "жизнь"
+      "ru": "жизнь",
+      "en": "life"
     },
     {
       "id": "kematian",
-      "ru": "смерть"
+      "ru": "смерть",
+      "en": "death"
     },
     {
       "id": "kelahiran",
-      "ru": "рождение"
+      "ru": "рождение",
+      "en": "birth"
     },
     {
       "id": "pernikahan",
-      "ru": "свадьба / брак"
+      "ru": "свадьба / брак",
+      "en": "marriage"
     },
     {
       "id": "siapa namamu",
-      "ru": "как тебя зовут"
+      "ru": "как тебя зовут",
+      "en": "what's your name"
     },
     {
       "id": "siapa nama Anda",
-      "ru": "как Вас зовут"
+      "ru": "как Вас зовут",
+      "en": "what is your name (formal)"
     },
     {
       "id": "berapa umurmu",
-      "ru": "сколько тебе лет"
+      "ru": "сколько тебе лет",
+      "en": "how old are you"
     },
     {
       "id": "dari mana asalmu",
-      "ru": "откуда ты"
+      "ru": "откуда ты",
+      "en": "where are you from"
     },
     {
       "id": "kamu tinggal di mana",
-      "ru": "где ты живёшь"
+      "ru": "где ты живёшь",
+      "en": "where do you live"
     },
     {
       "id": "bisa berbicara bahasa Indonesia",
-      "ru": "говоришь на индонезийском"
+      "ru": "говоришь на индонезийском",
+      "en": "can you speak Indonesian"
     },
     {
       "id": "saya tidak mengerti",
-      "ru": "я не понимаю"
+      "ru": "я не понимаю",
+      "en": "I don't understand"
     },
     {
       "id": "saya mengerti",
-      "ru": "я понимаю"
+      "ru": "я понимаю",
+      "en": "I understand"
     },
     {
       "id": "tolong ulangi",
-      "ru": "повторите, пожалуйста"
+      "ru": "повторите, пожалуйста",
+      "en": "please repeat"
     },
     {
       "id": "tolong bicara pelan-pelan",
-      "ru": "говорите помедленнее"
+      "ru": "говорите помедленнее",
+      "en": "please speak slowly"
     },
     {
       "id": "apa artinya",
-      "ru": "что это значит"
+      "ru": "что это значит",
+      "en": "what does it mean"
     },
     {
       "id": "bagaimana mengatakannya",
-      "ru": "как сказать"
+      "ru": "как сказать",
+      "en": "how do I say it"
     },
     {
       "id": "saya tidak tahu",
-      "ru": "я не знаю"
+      "ru": "я не знаю",
+      "en": "I don't know"
     },
     {
       "id": "saya tidak yakin",
-      "ru": "я не уверен"
+      "ru": "я не уверен",
+      "en": "I'm not sure"
     },
     {
       "id": "tidak masalah",
-      "ru": "не проблема"
+      "ru": "не проблема",
+      "en": "no problem"
     },
     {
       "id": "jangan khawatir",
-      "ru": "не волнуйся"
+      "ru": "не волнуйся",
+      "en": "don't worry"
     },
     {
       "id": "tenang saja",
-      "ru": "успокойся"
+      "ru": "успокойся",
+      "en": "just relax"
     },
     {
       "id": "tidak masalah bagi saya",
-      "ru": "для меня не проблема"
+      "ru": "для меня не проблема",
+      "en": "no problem for me"
     },
     {
       "id": "saya setuju",
-      "ru": "я согласен"
+      "ru": "я согласен",
+      "en": "I agree"
     },
     {
       "id": "saya tidak setuju",
-      "ru": "я не согласен"
+      "ru": "я не согласен",
+      "en": "I disagree"
     },
     {
       "id": "menurut saya",
-      "ru": "по-моему"
+      "ru": "по-моему",
+      "en": "in my opinion"
     },
     {
       "id": "saya rasa",
-      "ru": "я думаю"
+      "ru": "я думаю",
+      "en": "I think"
     },
     {
       "id": "saya kira",
-      "ru": "мне кажется"
+      "ru": "мне кажется",
+      "en": "I suppose"
     }
   ]
 }

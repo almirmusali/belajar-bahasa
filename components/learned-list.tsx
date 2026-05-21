@@ -120,6 +120,9 @@ export function LearnedList({ sets }: { sets: VocabSet[] }) {
                 </button>
                 <div className="min-w-0 flex-1">
                   <div className="font-medium leading-snug">{w.id}</div>
+                  {w.en && (
+                    <div className="text-sm leading-snug">{w.en}</div>
+                  )}
                   <div className="text-sm text-muted-foreground leading-snug">
                     {w.ru}
                   </div>

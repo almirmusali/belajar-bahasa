@@ -4,6 +4,7 @@ import path from "node:path";
 export type Word = {
   id: string;
   ru: string;
+  en?: string;
   note?: string;
 };
 
