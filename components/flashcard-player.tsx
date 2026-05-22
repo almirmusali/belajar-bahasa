@@ -23,6 +23,7 @@ import { useLearned, useMounted } from "@/lib/use-learned";
 import { useActivity } from "@/lib/use-activity";
 import { useLocale } from "@/lib/use-locale";
 import { t, tf } from "@/lib/i18n";
+import { audioUrl } from "@/lib/audio-url";
 import { cn } from "@/lib/utils";
 
 type Direction = "target-first" | "translation-first";
@@ -138,36 +139,89 @@ export function FlashcardPlayer({
     return side === 0 ? "translation" : "target";
   }, [side, direction]);
 
-  const speakChain = useCallback(
-    (items: Array<{ text: string; locale: string }>) => {
-      if (typeof window === "undefined" || !("speechSynthesis" in window))
-        return;
+  const audioElRef = useRef<HTMLAudioElement | null>(null);
+  const chainTokenRef = useRef(0);
+
+  function stopAllPlayback() {
+    if (audioElRef.current) {
+      audioElRef.current.pause();
+      audioElRef.current.src = "";
+      audioElRef.current = null;
+    }
+    if (typeof window !== "undefined" && "speechSynthesis" in window) {
       window.speechSynthesis.cancel();
-      if (items.length === 0) return;
-      const voices = window.speechSynthesis.getVoices();
-      const queue = [...items];
-      const playNext = () => {
-        const item = queue.shift();
-        if (!item) return;
-        const u = new SpeechSynthesisUtterance(item.text);
-        u.lang = item.locale;
-        u.rate = 0.95;
-        const prefix = item.locale.slice(0, 2);
-        const voice = voices.find(
-          (v) => v.lang === item.locale || v.lang.startsWith(prefix),
-        );
-        if (voice) u.voice = voice;
-        u.onend = playNext;
-        window.speechSynthesis.speak(u);
+    }
+  }
+
+  function tryRemoteAudio(text: string, lang: Lang): Promise<boolean> {
+    return new Promise((resolve) => {
+      const url = audioUrl(text, lang);
+      if (!url) return resolve(false);
+      const audio = new Audio(url);
+      audioElRef.current = audio;
+      let resolved = false;
+      const done = (ok: boolean) => {
+        if (resolved) return;
+        resolved = true;
+        if (audioElRef.current === audio) audioElRef.current = null;
+        resolve(ok);
       };
-      playNext();
+      audio.onended = () => done(true);
+      audio.onerror = () => done(false);
+      audio.onpause = () => done(false);
+      audio.play().catch(() => done(false));
+    });
+  }
+
+  function playWebSpeech(text: string, lang: Lang): Promise<void> {
+    return new Promise((resolve) => {
+      if (typeof window === "undefined" || !("speechSynthesis" in window)) {
+        return resolve();
+      }
+      const u = new SpeechSynthesisUtterance(text);
+      u.lang = LANG_META[lang].locale;
+      u.rate = 0.95;
+      const voices = window.speechSynthesis.getVoices();
+      const prefix = LANG_META[lang].locale.slice(0, 2);
+      const voice = voices.find(
+        (v) => v.lang === LANG_META[lang].locale || v.lang.startsWith(prefix),
+      );
+      if (voice) u.voice = voice;
+      let resolved = false;
+      const done = () => {
+        if (!resolved) {
+          resolved = true;
+          resolve();
+        }
+      };
+      u.onend = done;
+      u.onerror = done;
+      window.speechSynthesis.speak(u);
+    });
+  }
+
+  const speakChain = useCallback(
+    async (items: Array<{ text: string; lang: Lang }>) => {
+      if (typeof window === "undefined") return;
+      const myToken = ++chainTokenRef.current;
+      stopAllPlayback();
+      if (items.length === 0) return;
+
+      for (const item of items) {
+        if (chainTokenRef.current !== myToken) return;
+        const ok = await tryRemoteAudio(item.text, item.lang);
+        if (chainTokenRef.current !== myToken) return;
+        if (!ok) {
+          await playWebSpeech(item.text, item.lang);
+          if (chainTokenRef.current !== myToken) return;
+        }
+      }
     },
     [],
   );
 
   const speakOne = useCallback(
-    (text: string, lang: Lang) =>
-      speakChain([{ text, locale: LANG_META[lang].locale }]),
+    (text: string, lang: Lang) => speakChain([{ text, lang }]),
     [speakChain],
   );
 
@@ -175,19 +229,19 @@ export function FlashcardPlayer({
     if (langSet.size === 0 || !current) return;
     // Озвучка синхронна со стороной карточки: на target-стороне звучит target;
     // на стороне перевода — выбранные помощники (EN и/или native).
-    const chain: Array<{ text: string; locale: string }> = [];
+    const chain: Array<{ text: string; lang: Lang }> = [];
     if (sideKind === "target") {
       if (langSet.has(target)) {
         const text = textFor(current, target);
-        if (text) chain.push({ text, locale: LANG_META[target].locale });
+        if (text) chain.push({ text, lang: target });
       }
     } else {
       if (langSet.has("en") && current.en) {
-        chain.push({ text: current.en, locale: LANG_META.en.locale });
+        chain.push({ text: current.en, lang: "en" });
       }
       if (langSet.has(native)) {
         const text = textFor(current, native);
-        if (text) chain.push({ text, locale: LANG_META[native].locale });
+        if (text) chain.push({ text, lang: native });
       }
     }
     speakChain(chain);
