@@ -158,17 +158,25 @@ export function FlashcardPlayer({
       const url = audioUrl(text, lang);
       if (!url) return resolve(false);
       const audio = new Audio(url);
+      audio.preload = "auto";
       audioElRef.current = audio;
       let resolved = false;
+      let startedPlaying = false;
       const done = (ok: boolean) => {
         if (resolved) return;
         resolved = true;
         if (audioElRef.current === audio) audioElRef.current = null;
         resolve(ok);
       };
+      audio.onplaying = () => {
+        startedPlaying = true;
+      };
       audio.onended = () => done(true);
-      audio.onerror = () => done(false);
-      audio.onpause = () => done(false);
+      // Если ошибка или пауза случилась уже после старта проигрывания —
+      // считаем что аудио уже отыграло, fallback на Web Speech не делаем
+      // (иначе пользователь услышит то же слово дважды: частичный MP3 + полный Web Speech).
+      audio.onerror = () => done(startedPlaying);
+      audio.onpause = () => done(startedPlaying);
       audio.play().catch(() => done(false));
     });
   }
