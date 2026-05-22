@@ -86,10 +86,7 @@ function collectAllTexts() {
       if (w.id) items.set(`id:${w.id}`, { text: w.id, lang: "id" });
       if (w.en) items.set(`en:${w.en}`, { text: w.en, lang: "en" });
       if (w.ru) items.set(`ru:${w.ru}`, { text: w.ru, lang: "ru" });
-      for (const ex of w.examples ?? []) {
-        if (ex.id) items.set(`id:${ex.id}`, { text: ex.id, lang: "id" });
-        if (ex.ru) items.set(`ru:${ex.ru}`, { text: ex.ru, lang: "ru" });
-      }
+      // Примеры озвучивать не нужно — только сами слова на трёх языках.
     }
   }
   return [...items.values()];
@@ -142,9 +139,13 @@ async function generateOne(text, lang) {
   return { skipped: false, filename, bytes: audio.byteLength };
 }
 
+const CONCURRENCY = 6;
+
 async function main() {
   const items = collectAllTexts();
-  console.log(`Found ${items.length} unique (text, lang) pairs`);
+  console.log(
+    `Found ${items.length} unique (text, lang) pairs · ${CONCURRENCY} parallel workers`,
+  );
 
   let done = 0;
   let skipped = 0;
@@ -152,35 +153,43 @@ async function main() {
   let errors = 0;
   let bytesTotal = 0;
   const t0 = Date.now();
+  let nextIndex = 0;
 
-  // Маленькая задержка между запросами чтобы не упереться в rate limit
-  for (const it of items) {
-    try {
-      const r = await generateOne(it.text, it.lang);
-      done++;
-      if (r.skipped) skipped++;
-      else {
-        generated++;
-        bytesTotal += r.bytes ?? 0;
-      }
-      const elapsed = ((Date.now() - t0) / 1000).toFixed(0);
-      process.stdout.write(
-        `\r[${done}/${items.length}] gen=${generated} skip=${skipped} err=${errors} ${(bytesTotal / 1024 / 1024).toFixed(1)}MB ${elapsed}s   `,
-      );
-      if (!r.skipped) {
-        // 100ms задержка после реальной генерации
-        await new Promise((r) => setTimeout(r, 100));
-      }
-    } catch (e) {
-      errors++;
-      console.error(`\nFAIL ${it.lang}:${it.text.slice(0, 40)} — ${e.message}`);
-      // Если rate limit — подождём подольше
-      if (String(e.message).includes("429")) {
-        console.log("Rate limited, waiting 30s…");
-        await new Promise((r) => setTimeout(r, 30_000));
+  const renderProgress = () => {
+    const elapsed = ((Date.now() - t0) / 1000).toFixed(0);
+    process.stdout.write(
+      `\r[${done}/${items.length}] gen=${generated} skip=${skipped} err=${errors} ${(bytesTotal / 1024 / 1024).toFixed(1)}MB ${elapsed}s   `,
+    );
+  };
+
+  const worker = async () => {
+    while (nextIndex < items.length) {
+      const idx = nextIndex++;
+      const it = items[idx];
+      try {
+        const r = await generateOne(it.text, it.lang);
+        if (r.skipped) skipped++;
+        else {
+          generated++;
+          bytesTotal += r.bytes ?? 0;
+        }
+      } catch (e) {
+        errors++;
+        console.error(
+          `\nFAIL ${it.lang}:${it.text.slice(0, 40)} — ${e.message}`,
+        );
+        if (String(e.message).includes("429")) {
+          console.log("Rate limited, waiting 15s…");
+          await new Promise((r) => setTimeout(r, 15_000));
+        }
+      } finally {
+        done++;
+        renderProgress();
       }
     }
-  }
+  };
+
+  await Promise.all(Array.from({ length: CONCURRENCY }, () => worker()));
 
   console.log(
     `\n\nDone: ${generated} generated, ${skipped} skipped, ${errors} errors. Total ${(bytesTotal / 1024 / 1024).toFixed(1)} MB.`,

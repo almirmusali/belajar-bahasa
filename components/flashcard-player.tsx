@@ -661,10 +661,7 @@ export function FlashcardPlayer({
           <Shuffle className="h-4 w-4" />
         </IconButton>
         <IconButton
-          onClick={() => {
-            toggleLang("id");
-            speakOne(current.id, "id");
-          }}
+          onClick={() => speakOne(current.id, "id")}
           highlight={langSet.has("id")}
           title={
             locale === "ru"
@@ -676,10 +673,7 @@ export function FlashcardPlayer({
         </IconButton>
         {current.en && (
           <IconButton
-            onClick={() => {
-              toggleLang("en");
-              speakOne(current.en!, "en");
-            }}
+            onClick={() => speakOne(current.en!, "en")}
             highlight={langSet.has("en")}
             title={t(locale, "fc_speak_en")}
           >
@@ -687,10 +681,7 @@ export function FlashcardPlayer({
           </IconButton>
         )}
         <IconButton
-          onClick={() => {
-            toggleLang("ru");
-            speakOne(current.ru, "ru");
-          }}
+          onClick={() => speakOne(current.ru, "ru")}
           highlight={langSet.has("ru")}
           title={
             locale === "ru"
