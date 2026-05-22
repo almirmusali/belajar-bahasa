@@ -13,12 +13,18 @@ export type AudioLang = "id" | "en" | "ru";
 /**
  * Возвращает URL предгенерированного MP3 в Supabase Storage.
  * Если файла нет — будет 404, и плеер сделает fallback на Web Speech.
+ *
+ * Временно отключено: возвращает null — плеер использует только Web Speech API
+ * (системные голоса iOS/Android/macOS). Чтобы включить обратно,
+ * раскомментируй блок ниже и убедись что файлы есть в Storage.
  */
-export function audioUrl(text: string, lang: AudioLang): string | null {
-  const base = process.env.NEXT_PUBLIC_SUPABASE_URL;
-  if (!base) return null;
-  const filename = `${lang}/${fnv1a(`${lang}:${text}`)}.mp3`;
-  return `${base}/storage/v1/object/public/audio/${filename}`;
+export function audioUrl(_text: string, _lang: AudioLang): string | null {
+  return null;
+
+  // const base = process.env.NEXT_PUBLIC_SUPABASE_URL;
+  // if (!base) return null;
+  // const filename = `${_lang}/${fnv1a(`${_lang}:${_text}`)}.mp3`;
+  // return `${base}/storage/v1/object/public/audio/${filename}`;
 }
 
 export function audioFilename(text: string, lang: AudioLang): string {
