@@ -21,6 +21,7 @@ import {
 import type { Word } from "@/lib/vocab";
 import { useLearned, useMounted } from "@/lib/use-learned";
 import { useActivity } from "@/lib/use-activity";
+import { useSetState, readSetState } from "@/lib/use-set-state";
 import { useLocale } from "@/lib/use-locale";
 import { t, tf } from "@/lib/i18n";
 import { audioUrl } from "@/lib/audio-url";
@@ -60,6 +61,7 @@ export function FlashcardPlayer({
   const { locale } = useLocale();
   const { isLearned, mark, unmark, learnedForSet, clearSet } = useLearned();
   const { addCard } = useActivity();
+  const { touch, setLastWord } = useSetState();
 
   // Какой язык - целевой (изучаемый), какой - родной (помощник)
   const target: Lang = locale === "ru" ? "id" : "ru";
@@ -68,7 +70,20 @@ export function FlashcardPlayer({
   const [baseOrder, setBaseOrder] = useState<number[]>(() =>
     words.map((_, i) => i),
   );
-  const [pos, setPos] = useState(0);
+  // Инициализируем pos значением, восстановленным из localStorage синхронно,
+  // чтобы избежать вспышки «карточка 1 → потом прыжок на сохранённую»
+  const [pos, setPos] = useState<number>(() => {
+    if (typeof window === "undefined") return 0;
+    try {
+      const store = readSetState();
+      const lastWordId = store[slug]?.lastWordId;
+      if (!lastWordId) return 0;
+      const idx = words.findIndex((w) => w.id === lastWordId);
+      return idx >= 0 ? idx : 0;
+    } catch {
+      return 0;
+    }
+  });
   const [side, setSide] = useState<0 | 1>(0);
   const [direction, setDirection] = useState<Direction>("target-first");
   const [playing, setPlaying] = useState(false);
@@ -119,14 +134,20 @@ export function FlashcardPlayer({
 
   const current = words[effectiveOrder[pos]];
 
-  // Считаем просмотры карточек: каждое появление нового слова на экране = +1
+  // Считаем просмотры карточек и сохраняем последнее открытое слово
   const seenIdRef = useRef<string | null>(null);
   useEffect(() => {
     if (current?.id && current.id !== seenIdRef.current) {
       seenIdRef.current = current.id;
       addCard();
+      setLastWord(slug, current.id);
     }
-  }, [current?.id, addCard]);
+  }, [current?.id, addCard, setLastWord, slug]);
+
+  // Touch lastOpenedAt при монтировании (даже если пользователь не двигал карточки)
+  useEffect(() => {
+    touch(slug);
+  }, [slug, touch]);
 
   const learnedIds = learnedForSet(slug);
   const learnedCount = mounted ? learnedIds.length : 0;

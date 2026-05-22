@@ -1,11 +1,15 @@
 "use client";
 
+import { useMemo } from "react";
 import Link from "next/link";
 import { CheckCircle2, Library } from "lucide-react";
 import { VocabProgress } from "@/components/vocab-progress";
 import type { VocabSet } from "@/lib/vocab";
 import { useLocale } from "@/lib/use-locale";
+import { useLearned, useMounted } from "@/lib/use-learned";
+import { useSetState } from "@/lib/use-set-state";
 import { t } from "@/lib/i18n";
+import { cn } from "@/lib/utils";
 
 function pluralizeRu(n: number, forms: [string, string, string]) {
   const mod10 = n % 10;
@@ -17,11 +21,40 @@ function pluralizeRu(n: number, forms: [string, string, string]) {
 
 export function VocabCatalog({ sets }: { sets: VocabSet[] }) {
   const { locale } = useLocale();
+  const mounted = useMounted();
+  const { data: learned } = useLearned();
+  const { data: setStateData } = useSetState();
 
   const wordsLabel = (n: number) =>
     locale === "ru"
       ? pluralizeRu(n, ["слово", "слова", "слов"])
       : t(locale, "vocab_words");
+
+  // Сортировка: недавно открытые сверху, выученные на 100% — вниз
+  const sortedSets = useMemo(() => {
+    if (!mounted) return sets;
+    return [...sets].sort((a, b) => {
+      const aLearned = (learned[a.slug] ?? []).length;
+      const bLearned = (learned[b.slug] ?? []).length;
+      const aDone = aLearned >= a.words.length && a.words.length > 0;
+      const bDone = bLearned >= b.words.length && b.words.length > 0;
+      // Полностью выученные — в конец
+      if (aDone !== bDone) return aDone ? 1 : -1;
+      // Недавно открытые — наверх (большее lastOpenedAt раньше)
+      const aOpened = setStateData[a.slug]?.lastOpenedAt ?? 0;
+      const bOpened = setStateData[b.slug]?.lastOpenedAt ?? 0;
+      if (aOpened !== bOpened) return bOpened - aOpened;
+      // Иначе по заголовку
+      return a.title.localeCompare(b.title, locale === "ru" ? "ru" : "id");
+    });
+  }, [sets, learned, setStateData, mounted, locale]);
+
+  const firstNotOpenedIndex = useMemo(() => {
+    if (!mounted) return -1;
+    return sortedSets.findIndex(
+      (s) => (setStateData[s.slug]?.lastOpenedAt ?? 0) === 0,
+    );
+  }, [sortedSets, setStateData, mounted]);
 
   return (
     <main className="container mx-auto max-w-4xl px-4 py-12">
@@ -56,18 +89,34 @@ export function VocabCatalog({ sets }: { sets: VocabSet[] }) {
         </div>
       ) : (
         <div className="mt-10 grid gap-3 sm:grid-cols-2">
-          {sets.map((s) => {
+          {sortedSets.map((s, i) => {
             const title = (locale === "id" && s.titleId) || s.title;
             const description =
               (locale === "id" && s.descriptionId) || s.description;
+            const lastOpened = setStateData[s.slug]?.lastOpenedAt ?? 0;
+            const learnedCount = (learned[s.slug] ?? []).length;
+            const isActive =
+              mounted && lastOpened > 0 && learnedCount < s.words.length;
             return (
               <Link
                 key={s.slug}
                 href={`/vocab/${s.slug}`}
-                className="group rounded-xl border bg-card p-5 transition hover:border-primary hover:shadow-sm"
+                className={cn(
+                  "group rounded-xl border bg-card p-5 transition hover:shadow-sm",
+                  isActive
+                    ? "border-primary/40 hover:border-primary"
+                    : "hover:border-primary",
+                )}
               >
-                <div className="text-xs font-medium text-muted-foreground">
-                  {s.words.length} {wordsLabel(s.words.length)}
+                <div className="flex items-baseline justify-between gap-2">
+                  <div className="text-xs font-medium text-muted-foreground">
+                    {s.words.length} {wordsLabel(s.words.length)}
+                  </div>
+                  {isActive && (
+                    <span className="rounded-full bg-primary/10 px-2 py-0.5 text-[10px] font-medium uppercase tracking-wider text-primary">
+                      {locale === "ru" ? "продолжить" : "lanjutkan"}
+                    </span>
+                  )}
                 </div>
                 <h2 className="mt-1 text-lg font-semibold group-hover:text-primary">
                   {title}
