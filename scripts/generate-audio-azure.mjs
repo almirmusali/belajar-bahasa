@@ -1,21 +1,20 @@
-// Прогенерирует MP3 для каждого слова и примера в data/vocab/*/index.json
-// через OpenAI TTS-1-HD и зальёт в Supabase Storage (bucket "audio").
+// Прогенерирует MP3 для каждого слова через Microsoft Azure Speech (Neural voices).
+// Использует нативные голоса для каждого языка — звучит как живой носитель.
 //
-// Требует переменные окружения в .env.local:
-//   OPENAI_API_KEY=sk-...
-//   NEXT_PUBLIC_SUPABASE_URL=https://....supabase.co
-//   SUPABASE_SERVICE_ROLE_KEY=sb_secret_...   (НЕ commit в git!)
+// Требует переменные в .env.local:
+//   AZURE_SPEECH_KEY=...
+//   AZURE_SPEECH_REGION=westeurope   (или твой регион)
+//   NEXT_PUBLIC_SUPABASE_URL=...
+//   SUPABASE_SERVICE_ROLE_KEY=...
 //
-// Запуск: node scripts/generate-audio.mjs
-//
-// Идемпотентен: если файл уже в bucket — пропускает (можно перезапускать).
+// Запуск: node scripts/generate-audio-azure.mjs
+// Идемпотентен: пропускает уже существующие в Storage файлы.
 
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { createClient } from "@supabase/supabase-js";
 
-// Читаем .env.local
 function loadEnv() {
   try {
     const env = fs.readFileSync(".env.local", "utf8");
@@ -29,12 +28,15 @@ function loadEnv() {
 }
 loadEnv();
 
-const OPENAI_KEY = process.env.OPENAI_API_KEY;
+const AZURE_KEY = process.env.AZURE_SPEECH_KEY;
+const AZURE_REGION = process.env.AZURE_SPEECH_REGION;
 const SUPABASE_URL = process.env.NEXT_PUBLIC_SUPABASE_URL;
 const SUPABASE_SERVICE_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY;
 
-if (!OPENAI_KEY) {
-  console.error("Missing OPENAI_API_KEY in .env.local");
+if (!AZURE_KEY || !AZURE_REGION) {
+  console.error(
+    "Missing AZURE_SPEECH_KEY or AZURE_SPEECH_REGION in .env.local",
+  );
   process.exit(1);
 }
 if (!SUPABASE_URL || !SUPABASE_SERVICE_KEY) {
@@ -64,15 +66,36 @@ function audioFilename(text, lang) {
   return `${lang}/${fnv1a(`${lang}:${text}`)}.mp3`;
 }
 
-// Какой голос на каком языке. У OpenAI TTS голос языко-независимый —
-// модель сама определяет язык по тексту. Выбираю "alloy" — нейтральный,
-// чисто звучит на всех трёх языках.
-const VOICE = "alloy";
-const MODEL = "tts-1-hd";
+// Карта язык → SSML locale и voice
+const VOICES = {
+  id: { locale: "id-ID", voice: "id-ID-GadisNeural" },
+  en: { locale: "en-US", voice: "en-US-AriaNeural" },
+  ru: { locale: "ru-RU", voice: "ru-RU-SvetlanaNeural" },
+};
 
-// Собираем все уникальные пары (text, lang)
+const TTS_ENDPOINT = `https://${AZURE_REGION}.tts.speech.microsoft.com/cognitiveservices/v1`;
+const OUTPUT_FORMAT = "audio-24khz-48kbitrate-mono-mp3";
+
+function escapeXml(s) {
+  return s
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&apos;");
+}
+
+function buildSSML(text, lang) {
+  const { locale, voice } = VOICES[lang];
+  return `<speak version='1.0' xmlns='http://www.w3.org/2001/10/synthesis' xml:lang='${locale}'>
+  <voice name='${voice}'>
+    <prosody rate='-5%'>${escapeXml(text)}</prosody>
+  </voice>
+</speak>`;
+}
+
 function collectAllTexts() {
-  const items = new Map(); // key = `${lang}:${text}`
+  const items = new Map();
   const folders = fs
     .readdirSync(VOCAB_DIR, { withFileTypes: true })
     .filter((d) => d.isDirectory())
@@ -86,14 +109,12 @@ function collectAllTexts() {
       if (w.id) items.set(`id:${w.id}`, { text: w.id, lang: "id" });
       if (w.en) items.set(`en:${w.en}`, { text: w.en, lang: "en" });
       if (w.ru) items.set(`ru:${w.ru}`, { text: w.ru, lang: "ru" });
-      // Примеры озвучивать не нужно — только сами слова на трёх языках.
     }
   }
   return [...items.values()];
 }
 
 async function fileExists(filename) {
-  // Probe: GET head request на public URL (быстрее чем list)
   const url = `${SUPABASE_URL}/storage/v1/object/public/audio/${filename}`;
   const res = await fetch(url, { method: "HEAD" });
   return res.ok;
@@ -106,29 +127,22 @@ async function generateOne(text, lang) {
     return { skipped: true, filename };
   }
 
-  // OpenAI TTS склонен обрезать концы коротких слов. Добавляем терминальную
-  // пунктуацию если её нет — даёт модели "разбежку" чтобы корректно закончить.
-  const lastChar = text.trim().slice(-1);
-  const input = /[.!?…]/.test(lastChar) ? text : text + ".";
+  const ssml = buildSSML(text, lang);
 
-  const res = await fetch("https://api.openai.com/v1/audio/speech", {
+  const res = await fetch(TTS_ENDPOINT, {
     method: "POST",
     headers: {
-      Authorization: `Bearer ${OPENAI_KEY}`,
-      "Content-Type": "application/json",
+      "Ocp-Apim-Subscription-Key": AZURE_KEY,
+      "Content-Type": "application/ssml+xml",
+      "X-Microsoft-OutputFormat": OUTPUT_FORMAT,
+      "User-Agent": "belajar-bahasa",
     },
-    body: JSON.stringify({
-      model: MODEL,
-      input,
-      voice: VOICE,
-      response_format: "mp3",
-      speed: 0.9,
-    }),
+    body: ssml,
   });
 
   if (!res.ok) {
     const errText = await res.text().catch(() => "");
-    throw new Error(`OpenAI ${res.status}: ${errText.slice(0, 200)}`);
+    throw new Error(`Azure ${res.status}: ${errText.slice(0, 200)}`);
   }
 
   const audio = await res.arrayBuffer();
@@ -151,6 +165,7 @@ async function main() {
   console.log(
     `Found ${items.length} unique (text, lang) pairs · ${CONCURRENCY} parallel workers`,
   );
+  console.log(`Voices: ID=${VOICES.id.voice}, EN=${VOICES.en.voice}, RU=${VOICES.ru.voice}`);
 
   let done = 0;
   let skipped = 0;
