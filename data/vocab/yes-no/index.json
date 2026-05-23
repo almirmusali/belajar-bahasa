@@ -7,57 +7,211 @@
     {
       "id": "ya",
       "ru": "да",
-      "en": "yes"
+      "en": "yes",
+      "examples": [
+        {
+          "id": "Ya, saya mengerti.",
+          "ru": "Да, я понимаю."
+        },
+        {
+          "id": "Ya, betul.",
+          "ru": "Да, верно."
+        },
+        {
+          "id": "Ya atau tidak?",
+          "ru": "Да или нет?"
+        }
+      ]
     },
     {
       "id": "iya",
       "ru": "да (разг.)",
-      "en": "yes (informal)"
+      "en": "yes (informal)",
+      "examples": [
+        {
+          "id": "Iya, dong!",
+          "ru": "Да, конечно!"
+        },
+        {
+          "id": "Iya, saya tahu.",
+          "ru": "Да, я знаю."
+        },
+        {
+          "id": "Iya juga, ya.",
+          "ru": "Да, точно."
+        }
+      ]
     },
     {
       "id": "betul",
       "ru": "верно",
-      "en": "correct"
+      "en": "correct",
+      "examples": [
+        {
+          "id": "Betul sekali!",
+          "ru": "Совершенно верно!"
+        },
+        {
+          "id": "Itu betul.",
+          "ru": "Это правильно."
+        },
+        {
+          "id": "Apa betul?",
+          "ru": "Правда?"
+        }
+      ]
     },
     {
       "id": "benar",
       "ru": "правильно",
-      "en": "right"
+      "en": "right",
+      "examples": [
+        {
+          "id": "Jawabanmu benar.",
+          "ru": "Твой ответ правильный."
+        },
+        {
+          "id": "Itu benar.",
+          "ru": "Это правда."
+        },
+        {
+          "id": "Apa benar dia datang?",
+          "ru": "Правда что он придёт?"
+        }
+      ]
     },
     {
       "id": "salah",
       "ru": "неправильно",
-      "en": "wrong"
+      "en": "wrong",
+      "examples": [
+        {
+          "id": "Jawaban itu salah.",
+          "ru": "Тот ответ неправильный."
+        },
+        {
+          "id": "Saya salah, maaf.",
+          "ru": "Я ошибся, извини."
+        },
+        {
+          "id": "Itu nomor salah.",
+          "ru": "Это не тот номер."
+        }
+      ]
     },
     {
       "id": "tentu",
       "ru": "конечно",
-      "en": "certainly"
+      "en": "certainly",
+      "examples": [
+        {
+          "id": "Tentu saya datang.",
+          "ru": "Конечно я приду."
+        },
+        {
+          "id": "Tentu boleh.",
+          "ru": "Конечно можно."
+        },
+        {
+          "id": "Tentu, kenapa tidak?",
+          "ru": "Конечно, почему нет?"
+        }
+      ]
     },
     {
       "id": "tentu saja",
       "ru": "конечно же",
-      "en": "of course"
+      "en": "of course",
+      "examples": [
+        {
+          "id": "Tentu saja saya mau!",
+          "ru": "Конечно я хочу!"
+        },
+        {
+          "id": "Tentu saja boleh.",
+          "ru": "Конечно можно."
+        },
+        {
+          "id": "Tentu saja dia tahu.",
+          "ru": "Конечно он знает."
+        }
+      ]
     },
     {
       "id": "pasti",
       "ru": "точно",
-      "en": "surely"
+      "en": "surely",
+      "examples": [
+        {
+          "id": "Saya pasti datang besok.",
+          "ru": "Я точно приду завтра."
+        },
+        {
+          "id": "Pasti enak.",
+          "ru": "Точно вкусно."
+        },
+        {
+          "id": "Itu pasti dia.",
+          "ru": "Это точно он."
+        }
+      ]
     },
     {
       "id": "mungkin",
       "ru": "возможно",
-      "en": "maybe"
+      "en": "maybe",
+      "examples": [
+        {
+          "id": "Mungkin besok.",
+          "ru": "Может завтра."
+        },
+        {
+          "id": "Mungkin dia lupa.",
+          "ru": "Может он забыл."
+        },
+        {
+          "id": "Mungkin tidak.",
+          "ru": "Возможно нет."
+        }
+      ]
     },
     {
       "id": "barangkali",
       "ru": "может быть",
-      "en": "perhaps"
+      "en": "perhaps",
+      "examples": [
+        {
+          "id": "Barangkali besok hujan.",
+          "ru": "Может быть завтра дождь."
+        },
+        {
+          "id": "Barangkali dia tidur.",
+          "ru": "Может быть он спит."
+        },
+        {
+          "id": "Barangkali sudah pulang.",
+          "ru": "Возможно уже ушёл домой."
+        }
+      ]
     },
     {
       "id": "mustahil",
       "ru": "невозможно",
-      "en": "impossible"
+      "en": "impossible",
+      "examples": [
+        {
+          "id": "Mustahil dia tahu.",
+          "ru": "Невозможно чтобы он знал."
+        },
+        {
+          "id": "Itu mustahil.",
+          "ru": "Это невозможно."
+        },
+        {
+          "id": "Tidak ada yang mustahil.",
+          "ru": "Нет ничего невозможного."
+        }
+      ]
     }
   ]
 }

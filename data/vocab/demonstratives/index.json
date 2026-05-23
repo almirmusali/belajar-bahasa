@@ -7,47 +7,173 @@
     {
       "id": "ini",
       "ru": "это",
-      "en": "this"
+      "en": "this",
+      "examples": [
+        {
+          "id": "Ini buku saya.",
+          "ru": "Это моя книга."
+        },
+        {
+          "id": "Apa ini?",
+          "ru": "Что это?"
+        },
+        {
+          "id": "Ini sangat enak.",
+          "ru": "Это очень вкусно."
+        }
+      ]
     },
     {
       "id": "itu",
       "ru": "то",
-      "en": "that"
+      "en": "that",
+      "examples": [
+        {
+          "id": "Itu rumah Andi.",
+          "ru": "Это дом Анди."
+        },
+        {
+          "id": "Apa itu?",
+          "ru": "Что это (там)?"
+        },
+        {
+          "id": "Itu tidak benar.",
+          "ru": "Это неправда."
+        }
+      ]
     },
     {
       "id": "sini",
       "ru": "здесь",
-      "en": "here"
+      "en": "here",
+      "examples": [
+        {
+          "id": "Datang ke sini!",
+          "ru": "Иди сюда!"
+        },
+        {
+          "id": "Kamu di sini?",
+          "ru": "Ты здесь?"
+        },
+        {
+          "id": "Sini saja, nyaman.",
+          "ru": "Лучше тут, уютно."
+        }
+      ]
     },
     {
       "id": "sana",
       "ru": "там",
-      "en": "there"
+      "en": "there",
+      "examples": [
+        {
+          "id": "Pergi ke sana dulu.",
+          "ru": "Сначала иди туда."
+        },
+        {
+          "id": "Mereka di sana.",
+          "ru": "Они там."
+        },
+        {
+          "id": "Lihat ke sana!",
+          "ru": "Смотри туда!"
+        }
+      ]
     },
     {
       "id": "situ",
       "ru": "там / у тебя",
-      "en": "there (near you)"
+      "en": "there (near you)",
+      "examples": [
+        {
+          "id": "Tunggu di situ.",
+          "ru": "Подожди там."
+        },
+        {
+          "id": "Apa kabar di situ?",
+          "ru": "Как дела у вас там?"
+        },
+        {
+          "id": "Sudah di situ?",
+          "ru": "Уже там?"
+        }
+      ]
     },
     {
       "id": "begini",
       "ru": "вот так",
-      "en": "like this"
+      "en": "like this",
+      "examples": [
+        {
+          "id": "Caranya begini.",
+          "ru": "Делается вот так."
+        },
+        {
+          "id": "Jangan begini terus.",
+          "ru": "Не делай так больше."
+        },
+        {
+          "id": "Begini lebih baik.",
+          "ru": "Так лучше."
+        }
+      ]
     },
     {
       "id": "begitu",
       "ru": "так",
-      "en": "like that"
+      "en": "like that",
+      "examples": [
+        {
+          "id": "Mengapa begitu?",
+          "ru": "Почему так?"
+        },
+        {
+          "id": "Jangan begitu.",
+          "ru": "Не надо так."
+        },
+        {
+          "id": "Begitu juga saya.",
+          "ru": "Я тоже так."
+        }
+      ]
     },
     {
       "id": "seperti ini",
       "ru": "как это",
-      "en": "like this"
+      "en": "like this",
+      "examples": [
+        {
+          "id": "Buatlah seperti ini.",
+          "ru": "Сделай как это."
+        },
+        {
+          "id": "Mau seperti ini?",
+          "ru": "Хочешь такой?"
+        },
+        {
+          "id": "Sama seperti ini.",
+          "ru": "Точно как это."
+        }
+      ]
     },
     {
       "id": "seperti itu",
       "ru": "как то",
-      "en": "like that"
+      "en": "like that",
+      "examples": [
+        {
+          "id": "Jangan seperti itu.",
+          "ru": "Не надо так."
+        },
+        {
+          "id": "Sama seperti itu.",
+          "ru": "Точно как то."
+        },
+        {
+          "id": "Tidak seperti itu.",
+          "ru": "Не так."
+        }
+      ]
     }
   ]
 }

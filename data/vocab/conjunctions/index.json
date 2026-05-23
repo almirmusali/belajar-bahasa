@@ -7,152 +7,572 @@
     {
       "id": "dan",
       "ru": "и",
-      "en": "and"
+      "en": "and",
+      "examples": [
+        {
+          "id": "Saya dan kamu.",
+          "ru": "Я и ты."
+        },
+        {
+          "id": "Hujan dan dingin.",
+          "ru": "Дождь и холодно."
+        },
+        {
+          "id": "Makan dan minum.",
+          "ru": "Есть и пить."
+        }
+      ]
     },
     {
       "id": "atau",
       "ru": "или",
-      "en": "or"
+      "en": "or",
+      "examples": [
+        {
+          "id": "Teh atau kopi?",
+          "ru": "Чай или кофе?"
+        },
+        {
+          "id": "Kiri atau kanan?",
+          "ru": "Налево или направо?"
+        },
+        {
+          "id": "Pergi atau tinggal?",
+          "ru": "Уйти или остаться?"
+        }
+      ]
     },
     {
       "id": "tapi",
       "ru": "но",
-      "en": "but"
+      "en": "but",
+      "examples": [
+        {
+          "id": "Suka tapi tidak beli.",
+          "ru": "Нравится, но не куплю."
+        },
+        {
+          "id": "Mau tapi sibuk.",
+          "ru": "Хочу, но занят."
+        },
+        {
+          "id": "Lapar tapi tidak ada makanan.",
+          "ru": "Голоден, но еды нет."
+        }
+      ]
     },
     {
       "id": "tetapi",
       "ru": "но (формально)",
-      "en": "but (formal)"
+      "en": "but (formal)",
+      "examples": [
+        {
+          "id": "Saya senang tetapi lelah.",
+          "ru": "Я рад, но устал."
+        },
+        {
+          "id": "Indah tetapi mahal.",
+          "ru": "Красиво, но дорого."
+        },
+        {
+          "id": "Mau tetapi tidak bisa.",
+          "ru": "Хочу, но не могу."
+        }
+      ]
     },
     {
       "id": "namun",
       "ru": "однако",
-      "en": "however"
+      "en": "however",
+      "examples": [
+        {
+          "id": "Hujan, namun saya pergi.",
+          "ru": "Дождь, однако я пошёл."
+        },
+        {
+          "id": "Susah, namun bisa.",
+          "ru": "Сложно, но возможно."
+        },
+        {
+          "id": "Namun saya mengerti.",
+          "ru": "Тем не менее я понимаю."
+        }
+      ]
     },
     {
       "id": "karena",
       "ru": "потому что",
-      "en": "because"
+      "en": "because",
+      "examples": [
+        {
+          "id": "Sedih karena hujan.",
+          "ru": "Грустно из-за дождя."
+        },
+        {
+          "id": "Terlambat karena macet.",
+          "ru": "Опоздал из-за пробок."
+        },
+        {
+          "id": "Karena itu saya datang.",
+          "ru": "Поэтому я пришёл."
+        }
+      ]
     },
     {
       "id": "sebab",
       "ru": "по причине",
-      "en": "because"
+      "en": "because",
+      "examples": [
+        {
+          "id": "Sebab apa?",
+          "ru": "По какой причине?"
+        },
+        {
+          "id": "Apa sebabnya?",
+          "ru": "В чём причина?"
+        },
+        {
+          "id": "Bukan sebab itu.",
+          "ru": "Не по этой причине."
+        }
+      ]
     },
     {
       "id": "supaya",
       "ru": "чтобы",
-      "en": "so that"
+      "en": "so that",
+      "examples": [
+        {
+          "id": "Belajar supaya pintar.",
+          "ru": "Учиться, чтобы стать умным."
+        },
+        {
+          "id": "Tidur supaya sehat.",
+          "ru": "Спать, чтобы быть здоровым."
+        },
+        {
+          "id": "Supaya tidak terlambat.",
+          "ru": "Чтобы не опоздать."
+        }
+      ]
     },
     {
       "id": "agar",
       "ru": "чтобы",
-      "en": "so that"
+      "en": "so that",
+      "examples": [
+        {
+          "id": "Berdoa agar selamat.",
+          "ru": "Молиться, чтобы быть в безопасности."
+        },
+        {
+          "id": "Agar lebih baik.",
+          "ru": "Чтобы было лучше."
+        },
+        {
+          "id": "Agar tidak lupa.",
+          "ru": "Чтобы не забыть."
+        }
+      ]
     },
     {
       "id": "kalau",
       "ru": "если / когда",
-      "en": "if / when"
+      "en": "if / when",
+      "examples": [
+        {
+          "id": "Kalau hujan, jangan pergi.",
+          "ru": "Если дождь, не ходи."
+        },
+        {
+          "id": "Kalau lapar, makan.",
+          "ru": "Если голоден, ешь."
+        },
+        {
+          "id": "Kalau begitu, ya sudah.",
+          "ru": "Если так, ладно."
+        }
+      ]
     },
     {
       "id": "jika",
       "ru": "если",
-      "en": "if"
+      "en": "if",
+      "examples": [
+        {
+          "id": "Jika kamu datang, telepon.",
+          "ru": "Если придёшь, позвони."
+        },
+        {
+          "id": "Jika perlu, tanya.",
+          "ru": "Если нужно, спроси."
+        },
+        {
+          "id": "Jika ada masalah, hubungi saya.",
+          "ru": "Если будут проблемы, свяжись со мной."
+        }
+      ]
     },
     {
       "id": "walaupun",
       "ru": "хотя",
-      "en": "although"
+      "en": "although",
+      "examples": [
+        {
+          "id": "Walaupun hujan, saya pergi.",
+          "ru": "Хотя дождь, я пошёл."
+        },
+        {
+          "id": "Walaupun susah, bisa.",
+          "ru": "Хоть и сложно, возможно."
+        },
+        {
+          "id": "Walaupun jauh, datang.",
+          "ru": "Хоть и далеко, пришёл."
+        }
+      ]
     },
     {
       "id": "meskipun",
       "ru": "хотя",
-      "en": "although"
+      "en": "although",
+      "examples": [
+        {
+          "id": "Meskipun lelah, lanjut.",
+          "ru": "Хоть и устал, продолжу."
+        },
+        {
+          "id": "Meskipun mahal, beli.",
+          "ru": "Хоть и дорого, куплю."
+        },
+        {
+          "id": "Meskipun tidak suka, makan.",
+          "ru": "Хоть и не нравится, поел."
+        }
+      ]
     },
     {
       "id": "sebelum",
       "ru": "перед",
-      "en": "before"
+      "en": "before",
+      "examples": [
+        {
+          "id": "Sebelum makan, cuci tangan.",
+          "ru": "Перед едой помой руки."
+        },
+        {
+          "id": "Sebelum tidur, baca buku.",
+          "ru": "Перед сном читай книгу."
+        },
+        {
+          "id": "Sebelum kamu pergi.",
+          "ru": "Перед тем как ты уйдёшь."
+        }
+      ]
     },
     {
       "id": "sesudah",
       "ru": "после",
-      "en": "after"
+      "en": "after",
+      "examples": [
+        {
+          "id": "Sesudah makan, istirahat.",
+          "ru": "После еды отдохни."
+        },
+        {
+          "id": "Sesudah hujan, ada pelangi.",
+          "ru": "После дождя радуга."
+        },
+        {
+          "id": "Sesudah pulang kerja.",
+          "ru": "После возвращения с работы."
+        }
+      ]
     },
     {
       "id": "setelah",
       "ru": "после",
-      "en": "after"
+      "en": "after",
+      "examples": [
+        {
+          "id": "Setelah rapat, pulang.",
+          "ru": "После встречи я пошёл домой."
+        },
+        {
+          "id": "Setelah lima menit.",
+          "ru": "Через пять минут."
+        },
+        {
+          "id": "Setelah itu kami makan.",
+          "ru": "После этого мы поели."
+        }
+      ]
     },
     {
       "id": "ketika",
       "ru": "когда",
-      "en": "when"
+      "en": "when",
+      "examples": [
+        {
+          "id": "Ketika saya kecil.",
+          "ru": "Когда я был маленьким."
+        },
+        {
+          "id": "Ketika hujan datang.",
+          "ru": "Когда пошёл дождь."
+        },
+        {
+          "id": "Ketika dia tertawa.",
+          "ru": "Когда он смеялся."
+        }
+      ]
     },
     {
       "id": "saat",
       "ru": "в момент когда",
-      "en": "at the moment"
+      "en": "at the moment",
+      "examples": [
+        {
+          "id": "Saat ini.",
+          "ru": "В данный момент."
+        },
+        {
+          "id": "Saat itu juga saya tahu.",
+          "ru": "В тот момент я понял."
+        },
+        {
+          "id": "Saat saya datang, dia tidur.",
+          "ru": "Когда я пришёл, он спал."
+        }
+      ]
     },
     {
       "id": "sambil",
       "ru": "в то время как",
-      "en": "while"
+      "en": "while",
+      "examples": [
+        {
+          "id": "Makan sambil menonton TV.",
+          "ru": "Есть, смотря телевизор."
+        },
+        {
+          "id": "Bicara sambil tertawa.",
+          "ru": "Говорить, смеясь."
+        },
+        {
+          "id": "Berjalan sambil bernyanyi.",
+          "ru": "Идти, напевая."
+        }
+      ]
     },
     {
       "id": "sementara",
       "ru": "пока",
-      "en": "while"
+      "en": "while",
+      "examples": [
+        {
+          "id": "Sementara menunggu, baca buku.",
+          "ru": "Пока ждёшь, почитай книгу."
+        },
+        {
+          "id": "Sementara itu, dia tidur.",
+          "ru": "Тем временем он спал."
+        },
+        {
+          "id": "Sementara saya pergi.",
+          "ru": "Пока меня нет."
+        }
+      ]
     },
     {
       "id": "selama",
       "ru": "в течение",
-      "en": "during"
+      "en": "during",
+      "examples": [
+        {
+          "id": "Selama dua jam saya menunggu.",
+          "ru": "Я ждал два часа."
+        },
+        {
+          "id": "Selama hidup.",
+          "ru": "Всю жизнь."
+        },
+        {
+          "id": "Selama ini saya salah.",
+          "ru": "Всё это время я ошибался."
+        }
+      ]
     },
     {
       "id": "lalu",
       "ru": "затем",
-      "en": "then"
+      "en": "then",
+      "examples": [
+        {
+          "id": "Saya makan, lalu tidur.",
+          "ru": "Я поел, потом лёг спать."
+        },
+        {
+          "id": "Pergi ke kantor, lalu pulang.",
+          "ru": "Идти в офис, потом домой."
+        },
+        {
+          "id": "Beli kopi, lalu duduk.",
+          "ru": "Купи кофе и сядь."
+        }
+      ]
     },
     {
       "id": "kemudian",
       "ru": "потом",
-      "en": "then"
+      "en": "then",
+      "examples": [
+        {
+          "id": "Kemudian dia pergi.",
+          "ru": "Потом он ушёл."
+        },
+        {
+          "id": "Beberapa menit kemudian.",
+          "ru": "Несколько минут спустя."
+        },
+        {
+          "id": "Kemudian datang Andi.",
+          "ru": "Затем пришёл Анди."
+        }
+      ]
     },
     {
       "id": "jadi",
       "ru": "так что / стать",
-      "en": "so / become"
+      "en": "so / become",
+      "examples": [
+        {
+          "id": "Jadi, mau ke mana?",
+          "ru": "Ну так куда идём?"
+        },
+        {
+          "id": "Saya mau jadi guru.",
+          "ru": "Я хочу стать учителем."
+        },
+        {
+          "id": "Saya lelah, jadi pulang.",
+          "ru": "Я устал, поэтому пошёл домой."
+        }
+      ]
     },
     {
       "id": "juga",
       "ru": "тоже",
-      "en": "also"
+      "en": "also",
+      "examples": [
+        {
+          "id": "Saya juga lelah.",
+          "ru": "Я тоже устал."
+        },
+        {
+          "id": "Dia juga datang.",
+          "ru": "Он тоже пришёл."
+        },
+        {
+          "id": "Mau juga ya?",
+          "ru": "Тоже хочешь?"
+        }
+      ]
     },
     {
       "id": "saja",
       "ru": "только",
-      "en": "only / just"
+      "en": "only / just",
+      "examples": [
+        {
+          "id": "Saya saja yang pergi.",
+          "ru": "Только я пойду."
+        },
+        {
+          "id": "Lihat saja!",
+          "ru": "Просто посмотри!"
+        },
+        {
+          "id": "Begitu saja.",
+          "ru": "Вот так."
+        }
+      ]
     },
     {
       "id": "pun",
       "ru": "даже",
-      "en": "even"
+      "en": "even",
+      "examples": [
+        {
+          "id": "Saya pun mau ikut.",
+          "ru": "Я тоже хочу пойти."
+        },
+        {
+          "id": "Tidak satu pun datang.",
+          "ru": "Никто не пришёл."
+        },
+        {
+          "id": "Apa pun jadi.",
+          "ru": "Что угодно подойдёт."
+        }
+      ]
     },
     {
       "id": "bahkan",
       "ru": "более того",
-      "en": "moreover"
+      "en": "moreover",
+      "examples": [
+        {
+          "id": "Bahkan anak kecil tahu.",
+          "ru": "Даже маленький ребёнок знает."
+        },
+        {
+          "id": "Bahkan saya terkejut.",
+          "ru": "Даже я удивился."
+        },
+        {
+          "id": "Bahkan lebih baik.",
+          "ru": "Даже лучше."
+        }
+      ]
     },
     {
       "id": "misalnya",
       "ru": "например",
-      "en": "for example"
+      "en": "for example",
+      "examples": [
+        {
+          "id": "Misalnya buku ini.",
+          "ru": "Например, эта книга."
+        },
+        {
+          "id": "Misalnya kamu datang besok.",
+          "ru": "Например, если ты придёшь завтра."
+        },
+        {
+          "id": "Sayur, misalnya bayam.",
+          "ru": "Овощи, например шпинат."
+        }
+      ]
     },
     {
       "id": "sebagai",
       "ru": "как (в качестве)",
-      "en": "as"
+      "en": "as",
+      "examples": [
+        {
+          "id": "Sebagai guru saya bangga.",
+          "ru": "Как учитель, я горжусь."
+        },
+        {
+          "id": "Sebagai teman, saya datang.",
+          "ru": "Как друг, я пришёл."
+        },
+        {
+          "id": "Sebagai contoh.",
+          "ru": "В качестве примера."
+        }
+      ]
     }
   ]
 }

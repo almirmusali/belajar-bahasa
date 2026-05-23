@@ -7,72 +7,268 @@
     {
       "id": "saya",
       "ru": "я",
-      "en": "I"
+      "en": "I",
+      "examples": [
+        {
+          "id": "Saya orang Rusia.",
+          "ru": "Я русский."
+        },
+        {
+          "id": "Saya senang hari ini.",
+          "ru": "Я сегодня рад."
+        },
+        {
+          "id": "Saya tidak tahu jawabannya.",
+          "ru": "Я не знаю ответа."
+        }
+      ]
     },
     {
       "id": "aku",
       "ru": "я (близко)",
-      "en": "I (informal)"
+      "en": "I (informal)",
+      "examples": [
+        {
+          "id": "Aku cinta kamu.",
+          "ru": "Я тебя люблю."
+        },
+        {
+          "id": "Aku lapar.",
+          "ru": "Я голоден."
+        },
+        {
+          "id": "Aku mau pulang.",
+          "ru": "Я хочу домой."
+        }
+      ]
     },
     {
       "id": "kamu",
       "ru": "ты",
-      "en": "you"
+      "en": "you",
+      "examples": [
+        {
+          "id": "Kamu di mana?",
+          "ru": "Ты где?"
+        },
+        {
+          "id": "Kamu mau apa?",
+          "ru": "Что ты хочешь?"
+        },
+        {
+          "id": "Apa kamu sudah makan?",
+          "ru": "Ты уже поел?"
+        }
+      ]
     },
     {
       "id": "kau",
       "ru": "ты (поэт.)",
-      "en": "you (poetic)"
+      "en": "you (poetic)",
+      "examples": [
+        {
+          "id": "Kau di mana sekarang?",
+          "ru": "Где ты сейчас?"
+        },
+        {
+          "id": "Aku kira kau sudah pergi.",
+          "ru": "Я думал, ты уже ушёл."
+        },
+        {
+          "id": "Hanya kau yang aku mau.",
+          "ru": "Только ты мне нужен."
+        }
+      ]
     },
     {
       "id": "Anda",
       "ru": "Вы",
-      "en": "you (formal)"
+      "en": "you (formal)",
+      "examples": [
+        {
+          "id": "Apa kabar Anda?",
+          "ru": "Как Ваши дела?"
+        },
+        {
+          "id": "Silakan, Anda duluan.",
+          "ru": "Пожалуйста, Вы первый."
+        },
+        {
+          "id": "Anda dari mana?",
+          "ru": "Вы откуда?"
+        }
+      ]
     },
     {
       "id": "dia",
       "ru": "он / она",
-      "en": "he / she"
+      "en": "he / she",
+      "examples": [
+        {
+          "id": "Dia teman saya.",
+          "ru": "Он/она — мой друг."
+        },
+        {
+          "id": "Dia tidak datang hari ini.",
+          "ru": "Он/она сегодня не пришёл."
+        },
+        {
+          "id": "Apa dia tahu?",
+          "ru": "Он/она знает?"
+        }
+      ]
     },
     {
       "id": "ia",
       "ru": "он / она (формально)",
-      "en": "he / she (formal)"
+      "en": "he / she (formal)",
+      "examples": [
+        {
+          "id": "Ia pergi kemarin sore.",
+          "ru": "Он/она ушёл вчера вечером."
+        },
+        {
+          "id": "Ia sedang membaca buku.",
+          "ru": "Он/она читает книгу."
+        },
+        {
+          "id": "Ia tidak setuju dengan saya.",
+          "ru": "Он/она со мной не согласен."
+        }
+      ]
     },
     {
       "id": "beliau",
       "ru": "он/она (очень уважительно)",
-      "en": "he / she (very respectful)"
+      "en": "he / she (very respectful)",
+      "examples": [
+        {
+          "id": "Beliau adalah guru saya.",
+          "ru": "Он/она — мой учитель."
+        },
+        {
+          "id": "Beliau orang yang baik.",
+          "ru": "Он/она — хороший человек."
+        },
+        {
+          "id": "Beliau presiden kami.",
+          "ru": "Он — наш президент."
+        }
+      ]
     },
     {
       "id": "kita",
       "ru": "мы (вкл. собеседника)",
-      "en": "we (inclusive)"
+      "en": "we (inclusive)",
+      "examples": [
+        {
+          "id": "Kita pergi sekarang!",
+          "ru": "Мы идём сейчас!"
+        },
+        {
+          "id": "Kita semua teman.",
+          "ru": "Мы все друзья."
+        },
+        {
+          "id": "Kita harus belajar lebih giat.",
+          "ru": "Нам надо учиться усерднее."
+        }
+      ]
     },
     {
       "id": "kami",
       "ru": "мы (без собеседника)",
-      "en": "we (exclusive)"
+      "en": "we (exclusive)",
+      "examples": [
+        {
+          "id": "Kami dari Rusia.",
+          "ru": "Мы из России."
+        },
+        {
+          "id": "Kami senang bertemu Anda.",
+          "ru": "Мы рады с Вами познакомиться."
+        },
+        {
+          "id": "Kami tinggal di Jakarta.",
+          "ru": "Мы живём в Джакарте."
+        }
+      ]
     },
     {
       "id": "kalian",
       "ru": "вы (мн.)",
-      "en": "you (plural)"
+      "en": "you (plural)",
+      "examples": [
+        {
+          "id": "Kalian mau ke mana?",
+          "ru": "Вы куда?"
+        },
+        {
+          "id": "Kalian semua sudah datang!",
+          "ru": "Вы все уже пришли!"
+        },
+        {
+          "id": "Kalian sudah makan?",
+          "ru": "Вы поели?"
+        }
+      ]
     },
     {
       "id": "mereka",
       "ru": "они",
-      "en": "they"
+      "en": "they",
+      "examples": [
+        {
+          "id": "Mereka teman saya.",
+          "ru": "Они мои друзья."
+        },
+        {
+          "id": "Mereka tidak di rumah.",
+          "ru": "Их нет дома."
+        },
+        {
+          "id": "Apa mereka tahu?",
+          "ru": "Они знают?"
+        }
+      ]
     },
     {
       "id": "diri",
       "ru": "сам / себя",
-      "en": "self"
+      "en": "self",
+      "examples": [
+        {
+          "id": "Jaga diri baik-baik!",
+          "ru": "Береги себя!"
+        },
+        {
+          "id": "Saya bicara dengan diri sendiri.",
+          "ru": "Я говорю сам с собой."
+        },
+        {
+          "id": "Lihat diri di cermin.",
+          "ru": "Посмотри на себя в зеркало."
+        }
+      ]
     },
     {
       "id": "diri sendiri",
       "ru": "сам себя",
-      "en": "oneself"
+      "en": "oneself",
+      "examples": [
+        {
+          "id": "Saya percaya diri sendiri.",
+          "ru": "Я верю в себя."
+        },
+        {
+          "id": "Cintai diri sendiri dulu.",
+          "ru": "Сначала полюби себя."
+        },
+        {
+          "id": "Dia bicara dengan diri sendiri.",
+          "ru": "Он разговаривает сам с собой."
+        }
+      ]
     }
   ]
 }

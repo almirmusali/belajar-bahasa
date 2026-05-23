@@ -7,67 +7,249 @@
     {
       "id": "apa",
       "ru": "что",
-      "en": "what"
+      "en": "what",
+      "examples": [
+        {
+          "id": "Apa itu?",
+          "ru": "Что это?"
+        },
+        {
+          "id": "Apa kamu mengerti?",
+          "ru": "Ты понимаешь?"
+        },
+        {
+          "id": "Apa kabar hari ini?",
+          "ru": "Как дела сегодня?"
+        }
+      ]
     },
     {
       "id": "siapa",
       "ru": "кто",
-      "en": "who"
+      "en": "who",
+      "examples": [
+        {
+          "id": "Siapa namamu?",
+          "ru": "Как тебя зовут?"
+        },
+        {
+          "id": "Siapa dia?",
+          "ru": "Кто он/она?"
+        },
+        {
+          "id": "Siapa yang datang?",
+          "ru": "Кто пришёл?"
+        }
+      ]
     },
     {
       "id": "mana",
       "ru": "где / какой",
-      "en": "where / which"
+      "en": "where / which",
+      "examples": [
+        {
+          "id": "Mana bukumu?",
+          "ru": "Где твоя книга?"
+        },
+        {
+          "id": "Yang mana kamu suka?",
+          "ru": "Какой тебе нравится?"
+        },
+        {
+          "id": "Mana yang lebih baik?",
+          "ru": "Какой лучше?"
+        }
+      ]
     },
     {
       "id": "di mana",
       "ru": "где",
-      "en": "where"
+      "en": "where",
+      "examples": [
+        {
+          "id": "Di mana toilet?",
+          "ru": "Где туалет?"
+        },
+        {
+          "id": "Kamu tinggal di mana?",
+          "ru": "Где ты живёшь?"
+        },
+        {
+          "id": "Di mana kunci saya?",
+          "ru": "Где мой ключ?"
+        }
+      ]
     },
     {
       "id": "ke mana",
       "ru": "куда",
-      "en": "where to"
+      "en": "where to",
+      "examples": [
+        {
+          "id": "Mau ke mana?",
+          "ru": "Куда собираешься?"
+        },
+        {
+          "id": "Bus ini ke mana?",
+          "ru": "Куда идёт этот автобус?"
+        },
+        {
+          "id": "Anak-anak pergi ke mana?",
+          "ru": "Куда ушли дети?"
+        }
+      ]
     },
     {
       "id": "dari mana",
       "ru": "откуда",
-      "en": "where from"
+      "en": "where from",
+      "examples": [
+        {
+          "id": "Kamu dari mana?",
+          "ru": "Откуда ты?"
+        },
+        {
+          "id": "Dari mana asal kamu?",
+          "ru": "Откуда ты родом?"
+        },
+        {
+          "id": "Dari mana mereka datang?",
+          "ru": "Откуда они пришли?"
+        }
+      ]
     },
     {
       "id": "kapan",
       "ru": "когда",
-      "en": "when"
+      "en": "when",
+      "examples": [
+        {
+          "id": "Kapan kamu pulang?",
+          "ru": "Когда ты вернёшься?"
+        },
+        {
+          "id": "Kapan rapat dimulai?",
+          "ru": "Когда начинается встреча?"
+        },
+        {
+          "id": "Kapan saja boleh.",
+          "ru": "Когда угодно."
+        }
+      ]
     },
     {
       "id": "mengapa",
       "ru": "почему",
-      "en": "why"
+      "en": "why",
+      "examples": [
+        {
+          "id": "Mengapa kamu sedih?",
+          "ru": "Почему ты грустишь?"
+        },
+        {
+          "id": "Mengapa dia terlambat?",
+          "ru": "Почему он опоздал?"
+        },
+        {
+          "id": "Mengapa harus saya?",
+          "ru": "Почему именно я?"
+        }
+      ]
     },
     {
       "id": "kenapa",
       "ru": "почему (разг.)",
-      "en": "why (informal)"
+      "en": "why (informal)",
+      "examples": [
+        {
+          "id": "Kenapa kamu nangis?",
+          "ru": "Почему ты плачешь?"
+        },
+        {
+          "id": "Kenapa kamu di sini?",
+          "ru": "Почему ты здесь?"
+        },
+        {
+          "id": "Kenapa tidak datang?",
+          "ru": "Почему не пришёл?"
+        }
+      ]
     },
     {
       "id": "bagaimana",
       "ru": "как",
-      "en": "how"
+      "en": "how",
+      "examples": [
+        {
+          "id": "Bagaimana caranya?",
+          "ru": "Как это сделать?"
+        },
+        {
+          "id": "Bagaimana hari Anda?",
+          "ru": "Как Ваш день?"
+        },
+        {
+          "id": "Bagaimana kalau makan dulu?",
+          "ru": "Как насчёт сначала поесть?"
+        }
+      ]
     },
     {
       "id": "berapa",
       "ru": "сколько",
-      "en": "how many / how much"
+      "en": "how many / how much",
+      "examples": [
+        {
+          "id": "Berapa harga ini?",
+          "ru": "Сколько это стоит?"
+        },
+        {
+          "id": "Berapa umurmu?",
+          "ru": "Сколько тебе лет?"
+        },
+        {
+          "id": "Berapa lama lagi?",
+          "ru": "Сколько ещё?"
+        }
+      ]
     },
     {
       "id": "yang mana",
       "ru": "который",
-      "en": "which one"
+      "en": "which one",
+      "examples": [
+        {
+          "id": "Yang mana kamu suka?",
+          "ru": "Какой тебе нравится?"
+        },
+        {
+          "id": "Yang mana milikmu?",
+          "ru": "Какой твой?"
+        },
+        {
+          "id": "Yang mana yang benar?",
+          "ru": "Какой правильный?"
+        }
+      ]
     },
     {
       "id": "apakah",
       "ru": "ли (вопрос. частица)",
-      "en": "is (question particle)"
+      "en": "is (question particle)",
+      "examples": [
+        {
+          "id": "Apakah kamu mengerti?",
+          "ru": "Понимаешь ли ты?"
+        },
+        {
+          "id": "Apakah ini benar?",
+          "ru": "Это правда?"
+        },
+        {
+          "id": "Apakah dia akan datang?",
+          "ru": "Придёт ли он?"
+        }
+      ]
     }
   ]
 }

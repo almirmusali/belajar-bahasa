@@ -7,142 +7,534 @@
     {
       "id": "di",
       "ru": "в, на (место)",
-      "en": "in / at"
+      "en": "in / at",
+      "examples": [
+        {
+          "id": "Saya di rumah.",
+          "ru": "Я дома."
+        },
+        {
+          "id": "Di mana kunci?",
+          "ru": "Где ключ?"
+        },
+        {
+          "id": "Di sini ramai.",
+          "ru": "Здесь людно."
+        }
+      ]
     },
     {
       "id": "ke",
       "ru": "в (направление)",
-      "en": "to"
+      "en": "to",
+      "examples": [
+        {
+          "id": "Saya pergi ke pasar.",
+          "ru": "Я иду на рынок."
+        },
+        {
+          "id": "Ke mana kamu?",
+          "ru": "Ты куда?"
+        },
+        {
+          "id": "Ayo ke pantai!",
+          "ru": "Пошли на пляж!"
+        }
+      ]
     },
     {
       "id": "dari",
       "ru": "из, от",
-      "en": "from"
+      "en": "from",
+      "examples": [
+        {
+          "id": "Saya dari Rusia.",
+          "ru": "Я из России."
+        },
+        {
+          "id": "Dari mana asalnya?",
+          "ru": "Откуда он родом?"
+        },
+        {
+          "id": "Hadiah dari ibu.",
+          "ru": "Подарок от мамы."
+        }
+      ]
     },
     {
       "id": "pada",
       "ru": "на, у",
-      "en": "at / on"
+      "en": "at / on",
+      "examples": [
+        {
+          "id": "Pada hari Senin.",
+          "ru": "В понедельник."
+        },
+        {
+          "id": "Pada awalnya susah.",
+          "ru": "Сначала было трудно."
+        },
+        {
+          "id": "Lihat pada saya.",
+          "ru": "Посмотри на меня."
+        }
+      ]
     },
     {
       "id": "dengan",
       "ru": "с",
-      "en": "with"
+      "en": "with",
+      "examples": [
+        {
+          "id": "Saya pergi dengan teman.",
+          "ru": "Я иду с другом."
+        },
+        {
+          "id": "Bicara dengan ibu.",
+          "ru": "Поговори с мамой."
+        },
+        {
+          "id": "Makan dengan sumpit.",
+          "ru": "Есть палочками."
+        }
+      ]
     },
     {
       "id": "untuk",
       "ru": "для",
-      "en": "for"
+      "en": "for",
+      "examples": [
+        {
+          "id": "Hadiah untuk kamu.",
+          "ru": "Подарок для тебя."
+        },
+        {
+          "id": "Untuk apa?",
+          "ru": "Для чего?"
+        },
+        {
+          "id": "Saya datang untuk membantu.",
+          "ru": "Я пришёл помочь."
+        }
+      ]
     },
     {
       "id": "buat",
       "ru": "для (разг.)",
-      "en": "for (informal)"
+      "en": "for (informal)",
+      "examples": [
+        {
+          "id": "Buat saya, ya.",
+          "ru": "Для меня, пожалуйста."
+        },
+        {
+          "id": "Buat apa kamu di sini?",
+          "ru": "Зачем ты здесь?"
+        },
+        {
+          "id": "Hadiah buat ibu.",
+          "ru": "Подарок для мамы."
+        }
+      ]
     },
     {
       "id": "oleh",
       "ru": "кем (пассив)",
-      "en": "by"
+      "en": "by",
+      "examples": [
+        {
+          "id": "Buku ini ditulis oleh dia.",
+          "ru": "Эта книга написана им."
+        },
+        {
+          "id": "Ditemukan oleh polisi.",
+          "ru": "Найдено полицией."
+        },
+        {
+          "id": "Dimasak oleh ibu.",
+          "ru": "Приготовлено мамой."
+        }
+      ]
     },
     {
       "id": "tentang",
       "ru": "о, про",
-      "en": "about"
+      "en": "about",
+      "examples": [
+        {
+          "id": "Bicara tentang cuaca.",
+          "ru": "Говорить о погоде."
+        },
+        {
+          "id": "Apa tentang ini?",
+          "ru": "О чём это?"
+        },
+        {
+          "id": "Pikirkan tentang itu.",
+          "ru": "Подумай об этом."
+        }
+      ]
     },
     {
       "id": "tanpa",
       "ru": "без",
-      "en": "without"
+      "en": "without",
+      "examples": [
+        {
+          "id": "Saya tanpa uang.",
+          "ru": "Я без денег."
+        },
+        {
+          "id": "Tanpa kamu, saya sedih.",
+          "ru": "Без тебя я грущу."
+        },
+        {
+          "id": "Pergi tanpa makan.",
+          "ru": "Уйти не поев."
+        }
+      ]
     },
     {
       "id": "sampai",
       "ru": "до",
-      "en": "until"
+      "en": "until",
+      "examples": [
+        {
+          "id": "Sampai jumpa!",
+          "ru": "До встречи!"
+        },
+        {
+          "id": "Tunggu sampai besok.",
+          "ru": "Жди до завтра."
+        },
+        {
+          "id": "Sampai sini saja.",
+          "ru": "Только до сюда."
+        }
+      ]
     },
     {
       "id": "hingga",
       "ru": "до (формально)",
-      "en": "until (formal)"
+      "en": "until (formal)",
+      "examples": [
+        {
+          "id": "Hingga akhir.",
+          "ru": "До конца."
+        },
+        {
+          "id": "Bekerja hingga malam.",
+          "ru": "Работать до вечера."
+        },
+        {
+          "id": "Hingga saat ini.",
+          "ru": "До настоящего момента."
+        }
+      ]
     },
     {
       "id": "sejak",
       "ru": "с (момента)",
-      "en": "since"
+      "en": "since",
+      "examples": [
+        {
+          "id": "Sejak kemarin saya sakit.",
+          "ru": "Со вчерашнего дня я болею."
+        },
+        {
+          "id": "Sejak kecil dia rajin.",
+          "ru": "С детства он усердный."
+        },
+        {
+          "id": "Sejak kapan kamu di sini?",
+          "ru": "С каких пор ты здесь?"
+        }
+      ]
     },
     {
       "id": "antara",
       "ru": "между",
-      "en": "between"
+      "en": "between",
+      "examples": [
+        {
+          "id": "Antara kamu dan saya.",
+          "ru": "Между тобой и мной."
+        },
+        {
+          "id": "Pilih antara dua.",
+          "ru": "Выбери из двух."
+        },
+        {
+          "id": "Antara hidup dan mati.",
+          "ru": "Между жизнью и смертью."
+        }
+      ]
     },
     {
       "id": "melalui",
       "ru": "через",
-      "en": "through"
+      "en": "through",
+      "examples": [
+        {
+          "id": "Pergi melalui jalan ini.",
+          "ru": "Идти этой дорогой."
+        },
+        {
+          "id": "Belajar melalui pengalaman.",
+          "ru": "Учиться через опыт."
+        },
+        {
+          "id": "Kirim melalui email.",
+          "ru": "Отправь по электронной почте."
+        }
+      ]
     },
     {
       "id": "terhadap",
       "ru": "по отношению к",
-      "en": "toward"
+      "en": "toward",
+      "examples": [
+        {
+          "id": "Sikap terhadap orang tua.",
+          "ru": "Отношение к родителям."
+        },
+        {
+          "id": "Sayang terhadap anak.",
+          "ru": "Любовь к ребёнку."
+        },
+        {
+          "id": "Hormat terhadap guru.",
+          "ru": "Уважение к учителю."
+        }
+      ]
     },
     {
       "id": "kepada",
       "ru": "кому (формально)",
-      "en": "to (formal)"
+      "en": "to (formal)",
+      "examples": [
+        {
+          "id": "Surat kepada ibu.",
+          "ru": "Письмо маме."
+        },
+        {
+          "id": "Bicara kepada guru.",
+          "ru": "Говорить с учителем."
+        },
+        {
+          "id": "Kepada siapa ini?",
+          "ru": "Кому это?"
+        }
+      ]
     },
     {
       "id": "atas",
       "ru": "наверху / над",
-      "en": "above"
+      "en": "above",
+      "examples": [
+        {
+          "id": "Buku di atas meja.",
+          "ru": "Книга на столе."
+        },
+        {
+          "id": "Terima kasih atas bantuan.",
+          "ru": "Спасибо за помощь."
+        },
+        {
+          "id": "Atas izin Anda.",
+          "ru": "С Вашего разрешения."
+        }
+      ]
     },
     {
       "id": "bawah",
       "ru": "внизу / под",
-      "en": "below"
+      "en": "below",
+      "examples": [
+        {
+          "id": "Kucing di bawah meja.",
+          "ru": "Кошка под столом."
+        },
+        {
+          "id": "Suhu di bawah nol.",
+          "ru": "Температура ниже нуля."
+        },
+        {
+          "id": "Di bawah jembatan.",
+          "ru": "Под мостом."
+        }
+      ]
     },
     {
       "id": "dalam",
       "ru": "в / внутри / глубокий",
-      "en": "in / inside / deep"
+      "en": "in / inside / deep",
+      "examples": [
+        {
+          "id": "Air dalam gelas.",
+          "ru": "Вода в стакане."
+        },
+        {
+          "id": "Dalam kamar saya.",
+          "ru": "В моей комнате."
+        },
+        {
+          "id": "Dalam hati saya tahu.",
+          "ru": "В глубине души я знаю."
+        }
+      ]
     },
     {
       "id": "luar",
       "ru": "снаружи",
-      "en": "outside"
+      "en": "outside",
+      "examples": [
+        {
+          "id": "Hujan di luar.",
+          "ru": "На улице дождь."
+        },
+        {
+          "id": "Luar negeri.",
+          "ru": "За границей."
+        },
+        {
+          "id": "Di luar rumah.",
+          "ru": "Вне дома."
+        }
+      ]
     },
     {
       "id": "depan",
       "ru": "впереди",
-      "en": "front"
+      "en": "front",
+      "examples": [
+        {
+          "id": "Di depan pintu.",
+          "ru": "Перед дверью."
+        },
+        {
+          "id": "Maju ke depan.",
+          "ru": "Шаг вперёд."
+        },
+        {
+          "id": "Depan rumah saya ada taman.",
+          "ru": "Перед моим домом парк."
+        }
+      ]
     },
     {
       "id": "belakang",
       "ru": "позади",
-      "en": "back"
+      "en": "back",
+      "examples": [
+        {
+          "id": "Di belakang rumah.",
+          "ru": "За домом."
+        },
+        {
+          "id": "Mundur ke belakang.",
+          "ru": "Назад."
+        },
+        {
+          "id": "Belakang sekolah ada lapangan.",
+          "ru": "За школой площадка."
+        }
+      ]
     },
     {
       "id": "samping",
       "ru": "сбоку",
-      "en": "side"
+      "en": "side",
+      "examples": [
+        {
+          "id": "Dia duduk di samping saya.",
+          "ru": "Он сидит рядом со мной."
+        },
+        {
+          "id": "Samping kanan.",
+          "ru": "Справа."
+        },
+        {
+          "id": "Berjalan di samping sungai.",
+          "ru": "Идти вдоль реки."
+        }
+      ]
     },
     {
       "id": "tengah",
       "ru": "середина",
-      "en": "middle"
+      "en": "middle",
+      "examples": [
+        {
+          "id": "Di tengah jalan.",
+          "ru": "Посреди дороги."
+        },
+        {
+          "id": "Tengah malam.",
+          "ru": "Полночь."
+        },
+        {
+          "id": "Tengah-tengah ruangan.",
+          "ru": "Прямо в центре комнаты."
+        }
+      ]
     },
     {
       "id": "sekitar",
       "ru": "вокруг / около",
-      "en": "around"
+      "en": "around",
+      "examples": [
+        {
+          "id": "Sekitar jam sepuluh.",
+          "ru": "Около десяти часов."
+        },
+        {
+          "id": "Lihat sekitar.",
+          "ru": "Посмотри вокруг."
+        },
+        {
+          "id": "Di sekitar rumah saya hijau.",
+          "ru": "Вокруг моего дома зелено."
+        }
+      ]
     },
     {
       "id": "dekat",
       "ru": "близко",
-      "en": "near"
+      "en": "near",
+      "examples": [
+        {
+          "id": "Toko dekat sekolah.",
+          "ru": "Магазин рядом со школой."
+        },
+        {
+          "id": "Saya dekat dengan ibu.",
+          "ru": "Я близок с мамой."
+        },
+        {
+          "id": "Dekat sini ada warung.",
+          "ru": "Рядом есть закусочная."
+        }
+      ]
     },
     {
       "id": "jauh",
       "ru": "далеко",
-      "en": "far"
+      "en": "far",
+      "examples": [
+        {
+          "id": "Jauh dari rumah.",
+          "ru": "Далеко от дома."
+        },
+        {
+          "id": "Bali jauh dari Jakarta.",
+          "ru": "Бали далеко от Джакарты."
+        },
+        {
+          "id": "Jauh lebih baik.",
+          "ru": "Намного лучше."
+        }
+      ]
     }
   ]
 }

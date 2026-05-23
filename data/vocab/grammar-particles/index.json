@@ -7,137 +7,515 @@
     {
       "id": "tidak",
       "ru": "не",
-      "en": "no / not"
+      "en": "no / not",
+      "examples": [
+        {
+          "id": "Saya tidak tahu.",
+          "ru": "Я не знаю."
+        },
+        {
+          "id": "Tidak masalah.",
+          "ru": "Без проблем."
+        },
+        {
+          "id": "Dia tidak datang.",
+          "ru": "Он не пришёл."
+        }
+      ]
     },
     {
       "id": "tak",
       "ru": "не (краткая форма)",
-      "en": "not (short)"
+      "en": "not (short)",
+      "examples": [
+        {
+          "id": "Tak apa-apa.",
+          "ru": "Ничего страшного."
+        },
+        {
+          "id": "Saya tak mengerti.",
+          "ru": "Я не понимаю."
+        },
+        {
+          "id": "Tak ada uang.",
+          "ru": "Денег нет."
+        }
+      ]
     },
     {
       "id": "bukan",
       "ru": "не (с существительным)",
-      "en": "not (with noun)"
+      "en": "not (with noun)",
+      "examples": [
+        {
+          "id": "Ini bukan milik saya.",
+          "ru": "Это не моё."
+        },
+        {
+          "id": "Bukan saya yang melakukannya.",
+          "ru": "Это сделал не я."
+        },
+        {
+          "id": "Bukan begitu.",
+          "ru": "Не так."
+        }
+      ]
     },
     {
       "id": "belum",
       "ru": "ещё не",
-      "en": "not yet"
+      "en": "not yet",
+      "examples": [
+        {
+          "id": "Saya belum makan.",
+          "ru": "Я ещё не ел."
+        },
+        {
+          "id": "Belum tahu.",
+          "ru": "Ещё не знаю."
+        },
+        {
+          "id": "Apakah sudah? Belum.",
+          "ru": "Уже? Ещё нет."
+        }
+      ]
     },
     {
       "id": "sudah",
       "ru": "уже",
-      "en": "already"
+      "en": "already",
+      "examples": [
+        {
+          "id": "Saya sudah makan.",
+          "ru": "Я уже поел."
+        },
+        {
+          "id": "Sudah jam berapa?",
+          "ru": "Уже сколько времени?"
+        },
+        {
+          "id": "Sudah selesai.",
+          "ru": "Уже закончено."
+        }
+      ]
     },
     {
       "id": "telah",
       "ru": "уже (формально)",
-      "en": "already (formal)"
+      "en": "already (formal)",
+      "examples": [
+        {
+          "id": "Dia telah pergi.",
+          "ru": "Он уже ушёл."
+        },
+        {
+          "id": "Saya telah membaca buku itu.",
+          "ru": "Я прочитал ту книгу."
+        },
+        {
+          "id": "Telah lama tidak bertemu.",
+          "ru": "Давно не виделись."
+        }
+      ]
     },
     {
       "id": "pernah",
       "ru": "когда-либо",
-      "en": "ever"
+      "en": "ever",
+      "examples": [
+        {
+          "id": "Apakah kamu pernah ke Bali?",
+          "ru": "Ты когда-нибудь был на Бали?"
+        },
+        {
+          "id": "Saya pernah belajar bahasa Spanyol.",
+          "ru": "Я когда-то учил испанский."
+        },
+        {
+          "id": "Pernah dengar lagu ini?",
+          "ru": "Слышал эту песню?"
+        }
+      ]
     },
     {
       "id": "masih",
       "ru": "всё ещё",
-      "en": "still"
+      "en": "still",
+      "examples": [
+        {
+          "id": "Saya masih di kantor.",
+          "ru": "Я ещё в офисе."
+        },
+        {
+          "id": "Masih hidup.",
+          "ru": "Ещё жив."
+        },
+        {
+          "id": "Masih bisa belajar.",
+          "ru": "Ещё можно учиться."
+        }
+      ]
     },
     {
       "id": "baru",
       "ru": "только что / новый",
-      "en": "just / new"
+      "en": "just / new",
+      "examples": [
+        {
+          "id": "Baru saja sampai.",
+          "ru": "Только что приехал."
+        },
+        {
+          "id": "Buku baru.",
+          "ru": "Новая книга."
+        },
+        {
+          "id": "Saya baru tahu.",
+          "ru": "Я только что узнал."
+        }
+      ]
     },
     {
       "id": "akan",
       "ru": "будет (будущее)",
-      "en": "will"
+      "en": "will",
+      "examples": [
+        {
+          "id": "Saya akan pergi besok.",
+          "ru": "Я уеду завтра."
+        },
+        {
+          "id": "Akan hujan sebentar lagi.",
+          "ru": "Скоро будет дождь."
+        },
+        {
+          "id": "Dia akan datang.",
+          "ru": "Он придёт."
+        }
+      ]
     },
     {
       "id": "mau",
       "ru": "хочу / собираюсь",
-      "en": "want / will"
+      "en": "want / will",
+      "examples": [
+        {
+          "id": "Saya mau kopi.",
+          "ru": "Я хочу кофе."
+        },
+        {
+          "id": "Mau ke mana?",
+          "ru": "Куда собираешься?"
+        },
+        {
+          "id": "Apa kamu mau ini?",
+          "ru": "Ты хочешь это?"
+        }
+      ]
     },
     {
       "id": "ingin",
       "ru": "хочу",
-      "en": "want"
+      "en": "want",
+      "examples": [
+        {
+          "id": "Saya ingin pulang.",
+          "ru": "Я хочу домой."
+        },
+        {
+          "id": "Ingin tahu kebenaran.",
+          "ru": "Хочу знать правду."
+        },
+        {
+          "id": "Ingin sekali bertemu.",
+          "ru": "Очень хочу встретиться."
+        }
+      ]
     },
     {
       "id": "hendak",
       "ru": "намерен",
-      "en": "intend to"
+      "en": "intend to",
+      "examples": [
+        {
+          "id": "Saya hendak bicara dengan Anda.",
+          "ru": "Я хочу с Вами поговорить."
+        },
+        {
+          "id": "Dia hendak pergi.",
+          "ru": "Он намеревается уйти."
+        },
+        {
+          "id": "Hendak ke mana?",
+          "ru": "Куда направляешься?"
+        }
+      ]
     },
     {
       "id": "sedang",
       "ru": "сейчас (длительное)",
-      "en": "in the middle of"
+      "en": "in the middle of",
+      "examples": [
+        {
+          "id": "Saya sedang makan.",
+          "ru": "Я сейчас ем."
+        },
+        {
+          "id": "Dia sedang tidur.",
+          "ru": "Он спит."
+        },
+        {
+          "id": "Mereka sedang belajar.",
+          "ru": "Они учатся."
+        }
+      ]
     },
     {
       "id": "lagi",
       "ru": "снова / ещё",
-      "en": "again / more"
+      "en": "again / more",
+      "examples": [
+        {
+          "id": "Saya lagi sibuk.",
+          "ru": "Я сейчас занят."
+        },
+        {
+          "id": "Coba lagi!",
+          "ru": "Попробуй ещё раз!"
+        },
+        {
+          "id": "Mau lagi?",
+          "ru": "Ещё хочешь?"
+        }
+      ]
     },
     {
       "id": "harus",
       "ru": "должен",
-      "en": "must"
+      "en": "must",
+      "examples": [
+        {
+          "id": "Saya harus pergi.",
+          "ru": "Я должен идти."
+        },
+        {
+          "id": "Kamu harus makan.",
+          "ru": "Ты должен поесть."
+        },
+        {
+          "id": "Harus rajin belajar.",
+          "ru": "Надо усердно учиться."
+        }
+      ]
     },
     {
       "id": "wajib",
       "ru": "обязан",
-      "en": "obligatory"
+      "en": "obligatory",
+      "examples": [
+        {
+          "id": "Wajib hadir di rapat.",
+          "ru": "Обязательно присутствовать на встрече."
+        },
+        {
+          "id": "Pelajaran wajib.",
+          "ru": "Обязательный предмет."
+        },
+        {
+          "id": "Wajib mengikuti aturan.",
+          "ru": "Обязательно соблюдать правила."
+        }
+      ]
     },
     {
       "id": "perlu",
       "ru": "нужно",
-      "en": "need"
+      "en": "need",
+      "examples": [
+        {
+          "id": "Saya perlu air.",
+          "ru": "Мне нужна вода."
+        },
+        {
+          "id": "Perlu istirahat.",
+          "ru": "Нужно отдохнуть."
+        },
+        {
+          "id": "Tidak perlu khawatir.",
+          "ru": "Не нужно волноваться."
+        }
+      ]
     },
     {
       "id": "butuh",
       "ru": "нуждаюсь",
-      "en": "need"
+      "en": "need",
+      "examples": [
+        {
+          "id": "Saya butuh bantuan.",
+          "ru": "Мне нужна помощь."
+        },
+        {
+          "id": "Butuh waktu lebih.",
+          "ru": "Нужно больше времени."
+        },
+        {
+          "id": "Apa kamu butuh sesuatu?",
+          "ru": "Тебе что-то нужно?"
+        }
+      ]
     },
     {
       "id": "boleh",
       "ru": "можно",
-      "en": "may"
+      "en": "may",
+      "examples": [
+        {
+          "id": "Boleh saya masuk?",
+          "ru": "Можно мне войти?"
+        },
+        {
+          "id": "Boleh saja.",
+          "ru": "Можно."
+        },
+        {
+          "id": "Tidak boleh merokok.",
+          "ru": "Курить нельзя."
+        }
+      ]
     },
     {
       "id": "bisa",
       "ru": "могу / можно",
-      "en": "can"
+      "en": "can",
+      "examples": [
+        {
+          "id": "Saya bisa berbahasa Inggris.",
+          "ru": "Я могу говорить по-английски."
+        },
+        {
+          "id": "Apa kamu bisa berenang?",
+          "ru": "Ты умеешь плавать?"
+        },
+        {
+          "id": "Bisa membantu?",
+          "ru": "Можешь помочь?"
+        }
+      ]
     },
     {
       "id": "dapat",
       "ru": "могу / получить",
-      "en": "can / get"
+      "en": "can / get",
+      "examples": [
+        {
+          "id": "Saya dapat hadiah.",
+          "ru": "Я получил подарок."
+        },
+        {
+          "id": "Dia dapat juara.",
+          "ru": "Он занял первое место."
+        },
+        {
+          "id": "Dapatkah kamu datang?",
+          "ru": "Сможешь прийти?"
+        }
+      ]
     },
     {
       "id": "mampu",
       "ru": "в состоянии",
-      "en": "able"
+      "en": "able",
+      "examples": [
+        {
+          "id": "Saya mampu membayar.",
+          "ru": "Я в состоянии заплатить."
+        },
+        {
+          "id": "Dia mampu lulus.",
+          "ru": "Он способен сдать."
+        },
+        {
+          "id": "Tidak mampu lari jauh.",
+          "ru": "Не в силах бежать далеко."
+        }
+      ]
     },
     {
       "id": "jangan",
       "ru": "не делай",
-      "en": "don't"
+      "en": "don't",
+      "examples": [
+        {
+          "id": "Jangan menangis.",
+          "ru": "Не плачь."
+        },
+        {
+          "id": "Jangan pergi!",
+          "ru": "Не уходи!"
+        },
+        {
+          "id": "Jangan begitu.",
+          "ru": "Не надо так."
+        }
+      ]
     },
     {
       "id": "yang",
       "ru": "который",
-      "en": "which / that"
+      "en": "which / that",
+      "examples": [
+        {
+          "id": "Buku yang saya beli kemarin.",
+          "ru": "Книга которую я купил вчера."
+        },
+        {
+          "id": "Orang yang baik.",
+          "ru": "Хороший человек."
+        },
+        {
+          "id": "Yang mana?",
+          "ru": "Какой?"
+        }
+      ]
     },
     {
       "id": "ada",
       "ru": "есть / имеется",
-      "en": "there is"
+      "en": "there is",
+      "examples": [
+        {
+          "id": "Ada apa?",
+          "ru": "В чём дело?"
+        },
+        {
+          "id": "Ada makanan di kulkas.",
+          "ru": "В холодильнике есть еда."
+        },
+        {
+          "id": "Tidak ada uang.",
+          "ru": "Денег нет."
+        }
+      ]
     },
     {
       "id": "adalah",
       "ru": "является",
-      "en": "is / are"
+      "en": "is / are",
+      "examples": [
+        {
+          "id": "Saya adalah guru.",
+          "ru": "Я учитель."
+        },
+        {
+          "id": "Cinta adalah indah.",
+          "ru": "Любовь прекрасна."
+        },
+        {
+          "id": "Indonesia adalah negara besar.",
+          "ru": "Индонезия — большая страна."
+        }
+      ]
     }
   ]
 }
