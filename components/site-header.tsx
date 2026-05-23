@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { LocaleSwitcher } from "@/components/locale-switcher";
 import { UserMenu } from "@/components/user-menu";
+import { InstallButton } from "@/components/install-button";
 import { useLocale } from "@/lib/use-locale";
 import { t } from "@/lib/i18n";
 
@@ -22,6 +23,7 @@ export function SiteHeader() {
           <Link href="/vocab" className="hover:text-foreground">
             {t(locale, "nav_vocab")}
           </Link>
+          <InstallButton />
           <LocaleSwitcher />
           <UserMenu />
         </nav>
