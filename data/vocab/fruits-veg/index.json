@@ -7,172 +7,342 @@
     {
       "id": "apel",
       "ru": "яблоко",
-      "en": "apple"
+      "en": "apple",
+      "examples": [
+        { "id": "Saya makan apel setiap pagi.", "ru": "Я ем яблоко каждое утро." },
+        { "id": "Apel ini manis sekali.", "ru": "Это яблоко очень сладкое." },
+        { "id": "Tolong beli apel di pasar.", "ru": "Пожалуйста, купи яблоки на рынке." }
+      ]
     },
     {
       "id": "jeruk",
       "ru": "апельсин",
-      "en": "orange"
+      "en": "orange",
+      "examples": [
+        { "id": "Jeruk ini segar dan manis.", "ru": "Этот апельсин свежий и сладкий." },
+        { "id": "Saya suka minum jus jeruk.", "ru": "Я люблю пить апельсиновый сок." },
+        { "id": "Berapa harga jeruk ini?", "ru": "Сколько стоит этот апельсин?" }
+      ]
     },
     {
       "id": "pisang",
       "ru": "банан",
-      "en": "banana"
+      "en": "banana",
+      "examples": [
+        { "id": "Pisang adalah buah favoritku.", "ru": "Банан — мой любимый фрукт." },
+        { "id": "Anak itu makan pisang dengan lahap.", "ru": "Тот ребёнок с аппетитом ест банан." },
+        { "id": "Pisang goreng sangat enak.", "ru": "Жареные бананы очень вкусные." }
+      ]
     },
     {
       "id": "mangga",
       "ru": "манго",
-      "en": "mango"
+      "en": "mango",
+      "examples": [
+        { "id": "Mangga musim panas ini sangat manis.", "ru": "Летнее манго в этом году очень сладкое." },
+        { "id": "Saya mau beli mangga di warung.", "ru": "Я хочу купить манго в ларьке." },
+        { "id": "Mangga muda biasanya asam.", "ru": "Незрелое манго обычно кислое." }
+      ]
     },
     {
       "id": "nanas",
       "ru": "ананас",
-      "en": "pineapple"
+      "en": "pineapple",
+      "examples": [
+        { "id": "Nanas ini asam sedikit.", "ru": "Этот ананас немного кислый." },
+        { "id": "Ibu membuat jus nanas untuk kami.", "ru": "Мама приготовила нам сок из ананаса." },
+        { "id": "Saya suka nanas segar.", "ru": "Я люблю свежий ананас." }
+      ]
     },
     {
       "id": "semangka",
       "ru": "арбуз",
-      "en": "watermelon"
+      "en": "watermelon",
+      "examples": [
+        { "id": "Semangka enak dimakan saat panas.", "ru": "Арбуз вкусно есть в жару." },
+        { "id": "Potong semangka itu menjadi dua.", "ru": "Разрежь тот арбуз пополам." },
+        { "id": "Semangka ini besar sekali.", "ru": "Этот арбуз очень большой." }
+      ]
     },
     {
       "id": "melon",
       "ru": "дыня",
-      "en": "melon"
+      "en": "melon",
+      "examples": [
+        { "id": "Melon kuning ini sangat harum.", "ru": "Эта жёлтая дыня очень ароматная." },
+        { "id": "Saya beli satu melon di supermarket.", "ru": "Я купил одну дыню в супермаркете." },
+        { "id": "Apakah melon ini sudah matang?", "ru": "Эта дыня уже спелая?" }
+      ]
     },
     {
       "id": "stroberi",
       "ru": "клубника",
-      "en": "strawberry"
+      "en": "strawberry",
+      "examples": [
+        { "id": "Stroberi ini merah dan manis.", "ru": "Эта клубника красная и сладкая." },
+        { "id": "Aku ingin kue dengan stroberi di atasnya.", "ru": "Я хочу торт с клубникой сверху." },
+        { "id": "Stroberi tumbuh di daerah dingin.", "ru": "Клубника растёт в холодных регионах." }
+      ]
     },
     {
       "id": "durian",
       "ru": "дуриан",
-      "en": "durian"
+      "en": "durian",
+      "examples": [
+        { "id": "Durian adalah raja buah di Indonesia.", "ru": "Дуриан — король фруктов в Индонезии." },
+        { "id": "Baunya durian sangat kuat.", "ru": "Запах дуриана очень сильный." },
+        { "id": "Tidak semua orang suka durian.", "ru": "Не все любят дуриан." }
+      ]
     },
     {
       "id": "pepaya",
       "ru": "папайя",
-      "en": "papaya"
+      "en": "papaya",
+      "examples": [
+        { "id": "Pepaya matang sangat lembut.", "ru": "Спелая папайя очень мягкая." },
+        { "id": "Ibu memotong pepaya untuk sarapan.", "ru": "Мама нарезала папайю на завтрак." },
+        { "id": "Pepaya bagus untuk pencernaan.", "ru": "Папайя полезна для пищеварения." }
+      ]
     },
     {
       "id": "kelapa",
       "ru": "кокос",
-      "en": "coconut"
+      "en": "coconut",
+      "examples": [
+        { "id": "Air kelapa sangat menyegarkan.", "ru": "Кокосовая вода очень освежает." },
+        { "id": "Dia minum air kelapa muda.", "ru": "Он пьёт воду молодого кокоса." },
+        { "id": "Santan dibuat dari kelapa.", "ru": "Кокосовое молоко делают из кокоса." }
+      ]
     },
     {
       "id": "alpukat",
       "ru": "авокадо",
-      "en": "avocado"
+      "en": "avocado",
+      "examples": [
+        { "id": "Alpukat bagus untuk kesehatan.", "ru": "Авокадо полезно для здоровья." },
+        { "id": "Saya bikin jus alpukat setiap hari.", "ru": "Я делаю сок из авокадо каждый день." },
+        { "id": "Alpukat ini sudah matang belum?", "ru": "Этот авокадо уже созрел?" }
+      ]
     },
     {
       "id": "pir",
       "ru": "груша",
-      "en": "pear"
+      "en": "pear",
+      "examples": [
+        { "id": "Pir ini manis dan renyah.", "ru": "Эта груша сладкая и хрустящая." },
+        { "id": "Saya beli pir di toko buah.", "ru": "Я купил грушу в фруктовом магазине." },
+        { "id": "Apakah kamu suka pir atau apel?", "ru": "Ты любишь груши или яблоки?" }
+      ]
     },
     {
       "id": "rambutan",
       "ru": "рамбутан",
-      "en": "rambutan"
+      "en": "rambutan",
+      "examples": [
+        { "id": "Rambutan tumbuh di pohon yang tinggi.", "ru": "Рамбутан растёт на высоких деревьях." },
+        { "id": "Daging rambutan putih dan manis.", "ru": "Мякоть рамбутана белая и сладкая." },
+        { "id": "Kami makan rambutan bersama keluarga.", "ru": "Мы ели рамбутан вместе с семьёй." }
+      ]
     },
     {
       "id": "manggis",
       "ru": "мангостин",
-      "en": "mangosteen"
+      "en": "mangosteen",
+      "examples": [
+        { "id": "Manggis adalah buah yang lezat.", "ru": "Мангостин — это вкусный фрукт." },
+        { "id": "Kulit manggis berwarna ungu tua.", "ru": "Кожура мангостина тёмно-фиолетового цвета." },
+        { "id": "Saya pertama kali makan manggis di Bali.", "ru": "Я первый раз попробовал мангостин на Бали." }
+      ]
     },
     {
       "id": "salak",
       "ru": "салак",
-      "en": "snake fruit"
+      "en": "snake fruit",
+      "examples": [
+        { "id": "Salak kulitnya seperti sisik ular.", "ru": "Кожура салака похожа на чешую змеи." },
+        { "id": "Rasa salak manis dan sedikit sepat.", "ru": "Вкус салака сладкий и немного вяжущий." },
+        { "id": "Salak Bali terkenal sangat manis.", "ru": "Балийский салак известен своей сладостью." }
+      ]
     },
     {
       "id": "lemon",
       "ru": "лимон",
-      "en": "lemon"
+      "en": "lemon",
+      "examples": [
+        { "id": "Lemon sangat asam rasanya.", "ru": "Лимон очень кислый на вкус." },
+        { "id": "Saya peras lemon ke dalam air.", "ru": "Я выжимаю лимон в воду." },
+        { "id": "Teh dengan lemon sangat enak.", "ru": "Чай с лимоном очень вкусный." }
+      ]
     },
     {
       "id": "tomat",
       "ru": "помидор",
-      "en": "tomato"
+      "en": "tomato",
+      "examples": [
+        { "id": "Tomat merah ini segar sekali.", "ru": "Этот красный помидор очень свежий." },
+        { "id": "Ibu memasak sup dengan tomat.", "ru": "Мама варит суп с помидорами." },
+        { "id": "Berapa harga satu kilo tomat?", "ru": "Сколько стоит один килограмм помидоров?" }
+      ]
     },
     {
       "id": "kentang",
       "ru": "картофель",
-      "en": "potato"
+      "en": "potato",
+      "examples": [
+        { "id": "Saya suka kentang goreng.", "ru": "Я люблю жареный картофель." },
+        { "id": "Kentang harus dimasak sebelum dimakan.", "ru": "Картофель нужно приготовить перед едой." },
+        { "id": "Ibu mengupas kentang untuk makan malam.", "ru": "Мама чистит картофель к ужину." }
+      ]
     },
     {
       "id": "wortel",
       "ru": "морковь",
-      "en": "carrot"
+      "en": "carrot",
+      "examples": [
+        { "id": "Wortel baik untuk kesehatan mata.", "ru": "Морковь полезна для здоровья глаз." },
+        { "id": "Saya parut wortel untuk salad.", "ru": "Я тру морковь для салата." },
+        { "id": "Wortel berwarna oranye dan manis.", "ru": "Морковь оранжевого цвета и сладкая." }
+      ]
     },
     {
       "id": "mentimun",
       "ru": "огурец",
-      "en": "cucumber"
+      "en": "cucumber",
+      "examples": [
+        { "id": "Mentimun segar enak dimakan langsung.", "ru": "Свежий огурец вкусно есть просто так." },
+        { "id": "Saya iris mentimun untuk lalapan.", "ru": "Я нарезаю огурец для свежего салата." },
+        { "id": "Mentimun banyak mengandung air.", "ru": "В огурце много воды." }
+      ]
     },
     {
       "id": "terong",
       "ru": "баклажан",
-      "en": "eggplant"
+      "en": "eggplant",
+      "examples": [
+        { "id": "Terong ungu ini enak dibakar.", "ru": "Этот фиолетовый баклажан вкусно запекать." },
+        { "id": "Ibu memasak terong balado malam ini.", "ru": "Мама готовит баклажан балладо сегодня вечером." },
+        { "id": "Apakah kamu suka terong?", "ru": "Ты любишь баклажаны?" }
+      ]
     },
     {
       "id": "bayam",
       "ru": "шпинат",
-      "en": "spinach"
+      "en": "spinach",
+      "examples": [
+        { "id": "Bayam kaya akan zat besi.", "ru": "Шпинат богат железом." },
+        { "id": "Saya masak sayur bayam untuk makan siang.", "ru": "Я готовлю шпинат на обед." },
+        { "id": "Bayam harus dicuci sebelum dimasak.", "ru": "Шпинат нужно помыть перед приготовлением." }
+      ]
     },
     {
       "id": "kangkung",
       "ru": "кангкунг (водяной шпинат)",
-      "en": "water spinach"
+      "en": "water spinach",
+      "examples": [
+        { "id": "Kangkung tumis adalah masakan yang mudah.", "ru": "Жареный кангкунг — простое блюдо." },
+        { "id": "Kangkung tumbuh di tempat yang lembab.", "ru": "Кангкунг растёт во влажных местах." },
+        { "id": "Saya suka kangkung dengan bumbu pedas.", "ru": "Я люблю кангкунг с острыми специями." }
+      ]
     },
     {
       "id": "cabai",
       "ru": "перец чили",
-      "en": "chili"
+      "en": "chili",
+      "examples": [
+        { "id": "Cabai merah ini sangat pedas.", "ru": "Этот красный перец чили очень острый." },
+        { "id": "Masakan Indonesia sering pakai cabai.", "ru": "Индонезийская кухня часто использует чили." },
+        { "id": "Jangan makan terlalu banyak cabai.", "ru": "Не ешь слишком много перца чили." }
+      ]
     },
     {
       "id": "bawang merah",
       "ru": "красный лук",
-      "en": "shallot"
+      "en": "shallot",
+      "examples": [
+        { "id": "Bawang merah dipakai dalam hampir semua masakan.", "ru": "Красный лук используется почти во всех блюдах." },
+        { "id": "Iris bawang merah tipis-tipis.", "ru": "Нарежь красный лук тонкими ломтиками." },
+        { "id": "Bawang merah goreng sangat harum.", "ru": "Жареный красный лук очень ароматный." }
+      ]
     },
     {
       "id": "bawang putih",
       "ru": "чеснок",
-      "en": "garlic"
+      "en": "garlic",
+      "examples": [
+        { "id": "Bawang putih membuat masakan lebih harum.", "ru": "Чеснок делает блюда более ароматными." },
+        { "id": "Hancurkan bawang putih sebelum digoreng.", "ru": "Раздави чеснок перед жаркой." },
+        { "id": "Saya tidak suka bau bawang putih.", "ru": "Мне не нравится запах чеснока." }
+      ]
     },
     {
       "id": "jahe",
       "ru": "имбирь",
-      "en": "ginger"
+      "en": "ginger",
+      "examples": [
+        { "id": "Jahe bagus untuk menghangatkan tubuh.", "ru": "Имбирь хорошо согревает тело." },
+        { "id": "Saya minum teh jahe setiap pagi.", "ru": "Я пью имбирный чай каждое утро." },
+        { "id": "Jahe dipakai dalam banyak masakan Indonesia.", "ru": "Имбирь используется во многих индонезийских блюдах." }
+      ]
     },
     {
       "id": "kunyit",
       "ru": "куркума",
-      "en": "turmeric"
+      "en": "turmeric",
+      "examples": [
+        { "id": "Kunyit memberi warna kuning pada masakan.", "ru": "Куркума придаёт блюдам жёлтый цвет." },
+        { "id": "Jamu dibuat dari kunyit dan jahe.", "ru": "Джаму делают из куркумы и имбиря." },
+        { "id": "Kunyit baik untuk kesehatan.", "ru": "Куркума полезна для здоровья." }
+      ]
     },
     {
       "id": "serai",
       "ru": "лемонграсс",
-      "en": "lemongrass"
+      "en": "lemongrass",
+      "examples": [
+        { "id": "Serai memberi aroma segar pada masakan.", "ru": "Лемонграсс придаёт блюдам свежий аромат." },
+        { "id": "Ibu memasukkan serai ke dalam sup.", "ru": "Мама кладёт лемонграсс в суп." },
+        { "id": "Teh serai rasanya harum dan menenangkan.", "ru": "Чай из лемонграсса ароматный и успокаивающий." }
+      ]
     },
     {
       "id": "jagung",
       "ru": "кукуруза",
-      "en": "corn"
+      "en": "corn",
+      "examples": [
+        { "id": "Jagung bakar enak dimakan malam hari.", "ru": "Жареная кукуруза вкусна по вечерам." },
+        { "id": "Saya beli jagung manis di pasar.", "ru": "Я купил сладкую кукурузу на рынке." },
+        { "id": "Jagung bisa direbus atau dipanggang.", "ru": "Кукурузу можно варить или жарить на гриле." }
+      ]
     },
     {
       "id": "kacang",
       "ru": "орех / боб",
-      "en": "nut / bean"
+      "en": "nut / bean",
+      "examples": [
+        { "id": "Kacang tanah dipakai untuk membuat saus.", "ru": "Арахис используют для приготовления соуса." },
+        { "id": "Saya makan kacang goreng sebagai camilan.", "ru": "Я ем жареные орехи в качестве закуски." },
+        { "id": "Kacang merah bagus untuk sup.", "ru": "Красная фасоль хороша для супа." }
+      ]
     },
     {
       "id": "tahu",
       "ru": "знать / тофу",
-      "en": "to know / tofu"
+      "en": "to know / tofu",
+      "examples": [
+        { "id": "Tahu goreng sangat enak dengan cabai.", "ru": "Жареный тофу очень вкусен с чили." },
+        { "id": "Saya tidak tahu cara membuat tahu.", "ru": "Я не знаю, как делать тофу." },
+        { "id": "Tahu putih ini lembut sekali.", "ru": "Этот белый тофу очень мягкий." }
+      ]
     },
     {
       "id": "tempe",
       "ru": "темпе",
-      "en": "tempeh"
+      "en": "tempeh",
+      "examples": [
+        { "id": "Tempe goreng adalah lauk yang murah.", "ru": "Жареный темпе — недорогое блюдо." },
+        { "id": "Tempe dibuat dari kacang kedelai.", "ru": "Темпе делают из соевых бобов." },
+        { "id": "Saya makan tempe dan nasi setiap hari.", "ru": "Я ем темпе с рисом каждый день." }
+      ]
     }
   ]
 }

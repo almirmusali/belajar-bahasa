@@ -7,132 +7,262 @@
     {
       "id": "pendidikan",
       "ru": "образование",
-      "en": "education"
+      "en": "education",
+      "examples": [
+        { "id": "Pendidikan sangat penting untuk masa depan.", "ru": "Образование очень важно для будущего." },
+        { "id": "Dia mendapat pendidikan yang baik di sekolah ini.", "ru": "Он получил хорошее образование в этой школе." },
+        { "id": "Pemerintah mendukung pendidikan gratis.", "ru": "Правительство поддерживает бесплатное образование." }
+      ]
     },
     {
       "id": "pelajaran",
       "ru": "урок / предмет",
-      "en": "lesson"
+      "en": "lesson",
+      "examples": [
+        { "id": "Pelajaran bahasa Indonesia dimulai jam delapan.", "ru": "Урок индонезийского языка начинается в восемь часов." },
+        { "id": "Pelajaran apa yang kamu suka?", "ru": "Какой предмет тебе нравится?" },
+        { "id": "Hari ini ada enam pelajaran di sekolah.", "ru": "Сегодня в школе шесть уроков." }
+      ]
     },
     {
       "id": "kelas",
       "ru": "класс",
-      "en": "class"
+      "en": "class",
+      "examples": [
+        { "id": "Saya duduk di kelas tiga.", "ru": "Я сижу в третьем классе." },
+        { "id": "Kelas kami ada dua puluh lima siswa.", "ru": "В нашем классе двадцать пять учеников." },
+        { "id": "Dia masuk kelas tepat waktu.", "ru": "Он вошёл в класс вовремя." }
+      ]
     },
     {
       "id": "buku",
       "ru": "книга",
-      "en": "book"
+      "en": "book",
+      "examples": [
+        { "id": "Saya membaca buku setiap malam.", "ru": "Я читаю книгу каждый вечер." },
+        { "id": "Buku ini sangat menarik.", "ru": "Эта книга очень интересная." },
+        { "id": "Di mana buku matematika saya?", "ru": "Где моя книга по математике?" }
+      ]
     },
     {
       "id": "buku tulis",
       "ru": "тетрадь",
-      "en": "notebook"
+      "en": "notebook",
+      "examples": [
+        { "id": "Saya menulis catatan di buku tulis.", "ru": "Я записываю заметки в тетрадь." },
+        { "id": "Tolong beli buku tulis baru untuk saya.", "ru": "Пожалуйста, купи мне новую тетрадь." },
+        { "id": "Buku tulis saya sudah penuh.", "ru": "Моя тетрадь уже заполнена." }
+      ]
     },
     {
       "id": "pulpen",
       "ru": "ручка",
-      "en": "pen"
+      "en": "pen",
+      "examples": [
+        { "id": "Boleh saya pinjam pulpen kamu?", "ru": "Можно я возьму твою ручку?" },
+        { "id": "Saya menulis surat dengan pulpen biru.", "ru": "Я пишу письмо синей ручкой." },
+        { "id": "Pulpen ini tidak bisa menulis.", "ru": "Эта ручка не пишет." }
+      ]
     },
     {
       "id": "pensil",
       "ru": "карандаш",
-      "en": "pencil"
+      "en": "pencil",
+      "examples": [
+        { "id": "Anak itu menggambar dengan pensil.", "ru": "Этот ребёнок рисует карандашом." },
+        { "id": "Pensil saya sudah pendek.", "ru": "Мой карандаш уже короткий." },
+        { "id": "Lebih baik menulis dengan pensil dulu.", "ru": "Лучше сначала писать карандашом." }
+      ]
     },
     {
       "id": "penghapus",
       "ru": "ластик",
-      "en": "eraser"
+      "en": "eraser",
+      "examples": [
+        { "id": "Tolong berikan penghapus kepada saya.", "ru": "Пожалуйста, дай мне ластик." },
+        { "id": "Saya menghapus tulisan yang salah dengan penghapus.", "ru": "Я стираю неправильную запись ластиком." },
+        { "id": "Penghapus saya jatuh ke lantai.", "ru": "Мой ластик упал на пол." }
+      ]
     },
     {
       "id": "penggaris",
       "ru": "линейка",
-      "en": "ruler"
+      "en": "ruler",
+      "examples": [
+        { "id": "Saya mengukur garis dengan penggaris.", "ru": "Я измеряю линию линейкой." },
+        { "id": "Penggaris ini panjangnya tiga puluh sentimeter.", "ru": "Эта линейка длиной тридцать сантиметров." },
+        { "id": "Apakah kamu punya penggaris?", "ru": "У тебя есть линейка?" }
+      ]
     },
     {
       "id": "papan tulis",
       "ru": "доска",
-      "en": "blackboard"
+      "en": "blackboard",
+      "examples": [
+        { "id": "Guru menulis di papan tulis.", "ru": "Учитель пишет на доске." },
+        { "id": "Tolong hapus papan tulis itu.", "ru": "Пожалуйста, сотри доску." },
+        { "id": "Saya bisa membaca tulisan di papan tulis.", "ru": "Я могу прочитать надпись на доске." }
+      ]
     },
     {
       "id": "ujian",
       "ru": "экзамен",
-      "en": "exam"
+      "en": "exam",
+      "examples": [
+        { "id": "Ujian matematika ada besok.", "ru": "Завтра экзамен по математике." },
+        { "id": "Saya belajar keras untuk ujian.", "ru": "Я усердно учусь к экзамену." },
+        { "id": "Dia lulus ujian dengan nilai bagus.", "ru": "Он сдал экзамен с хорошей оценкой." }
+      ]
     },
     {
       "id": "tes",
       "ru": "тест",
-      "en": "test"
+      "en": "test",
+      "examples": [
+        { "id": "Ada tes kecil hari ini.", "ru": "Сегодня небольшой тест." },
+        { "id": "Saya mendapat nilai seratus pada tes ini.", "ru": "Я получил сто баллов на этом тесте." },
+        { "id": "Tes bahasa Inggris tidak terlalu sulit.", "ru": "Тест по английскому языку не слишком сложный." }
+      ]
     },
     {
       "id": "soal",
       "ru": "вопрос (задача)",
-      "en": "question"
+      "en": "question",
+      "examples": [
+        { "id": "Soal nomor tiga sangat sulit.", "ru": "Задача номер три очень сложная." },
+        { "id": "Ada berapa soal dalam ujian ini?", "ru": "Сколько вопросов в этом экзамене?" },
+        { "id": "Saya tidak bisa menjawab soal terakhir.", "ru": "Я не смог ответить на последний вопрос." }
+      ]
     },
     {
       "id": "jawaban",
       "ru": "ответ",
-      "en": "answer"
+      "en": "answer",
+      "examples": [
+        { "id": "Jawaban kamu benar!", "ru": "Твой ответ правильный!" },
+        { "id": "Tulis jawaban di kertas ini.", "ru": "Напиши ответ на этой бумаге." },
+        { "id": "Saya tidak tahu jawaban dari soal itu.", "ru": "Я не знаю ответа на этот вопрос." }
+      ]
     },
     {
       "id": "nilai",
       "ru": "оценка / ценность",
-      "en": "grade / value"
+      "en": "grade / value",
+      "examples": [
+        { "id": "Nilai saya bulan ini sangat baik.", "ru": "Мои оценки в этом месяце очень хорошие." },
+        { "id": "Guru memberikan nilai kepada semua siswa.", "ru": "Учитель выставил оценки всем ученикам." },
+        { "id": "Berapa nilai kamu untuk pelajaran ini?", "ru": "Какая у тебя оценка по этому предмету?" }
+      ]
     },
     {
       "id": "ijazah",
       "ru": "диплом",
-      "en": "diploma"
+      "en": "diploma",
+      "examples": [
+        { "id": "Dia sudah mendapat ijazah dari universitas.", "ru": "Он уже получил диплом университета." },
+        { "id": "Ijazah ini diperlukan untuk melamar kerja.", "ru": "Этот диплом нужен для подачи заявления о работе." },
+        { "id": "Saya menyimpan ijazah di tempat aman.", "ru": "Я храню диплом в надёжном месте." }
+      ]
     },
     {
       "id": "gelar",
       "ru": "учёная степень",
-      "en": "degree"
+      "en": "degree",
+      "examples": [
+        { "id": "Dia mendapat gelar sarjana tahun lalu.", "ru": "В прошлом году он получил степень бакалавра." },
+        { "id": "Gelar apa yang kamu inginkan?", "ru": "Какую учёную степень ты хочешь получить?" },
+        { "id": "Gelar doktor memerlukan banyak waktu.", "ru": "Степень доктора требует много времени." }
+      ]
     },
     {
       "id": "beasiswa",
       "ru": "стипендия",
-      "en": "scholarship"
+      "en": "scholarship",
+      "examples": [
+        { "id": "Dia mendapat beasiswa untuk belajar di luar negeri.", "ru": "Он получил стипендию для учёбы за рубежом." },
+        { "id": "Beasiswa ini mencakup biaya kuliah dan biaya hidup.", "ru": "Эта стипендия покрывает плату за обучение и расходы на жизнь." },
+        { "id": "Saya ingin mendaftar beasiswa tahun ini.", "ru": "В этом году я хочу подать заявку на стипендию." }
+      ]
     },
     {
       "id": "tugas rumah",
       "ru": "домашнее задание",
-      "en": "homework"
+      "en": "homework",
+      "examples": [
+        { "id": "Saya harus mengerjakan tugas rumah dulu.", "ru": "Мне сначала нужно сделать домашнее задание." },
+        { "id": "Tugas rumah matematika sangat banyak hari ini.", "ru": "Сегодня очень много домашнего задания по математике." },
+        { "id": "Apakah kamu sudah selesai tugas rumah?", "ru": "Ты уже закончил домашнее задание?" }
+      ]
     },
     {
       "id": "PR",
       "ru": "ДЗ",
-      "en": "homework"
+      "en": "homework",
+      "examples": [
+        { "id": "PR saya belum selesai.", "ru": "Моё ДЗ ещё не готово." },
+        { "id": "Guru memberikan PR setiap hari.", "ru": "Учитель задаёт ДЗ каждый день." },
+        { "id": "Saya mengerjakan PR bersama teman.", "ru": "Я делаю ДЗ вместе с другом." }
+      ]
     },
     {
       "id": "kamus",
       "ru": "словарь",
-      "en": "dictionary"
+      "en": "dictionary",
+      "examples": [
+        { "id": "Saya mencari kata ini di kamus.", "ru": "Я ищу это слово в словаре." },
+        { "id": "Kamus ini sangat tebal.", "ru": "Этот словарь очень толстый." },
+        { "id": "Apakah kamu punya kamus Indonesia-Rusia?", "ru": "У тебя есть индонезийско-русский словарь?" }
+      ]
     },
     {
       "id": "bahasa",
       "ru": "язык",
-      "en": "language"
+      "en": "language",
+      "examples": [
+        { "id": "Saya belajar bahasa Indonesia setiap hari.", "ru": "Я учу индонезийский язык каждый день." },
+        { "id": "Berapa bahasa yang kamu bisa?", "ru": "На скольких языках ты говоришь?" },
+        { "id": "Bahasa Indonesia tidak terlalu sulit.", "ru": "Индонезийский язык не слишком сложный." }
+      ]
     },
     {
       "id": "kata",
       "ru": "слово",
-      "en": "word"
+      "en": "word",
+      "examples": [
+        { "id": "Saya belajar kata baru setiap hari.", "ru": "Я учу новое слово каждый день." },
+        { "id": "Apa arti kata ini?", "ru": "Что означает это слово?" },
+        { "id": "Kata ini sangat penting dalam bahasa Indonesia.", "ru": "Это слово очень важно в индонезийском языке." }
+      ]
     },
     {
       "id": "kalimat",
       "ru": "предложение",
-      "en": "sentence"
+      "en": "sentence",
+      "examples": [
+        { "id": "Tolong buat kalimat dengan kata ini.", "ru": "Пожалуйста, составь предложение с этим словом." },
+        { "id": "Kalimat ini terlalu panjang.", "ru": "Это предложение слишком длинное." },
+        { "id": "Saya menulis kalimat sederhana dalam bahasa Indonesia.", "ru": "Я пишу простое предложение на индонезийском языке." }
+      ]
     },
     {
       "id": "huruf",
       "ru": "буква",
-      "en": "letter"
+      "en": "letter",
+      "examples": [
+        { "id": "Huruf pertama nama saya adalah A.", "ru": "Первая буква моего имени — А." },
+        { "id": "Bahasa Indonesia menggunakan huruf Latin.", "ru": "Индонезийский язык использует латинские буквы." },
+        { "id": "Ada berapa huruf dalam kata ini?", "ru": "Сколько букв в этом слове?" }
+      ]
     },
     {
       "id": "angka",
       "ru": "цифра",
-      "en": "number"
+      "en": "number",
+      "examples": [
+        { "id": "Angka satu sampai sepuluh mudah diingat.", "ru": "Цифры от одного до десяти легко запомнить." },
+        { "id": "Tolong tulis angka itu di papan tulis.", "ru": "Пожалуйста, напиши эту цифру на доске." },
+        { "id": "Angka berapa yang kamu suka?", "ru": "Какая цифра тебе нравится?" }
+      ]
     }
   ]
 }

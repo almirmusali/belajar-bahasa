@@ -7,102 +7,202 @@
     {
       "id": "internet",
       "ru": "интернет",
-      "en": "internet"
+      "en": "internet",
+      "examples": [
+        { "id": "Saya menggunakan internet setiap hari.", "ru": "Я пользуюсь интернетом каждый день." },
+        { "id": "Apakah ada internet di sini?", "ru": "Здесь есть интернет?" },
+        { "id": "Internet di hotel ini sangat cepat.", "ru": "Интернет в этом отеле очень быстрый." }
+      ]
     },
     {
       "id": "wifi",
       "ru": "вайфай",
-      "en": "wifi"
+      "en": "wifi",
+      "examples": [
+        { "id": "Apa kata sandi wifi-nya?", "ru": "Какой пароль от вайфая?" },
+        { "id": "Wifi di kafe ini gratis.", "ru": "Вайфай в этом кафе бесплатный." },
+        { "id": "Saya tidak bisa terhubung ke wifi.", "ru": "Я не могу подключиться к вайфаю." }
+      ]
     },
     {
       "id": "komputer",
       "ru": "компьютер",
-      "en": "computer"
+      "en": "computer",
+      "examples": [
+        { "id": "Saya bekerja dengan komputer setiap hari.", "ru": "Я работаю за компьютером каждый день." },
+        { "id": "Komputer saya rusak.", "ru": "Мой компьютер сломался." },
+        { "id": "Apakah kamu punya komputer di rumah?", "ru": "У тебя дома есть компьютер?" }
+      ]
     },
     {
       "id": "laptop",
       "ru": "ноутбук",
-      "en": "laptop"
+      "en": "laptop",
+      "examples": [
+        { "id": "Saya membawa laptop ke kantor.", "ru": "Я беру ноутбук в офис." },
+        { "id": "Baterai laptop saya habis.", "ru": "Батарея моего ноутбука разрядилась." },
+        { "id": "Laptop ini ringan dan mudah dibawa.", "ru": "Этот ноутбук лёгкий и удобный для переноски." }
+      ]
     },
     {
       "id": "ponsel",
       "ru": "мобильник",
-      "en": "cell phone"
+      "en": "cell phone",
+      "examples": [
+        { "id": "Ponsel saya hilang.", "ru": "Мой мобильник потерялся." },
+        { "id": "Dia selalu melihat ponselnya.", "ru": "Он всегда смотрит в свой мобильник." },
+        { "id": "Ponsel baru ini sangat bagus.", "ru": "Этот новый мобильник очень хороший." }
+      ]
     },
     {
       "id": "hp",
       "ru": "телефон (разг.)",
-      "en": "phone"
+      "en": "phone",
+      "examples": [
+        { "id": "HP saya tidak ada sinyal.", "ru": "На моём телефоне нет сигнала." },
+        { "id": "Tolong charge HP saya.", "ru": "Пожалуйста, зарядите мой телефон." },
+        { "id": "Saya lupa bawa HP.", "ru": "Я забыл взять телефон." }
+      ]
     },
     {
       "id": "telepon",
       "ru": "телефон",
-      "en": "phone"
+      "en": "phone",
+      "examples": [
+        { "id": "Tolong angkat telepon.", "ru": "Пожалуйста, возьми трубку." },
+        { "id": "Nomor telepon saya adalah 081234567890.", "ru": "Мой номер телефона 081234567890." },
+        { "id": "Saya akan telepon kamu nanti.", "ru": "Я позвоню тебе позже." }
+      ]
     },
     {
       "id": "email",
       "ru": "электронная почта",
-      "en": "email"
+      "en": "email",
+      "examples": [
+        { "id": "Tolong kirim email ke saya.", "ru": "Пожалуйста, отправьте мне письмо на электронную почту." },
+        { "id": "Saya sudah menerima email dari kantor.", "ru": "Я уже получил письмо от офиса." },
+        { "id": "Apa alamat email kamu?", "ru": "Какой у тебя адрес электронной почты?" }
+      ]
     },
     {
       "id": "aplikasi",
       "ru": "приложение",
-      "en": "app"
+      "en": "app",
+      "examples": [
+        { "id": "Unduh aplikasi ini di ponsel kamu.", "ru": "Скачай это приложение на свой телефон." },
+        { "id": "Aplikasi ini mudah digunakan.", "ru": "Это приложение лёгкое в использовании." },
+        { "id": "Ada banyak aplikasi gratis di sini.", "ru": "Здесь есть много бесплатных приложений." }
+      ]
     },
     {
       "id": "situs",
       "ru": "сайт",
-      "en": "website"
+      "en": "website",
+      "examples": [
+        { "id": "Buka situs ini untuk informasi lebih lanjut.", "ru": "Откройте этот сайт для получения дополнительной информации." },
+        { "id": "Situs belanja online itu sangat populer.", "ru": "Этот сайт интернет-магазина очень популярный." },
+        { "id": "Saya menemukan informasi itu di situs resmi.", "ru": "Я нашёл эту информацию на официальном сайте." }
+      ]
     },
     {
       "id": "media sosial",
       "ru": "соцсети",
-      "en": "social media"
+      "en": "social media",
+      "examples": [
+        { "id": "Dia aktif di media sosial setiap hari.", "ru": "Он активен в соцсетях каждый день." },
+        { "id": "Jangan percaya semua berita di media sosial.", "ru": "Не верь всем новостям в соцсетях." },
+        { "id": "Saya membagikan foto itu di media sosial.", "ru": "Я поделился этой фотографией в соцсетях." }
+      ]
     },
     {
       "id": "foto",
       "ru": "фото",
-      "en": "photo"
+      "en": "photo",
+      "examples": [
+        { "id": "Boleh saya ambil foto di sini?", "ru": "Можно мне сделать фото здесь?" },
+        { "id": "Foto ini sangat indah.", "ru": "Это фото очень красивое." },
+        { "id": "Saya mengirim foto kepada teman saya.", "ru": "Я отправил фото своему другу." }
+      ]
     },
     {
       "id": "gambar",
       "ru": "картинка",
-      "en": "picture"
+      "en": "picture",
+      "examples": [
+        { "id": "Gambar ini sangat lucu.", "ru": "Эта картинка очень смешная." },
+        { "id": "Dia menggambar gambar yang bagus.", "ru": "Он нарисовал красивую картинку." },
+        { "id": "Tolong kirim gambar itu kepada saya.", "ru": "Пожалуйста, отправь мне эту картинку." }
+      ]
     },
     {
       "id": "video",
       "ru": "видео",
-      "en": "video"
+      "en": "video",
+      "examples": [
+        { "id": "Saya menonton video itu semalam.", "ru": "Я смотрел это видео вчера вечером." },
+        { "id": "Video ini sangat lucu.", "ru": "Это видео очень смешное." },
+        { "id": "Dia membuat video untuk media sosial.", "ru": "Он снимает видео для соцсетей." }
+      ]
     },
     {
       "id": "film",
       "ru": "фильм",
-      "en": "movie"
+      "en": "movie",
+      "examples": [
+        { "id": "Kita nonton film malam ini, yuk!", "ru": "Давай посмотрим фильм сегодня вечером!" },
+        { "id": "Film itu sangat bagus.", "ru": "Этот фильм очень хороший." },
+        { "id": "Apa film favorit kamu?", "ru": "Какой твой любимый фильм?" }
+      ]
     },
     {
       "id": "lagu",
       "ru": "песня",
-      "en": "song"
+      "en": "song",
+      "examples": [
+        { "id": "Saya suka lagu ini.", "ru": "Мне нравится эта песня." },
+        { "id": "Dia menyanyikan lagu dengan suara yang indah.", "ru": "Она поёт песню красивым голосом." },
+        { "id": "Apa judul lagu itu?", "ru": "Как называется эта песня?" }
+      ]
     },
     {
       "id": "musik",
       "ru": "музыка",
-      "en": "music"
+      "en": "music",
+      "examples": [
+        { "id": "Saya mendengarkan musik saat bekerja.", "ru": "Я слушаю музыку во время работы." },
+        { "id": "Musik ini sangat menenangkan.", "ru": "Эта музыка очень успокаивает." },
+        { "id": "Kamu suka musik apa?", "ru": "Какую музыку ты любишь?" }
+      ]
     },
     {
       "id": "berita",
       "ru": "новости",
-      "en": "news"
+      "en": "news",
+      "examples": [
+        { "id": "Saya membaca berita setiap pagi.", "ru": "Я читаю новости каждое утро." },
+        { "id": "Ada berita penting hari ini.", "ru": "Сегодня есть важные новости." },
+        { "id": "Berita itu tidak benar.", "ru": "Эта новость неправда." }
+      ]
     },
     {
       "id": "informasi",
       "ru": "информация",
-      "en": "information"
+      "en": "information",
+      "examples": [
+        { "id": "Saya membutuhkan informasi lebih lanjut.", "ru": "Мне нужна дополнительная информация." },
+        { "id": "Di mana saya bisa mendapatkan informasi itu?", "ru": "Где я могу получить эту информацию?" },
+        { "id": "Informasi ini sangat berguna.", "ru": "Эта информация очень полезная." }
+      ]
     },
     {
       "id": "data",
       "ru": "данные",
-      "en": "data"
+      "en": "data",
+      "examples": [
+        { "id": "Data internet saya habis.", "ru": "У меня закончились мобильные данные." },
+        { "id": "Simpan data penting itu dengan baik.", "ru": "Сохрани эти важные данные хорошенько." },
+        { "id": "Berapa banyak data yang kamu butuhkan?", "ru": "Сколько данных тебе нужно?" }
+      ]
     }
   ]
 }

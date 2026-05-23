@@ -7,367 +7,732 @@
     {
       "id": "makanan",
       "ru": "еда",
-      "en": "food"
+      "en": "food",
+      "examples": [
+        { "id": "Makanan di sini sangat enak.", "ru": "Еда здесь очень вкусная." },
+        { "id": "Saya suka makanan Indonesia.", "ru": "Мне нравится индонезийская еда." },
+        { "id": "Makanan apa yang kamu suka?", "ru": "Какую еду ты любишь?" }
+      ]
     },
     {
       "id": "minuman",
       "ru": "напиток",
-      "en": "drink"
+      "en": "drink",
+      "examples": [
+        { "id": "Minuman apa yang kamu mau?", "ru": "Какой напиток ты хочешь?" },
+        { "id": "Saya pesan minuman dingin.", "ru": "Я заказываю холодный напиток." },
+        { "id": "Minuman ini terlalu manis.", "ru": "Этот напиток слишком сладкий." }
+      ]
     },
     {
       "id": "sarapan",
       "ru": "завтрак",
-      "en": "breakfast"
+      "en": "breakfast",
+      "examples": [
+        { "id": "Saya selalu sarapan setiap pagi.", "ru": "Я всегда завтракаю каждое утро." },
+        { "id": "Apa menu sarapan di hotel ini?", "ru": "Какое меню завтрака в этом отеле?" },
+        { "id": "Sarapan saya adalah nasi goreng.", "ru": "Мой завтрак — жареный рис." }
+      ]
     },
     {
       "id": "makan siang",
       "ru": "обед",
-      "en": "lunch"
+      "en": "lunch",
+      "examples": [
+        { "id": "Kita makan siang jam berapa?", "ru": "В котором часу мы обедаем?" },
+        { "id": "Saya makan siang di kantin.", "ru": "Я обедаю в столовой." },
+        { "id": "Waktu makan siang sudah tiba.", "ru": "Время обеда уже наступило." }
+      ]
     },
     {
       "id": "makan malam",
       "ru": "ужин",
-      "en": "dinner"
+      "en": "dinner",
+      "examples": [
+        { "id": "Mau makan malam di mana?", "ru": "Где хочешь поужинать?" },
+        { "id": "Keluarga kami makan malam bersama.", "ru": "Наша семья ужинает вместе." },
+        { "id": "Saya belum makan malam tadi.", "ru": "Я ещё не ужинал сегодня." }
+      ]
     },
     {
       "id": "makanan ringan",
       "ru": "перекус",
-      "en": "snack"
+      "en": "snack",
+      "examples": [
+        { "id": "Saya beli makanan ringan di minimarket.", "ru": "Я купил перекус в минимаркете." },
+        { "id": "Anak-anak suka makanan ringan.", "ru": "Дети любят перекусы." },
+        { "id": "Makanan ringan ini tidak mahal.", "ru": "Этот перекус недорогой." }
+      ]
     },
     {
       "id": "camilan",
       "ru": "снэк",
-      "en": "snack"
+      "en": "snack",
+      "examples": [
+        { "id": "Ada camilan di meja.", "ru": "На столе есть снэки." },
+        { "id": "Saya makan camilan sambil nonton TV.", "ru": "Я ем снэки, смотря телевизор." },
+        { "id": "Camilan favoritku adalah keripik.", "ru": "Мой любимый снэк — чипсы." }
+      ]
     },
     {
       "id": "nasi",
       "ru": "рис (варёный)",
-      "en": "rice (cooked)"
+      "en": "rice (cooked)",
+      "examples": [
+        { "id": "Nasi sudah matang.", "ru": "Рис уже готов." },
+        { "id": "Saya makan nasi setiap hari.", "ru": "Я ем рис каждый день." },
+        { "id": "Berikan saya satu porsi nasi.", "ru": "Дайте мне одну порцию риса." }
+      ]
     },
     {
       "id": "beras",
       "ru": "рис (сырой)",
-      "en": "rice (uncooked)"
+      "en": "rice (uncooked)",
+      "examples": [
+        { "id": "Tolong beli beras di pasar.", "ru": "Купи, пожалуйста, рис на рынке." },
+        { "id": "Beras ini dari Jawa.", "ru": "Этот рис с Явы." },
+        { "id": "Berapa harga satu kilogram beras?", "ru": "Сколько стоит один килограмм риса?" }
+      ]
     },
     {
       "id": "roti",
       "ru": "хлеб",
-      "en": "bread"
+      "en": "bread",
+      "examples": [
+        { "id": "Saya makan roti untuk sarapan.", "ru": "Я ем хлеб на завтрак." },
+        { "id": "Roti ini masih hangat.", "ru": "Этот хлеб ещё тёплый." },
+        { "id": "Mau roti dengan selai atau mentega?", "ru": "Хочешь хлеб с джемом или маслом?" }
+      ]
     },
     {
       "id": "mie",
       "ru": "лапша",
-      "en": "noodles"
+      "en": "noodles",
+      "examples": [
+        { "id": "Saya masak mie untuk makan malam.", "ru": "Я готовлю лапшу на ужин." },
+        { "id": "Mie ini rasanya gurih.", "ru": "Эта лапша на вкус пряная." },
+        { "id": "Kamu suka mie goreng atau mie rebus?", "ru": "Ты любишь жареную лапшу или варёную?" }
+      ]
     },
     {
       "id": "sup",
       "ru": "суп",
-      "en": "soup"
+      "en": "soup",
+      "examples": [
+        { "id": "Sup ayam ini sangat enak.", "ru": "Куриный суп очень вкусный." },
+        { "id": "Ibu membuat sup untuk makan siang.", "ru": "Мама готовит суп на обед." },
+        { "id": "Saya mau sup yang tidak terlalu pedas.", "ru": "Я хочу суп не слишком острый." }
+      ]
     },
     {
       "id": "sayur",
       "ru": "овощи / суп с овощами",
-      "en": "vegetable"
+      "en": "vegetable",
+      "examples": [
+        { "id": "Saya makan sayur setiap hari.", "ru": "Я ем овощи каждый день." },
+        { "id": "Ibu memasak sayur bayam.", "ru": "Мама готовит суп из шпината." },
+        { "id": "Sayur apa yang ada di warung ini?", "ru": "Какие овощные блюда есть в этой закусочной?" }
+      ]
     },
     {
       "id": "sayuran",
       "ru": "овощи",
-      "en": "vegetables"
+      "en": "vegetables",
+      "examples": [
+        { "id": "Sayuran segar lebih baik untuk kesehatan.", "ru": "Свежие овощи лучше для здоровья." },
+        { "id": "Tolong tambahkan sayuran ke dalam salad.", "ru": "Пожалуйста, добавь овощи в салат." },
+        { "id": "Di pasar banyak sayuran murah.", "ru": "На рынке много дешёвых овощей." }
+      ]
     },
     {
       "id": "buah",
       "ru": "фрукт",
-      "en": "fruit"
+      "en": "fruit",
+      "examples": [
+        { "id": "Saya suka makan buah setiap pagi.", "ru": "Я люблю есть фрукты каждое утро." },
+        { "id": "Buah apa yang sedang musim sekarang?", "ru": "Какие фрукты сейчас в сезоне?" },
+        { "id": "Buah mangga ini sangat manis.", "ru": "Этот плод манго очень сладкий." }
+      ]
     },
     {
       "id": "daging",
       "ru": "мясо",
-      "en": "meat"
+      "en": "meat",
+      "examples": [
+        { "id": "Daging sapi ini masih segar.", "ru": "Это говяжье мясо ещё свежее." },
+        { "id": "Berapa harga daging ayam per kilo?", "ru": "Сколько стоит куриное мясо за килограмм?" },
+        { "id": "Saya tidak makan daging.", "ru": "Я не ем мясо." }
+      ]
     },
     {
       "id": "ikan",
       "ru": "рыба",
-      "en": "fish"
+      "en": "fish",
+      "examples": [
+        { "id": "Ikan bakar ini sangat lezat.", "ru": "Эта жареная рыба очень вкусная." },
+        { "id": "Ayah membeli ikan di pasar.", "ru": "Папа купил рыбу на рынке." },
+        { "id": "Kamu suka ikan atau ayam?", "ru": "Ты предпочитаешь рыбу или курицу?" }
+      ]
     },
     {
       "id": "ayam",
       "ru": "курица / петух",
-      "en": "chicken / rooster"
+      "en": "chicken / rooster",
+      "examples": [
+        { "id": "Ayam goreng adalah makanan favoritku.", "ru": "Жареная курица — моя любимая еда." },
+        { "id": "Saya pesan nasi ayam satu porsi.", "ru": "Я заказываю одну порцию риса с курицей." },
+        { "id": "Ayam di warung ini dimasak dengan bumbu.", "ru": "Курица в этой закусочной приготовлена со специями." }
+      ]
     },
     {
       "id": "sapi",
       "ru": "говядина / корова",
-      "en": "beef / cow"
+      "en": "beef / cow",
+      "examples": [
+        { "id": "Rendang dibuat dari daging sapi.", "ru": "Ренданг делают из говядины." },
+        { "id": "Daging sapi ini perlu dimasak lama.", "ru": "Эту говядину нужно долго готовить." },
+        { "id": "Sate sapi lebih enak dari sate kambing.", "ru": "Говяжий шашлык вкуснее козьего." }
+      ]
     },
     {
       "id": "kambing",
       "ru": "коза / козлятина",
-      "en": "goat"
+      "en": "goat",
+      "examples": [
+        { "id": "Sate kambing sangat populer di sini.", "ru": "Шашлык из козлятины очень популярен здесь." },
+        { "id": "Sup kambing rasanya gurih.", "ru": "Суп из козлятины на вкус пряный." },
+        { "id": "Apakah kamu pernah makan daging kambing?", "ru": "Ты когда-нибудь ел козлятину?" }
+      ]
     },
     {
       "id": "babi",
       "ru": "свинина / свинья",
-      "en": "pork / pig"
+      "en": "pork / pig",
+      "examples": [
+        { "id": "Babi panggang adalah makanan khas Bali.", "ru": "Жареная свинина — фирменное блюдо Бали." },
+        { "id": "Di sini ada menu babi atau tidak?", "ru": "Есть ли здесь блюда из свинины?" },
+        { "id": "Saya tidak makan babi karena agama.", "ru": "Я не ем свинину по религиозным причинам." }
+      ]
     },
     {
       "id": "udang",
       "ru": "креветка",
-      "en": "shrimp"
+      "en": "shrimp",
+      "examples": [
+        { "id": "Udang goreng tepung sangat renyah.", "ru": "Креветки в кляре очень хрустящие." },
+        { "id": "Saya pesan mie dengan udang.", "ru": "Я заказываю лапшу с креветками." },
+        { "id": "Udang segar lebih mahal dari udang beku.", "ru": "Свежие креветки дороже замороженных." }
+      ]
     },
     {
       "id": "cumi",
       "ru": "кальмар",
-      "en": "squid"
+      "en": "squid",
+      "examples": [
+        { "id": "Cumi goreng ini enak sekali.", "ru": "Жареный кальмар очень вкусный." },
+        { "id": "Saya beli cumi segar di pasar ikan.", "ru": "Я купил свежего кальмара на рыбном рынке." },
+        { "id": "Apakah ada menu cumi di restoran ini?", "ru": "Есть ли блюда из кальмара в этом ресторане?" }
+      ]
     },
     {
       "id": "telur",
       "ru": "яйцо",
-      "en": "egg"
+      "en": "egg",
+      "examples": [
+        { "id": "Saya makan telur goreng setiap pagi.", "ru": "Я ем яичницу каждое утро." },
+        { "id": "Berapa harga satu lusin telur?", "ru": "Сколько стоит десяток яиц?" },
+        { "id": "Kamu suka telur rebus atau telur dadar?", "ru": "Ты любишь варёные яйца или омлет?" }
+      ]
     },
     {
       "id": "susu",
       "ru": "молоко",
-      "en": "milk"
+      "en": "milk",
+      "examples": [
+        { "id": "Saya minum susu setiap malam.", "ru": "Я пью молоко каждый вечер." },
+        { "id": "Anak kecil perlu minum susu.", "ru": "Маленьким детям нужно пить молоко." },
+        { "id": "Kopi dengan susu lebih enak.", "ru": "Кофе с молоком вкуснее." }
+      ]
     },
     {
       "id": "keju",
       "ru": "сыр",
-      "en": "cheese"
+      "en": "cheese",
+      "examples": [
+        { "id": "Roti dengan keju sangat lezat.", "ru": "Хлеб с сыром очень вкусный." },
+        { "id": "Saya suka pizza dengan banyak keju.", "ru": "Я люблю пиццу с большим количеством сыра." },
+        { "id": "Ada keju di dalam lemari es.", "ru": "В холодильнике есть сыр." }
+      ]
     },
     {
       "id": "mentega",
       "ru": "сливочное масло",
-      "en": "butter"
+      "en": "butter",
+      "examples": [
+        { "id": "Saya oleskan mentega di atas roti.", "ru": "Я намазываю сливочное масло на хлеб." },
+        { "id": "Kue ini dibuat dengan mentega.", "ru": "Это пирожное сделано со сливочным маслом." },
+        { "id": "Goreng telur dengan mentega lebih enak.", "ru": "Жарить яйца на сливочном масле вкуснее." }
+      ]
     },
     {
       "id": "minyak",
       "ru": "масло (растительное)",
-      "en": "oil"
+      "en": "oil",
+      "examples": [
+        { "id": "Panaskan minyak di dalam wajan.", "ru": "Разогрей масло в сковороде." },
+        { "id": "Saya goreng ayam dengan minyak kelapa.", "ru": "Я жарю курицу на кокосовом масле." },
+        { "id": "Jangan terlalu banyak pakai minyak.", "ru": "Не используй слишком много масла." }
+      ]
     },
     {
       "id": "gula",
       "ru": "сахар",
-      "en": "sugar"
+      "en": "sugar",
+      "examples": [
+        { "id": "Mau berapa sendok gula dalam teh kamu?", "ru": "Сколько ложек сахара ты хочешь в чай?" },
+        { "id": "Gula ini terlalu banyak untuk saya.", "ru": "Этого сахара слишком много для меня." },
+        { "id": "Tolong tambahkan sedikit gula.", "ru": "Пожалуйста, добавь немного сахара." }
+      ]
     },
     {
       "id": "garam",
       "ru": "соль",
-      "en": "salt"
+      "en": "salt",
+      "examples": [
+        { "id": "Masakan ini kurang garam.", "ru": "В этом блюде мало соли." },
+        { "id": "Tambahkan garam sesuai selera.", "ru": "Добавь соль по вкусу." },
+        { "id": "Jangan terlalu banyak makan garam.", "ru": "Не ешь слишком много соли." }
+      ]
     },
     {
       "id": "lada",
       "ru": "перец",
-      "en": "pepper"
+      "en": "pepper",
+      "examples": [
+        { "id": "Tambahkan sedikit lada ke dalam sup.", "ru": "Добавь немного перца в суп." },
+        { "id": "Makanan ini kurang lada.", "ru": "В этом блюде мало перца." },
+        { "id": "Saya suka makanan dengan banyak lada.", "ru": "Я люблю еду с большим количеством перца." }
+      ]
     },
     {
       "id": "merica",
       "ru": "перец (горошком)",
-      "en": "peppercorn"
+      "en": "peppercorn",
+      "examples": [
+        { "id": "Giling merica untuk bumbu masakan.", "ru": "Измельчи перец горошком для приправы." },
+        { "id": "Saya tambahkan merica ke dalam sup.", "ru": "Я добавляю перец горошком в суп." },
+        { "id": "Merica hitam lebih pedas dari merica putih.", "ru": "Чёрный перец горошком острее белого." }
+      ]
     },
     {
       "id": "bumbu",
       "ru": "специи",
-      "en": "spices"
+      "en": "spices",
+      "examples": [
+        { "id": "Masakan Indonesia kaya akan bumbu.", "ru": "Индонезийская кухня богата специями." },
+        { "id": "Ibu membeli bumbu di pasar.", "ru": "Мама покупает специи на рынке." },
+        { "id": "Bumbu apa yang dipakai dalam masakan ini?", "ru": "Какие специи используются в этом блюде?" }
+      ]
     },
     {
       "id": "kecap",
       "ru": "соевый соус",
-      "en": "soy sauce"
+      "en": "soy sauce",
+      "examples": [
+        { "id": "Tambahkan kecap manis ke dalam nasi goreng.", "ru": "Добавь сладкий соевый соус в жареный рис." },
+        { "id": "Sate dimakan dengan kecap dan bumbu kacang.", "ru": "Шашлык едят с соевым соусом и арахисовым соусом." },
+        { "id": "Ada kecap di meja makan.", "ru": "На обеденном столе есть соевый соус." }
+      ]
     },
     {
       "id": "sambal",
       "ru": "острая паста",
-      "en": "chili paste"
+      "en": "chili paste",
+      "examples": [
+        { "id": "Saya makan nasi dengan sambal.", "ru": "Я ем рис с острой пастой." },
+        { "id": "Sambal ini sangat pedas!", "ru": "Эта острая паста очень острая!" },
+        { "id": "Apakah kamu bisa makan sambal?", "ru": "Ты можешь есть острую пасту?" }
+      ]
     },
     {
       "id": "saus",
       "ru": "соус",
-      "en": "sauce"
+      "en": "sauce",
+      "examples": [
+        { "id": "Saya minta saus tomat tambahan.", "ru": "Я прошу дополнительный томатный соус." },
+        { "id": "Saus ini cocok untuk ayam goreng.", "ru": "Этот соус подходит к жареной курице." },
+        { "id": "Ada saus apa di sini?", "ru": "Какие соусы здесь есть?" }
+      ]
     },
     {
       "id": "cuka",
       "ru": "уксус",
-      "en": "vinegar"
+      "en": "vinegar",
+      "examples": [
+        { "id": "Tambahkan sedikit cuka ke dalam salad.", "ru": "Добавь немного уксуса в салат." },
+        { "id": "Cuka membuat makanan terasa segar.", "ru": "Уксус делает еду свежее на вкус." },
+        { "id": "Acar dibuat dari sayuran dan cuka.", "ru": "Маринад делают из овощей и уксуса." }
+      ]
     },
     {
       "id": "tepung",
       "ru": "мука",
-      "en": "flour"
+      "en": "flour",
+      "examples": [
+        { "id": "Saya butuh tepung untuk membuat kue.", "ru": "Мне нужна мука для выпечки." },
+        { "id": "Ayam goreng dibalut dengan tepung.", "ru": "Жареная курица обваливается в муке." },
+        { "id": "Beli tepung terigu di supermarket.", "ru": "Купи пшеничную муку в супермаркете." }
+      ]
     },
     {
       "id": "kue",
       "ru": "пирожное / торт",
-      "en": "cake"
+      "en": "cake",
+      "examples": [
+        { "id": "Ibu membuat kue ulang tahun.", "ru": "Мама готовит торт на день рождения." },
+        { "id": "Kue ini sangat manis dan lembut.", "ru": "Это пирожное очень сладкое и мягкое." },
+        { "id": "Mau beli kue apa di toko itu?", "ru": "Какое пирожное ты хочешь купить в том магазине?" }
+      ]
     },
     {
       "id": "permen",
       "ru": "конфета",
-      "en": "candy"
+      "en": "candy",
+      "examples": [
+        { "id": "Anak-anak suka makan permen.", "ru": "Дети любят есть конфеты." },
+        { "id": "Jangan terlalu banyak makan permen.", "ru": "Не ешь слишком много конфет." },
+        { "id": "Ada permen di dalam tas.", "ru": "В сумке есть конфеты." }
+      ]
     },
     {
       "id": "cokelat",
       "ru": "шоколад / коричневый",
-      "en": "chocolate / brown"
+      "en": "chocolate / brown",
+      "examples": [
+        { "id": "Saya suka minum susu cokelat.", "ru": "Я люблю пить шоколадное молоко." },
+        { "id": "Kue cokelat ini sangat lezat.", "ru": "Этот шоколадный торт очень вкусный." },
+        { "id": "Belikan saya cokelat di toko.", "ru": "Купи мне шоколад в магазине." }
+      ]
     },
     {
       "id": "es krim",
       "ru": "мороженое",
-      "en": "ice cream"
+      "en": "ice cream",
+      "examples": [
+        { "id": "Saya mau es krim rasa vanila.", "ru": "Я хочу мороженое со вкусом ванили." },
+        { "id": "Es krim enak dimakan saat cuaca panas.", "ru": "Мороженое приятно есть в жаркую погоду." },
+        { "id": "Rasa es krim apa yang kamu suka?", "ru": "Какой вкус мороженого ты любишь?" }
+      ]
     },
     {
       "id": "madu",
       "ru": "мёд",
-      "en": "honey"
+      "en": "honey",
+      "examples": [
+        { "id": "Saya tambahkan madu ke dalam teh.", "ru": "Я добавляю мёд в чай." },
+        { "id": "Madu sangat baik untuk kesehatan.", "ru": "Мёд очень полезен для здоровья." },
+        { "id": "Roti dengan madu rasanya manis sekali.", "ru": "Хлеб с мёдом очень сладкий на вкус." }
+      ]
     },
     {
       "id": "selai",
       "ru": "варенье",
-      "en": "jam"
+      "en": "jam",
+      "examples": [
+        { "id": "Saya oleskan selai strawberry di roti.", "ru": "Я намазываю клубничное варенье на хлеб." },
+        { "id": "Ada selai apa di kulkas?", "ru": "Какое варенье есть в холодильнике?" },
+        { "id": "Selai buatan sendiri lebih enak.", "ru": "Домашнее варенье вкуснее." }
+      ]
     },
     {
       "id": "nasi goreng",
       "ru": "жареный рис",
-      "en": "fried rice"
+      "en": "fried rice",
+      "examples": [
+        { "id": "Nasi goreng adalah makanan nasional Indonesia.", "ru": "Жареный рис — национальное блюдо Индонезии." },
+        { "id": "Saya pesan nasi goreng spesial.", "ru": "Я заказываю специальный жареный рис." },
+        { "id": "Nasi goreng biasanya dimakan dengan telur.", "ru": "Жареный рис обычно едят с яйцом." }
+      ]
     },
     {
       "id": "mie goreng",
       "ru": "жареная лапша",
-      "en": "fried noodles"
+      "en": "fried noodles",
+      "examples": [
+        { "id": "Mie goreng Indomie sangat terkenal.", "ru": "Жареная лапша Indomie очень известна." },
+        { "id": "Saya suka mie goreng dengan telur dan sayur.", "ru": "Я люблю жареную лапшу с яйцом и овощами." },
+        { "id": "Apakah mie goreng di sini pedas?", "ru": "Жареная лапша здесь острая?" }
+      ]
     },
     {
       "id": "sate",
       "ru": "шашлычки",
-      "en": "satay"
+      "en": "satay",
+      "examples": [
+        { "id": "Sate ayam dimakan dengan saus kacang.", "ru": "Куриные шашлычки едят с арахисовым соусом." },
+        { "id": "Di mana tempat sate yang paling enak?", "ru": "Где самые вкусные шашлычки?" },
+        { "id": "Saya pesan dua puluh tusuk sate.", "ru": "Я заказываю двадцать шпажек шашлыка." }
+      ]
     },
     {
       "id": "rendang",
       "ru": "ренданг (тушёное мясо)",
-      "en": "rendang"
+      "en": "rendang",
+      "examples": [
+        { "id": "Rendang adalah masakan dari Sumatera Barat.", "ru": "Ренданг — блюдо из Западной Суматры." },
+        { "id": "Rendang dimasak dengan santan dan bumbu.", "ru": "Ренданг готовят с кокосовым молоком и специями." },
+        { "id": "Saya sangat suka rendang dengan nasi.", "ru": "Я очень люблю ренданг с рисом." }
+      ]
     },
     {
       "id": "soto",
       "ru": "сото (суп)",
-      "en": "soto soup"
+      "en": "soto soup",
+      "examples": [
+        { "id": "Soto ayam cocok dimakan saat dingin.", "ru": "Куриный сото хорошо есть в холодную погоду." },
+        { "id": "Soto di sini terkenal sangat enak.", "ru": "Сото здесь знаменит своим вкусом." },
+        { "id": "Saya makan soto dengan nasi atau ketupat.", "ru": "Я ем сото с рисом или рисовыми клёцками." }
+      ]
     },
     {
       "id": "bakso",
       "ru": "бакcо (фрикадельки)",
-      "en": "meatballs"
+      "en": "meatballs",
+      "examples": [
+        { "id": "Bakso dimakan dengan mie dan kuah.", "ru": "Бакco едят с лапшой и бульоном." },
+        { "id": "Ada penjual bakso di depan sekolah.", "ru": "Перед школой есть продавец бакco." },
+        { "id": "Saya suka bakso isi keju.", "ru": "Я люблю бакco с начинкой из сыра." }
+      ]
     },
     {
       "id": "gado-gado",
       "ru": "гадо-гадо (овощной салат)",
-      "en": "gado-gado"
+      "en": "gado-gado",
+      "examples": [
+        { "id": "Gado-gado adalah salad sayur dengan saus kacang.", "ru": "Гадо-гадо — овощной салат с арахисовым соусом." },
+        { "id": "Saya makan gado-gado untuk makan siang.", "ru": "Я ем гадо-гадо на обед." },
+        { "id": "Gado-gado baik untuk vegetarian.", "ru": "Гадо-гадо хорошо подходит для вегетарианцев." }
+      ]
     },
     {
       "id": "rasa",
       "ru": "вкус",
-      "en": "taste"
+      "en": "taste",
+      "examples": [
+        { "id": "Rasa makanan ini sangat enak.", "ru": "Вкус этого блюда очень хороший." },
+        { "id": "Bagaimana rasa sup ini?", "ru": "Каков вкус этого супа?" },
+        { "id": "Saya suka rasa manis dan asam.", "ru": "Мне нравится сладко-кислый вкус." }
+      ]
     },
     {
       "id": "enak",
       "ru": "вкусный",
-      "en": "delicious"
+      "en": "delicious",
+      "examples": [
+        { "id": "Makanan ini enak sekali!", "ru": "Эта еда очень вкусная!" },
+        { "id": "Masakan ibu selalu enak.", "ru": "Мамина готовка всегда вкусная." },
+        { "id": "Apakah minuman ini enak?", "ru": "Этот напиток вкусный?" }
+      ]
     },
     {
       "id": "lezat",
       "ru": "очень вкусный",
-      "en": "tasty"
+      "en": "tasty",
+      "examples": [
+        { "id": "Rendang ini sungguh lezat.", "ru": "Этот ренданг действительно очень вкусный." },
+        { "id": "Semua masakan di restoran ini lezat.", "ru": "Вся еда в этом ресторане очень вкусная." },
+        { "id": "Wow, ini sangat lezat!", "ru": "Вау, это очень вкусно!" }
+      ]
     },
     {
       "id": "sedap",
       "ru": "вкусный",
-      "en": "delicious"
+      "en": "delicious",
+      "examples": [
+        { "id": "Aromanya sangat sedap.", "ru": "Аромат очень аппетитный." },
+        { "id": "Masakan ini terasa sedap.", "ru": "Это блюдо на вкус очень вкусное." },
+        { "id": "Kue buatan nenek selalu sedap.", "ru": "Пирожные, сделанные бабушкой, всегда вкусные." }
+      ]
     },
     {
       "id": "manis",
       "ru": "сладкий",
-      "en": "sweet"
+      "en": "sweet",
+      "examples": [
+        { "id": "Mangga ini sangat manis.", "ru": "Этот манго очень сладкий." },
+        { "id": "Saya suka teh manis.", "ru": "Я люблю сладкий чай." },
+        { "id": "Kue ini terlalu manis untuk saya.", "ru": "Этот торт слишком сладкий для меня." }
+      ]
     },
     {
       "id": "asam",
       "ru": "кислый",
-      "en": "sour"
+      "en": "sour",
+      "examples": [
+        { "id": "Jeruk nipis rasanya asam.", "ru": "Лайм на вкус кислый." },
+        { "id": "Apakah kamu suka makanan asam?", "ru": "Ты любишь кислую еду?" },
+        { "id": "Minuman ini terlalu asam.", "ru": "Этот напиток слишком кислый." }
+      ]
     },
     {
       "id": "asin",
       "ru": "солёный",
-      "en": "salty"
+      "en": "salty",
+      "examples": [
+        { "id": "Masakan ini terlalu asin.", "ru": "Это блюдо слишком солёное." },
+        { "id": "Ikan asin adalah lauk yang murah.", "ru": "Солёная рыба — дешёвый гарнир." },
+        { "id": "Saya tidak suka makanan yang terlalu asin.", "ru": "Мне не нравится слишком солёная еда." }
+      ]
     },
     {
       "id": "pahit",
       "ru": "горький",
-      "en": "bitter"
+      "en": "bitter",
+      "examples": [
+        { "id": "Kopi hitam rasanya pahit.", "ru": "Чёрный кофе горький на вкус." },
+        { "id": "Obat ini sangat pahit.", "ru": "Это лекарство очень горькое." },
+        { "id": "Apakah kamu suka rasa pahit?", "ru": "Ты любишь горький вкус?" }
+      ]
     },
     {
       "id": "pedas",
       "ru": "острый",
-      "en": "spicy"
+      "en": "spicy",
+      "examples": [
+        { "id": "Makanan ini sangat pedas!", "ru": "Эта еда очень острая!" },
+        { "id": "Saya tidak bisa makan makanan pedas.", "ru": "Я не могу есть острую еду." },
+        { "id": "Apakah sambal ini pedas?", "ru": "Эта острая паста острая?" }
+      ]
     },
     {
       "id": "gurih",
       "ru": "пряный / насыщенный",
-      "en": "savory"
+      "en": "savory",
+      "examples": [
+        { "id": "Rendang rasanya sangat gurih.", "ru": "Ренданг очень насыщенный на вкус." },
+        { "id": "Saya suka makanan yang gurih.", "ru": "Я люблю насыщенную пряную еду." },
+        { "id": "Kaldu ayam ini gurih sekali.", "ru": "Этот куриный бульон очень насыщенный." }
+      ]
     },
     {
       "id": "hambar",
       "ru": "пресный",
-      "en": "bland"
+      "en": "bland",
+      "examples": [
+        { "id": "Masakan ini terasa hambar.", "ru": "Это блюдо на вкус пресное." },
+        { "id": "Tambahkan garam agar tidak hambar.", "ru": "Добавь соль, чтобы не было пресно." },
+        { "id": "Makanan tanpa bumbu terasa hambar.", "ru": "Еда без специй на вкус пресная." }
+      ]
     },
     {
       "id": "air",
       "ru": "вода",
-      "en": "water"
+      "en": "water",
+      "examples": [
+        { "id": "Tolong beri saya air.", "ru": "Пожалуйста, дайте мне воды." },
+        { "id": "Saya minum banyak air setiap hari.", "ru": "Я пью много воды каждый день." },
+        { "id": "Air panas atau air dingin?", "ru": "Горячую воду или холодную?" }
+      ]
     },
     {
       "id": "air putih",
       "ru": "питьевая вода",
-      "en": "drinking water"
+      "en": "drinking water",
+      "examples": [
+        { "id": "Saya hanya mau air putih.", "ru": "Я хочу только питьевую воду." },
+        { "id": "Air putih lebih sehat dari soda.", "ru": "Питьевая вода полезнее газировки." },
+        { "id": "Minta satu botol air putih.", "ru": "Попроси одну бутылку питьевой воды." }
+      ]
     },
     {
       "id": "es",
       "ru": "лёд",
-      "en": "ice"
+      "en": "ice",
+      "examples": [
+        { "id": "Minumnya pakai es atau tidak?", "ru": "Напиток со льдом или без?" },
+        { "id": "Saya mau kopi dengan es.", "ru": "Я хочу кофе со льдом." },
+        { "id": "Es di kulkas sudah habis.", "ru": "Лёд в холодильнике закончился." }
+      ]
     },
     {
       "id": "teh",
       "ru": "чай",
-      "en": "tea"
+      "en": "tea",
+      "examples": [
+        { "id": "Saya minum teh setiap pagi.", "ru": "Я пью чай каждое утро." },
+        { "id": "Mau teh panas atau teh dingin?", "ru": "Хочешь горячий чай или холодный?" },
+        { "id": "Teh manis es sangat populer di Indonesia.", "ru": "Холодный сладкий чай очень популярен в Индонезии." }
+      ]
     },
     {
       "id": "kopi",
       "ru": "кофе",
-      "en": "coffee"
+      "en": "coffee",
+      "examples": [
+        { "id": "Saya minum kopi sebelum bekerja.", "ru": "Я пью кофе перед работой." },
+        { "id": "Kopi Indonesia sangat terkenal di dunia.", "ru": "Индонезийский кофе очень известен в мире." },
+        { "id": "Mau kopi hitam atau kopi susu?", "ru": "Хочешь чёрный кофе или кофе с молоком?" }
+      ]
     },
     {
       "id": "jus",
       "ru": "сок",
-      "en": "juice"
+      "en": "juice",
+      "examples": [
+        { "id": "Saya minum jus jeruk setiap pagi.", "ru": "Я пью апельсиновый сок каждое утро." },
+        { "id": "Jus buah segar lebih baik dari jus kemasan.", "ru": "Свежий фруктовый сок лучше пакетированного." },
+        { "id": "Mau pesan jus apa?", "ru": "Какой сок ты хочешь заказать?" }
+      ]
     },
     {
       "id": "bir",
       "ru": "пиво",
-      "en": "beer"
+      "en": "beer",
+      "examples": [
+        { "id": "Mau minum bir dingin?", "ru": "Хочешь выпить холодного пива?" },
+        { "id": "Bir tidak dijual di semua warung.", "ru": "Пиво продаётся не во всех закусочных." },
+        { "id": "Saya tidak minum bir.", "ru": "Я не пью пиво." }
+      ]
     },
     {
       "id": "anggur",
       "ru": "вино / виноград",
-      "en": "wine / grape"
+      "en": "wine / grape",
+      "examples": [
+        { "id": "Saya suka makan buah anggur.", "ru": "Я люблю есть виноград." },
+        { "id": "Anggur merah cocok dengan daging.", "ru": "Красное вино хорошо сочетается с мясом." },
+        { "id": "Di sini ada anggur segar?", "ru": "Здесь есть свежий виноград?" }
+      ]
     },
     {
       "id": "minuman keras",
       "ru": "крепкий алкоголь",
-      "en": "liquor"
+      "en": "liquor",
+      "examples": [
+        { "id": "Minuman keras dilarang di beberapa daerah.", "ru": "Крепкий алкоголь запрещён в некоторых регионах." },
+        { "id": "Jangan minum minuman keras terlalu banyak.", "ru": "Не пей слишком много крепкого алкоголя." },
+        { "id": "Apakah ada minuman keras di sini?", "ru": "Здесь есть крепкий алкоголь?" }
+      ]
     },
     {
       "id": "soda",
       "ru": "газировка",
-      "en": "soda"
+      "en": "soda",
+      "examples": [
+        { "id": "Saya mau soda dingin.", "ru": "Я хочу холодную газировку." },
+        { "id": "Terlalu banyak minum soda tidak baik.", "ru": "Пить слишком много газировки вредно." },
+        { "id": "Anak-anak suka minum soda.", "ru": "Дети любят пить газировку." }
+      ]
     },
     {
       "id": "kelapa muda",
       "ru": "молодой кокос",
-      "en": "young coconut"
+      "en": "young coconut",
+      "examples": [
+        { "id": "Minum kelapa muda sangat menyegarkan.", "ru": "Пить молодой кокос очень освежает." },
+        { "id": "Di pantai banyak penjual kelapa muda.", "ru": "На пляже много продавцов молодого кокоса." },
+        { "id": "Berapa harga satu kelapa muda?", "ru": "Сколько стоит один молодой кокос?" }
+      ]
     }
   ]
 }

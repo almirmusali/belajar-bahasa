@@ -7,112 +7,222 @@
     {
       "id": "uang",
       "ru": "деньги",
-      "en": "money"
+      "en": "money",
+      "examples": [
+        { "id": "Saya tidak punya uang sekarang.", "ru": "У меня сейчас нет денег." },
+        { "id": "Berapa uang yang kamu punya?", "ru": "Сколько у тебя денег?" },
+        { "id": "Uang ini untuk membeli makanan.", "ru": "Эти деньги — на покупку еды." }
+      ]
     },
     {
       "id": "rupiah",
       "ru": "рупия",
-      "en": "rupiah"
+      "en": "rupiah",
+      "examples": [
+        { "id": "Harga tiket itu seratus ribu rupiah.", "ru": "Цена билета — сто тысяч рупий." },
+        { "id": "Saya punya lima puluh ribu rupiah.", "ru": "У меня есть пятьдесят тысяч рупий." },
+        { "id": "Rupiah adalah mata uang Indonesia.", "ru": "Рупия — валюта Индонезии." }
+      ]
     },
     {
       "id": "dolar",
       "ru": "доллар",
-      "en": "dollar"
+      "en": "dollar",
+      "examples": [
+        { "id": "Satu dolar sama dengan berapa rupiah?", "ru": "Один доллар — это сколько рупий?" },
+        { "id": "Dia membayar dengan dolar Amerika.", "ru": "Он заплатил американскими долларами." },
+        { "id": "Harga hotel itu dua ratus dolar per malam.", "ru": "Цена гостиницы — двести долларов за ночь." }
+      ]
     },
     {
       "id": "rubel",
       "ru": "рубль",
-      "en": "ruble"
+      "en": "ruble",
+      "examples": [
+        { "id": "Rubel adalah mata uang Rusia.", "ru": "Рубль — валюта России." },
+        { "id": "Saya ingin menukar rubel ke rupiah.", "ru": "Я хочу обменять рубли на рупии." },
+        { "id": "Berapa kurs rubel hari ini?", "ru": "Какой курс рубля сегодня?" }
+      ]
     },
     {
       "id": "harga",
       "ru": "цена",
-      "en": "price"
+      "en": "price",
+      "examples": [
+        { "id": "Berapa harga baju ini?", "ru": "Сколько стоит эта рубашка?" },
+        { "id": "Harga makanan di sini murah.", "ru": "Цены на еду здесь дешёвые." },
+        { "id": "Harga bensin naik lagi.", "ru": "Цена на бензин снова выросла." }
+      ]
     },
     {
       "id": "diskon",
       "ru": "скидка",
-      "en": "discount"
+      "en": "discount",
+      "examples": [
+        { "id": "Ada diskon dua puluh persen hari ini.", "ru": "Сегодня скидка двадцать процентов." },
+        { "id": "Apakah ada diskon untuk pelajar?", "ru": "Есть ли скидка для студентов?" },
+        { "id": "Saya beli sepatu ini karena ada diskon.", "ru": "Я купил эти туфли, потому что была скидка." }
+      ]
     },
     {
       "id": "gratis",
       "ru": "бесплатно",
-      "en": "free"
+      "en": "free",
+      "examples": [
+        { "id": "Wifi di sini gratis.", "ru": "Wi-Fi здесь бесплатный." },
+        { "id": "Anak di bawah tiga tahun masuk gratis.", "ru": "Дети до трёх лет входят бесплатно." },
+        { "id": "Apakah pengiriman ini gratis?", "ru": "Доставка бесплатная?" }
+      ]
     },
     {
       "id": "mahal",
       "ru": "дорогой",
-      "en": "expensive"
+      "en": "expensive",
+      "examples": [
+        { "id": "Tas itu terlalu mahal.", "ru": "Эта сумка слишком дорогая." },
+        { "id": "Mengapa harganya mahal sekali?", "ru": "Почему цена такая высокая?" },
+        { "id": "Restoran ini mahal, tapi enak.", "ru": "Этот ресторан дорогой, но вкусный." }
+      ]
     },
     {
       "id": "murah",
       "ru": "дешёвый",
-      "en": "cheap"
+      "en": "cheap",
+      "examples": [
+        { "id": "Pasar ini menjual barang murah.", "ru": "На этом рынке продают дешёвые товары." },
+        { "id": "Saya mencari hotel yang murah.", "ru": "Я ищу дешёвую гостиницу." },
+        { "id": "Harga buah di sini murah sekali.", "ru": "Цены на фрукты здесь очень низкие." }
+      ]
     },
     {
       "id": "kaya",
       "ru": "богатый",
-      "en": "rich"
+      "en": "rich",
+      "examples": [
+        { "id": "Dia orang kaya di kota ini.", "ru": "Он богатый человек в этом городе." },
+        { "id": "Saya ingin menjadi kaya suatu hari.", "ru": "Я хочу когда-нибудь стать богатым." },
+        { "id": "Orang kaya itu dermawan sekali.", "ru": "Тот богатый человек очень щедрый." }
+      ]
     },
     {
       "id": "miskin",
       "ru": "бедный",
-      "en": "poor"
+      "en": "poor",
+      "examples": [
+        { "id": "Keluarga itu miskin tapi bahagia.", "ru": "Эта семья бедная, но счастливая." },
+        { "id": "Dulu dia miskin, sekarang sudah kaya.", "ru": "Раньше он был бедным, теперь уже богатый." },
+        { "id": "Pemerintah membantu orang miskin.", "ru": "Правительство помогает бедным людям." }
+      ]
     },
     {
       "id": "untung",
       "ru": "прибыль",
-      "en": "profit"
+      "en": "profit",
+      "examples": [
+        { "id": "Toko ini mendapat untung besar bulan ini.", "ru": "Этот магазин получил большую прибыль в этом месяце." },
+        { "id": "Berapa untung yang kamu dapat?", "ru": "Какую прибыль ты получил?" },
+        { "id": "Jualan online bisa memberi untung.", "ru": "Продажи онлайн могут приносить прибыль." }
+      ]
     },
     {
       "id": "rugi",
       "ru": "убыток",
-      "en": "loss"
+      "en": "loss",
+      "examples": [
+        { "id": "Bisnis itu rugi tahun lalu.", "ru": "Этот бизнес был в убытке в прошлом году." },
+        { "id": "Saya rugi karena harga turun.", "ru": "Я понёс убыток из-за падения цен." },
+        { "id": "Jangan sampai rugi banyak.", "ru": "Не допусти больших убытков." }
+      ]
     },
     {
       "id": "kartu kredit",
       "ru": "кредитка",
-      "en": "credit card"
+      "en": "credit card",
+      "examples": [
+        { "id": "Apakah bisa bayar dengan kartu kredit?", "ru": "Можно оплатить кредитной картой?" },
+        { "id": "Saya lupa membawa kartu kredit.", "ru": "Я забыл взять кредитную карту." },
+        { "id": "Kartu kredit saya habis limitnya.", "ru": "У моей кредитной карты закончился лимит." }
+      ]
     },
     {
       "id": "rekening",
       "ru": "счёт (в банке)",
-      "en": "account"
+      "en": "account",
+      "examples": [
+        { "id": "Saya ingin membuka rekening baru.", "ru": "Я хочу открыть новый счёт." },
+        { "id": "Berapa saldo di rekening kamu?", "ru": "Какой баланс у тебя на счёте?" },
+        { "id": "Uang itu sudah masuk ke rekening saya.", "ru": "Деньги уже поступили на мой счёт." }
+      ]
     },
     {
       "id": "transfer",
       "ru": "перевод",
-      "en": "transfer"
+      "en": "transfer",
+      "examples": [
+        { "id": "Saya sudah transfer uangnya tadi.", "ru": "Я уже перевёл деньги." },
+        { "id": "Tolong transfer ke nomor rekening ini.", "ru": "Пожалуйста, переведи на этот номер счёта." },
+        { "id": "Transfer bank biasanya cepat.", "ru": "Банковский перевод обычно быстрый." }
+      ]
     },
     {
       "id": "tunai",
       "ru": "наличные",
-      "en": "cash"
+      "en": "cash",
+      "examples": [
+        { "id": "Saya bayar tunai saja.", "ru": "Я заплачу наличными." },
+        { "id": "Apakah ada diskon kalau bayar tunai?", "ru": "Есть ли скидка при оплате наличными?" },
+        { "id": "Toko itu hanya menerima tunai.", "ru": "Тот магазин принимает только наличные." }
+      ]
     },
     {
       "id": "kembalian",
       "ru": "сдача",
-      "en": "change"
+      "en": "change",
+      "examples": [
+        { "id": "Kembaliannya kurang seribu rupiah.", "ru": "Сдача не хватает тысячу рупий." },
+        { "id": "Maaf, tidak ada kembalian.", "ru": "Извините, сдачи нет." },
+        { "id": "Tolong kembaliannya jangan lupa.", "ru": "Пожалуйста, не забудьте дать сдачу." }
+      ]
     },
     {
       "id": "kuitansi",
       "ru": "квитанция",
-      "en": "receipt"
+      "en": "receipt",
+      "examples": [
+        { "id": "Boleh minta kuitansinya?", "ru": "Можно попросить квитанцию?" },
+        { "id": "Simpan kuitansi ini untuk klaim.", "ru": "Сохрани эту квитанцию для возврата." },
+        { "id": "Kuitansi sudah saya email ke kamu.", "ru": "Я уже отправил квитанцию тебе на почту." }
+      ]
     },
     {
       "id": "pajak",
       "ru": "налог",
-      "en": "tax"
+      "en": "tax",
+      "examples": [
+        { "id": "Harga ini sudah termasuk pajak.", "ru": "Эта цена уже включает налог." },
+        { "id": "Pajak penghasilan harus dibayar setiap tahun.", "ru": "Подоходный налог нужно платить каждый год." },
+        { "id": "Berapa persen pajaknya?", "ru": "Сколько процентов составляет налог?" }
+      ]
     },
     {
       "id": "hutang",
       "ru": "долг",
-      "en": "debt"
+      "en": "debt",
+      "examples": [
+        { "id": "Saya punya hutang ke teman.", "ru": "У меня есть долг перед другом." },
+        { "id": "Dia belum melunasi hutangnya.", "ru": "Он ещё не погасил свой долг." },
+        { "id": "Jangan suka berhutang.", "ru": "Не стоит часто залезать в долги." }
+      ]
     },
     {
       "id": "pinjaman",
       "ru": "займ",
-      "en": "loan"
+      "en": "loan",
+      "examples": [
+        { "id": "Saya mengajukan pinjaman ke bank.", "ru": "Я подал заявку на займ в банке." },
+        { "id": "Pinjaman ini harus dibayar dalam dua tahun.", "ru": "Этот займ нужно погасить за два года." },
+        { "id": "Bunga pinjaman di bank itu rendah.", "ru": "Процентная ставка по займу в том банке низкая." }
+      ]
     }
   ]
 }

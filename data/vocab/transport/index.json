@@ -7,142 +7,282 @@
     {
       "id": "kendaraan",
       "ru": "транспортное средство",
-      "en": "vehicle"
+      "en": "vehicle",
+      "examples": [
+        { "id": "Kendaraan itu sangat cepat.", "ru": "Это транспортное средство очень быстрое." },
+        { "id": "Ada banyak kendaraan di jalan.", "ru": "На дороге много транспортных средств." },
+        { "id": "Saya tidak punya kendaraan sendiri.", "ru": "У меня нет собственного транспортного средства." }
+      ]
     },
     {
       "id": "mobil",
       "ru": "машина",
-      "en": "car"
+      "en": "car",
+      "examples": [
+        { "id": "Saya pergi ke kantor dengan mobil.", "ru": "Я езжу на работу на машине." },
+        { "id": "Mobil ayah saya berwarna hitam.", "ru": "Машина моего папы чёрного цвета." },
+        { "id": "Apakah kamu punya mobil?", "ru": "У тебя есть машина?" }
+      ]
     },
     {
       "id": "motor",
       "ru": "мотоцикл",
-      "en": "motorbike"
+      "en": "motorbike",
+      "examples": [
+        { "id": "Dia naik motor ke sekolah.", "ru": "Он едет в школу на мотоцикле." },
+        { "id": "Motor saya rusak hari ini.", "ru": "Сегодня мой мотоцикл сломался." },
+        { "id": "Naik motor lebih cepat saat macet.", "ru": "Ехать на мотоцикле быстрее в пробке." }
+      ]
     },
     {
       "id": "sepeda",
       "ru": "велосипед",
-      "en": "bicycle"
+      "en": "bicycle",
+      "examples": [
+        { "id": "Saya suka bersepeda di pagi hari.", "ru": "Я люблю кататься на велосипеде по утрам." },
+        { "id": "Anak itu belajar naik sepeda.", "ru": "Этот ребёнок учится ездить на велосипеде." },
+        { "id": "Sepeda saya ada di garasi.", "ru": "Мой велосипед в гараже." }
+      ]
     },
     {
       "id": "bus",
       "ru": "автобус",
-      "en": "bus"
+      "en": "bus",
+      "examples": [
+        { "id": "Saya naik bus ke pusat kota.", "ru": "Я еду в центр города на автобусе." },
+        { "id": "Bus ini penuh dengan penumpang.", "ru": "Этот автобус полон пассажирами." },
+        { "id": "Bus datang setiap sepuluh menit.", "ru": "Автобус приходит каждые десять минут." }
+      ]
     },
     {
       "id": "kereta api",
       "ru": "поезд",
-      "en": "train"
+      "en": "train",
+      "examples": [
+        { "id": "Kami pergi ke Surabaya dengan kereta api.", "ru": "Мы едем в Сурабаю на поезде." },
+        { "id": "Kereta api berangkat pukul delapan.", "ru": "Поезд отправляется в восемь часов." },
+        { "id": "Tiket kereta api sudah saya beli.", "ru": "Я уже купил билет на поезд." }
+      ]
     },
     {
       "id": "pesawat",
       "ru": "самолёт",
-      "en": "airplane"
+      "en": "airplane",
+      "examples": [
+        { "id": "Pesawat terbang di atas awan.", "ru": "Самолёт летит над облаками." },
+        { "id": "Saya takut naik pesawat.", "ru": "Я боюсь летать на самолёте." },
+        { "id": "Pesawat kami tiba tepat waktu.", "ru": "Наш самолёт прилетел вовремя." }
+      ]
     },
     {
       "id": "kapal",
       "ru": "корабль",
-      "en": "ship"
+      "en": "ship",
+      "examples": [
+        { "id": "Kapal itu berlayar ke pulau lain.", "ru": "Этот корабль плывёт на другой остров." },
+        { "id": "Kami menyeberang dengan kapal feri.", "ru": "Мы переправляемся на пароме." },
+        { "id": "Kapal besar itu membawa banyak barang.", "ru": "Этот большой корабль везёт много грузов." }
+      ]
     },
     {
       "id": "perahu",
       "ru": "лодка",
-      "en": "boat"
+      "en": "boat",
+      "examples": [
+        { "id": "Nelayan itu pergi melaut dengan perahu.", "ru": "Рыбак выходит в море на лодке." },
+        { "id": "Kami naik perahu di sungai.", "ru": "Мы плывём на лодке по реке." },
+        { "id": "Perahu itu kecil tapi cepat.", "ru": "Эта лодка маленькая, но быстрая." }
+      ]
     },
     {
       "id": "taksi",
       "ru": "такси",
-      "en": "taxi"
+      "en": "taxi",
+      "examples": [
+        { "id": "Tolong panggil taksi untuk saya.", "ru": "Пожалуйста, вызови мне такси." },
+        { "id": "Saya pesan taksi lewat aplikasi.", "ru": "Я заказал такси через приложение." },
+        { "id": "Berapa ongkos taksi ke bandara?", "ru": "Сколько стоит такси до аэропорта?" }
+      ]
     },
     {
       "id": "ojek",
       "ru": "мототакси",
-      "en": "motorbike taxi"
+      "en": "motorbike taxi",
+      "examples": [
+        { "id": "Saya naik ojek karena lebih murah.", "ru": "Я еду на мототакси, потому что это дешевле." },
+        { "id": "Ojek online sangat populer di Indonesia.", "ru": "Мототакси-онлайн очень популярны в Индонезии." },
+        { "id": "Abang ojek itu membawa helm untuk saya.", "ru": "Водитель мототакси привёз мне шлем." }
+      ]
     },
     {
       "id": "becak",
       "ru": "велорикша",
-      "en": "pedicab"
+      "en": "pedicab",
+      "examples": [
+        { "id": "Kami naik becak keliling kota tua.", "ru": "Мы ехали на велорикше вокруг старого города." },
+        { "id": "Becak adalah transportasi tradisional Indonesia.", "ru": "Велорикша — это традиционный транспорт Индонезии." },
+        { "id": "Bapak tua itu mengemudi becak setiap hari.", "ru": "Этот пожилой мужчина каждый день управляет велорикшей." }
+      ]
     },
     {
       "id": "truk",
       "ru": "грузовик",
-      "en": "truck"
+      "en": "truck",
+      "examples": [
+        { "id": "Truk itu membawa sayuran dari desa.", "ru": "Этот грузовик везёт овощи из деревни." },
+        { "id": "Jalan ini tidak boleh dilalui truk besar.", "ru": "По этой дороге нельзя ездить большим грузовикам." },
+        { "id": "Sopir truk beristirahat di pinggir jalan.", "ru": "Водитель грузовика отдыхает у обочины дороги." }
+      ]
     },
     {
       "id": "sopir",
       "ru": "водитель",
-      "en": "driver"
+      "en": "driver",
+      "examples": [
+        { "id": "Sopir bus itu sangat ramah.", "ru": "Водитель автобуса очень дружелюбный." },
+        { "id": "Kakak saya bekerja sebagai sopir taksi.", "ru": "Мой старший брат работает водителем такси." },
+        { "id": "Sopir itu mengemudi dengan hati-hati.", "ru": "Водитель ехал осторожно." }
+      ]
     },
     {
       "id": "penumpang",
       "ru": "пассажир",
-      "en": "passenger"
+      "en": "passenger",
+      "examples": [
+        { "id": "Penumpang bus harus membeli tiket dulu.", "ru": "Пассажиры автобуса должны сначала купить билет." },
+        { "id": "Ada banyak penumpang di stasiun.", "ru": "На вокзале много пассажиров." },
+        { "id": "Penumpang diminta untuk mengenakan sabuk pengaman.", "ru": "Пассажиров просят пристегнуть ремень безопасности." }
+      ]
     },
     {
       "id": "tiket",
       "ru": "билет",
-      "en": "ticket"
+      "en": "ticket",
+      "examples": [
+        { "id": "Saya sudah membeli tiket pesawat.", "ru": "Я уже купил билет на самолёт." },
+        { "id": "Berapa harga tiket bus ke Bandung?", "ru": "Сколько стоит билет на автобус до Бандунга?" },
+        { "id": "Tolong tunjukkan tiket Anda kepada petugas.", "ru": "Пожалуйста, покажите ваш билет сотруднику." }
+      ]
     },
     {
       "id": "perjalanan",
       "ru": "поездка / путешествие",
-      "en": "trip"
+      "en": "trip",
+      "examples": [
+        { "id": "Perjalanan dari Jakarta ke Bali memakan waktu dua jam.", "ru": "Поездка из Джакарты на Бали занимает два часа." },
+        { "id": "Semoga perjalanan Anda menyenangkan.", "ru": "Желаю вам приятного путешествия." },
+        { "id": "Ini adalah perjalanan pertama saya ke luar negeri.", "ru": "Это моя первая поездка за границу." }
+      ]
     },
     {
       "id": "liburan",
       "ru": "отпуск / каникулы",
-      "en": "vacation"
+      "en": "vacation",
+      "examples": [
+        { "id": "Kami pergi ke Bali saat liburan.", "ru": "Мы поехали на Бали во время отпуска." },
+        { "id": "Liburan sekolah dimulai bulan depan.", "ru": "Школьные каникулы начинаются в следующем месяце." },
+        { "id": "Saya berencana berlibur ke Eropa tahun ini.", "ru": "В этом году я планирую поехать в отпуск в Европу." }
+      ]
     },
     {
       "id": "wisata",
       "ru": "туризм",
-      "en": "tourism"
+      "en": "tourism",
+      "examples": [
+        { "id": "Bali terkenal dengan wisata alam dan budayanya.", "ru": "Бали известен своим природным и культурным туризмом." },
+        { "id": "Wisata kuliner sangat populer di kota ini.", "ru": "Гастрономический туризм очень популярен в этом городе." },
+        { "id": "Pemerintah mendukung pengembangan wisata lokal.", "ru": "Правительство поддерживает развитие местного туризма." }
+      ]
     },
     {
       "id": "turis",
       "ru": "турист",
-      "en": "tourist"
+      "en": "tourist",
+      "examples": [
+        { "id": "Banyak turis asing mengunjungi Bali setiap tahun.", "ru": "Каждый год Бали посещают многие иностранные туристы." },
+        { "id": "Turis itu bertanya tentang jalan ke museum.", "ru": "Турист спросил дорогу до музея." },
+        { "id": "Saya merasa seperti turis di kota sendiri.", "ru": "Я чувствую себя туристом в собственном городе." }
+      ]
     },
     {
       "id": "peta",
       "ru": "карта",
-      "en": "map"
+      "en": "map",
+      "examples": [
+        { "id": "Saya menggunakan peta untuk menemukan jalan.", "ru": "Я использую карту, чтобы найти дорогу." },
+        { "id": "Apakah kamu punya peta kota ini?", "ru": "У тебя есть карта этого города?" },
+        { "id": "Peta di ponsel saya tidak berfungsi.", "ru": "Карта на моём телефоне не работает." }
+      ]
     },
     {
       "id": "koper",
       "ru": "чемодан",
-      "en": "suitcase"
+      "en": "suitcase",
+      "examples": [
+        { "id": "Koper saya terlalu berat.", "ru": "Мой чемодан слишком тяжёлый." },
+        { "id": "Tolong angkat koper ini untuk saya.", "ru": "Пожалуйста, поднимите этот чемодан для меня." },
+        { "id": "Saya membeli koper baru untuk liburan.", "ru": "Я купил новый чемодан для отпуска." }
+      ]
     },
     {
       "id": "paspor",
       "ru": "паспорт",
-      "en": "passport"
+      "en": "passport",
+      "examples": [
+        { "id": "Jangan lupa membawa paspor Anda.", "ru": "Не забудьте взять свой паспорт." },
+        { "id": "Paspor saya berlaku sampai tahun depan.", "ru": "Мой паспорт действителен до следующего года." },
+        { "id": "Petugas imigrasi memeriksa paspor saya.", "ru": "Сотрудник иммиграционной службы проверил мой паспорт." }
+      ]
     },
     {
       "id": "visa",
       "ru": "виза",
-      "en": "visa"
+      "en": "visa",
+      "examples": [
+        { "id": "Saya perlu mengurus visa sebelum berangkat.", "ru": "Мне нужно оформить визу перед отъездом." },
+        { "id": "Visa turis berlaku selama tiga puluh hari.", "ru": "Туристическая виза действительна тридцать дней." },
+        { "id": "Di mana saya bisa mengajukan permohonan visa?", "ru": "Где я могу подать заявление на визу?" }
+      ]
     },
     {
       "id": "bahan bakar",
       "ru": "топливо",
-      "en": "fuel"
+      "en": "fuel",
+      "examples": [
+        { "id": "Bahan bakar pesawat sangat mahal.", "ru": "Топливо для самолётов очень дорогое." },
+        { "id": "Mobil ini hemat bahan bakar.", "ru": "Эта машина экономно расходует топливо." },
+        { "id": "Kita harus mengisi bahan bakar sebelum berangkat.", "ru": "Нам нужно заправиться перед отъездом." }
+      ]
     },
     {
       "id": "bensin",
       "ru": "бензин",
-      "en": "gasoline"
+      "en": "gasoline",
+      "examples": [
+        { "id": "Bensin hampir habis, kita harus isi ulang.", "ru": "Бензин почти кончился, нам нужно заправиться." },
+        { "id": "Harga bensin naik minggu ini.", "ru": "На этой неделе цена на бензин выросла." },
+        { "id": "Pom bensin terdekat ada di mana?", "ru": "Где ближайшая бензозаправка?" }
+      ]
     },
     {
       "id": "parkir",
       "ru": "парковка",
-      "en": "parking"
+      "en": "parking",
+      "examples": [
+        { "id": "Sulit mencari parkir di pusat kota.", "ru": "В центре города трудно найти парковку." },
+        { "id": "Biaya parkir di sini dua ribu rupiah per jam.", "ru": "Стоимость парковки здесь две тысячи рупий в час." },
+        { "id": "Saya memarkir mobil di depan toko.", "ru": "Я припарковал машину перед магазином." }
+      ]
     },
     {
       "id": "macet",
       "ru": "пробка",
-      "en": "traffic jam"
+      "en": "traffic jam",
+      "examples": [
+        { "id": "Jakarta terkenal dengan kemacetan yang parah.", "ru": "Джакарта известна своими серьёзными пробками." },
+        { "id": "Saya terlambat karena macet di jalan.", "ru": "Я опоздал из-за пробки на дороге." },
+        { "id": "Macet biasanya terjadi pada jam sibuk.", "ru": "Пробки обычно бывают в часы пик." }
+      ]
     }
   ]
 }

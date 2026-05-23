@@ -7,107 +7,212 @@
     {
       "id": "agama",
       "ru": "религия",
-      "en": "religion"
+      "en": "religion",
+      "examples": [
+        { "id": "Apa agama kamu?", "ru": "Какая у тебя религия?" },
+        { "id": "Di Indonesia ada banyak agama.", "ru": "В Индонезии много религий." },
+        { "id": "Agama Islam adalah agama mayoritas di sini.", "ru": "Ислам — религия большинства здесь." }
+      ]
     },
     {
       "id": "Tuhan",
       "ru": "Бог",
-      "en": "God"
+      "en": "God",
+      "examples": [
+        { "id": "Saya percaya kepada Tuhan.", "ru": "Я верю в Бога." },
+        { "id": "Mereka berdoa kepada Tuhan setiap hari.", "ru": "Они молятся Богу каждый день." },
+        { "id": "Tuhan itu Maha Esa.", "ru": "Бог един." }
+      ]
     },
     {
       "id": "doa",
       "ru": "молитва",
-      "en": "prayer"
+      "en": "prayer",
+      "examples": [
+        { "id": "Dia membaca doa sebelum makan.", "ru": "Он читает молитву перед едой." },
+        { "id": "Doa itu sangat penting dalam agama.", "ru": "Молитва очень важна в религии." },
+        { "id": "Ibu mengajarkan doa kepada anaknya.", "ru": "Мама учит ребёнка молитве." }
+      ]
     },
     {
       "id": "berdoa",
       "ru": "молиться",
-      "en": "to pray"
+      "en": "to pray",
+      "examples": [
+        { "id": "Saya berdoa setiap malam.", "ru": "Я молюсь каждый вечер." },
+        { "id": "Mereka berdoa di masjid.", "ru": "Они молятся в мечети." },
+        { "id": "Mari kita berdoa bersama.", "ru": "Давайте помолимся вместе." }
+      ]
     },
     {
       "id": "puasa",
       "ru": "пост",
-      "en": "fasting"
+      "en": "fasting",
+      "examples": [
+        { "id": "Bulan Ramadan adalah waktu puasa.", "ru": "Месяц Рамадан — время поста." },
+        { "id": "Dia sedang puasa hari ini.", "ru": "Он сегодня постится." },
+        { "id": "Puasa berlangsung selama satu bulan.", "ru": "Пост длится один месяц." }
+      ]
     },
     {
       "id": "Islam",
       "ru": "ислам",
-      "en": "Islam"
+      "en": "Islam",
+      "examples": [
+        { "id": "Islam adalah agama yang besar di dunia.", "ru": "Ислам — крупная мировая религия." },
+        { "id": "Dia memeluk agama Islam.", "ru": "Он исповедует ислам." },
+        { "id": "Di Indonesia, banyak orang beragama Islam.", "ru": "В Индонезии много мусульман." }
+      ]
     },
     {
       "id": "Kristen",
       "ru": "христианство",
-      "en": "Christianity"
+      "en": "Christianity",
+      "examples": [
+        { "id": "Teman saya beragama Kristen.", "ru": "Мой друг — христианин." },
+        { "id": "Kristen juga ada di Indonesia.", "ru": "Христианство тоже есть в Индонезии." },
+        { "id": "Gereja adalah tempat ibadah orang Kristen.", "ru": "Церковь — место молитвы христиан." }
+      ]
     },
     {
       "id": "Hindu",
       "ru": "индуизм",
-      "en": "Hinduism"
+      "en": "Hinduism",
+      "examples": [
+        { "id": "Orang Bali banyak yang beragama Hindu.", "ru": "Многие жители Бали исповедуют индуизм." },
+        { "id": "Hindu adalah agama yang sangat tua.", "ru": "Индуизм — очень древняя религия." },
+        { "id": "Dia belajar tentang agama Hindu.", "ru": "Он изучает индуизм." }
+      ]
     },
     {
       "id": "Buddha",
       "ru": "буддизм",
-      "en": "Buddhism"
+      "en": "Buddhism",
+      "examples": [
+        { "id": "Buddha mengajarkan kedamaian.", "ru": "Буддизм учит миру." },
+        { "id": "Ada kuil Buddha di kota ini.", "ru": "В этом городе есть буддийский храм." },
+        { "id": "Dia mengikuti ajaran Buddha.", "ru": "Он следует учению буддизма." }
+      ]
     },
     {
       "id": "selamat hari raya",
       "ru": "с праздником",
-      "en": "happy holiday"
+      "en": "happy holiday",
+      "examples": [
+        { "id": "Selamat hari raya Idul Fitri!", "ru": "С праздником Ид аль-Фитр!" },
+        { "id": "Saya mengucapkan selamat hari raya kepada semua.", "ru": "Я поздравляю всех с праздником." },
+        { "id": "Selamat hari raya, semoga bahagia!", "ru": "С праздником, желаю счастья!" }
+      ]
     },
     {
       "id": "Lebaran",
       "ru": "Лебаран (Ид аль-Фитр)",
-      "en": "Eid al-Fitr"
+      "en": "Eid al-Fitr",
+      "examples": [
+        { "id": "Lebaran adalah hari raya paling penting bagi umat Islam.", "ru": "Лебаран — самый важный праздник для мусульман." },
+        { "id": "Kami berkumpul bersama keluarga saat Lebaran.", "ru": "На Лебаран мы собираемся всей семьёй." },
+        { "id": "Anak-anak mendapat uang saat Lebaran.", "ru": "На Лебаран дети получают деньги." }
+      ]
     },
     {
       "id": "Natal",
       "ru": "Рождество",
-      "en": "Christmas"
+      "en": "Christmas",
+      "examples": [
+        { "id": "Selamat Natal!", "ru": "С Рождеством!" },
+        { "id": "Kami merayakan Natal bersama keluarga.", "ru": "Мы отмечаем Рождество с семьёй." },
+        { "id": "Natal dirayakan setiap tanggal 25 Desember.", "ru": "Рождество отмечают 25 декабря." }
+      ]
     },
     {
       "id": "Tahun Baru",
       "ru": "Новый год",
-      "en": "New Year"
+      "en": "New Year",
+      "examples": [
+        { "id": "Selamat Tahun Baru!", "ru": "С Новым годом!" },
+        { "id": "Kami menonton kembang api saat Tahun Baru.", "ru": "На Новый год мы смотрим фейерверки." },
+        { "id": "Tahun Baru dirayakan pada tanggal 1 Januari.", "ru": "Новый год отмечают 1 января." }
+      ]
     },
     {
       "id": "hari libur",
       "ru": "выходной / праздник",
-      "en": "holiday"
+      "en": "holiday",
+      "examples": [
+        { "id": "Besok adalah hari libur nasional.", "ru": "Завтра государственный праздник." },
+        { "id": "Saya tidak bekerja karena hari libur.", "ru": "Я не работаю, потому что выходной." },
+        { "id": "Apa rencana kamu di hari libur?", "ru": "Какие у тебя планы на выходной?" }
+      ]
     },
     {
       "id": "pesta",
       "ru": "вечеринка",
-      "en": "party"
+      "en": "party",
+      "examples": [
+        { "id": "Kami mengadakan pesta ulang tahun.", "ru": "Мы устраиваем вечеринку по случаю дня рождения." },
+        { "id": "Apakah kamu mau datang ke pesta saya?", "ru": "Ты придёшь на мою вечеринку?" },
+        { "id": "Pesta itu sangat meriah.", "ru": "Вечеринка была очень весёлой." }
+      ]
     },
     {
       "id": "ulang tahun",
       "ru": "день рождения",
-      "en": "birthday"
+      "en": "birthday",
+      "examples": [
+        { "id": "Selamat ulang tahun!", "ru": "С днём рождения!" },
+        { "id": "Hari ini ulang tahun saya.", "ru": "Сегодня мой день рождения." },
+        { "id": "Dia merayakan ulang tahun yang ke-20.", "ru": "Он отмечает своё 20-летие." }
+      ]
     },
     {
       "id": "hadiah",
       "ru": "подарок",
-      "en": "gift"
+      "en": "gift",
+      "examples": [
+        { "id": "Saya membeli hadiah untuk teman saya.", "ru": "Я купил подарок для друга." },
+        { "id": "Terima kasih atas hadiah yang indah ini.", "ru": "Спасибо за этот прекрасный подарок." },
+        { "id": "Dia memberi hadiah kepada ibunya.", "ru": "Он подарил маме подарок." }
+      ]
     },
     {
       "id": "kado",
       "ru": "подарок",
-      "en": "gift"
+      "en": "gift",
+      "examples": [
+        { "id": "Saya sudah membungkus kado untuk dia.", "ru": "Я уже завернул подарок для неё." },
+        { "id": "Kado apa yang bagus untuk ulang tahun?", "ru": "Какой подарок хорош на день рождения?" },
+        { "id": "Anak-anak senang menerima kado.", "ru": "Дети рады получать подарки." }
+      ]
     },
     {
       "id": "kue ulang tahun",
       "ru": "праздничный торт",
-      "en": "birthday cake"
+      "en": "birthday cake",
+      "examples": [
+        { "id": "Ibu membuat kue ulang tahun untuk saya.", "ru": "Мама испекла мне праздничный торт." },
+        { "id": "Kue ulang tahun itu sangat enak.", "ru": "Праздничный торт был очень вкусным." },
+        { "id": "Di atas kue ulang tahun ada lilin.", "ru": "На торте стоят свечи." }
+      ]
     },
     {
       "id": "lilin",
       "ru": "свеча",
-      "en": "candle"
+      "en": "candle",
+      "examples": [
+        { "id": "Tiup lilinnya sekarang!", "ru": "Задуй свечи сейчас!" },
+        { "id": "Ada sepuluh lilin di kue itu.", "ru": "На торте десять свечей." },
+        { "id": "Lilin itu menyala di meja.", "ru": "Свеча горит на столе." }
+      ]
     },
     {
       "id": "balon",
       "ru": "воздушный шар",
-      "en": "balloon"
+      "en": "balloon",
+      "examples": [
+        { "id": "Anak-anak bermain dengan balon.", "ru": "Дети играют с воздушными шарами." },
+        { "id": "Ruangan itu dihiasi dengan banyak balon.", "ru": "Комната украшена множеством воздушных шаров." },
+        { "id": "Balon merah itu terbang ke atas.", "ru": "Красный воздушный шар улетел вверх." }
+      ]
     }
   ]
 }

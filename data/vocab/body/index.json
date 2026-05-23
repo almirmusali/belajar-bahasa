@@ -7,262 +7,522 @@
     {
       "id": "tubuh",
       "ru": "тело",
-      "en": "body"
+      "en": "body",
+      "examples": [
+        { "id": "Tubuh saya sehat.", "ru": "Моё тело здорово." },
+        { "id": "Jaga tubuhmu baik-baik.", "ru": "Береги своё тело хорошо." },
+        { "id": "Olahraga membuat tubuh kuat.", "ru": "Спорт делает тело сильным." }
+      ]
     },
     {
       "id": "badan",
       "ru": "тело",
-      "en": "body"
+      "en": "body",
+      "examples": [
+        { "id": "Badanku terasa lelah.", "ru": "Моё тело чувствует усталость." },
+        { "id": "Badan dia sangat tinggi.", "ru": "Его тело очень высокое." },
+        { "id": "Saya menjaga badan saya.", "ru": "Я забочусь о своём теле." }
+      ]
     },
     {
       "id": "kepala",
       "ru": "голова",
-      "en": "head"
+      "en": "head",
+      "examples": [
+        { "id": "Kepala saya sakit.", "ru": "У меня болит голова." },
+        { "id": "Dia mengangguk dengan kepalanya.", "ru": "Он кивнул головой." },
+        { "id": "Tolong pegang kepalamu.", "ru": "Пожалуйста, держи свою голову." }
+      ]
     },
     {
       "id": "rambut",
       "ru": "волосы",
-      "en": "hair"
+      "en": "hair",
+      "examples": [
+        { "id": "Rambut saya panjang.", "ru": "Мои волосы длинные." },
+        { "id": "Dia mencuci rambutnya setiap hari.", "ru": "Она моет волосы каждый день." },
+        { "id": "Rambutnya berwarna hitam.", "ru": "Его волосы чёрного цвета." }
+      ]
     },
     {
       "id": "wajah",
       "ru": "лицо",
-      "en": "face"
+      "en": "face",
+      "examples": [
+        { "id": "Wajahnya sangat cantik.", "ru": "Её лицо очень красивое." },
+        { "id": "Cuci wajahmu sebelum tidur.", "ru": "Умой лицо перед сном." },
+        { "id": "Saya melihat wajah teman saya.", "ru": "Я вижу лицо своего друга." }
+      ]
     },
     {
       "id": "muka",
       "ru": "лицо",
-      "en": "face"
+      "en": "face",
+      "examples": [
+        { "id": "Mukanya merah karena malu.", "ru": "Его лицо покраснело от стыда." },
+        { "id": "Jangan tutup mukamu.", "ru": "Не закрывай своё лицо." },
+        { "id": "Muka anak itu lucu sekali.", "ru": "Лицо этого ребёнка очень смешное." }
+      ]
     },
     {
       "id": "dahi",
       "ru": "лоб",
-      "en": "forehead"
+      "en": "forehead",
+      "examples": [
+        { "id": "Dahiku berkeringat.", "ru": "Мой лоб вспотел." },
+        { "id": "Ibu menyentuh dahi anaknya.", "ru": "Мать коснулась лба своего ребёнка." },
+        { "id": "Dahi dia lebar.", "ru": "Его лоб широкий." }
+      ]
     },
     {
       "id": "mata",
       "ru": "глаз",
-      "en": "eye"
+      "en": "eye",
+      "examples": [
+        { "id": "Mata saya lelah karena membaca.", "ru": "Мои глаза устали от чтения." },
+        { "id": "Dia memiliki mata yang indah.", "ru": "У неё красивые глаза." },
+        { "id": "Tutup matamu dan tidur.", "ru": "Закрой глаза и спи." }
+      ]
     },
     {
       "id": "alis",
       "ru": "бровь",
-      "en": "eyebrow"
+      "en": "eyebrow",
+      "examples": [
+        { "id": "Alisnya tebal dan hitam.", "ru": "Его брови густые и чёрные." },
+        { "id": "Dia mengangkat alisnya.", "ru": "Она подняла брови." },
+        { "id": "Alis perempuan itu sangat rapi.", "ru": "Брови этой женщины очень аккуратные." }
+      ]
     },
     {
       "id": "bulu mata",
       "ru": "ресница",
-      "en": "eyelash"
+      "en": "eyelash",
+      "examples": [
+        { "id": "Bulu matanya panjang dan lentik.", "ru": "Её ресницы длинные и загнутые." },
+        { "id": "Ada bulu mata di pipinya.", "ru": "На её щеке есть ресничка." },
+        { "id": "Bulu mata melindungi mata dari debu.", "ru": "Ресницы защищают глаза от пыли." }
+      ]
     },
     {
       "id": "hidung",
       "ru": "нос",
-      "en": "nose"
+      "en": "nose",
+      "examples": [
+        { "id": "Hidung saya meler karena flu.", "ru": "У меня течёт нос из-за простуды." },
+        { "id": "Dia memiliki hidung yang mancung.", "ru": "У него прямой нос." },
+        { "id": "Bau masakan masuk ke hidung saya.", "ru": "Запах еды попал в мой нос." }
+      ]
     },
     {
       "id": "pipi",
       "ru": "щека",
-      "en": "cheek"
+      "en": "cheek",
+      "examples": [
+        { "id": "Pipi bayi itu sangat gemuk.", "ru": "Щёки этого малыша очень пухлые." },
+        { "id": "Dia memerah di pipinya.", "ru": "Её щёки порозовели." },
+        { "id": "Ibu mencium pipi anaknya.", "ru": "Мать поцеловала щёку своего ребёнка." }
+      ]
     },
     {
       "id": "telinga",
       "ru": "ухо",
-      "en": "ear"
+      "en": "ear",
+      "examples": [
+        { "id": "Telinga saya sakit.", "ru": "У меня болит ухо." },
+        { "id": "Dia mendengar suara dengan telinganya.", "ru": "Он слышит звук своими ушами." },
+        { "id": "Musik itu keras di telinga saya.", "ru": "Эта музыка громкая для моих ушей." }
+      ]
     },
     {
       "id": "kuping",
       "ru": "ухо (разг.)",
-      "en": "ear (casual)"
+      "en": "ear (casual)",
+      "examples": [
+        { "id": "Kupingku gatal.", "ru": "У меня чешется ухо." },
+        { "id": "Jangan bicara keras di dekat kupingku.", "ru": "Не говори громко рядом с моим ухом." },
+        { "id": "Kupingnya merah karena kedinginan.", "ru": "Его уши покраснели от холода." }
+      ]
     },
     {
       "id": "mulut",
       "ru": "рот",
-      "en": "mouth"
+      "en": "mouth",
+      "examples": [
+        { "id": "Tutup mulutmu saat makan.", "ru": "Закрывай рот во время еды." },
+        { "id": "Mulut saya kering, saya ingin minum.", "ru": "Рот пересох, я хочу пить." },
+        { "id": "Dia membuka mulutnya lebar-lebar.", "ru": "Он открыл рот широко." }
+      ]
     },
     {
       "id": "bibir",
       "ru": "губа",
-      "en": "lip"
+      "en": "lip",
+      "examples": [
+        { "id": "Bibirnya kering karena panas.", "ru": "Его губы пересохли от жары." },
+        { "id": "Dia memakai lipstik merah di bibirnya.", "ru": "Она нанесла красную помаду на губы." },
+        { "id": "Bibirnya bergerak saat berbicara.", "ru": "Его губы двигаются во время разговора." }
+      ]
     },
     {
       "id": "gigi",
       "ru": "зуб",
-      "en": "tooth"
+      "en": "tooth",
+      "examples": [
+        { "id": "Saya sikat gigi dua kali sehari.", "ru": "Я чищу зубы два раза в день." },
+        { "id": "Gigi saya sakit.", "ru": "У меня болит зуб." },
+        { "id": "Dokter gigi memeriksa giginya.", "ru": "Стоматолог осмотрел его зубы." }
+      ]
     },
     {
       "id": "lidah",
       "ru": "язык",
-      "en": "tongue"
+      "en": "tongue",
+      "examples": [
+        { "id": "Lidah saya terbakar karena makanan panas.", "ru": "Я обжёг язык горячей едой." },
+        { "id": "Anak itu menjulurkan lidahnya.", "ru": "Ребёнок высунул язык." },
+        { "id": "Kita merasakan rasa dengan lidah.", "ru": "Мы ощущаем вкус с помощью языка." }
+      ]
     },
     {
       "id": "dagu",
       "ru": "подбородок",
-      "en": "chin"
+      "en": "chin",
+      "examples": [
+        { "id": "Dagunya runcing.", "ru": "Его подбородок острый." },
+        { "id": "Dia memegang dagunya saat berpikir.", "ru": "Он держится за подбородок во время раздумий." },
+        { "id": "Ada luka kecil di dagu saya.", "ru": "На моём подбородке есть маленькая царапина." }
+      ]
     },
     {
       "id": "leher",
       "ru": "шея",
-      "en": "neck"
+      "en": "neck",
+      "examples": [
+        { "id": "Leher saya kaku setelah tidur.", "ru": "После сна у меня затекла шея." },
+        { "id": "Dia memakai kalung di lehernya.", "ru": "Она носит ожерелье на шее." },
+        { "id": "Leher jerapah sangat panjang.", "ru": "Шея жирафа очень длинная." }
+      ]
     },
     {
       "id": "tenggorokan",
       "ru": "горло",
-      "en": "throat"
+      "en": "throat",
+      "examples": [
+        { "id": "Tenggorokan saya sakit.", "ru": "У меня болит горло." },
+        { "id": "Saya minum air hangat untuk tenggorokan saya.", "ru": "Я пью тёплую воду для своего горла." },
+        { "id": "Suaranya serak karena tenggorokannya sakit.", "ru": "Его голос хриплый из-за больного горла." }
+      ]
     },
     {
       "id": "bahu",
       "ru": "плечо",
-      "en": "shoulder"
+      "en": "shoulder",
+      "examples": [
+        { "id": "Bahu saya pegal setelah bekerja.", "ru": "После работы у меня болят плечи." },
+        { "id": "Dia meletakkan tangannya di bahu saya.", "ru": "Он положил руку мне на плечо." },
+        { "id": "Bahu pemain bola itu lebar.", "ru": "Плечи этого футболиста широкие." }
+      ]
     },
     {
       "id": "lengan",
       "ru": "рука (предплечье)",
-      "en": "arm"
+      "en": "arm",
+      "examples": [
+        { "id": "Lengan saya sakit karena jatuh.", "ru": "Рука болит после падения." },
+        { "id": "Dia mengangkat lengannya.", "ru": "Она подняла руку." },
+        { "id": "Anak itu memeluk ibunya dengan lengannya.", "ru": "Ребёнок обнял маму руками." }
+      ]
     },
     {
       "id": "siku",
       "ru": "локоть",
-      "en": "elbow"
+      "en": "elbow",
+      "examples": [
+        { "id": "Siku saya terbentur meja.", "ru": "Я ударился локтем о стол." },
+        { "id": "Jangan meletakkan siku di meja makan.", "ru": "Не клади локти на обеденный стол." },
+        { "id": "Siku saya bengkak setelah jatuh.", "ru": "Мой локоть распух после падения." }
+      ]
     },
     {
       "id": "tangan",
       "ru": "рука (кисть)",
-      "en": "hand"
+      "en": "hand",
+      "examples": [
+        { "id": "Cuci tangan sebelum makan.", "ru": "Мой руки перед едой." },
+        { "id": "Saya berjabat tangan dengan dia.", "ru": "Я пожал ему руку." },
+        { "id": "Tangannya dingin sekali.", "ru": "Его руки очень холодные." }
+      ]
     },
     {
       "id": "jari",
       "ru": "палец",
-      "en": "finger"
+      "en": "finger",
+      "examples": [
+        { "id": "Saya memotong jari saya saat memasak.", "ru": "Я порезал палец во время готовки." },
+        { "id": "Dia menunjuk ke arah jalan dengan jarinya.", "ru": "Он показал пальцем в сторону дороги." },
+        { "id": "Jari-jari saya panjang.", "ru": "Мои пальцы длинные." }
+      ]
     },
     {
       "id": "ibu jari",
       "ru": "большой палец",
-      "en": "thumb"
+      "en": "thumb",
+      "examples": [
+        { "id": "Dia mengacungkan ibu jarinya tanda setuju.", "ru": "Он поднял большой палец в знак согласия." },
+        { "id": "Ibu jari saya sakit.", "ru": "У меня болит большой палец." },
+        { "id": "Anak kecil itu menghisap ibu jarinya.", "ru": "Маленький ребёнок сосёт большой палец." }
+      ]
     },
     {
       "id": "kuku",
       "ru": "ноготь",
-      "en": "nail"
+      "en": "nail",
+      "examples": [
+        { "id": "Saya memotong kuku setiap minggu.", "ru": "Я стригу ногти каждую неделю." },
+        { "id": "Kukunya panjang dan merah.", "ru": "Её ногти длинные и красные." },
+        { "id": "Jangan gigit kukumu.", "ru": "Не грызи ногти." }
+      ]
     },
     {
       "id": "telapak tangan",
       "ru": "ладонь",
-      "en": "palm"
+      "en": "palm",
+      "examples": [
+        { "id": "Letakkan uangnya di telapak tangan saya.", "ru": "Положи деньги мне на ладонь." },
+        { "id": "Telapak tangannya berkeringat.", "ru": "Его ладони вспотели." },
+        { "id": "Dia membaca garis tangan dari telapak tangan saya.", "ru": "Она читала линии с моей ладони." }
+      ]
     },
     {
       "id": "dada",
       "ru": "грудь",
-      "en": "chest"
+      "en": "chest",
+      "examples": [
+        { "id": "Dada saya sakit saat bernapas.", "ru": "У меня болит грудь при дыхании." },
+        { "id": "Dia meletakkan tangannya di dadanya.", "ru": "Она положила руку на грудь." },
+        { "id": "Dadanya berdegup kencang karena takut.", "ru": "Его сердце сильно билось от страха." }
+      ]
     },
     {
       "id": "perut",
       "ru": "живот",
-      "en": "stomach"
+      "en": "stomach",
+      "examples": [
+        { "id": "Perut saya lapar.", "ru": "У меня урчит живот от голода." },
+        { "id": "Perut saya sakit setelah makan.", "ru": "У меня болит живот после еды." },
+        { "id": "Tidur tengkurap itu baik untuk perut.", "ru": "Спать на животе полезно для желудка." }
+      ]
     },
     {
       "id": "pinggang",
       "ru": "талия",
-      "en": "waist"
+      "en": "waist",
+      "examples": [
+        { "id": "Pinggang saya sakit karena duduk lama.", "ru": "У меня болит поясница от долгого сидения." },
+        { "id": "Ikat pinggangnya sangat ketat.", "ru": "Его пояс очень тугой." },
+        { "id": "Pinggang dia sangat ramping.", "ru": "Её талия очень тонкая." }
+      ]
     },
     {
       "id": "pinggul",
       "ru": "бедро",
-      "en": "hip"
+      "en": "hip",
+      "examples": [
+        { "id": "Pinggul saya sakit setelah jatuh.", "ru": "У меня болит бедро после падения." },
+        { "id": "Dia menggerakkan pinggulnya saat menari.", "ru": "Она двигает бёдрами во время танца." },
+        { "id": "Pinggul yang lebar itu normal untuk wanita.", "ru": "Широкие бёдра — это норма для женщины." }
+      ]
     },
     {
       "id": "punggung",
       "ru": "спина",
-      "en": "back"
+      "en": "back",
+      "examples": [
+        { "id": "Punggung saya sakit.", "ru": "У меня болит спина." },
+        { "id": "Dia berbaring di punggungnya.", "ru": "Он лёг на спину." },
+        { "id": "Tolong pijat punggung saya.", "ru": "Пожалуйста, помассируй мне спину." }
+      ]
     },
     {
       "id": "kaki",
       "ru": "нога",
-      "en": "leg / foot"
+      "en": "leg / foot",
+      "examples": [
+        { "id": "Kaki saya lelah setelah berjalan jauh.", "ru": "Ноги устали после долгой ходьбы." },
+        { "id": "Saya mencuci kaki sebelum tidur.", "ru": "Я мою ноги перед сном." },
+        { "id": "Kaki kanannya lebih panjang dari kiri.", "ru": "Правая нога длиннее левой." }
+      ]
     },
     {
       "id": "paha",
       "ru": "бедро",
-      "en": "thigh"
+      "en": "thigh",
+      "examples": [
+        { "id": "Paha saya sakit setelah olahraga.", "ru": "У меня болит бедро после тренировки." },
+        { "id": "Nyamuk menggigit pahanya.", "ru": "Комар укусил его бедро." },
+        { "id": "Paha ayam adalah bagian favorit saya.", "ru": "Куриное бедро — моя любимая часть." }
+      ]
     },
     {
       "id": "lutut",
       "ru": "колено",
-      "en": "knee"
+      "en": "knee",
+      "examples": [
+        { "id": "Lutut saya berdarah karena jatuh.", "ru": "Моё колено кровоточит после падения." },
+        { "id": "Dia berlutut di depan pintu.", "ru": "Он встал на колени перед дверью." },
+        { "id": "Lututnya sakit saat naik tangga.", "ru": "У него болит колено при подъёме по лестнице." }
+      ]
     },
     {
       "id": "betis",
       "ru": "голень",
-      "en": "calf"
+      "en": "calf",
+      "examples": [
+        { "id": "Betis saya kram setelah berlari.", "ru": "У меня свело голень после бега." },
+        { "id": "Pijat betisnya supaya tidak kram.", "ru": "Помассируй голень, чтобы не было судорог." },
+        { "id": "Betisnya sangat kuat karena sering berolahraga.", "ru": "Его голени очень крепкие, потому что он часто занимается спортом." }
+      ]
     },
     {
       "id": "telapak kaki",
       "ru": "ступня",
-      "en": "sole"
+      "en": "sole",
+      "examples": [
+        { "id": "Telapak kaki saya sakit karena berjalan lama.", "ru": "Ступни болят от долгой ходьбы." },
+        { "id": "Cuci telapak kakimu sebelum masuk rumah.", "ru": "Вымой ступни перед входом в дом." },
+        { "id": "Telapak kakinya sangat kasar.", "ru": "Его ступни очень грубые." }
+      ]
     },
     {
       "id": "kulit",
       "ru": "кожа",
-      "en": "skin"
+      "en": "skin",
+      "examples": [
+        { "id": "Kulit saya kering di musim dingin.", "ru": "Моя кожа сухая зимой." },
+        { "id": "Dia memakai losion untuk merawat kulitnya.", "ru": "Она использует лосьон для ухода за кожей." },
+        { "id": "Kulit bayi itu sangat lembut.", "ru": "Кожа этого малыша очень мягкая." }
+      ]
     },
     {
       "id": "darah",
       "ru": "кровь",
-      "en": "blood"
+      "en": "blood",
+      "examples": [
+        { "id": "Ada darah di luka saya.", "ru": "На моей ране есть кровь." },
+        { "id": "Dia mendonorkan darahnya setiap tiga bulan.", "ru": "Он сдаёт кровь каждые три месяца." },
+        { "id": "Golongan darah saya adalah A.", "ru": "У меня группа крови А." }
+      ]
     },
     {
       "id": "tulang",
       "ru": "кость",
-      "en": "bone"
+      "en": "bone",
+      "examples": [
+        { "id": "Tulang saya patah karena kecelakaan.", "ru": "Моя кость сломалась из-за несчастного случая." },
+        { "id": "Minum susu membuat tulang kuat.", "ru": "Молоко делает кости крепкими." },
+        { "id": "Dokter memeriksa tulangnya dengan rontgen.", "ru": "Врач проверил его кости с помощью рентгена." }
+      ]
     },
     {
       "id": "otot",
       "ru": "мышца",
-      "en": "muscle"
+      "en": "muscle",
+      "examples": [
+        { "id": "Ototnya besar karena sering ke gym.", "ru": "Его мышцы большие, потому что он часто ходит в зал." },
+        { "id": "Otot saya sakit setelah latihan.", "ru": "У меня болят мышцы после тренировки." },
+        { "id": "Peregangan membantu otot tidak kaku.", "ru": "Растяжка помогает мышцам не закрепоститься." }
+      ]
     },
     {
       "id": "jantung",
       "ru": "сердце",
-      "en": "heart"
+      "en": "heart",
+      "examples": [
+        { "id": "Jantungku berdegup kencang saat berlari.", "ru": "Моё сердце сильно бьётся во время бега." },
+        { "id": "Dokter memeriksa jantung saya.", "ru": "Врач осмотрел моё сердце." },
+        { "id": "Olahraga bagus untuk kesehatan jantung.", "ru": "Спорт полезен для здоровья сердца." }
+      ]
     },
     {
       "id": "hati",
       "ru": "печень / душа",
-      "en": "liver / soul"
+      "en": "liver / soul",
+      "examples": [
+        { "id": "Alkohol merusak hati.", "ru": "Алкоголь разрушает печень." },
+        { "id": "Dia berbicara dari lubuk hatinya.", "ru": "Он говорит от всей души." },
+        { "id": "Hatinya terasa sedih.", "ru": "На душе у него грустно." }
+      ]
     },
     {
       "id": "paru-paru",
       "ru": "лёгкие",
-      "en": "lungs"
+      "en": "lungs",
+      "examples": [
+        { "id": "Merokok merusak paru-paru.", "ru": "Курение разрушает лёгкие." },
+        { "id": "Paru-paru saya sehat karena tidak merokok.", "ru": "Мои лёгкие здоровы, потому что я не курю." },
+        { "id": "Kita bernapas dengan paru-paru.", "ru": "Мы дышим лёгкими." }
+      ]
     },
     {
       "id": "otak",
       "ru": "мозг",
-      "en": "brain"
+      "en": "brain",
+      "examples": [
+        { "id": "Otak manusia sangat kompleks.", "ru": "Мозг человека очень сложный." },
+        { "id": "Membaca buku melatih otak.", "ru": "Чтение книг тренирует мозг." },
+        { "id": "Otak saya lelah setelah belajar lama.", "ru": "Мой мозг устал после долгой учёбы." }
+      ]
     },
     {
       "id": "ginjal",
       "ru": "почка",
-      "en": "kidney"
+      "en": "kidney",
+      "examples": [
+        { "id": "Minum banyak air baik untuk ginjal.", "ru": "Пить много воды полезно для почек." },
+        { "id": "Ginjal menyaring darah dalam tubuh.", "ru": "Почки фильтруют кровь в организме." },
+        { "id": "Dokter memeriksa ginjalnya.", "ru": "Врач проверил его почки." }
+      ]
     },
     {
       "id": "perasaan",
       "ru": "чувство",
-      "en": "feeling"
+      "en": "feeling",
+      "examples": [
+        { "id": "Saya tidak bisa menyembunyikan perasaan saya.", "ru": "Я не могу скрыть свои чувства." },
+        { "id": "Perasaannya campur aduk.", "ru": "Его чувства смешались." },
+        { "id": "Ceritakan perasaanmu padaku.", "ru": "Расскажи мне о своих чувствах." }
+      ]
     },
     {
       "id": "pikiran",
       "ru": "мысль / ум",
-      "en": "thought / mind"
+      "en": "thought / mind",
+      "examples": [
+        { "id": "Pikiran saya penuh dengan masalah.", "ru": "Мои мысли полны проблем." },
+        { "id": "Dia orang yang cerdas pikirannya.", "ru": "Он человек с острым умом." },
+        { "id": "Apa yang ada di pikiranmu?", "ru": "Что у тебя на уме?" }
+      ]
     },
     {
       "id": "ingatan",
       "ru": "память",
-      "en": "memory"
+      "en": "memory",
+      "examples": [
+        { "id": "Ingatan saya tidak terlalu baik.", "ru": "У меня не очень хорошая память." },
+        { "id": "Dia memiliki ingatan yang kuat.", "ru": "У неё сильная память." },
+        { "id": "Ingatan masa kecil itu selalu membuatnya tersenyum.", "ru": "Воспоминания детства всегда заставляют его улыбаться." }
+      ]
     },
     {
       "id": "mimpi",
       "ru": "сон / мечта",
-      "en": "dream"
+      "en": "dream",
+      "examples": [
+        { "id": "Saya bermimpi indah tadi malam.", "ru": "Прошлой ночью мне приснился хороший сон." },
+        { "id": "Mimpiku adalah menjadi dokter.", "ru": "Моя мечта — стать врачом." },
+        { "id": "Dia selalu menceritakan mimpinya kepada saya.", "ru": "Он всегда рассказывает мне свои сны." }
+      ]
     }
   ]
 }

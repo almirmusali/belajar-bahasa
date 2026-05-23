@@ -7,437 +7,872 @@
     {
       "id": "bagus",
       "ru": "хороший",
-      "en": "good"
+      "en": "good",
+      "examples": [
+        { "id": "Filmnya bagus sekali.", "ru": "Фильм очень хороший." },
+        { "id": "Kamu punya ide yang bagus.", "ru": "У тебя хорошая идея." },
+        { "id": "Makanan di sini bagus.", "ru": "Еда здесь хорошая." }
+      ]
     },
     {
       "id": "jelek",
       "ru": "плохой / уродливый",
-      "en": "bad / ugly"
+      "en": "bad / ugly",
+      "examples": [
+        { "id": "Cuacanya jelek hari ini.", "ru": "Сегодня плохая погода." },
+        { "id": "Foto itu jelek sekali.", "ru": "Эта фотография очень плохая." },
+        { "id": "Bajunya jelek, ganti yang lain.", "ru": "Рубашка уродливая, смени другую." }
+      ]
     },
     {
       "id": "buruk",
       "ru": "плохой",
-      "en": "bad"
+      "en": "bad",
+      "examples": [
+        { "id": "Sikapnya sangat buruk.", "ru": "Его поведение очень плохое." },
+        { "id": "Hasil ujiannya buruk.", "ru": "Результат экзамена плохой." },
+        { "id": "Kebiasaan buruk susah dihilangkan.", "ru": "Плохие привычки трудно устранить." }
+      ]
     },
     {
       "id": "hebat",
       "ru": "потрясающий",
-      "en": "great"
+      "en": "great",
+      "examples": [
+        { "id": "Dia pemain bola yang hebat.", "ru": "Он потрясающий футболист." },
+        { "id": "Pertunjukan itu hebat sekali!", "ru": "Это шоу было просто потрясающим!" },
+        { "id": "Kamu hebat, bisa menyelesaikan tugas ini.", "ru": "Ты молодец, смог справиться с этим заданием." }
+      ]
     },
     {
       "id": "keren",
       "ru": "крутой",
-      "en": "cool"
+      "en": "cool",
+      "examples": [
+        { "id": "Mobilnya keren banget.", "ru": "Машина очень крутая." },
+        { "id": "Jaketmu keren, beli di mana?", "ru": "Твоя куртка крутая, где купил?" },
+        { "id": "Dia keren saat main gitar.", "ru": "Он крутой, когда играет на гитаре." }
+      ]
     },
     {
       "id": "biasa",
       "ru": "обычный",
-      "en": "ordinary"
+      "en": "ordinary",
+      "examples": [
+        { "id": "Ini hari biasa, tidak ada yang istimewa.", "ru": "Это обычный день, ничего особенного." },
+        { "id": "Makanannya biasa saja.", "ru": "Еда самая обычная." },
+        { "id": "Dia orang yang biasa, tapi baik hati.", "ru": "Он обычный человек, но добросердечный." }
+      ]
     },
     {
       "id": "luar biasa",
       "ru": "необычный / выдающийся",
-      "en": "extraordinary"
+      "en": "extraordinary",
+      "examples": [
+        { "id": "Pemandangan di sana luar biasa indah.", "ru": "Вид там невероятно красивый." },
+        { "id": "Dia memiliki kemampuan yang luar biasa.", "ru": "У него выдающиеся способности." },
+        { "id": "Rasanya luar biasa enak!", "ru": "Вкус просто необыкновенный!" }
+      ]
     },
     {
       "id": "besar",
       "ru": "большой",
-      "en": "big"
+      "en": "big",
+      "examples": [
+        { "id": "Rumah itu sangat besar.", "ru": "Этот дом очень большой." },
+        { "id": "Saya punya tas yang besar.", "ru": "У меня есть большая сумка." },
+        { "id": "Kota ini besar dan ramai.", "ru": "Этот город большой и оживлённый." }
+      ]
     },
     {
       "id": "kecil",
       "ru": "маленький",
-      "en": "small"
+      "en": "small",
+      "examples": [
+        { "id": "Anjingnya kecil dan lucu.", "ru": "Собачка маленькая и милая." },
+        { "id": "Kamar saya kecil tapi nyaman.", "ru": "Моя комната маленькая, но уютная." },
+        { "id": "Tolong ambilkan yang kecil.", "ru": "Пожалуйста, возьми маленький." }
+      ]
     },
     {
       "id": "panjang",
       "ru": "длинный",
-      "en": "long"
+      "en": "long",
+      "examples": [
+        { "id": "Rambutnya panjang dan indah.", "ru": "Её волосы длинные и красивые." },
+        { "id": "Jalan ini sangat panjang.", "ru": "Эта дорога очень длинная." },
+        { "id": "Saya tidak suka antrian yang panjang.", "ru": "Я не люблю длинные очереди." }
+      ]
     },
     {
       "id": "pendek",
       "ru": "короткий",
-      "en": "short"
+      "en": "short",
+      "examples": [
+        { "id": "Ceritanya pendek tapi menarik.", "ru": "Рассказ короткий, но интересный." },
+        { "id": "Dia orangnya pendek.", "ru": "Он невысокого роста." },
+        { "id": "Waktu istirahat hari ini pendek sekali.", "ru": "Сегодня перерыв был очень коротким." }
+      ]
     },
     {
       "id": "tinggi",
       "ru": "высокий",
-      "en": "tall / high"
+      "en": "tall / high",
+      "examples": [
+        { "id": "Kakaknya sangat tinggi.", "ru": "Его старший брат очень высокий." },
+        { "id": "Gedung itu tinggi sekali.", "ru": "Это здание очень высокое." },
+        { "id": "Harga di sana terlalu tinggi.", "ru": "Цены там слишком высокие." }
+      ]
     },
     {
       "id": "rendah",
       "ru": "низкий",
-      "en": "low"
+      "en": "low",
+      "examples": [
+        { "id": "Kursinya terlalu rendah.", "ru": "Стул слишком низкий." },
+        { "id": "Suaranya rendah dan tenang.", "ru": "У него тихий и спокойный голос." },
+        { "id": "Harganya rendah, cocok untuk saya.", "ru": "Цена низкая, подходит для меня." }
+      ]
     },
     {
       "id": "lebar",
       "ru": "широкий",
-      "en": "wide"
+      "en": "wide",
+      "examples": [
+        { "id": "Jalannya lebar dan bersih.", "ru": "Дорога широкая и чистая." },
+        { "id": "Sungai ini sangat lebar.", "ru": "Эта река очень широкая." },
+        { "id": "Dia tersenyum lebar saat melihatku.", "ru": "Он широко улыбнулся, когда увидел меня." }
+      ]
     },
     {
       "id": "sempit",
       "ru": "узкий",
-      "en": "narrow"
+      "en": "narrow",
+      "examples": [
+        { "id": "Gang itu sempit sekali.", "ru": "Этот переулок очень узкий." },
+        { "id": "Sepatunya sempit, bikin kaki sakit.", "ru": "Туфли узкие, ноге больно." },
+        { "id": "Kamarnya sempit tapi bersih.", "ru": "Комната узкая, но чистая." }
+      ]
     },
     {
       "id": "tebal",
       "ru": "толстый",
-      "en": "thick"
+      "en": "thick",
+      "examples": [
+        { "id": "Bukunya tebal, butuh waktu lama.", "ru": "Книга толстая, нужно много времени." },
+        { "id": "Pakai jaket yang tebal karena dingin.", "ru": "Надень толстую куртку, потому что холодно." },
+        { "id": "Tembok rumahnya tebal dan kuat.", "ru": "Стены дома толстые и прочные." }
+      ]
     },
     {
       "id": "tipis",
       "ru": "тонкий",
-      "en": "thin"
+      "en": "thin",
+      "examples": [
+        { "id": "Kertas ini tipis sekali.", "ru": "Эта бумага очень тонкая." },
+        { "id": "Selimutnya tipis, saya masih kedinginan.", "ru": "Одеяло тонкое, мне всё ещё холодно." },
+        { "id": "Baju ini tipis, cocok untuk musim panas.", "ru": "Эта одежда тонкая, подходит для лета." }
+      ]
     },
     {
       "id": "dangkal",
       "ru": "мелкий",
-      "en": "shallow"
+      "en": "shallow",
+      "examples": [
+        { "id": "Kolamnya dangkal, aman untuk anak-anak.", "ru": "Бассейн мелкий, безопасен для детей." },
+        { "id": "Sungai ini dangkal di musim kemarau.", "ru": "Эта река мелкая в засушливый сезон." },
+        { "id": "Pikirannya dangkal, dia tidak mengerti.", "ru": "Его мышление поверхностное, он не понимает." }
+      ]
     },
     {
       "id": "banyak",
       "ru": "много",
-      "en": "many"
+      "en": "many",
+      "examples": [
+        { "id": "Ada banyak orang di pasar.", "ru": "На рынке много людей." },
+        { "id": "Saya punya banyak teman.", "ru": "У меня много друзей." },
+        { "id": "Hari ini ada banyak pekerjaan.", "ru": "Сегодня много работы." }
+      ]
     },
     {
       "id": "sedikit",
       "ru": "мало",
-      "en": "few"
+      "en": "few",
+      "examples": [
+        { "id": "Saya punya sedikit uang sekarang.", "ru": "У меня сейчас мало денег." },
+        { "id": "Tolong tambah sedikit gula.", "ru": "Пожалуйста, добавь немного сахара." },
+        { "id": "Hanya sedikit orang yang tahu.", "ru": "Лишь немногие знают об этом." }
+      ]
     },
     {
       "id": "cukup",
       "ru": "достаточно",
-      "en": "enough"
+      "en": "enough",
+      "examples": [
+        { "id": "Uangnya cukup untuk beli makanan.", "ru": "Денег достаточно, чтобы купить еду." },
+        { "id": "Saya sudah makan cukup, terima kasih.", "ru": "Я уже поел достаточно, спасибо." },
+        { "id": "Waktu kita tidak cukup.", "ru": "Нашего времени недостаточно." }
+      ]
     },
     {
       "id": "kurang",
       "ru": "недостаточно",
-      "en": "less"
+      "en": "less",
+      "examples": [
+        { "id": "Tidurnya kurang semalam.", "ru": "Вчера ночью он недостаточно поспал." },
+        { "id": "Garamnya kurang, tolong tambah.", "ru": "Соли недостаточно, добавь, пожалуйста." },
+        { "id": "Nilai ujiannya kurang memuaskan.", "ru": "Результат экзамена недостаточно хороший." }
+      ]
     },
     {
       "id": "lama",
       "ru": "долгий / старый",
-      "en": "long time / old"
+      "en": "long time / old",
+      "examples": [
+        { "id": "Kita sudah kenal lama.", "ru": "Мы знакомы уже давно." },
+        { "id": "Perjalanannya sangat lama.", "ru": "Поездка была очень долгой." },
+        { "id": "Ini teman lama saya.", "ru": "Это мой старый друг." }
+      ]
     },
     {
       "id": "kuno",
       "ru": "древний",
-      "en": "ancient"
+      "en": "ancient",
+      "examples": [
+        { "id": "Candi itu sangat kuno.", "ru": "Этот храм очень древний." },
+        { "id": "Dia suka mengoleksi barang kuno.", "ru": "Он любит коллекционировать старинные вещи." },
+        { "id": "Tradisi kuno itu masih dijaga.", "ru": "Эта древняя традиция до сих пор сохраняется." }
+      ]
     },
     {
       "id": "modern",
       "ru": "современный",
-      "en": "modern"
+      "en": "modern",
+      "examples": [
+        { "id": "Gedung ini sangat modern.", "ru": "Это здание очень современное." },
+        { "id": "Dia suka gaya hidup yang modern.", "ru": "Он любит современный образ жизни." },
+        { "id": "Teknologi modern membantu kita setiap hari.", "ru": "Современные технологии помогают нам каждый день." }
+      ]
     },
     {
       "id": "cepat",
       "ru": "быстрый",
-      "en": "fast"
+      "en": "fast",
+      "examples": [
+        { "id": "Kereta ini sangat cepat.", "ru": "Этот поезд очень быстрый." },
+        { "id": "Dia berlari cepat sekali.", "ru": "Он бежит очень быстро." },
+        { "id": "Tolong kirim pesannya dengan cepat.", "ru": "Пожалуйста, отправь сообщение быстро." }
+      ]
     },
     {
       "id": "lambat",
       "ru": "медленный",
-      "en": "slow"
+      "en": "slow",
+      "examples": [
+        { "id": "Mobilnya lambat di jalan macet.", "ru": "Машина едет медленно в пробке." },
+        { "id": "Koneksi internetnya lambat hari ini.", "ru": "Интернет сегодня медленный." },
+        { "id": "Berjalan lambat itu lebih santai.", "ru": "Идти медленно — это более расслабленно." }
+      ]
     },
     {
       "id": "pelan",
       "ru": "медленный",
-      "en": "slow"
+      "en": "slow",
+      "examples": [
+        { "id": "Tolong bicara lebih pelan.", "ru": "Пожалуйста, говори помедленнее." },
+        { "id": "Dia berjalan pelan-pelan.", "ru": "Он идёт медленно-медленно." },
+        { "id": "Musik ini pelan dan menenangkan.", "ru": "Эта музыка медленная и успокаивающая." }
+      ]
     },
     {
       "id": "mudah",
       "ru": "лёгкий",
-      "en": "easy"
+      "en": "easy",
+      "examples": [
+        { "id": "Soal ujian itu mudah.", "ru": "Вопросы на экзамене были лёгкими." },
+        { "id": "Belajar bahasa Indonesia itu mudah.", "ru": "Учить индонезийский язык легко." },
+        { "id": "Resepnya mudah, bisa dicoba di rumah.", "ru": "Рецепт лёгкий, можно попробовать дома." }
+      ]
     },
     {
       "id": "gampang",
       "ru": "простой",
-      "en": "easy"
+      "en": "easy",
+      "examples": [
+        { "id": "Pertanyaannya gampang, semua bisa jawab.", "ru": "Вопрос простой, все могут ответить." },
+        { "id": "Masak nasi goreng itu gampang.", "ru": "Готовить жареный рис просто." },
+        { "id": "Gampang kok, kamu pasti bisa.", "ru": "Это просто, ты точно справишься." }
+      ]
     },
     {
       "id": "susah",
       "ru": "трудный",
-      "en": "difficult"
+      "en": "difficult",
+      "examples": [
+        { "id": "Tugasnya susah sekali.", "ru": "Задание очень трудное." },
+        { "id": "Cari kerja sekarang susah.", "ru": "Сейчас трудно найти работу." },
+        { "id": "Pelajaran matematika itu susah.", "ru": "Математика — трудный предмет." }
+      ]
     },
     {
       "id": "sulit",
       "ru": "сложный",
-      "en": "difficult"
+      "en": "difficult",
+      "examples": [
+        { "id": "Masalah ini sulit untuk dipecahkan.", "ru": "Эта проблема сложно решается." },
+        { "id": "Bahasa Jepang sulit bagi saya.", "ru": "Японский язык сложный для меня." },
+        { "id": "Situasinya sulit, tapi kita bisa.", "ru": "Ситуация сложная, но мы справимся." }
+      ]
     },
     {
       "id": "ringan",
       "ru": "лёгкий (вес)",
-      "en": "light"
+      "en": "light",
+      "examples": [
+        { "id": "Tasnya ringan, mudah dibawa.", "ru": "Сумка лёгкая, удобно носить." },
+        { "id": "Laptop ini ringan dan tipis.", "ru": "Этот ноутбук лёгкий и тонкий." },
+        { "id": "Kain ini ringan, cocok untuk panas.", "ru": "Эта ткань лёгкая, подходит для жары." }
+      ]
     },
     {
       "id": "berat",
       "ru": "тяжёлый",
-      "en": "heavy"
+      "en": "heavy",
+      "examples": [
+        { "id": "Kopernya sangat berat.", "ru": "Чемодан очень тяжёлый." },
+        { "id": "Hari ini pekerjaan saya berat.", "ru": "Сегодня у меня тяжёлая работа." },
+        { "id": "Kotak itu berat, butuh bantuan.", "ru": "Эта коробка тяжёлая, нужна помощь." }
+      ]
     },
     {
       "id": "penuh",
       "ru": "полный",
-      "en": "full"
+      "en": "full",
+      "examples": [
+        { "id": "Busnya penuh, tidak bisa masuk.", "ru": "Автобус полный, войти невозможно." },
+        { "id": "Perutku sudah penuh.", "ru": "Мой желудок уже полный." },
+        { "id": "Botol airnya sudah penuh.", "ru": "Бутылка с водой уже полная." }
+      ]
     },
     {
       "id": "kosong",
       "ru": "пустой",
-      "en": "empty"
+      "en": "empty",
+      "examples": [
+        { "id": "Gelasnya sudah kosong.", "ru": "Стакан уже пустой." },
+        { "id": "Ruangan itu kosong, tidak ada orang.", "ru": "Комната пустая, никого нет." },
+        { "id": "Perut saya kosong, belum makan.", "ru": "Мой желудок пустой, я ещё не ел." }
+      ]
     },
     {
       "id": "kering",
       "ru": "сухой",
-      "en": "dry"
+      "en": "dry",
+      "examples": [
+        { "id": "Musim kemarau membuat tanah kering.", "ru": "Засушливый сезон делает землю сухой." },
+        { "id": "Rambutnya sudah kering setelah mandi.", "ru": "Её волосы уже сухие после душа." },
+        { "id": "Cuaca kering membuat bibir pecah-pecah.", "ru": "Сухая погода вызывает трескание губ." }
+      ]
     },
     {
       "id": "basah",
       "ru": "мокрый",
-      "en": "wet"
+      "en": "wet",
+      "examples": [
+        { "id": "Bajuku basah kena hujan.", "ru": "Моя одежда промокла под дождём." },
+        { "id": "Lantainya basah, hati-hati jangan terpeleset.", "ru": "Пол мокрый, осторожно, не поскользнись." },
+        { "id": "Rambutnya masih basah.", "ru": "Её волосы ещё мокрые." }
+      ]
     },
     {
       "id": "terang",
       "ru": "светлый / яркий",
-      "en": "bright"
+      "en": "bright",
+      "examples": [
+        { "id": "Lampu di ruangan ini terang sekali.", "ru": "Лампа в этой комнате очень яркая." },
+        { "id": "Warna bajunya terang dan ceria.", "ru": "Цвет её одежды яркий и весёлый." },
+        { "id": "Di luar sudah terang, mari berangkat.", "ru": "Снаружи уже светло, пойдём." }
+      ]
     },
     {
       "id": "gelap",
       "ru": "тёмный",
-      "en": "dark"
+      "en": "dark",
+      "examples": [
+        { "id": "Kamarnya gelap, tolong nyalakan lampu.", "ru": "В комнате темно, включи, пожалуйста, свет." },
+        { "id": "Malam ini gelap sekali.", "ru": "Сегодня ночью очень темно." },
+        { "id": "Warna gelap cocok untuk pakaian formal.", "ru": "Тёмные цвета подходят для формальной одежды." }
+      ]
     },
     {
       "id": "cerah",
       "ru": "солнечный",
-      "en": "sunny"
+      "en": "sunny",
+      "examples": [
+        { "id": "Hari ini cerah dan menyenangkan.", "ru": "Сегодня солнечный и приятный день." },
+        { "id": "Cuacanya cerah, cocok untuk piknik.", "ru": "Погода солнечная, идеально для пикника." },
+        { "id": "Langitnya cerah tanpa awan.", "ru": "Небо ясное, без облаков." }
+      ]
     },
     {
       "id": "mendung",
       "ru": "облачно",
-      "en": "cloudy"
+      "en": "cloudy",
+      "examples": [
+        { "id": "Langitnya mendung, mungkin akan hujan.", "ru": "Небо облачное, возможно, пойдёт дождь." },
+        { "id": "Cuaca mendung membuat saya mengantuk.", "ru": "Облачная погода меня клонит в сон." },
+        { "id": "Sudah mendung sejak pagi.", "ru": "Облачно с самого утра." }
+      ]
     },
     {
       "id": "indah",
       "ru": "красивый",
-      "en": "beautiful"
+      "en": "beautiful",
+      "examples": [
+        { "id": "Pemandangan pantainya sangat indah.", "ru": "Вид на пляж очень красивый." },
+        { "id": "Bunga-bunga itu indah sekali.", "ru": "Эти цветы очень красивые." },
+        { "id": "Musiknya indah dan menyentuh hati.", "ru": "Музыка красивая и трогательная." }
+      ]
     },
     {
       "id": "cantik",
       "ru": "красивая",
-      "en": "pretty"
+      "en": "pretty",
+      "examples": [
+        { "id": "Adiknya cantik sekali.", "ru": "Его сестра очень красивая." },
+        { "id": "Baju yang kamu pakai cantik.", "ru": "Одежда, которую ты носишь, красивая." },
+        { "id": "Dia cantik dan pintar.", "ru": "Она красивая и умная." }
+      ]
     },
     {
       "id": "ganteng",
       "ru": "красивый (м.)",
-      "en": "handsome"
+      "en": "handsome",
+      "examples": [
+        { "id": "Aktornya ganteng banget.", "ru": "Актёр очень красивый." },
+        { "id": "Teman baruku ganteng dan ramah.", "ru": "Мой новый друг красивый и приветливый." },
+        { "id": "Kamu terlihat ganteng hari ini.", "ru": "Ты сегодня выглядишь красиво." }
+      ]
     },
     {
       "id": "tampan",
       "ru": "красивый (м.)",
-      "en": "handsome"
+      "en": "handsome",
+      "examples": [
+        { "id": "Pria itu sangat tampan.", "ru": "Тот мужчина очень красивый." },
+        { "id": "Dia tampan dan berwibawa.", "ru": "Он красивый и внушающий уважение." },
+        { "id": "Anak laki-lakinya tampan seperti ayahnya.", "ru": "Его сын такой же красивый, как отец." }
+      ]
     },
     {
       "id": "kuat",
       "ru": "сильный",
-      "en": "strong"
+      "en": "strong",
+      "examples": [
+        { "id": "Anginnya sangat kuat malam ini.", "ru": "Ночью ветер очень сильный." },
+        { "id": "Dia kuat dan bisa membawa beban berat.", "ru": "Он сильный и может нести тяжёлый груз." },
+        { "id": "Kopi ini kuat sekali.", "ru": "Этот кофе очень крепкий." }
+      ]
     },
     {
       "id": "lemah",
       "ru": "слабый",
-      "en": "weak"
+      "en": "weak",
+      "examples": [
+        { "id": "Dia lemah karena sakit.", "ru": "Он слабый из-за болезни." },
+        { "id": "Sinyal di sini lemah.", "ru": "Сигнал здесь слабый." },
+        { "id": "Anginnya lemah, tidak terasa panas.", "ru": "Ветер слабый, не чувствуется жара." }
+      ]
     },
     {
       "id": "segar",
       "ru": "свежий",
-      "en": "fresh"
+      "en": "fresh",
+      "examples": [
+        { "id": "Buah-buahannya segar dari pasar.", "ru": "Фрукты свежие, с рынка." },
+        { "id": "Udaranya segar di pagi hari.", "ru": "Воздух свежий по утрам." },
+        { "id": "Minum air segar setelah olahraga.", "ru": "Выпей свежей воды после тренировки." }
+      ]
     },
     {
       "id": "bersih",
       "ru": "чистый",
-      "en": "clean"
+      "en": "clean",
+      "examples": [
+        { "id": "Rumahnya selalu bersih dan rapi.", "ru": "В его доме всегда чисто и аккуратно." },
+        { "id": "Cuci tangan sampai bersih.", "ru": "Вымой руки до чистоты." },
+        { "id": "Air di sungai ini bersih.", "ru": "Вода в этой реке чистая." }
+      ]
     },
     {
       "id": "kotor",
       "ru": "грязный",
-      "en": "dirty"
+      "en": "dirty",
+      "examples": [
+        { "id": "Bajunya kotor setelah bermain.", "ru": "Его одежда грязная после игры." },
+        { "id": "Jangan makan di meja yang kotor.", "ru": "Не ешь за грязным столом." },
+        { "id": "Mobilnya kotor, perlu dicuci.", "ru": "Машина грязная, надо помыть." }
+      ]
     },
     {
       "id": "rapi",
       "ru": "опрятный",
-      "en": "tidy"
+      "en": "tidy",
+      "examples": [
+        { "id": "Kamarnya selalu rapi.", "ru": "В его комнате всегда опрятно." },
+        { "id": "Dia berpakaian rapi ke kantor.", "ru": "Он одевается опрятно на работу." },
+        { "id": "Tolong tata buku itu dengan rapi.", "ru": "Пожалуйста, аккуратно разложи книги." }
+      ]
     },
     {
       "id": "berantakan",
       "ru": "неубранный",
-      "en": "messy"
+      "en": "messy",
+      "examples": [
+        { "id": "Kamarnya berantakan sekali.", "ru": "Его комната очень неубранная." },
+        { "id": "Meja kerjanya berantakan setiap hari.", "ru": "Его рабочий стол каждый день в беспорядке." },
+        { "id": "Rambutnya berantakan karena angin.", "ru": "Её волосы растрёпаны из-за ветра." }
+      ]
     },
     {
       "id": "ramai",
       "ru": "шумный / людный",
-      "en": "crowded"
+      "en": "crowded",
+      "examples": [
+        { "id": "Pasar itu selalu ramai.", "ru": "Этот рынок всегда людный." },
+        { "id": "Pestanya ramai dan menyenangkan.", "ru": "Вечеринка шумная и весёлая." },
+        { "id": "Kota ini ramai di akhir pekan.", "ru": "Этот город оживлённый в выходные." }
+      ]
     },
     {
       "id": "sepi",
       "ru": "тихий / безлюдный",
-      "en": "quiet"
+      "en": "quiet",
+      "examples": [
+        { "id": "Desa itu sepi dan tenang.", "ru": "Деревня тихая и спокойная." },
+        { "id": "Jalanan sepi di malam hari.", "ru": "Улицы безлюдные ночью." },
+        { "id": "Saya suka tempat yang sepi.", "ru": "Мне нравятся тихие места." }
+      ]
     },
     {
       "id": "ramah",
       "ru": "приветливый",
-      "en": "friendly"
+      "en": "friendly",
+      "examples": [
+        { "id": "Penduduk di sini sangat ramah.", "ru": "Местные жители очень приветливые." },
+        { "id": "Dia selalu ramah kepada semua orang.", "ru": "Он всегда приветлив со всеми." },
+        { "id": "Pelayan di restoran itu ramah sekali.", "ru": "Официанты в том ресторане очень приветливые." }
+      ]
     },
     {
       "id": "sopan",
       "ru": "вежливый",
-      "en": "polite"
+      "en": "polite",
+      "examples": [
+        { "id": "Anak itu sopan kepada orang tua.", "ru": "Этот ребёнок вежлив со старшими." },
+        { "id": "Tolong bicara dengan sopan.", "ru": "Пожалуйста, говори вежливо." },
+        { "id": "Dia selalu bersikap sopan.", "ru": "Он всегда ведёт себя вежливо." }
+      ]
     },
     {
       "id": "kasar",
       "ru": "грубый",
-      "en": "rude"
+      "en": "rude",
+      "examples": [
+        { "id": "Jangan bersikap kasar kepada orang lain.", "ru": "Не веди себя грубо с другими людьми." },
+        { "id": "Permukaannya kasar, hati-hati.", "ru": "Поверхность грубая, осторожно." },
+        { "id": "Kata-katanya kasar dan menyakitkan.", "ru": "Его слова грубые и обидные." }
+      ]
     },
     {
       "id": "pintar",
       "ru": "умный",
-      "en": "smart"
+      "en": "smart",
+      "examples": [
+        { "id": "Dia anak yang pintar di sekolah.", "ru": "Он умный ребёнок в школе." },
+        { "id": "Adikku pintar matematika.", "ru": "Мой младший брат умный в математике." },
+        { "id": "Kamu pintar, pasti bisa lulus.", "ru": "Ты умный, точно сдашь экзамен." }
+      ]
     },
     {
       "id": "pandai",
       "ru": "способный",
-      "en": "clever"
+      "en": "clever",
+      "examples": [
+        { "id": "Dia pandai bermain musik.", "ru": "Он способный музыкант." },
+        { "id": "Anak itu pandai berbahasa asing.", "ru": "Этот ребёнок способный к иностранным языкам." },
+        { "id": "Kamu pandai memasak.", "ru": "Ты способная в кулинарии." }
+      ]
     },
     {
       "id": "cerdas",
       "ru": "сообразительный",
-      "en": "intelligent"
+      "en": "intelligent",
+      "examples": [
+        { "id": "Dia sangat cerdas dan cepat belajar.", "ru": "Он очень сообразительный и быстро учится." },
+        { "id": "Anak yang cerdas selalu ingin tahu.", "ru": "Сообразительный ребёнок всегда любопытен." },
+        { "id": "Jawabannya cerdas dan tepat.", "ru": "Его ответ сообразительный и точный." }
+      ]
     },
     {
       "id": "bodoh",
       "ru": "глупый",
-      "en": "stupid"
+      "en": "stupid",
+      "examples": [
+        { "id": "Jangan bilang bodoh kepada teman.", "ru": "Не говори «глупый» другу." },
+        { "id": "Keputusan itu bodoh sekali.", "ru": "Это решение было очень глупым." },
+        { "id": "Saya merasa bodoh karena lupa.", "ru": "Я чувствую себя глупым, потому что забыл." }
+      ]
     },
     {
       "id": "rajin",
       "ru": "усердный",
-      "en": "diligent"
+      "en": "diligent",
+      "examples": [
+        { "id": "Dia rajin belajar setiap hari.", "ru": "Он усердно учится каждый день." },
+        { "id": "Murid yang rajin mendapat nilai bagus.", "ru": "Усердные ученики получают хорошие оценки." },
+        { "id": "Jadilah anak yang rajin dan sopan.", "ru": "Будь усердным и вежливым ребёнком." }
+      ]
     },
     {
       "id": "malas",
       "ru": "ленивый",
-      "en": "lazy"
+      "en": "lazy",
+      "examples": [
+        { "id": "Jangan malas, ayo bekerja.", "ru": "Не ленись, давай работать." },
+        { "id": "Dia malas pergi ke sekolah.", "ru": "Ему лень идти в школу." },
+        { "id": "Saya merasa malas hari ini.", "ru": "Сегодня мне лениво." }
+      ]
     },
     {
       "id": "berani",
       "ru": "смелый",
-      "en": "brave"
+      "en": "brave",
+      "examples": [
+        { "id": "Dia berani berbicara di depan umum.", "ru": "Он смелый, говорит перед публикой." },
+        { "id": "Kamu harus berani mencoba hal baru.", "ru": "Надо быть смелым и пробовать новое." },
+        { "id": "Tentara itu sangat berani.", "ru": "Этот солдат очень смелый." }
+      ]
     },
     {
       "id": "penakut",
       "ru": "трусливый",
-      "en": "cowardly"
+      "en": "cowardly",
+      "examples": [
+        { "id": "Dia penakut, tidak mau mencoba.", "ru": "Он трусливый, не хочет пробовать." },
+        { "id": "Jangan jadi penakut, hadapi masalahmu.", "ru": "Не будь трусом, встречай свои проблемы." },
+        { "id": "Anak itu penakut saat ada petir.", "ru": "Этот ребёнок трусливый во время грома." }
+      ]
     },
     {
       "id": "baik hati",
       "ru": "добрый",
-      "en": "kind"
+      "en": "kind",
+      "examples": [
+        { "id": "Nenek saya baik hati kepada semua orang.", "ru": "Моя бабушка добрая ко всем людям." },
+        { "id": "Terima kasih, kamu baik hati sekali.", "ru": "Спасибо, ты очень добрый." },
+        { "id": "Dia selalu baik hati menolong tetangga.", "ru": "Он всегда добросердечно помогает соседям." }
+      ]
     },
     {
       "id": "jahat",
       "ru": "злой",
-      "en": "evil"
+      "en": "evil",
+      "examples": [
+        { "id": "Jangan berbuat jahat kepada orang lain.", "ru": "Не делай зла другим людям." },
+        { "id": "Penjahat itu akhirnya ditangkap polisi.", "ru": "Злодея в конце концов поймала полиция." },
+        { "id": "Karakternya jahat dalam film itu.", "ru": "Его персонаж злой в том фильме." }
+      ]
     },
     {
       "id": "sabar",
       "ru": "терпеливый",
-      "en": "patient"
+      "en": "patient",
+      "examples": [
+        { "id": "Guru yang baik harus sabar.", "ru": "Хороший учитель должен быть терпеливым." },
+        { "id": "Sabar, sebentar lagi selesai.", "ru": "Потерпи, скоро закончится." },
+        { "id": "Dia sabar menunggu giliran.", "ru": "Он терпеливо ждёт своей очереди." }
+      ]
     },
     {
       "id": "gemuk",
       "ru": "толстый",
-      "en": "fat"
+      "en": "fat",
+      "examples": [
+        { "id": "Kucing itu gemuk karena banyak makan.", "ru": "Кот толстый, потому что много ест." },
+        { "id": "Dia merasa gemuk dan ingin diet.", "ru": "Она чувствует себя полной и хочет сесть на диету." },
+        { "id": "Anak kecil yang gemuk itu lucu.", "ru": "Этот пухленький малыш такой милый." }
+      ]
     },
     {
       "id": "kurus",
       "ru": "худой",
-      "en": "thin"
+      "en": "thin",
+      "examples": [
+        { "id": "Dia kurus karena jarang makan.", "ru": "Она худая, потому что редко ест." },
+        { "id": "Badannya kurus tapi sehat.", "ru": "Он худой, но здоровый." },
+        { "id": "Kucing jalanan itu kurus dan kotor.", "ru": "Уличный кот худой и грязный." }
+      ]
     },
     {
       "id": "langsing",
       "ru": "стройный",
-      "en": "slim"
+      "en": "slim",
+      "examples": [
+        { "id": "Tubuhnya langsing karena rajin olahraga.", "ru": "Её тело стройное, потому что она регулярно занимается спортом." },
+        { "id": "Baju ini cocok untuk orang yang langsing.", "ru": "Это платье подходит для стройных людей." },
+        { "id": "Dia terlihat langsing dalam foto itu.", "ru": "На той фотографии она выглядит стройной." }
+      ]
     },
     {
       "id": "penting",
       "ru": "важный",
-      "en": "important"
+      "en": "important",
+      "examples": [
+        { "id": "Kesehatan sangat penting dalam hidup.", "ru": "Здоровье очень важно в жизни." },
+        { "id": "Ada pertemuan penting hari ini.", "ru": "Сегодня важная встреча." },
+        { "id": "Ini hal yang penting untuk diingat.", "ru": "Это важная вещь, которую нужно запомнить." }
+      ]
     },
     {
       "id": "menarik",
       "ru": "интересный",
-      "en": "interesting"
+      "en": "interesting",
+      "examples": [
+        { "id": "Bukunya sangat menarik.", "ru": "Книга очень интересная." },
+        { "id": "Ceritanya menarik, saya ingin tahu lanjutannya.", "ru": "Рассказ интересный, хочу узнать продолжение." },
+        { "id": "Pelajaran hari ini menarik sekali.", "ru": "Сегодняшний урок очень интересный." }
+      ]
     },
     {
       "id": "membosankan",
       "ru": "скучный",
-      "en": "boring"
+      "en": "boring",
+      "examples": [
+        { "id": "Filmnya membosankan, saya mengantuk.", "ru": "Фильм скучный, меня клонит в сон." },
+        { "id": "Rapat itu membosankan dan terlalu lama.", "ru": "Совещание было скучным и слишком долгим." },
+        { "id": "Jangan buat cerita yang membosankan.", "ru": "Не рассказывай скучные истории." }
+      ]
     },
     {
       "id": "lucu",
       "ru": "смешной",
-      "en": "funny"
+      "en": "funny",
+      "examples": [
+        { "id": "Leluconnya lucu sekali.", "ru": "Его шутка очень смешная." },
+        { "id": "Film komedi itu lucu banget.", "ru": "Та комедия очень смешная." },
+        { "id": "Anak itu lucu, membuat semua tertawa.", "ru": "Этот ребёнок смешной, заставляет всех смеяться." }
+      ]
     },
     {
       "id": "serius",
       "ru": "серьёзный",
-      "en": "serious"
+      "en": "serious",
+      "examples": [
+        { "id": "Ini masalah yang serius, jangan tertawa.", "ru": "Это серьёзная проблема, не смейся." },
+        { "id": "Ekspresinya serius saat bekerja.", "ru": "Его выражение лица серьёзное во время работы." },
+        { "id": "Saya serius ingin belajar bahasa ini.", "ru": "Я серьёзно хочу учить этот язык." }
+      ]
     },
     {
       "id": "aman",
       "ru": "безопасный",
-      "en": "safe"
+      "en": "safe",
+      "examples": [
+        { "id": "Lingkungan di sini aman untuk anak-anak.", "ru": "Эта местность безопасна для детей." },
+        { "id": "Perjalanan kita aman sampai tujuan.", "ru": "Наша поездка прошла безопасно до цели." },
+        { "id": "Apakah air ini aman untuk diminum?", "ru": "Эта вода безопасна для питья?" }
+      ]
     },
     {
       "id": "bahaya",
       "ru": "опасность",
-      "en": "danger"
+      "en": "danger",
+      "examples": [
+        { "id": "Awas bahaya di jalan itu!", "ru": "Осторожно, опасность на той дороге!" },
+        { "id": "Ada tanda bahaya di depan.", "ru": "Впереди знак опасности." },
+        { "id": "Jangan abaikan tanda bahaya.", "ru": "Не игнорируй знаки опасности." }
+      ]
     },
     {
       "id": "berbahaya",
       "ru": "опасный",
-      "en": "dangerous"
+      "en": "dangerous",
+      "examples": [
+        { "id": "Hewan itu berbahaya, jangan dekati.", "ru": "Это животное опасное, не подходи." },
+        { "id": "Berkendara terlalu cepat itu berbahaya.", "ru": "Ехать слишком быстро — это опасно." },
+        { "id": "Tempat itu berbahaya di malam hari.", "ru": "Это место опасное ночью." }
+      ]
     },
     {
       "id": "nyaman",
       "ru": "удобный",
-      "en": "comfortable"
+      "en": "comfortable",
+      "examples": [
+        { "id": "Kursi ini nyaman sekali.", "ru": "Этот стул очень удобный." },
+        { "id": "Saya merasa nyaman di sini.", "ru": "Мне здесь комфортно." },
+        { "id": "Tempat tidurnya nyaman dan hangat.", "ru": "Кровать удобная и тёплая." }
+      ]
     },
     {
       "id": "tenang",
       "ru": "спокойный",
-      "en": "calm"
+      "en": "calm",
+      "examples": [
+        { "id": "Tetap tenang, jangan panik.", "ru": "Оставайся спокойным, не паникуй." },
+        { "id": "Suasana di sini tenang dan damai.", "ru": "Атмосфера здесь спокойная и мирная." },
+        { "id": "Dia berbicara dengan tenang.", "ru": "Он говорит спокойно." }
+      ]
     },
     {
       "id": "ribut",
       "ru": "шумный",
-      "en": "noisy"
+      "en": "noisy",
+      "examples": [
+        { "id": "Anak-anak itu ribut sekali.", "ru": "Эти дети очень шумные." },
+        { "id": "Jangan ribut di perpustakaan.", "ru": "Не шуми в библиотеке." },
+        { "id": "Tetangganya ribut setiap malam.", "ru": "Его сосед шумит каждую ночь." }
+      ]
     },
     {
       "id": "berisik",
       "ru": "шумный",
-      "en": "noisy"
+      "en": "noisy",
+      "examples": [
+        { "id": "Mesinnya berisik sekali.", "ru": "Машина очень шумная." },
+        { "id": "Jangan berisik, ada orang tidur.", "ru": "Не шуми, кто-то спит." },
+        { "id": "Pasar itu berisik dari pagi hingga sore.", "ru": "Рынок шумный с утра до вечера." }
+      ]
     },
     {
       "id": "bising",
       "ru": "шумный",
-      "en": "noisy"
+      "en": "noisy",
+      "examples": [
+        { "id": "Jalanan bising karena banyak kendaraan.", "ru": "Дорога шумная из-за большого количества транспорта." },
+        { "id": "Suara mesin pabrik itu bising sekali.", "ru": "Звук заводского станка очень шумный." },
+        { "id": "Saya tidak bisa tidur karena bising.", "ru": "Я не могу спать из-за шума." }
+      ]
     },
     {
       "id": "asli",
       "ru": "оригинальный",
-      "en": "original"
+      "en": "original",
+      "examples": [
+        { "id": "Ini produk asli, bukan tiruan.", "ru": "Это оригинальный продукт, не подделка." },
+        { "id": "Apakah tas ini asli?", "ru": "Эта сумка оригинальная?" },
+        { "id": "Saya selalu beli barang asli.", "ru": "Я всегда покупаю оригинальные вещи." }
+      ]
     },
     {
       "id": "palsu",
       "ru": "поддельный",
-      "en": "fake"
+      "en": "fake",
+      "examples": [
+        { "id": "Uang itu palsu, jangan diterima.", "ru": "Эти деньги поддельные, не принимай." },
+        { "id": "Jam tangannya palsu tapi terlihat bagus.", "ru": "Его часы поддельные, но выглядят хорошо." },
+        { "id": "Hati-hati dengan berita palsu.", "ru": "Осторожно с поддельными новостями." }
+      ]
     }
   ]
 }

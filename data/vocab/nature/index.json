@@ -7,237 +7,472 @@
     {
       "id": "alam",
       "ru": "природа",
-      "en": "nature"
+      "en": "nature",
+      "examples": [
+        { "id": "Alam Indonesia sangat indah.", "ru": "Природа Индонезии очень красивая." },
+        { "id": "Saya suka berjalan di alam terbuka.", "ru": "Я люблю гулять на природе." },
+        { "id": "Kita harus menjaga alam kita.", "ru": "Мы должны беречь нашу природу." }
+      ]
     },
     {
       "id": "langit",
       "ru": "небо",
-      "en": "sky"
+      "en": "sky",
+      "examples": [
+        { "id": "Langit hari ini sangat biru.", "ru": "Небо сегодня очень голубое." },
+        { "id": "Ada banyak bintang di langit malam.", "ru": "На ночном небе много звёзд." },
+        { "id": "Langit mulai mendung.", "ru": "Небо начинает затягиваться тучами." }
+      ]
     },
     {
       "id": "awan",
       "ru": "облако",
-      "en": "cloud"
+      "en": "cloud",
+      "examples": [
+        { "id": "Awan putih bergerak pelan di langit.", "ru": "Белые облака медленно плывут по небу." },
+        { "id": "Awan gelap pertanda hujan akan datang.", "ru": "Тёмные облака — признак приближающегося дождя." },
+        { "id": "Saya melihat awan berbentuk kelinci.", "ru": "Я вижу облако в форме кролика." }
+      ]
     },
     {
       "id": "matahari",
       "ru": "солнце",
-      "en": "sun"
+      "en": "sun",
+      "examples": [
+        { "id": "Matahari terbit pukul enam pagi.", "ru": "Солнце встаёт в шесть утра." },
+        { "id": "Matahari sangat terik siang ini.", "ru": "Сегодня днём солнце очень палящее." },
+        { "id": "Cahaya matahari membuat saya hangat.", "ru": "Солнечный свет согревает меня." }
+      ]
     },
     {
       "id": "bintang",
       "ru": "звезда",
-      "en": "star"
+      "en": "star",
+      "examples": [
+        { "id": "Bintang terlihat jelas malam ini.", "ru": "Сегодня ночью звёзды хорошо видны." },
+        { "id": "Ada banyak bintang di langit.", "ru": "На небе много звёзд." },
+        { "id": "Saya suka melihat bintang di malam hari.", "ru": "Я люблю смотреть на звёзды ночью." }
+      ]
     },
     {
       "id": "hujan",
       "ru": "дождь",
-      "en": "rain"
+      "en": "rain",
+      "examples": [
+        { "id": "Hujan turun sejak tadi pagi.", "ru": "Дождь идёт с утра." },
+        { "id": "Apakah besok akan hujan?", "ru": "Завтра будет дождь?" },
+        { "id": "Saya tidak membawa payung waktu hujan.", "ru": "У меня не было зонта, когда шёл дождь." }
+      ]
     },
     {
       "id": "salju",
       "ru": "снег",
-      "en": "snow"
+      "en": "snow",
+      "examples": [
+        { "id": "Saya belum pernah melihat salju.", "ru": "Я никогда не видел снега." },
+        { "id": "Di Indonesia tidak ada salju.", "ru": "В Индонезии нет снега." },
+        { "id": "Anak-anak bermain salju di musim dingin.", "ru": "Дети играют в снег зимой." }
+      ]
     },
     {
       "id": "angin",
       "ru": "ветер",
-      "en": "wind"
+      "en": "wind",
+      "examples": [
+        { "id": "Angin bertiup kencang hari ini.", "ru": "Сегодня дует сильный ветер." },
+        { "id": "Angin laut terasa segar.", "ru": "Морской ветер ощущается свежим." },
+        { "id": "Angin membuat daun-daun bergoyang.", "ru": "Ветер заставляет листья качаться." }
+      ]
     },
     {
       "id": "badai",
       "ru": "буря",
-      "en": "storm"
+      "en": "storm",
+      "examples": [
+        { "id": "Badai besar datang malam ini.", "ru": "Сегодня ночью придёт сильная буря." },
+        { "id": "Kami tinggal di dalam rumah saat badai.", "ru": "Во время бури мы оставались дома." },
+        { "id": "Badai sudah berlalu sekarang.", "ru": "Буря уже прошла." }
+      ]
     },
     {
       "id": "petir",
       "ru": "молния",
-      "en": "thunder"
+      "en": "thunder",
+      "examples": [
+        { "id": "Petir menyambar pohon besar itu.", "ru": "Молния ударила в то большое дерево." },
+        { "id": "Saya takut dengan suara petir.", "ru": "Я боюсь звука грома." },
+        { "id": "Petir terlihat di kejauhan.", "ru": "Вдали видна молния." }
+      ]
     },
     {
       "id": "pelangi",
       "ru": "радуга",
-      "en": "rainbow"
+      "en": "rainbow",
+      "examples": [
+        { "id": "Ada pelangi setelah hujan berhenti.", "ru": "После того как дождь прекратился, появилась радуга." },
+        { "id": "Pelangi mempunyai tujuh warna.", "ru": "Радуга имеет семь цветов." },
+        { "id": "Anak itu senang melihat pelangi.", "ru": "Ребёнок рад видеть радугу." }
+      ]
     },
     {
       "id": "kabut",
       "ru": "туман",
-      "en": "fog"
+      "en": "fog",
+      "examples": [
+        { "id": "Kabut tebal menutupi jalan pagi ini.", "ru": "Сегодня утром густой туман покрывал дорогу." },
+        { "id": "Saya tidak bisa melihat jauh karena kabut.", "ru": "Я не могу видеть далеко из-за тумана." },
+        { "id": "Kabut di pegunungan sangat indah.", "ru": "Туман в горах очень красивый." }
+      ]
     },
     {
       "id": "embun",
       "ru": "роса",
-      "en": "dew"
+      "en": "dew",
+      "examples": [
+        { "id": "Embun pagi menempel di daun-daun.", "ru": "Утренняя роса лежит на листьях." },
+        { "id": "Rumput basah karena embun.", "ru": "Трава мокрая от росы." },
+        { "id": "Saya melihat embun di pagi hari.", "ru": "Утром я вижу росу." }
+      ]
     },
     {
       "id": "panas",
       "ru": "жарко / жара",
-      "en": "hot"
+      "en": "hot",
+      "examples": [
+        { "id": "Hari ini sangat panas.", "ru": "Сегодня очень жарко." },
+        { "id": "Cuaca panas membuat saya haus.", "ru": "Жаркая погода заставляет меня хотеть пить." },
+        { "id": "Saya tidak suka panas yang berlebihan.", "ru": "Я не люблю сильную жару." }
+      ]
     },
     {
       "id": "dingin",
       "ru": "холодно",
-      "en": "cold"
+      "en": "cold",
+      "examples": [
+        { "id": "Udara pagi ini sangat dingin.", "ru": "Утренний воздух сегодня очень холодный." },
+        { "id": "Saya merasa dingin tanpa jaket.", "ru": "Без куртки мне холодно." },
+        { "id": "Air sungai itu dingin sekali.", "ru": "Вода в той реке очень холодная." }
+      ]
     },
     {
       "id": "sejuk",
       "ru": "прохладно",
-      "en": "cool"
+      "en": "cool",
+      "examples": [
+        { "id": "Udara di pegunungan sangat sejuk.", "ru": "Воздух в горах очень прохладный." },
+        { "id": "Angin sepoi-sepoi terasa sejuk.", "ru": "Лёгкий ветерок ощущается прохладным." },
+        { "id": "Sore hari biasanya lebih sejuk.", "ru": "Обычно вечером прохладнее." }
+      ]
     },
     {
       "id": "hangat",
       "ru": "тёплый",
-      "en": "warm"
+      "en": "warm",
+      "examples": [
+        { "id": "Cuaca hari ini hangat dan nyaman.", "ru": "Сегодня тёплая и приятная погода." },
+        { "id": "Sinar matahari terasa hangat di kulit.", "ru": "Солнечные лучи тепло ощущаются на коже." },
+        { "id": "Saya suka minum teh hangat di pagi hari.", "ru": "Я люблю пить тёплый чай по утрам." }
+      ]
     },
     {
       "id": "lembap",
       "ru": "влажный",
-      "en": "humid"
+      "en": "humid",
+      "examples": [
+        { "id": "Udara di sini sangat lembap.", "ru": "Воздух здесь очень влажный." },
+        { "id": "Cuaca lembap membuat saya gerah.", "ru": "Влажная погода делает мне душно." },
+        { "id": "Indonesia terkenal dengan cuaca yang lembap.", "ru": "Индонезия известна влажным климатом." }
+      ]
     },
     {
       "id": "cuaca",
       "ru": "погода",
-      "en": "weather"
+      "en": "weather",
+      "examples": [
+        { "id": "Bagaimana cuaca hari ini?", "ru": "Какая сегодня погода?" },
+        { "id": "Cuaca besok katanya akan hujan.", "ru": "Говорят, завтра погода будет дождливой." },
+        { "id": "Cuaca di Bali selalu cerah.", "ru": "Погода на Бали всегда ясная." }
+      ]
     },
     {
       "id": "gunung",
       "ru": "гора",
-      "en": "mountain"
+      "en": "mountain",
+      "examples": [
+        { "id": "Gunung Rinjani sangat tinggi.", "ru": "Гора Ринджани очень высокая." },
+        { "id": "Saya ingin mendaki gunung itu.", "ru": "Я хочу подняться на ту гору." },
+        { "id": "Di puncak gunung udaranya dingin.", "ru": "На вершине горы воздух холодный." }
+      ]
     },
     {
       "id": "bukit",
       "ru": "холм",
-      "en": "hill"
+      "en": "hill",
+      "examples": [
+        { "id": "Ada bukit kecil di belakang desa.", "ru": "За деревней есть небольшой холм." },
+        { "id": "Saya berjalan ke atas bukit.", "ru": "Я иду на холм." },
+        { "id": "Dari bukit ini kita bisa melihat laut.", "ru": "С этого холма можно увидеть море." }
+      ]
     },
     {
       "id": "lembah",
       "ru": "долина",
-      "en": "valley"
+      "en": "valley",
+      "examples": [
+        { "id": "Lembah itu sangat hijau dan subur.", "ru": "Та долина очень зелёная и плодородная." },
+        { "id": "Desa kami terletak di lembah.", "ru": "Наша деревня расположена в долине." },
+        { "id": "Sungai mengalir di tengah lembah.", "ru": "По середине долины течёт река." }
+      ]
     },
     {
       "id": "sungai",
       "ru": "река",
-      "en": "river"
+      "en": "river",
+      "examples": [
+        { "id": "Sungai ini mengalir ke laut.", "ru": "Эта река течёт в море." },
+        { "id": "Anak-anak berenang di sungai.", "ru": "Дети купаются в реке." },
+        { "id": "Air sungai ini sangat jernih.", "ru": "Вода в этой реке очень чистая." }
+      ]
     },
     {
       "id": "danau",
       "ru": "озеро",
-      "en": "lake"
+      "en": "lake",
+      "examples": [
+        { "id": "Danau Toba adalah danau terbesar di Indonesia.", "ru": "Озеро Тоба — самое большое озеро в Индонезии." },
+        { "id": "Kami memancing di tepi danau.", "ru": "Мы рыбачим на берегу озера." },
+        { "id": "Air danau itu berwarna biru.", "ru": "Вода в том озере синего цвета." }
+      ]
     },
     {
       "id": "laut",
       "ru": "море",
-      "en": "sea"
+      "en": "sea",
+      "examples": [
+        { "id": "Laut Indonesia sangat luas.", "ru": "Индонезийское море очень широкое." },
+        { "id": "Saya suka berenang di laut.", "ru": "Я люблю плавать в море." },
+        { "id": "Ikan banyak hidup di laut.", "ru": "В море живёт много рыбы." }
+      ]
     },
     {
       "id": "samudra",
       "ru": "океан",
-      "en": "ocean"
+      "en": "ocean",
+      "examples": [
+        { "id": "Indonesia dikelilingi oleh samudra.", "ru": "Индонезия окружена океаном." },
+        { "id": "Samudra Pasifik sangat dalam.", "ru": "Тихий океан очень глубокий." },
+        { "id": "Kapal berlayar melintasi samudra.", "ru": "Корабль плывёт через океан." }
+      ]
     },
     {
       "id": "pantai",
       "ru": "пляж",
-      "en": "beach"
+      "en": "beach",
+      "examples": [
+        { "id": "Pantai Kuta sangat terkenal.", "ru": "Пляж Кута очень известный." },
+        { "id": "Kami berjalan di pantai sore hari.", "ru": "Вечером мы гуляем по пляжу." },
+        { "id": "Pasir di pantai ini putih dan bersih.", "ru": "Песок на этом пляже белый и чистый." }
+      ]
     },
     {
       "id": "ombak",
       "ru": "волна",
-      "en": "wave"
+      "en": "wave",
+      "examples": [
+        { "id": "Ombak di pantai ini sangat besar.", "ru": "Волны на этом пляже очень большие." },
+        { "id": "Surfer bermain ombak setiap pagi.", "ru": "Серфингисты катаются на волнах каждое утро." },
+        { "id": "Saya takut dengan ombak yang kencang.", "ru": "Я боюсь сильных волн." }
+      ]
     },
     {
       "id": "pulau",
       "ru": "остров",
-      "en": "island"
+      "en": "island",
+      "examples": [
+        { "id": "Indonesia mempunyai lebih dari tujuh belas ribu pulau.", "ru": "В Индонезии более семнадцати тысяч островов." },
+        { "id": "Pulau Bali sangat indah.", "ru": "Остров Бали очень красивый." },
+        { "id": "Kami pergi ke pulau kecil dengan perahu.", "ru": "Мы добрались до маленького острова на лодке." }
+      ]
     },
     {
       "id": "pasir",
       "ru": "песок",
-      "en": "sand"
+      "en": "sand",
+      "examples": [
+        { "id": "Pasir pantai ini sangat halus.", "ru": "Песок на этом пляже очень мелкий." },
+        { "id": "Anak-anak bermain pasir di pantai.", "ru": "Дети играют в песок на пляже." },
+        { "id": "Angin membawa pasir ke mana-mana.", "ru": "Ветер разносит песок повсюду." }
+      ]
     },
     {
       "id": "batu",
       "ru": "камень",
-      "en": "stone"
+      "en": "stone",
+      "examples": [
+        { "id": "Ada batu besar di tengah sungai.", "ru": "Посреди реки есть большой камень." },
+        { "id": "Jalan ini dibuat dari batu.", "ru": "Эта дорога сделана из камня." },
+        { "id": "Saya menemukan batu yang indah di pantai.", "ru": "Я нашёл красивый камень на пляже." }
+      ]
     },
     {
       "id": "tanah",
       "ru": "земля",
-      "en": "land / soil"
+      "en": "land / soil",
+      "examples": [
+        { "id": "Tanah di sini sangat subur.", "ru": "Земля здесь очень плодородная." },
+        { "id": "Petani menggarap tanah setiap hari.", "ru": "Фермеры обрабатывают землю каждый день." },
+        { "id": "Bunga tumbuh subur di tanah yang baik.", "ru": "Цветы хорошо растут на хорошей почве." }
+      ]
     },
     {
       "id": "lumpur",
       "ru": "грязь",
-      "en": "mud"
+      "en": "mud",
+      "examples": [
+        { "id": "Setelah hujan, jalan penuh lumpur.", "ru": "После дождя дорога полна грязи." },
+        { "id": "Sepatu saya kotor karena lumpur.", "ru": "Мои туфли испачкались в грязи." },
+        { "id": "Anak-anak bermain lumpur di sawah.", "ru": "Дети играют в грязи на рисовом поле." }
+      ]
     },
     {
       "id": "api",
       "ru": "огонь",
-      "en": "fire"
+      "en": "fire",
+      "examples": [
+        { "id": "Mereka menyalakan api untuk memasak.", "ru": "Они разожгли огонь, чтобы готовить." },
+        { "id": "Api unggun terlihat indah di malam hari.", "ru": "Костёр красиво выглядит ночью." },
+        { "id": "Jangan bermain api, berbahaya!", "ru": "Не играй с огнём, это опасно!" }
+      ]
     },
     {
       "id": "asap",
       "ru": "дым",
-      "en": "smoke"
+      "en": "smoke",
+      "examples": [
+        { "id": "Asap dari pabrik mencemari udara.", "ru": "Дым от завода загрязняет воздух." },
+        { "id": "Saya melihat asap dari kejauhan.", "ru": "Я вижу дым вдали." },
+        { "id": "Asap api membuat mata perih.", "ru": "Дым от огня щиплет глаза." }
+      ]
     },
     {
       "id": "pohon",
       "ru": "дерево",
-      "en": "tree"
+      "en": "tree",
+      "examples": [
+        { "id": "Pohon mangga itu berbuah lebat.", "ru": "То дерево манго обильно плодоносит." },
+        { "id": "Anak-anak bermain di bawah pohon.", "ru": "Дети играют под деревом." },
+        { "id": "Pohon-pohon di hutan sangat tinggi.", "ru": "Деревья в лесу очень высокие." }
+      ]
     },
     {
       "id": "hutan",
       "ru": "лес",
-      "en": "forest"
+      "en": "forest",
+      "examples": [
+        { "id": "Hutan hujan tropis ada di Kalimantan.", "ru": "Тропический лес есть на Калимантане." },
+        { "id": "Banyak hewan hidup di dalam hutan.", "ru": "В лесу живёт много животных." },
+        { "id": "Kita harus menjaga hutan dari kebakaran.", "ru": "Мы должны защищать лес от пожаров." }
+      ]
     },
     {
       "id": "kayu",
       "ru": "дерево (материал)",
-      "en": "wood"
+      "en": "wood",
+      "examples": [
+        { "id": "Meja ini dibuat dari kayu jati.", "ru": "Этот стол сделан из тикового дерева." },
+        { "id": "Kami membakar kayu untuk menghangatkan diri.", "ru": "Мы жгём дрова, чтобы согреться." },
+        { "id": "Kayu ini sangat keras dan kuat.", "ru": "Это дерево очень твёрдое и прочное." }
+      ]
     },
     {
       "id": "daun",
       "ru": "лист",
-      "en": "leaf"
+      "en": "leaf",
+      "examples": [
+        { "id": "Daun pohon itu berwarna hijau.", "ru": "Листья того дерева зелёного цвета." },
+        { "id": "Angin membuat daun-daun jatuh ke tanah.", "ru": "Ветер заставляет листья падать на землю." },
+        { "id": "Daun pisang digunakan untuk membungkus makanan.", "ru": "Листья банана используются для заворачивания еды." }
+      ]
     },
     {
       "id": "bunga",
       "ru": "цветок",
-      "en": "flower"
+      "en": "flower",
+      "examples": [
+        { "id": "Bunga mawar ini sangat harum.", "ru": "Эта роза очень ароматная." },
+        { "id": "Ibu menanam bunga di kebun.", "ru": "Мама сажает цветы в саду." },
+        { "id": "Bunga-bunga bermekaran di musim semi.", "ru": "Цветы расцветают весной." }
+      ]
     },
     {
       "id": "rumput",
       "ru": "трава",
-      "en": "grass"
+      "en": "grass",
+      "examples": [
+        { "id": "Rumput di taman ini sangat hijau.", "ru": "Трава в этом парке очень зелёная." },
+        { "id": "Sapi makan rumput di padang.", "ru": "Коровы едят траву на пастбище." },
+        { "id": "Saya duduk di atas rumput.", "ru": "Я сижу на траве." }
+      ]
     },
     {
       "id": "akar",
       "ru": "корень",
-      "en": "root"
+      "en": "root",
+      "examples": [
+        { "id": "Akar pohon itu sangat dalam.", "ru": "Корни того дерева очень глубокие." },
+        { "id": "Akar pohon besar merusak jalan.", "ru": "Корни большого дерева разрушают дорогу." },
+        { "id": "Tanaman membutuhkan akar untuk menyerap air.", "ru": "Растениям нужны корни для впитывания воды." }
+      ]
     },
     {
       "id": "biji",
       "ru": "семя",
-      "en": "seed"
+      "en": "seed",
+      "examples": [
+        { "id": "Petani menanam biji padi di sawah.", "ru": "Фермер сажает семена риса на поле." },
+        { "id": "Biji ini akan tumbuh menjadi pohon besar.", "ru": "Это семя вырастет в большое дерево." },
+        { "id": "Saya membeli biji bunga untuk ditanam.", "ru": "Я купил семена цветов, чтобы посадить." }
+      ]
     },
     {
       "id": "ranting",
       "ru": "ветка",
-      "en": "branch"
+      "en": "branch",
+      "examples": [
+        { "id": "Burung hinggap di ranting pohon.", "ru": "Птица сидит на ветке дерева." },
+        { "id": "Ranting pohon itu patah karena angin.", "ru": "Ветка дерева сломалась от ветра." },
+        { "id": "Saya mengambil ranting untuk membuat api.", "ru": "Я беру ветки, чтобы разжечь огонь." }
+      ]
     },
     {
       "id": "sawah",
       "ru": "рисовое поле",
-      "en": "rice field"
+      "en": "rice field",
+      "examples": [
+        { "id": "Sawah di Bali sangat indah.", "ru": "Рисовые поля на Бали очень красивые." },
+        { "id": "Petani bekerja di sawah setiap hari.", "ru": "Фермеры работают на рисовом поле каждый день." },
+        { "id": "Air mengalir di antara sawah-sawah.", "ru": "Вода течёт между рисовыми полями." }
+      ]
     },
     {
       "id": "ladang",
       "ru": "поле",
-      "en": "field"
+      "en": "field",
+      "examples": [
+        { "id": "Ladang jagung itu sangat luas.", "ru": "То кукурузное поле очень большое." },
+        { "id": "Petani menanam sayuran di ladang.", "ru": "Фермер выращивает овощи в поле." },
+        { "id": "Kami berjalan melewati ladang yang hijau.", "ru": "Мы идём через зелёное поле." }
+      ]
     },
     {
       "id": "kebun",
       "ru": "сад",
-      "en": "garden"
+      "en": "garden",
+      "examples": [
+        { "id": "Ada banyak bunga di kebun kami.", "ru": "В нашем саду много цветов." },
+        { "id": "Nenek menanam sayuran di kebun.", "ru": "Бабушка выращивает овощи в саду." },
+        { "id": "Saya suka duduk santai di kebun.", "ru": "Я люблю отдыхать в саду." }
+      ]
     }
   ]
 }

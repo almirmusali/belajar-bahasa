@@ -7,117 +7,232 @@
     {
       "id": "sehat",
       "ru": "здоровый",
-      "en": "healthy"
+      "en": "healthy",
+      "examples": [
+        { "id": "Saya sehat hari ini.", "ru": "Я здоров сегодня." },
+        { "id": "Makan sayuran membuat kita tetap sehat.", "ru": "Употребление овощей помогает нам оставаться здоровыми." },
+        { "id": "Apakah kamu sehat?", "ru": "Ты здоров?" }
+      ]
     },
     {
       "id": "sakit",
       "ru": "больной / больно",
-      "en": "sick / painful"
+      "en": "sick / painful",
+      "examples": [
+        { "id": "Saya sakit sejak kemarin.", "ru": "Я болен со вчерашнего дня." },
+        { "id": "Kakiku sakit sekali.", "ru": "Моя нога очень болит." },
+        { "id": "Dia tidak masuk kerja karena sakit.", "ru": "Он не пришёл на работу, потому что заболел." }
+      ]
     },
     {
       "id": "penyakit",
       "ru": "болезнь",
-      "en": "disease"
+      "en": "disease",
+      "examples": [
+        { "id": "Penyakit ini mudah menular.", "ru": "Эта болезнь легко передаётся." },
+        { "id": "Dokter memeriksa penyakitnya.", "ru": "Врач обследовал его болезнь." },
+        { "id": "Apa nama penyakit kamu?", "ru": "Как называется твоя болезнь?" }
+      ]
     },
     {
       "id": "demam",
       "ru": "температура / жар",
-      "en": "fever"
+      "en": "fever",
+      "examples": [
+        { "id": "Anak saya demam sejak tadi malam.", "ru": "У моего ребёнка жар с прошлой ночи." },
+        { "id": "Saya demam dan harus beristirahat.", "ru": "У меня температура, и мне нужно отдохнуть." },
+        { "id": "Minumlah obat ini supaya demamnya turun.", "ru": "Выпей это лекарство, чтобы температура спала." }
+      ]
     },
     {
       "id": "pilek",
       "ru": "насморк",
-      "en": "runny nose"
+      "en": "runny nose",
+      "examples": [
+        { "id": "Saya pilek karena kehujanan.", "ru": "У меня насморк, потому что я попал под дождь." },
+        { "id": "Hidungku mampet karena pilek.", "ru": "У меня заложен нос из-за насморка." },
+        { "id": "Pilek saya sudah sembuh.", "ru": "Мой насморк уже прошёл." }
+      ]
     },
     {
       "id": "batuk",
       "ru": "кашель",
-      "en": "cough"
+      "en": "cough",
+      "examples": [
+        { "id": "Dia batuk terus sepanjang malam.", "ru": "Он кашлял всю ночь напролёт." },
+        { "id": "Saya batuk karena tenggorokan saya sakit.", "ru": "Я кашляю, потому что у меня болит горло." },
+        { "id": "Ada obat untuk batuk di apotik.", "ru": "В аптеке есть лекарство от кашля." }
+      ]
     },
     {
       "id": "flu",
       "ru": "грипп",
-      "en": "flu"
+      "en": "flu",
+      "examples": [
+        { "id": "Saya terkena flu minggu lalu.", "ru": "На прошлой неделе я заболел гриппом." },
+        { "id": "Flu bisa menyebar dengan cepat.", "ru": "Грипп может распространяться быстро." },
+        { "id": "Lebih baik istirahat kalau kena flu.", "ru": "Лучше отдыхать, если заболел гриппом." }
+      ]
     },
     {
       "id": "pusing",
       "ru": "кружится голова",
-      "en": "dizzy"
+      "en": "dizzy",
+      "examples": [
+        { "id": "Saya pusing setelah naik kapal.", "ru": "У меня закружилась голова после поездки на корабле." },
+        { "id": "Dia pusing karena kurang tidur.", "ru": "У него кружится голова из-за недосыпания." },
+        { "id": "Kalau pusing, duduklah dulu.", "ru": "Если кружится голова, сначала присядь." }
+      ]
     },
     {
       "id": "sakit kepala",
       "ru": "головная боль",
-      "en": "headache"
+      "en": "headache",
+      "examples": [
+        { "id": "Saya sakit kepala dan tidak bisa bekerja.", "ru": "У меня головная боль, и я не могу работать." },
+        { "id": "Minum air putih bisa membantu sakit kepala.", "ru": "Питьё воды может помочь при головной боли." },
+        { "id": "Sakit kepalaku sudah tiga hari.", "ru": "У меня болит голова уже три дня." }
+      ]
     },
     {
       "id": "sakit perut",
       "ru": "боль в животе",
-      "en": "stomachache"
+      "en": "stomachache",
+      "examples": [
+        { "id": "Saya sakit perut setelah makan.", "ru": "У меня заболел живот после еды." },
+        { "id": "Dia tidak mau makan karena sakit perut.", "ru": "Он не хочет есть из-за боли в животе." },
+        { "id": "Sakit perut bisa disebabkan oleh makanan kotor.", "ru": "Боль в животе может быть вызвана несвежей едой." }
+      ]
     },
     {
       "id": "sakit gigi",
       "ru": "зубная боль",
-      "en": "toothache"
+      "en": "toothache",
+      "examples": [
+        { "id": "Saya sakit gigi dan perlu ke dokter gigi.", "ru": "У меня зубная боль, и мне нужно идти к стоматологу." },
+        { "id": "Sakit giginya sangat parah.", "ru": "Зубная боль очень сильная." },
+        { "id": "Sikat gigi setiap hari agar tidak sakit gigi.", "ru": "Чисти зубы каждый день, чтобы не болели зубы." }
+      ]
     },
     {
       "id": "luka",
       "ru": "рана",
-      "en": "wound"
+      "en": "wound",
+      "examples": [
+        { "id": "Ada luka di tangannya.", "ru": "На его руке есть рана." },
+        { "id": "Luka ini harus dibersihkan.", "ru": "Эту рану нужно очистить." },
+        { "id": "Lukanya sudah sembuh setelah seminggu.", "ru": "Рана зажила через неделю." }
+      ]
     },
     {
       "id": "obat",
       "ru": "лекарство",
-      "en": "medicine"
+      "en": "medicine",
+      "examples": [
+        { "id": "Minumlah obat ini tiga kali sehari.", "ru": "Принимай это лекарство три раза в день." },
+        { "id": "Saya membeli obat di apotek.", "ru": "Я купил лекарство в аптеке." },
+        { "id": "Obat ini harus diminum setelah makan.", "ru": "Это лекарство нужно принимать после еды." }
+      ]
     },
     {
       "id": "vitamin",
       "ru": "витамин",
-      "en": "vitamin"
+      "en": "vitamin",
+      "examples": [
+        { "id": "Saya minum vitamin setiap pagi.", "ru": "Я принимаю витамины каждое утро." },
+        { "id": "Vitamin C baik untuk kekebalan tubuh.", "ru": "Витамин C полезен для иммунитета." },
+        { "id": "Dokter menyarankan saya minum vitamin.", "ru": "Врач посоветовал мне принимать витамины." }
+      ]
     },
     {
       "id": "istirahat",
       "ru": "отдых",
-      "en": "rest"
+      "en": "rest",
+      "examples": [
+        { "id": "Kamu perlu istirahat yang cukup.", "ru": "Тебе нужно достаточно отдыхать." },
+        { "id": "Saya istirahat sebentar setelah bekerja.", "ru": "Я немного отдохнул после работы." },
+        { "id": "Dokter berkata saya harus istirahat di rumah.", "ru": "Врач сказал, что мне нужно отдыхать дома." }
+      ]
     },
     {
       "id": "tidur",
       "ru": "сон / спать",
-      "en": "sleep"
+      "en": "sleep",
+      "examples": [
+        { "id": "Saya tidur delapan jam semalam.", "ru": "Я спал восемь часов прошлой ночью." },
+        { "id": "Tidur yang cukup penting untuk kesehatan.", "ru": "Достаточный сон важен для здоровья." },
+        { "id": "Dia belum tidur sejak kemarin.", "ru": "Он не спал со вчерашнего дня." }
+      ]
     },
     {
       "id": "bangun",
       "ru": "просыпаться / вставать",
-      "en": "wake up"
+      "en": "wake up",
+      "examples": [
+        { "id": "Saya bangun pukul enam setiap hari.", "ru": "Я просыпаюсь в шесть часов каждый день." },
+        { "id": "Susah bangun pagi kalau tidur larut.", "ru": "Тяжело вставать рано, если лечь поздно." },
+        { "id": "Dia bangun karena mendengar suara keras.", "ru": "Он проснулся, потому что услышал громкий звук." }
+      ]
     },
     {
       "id": "lelah",
       "ru": "уставший",
-      "en": "tired"
+      "en": "tired",
+      "examples": [
+        { "id": "Saya sangat lelah setelah bekerja seharian.", "ru": "Я очень устал после целого дня работы." },
+        { "id": "Dia lelah dan langsung tidur.", "ru": "Он устал и сразу лёг спать." },
+        { "id": "Tubuhku terasa lelah hari ini.", "ru": "Моё тело сегодня чувствует усталость." }
+      ]
     },
     {
       "id": "capek",
       "ru": "уставший (разг.)",
-      "en": "tired (informal)"
+      "en": "tired (informal)",
+      "examples": [
+        { "id": "Aduh, saya capek banget!", "ru": "Ой, я так устал!" },
+        { "id": "Kamu capek? Istirahat dulu saja.", "ru": "Ты устал? Тогда сначала отдохни." },
+        { "id": "Saya capek karena jalan jauh.", "ru": "Я устал, потому что долго шёл пешком." }
+      ]
     },
     {
       "id": "lapar",
       "ru": "голодный",
-      "en": "hungry"
+      "en": "hungry",
+      "examples": [
+        { "id": "Saya lapar, mau makan sekarang.", "ru": "Я голоден, хочу поесть сейчас." },
+        { "id": "Jangan pergi belajar dalam keadaan lapar.", "ru": "Не ходи учиться на голодный желудок." },
+        { "id": "Anak itu menangis karena lapar.", "ru": "Ребёнок плакал, потому что был голоден." }
+      ]
     },
     {
       "id": "kenyang",
       "ru": "сытый",
-      "en": "full"
+      "en": "full",
+      "examples": [
+        { "id": "Saya sudah kenyang, terima kasih.", "ru": "Я уже сыт, спасибо." },
+        { "id": "Jangan makan lagi kalau sudah kenyang.", "ru": "Не ешь больше, если уже сыт." },
+        { "id": "Perutku kenyang setelah makan nasi.", "ru": "Мой живот сыт после того, как я поел риса." }
+      ]
     },
     {
       "id": "haus",
       "ru": "жаждущий",
-      "en": "thirsty"
+      "en": "thirsty",
+      "examples": [
+        { "id": "Saya haus setelah berolahraga.", "ru": "Я хочу пить после тренировки." },
+        { "id": "Minumlah air kalau kamu haus.", "ru": "Пей воду, если хочешь пить." },
+        { "id": "Di hari panas, kita cepat merasa haus.", "ru": "В жаркий день мы быстро ощущаем жажду." }
+      ]
     },
     {
       "id": "mengantuk",
       "ru": "сонный",
-      "en": "sleepy"
+      "en": "sleepy",
+      "examples": [
+        { "id": "Saya mengantuk karena kurang tidur.", "ru": "Я сонный, потому что мало спал." },
+        { "id": "Dia mengantuk di kelas.", "ru": "Он хотел спать на уроке." },
+        { "id": "Kalau mengantuk, lebih baik tidur sebentar.", "ru": "Если хочется спать, лучше немного поспать." }
+      ]
     }
   ]
 }

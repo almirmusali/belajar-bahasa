@@ -7,212 +7,422 @@
     {
       "id": "pekerjaan",
       "ru": "работа",
-      "en": "job"
+      "en": "job",
+      "examples": [
+        { "id": "Apa pekerjaan kamu?", "ru": "Какая у тебя работа?" },
+        { "id": "Dia sedang mencari pekerjaan baru.", "ru": "Он ищет новую работу." },
+        { "id": "Pekerjaan ini sangat menarik.", "ru": "Эта работа очень интересная." }
+      ]
     },
     {
       "id": "kerja",
       "ru": "работа / работать",
-      "en": "work"
+      "en": "work",
+      "examples": [
+        { "id": "Saya kerja dari jam sembilan pagi.", "ru": "Я работаю с девяти утра." },
+        { "id": "Dia kerja di kantor pusat.", "ru": "Он работает в главном офисе." },
+        { "id": "Kami kerja sama dengan baik.", "ru": "Мы хорошо работаем вместе." }
+      ]
     },
     {
       "id": "tugas",
       "ru": "задача / задание",
-      "en": "task"
+      "en": "task",
+      "examples": [
+        { "id": "Saya punya banyak tugas hari ini.", "ru": "У меня сегодня много заданий." },
+        { "id": "Tugas ini harus selesai besok.", "ru": "Это задание нужно закончить завтра." },
+        { "id": "Apa tugas kamu minggu ini?", "ru": "Какие у тебя задачи на этой неделе?" }
+      ]
     },
     {
       "id": "proyek",
       "ru": "проект",
-      "en": "project"
+      "en": "project",
+      "examples": [
+        { "id": "Proyek ini sangat besar.", "ru": "Этот проект очень большой." },
+        { "id": "Kami sedang mengerjakan proyek baru.", "ru": "Мы сейчас работаем над новым проектом." },
+        { "id": "Kapan proyek ini selesai?", "ru": "Когда закончится этот проект?" }
+      ]
     },
     {
       "id": "rapat",
       "ru": "совещание",
-      "en": "meeting"
+      "en": "meeting",
+      "examples": [
+        { "id": "Rapat dimulai jam sepuluh.", "ru": "Совещание начинается в десять." },
+        { "id": "Saya harus ikut rapat sore ini.", "ru": "Мне нужно участвовать в совещании сегодня вечером." },
+        { "id": "Rapat kemarin sangat lama.", "ru": "Вчерашнее совещание было очень долгим." }
+      ]
     },
     {
       "id": "pertemuan",
       "ru": "встреча",
-      "en": "meeting"
+      "en": "meeting",
+      "examples": [
+        { "id": "Pertemuan itu sangat penting.", "ru": "Эта встреча очень важная." },
+        { "id": "Kami punya pertemuan dengan klien besok.", "ru": "Завтра у нас встреча с клиентом." },
+        { "id": "Pertemuan diadakan di ruang konferensi.", "ru": "Встреча проходит в конференц-зале." }
+      ]
     },
     {
       "id": "perusahaan",
       "ru": "компания",
-      "en": "company"
+      "en": "company",
+      "examples": [
+        { "id": "Dia bekerja di perusahaan besar.", "ru": "Он работает в большой компании." },
+        { "id": "Perusahaan ini didirikan tahun 2000.", "ru": "Эта компания была основана в 2000 году." },
+        { "id": "Berapa orang di perusahaan kamu?", "ru": "Сколько человек работает в твоей компании?" }
+      ]
     },
     {
       "id": "bos",
       "ru": "начальник",
-      "en": "boss"
+      "en": "boss",
+      "examples": [
+        { "id": "Bos saya sangat baik.", "ru": "Мой начальник очень хороший." },
+        { "id": "Bos memanggil saya ke kantornya.", "ru": "Начальник позвал меня в свой кабинет." },
+        { "id": "Apakah bos kamu ada di kantor hari ini?", "ru": "Твой начальник сегодня в офисе?" }
+      ]
     },
     {
       "id": "atasan",
       "ru": "начальник",
-      "en": "superior"
+      "en": "superior",
+      "examples": [
+        { "id": "Saya harus melapor kepada atasan.", "ru": "Мне нужно доложить начальнику." },
+        { "id": "Atasan saya memberi saya tanggung jawab baru.", "ru": "Мой начальник дал мне новую ответственность." },
+        { "id": "Atasan kami selalu mendukung tim.", "ru": "Наш начальник всегда поддерживает команду." }
+      ]
     },
     {
       "id": "rekan",
       "ru": "коллега",
-      "en": "colleague"
+      "en": "colleague",
+      "examples": [
+        { "id": "Rekan kerja saya sangat ramah.", "ru": "Мои коллеги очень дружелюбные." },
+        { "id": "Kami pergi makan siang bersama rekan.", "ru": "Мы пошли обедать вместе с коллегами." },
+        { "id": "Rekan saya membantu saya dengan tugas ini.", "ru": "Мой коллега помог мне с этим заданием." }
+      ]
     },
     {
       "id": "kolega",
       "ru": "коллега",
-      "en": "colleague"
+      "en": "colleague",
+      "examples": [
+        { "id": "Dia adalah kolega lama saya.", "ru": "Он мой давний коллега." },
+        { "id": "Saya bekerja sama dengan banyak kolega.", "ru": "Я работаю вместе со многими коллегами." },
+        { "id": "Kolega saya pindah ke kota lain.", "ru": "Мой коллега переехал в другой город." }
+      ]
     },
     {
       "id": "klien",
       "ru": "клиент",
-      "en": "client"
+      "en": "client",
+      "examples": [
+        { "id": "Klien kami datang dari Jepang.", "ru": "Наш клиент приехал из Японии." },
+        { "id": "Saya bertemu klien baru hari ini.", "ru": "Сегодня я встретился с новым клиентом." },
+        { "id": "Kepuasan klien sangat penting bagi kami.", "ru": "Удовлетворённость клиента очень важна для нас." }
+      ]
     },
     {
       "id": "pelanggan",
       "ru": "покупатель",
-      "en": "customer"
+      "en": "customer",
+      "examples": [
+        { "id": "Pelanggan itu membeli banyak barang.", "ru": "Этот покупатель купил много товаров." },
+        { "id": "Kami melayani pelanggan dengan baik.", "ru": "Мы хорошо обслуживаем покупателей." },
+        { "id": "Pelanggan setia kami mendapat diskon.", "ru": "Наши постоянные покупатели получают скидку." }
+      ]
     },
     {
       "id": "gaji",
       "ru": "зарплата",
-      "en": "salary"
+      "en": "salary",
+      "examples": [
+        { "id": "Gaji saya dibayar setiap bulan.", "ru": "Мою зарплату платят каждый месяц." },
+        { "id": "Apakah gaji kamu cukup?", "ru": "Тебе хватает зарплаты?" },
+        { "id": "Dia mendapat kenaikan gaji tahun ini.", "ru": "В этом году ему повысили зарплату." }
+      ]
     },
     {
       "id": "upah",
       "ru": "оплата",
-      "en": "wage"
+      "en": "wage",
+      "examples": [
+        { "id": "Upah harian pekerja itu cukup besar.", "ru": "Дневная оплата этого рабочего довольно высокая." },
+        { "id": "Mereka meminta kenaikan upah.", "ru": "Они просят повышения оплаты." },
+        { "id": "Upah minimum di kota ini berapa?", "ru": "Какова минимальная оплата в этом городе?" }
+      ]
     },
     {
       "id": "guru",
       "ru": "учитель",
-      "en": "teacher"
+      "en": "teacher",
+      "examples": [
+        { "id": "Guru saya mengajar dengan sabar.", "ru": "Мой учитель преподаёт с терпением." },
+        { "id": "Dia ingin menjadi guru.", "ru": "Он хочет стать учителем." },
+        { "id": "Guru itu sangat dihormati oleh muridnya.", "ru": "Этот учитель очень уважаем своими учениками." }
+      ]
     },
     {
       "id": "dosen",
       "ru": "преподаватель",
-      "en": "lecturer"
+      "en": "lecturer",
+      "examples": [
+        { "id": "Dosen itu mengajar mata kuliah ekonomi.", "ru": "Этот преподаватель ведёт курс по экономике." },
+        { "id": "Saya bertanya kepada dosen setelah kuliah.", "ru": "После лекции я спросил у преподавателя." },
+        { "id": "Dosen kami sangat berpengalaman.", "ru": "Наш преподаватель очень опытный." }
+      ]
     },
     {
       "id": "murid",
       "ru": "ученик",
-      "en": "pupil"
+      "en": "pupil",
+      "examples": [
+        { "id": "Murid itu rajin belajar setiap hari.", "ru": "Этот ученик усердно учится каждый день." },
+        { "id": "Ada tiga puluh murid di kelas ini.", "ru": "В этом классе тридцать учеников." },
+        { "id": "Guru memuji murid yang pintar.", "ru": "Учитель хвалит умных учеников." }
+      ]
     },
     {
       "id": "siswa",
       "ru": "школьник",
-      "en": "student"
+      "en": "student",
+      "examples": [
+        { "id": "Siswa-siswa itu sedang ujian.", "ru": "Эти школьники сейчас сдают экзамен." },
+        { "id": "Seragam siswa di Indonesia biasanya putih.", "ru": "Форма школьников в Индонезии обычно белая." },
+        { "id": "Siswa itu berangkat sekolah jam tujuh.", "ru": "Этот школьник уходит в школу в семь." }
+      ]
     },
     {
       "id": "mahasiswa",
       "ru": "студент",
-      "en": "university student"
+      "en": "university student",
+      "examples": [
+        { "id": "Mahasiswa itu belajar di Universitas Indonesia.", "ru": "Этот студент учится в Университете Индонезии." },
+        { "id": "Banyak mahasiswa tinggal di asrama.", "ru": "Многие студенты живут в общежитии." },
+        { "id": "Saya adalah mahasiswa tahun pertama.", "ru": "Я студент первого курса." }
+      ]
     },
     {
       "id": "dokter",
       "ru": "врач",
-      "en": "doctor"
+      "en": "doctor",
+      "examples": [
+        { "id": "Dokter memeriksa pasien dengan teliti.", "ru": "Врач внимательно осматривает пациента." },
+        { "id": "Saya perlu menemui dokter hari ini.", "ru": "Мне нужно сегодня обратиться к врачу." },
+        { "id": "Dokter itu bekerja di rumah sakit besar.", "ru": "Этот врач работает в большой больнице." }
+      ]
     },
     {
       "id": "perawat",
       "ru": "медсестра",
-      "en": "nurse"
+      "en": "nurse",
+      "examples": [
+        { "id": "Perawat itu sangat ramah dan sabar.", "ru": "Эта медсестра очень добрая и терпеливая." },
+        { "id": "Perawat membantu dokter di ruang operasi.", "ru": "Медсестра помогает врачу в операционной." },
+        { "id": "Saya ingin menjadi perawat.", "ru": "Я хочу стать медсестрой." }
+      ]
     },
     {
       "id": "pengacara",
       "ru": "юрист",
-      "en": "lawyer"
+      "en": "lawyer",
+      "examples": [
+        { "id": "Dia membutuhkan bantuan pengacara.", "ru": "Ему нужна помощь юриста." },
+        { "id": "Pengacara itu membela kliennya di pengadilan.", "ru": "Юрист защищает своего клиента в суде." },
+        { "id": "Saya menghubungi pengacara untuk nasihat hukum.", "ru": "Я обратился к юристу за юридическим советом." }
+      ]
     },
     {
       "id": "tentara",
       "ru": "военный",
-      "en": "soldier"
+      "en": "soldier",
+      "examples": [
+        { "id": "Tentara itu menjaga keamanan negara.", "ru": "Военный защищает безопасность страны." },
+        { "id": "Kakak saya adalah seorang tentara.", "ru": "Мой старший брат — военный." },
+        { "id": "Para tentara berlatih setiap pagi.", "ru": "Военные тренируются каждое утро." }
+      ]
     },
     {
       "id": "petani",
       "ru": "фермер",
-      "en": "farmer"
+      "en": "farmer",
+      "examples": [
+        { "id": "Petani itu menanam padi di sawah.", "ru": "Фермер выращивает рис на поле." },
+        { "id": "Banyak petani bekerja dari subuh.", "ru": "Многие фермеры работают с рассвета." },
+        { "id": "Hasil panen petani tahun ini sangat bagus.", "ru": "Урожай фермера в этом году очень хороший." }
+      ]
     },
     {
       "id": "nelayan",
       "ru": "рыбак",
-      "en": "fisherman"
+      "en": "fisherman",
+      "examples": [
+        { "id": "Nelayan pergi melaut setiap pagi.", "ru": "Рыбак уходит в море каждое утро." },
+        { "id": "Nelayan itu menangkap banyak ikan hari ini.", "ru": "Сегодня рыбак поймал много рыбы." },
+        { "id": "Kehidupan nelayan bergantung pada cuaca.", "ru": "Жизнь рыбаков зависит от погоды." }
+      ]
     },
     {
       "id": "pedagang",
       "ru": "торговец",
-      "en": "trader"
+      "en": "trader",
+      "examples": [
+        { "id": "Pedagang itu menjual berbagai macam barang.", "ru": "Этот торговец продаёт разные товары." },
+        { "id": "Pedagang di pasar ini sangat ramai.", "ru": "На этом рынке много торговцев." },
+        { "id": "Dia adalah pedagang kain yang sukses.", "ru": "Он успешный торговец тканями." }
+      ]
     },
     {
       "id": "penjual",
       "ru": "продавец",
-      "en": "seller"
+      "en": "seller",
+      "examples": [
+        { "id": "Penjual itu menawarkan harga yang murah.", "ru": "Этот продавец предлагает низкие цены." },
+        { "id": "Saya bertanya kepada penjual tentang produk ini.", "ru": "Я спросил у продавца об этом товаре." },
+        { "id": "Penjual buah itu berjualan di pinggir jalan.", "ru": "Продавец фруктов торгует у дороги." }
+      ]
     },
     {
       "id": "pembeli",
       "ru": "покупатель",
-      "en": "buyer"
+      "en": "buyer",
+      "examples": [
+        { "id": "Pembeli itu membayar dengan kartu kredit.", "ru": "Покупатель платит кредитной картой." },
+        { "id": "Banyak pembeli datang ke toko ini.", "ru": "Много покупателей приходит в этот магазин." },
+        { "id": "Pembeli selalu benar.", "ru": "Покупатель всегда прав." }
+      ]
     },
     {
       "id": "koki",
       "ru": "повар",
-      "en": "chef"
+      "en": "chef",
+      "examples": [
+        { "id": "Koki itu memasak makanan yang lezat.", "ru": "Этот повар готовит вкусную еду." },
+        { "id": "Dia belajar menjadi koki profesional.", "ru": "Он учится стать профессиональным поваром." },
+        { "id": "Koki restoran ini terkenal di kota.", "ru": "Повар этого ресторана известен в городе." }
+      ]
     },
     {
       "id": "pelayan",
       "ru": "официант",
-      "en": "waiter"
+      "en": "waiter",
+      "examples": [
+        { "id": "Pelayan membawa menu kepada kami.", "ru": "Официант принёс нам меню." },
+        { "id": "Kami memanggil pelayan untuk memesan.", "ru": "Мы позвали официанта, чтобы сделать заказ." },
+        { "id": "Pelayan itu sangat cepat dan sopan.", "ru": "Этот официант очень быстрый и вежливый." }
+      ]
     },
     {
       "id": "pilot",
       "ru": "пилот",
-      "en": "pilot"
+      "en": "pilot",
+      "examples": [
+        { "id": "Pilot itu terbang ke Bali setiap minggu.", "ru": "Этот пилот летит на Бали каждую неделю." },
+        { "id": "Dia bermimpi menjadi pilot sejak kecil.", "ru": "С детства он мечтал стать пилотом." },
+        { "id": "Pilot mengumumkan waktu tiba di pesawat.", "ru": "Пилот объявил время прибытия по самолёту." }
+      ]
     },
     {
       "id": "insinyur",
       "ru": "инженер",
-      "en": "engineer"
+      "en": "engineer",
+      "examples": [
+        { "id": "Insinyur itu merancang jembatan baru.", "ru": "Этот инженер проектирует новый мост." },
+        { "id": "Kakak saya bekerja sebagai insinyur listrik.", "ru": "Мой старший брат работает инженером-электриком." },
+        { "id": "Dibutuhkan banyak insinyur untuk proyek ini.", "ru": "Для этого проекта нужно много инженеров." }
+      ]
     },
     {
       "id": "programmer",
       "ru": "программист",
-      "en": "programmer"
+      "en": "programmer",
+      "examples": [
+        { "id": "Programmer itu membuat aplikasi baru.", "ru": "Этот программист создаёт новое приложение." },
+        { "id": "Saya belajar coding untuk menjadi programmer.", "ru": "Я учу программирование, чтобы стать программистом." },
+        { "id": "Programmer bekerja dengan komputer setiap hari.", "ru": "Программист работает с компьютером каждый день." }
+      ]
     },
     {
       "id": "seniman",
       "ru": "художник / артист",
-      "en": "artist"
+      "en": "artist",
+      "examples": [
+        { "id": "Seniman itu melukis gambar yang indah.", "ru": "Этот художник рисует красивые картины." },
+        { "id": "Dia adalah seniman terkenal di Indonesia.", "ru": "Он известный артист в Индонезии." },
+        { "id": "Karya seniman muda itu sangat unik.", "ru": "Работы этого молодого художника очень уникальны." }
+      ]
     },
     {
       "id": "musisi",
       "ru": "музыкант",
-      "en": "musician"
+      "en": "musician",
+      "examples": [
+        { "id": "Musisi itu bermain gitar dengan indah.", "ru": "Этот музыкант красиво играет на гитаре." },
+        { "id": "Dia adalah musisi profesional yang terkenal.", "ru": "Он известный профессиональный музыкант." },
+        { "id": "Banyak musisi tampil di festival itu.", "ru": "На том фестивале выступало много музыкантов." }
+      ]
     },
     {
       "id": "penulis",
       "ru": "писатель",
-      "en": "writer"
+      "en": "writer",
+      "examples": [
+        { "id": "Penulis itu sudah menerbitkan sepuluh buku.", "ru": "Этот писатель уже издал десять книг." },
+        { "id": "Saya suka membaca karya penulis lokal.", "ru": "Мне нравится читать произведения местных писателей." },
+        { "id": "Dia menulis cerita pendek setiap minggu.", "ru": "Он пишет короткие рассказы каждую неделю." }
+      ]
     },
     {
       "id": "wartawan",
       "ru": "журналист",
-      "en": "journalist"
+      "en": "journalist",
+      "examples": [
+        { "id": "Wartawan itu meliput berita dari lapangan.", "ru": "Этот журналист освещает новости с места событий." },
+        { "id": "Dia bekerja sebagai wartawan surat kabar.", "ru": "Он работает журналистом в газете." },
+        { "id": "Wartawan bertanya kepada pejabat itu.", "ru": "Журналист задаёт вопросы этому чиновнику." }
+      ]
     },
     {
       "id": "fotografer",
       "ru": "фотограф",
-      "en": "photographer"
+      "en": "photographer",
+      "examples": [
+        { "id": "Fotografer itu mengambil gambar di pantai.", "ru": "Этот фотограф делает снимки на пляже." },
+        { "id": "Kami menyewa fotografer untuk pernikahan.", "ru": "Мы наняли фотографа на свадьбу." },
+        { "id": "Fotografer profesional punya kamera yang bagus.", "ru": "У профессионального фотографа хорошая камера." }
+      ]
     },
     {
       "id": "ibu rumah tangga",
       "ru": "домохозяйка",
-      "en": "housewife"
+      "en": "housewife",
+      "examples": [
+        { "id": "Ibu rumah tangga mengurus keluarga setiap hari.", "ru": "Домохозяйка заботится о семье каждый день." },
+        { "id": "Dia memilih menjadi ibu rumah tangga.", "ru": "Она выбрала стать домохозяйкой." },
+        { "id": "Pekerjaan ibu rumah tangga tidak mudah.", "ru": "Работа домохозяйки нелёгкая." }
+      ]
     },
     {
       "id": "pensiunan",
       "ru": "пенсионер",
-      "en": "retiree"
+      "en": "retiree",
+      "examples": [
+        { "id": "Ayah saya sudah menjadi pensiunan.", "ru": "Мой отец уже на пенсии." },
+        { "id": "Pensiunan itu aktif berolahraga setiap pagi.", "ru": "Этот пенсионер активно занимается спортом каждое утро." },
+        { "id": "Dia menikmati hidupnya sebagai pensiunan.", "ru": "Он наслаждается жизнью на пенсии." }
+      ]
     },
     {
       "id": "pengangguran",
       "ru": "безработный",
-      "en": "unemployed"
+      "en": "unemployed",
+      "examples": [
+        { "id": "Dia sudah menjadi pengangguran selama tiga bulan.", "ru": "Он уже три месяца является безработным." },
+        { "id": "Banyak pengangguran mencari kerja di kota.", "ru": "Многие безработные ищут работу в городе." },
+        { "id": "Pemerintah membantu para pengangguran.", "ru": "Правительство помогает безработным." }
+      ]
     }
   ]
 }

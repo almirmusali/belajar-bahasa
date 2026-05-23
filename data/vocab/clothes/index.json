@@ -7,152 +7,302 @@
     {
       "id": "pakaian",
       "ru": "одежда",
-      "en": "clothing"
+      "en": "clothing",
+      "examples": [
+        { "id": "Saya membeli pakaian baru di pasar.", "ru": "Я купил новую одежду на рынке." },
+        { "id": "Pakaian ini sangat nyaman.", "ru": "Эта одежда очень удобная." },
+        { "id": "Di mana kamu menyimpan pakaian kamu?", "ru": "Где ты хранишь свою одежду?" }
+      ]
     },
     {
       "id": "baju",
       "ru": "одежда / рубашка",
-      "en": "shirt / clothing"
+      "en": "shirt / clothing",
+      "examples": [
+        { "id": "Baju ini warnanya merah.", "ru": "Эта рубашка красного цвета." },
+        { "id": "Saya mau ganti baju dulu.", "ru": "Я хочу сначала переодеться." },
+        { "id": "Baju kamu bagus sekali!", "ru": "Твоя рубашка очень красивая!" }
+      ]
     },
     {
       "id": "kemeja",
       "ru": "рубашка",
-      "en": "shirt"
+      "en": "shirt",
+      "examples": [
+        { "id": "Ayah memakai kemeja putih ke kantor.", "ru": "Папа носит белую рубашку в офис." },
+        { "id": "Kemeja ini terbuat dari katun.", "ru": "Эта рубашка сделана из хлопка." },
+        { "id": "Apakah kamu punya kemeja biru?", "ru": "У тебя есть синяя рубашка?" }
+      ]
     },
     {
       "id": "kaos",
       "ru": "футболка",
-      "en": "t-shirt"
+      "en": "t-shirt",
+      "examples": [
+        { "id": "Saya suka memakai kaos saat di rumah.", "ru": "Я люблю носить футболку дома." },
+        { "id": "Kaos ini ada gambar harimau.", "ru": "На этой футболке есть рисунок тигра." },
+        { "id": "Berapa harga kaos ini?", "ru": "Сколько стоит эта футболка?" }
+      ]
     },
     {
       "id": "celana",
       "ru": "штаны",
-      "en": "pants"
+      "en": "pants",
+      "examples": [
+        { "id": "Celana saya kotor karena jatuh.", "ru": "Мои штаны испачкались, потому что я упал." },
+        { "id": "Dia memakai celana hitam.", "ru": "Он носит чёрные штаны." },
+        { "id": "Saya perlu beli celana baru.", "ru": "Мне нужно купить новые штаны." }
+      ]
     },
     {
       "id": "celana pendek",
       "ru": "шорты",
-      "en": "shorts"
+      "en": "shorts",
+      "examples": [
+        { "id": "Saya memakai celana pendek karena cuaca panas.", "ru": "Я ношу шорты, потому что погода жаркая." },
+        { "id": "Celana pendek ini cocok untuk olahraga.", "ru": "Эти шорты подходят для занятий спортом." },
+        { "id": "Anak-anak bermain dengan celana pendek.", "ru": "Дети играют в шортах." }
+      ]
     },
     {
       "id": "celana panjang",
       "ru": "брюки",
-      "en": "long pants"
+      "en": "long pants",
+      "examples": [
+        { "id": "Dia selalu memakai celana panjang ke kantor.", "ru": "Он всегда носит брюки в офис." },
+        { "id": "Celana panjang ini terlalu besar untuk saya.", "ru": "Эти брюки слишком велики для меня." },
+        { "id": "Saya beli celana panjang berwarna abu-abu.", "ru": "Я купил серые брюки." }
+      ]
     },
     {
       "id": "rok",
       "ru": "юбка",
-      "en": "skirt"
+      "en": "skirt",
+      "examples": [
+        { "id": "Ibu memakai rok panjang ke pesta.", "ru": "Мама надела длинную юбку на вечеринку." },
+        { "id": "Rok ini berwarna kuning dan cantik.", "ru": "Эта юбка жёлтая и красивая." },
+        { "id": "Apakah rok ini cocok dengan baju saya?", "ru": "Подходит ли эта юбка к моей рубашке?" }
+      ]
     },
     {
       "id": "gaun",
       "ru": "платье",
-      "en": "dress"
+      "en": "dress",
+      "examples": [
+        { "id": "Dia memakai gaun merah di pernikahan.", "ru": "Она надела красное платье на свадьбу." },
+        { "id": "Gaun itu sangat indah.", "ru": "Это платье очень красивое." },
+        { "id": "Saya ingin membeli gaun baru.", "ru": "Я хочу купить новое платье." }
+      ]
     },
     {
       "id": "jaket",
       "ru": "куртка",
-      "en": "jacket"
+      "en": "jacket",
+      "examples": [
+        { "id": "Pakai jaket karena di luar dingin.", "ru": "Надень куртку, потому что на улице холодно." },
+        { "id": "Jaket saya ada di kursi.", "ru": "Моя куртка лежит на стуле." },
+        { "id": "Saya suka jaket warna hijau itu.", "ru": "Мне нравится та зелёная куртка." }
+      ]
     },
     {
       "id": "mantel",
       "ru": "пальто",
-      "en": "coat"
+      "en": "coat",
+      "examples": [
+        { "id": "Di musim dingin, saya selalu pakai mantel.", "ru": "Зимой я всегда ношу пальто." },
+        { "id": "Mantel ini tebal dan hangat.", "ru": "Это пальто толстое и тёплое." },
+        { "id": "Dia menggantung mantelnya di pintu.", "ru": "Она повесила своё пальто на дверь." }
+      ]
     },
     {
       "id": "jas",
       "ru": "пиджак / костюм",
-      "en": "suit / jacket"
+      "en": "suit / jacket",
+      "examples": [
+        { "id": "Ayah memakai jas saat rapat penting.", "ru": "Папа надевает пиджак на важное совещание." },
+        { "id": "Jas hitam ini terlihat formal.", "ru": "Этот чёрный костюм выглядит формально." },
+        { "id": "Di mana kamu beli jas itu?", "ru": "Где ты купил тот костюм?" }
+      ]
     },
     {
       "id": "dasi",
       "ru": "галстук",
-      "en": "tie"
+      "en": "tie",
+      "examples": [
+        { "id": "Dia memakai dasi biru ke wawancara kerja.", "ru": "Он надел синий галстук на собеседование." },
+        { "id": "Dasi ini hadiahnya dari istri saya.", "ru": "Этот галстук — подарок от моей жены." },
+        { "id": "Saya tidak tahu cara memakai dasi.", "ru": "Я не умею завязывать галстук." }
+      ]
     },
     {
       "id": "topi",
       "ru": "шапка",
-      "en": "hat"
+      "en": "hat",
+      "examples": [
+        { "id": "Pakai topi supaya tidak kepanasan.", "ru": "Надень шапку, чтобы не перегреться." },
+        { "id": "Topi merah itu milik siapa?", "ru": "Чья это красная шапка?" },
+        { "id": "Saya lupa membawa topi.", "ru": "Я забыл взять шапку." }
+      ]
     },
     {
       "id": "sepatu",
       "ru": "обувь",
-      "en": "shoes"
+      "en": "shoes",
+      "examples": [
+        { "id": "Saya membeli sepatu baru kemarin.", "ru": "Я купил новую обувь вчера." },
+        { "id": "Tolong lepas sepatu sebelum masuk.", "ru": "Пожалуйста, снимите обувь перед входом." },
+        { "id": "Sepatu ini terlalu kecil untuk kaki saya.", "ru": "Эта обувь слишком маленькая для моей ноги." }
+      ]
     },
     {
       "id": "sandal",
       "ru": "сандалии",
-      "en": "sandals"
+      "en": "sandals",
+      "examples": [
+        { "id": "Saya memakai sandal di pantai.", "ru": "Я ношу сандалии на пляже." },
+        { "id": "Sandal ini ringan dan nyaman.", "ru": "Эти сандалии лёгкие и удобные." },
+        { "id": "Di mana sandal saya?", "ru": "Где мои сандалии?" }
+      ]
     },
     {
       "id": "kaus kaki",
       "ru": "носки",
-      "en": "socks"
+      "en": "socks",
+      "examples": [
+        { "id": "Jangan lupa pakai kaus kaki sebelum memakai sepatu.", "ru": "Не забудь надеть носки перед обувью." },
+        { "id": "Kaus kaki saya basah kehujanan.", "ru": "Мои носки промокли под дождём." },
+        { "id": "Saya punya banyak kaus kaki berwarna-warni.", "ru": "У меня много разноцветных носков." }
+      ]
     },
     {
       "id": "sarung tangan",
       "ru": "перчатки",
-      "en": "gloves"
+      "en": "gloves",
+      "examples": [
+        { "id": "Pakai sarung tangan supaya tangan tidak dingin.", "ru": "Надень перчатки, чтобы руки не замёрзли." },
+        { "id": "Sarung tangan ini terbuat dari kulit.", "ru": "Эти перчатки сделаны из кожи." },
+        { "id": "Saya kehilangan satu sarung tangan.", "ru": "Я потерял одну перчатку." }
+      ]
     },
     {
       "id": "syal",
       "ru": "шарф",
-      "en": "scarf"
+      "en": "scarf",
+      "examples": [
+        { "id": "Saya memakai syal karena angin kencang.", "ru": "Я надел шарф, потому что сильный ветер." },
+        { "id": "Syal merah itu sangat cantik.", "ru": "Этот красный шарф очень красивый." },
+        { "id": "Nenek menghadiahi saya syal rajutan.", "ru": "Бабушка подарила мне вязаный шарф." }
+      ]
     },
     {
       "id": "ikat pinggang",
       "ru": "ремень",
-      "en": "belt"
+      "en": "belt",
+      "examples": [
+        { "id": "Saya perlu ikat pinggang karena celana saya longgar.", "ru": "Мне нужен ремень, потому что мои штаны широкие." },
+        { "id": "Ikat pinggang kulit ini mahal.", "ru": "Этот кожаный ремень дорогой." },
+        { "id": "Di mana kamu beli ikat pinggang itu?", "ru": "Где ты купил тот ремень?" }
+      ]
     },
     {
       "id": "jam tangan",
       "ru": "наручные часы",
-      "en": "wristwatch"
+      "en": "wristwatch",
+      "examples": [
+        { "id": "Jam tangan saya rusak, saya perlu perbaiki.", "ru": "Мои часы сломались, мне нужно их починить." },
+        { "id": "Dia selalu memakai jam tangan mahal.", "ru": "Он всегда носит дорогие наручные часы." },
+        { "id": "Berapa harga jam tangan ini?", "ru": "Сколько стоят эти наручные часы?" }
+      ]
     },
     {
       "id": "kacamata",
       "ru": "очки",
-      "en": "glasses"
+      "en": "glasses",
+      "examples": [
+        { "id": "Saya memakai kacamata karena mata saya kurang bagus.", "ru": "Я ношу очки, потому что у меня плохое зрение." },
+        { "id": "Kacamata saya tertinggal di rumah.", "ru": "Мои очки остались дома." },
+        { "id": "Dia terlihat pintar dengan kacamata itu.", "ru": "Он выглядит умным в этих очках." }
+      ]
     },
     {
       "id": "tas",
       "ru": "сумка",
-      "en": "bag"
+      "en": "bag",
+      "examples": [
+        { "id": "Saya menaruh buku di dalam tas.", "ru": "Я кладу книги в сумку." },
+        { "id": "Tas ibu berwarna coklat.", "ru": "Мамина сумка коричневого цвета." },
+        { "id": "Tas ini berat sekali!", "ru": "Эта сумка очень тяжёлая!" }
+      ]
     },
     {
       "id": "ransel",
       "ru": "рюкзак",
-      "en": "backpack"
+      "en": "backpack",
+      "examples": [
+        { "id": "Saya membawa ransel ke sekolah setiap hari.", "ru": "Я каждый день ношу рюкзак в школу." },
+        { "id": "Ransel ini muat banyak barang.", "ru": "В этот рюкзак помещается много вещей." },
+        { "id": "Tolong taruh ranselmu di rak.", "ru": "Пожалуйста, положи свой рюкзак на полку." }
+      ]
     },
     {
       "id": "dompet",
       "ru": "кошелёк",
-      "en": "wallet"
+      "en": "wallet",
+      "examples": [
+        { "id": "Dompet saya hilang di pasar.", "ru": "Мой кошелёк потерялся на рынке." },
+        { "id": "Ada berapa uang di dompetmu?", "ru": "Сколько денег в твоём кошельке?" },
+        { "id": "Saya menyimpan kartu di dompet.", "ru": "Я храню карточки в кошельке." }
+      ]
     },
     {
       "id": "cincin",
       "ru": "кольцо",
-      "en": "ring"
+      "en": "ring",
+      "examples": [
+        { "id": "Dia memakai cincin emas di jari manis.", "ru": "Она носит золотое кольцо на безымянном пальце." },
+        { "id": "Cincin itu hadiahnya dari ibunya.", "ru": "Это кольцо — подарок от её мамы." },
+        { "id": "Saya membeli cincin perak di toko perhiasan.", "ru": "Я купил серебряное кольцо в ювелирном магазине." }
+      ]
     },
     {
       "id": "gelang",
       "ru": "браслет",
-      "en": "bracelet"
+      "en": "bracelet",
+      "examples": [
+        { "id": "Gelang ini terbuat dari emas.", "ru": "Этот браслет сделан из золота." },
+        { "id": "Adik saya suka memakai gelang warna-warni.", "ru": "Моя младшая сестра любит носить разноцветные браслеты." },
+        { "id": "Gelang itu hadiahnya dari teman.", "ru": "Этот браслет — подарок от друга." }
+      ]
     },
     {
       "id": "kalung",
       "ru": "ожерелье",
-      "en": "necklace"
+      "en": "necklace",
+      "examples": [
+        { "id": "Dia memakai kalung berlian ke pesta.", "ru": "Она надела бриллиантовое ожерелье на вечеринку." },
+        { "id": "Kalung ini sangat cantik.", "ru": "Это ожерелье очень красивое." },
+        { "id": "Ibu mendapat kalung emas dari ayah.", "ru": "Мама получила от папы золотое ожерелье." }
+      ]
     },
     {
       "id": "anting",
       "ru": "серёжки",
-      "en": "earrings"
+      "en": "earrings",
+      "examples": [
+        { "id": "Dia memakai anting perak yang kecil.", "ru": "Она носит маленькие серебряные серёжки." },
+        { "id": "Anting itu cocok dengan gaun merahnya.", "ru": "Серёжки подходят к её красному платью." },
+        { "id": "Saya lupa memakai anting hari ini.", "ru": "Я забыла надеть серёжки сегодня." }
+      ]
     },
     {
       "id": "ukuran",
       "ru": "размер",
-      "en": "size"
+      "en": "size",
+      "examples": [
+        { "id": "Berapa ukuran sepatu kamu?", "ru": "Какой у тебя размер обуви?" },
+        { "id": "Ukuran baju ini terlalu besar.", "ru": "Размер этой рубашки слишком большой." },
+        { "id": "Apakah ada ukuran yang lebih kecil?", "ru": "Есть ли размер поменьше?" }
+      ]
     }
   ]
 }

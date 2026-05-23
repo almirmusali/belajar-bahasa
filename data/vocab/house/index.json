@@ -7,272 +7,542 @@
     {
       "id": "rumah",
       "ru": "дом",
-      "en": "house"
+      "en": "house",
+      "examples": [
+        { "id": "Ini rumah saya.", "ru": "Это мой дом." },
+        { "id": "Rumah mereka besar dan nyaman.", "ru": "Их дом большой и уютный." },
+        { "id": "Saya pulang ke rumah pukul enam.", "ru": "Я возвращаюсь домой в шесть часов." }
+      ]
     },
     {
       "id": "kamar",
       "ru": "комната",
-      "en": "room"
+      "en": "room",
+      "examples": [
+        { "id": "Kamar saya ada di lantai dua.", "ru": "Моя комната находится на втором этаже." },
+        { "id": "Berapa kamar di rumah ini?", "ru": "Сколько комнат в этом доме?" },
+        { "id": "Saya membersihkan kamar setiap hari.", "ru": "Я убираю комнату каждый день." }
+      ]
     },
     {
       "id": "ruang tamu",
       "ru": "гостиная",
-      "en": "living room"
+      "en": "living room",
+      "examples": [
+        { "id": "Kami duduk di ruang tamu.", "ru": "Мы сидим в гостиной." },
+        { "id": "Ruang tamu kami ada sofa dan TV.", "ru": "В нашей гостиной есть диван и телевизор." },
+        { "id": "Tamu itu menunggu di ruang tamu.", "ru": "Гость ждёт в гостиной." }
+      ]
     },
     {
       "id": "kamar tidur",
       "ru": "спальня",
-      "en": "bedroom"
+      "en": "bedroom",
+      "examples": [
+        { "id": "Kamar tidur saya tidak terlalu besar.", "ru": "Моя спальня не очень большая." },
+        { "id": "Anak itu tidur di kamar tidurnya.", "ru": "Ребёнок спит в своей спальне." },
+        { "id": "Ada dua kamar tidur di rumah ini.", "ru": "В этом доме две спальни." }
+      ]
     },
     {
       "id": "kamar mandi",
       "ru": "ванная",
-      "en": "bathroom"
+      "en": "bathroom",
+      "examples": [
+        { "id": "Kamar mandi ada di sebelah kanan.", "ru": "Ванная находится справа." },
+        { "id": "Saya mandi di kamar mandi setiap pagi.", "ru": "Я принимаю душ в ванной каждое утро." },
+        { "id": "Kamar mandi ini bersih sekali.", "ru": "Эта ванная очень чистая." }
+      ]
     },
     {
       "id": "dapur",
       "ru": "кухня",
-      "en": "kitchen"
+      "en": "kitchen",
+      "examples": [
+        { "id": "Ibu memasak di dapur.", "ru": "Мама готовит на кухне." },
+        { "id": "Dapur kami kecil tapi lengkap.", "ru": "Наша кухня маленькая, но полностью оборудована." },
+        { "id": "Ada meja dan kursi di dapur.", "ru": "На кухне есть стол и стулья." }
+      ]
     },
     {
       "id": "halaman",
       "ru": "двор",
-      "en": "yard"
+      "en": "yard",
+      "examples": [
+        { "id": "Anak-anak bermain di halaman.", "ru": "Дети играют во дворе." },
+        { "id": "Halaman rumah kami ada pohon besar.", "ru": "Во дворе нашего дома есть большое дерево." },
+        { "id": "Saya menyapu halaman setiap sore.", "ru": "Я подметаю двор каждый вечер." }
+      ]
     },
     {
       "id": "garasi",
       "ru": "гараж",
-      "en": "garage"
+      "en": "garage",
+      "examples": [
+        { "id": "Mobil ada di garasi.", "ru": "Машина стоит в гараже." },
+        { "id": "Garasi kami bisa menampung dua mobil.", "ru": "Наш гараж вмещает две машины." },
+        { "id": "Ayah memperbaiki motor di garasi.", "ru": "Папа ремонтирует мотоцикл в гараже." }
+      ]
     },
     {
       "id": "balkon",
       "ru": "балкон",
-      "en": "balcony"
+      "en": "balcony",
+      "examples": [
+        { "id": "Saya suka minum kopi di balkon.", "ru": "Я люблю пить кофе на балконе." },
+        { "id": "Dari balkon, kita bisa melihat taman.", "ru": "С балкона можно увидеть парк." },
+        { "id": "Ada kursi kecil di balkon kami.", "ru": "На нашем балконе есть маленький стул." }
+      ]
     },
     {
       "id": "atap",
       "ru": "крыша",
-      "en": "roof"
+      "en": "roof",
+      "examples": [
+        { "id": "Atap rumah kami berwarna merah.", "ru": "Крыша нашего дома красная." },
+        { "id": "Hujan jatuh di atas atap.", "ru": "Дождь падает на крышу." },
+        { "id": "Kucing itu duduk di atap.", "ru": "Кошка сидит на крыше." }
+      ]
     },
     {
       "id": "lantai",
       "ru": "пол / этаж",
-      "en": "floor"
+      "en": "floor",
+      "examples": [
+        { "id": "Lantainya kotor, harus disapu.", "ru": "Пол грязный, нужно подмести." },
+        { "id": "Kantor saya ada di lantai tiga.", "ru": "Мой офис находится на третьем этаже." },
+        { "id": "Anak itu duduk di lantai.", "ru": "Ребёнок сидит на полу." }
+      ]
     },
     {
       "id": "dinding",
       "ru": "стена",
-      "en": "wall"
+      "en": "wall",
+      "examples": [
+        { "id": "Ada foto keluarga di dinding.", "ru": "На стене висит семейное фото." },
+        { "id": "Dinding kamar saya berwarna putih.", "ru": "Стены моей комнаты белые." },
+        { "id": "Kami mencat dinding rumah kemarin.", "ru": "Вчера мы покрасили стены дома." }
+      ]
     },
     {
       "id": "pintu",
       "ru": "дверь",
-      "en": "door"
+      "en": "door",
+      "examples": [
+        { "id": "Tolong tutup pintu itu.", "ru": "Пожалуйста, закройте эту дверь." },
+        { "id": "Pintu depan terkunci.", "ru": "Входная дверь заперта." },
+        { "id": "Ada yang mengetuk pintu.", "ru": "Кто-то стучит в дверь." }
+      ]
     },
     {
       "id": "jendela",
       "ru": "окно",
-      "en": "window"
+      "en": "window",
+      "examples": [
+        { "id": "Buka jendela supaya udara segar masuk.", "ru": "Открой окно, чтобы вошёл свежий воздух." },
+        { "id": "Saya melihat hujan dari jendela.", "ru": "Я смотрю на дождь из окна." },
+        { "id": "Jendela kamarnya sangat besar.", "ru": "Окно его комнаты очень большое." }
+      ]
     },
     {
       "id": "tangga",
       "ru": "лестница",
-      "en": "stairs"
+      "en": "stairs",
+      "examples": [
+        { "id": "Hati-hati di tangga, licin.", "ru": "Осторожно на лестнице — скользко." },
+        { "id": "Saya naik tangga ke lantai dua.", "ru": "Я поднимаюсь по лестнице на второй этаж." },
+        { "id": "Tangga di rumah ini sempit.", "ru": "Лестница в этом доме узкая." }
+      ]
     },
     {
       "id": "pagar",
       "ru": "забор",
-      "en": "fence"
+      "en": "fence",
+      "examples": [
+        { "id": "Rumah kami ada pagar tinggi.", "ru": "У нашего дома высокий забор." },
+        { "id": "Kucing melompati pagar.", "ru": "Кошка перепрыгнула через забор." },
+        { "id": "Ayah memperbaiki pagar yang rusak.", "ru": "Папа чинит сломанный забор." }
+      ]
     },
     {
       "id": "kunci",
       "ru": "ключ",
-      "en": "key"
+      "en": "key",
+      "examples": [
+        { "id": "Saya tidak bisa menemukan kunci rumah.", "ru": "Я не могу найти ключ от дома." },
+        { "id": "Ini kunci kamar kamu.", "ru": "Это ключ от твоей комнаты." },
+        { "id": "Kunci itu ada di atas meja.", "ru": "Ключ лежит на столе." }
+      ]
     },
     {
       "id": "meja",
       "ru": "стол",
-      "en": "table"
+      "en": "table",
+      "examples": [
+        { "id": "Buku itu ada di atas meja.", "ru": "Книга лежит на столе." },
+        { "id": "Kami makan bersama di meja makan.", "ru": "Мы едим вместе за обеденным столом." },
+        { "id": "Meja belajar saya berada di dekat jendela.", "ru": "Мой письменный стол стоит у окна." }
+      ]
     },
     {
       "id": "kursi",
       "ru": "стул",
-      "en": "chair"
+      "en": "chair",
+      "examples": [
+        { "id": "Silakan duduk di kursi itu.", "ru": "Пожалуйста, садитесь на этот стул." },
+        { "id": "Ada empat kursi di sekitar meja.", "ru": "Вокруг стола стоят четыре стула." },
+        { "id": "Kursi ini tidak nyaman.", "ru": "Этот стул неудобный." }
+      ]
     },
     {
       "id": "sofa",
       "ru": "диван",
-      "en": "sofa"
+      "en": "sofa",
+      "examples": [
+        { "id": "Saya berbaring di sofa sambil menonton TV.", "ru": "Я лежу на диване и смотрю телевизор." },
+        { "id": "Sofa kami berwarna abu-abu.", "ru": "Наш диван серого цвета." },
+        { "id": "Ada tiga bantal di sofa.", "ru": "На диване лежат три подушки." }
+      ]
     },
     {
       "id": "tempat tidur",
       "ru": "кровать",
-      "en": "bed"
+      "en": "bed",
+      "examples": [
+        { "id": "Saya tidur di tempat tidur setiap malam.", "ru": "Я сплю в кровати каждую ночь." },
+        { "id": "Tempat tidur saya sangat nyaman.", "ru": "Моя кровать очень удобная." },
+        { "id": "Dia duduk di tepi tempat tidur.", "ru": "Он сидит на краю кровати." }
+      ]
     },
     {
       "id": "kasur",
       "ru": "матрас",
-      "en": "mattress"
+      "en": "mattress",
+      "examples": [
+        { "id": "Kasur baru ini sangat empuk.", "ru": "Этот новый матрас очень мягкий." },
+        { "id": "Kami membeli kasur baru kemarin.", "ru": "Вчера мы купили новый матрас." },
+        { "id": "Kasur yang keras tidak baik untuk punggung.", "ru": "Жёсткий матрас вреден для спины." }
+      ]
     },
     {
       "id": "bantal",
       "ru": "подушка",
-      "en": "pillow"
+      "en": "pillow",
+      "examples": [
+        { "id": "Saya suka tidur dengan dua bantal.", "ru": "Я люблю спать с двумя подушками." },
+        { "id": "Bantal ini terlalu keras.", "ru": "Эта подушка слишком жёсткая." },
+        { "id": "Letakkan bantal di atas kasur.", "ru": "Положи подушку на матрас." }
+      ]
     },
     {
       "id": "selimut",
       "ru": "одеяло",
-      "en": "blanket"
+      "en": "blanket",
+      "examples": [
+        { "id": "Malam ini dingin, pakai selimut tebal.", "ru": "Сегодня ночью холодно — используй толстое одеяло." },
+        { "id": "Anak itu tidur terbungkus selimut.", "ru": "Ребёнок спит, завернувшись в одеяло." },
+        { "id": "Selimut ini dari bahan yang lembut.", "ru": "Это одеяло из мягкого материала." }
+      ]
     },
     {
       "id": "lemari",
       "ru": "шкаф",
-      "en": "cupboard"
+      "en": "cupboard",
+      "examples": [
+        { "id": "Baju saya ada di dalam lemari.", "ru": "Моя одежда находится в шкафу." },
+        { "id": "Lemari di kamar ini sangat besar.", "ru": "Шкаф в этой комнате очень большой." },
+        { "id": "Tolong simpan piring di lemari dapur.", "ru": "Пожалуйста, убери тарелки в кухонный шкаф." }
+      ]
     },
     {
       "id": "rak",
       "ru": "полка",
-      "en": "shelf"
+      "en": "shelf",
+      "examples": [
+        { "id": "Buku-buku ada di rak.", "ru": "Книги стоят на полке." },
+        { "id": "Saya menaruh tanaman di rak jendela.", "ru": "Я ставлю растения на подоконник." },
+        { "id": "Rak ini tidak cukup kuat untuk buku berat.", "ru": "Эта полка недостаточно прочная для тяжёлых книг." }
+      ]
     },
     {
       "id": "laci",
       "ru": "ящик",
-      "en": "drawer"
+      "en": "drawer",
+      "examples": [
+        { "id": "Kunci ada di dalam laci meja.", "ru": "Ключ лежит в ящике стола." },
+        { "id": "Saya menyimpan dokumen penting di laci.", "ru": "Я храню важные документы в ящике." },
+        { "id": "Laci itu susah dibuka.", "ru": "Этот ящик трудно открыть." }
+      ]
     },
     {
       "id": "lampu",
       "ru": "лампа",
-      "en": "lamp"
+      "en": "lamp",
+      "examples": [
+        { "id": "Tolong nyalakan lampu, gelap sekali.", "ru": "Пожалуйста, включи лампу — очень темно." },
+        { "id": "Lampu di kamar tidur saya rusak.", "ru": "Лампа в моей спальне сломана." },
+        { "id": "Ada lampu kecil di atas meja belajar.", "ru": "На письменном столе стоит маленькая лампа." }
+      ]
     },
     {
       "id": "cermin",
       "ru": "зеркало",
-      "en": "mirror"
+      "en": "mirror",
+      "examples": [
+        { "id": "Saya melihat diri sendiri di cermin.", "ru": "Я смотрю на себя в зеркало." },
+        { "id": "Cermin besar ada di kamar mandi.", "ru": "В ванной есть большое зеркало." },
+        { "id": "Cermin itu jatuh dan pecah.", "ru": "Зеркало упало и разбилось." }
+      ]
     },
     {
       "id": "jam dinding",
       "ru": "настенные часы",
-      "en": "wall clock"
+      "en": "wall clock",
+      "examples": [
+        { "id": "Jam dinding di ruang tamu berwarna emas.", "ru": "Настенные часы в гостиной золотого цвета." },
+        { "id": "Jam dinding itu tidak bergerak, baterainya habis.", "ru": "Настенные часы стоят — батарейка села." },
+        { "id": "Saya melihat jam dinding untuk tahu waktu.", "ru": "Я смотрю на настенные часы, чтобы узнать время." }
+      ]
     },
     {
       "id": "kipas angin",
       "ru": "вентилятор",
-      "en": "fan"
+      "en": "fan",
+      "examples": [
+        { "id": "Nyalakan kipas angin, panas sekali.", "ru": "Включи вентилятор — очень жарко." },
+        { "id": "Kipas angin di kamar saya sudah tua.", "ru": "Вентилятор в моей комнате уже старый." },
+        { "id": "Saya tidur dengan kipas angin menyala.", "ru": "Я сплю с включённым вентилятором." }
+      ]
     },
     {
       "id": "AC",
       "ru": "кондиционер",
-      "en": "air conditioner"
+      "en": "air conditioner",
+      "examples": [
+        { "id": "AC di kantor terlalu dingin.", "ru": "Кондиционер в офисе слишком холодный." },
+        { "id": "Tolong matikan AC sebelum keluar.", "ru": "Пожалуйста, выключи кондиционер перед выходом." },
+        { "id": "Setiap kamar di hotel itu ada AC.", "ru": "В каждом номере того отеля есть кондиционер." }
+      ]
     },
     {
       "id": "TV",
       "ru": "телевизор",
-      "en": "TV"
+      "en": "TV",
+      "examples": [
+        { "id": "Saya menonton TV setelah makan malam.", "ru": "Я смотрю телевизор после ужина." },
+        { "id": "TV di ruang tamu sangat besar.", "ru": "Телевизор в гостиной очень большой." },
+        { "id": "Anak-anak tidak boleh terlalu lama menonton TV.", "ru": "Детям нельзя слишком долго смотреть телевизор." }
+      ]
     },
     {
       "id": "kulkas",
       "ru": "холодильник",
-      "en": "fridge"
+      "en": "fridge",
+      "examples": [
+        { "id": "Simpan makanan ini di kulkas.", "ru": "Убери эту еду в холодильник." },
+        { "id": "Ada air minum di dalam kulkas.", "ru": "В холодильнике есть питьевая вода." },
+        { "id": "Kulkas kami rusak sejak kemarin.", "ru": "Наш холодильник сломан со вчерашнего дня." }
+      ]
     },
     {
       "id": "kompor",
       "ru": "плита",
-      "en": "stove"
+      "en": "stove",
+      "examples": [
+        { "id": "Ibu memasak nasi di atas kompor.", "ru": "Мама варит рис на плите." },
+        { "id": "Matikan kompor setelah selesai memasak.", "ru": "Выключи плиту после приготовления еды." },
+        { "id": "Kompor gas kami masih berfungsi dengan baik.", "ru": "Наша газовая плита всё ещё работает хорошо." }
+      ]
     },
     {
       "id": "oven",
       "ru": "духовка",
-      "en": "oven"
+      "en": "oven",
+      "examples": [
+        { "id": "Saya memanggang roti di oven.", "ru": "Я пеку хлеб в духовке." },
+        { "id": "Panaskan oven dulu sebelum memasak.", "ru": "Сначала разогрей духовку перед приготовлением." },
+        { "id": "Kue ini dimasak di oven selama tiga puluh menit.", "ru": "Этот пирог готовился в духовке тридцать минут." }
+      ]
     },
     {
       "id": "mesin cuci",
       "ru": "стиральная машина",
-      "en": "washing machine"
+      "en": "washing machine",
+      "examples": [
+        { "id": "Saya mencuci baju di mesin cuci.", "ru": "Я стираю одежду в стиральной машине." },
+        { "id": "Mesin cuci kami baru dibeli bulan lalu.", "ru": "Нашу стиральную машину купили в прошлом месяце." },
+        { "id": "Mesin cuci itu berbunyi keras.", "ru": "Стиральная машина громко шумит." }
+      ]
     },
     {
       "id": "panci",
       "ru": "кастрюля",
-      "en": "pot"
+      "en": "pot",
+      "examples": [
+        { "id": "Rebus air dalam panci besar.", "ru": "Вскипяти воду в большой кастрюле." },
+        { "id": "Ibu memasak sup di panci.", "ru": "Мама варит суп в кастрюле." },
+        { "id": "Panci ini terbuat dari baja.", "ru": "Эта кастрюля сделана из стали." }
+      ]
     },
     {
       "id": "wajan",
       "ru": "сковорода",
-      "en": "frying pan"
+      "en": "frying pan",
+      "examples": [
+        { "id": "Goreng telur di wajan dengan sedikit minyak.", "ru": "Пожарь яйцо на сковороде с небольшим количеством масла." },
+        { "id": "Wajan ini anti lengket.", "ru": "Эта сковорода с антипригарным покрытием." },
+        { "id": "Panaskan wajan sebelum memasak.", "ru": "Разогрей сковороду перед жаркой." }
+      ]
     },
     {
       "id": "piring",
       "ru": "тарелка",
-      "en": "plate"
+      "en": "plate",
+      "examples": [
+        { "id": "Tolong ambilkan piring untuk makan.", "ru": "Пожалуйста, принеси тарелку для еды." },
+        { "id": "Cuci piring setelah makan.", "ru": "Помой тарелки после еды." },
+        { "id": "Piring itu jatuh dan pecah.", "ru": "Тарелка упала и разбилась." }
+      ]
     },
     {
       "id": "mangkuk",
       "ru": "миска",
-      "en": "bowl"
+      "en": "bowl",
+      "examples": [
+        { "id": "Saya makan sup dari mangkuk.", "ru": "Я ем суп из миски." },
+        { "id": "Taruh buah-buahan di dalam mangkuk.", "ru": "Положи фрукты в миску." },
+        { "id": "Mangkuk ini masih panas, hati-hati.", "ru": "Эта миска ещё горячая — осторожно." }
+      ]
     },
     {
       "id": "gelas",
       "ru": "стакан",
-      "en": "glass"
+      "en": "glass",
+      "examples": [
+        { "id": "Bisakah saya minta segelas air?", "ru": "Можно мне попросить стакан воды?" },
+        { "id": "Gelas itu penuh dengan jus jeruk.", "ru": "Стакан полон апельсинового сока." },
+        { "id": "Dia minum dari gelas besar.", "ru": "Он пьёт из большого стакана." }
+      ]
     },
     {
       "id": "cangkir",
       "ru": "чашка",
-      "en": "cup"
+      "en": "cup",
+      "examples": [
+        { "id": "Saya minum kopi dari cangkir kecil.", "ru": "Я пью кофе из маленькой чашки." },
+        { "id": "Cangkir teh ini cantik sekali.", "ru": "Эта чайная чашка очень красивая." },
+        { "id": "Tolong siapkan dua cangkir teh.", "ru": "Пожалуйста, приготовь две чашки чая." }
+      ]
     },
     {
       "id": "sendok",
       "ru": "ложка",
-      "en": "spoon"
+      "en": "spoon",
+      "examples": [
+        { "id": "Gunakan sendok untuk makan sup.", "ru": "Используй ложку, чтобы есть суп." },
+        { "id": "Sendoknya jatuh ke lantai.", "ru": "Ложка упала на пол." },
+        { "id": "Aduk gula dengan sendok.", "ru": "Размешай сахар ложкой." }
+      ]
     },
     {
       "id": "garpu",
       "ru": "вилка",
-      "en": "fork"
+      "en": "fork",
+      "examples": [
+        { "id": "Pakai garpu untuk makan salad.", "ru": "Используй вилку, чтобы есть салат." },
+        { "id": "Letakkan garpu di sebelah piring.", "ru": "Положи вилку рядом с тарелкой." },
+        { "id": "Garpu dan sendok ada di laci.", "ru": "Вилки и ложки лежат в ящике." }
+      ]
     },
     {
       "id": "pisau",
       "ru": "нож",
-      "en": "knife"
+      "en": "knife",
+      "examples": [
+        { "id": "Hati-hati menggunakan pisau tajam.", "ru": "Осторожно пользуйся острым ножом." },
+        { "id": "Potong roti dengan pisau.", "ru": "Нарежь хлеб ножом." },
+        { "id": "Pisau ini ada di laci dapur.", "ru": "Этот нож лежит в кухонном ящике." }
+      ]
     },
     {
       "id": "sumpit",
       "ru": "палочки",
-      "en": "chopsticks"
+      "en": "chopsticks",
+      "examples": [
+        { "id": "Saya belajar makan dengan sumpit.", "ru": "Я учусь есть палочками." },
+        { "id": "Di restoran Jepang itu ada sumpit.", "ru": "В том японском ресторане есть палочки." },
+        { "id": "Apakah kamu bisa pakai sumpit?", "ru": "Ты умеешь пользоваться палочками?" }
+      ]
     },
     {
       "id": "tisu",
       "ru": "салфетка",
-      "en": "tissue"
+      "en": "tissue",
+      "examples": [
+        { "id": "Tolong ambilkan tisu untuk saya.", "ru": "Пожалуйста, дай мне салфетку." },
+        { "id": "Ada tisu di atas meja makan.", "ru": "На обеденном столе лежат салфетки." },
+        { "id": "Saya pakai tisu untuk membersihkan meja.", "ru": "Я вытираю стол салфеткой." }
+      ]
     },
     {
       "id": "sabun",
       "ru": "мыло",
-      "en": "soap"
+      "en": "soap",
+      "examples": [
+        { "id": "Cuci tangan dengan sabun sebelum makan.", "ru": "Мой руки с мылом перед едой." },
+        { "id": "Sabun ini harum sekali.", "ru": "Это мыло очень ароматное." },
+        { "id": "Sabun cair ada di kamar mandi.", "ru": "В ванной есть жидкое мыло." }
+      ]
     },
     {
       "id": "sampo",
       "ru": "шампунь",
-      "en": "shampoo"
+      "en": "shampoo",
+      "examples": [
+        { "id": "Saya keramas dengan sampo setiap hari.", "ru": "Я мою голову шампунем каждый день." },
+        { "id": "Sampo ini cocok untuk rambut kering.", "ru": "Этот шампунь подходит для сухих волос." },
+        { "id": "Di mana sampo saya? Saya tidak bisa menemukannya.", "ru": "Где мой шампунь? Я не могу его найти." }
+      ]
     },
     {
       "id": "handuk",
       "ru": "полотенце",
-      "en": "towel"
+      "en": "towel",
+      "examples": [
+        { "id": "Ambil handuk sebelum mandi.", "ru": "Возьми полотенце перед душем." },
+        { "id": "Handuk saya basah, tolong ganti.", "ru": "Моё полотенце мокрое — пожалуйста, смени его." },
+        { "id": "Ada handuk bersih di lemari kamar mandi.", "ru": "В ванном шкафу есть чистые полотенца." }
+      ]
     },
     {
       "id": "sikat gigi",
       "ru": "зубная щётка",
-      "en": "toothbrush"
+      "en": "toothbrush",
+      "examples": [
+        { "id": "Gosok gigi dengan sikat gigi dua kali sehari.", "ru": "Чисти зубы щёткой два раза в день." },
+        { "id": "Sikat gigi saya sudah tua, harus diganti.", "ru": "Моя зубная щётка уже старая — нужно заменить." },
+        { "id": "Sikat gigi saya berwarna biru.", "ru": "Моя зубная щётка синего цвета." }
+      ]
     },
     {
       "id": "pasta gigi",
       "ru": "зубная паста",
-      "en": "toothpaste"
+      "en": "toothpaste",
+      "examples": [
+        { "id": "Oleskan pasta gigi di sikat gigi.", "ru": "Нанеси зубную пасту на щётку." },
+        { "id": "Pasta gigi ini rasanya mint.", "ru": "Эта зубная паста со вкусом мяты." },
+        { "id": "Pasta gigi kami habis, harus beli lagi.", "ru": "У нас закончилась зубная паста — нужно купить ещё." }
+      ]
     },
     {
       "id": "sisir",
       "ru": "расчёска",
-      "en": "comb"
+      "en": "comb",
+      "examples": [
+        { "id": "Sisir rambutmu sebelum keluar.", "ru": "Расчеши волосы перед выходом." },
+        { "id": "Sisir saya ada di dalam tas.", "ru": "Моя расчёска лежит в сумке." },
+        { "id": "Dia menyisir rambut panjangnya dengan perlahan.", "ru": "Она медленно расчёсывает свои длинные волосы." }
+      ]
     }
   ]
 }

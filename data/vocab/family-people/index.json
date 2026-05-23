@@ -7,282 +7,562 @@
     {
       "id": "keluarga",
       "ru": "семья",
-      "en": "family"
+      "en": "family",
+      "examples": [
+        { "id": "Keluarga saya tinggal di Jakarta.", "ru": "Моя семья живёт в Джакарте." },
+        { "id": "Saya sangat sayang kepada keluarga saya.", "ru": "Я очень люблю свою семью." },
+        { "id": "Kami makan malam bersama keluarga setiap hari.", "ru": "Мы каждый день ужинаем вместе с семьёй." }
+      ]
     },
     {
       "id": "orang tua",
       "ru": "родители",
-      "en": "parents"
+      "en": "parents",
+      "examples": [
+        { "id": "Orang tua saya bekerja di kantor.", "ru": "Мои родители работают в офисе." },
+        { "id": "Saya menelepon orang tua saya setiap minggu.", "ru": "Я звоню своим родителям каждую неделю." },
+        { "id": "Orang tua saya sangat baik.", "ru": "Мои родители очень добрые." }
+      ]
     },
     {
       "id": "ayah",
       "ru": "отец",
-      "en": "father"
+      "en": "father",
+      "examples": [
+        { "id": "Ayah saya seorang dokter.", "ru": "Мой отец — врач." },
+        { "id": "Ayah sedang membaca koran di ruang tamu.", "ru": "Отец читает газету в гостиной." },
+        { "id": "Saya pergi memancing bersama ayah.", "ru": "Я ходил на рыбалку вместе с отцом." }
+      ]
     },
     {
       "id": "bapak",
       "ru": "отец / господин",
-      "en": "father / sir"
+      "en": "father / sir",
+      "examples": [
+        { "id": "Bapak, apakah Anda sudah makan?", "ru": "Господин, вы уже поели?" },
+        { "id": "Bapak saya bekerja sebagai guru.", "ru": "Мой отец работает учителем." },
+        { "id": "Selamat pagi, Bapak!", "ru": "Доброе утро, господин!" }
+      ]
     },
     {
       "id": "ibu",
       "ru": "мать / госпожа",
-      "en": "mother / ma'am"
+      "en": "mother / ma'am",
+      "examples": [
+        { "id": "Ibu saya memasak di dapur.", "ru": "Моя мать готовит на кухне." },
+        { "id": "Permisi, Ibu, boleh saya bertanya?", "ru": "Извините, госпожа, можно я задам вопрос?" },
+        { "id": "Ibu selalu membantu saya belajar.", "ru": "Мать всегда помогает мне учиться." }
+      ]
     },
     {
       "id": "mama",
       "ru": "мама",
-      "en": "mom"
+      "en": "mom",
+      "examples": [
+        { "id": "Mama, aku lapar!", "ru": "Мама, я хочу есть!" },
+        { "id": "Mama membuatkan kue untuk saya.", "ru": "Мама испекла мне пирог." },
+        { "id": "Saya tidur dengan mama waktu kecil.", "ru": "В детстве я спал с мамой." }
+      ]
     },
     {
       "id": "papa",
       "ru": "папа",
-      "en": "dad"
+      "en": "dad",
+      "examples": [
+        { "id": "Papa pulang dari kerja pukul enam.", "ru": "Папа возвращается с работы в шесть часов." },
+        { "id": "Papa, tolong antar aku ke sekolah!", "ru": "Папа, отвези меня в школу!" },
+        { "id": "Saya main bola bersama papa.", "ru": "Я играю в мяч вместе с папой." }
+      ]
     },
     {
       "id": "anak",
       "ru": "ребёнок",
-      "en": "child"
+      "en": "child",
+      "examples": [
+        { "id": "Anak itu bermain di taman.", "ru": "Тот ребёнок играет в парке." },
+        { "id": "Mereka mempunyai dua anak.", "ru": "У них двое детей." },
+        { "id": "Anak saya berumur lima tahun.", "ru": "Моему ребёнку пять лет." }
+      ]
     },
     {
       "id": "anak laki-laki",
       "ru": "сын",
-      "en": "son"
+      "en": "son",
+      "examples": [
+        { "id": "Anak laki-laki saya suka sepak bola.", "ru": "Мой сын любит футбол." },
+        { "id": "Dia mempunyai tiga anak laki-laki.", "ru": "У него три сына." },
+        { "id": "Anak laki-laki itu sangat pintar.", "ru": "Тот мальчик очень умный." }
+      ]
     },
     {
       "id": "anak perempuan",
       "ru": "дочь",
-      "en": "daughter"
+      "en": "daughter",
+      "examples": [
+        { "id": "Anak perempuan saya belajar di universitas.", "ru": "Моя дочь учится в университете." },
+        { "id": "Dia mempunyai satu anak perempuan.", "ru": "У неё одна дочь." },
+        { "id": "Anak perempuan itu sangat cantik.", "ru": "Та девочка очень красивая." }
+      ]
     },
     {
       "id": "putra",
       "ru": "сын (формально)",
-      "en": "son (formal)"
+      "en": "son (formal)",
+      "examples": [
+        { "id": "Putra beliau bekerja di pemerintahan.", "ru": "Его сын работает в правительстве." },
+        { "id": "Putra saya akan menikah bulan depan.", "ru": "Мой сын женится в следующем месяце." },
+        { "id": "Ini adalah putra dari direktur perusahaan.", "ru": "Это сын директора компании." }
+      ]
     },
     {
       "id": "putri",
       "ru": "дочь (формально)",
-      "en": "daughter (formal)"
+      "en": "daughter (formal)",
+      "examples": [
+        { "id": "Putri beliau sudah lulus dari sekolah.", "ru": "Его дочь уже окончила школу." },
+        { "id": "Putri saya bercita-cita menjadi dokter.", "ru": "Моя дочь мечтает стать врачом." },
+        { "id": "Ini adalah putri dari Bapak Presiden.", "ru": "Это дочь господина Президента." }
+      ]
     },
     {
       "id": "kakak",
       "ru": "старший брат/сестра",
-      "en": "older sibling"
+      "en": "older sibling",
+      "examples": [
+        { "id": "Kakak saya sudah menikah.", "ru": "Мой старший брат/сестра уже женат/замужем." },
+        { "id": "Saya pergi ke pasar dengan kakak.", "ru": "Я иду на рынок со старшим братом/сестрой." },
+        { "id": "Kakak selalu membantu saya di rumah.", "ru": "Старший брат/сестра всегда помогает мне дома." }
+      ]
     },
     {
       "id": "abang",
       "ru": "старший брат",
-      "en": "older brother"
+      "en": "older brother",
+      "examples": [
+        { "id": "Abang saya tinggal di Bandung.", "ru": "Мой старший брат живёт в Бандунге." },
+        { "id": "Abang mengajari saya bermain gitar.", "ru": "Старший брат учит меня играть на гитаре." },
+        { "id": "Saya bangga dengan abang saya.", "ru": "Я горжусь своим старшим братом." }
+      ]
     },
     {
       "id": "adik",
       "ru": "младший брат/сестра",
-      "en": "younger sibling"
+      "en": "younger sibling",
+      "examples": [
+        { "id": "Adik saya masih di sekolah dasar.", "ru": "Мой младший брат/сестра ещё учится в начальной школе." },
+        { "id": "Saya menjaga adik saat orang tua pergi.", "ru": "Я слежу за младшим братом/сестрой, когда родители уходят." },
+        { "id": "Adik suka makan es krim.", "ru": "Младший брат/сестра любит мороженое." }
+      ]
     },
     {
       "id": "saudara",
       "ru": "брат / родственник",
-      "en": "brother / relative"
+      "en": "brother / relative",
+      "examples": [
+        { "id": "Saudara saya datang dari luar kota.", "ru": "Мой родственник приехал из другого города." },
+        { "id": "Kita semua bersaudara.", "ru": "Мы все братья/родственники." },
+        { "id": "Saudara-saudara saya berkumpul di hari raya.", "ru": "Мои родственники собираются на праздник." }
+      ]
     },
     {
       "id": "saudari",
       "ru": "сестра",
-      "en": "sister"
+      "en": "sister",
+      "examples": [
+        { "id": "Saudari saya tinggal di Surabaya.", "ru": "Моя сестра живёт в Сурабае." },
+        { "id": "Saya mempunyai dua orang saudari.", "ru": "У меня две сестры." },
+        { "id": "Saudari saya bekerja sebagai perawat.", "ru": "Моя сестра работает медсестрой." }
+      ]
     },
     {
       "id": "kakek",
       "ru": "дедушка",
-      "en": "grandfather"
+      "en": "grandfather",
+      "examples": [
+        { "id": "Kakek saya berumur tujuh puluh tahun.", "ru": "Моему дедушке семьдесят лет." },
+        { "id": "Saya sering mendengarkan cerita dari kakek.", "ru": "Я часто слушаю рассказы дедушки." },
+        { "id": "Kakek tinggal di desa bersama nenek.", "ru": "Дедушка живёт в деревне вместе с бабушкой." }
+      ]
     },
     {
       "id": "nenek",
       "ru": "бабушка",
-      "en": "grandmother"
+      "en": "grandmother",
+      "examples": [
+        { "id": "Nenek saya pandai memasak.", "ru": "Моя бабушка хорошо готовит." },
+        { "id": "Saya mengunjungi nenek setiap liburan.", "ru": "Я навещаю бабушку каждые каникулы." },
+        { "id": "Nenek menceritakan dongeng kepada saya.", "ru": "Бабушка рассказывает мне сказки." }
+      ]
     },
     {
       "id": "paman",
       "ru": "дядя",
-      "en": "uncle"
+      "en": "uncle",
+      "examples": [
+        { "id": "Paman saya adalah saudara ayah saya.", "ru": "Мой дядя — брат моего отца." },
+        { "id": "Paman memberi saya hadiah ulang tahun.", "ru": "Дядя подарил мне подарок на день рождения." },
+        { "id": "Saya bermain bersama paman di akhir pekan.", "ru": "Я играю с дядей на выходных." }
+      ]
     },
     {
       "id": "bibi",
       "ru": "тётя",
-      "en": "aunt"
+      "en": "aunt",
+      "examples": [
+        { "id": "Bibi saya tinggal di dekat rumah kami.", "ru": "Моя тётя живёт недалеко от нашего дома." },
+        { "id": "Bibi membuatkan kue yang enak.", "ru": "Тётя испекла вкусный пирог." },
+        { "id": "Saya senang bermain di rumah bibi.", "ru": "Мне нравится играть в доме тёти." }
+      ]
     },
     {
       "id": "om",
       "ru": "дядя (разг.)",
-      "en": "uncle (casual)"
+      "en": "uncle (casual)",
+      "examples": [
+        { "id": "Om, boleh saya ikut?", "ru": "Дядь, можно я пойду с вами?" },
+        { "id": "Om Budi datang ke pesta kami.", "ru": "Дядя Буди пришёл на нашу вечеринку." },
+        { "id": "Om saya punya mobil baru.", "ru": "У моего дяди новая машина." }
+      ]
     },
     {
       "id": "tante",
       "ru": "тётя (разг.)",
-      "en": "aunt (casual)"
+      "en": "aunt (casual)",
+      "examples": [
+        { "id": "Tante, ini oleh-oleh dari saya.", "ru": "Тётечка, вот вам гостинец от меня." },
+        { "id": "Tante Rina sangat ramah dan baik.", "ru": "Тётя Рина очень дружелюбная и добрая." },
+        { "id": "Saya belajar memasak dari tante.", "ru": "Я учусь готовить у тёти." }
+      ]
     },
     {
       "id": "sepupu",
       "ru": "двоюродный/ая",
-      "en": "cousin"
+      "en": "cousin",
+      "examples": [
+        { "id": "Sepupu saya tinggal di kota lain.", "ru": "Мой двоюродный брат/сестра живёт в другом городе." },
+        { "id": "Saya bermain dengan sepupu saat liburan.", "ru": "Я играю с двоюродным братом/сестрой на каникулах." },
+        { "id": "Sepupu saya sebaya dengan saya.", "ru": "Мой двоюродный брат/сестра одного возраста со мной." }
+      ]
     },
     {
       "id": "suami",
       "ru": "муж",
-      "en": "husband"
+      "en": "husband",
+      "examples": [
+        { "id": "Suami saya bekerja di bank.", "ru": "Мой муж работает в банке." },
+        { "id": "Dia dan suaminya tinggal di apartemen.", "ru": "Она и её муж живут в квартире." },
+        { "id": "Suami saya memasak malam ini.", "ru": "Сегодня вечером готовит мой муж." }
+      ]
     },
     {
       "id": "istri",
       "ru": "жена",
-      "en": "wife"
+      "en": "wife",
+      "examples": [
+        { "id": "Istri saya adalah seorang guru.", "ru": "Моя жена — учительница." },
+        { "id": "Dia membelikan hadiah untuk istrinya.", "ru": "Он купил подарок своей жене." },
+        { "id": "Istri saya suka memasak makanan Indonesia.", "ru": "Моя жена любит готовить индонезийскую еду." }
+      ]
     },
     {
       "id": "pasangan",
       "ru": "пара / супруг(а)",
-      "en": "partner"
+      "en": "partner",
+      "examples": [
+        { "id": "Pasangan saya sangat pengertian.", "ru": "Мой партнёр/супруг очень понимающий." },
+        { "id": "Mereka adalah pasangan yang serasi.", "ru": "Они очень подходящая пара." },
+        { "id": "Saya pergi liburan bersama pasangan.", "ru": "Я еду в отпуск вместе с партнёром." }
+      ]
     },
     {
       "id": "mertua",
       "ru": "тесть/тёща",
-      "en": "parent-in-law"
+      "en": "parent-in-law",
+      "examples": [
+        { "id": "Mertua saya tinggal di Jogja.", "ru": "Мои тесть/тёща живут в Джокьякарте." },
+        { "id": "Saya mengunjungi mertua setiap bulan.", "ru": "Я навещаю тестя/тёщу каждый месяц." },
+        { "id": "Mertua saya orang yang baik hati.", "ru": "Мой тесть/моя тёща — добросердечный человек." }
+      ]
     },
     {
       "id": "menantu",
       "ru": "зять/невестка",
-      "en": "son / daughter-in-law"
+      "en": "son / daughter-in-law",
+      "examples": [
+        { "id": "Menantu saya berasal dari Bali.", "ru": "Мой зять/моя невестка родом с Бали." },
+        { "id": "Kami menyambut menantu baru dengan hangat.", "ru": "Мы тепло встретили нового члена семьи." },
+        { "id": "Menantu kami sangat rajin dan sopan.", "ru": "Наш зять/наша невестка очень трудолюбивый и вежливый." }
+      ]
     },
     {
       "id": "cucu",
       "ru": "внук/внучка",
-      "en": "grandchild"
+      "en": "grandchild",
+      "examples": [
+        { "id": "Kakek sangat sayang kepada cucu-cucunya.", "ru": "Дедушка очень любит своих внуков." },
+        { "id": "Cucu saya baru berumur dua tahun.", "ru": "Моему внуку/внучке всего два года." },
+        { "id": "Nenek selalu memanjakan cucunya.", "ru": "Бабушка всегда балует своих внуков." }
+      ]
     },
     {
       "id": "keponakan",
       "ru": "племянник/племянница",
-      "en": "nephew / niece"
+      "en": "nephew / niece",
+      "examples": [
+        { "id": "Keponakan saya sangat lucu dan aktif.", "ru": "Мой племянник/моя племянница очень милый и активный." },
+        { "id": "Saya membelikan mainan untuk keponakan.", "ru": "Я купил игрушку племяннику/племяннице." },
+        { "id": "Keponakan saya baru masuk sekolah.", "ru": "Мой племянник/моя племянница только пошёл/пошла в школу." }
+      ]
     },
     {
       "id": "teman",
       "ru": "друг",
-      "en": "friend"
+      "en": "friend",
+      "examples": [
+        { "id": "Saya punya banyak teman di sekolah.", "ru": "У меня много друзей в школе." },
+        { "id": "Teman saya membantu saya saat kesulitan.", "ru": "Мой друг помог мне, когда мне было трудно." },
+        { "id": "Kami berteman sejak kecil.", "ru": "Мы дружим с детства." }
+      ]
     },
     {
       "id": "sahabat",
       "ru": "близкий друг",
-      "en": "best friend"
+      "en": "best friend",
+      "examples": [
+        { "id": "Dia adalah sahabat terbaik saya.", "ru": "Он/она — мой лучший друг." },
+        { "id": "Sahabat sejati selalu ada di saat susah.", "ru": "Настоящий друг всегда рядом в трудную минуту." },
+        { "id": "Saya dan sahabat saya pergi ke mana-mana bersama.", "ru": "Мы с лучшим другом везде ходим вместе." }
+      ]
     },
     {
       "id": "pacar",
       "ru": "парень / девушка",
-      "en": "boyfriend / girlfriend"
+      "en": "boyfriend / girlfriend",
+      "examples": [
+        { "id": "Apakah kamu sudah punya pacar?", "ru": "У тебя уже есть парень/девушка?" },
+        { "id": "Pacar saya tinggal di luar kota.", "ru": "Мой парень/моя девушка живёт в другом городе." },
+        { "id": "Saya pergi nonton film dengan pacar saya.", "ru": "Я пошёл смотреть кино с моим парнем/моей девушкой." }
+      ]
     },
     {
       "id": "kenalan",
       "ru": "знакомый",
-      "en": "acquaintance"
+      "en": "acquaintance",
+      "examples": [
+        { "id": "Dia bukan teman dekat, hanya kenalan saya.", "ru": "Он не близкий друг, просто мой знакомый." },
+        { "id": "Saya bertemu kenalan lama di pasar.", "ru": "Я встретил старого знакомого на рынке." },
+        { "id": "Kenalan saya bekerja di perusahaan besar.", "ru": "Мой знакомый работает в крупной компании." }
+      ]
     },
     {
       "id": "tetangga",
       "ru": "сосед",
-      "en": "neighbor"
+      "en": "neighbor",
+      "examples": [
+        { "id": "Tetangga saya sangat ramah.", "ru": "Мой сосед очень дружелюбный." },
+        { "id": "Kami sering meminjam gula dari tetangga.", "ru": "Мы часто одалживаем сахар у соседа." },
+        { "id": "Tetangga saya baru pindah ke sini.", "ru": "Мой сосед только что сюда переехал." }
+      ]
     },
     {
       "id": "tamu",
       "ru": "гость",
-      "en": "guest"
+      "en": "guest",
+      "examples": [
+        { "id": "Kami menyambut tamu dengan hangat.", "ru": "Мы тепло принимаем гостей." },
+        { "id": "Ada tamu yang datang ke rumah kami.", "ru": "К нам домой пришёл гость." },
+        { "id": "Ibu menyiapkan makanan untuk tamu.", "ru": "Мама готовит еду для гостей." }
+      ]
     },
     {
       "id": "orang",
       "ru": "человек",
-      "en": "person"
+      "en": "person",
+      "examples": [
+        { "id": "Ada banyak orang di pasar.", "ru": "На рынке много людей." },
+        { "id": "Orang itu sangat baik hati.", "ru": "Тот человек очень добросердечный." },
+        { "id": "Siapa orang yang duduk di sana?", "ru": "Кто тот человек, который сидит там?" }
+      ]
     },
     {
       "id": "laki-laki",
       "ru": "мужчина",
-      "en": "man"
+      "en": "man",
+      "examples": [
+        { "id": "Ada seorang laki-laki di depan pintu.", "ru": "У двери стоит мужчина." },
+        { "id": "Laki-laki itu memakai baju merah.", "ru": "Тот мужчина одет в красную рубашку." },
+        { "id": "Dia adalah laki-laki yang sangat sopan.", "ru": "Он очень вежливый мужчина." }
+      ]
     },
     {
       "id": "pria",
       "ru": "мужчина (формально)",
-      "en": "man (formal)"
+      "en": "man (formal)",
+      "examples": [
+        { "id": "Pria itu adalah pemimpin di kantor kami.", "ru": "Тот мужчина — руководитель в нашем офисе." },
+        { "id": "Seorang pria muda datang melamar pekerjaan.", "ru": "Молодой мужчина пришёл устраиваться на работу." },
+        { "id": "Pria dewasa harus bertanggung jawab.", "ru": "Взрослый мужчина должен быть ответственным." }
+      ]
     },
     {
       "id": "perempuan",
       "ru": "женщина",
-      "en": "woman"
+      "en": "woman",
+      "examples": [
+        { "id": "Perempuan itu adalah guru saya.", "ru": "Та женщина — моя учительница." },
+        { "id": "Ada dua perempuan di ruang tunggu.", "ru": "В зале ожидания две женщины." },
+        { "id": "Perempuan itu berbicara dengan sangat ramah.", "ru": "Та женщина говорит очень приветливо." }
+      ]
     },
     {
       "id": "wanita",
       "ru": "женщина (формально)",
-      "en": "woman (formal)"
+      "en": "woman (formal)",
+      "examples": [
+        { "id": "Wanita itu adalah direktur perusahaan.", "ru": "Та женщина — директор компании." },
+        { "id": "Seorang wanita muda memenangkan penghargaan.", "ru": "Молодая женщина получила награду." },
+        { "id": "Wanita Indonesia terkenal dengan keramahannya.", "ru": "Индонезийские женщины известны своей приветливостью." }
+      ]
     },
     {
       "id": "cowok",
       "ru": "парень (разг.)",
-      "en": "guy (slang)"
+      "en": "guy (slang)",
+      "examples": [
+        { "id": "Cowok itu teman sekelas saya.", "ru": "Тот парень — мой одноклассник." },
+        { "id": "Siapa cowok yang tadi telepon kamu?", "ru": "Кто тот парень, который тебе только что позвонил?" },
+        { "id": "Cowok di sana kelihatan baik.", "ru": "Парень вон там выглядит неплохим." }
+      ]
     },
     {
       "id": "cewek",
       "ru": "девушка (разг.)",
-      "en": "girl (slang)"
+      "en": "girl (slang)",
+      "examples": [
+        { "id": "Cewek itu teman saya dari SMA.", "ru": "Та девушка — моя подруга по старшей школе." },
+        { "id": "Siapa nama cewek yang duduk di sana?", "ru": "Как зовут ту девушку, которая сидит там?" },
+        { "id": "Cewek itu sangat pintar dan lucu.", "ru": "Та девушка очень умная и симпатичная." }
+      ]
     },
     {
       "id": "anak-anak",
       "ru": "дети",
-      "en": "children"
+      "en": "children",
+      "examples": [
+        { "id": "Anak-anak bermain di halaman rumah.", "ru": "Дети играют во дворе." },
+        { "id": "Anak-anak suka makan permen.", "ru": "Дети любят есть конфеты." },
+        { "id": "Sekolah ini untuk anak-anak usia enam tahun.", "ru": "Эта школа для детей шести лет." }
+      ]
     },
     {
       "id": "remaja",
       "ru": "подросток",
-      "en": "teenager"
+      "en": "teenager",
+      "examples": [
+        { "id": "Remaja itu sedang belajar di perpustakaan.", "ru": "Тот подросток учится в библиотеке." },
+        { "id": "Banyak remaja suka bermain game online.", "ru": "Многие подростки любят играть в онлайн-игры." },
+        { "id": "Saya dulu adalah remaja yang pemalu.", "ru": "Раньше я был застенчивым подростком." }
+      ]
     },
     {
       "id": "dewasa",
       "ru": "взрослый",
-      "en": "adult"
+      "en": "adult",
+      "examples": [
+        { "id": "Film ini hanya untuk penonton dewasa.", "ru": "Этот фильм только для взрослых зрителей." },
+        { "id": "Sebagai orang dewasa, kita harus mandiri.", "ru": "Как взрослые, мы должны быть самостоятельными." },
+        { "id": "Dia sudah berperilaku seperti orang dewasa.", "ru": "Он уже ведёт себя как взрослый." }
+      ]
     },
     {
       "id": "bayi",
       "ru": "младенец",
-      "en": "baby"
+      "en": "baby",
+      "examples": [
+        { "id": "Bayi itu menangis setiap malam.", "ru": "Тот младенец плачет каждую ночь." },
+        { "id": "Ibu menggendong bayi dengan lembut.", "ru": "Мать нежно держит младенца на руках." },
+        { "id": "Bayi kami baru lahir minggu lalu.", "ru": "Наш младенец родился на прошлой неделе." }
+      ]
     },
     {
       "id": "balita",
       "ru": "малыш",
-      "en": "toddler"
+      "en": "toddler",
+      "examples": [
+        { "id": "Balita itu baru belajar berjalan.", "ru": "Тот малыш только учится ходить." },
+        { "id": "Balita suka bermain dengan mainan berwarna.", "ru": "Малыши любят играть с цветными игрушками." },
+        { "id": "Ibu menyuapi balita dengan sabar.", "ru": "Мама терпеливо кормит малыша." }
+      ]
     },
     {
       "id": "tua",
       "ru": "старый",
-      "en": "old"
+      "en": "old",
+      "examples": [
+        { "id": "Kakek saya sudah tua tapi masih sehat.", "ru": "Мой дедушка уже старый, но ещё здоров." },
+        { "id": "Rumah itu sudah sangat tua.", "ru": "Тот дом уже очень старый." },
+        { "id": "Orang tua harus dihormati.", "ru": "Старших людей надо уважать." }
+      ]
     },
     {
       "id": "muda",
       "ru": "молодой",
-      "en": "young"
+      "en": "young",
+      "examples": [
+        { "id": "Dia masih muda dan penuh semangat.", "ru": "Он ещё молодой и полный энтузиазма." },
+        { "id": "Generasi muda harus banyak belajar.", "ru": "Молодое поколение должно много учиться." },
+        { "id": "Dia kelihatan masih muda untuk usianya.", "ru": "Она выглядит молодо для своего возраста." }
+      ]
     },
     {
       "id": "nama",
       "ru": "имя",
-      "en": "name"
+      "en": "name",
+      "examples": [
+        { "id": "Nama saya Budi.", "ru": "Меня зовут Буди." },
+        { "id": "Siapa nama kamu?", "ru": "Как тебя зовут?" },
+        { "id": "Nama teman saya sulit diucapkan.", "ru": "Имя моего друга трудно произносить." }
+      ]
     },
     {
       "id": "umur",
       "ru": "возраст",
-      "en": "age"
+      "en": "age",
+      "examples": [
+        { "id": "Berapa umur kamu?", "ru": "Сколько тебе лет?" },
+        { "id": "Umur saya dua puluh tahun.", "ru": "Мне двадцать лет." },
+        { "id": "Tidak sopan menanyakan umur orang.", "ru": "Невежливо спрашивать возраст человека." }
+      ]
     },
     {
       "id": "usia",
       "ru": "возраст (формально)",
-      "en": "age (formal)"
+      "en": "age (formal)",
+      "examples": [
+        { "id": "Usia minimum untuk bekerja adalah delapan belas tahun.", "ru": "Минимальный возраст для работы — восемнадцать лет." },
+        { "id": "Pada usia lima puluh tahun, beliau pensiun.", "ru": "В возрасте пятидесяти лет он вышел на пенсию." },
+        { "id": "Usia lanjut bukan halangan untuk belajar.", "ru": "Преклонный возраст — не препятствие для обучения." }
+      ]
     },
     {
       "id": "alamat",
       "ru": "адрес",
-      "en": "address"
+      "en": "address",
+      "examples": [
+        { "id": "Berapa alamat rumah kamu?", "ru": "Какой у тебя домашний адрес?" },
+        { "id": "Tolong tulis alamat kamu di sini.", "ru": "Пожалуйста, напишите свой адрес здесь." },
+        { "id": "Saya tidak tahu alamat teman saya.", "ru": "Я не знаю адреса своего друга." }
+      ]
     },
     {
       "id": "nomor telepon",
       "ru": "номер телефона",
-      "en": "phone number"
+      "en": "phone number",
+      "examples": [
+        { "id": "Boleh saya minta nomor telepon kamu?", "ru": "Можно попросить твой номер телефона?" },
+        { "id": "Nomor telepon saya sudah berubah.", "ru": "Мой номер телефона уже изменился." },
+        { "id": "Tulis nomor telepon kamu di formulir ini.", "ru": "Напишите свой номер телефона в этой форме." }
+      ]
     }
   ]
 }

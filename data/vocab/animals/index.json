@@ -7,157 +7,312 @@
     {
       "id": "binatang",
       "ru": "животное",
-      "en": "animal"
+      "en": "animal",
+      "examples": [
+        { "id": "Binatang itu sangat besar.", "ru": "Это животное очень большое." },
+        { "id": "Anak-anak suka melihat binatang di kebun binatang.", "ru": "Дети любят смотреть на животных в зоопарке." },
+        { "id": "Jangan takut pada binatang kecil itu.", "ru": "Не бойся этого маленького животного." }
+      ]
     },
     {
       "id": "hewan",
       "ru": "животное",
-      "en": "animal"
+      "en": "animal",
+      "examples": [
+        { "id": "Hewan peliharaan saya adalah kucing.", "ru": "Моё домашнее животное — кошка." },
+        { "id": "Ada banyak hewan di hutan ini.", "ru": "В этом лесу много животных." },
+        { "id": "Kita harus menjaga hewan dengan baik.", "ru": "Мы должны хорошо заботиться о животных." }
+      ]
     },
     {
       "id": "anjing",
       "ru": "собака",
-      "en": "dog"
+      "en": "dog",
+      "examples": [
+        { "id": "Anjing saya suka berlari di taman.", "ru": "Моя собака любит бегать в парке." },
+        { "id": "Apakah kamu punya anjing di rumah?", "ru": "У тебя дома есть собака?" },
+        { "id": "Anjing itu sangat lucu dan jinak.", "ru": "Эта собака очень милая и ручная." }
+      ]
     },
     {
       "id": "kucing",
       "ru": "кошка",
-      "en": "cat"
+      "en": "cat",
+      "examples": [
+        { "id": "Kucing saya tidur di sofa.", "ru": "Моя кошка спит на диване." },
+        { "id": "Kucing itu minum susu setiap pagi.", "ru": "Эта кошка пьёт молоко каждое утро." },
+        { "id": "Saya suka memelihara kucing di rumah.", "ru": "Мне нравится держать кошку дома." }
+      ]
     },
     {
       "id": "kerbau",
       "ru": "буйвол",
-      "en": "buffalo"
+      "en": "buffalo",
+      "examples": [
+        { "id": "Kerbau membantu petani di sawah.", "ru": "Буйвол помогает фермерам на рисовом поле." },
+        { "id": "Kerbau itu minum air di sungai.", "ru": "Этот буйвол пьёт воду в реке." },
+        { "id": "Di desa, banyak orang memelihara kerbau.", "ru": "В деревне многие люди держат буйволов." }
+      ]
     },
     {
       "id": "kuda",
       "ru": "лошадь",
-      "en": "horse"
+      "en": "horse",
+      "examples": [
+        { "id": "Kuda itu berlari sangat cepat.", "ru": "Эта лошадь бежит очень быстро." },
+        { "id": "Saya ingin belajar naik kuda.", "ru": "Я хочу научиться ездить верхом на лошади." },
+        { "id": "Kuda makan rumput setiap hari.", "ru": "Лошадь ест траву каждый день." }
+      ]
     },
     {
       "id": "bebek",
       "ru": "утка",
-      "en": "duck"
+      "en": "duck",
+      "examples": [
+        { "id": "Bebek itu berenang di kolam.", "ru": "Эта утка плавает в пруду." },
+        { "id": "Ada banyak bebek di sawah.", "ru": "На рисовых полях много уток." },
+        { "id": "Bebek suka makan cacing di tanah.", "ru": "Утки любят есть червей в земле." }
+      ]
     },
     {
       "id": "burung",
       "ru": "птица",
-      "en": "bird"
+      "en": "bird",
+      "examples": [
+        { "id": "Burung itu bernyanyi setiap pagi.", "ru": "Эта птица поёт каждое утро." },
+        { "id": "Saya melihat burung terbang di langit.", "ru": "Я вижу птицу, летящую в небе." },
+        { "id": "Ada burung cantik di pohon itu.", "ru": "На том дереве есть красивая птица." }
+      ]
     },
     {
       "id": "ular",
       "ru": "змея",
-      "en": "snake"
+      "en": "snake",
+      "examples": [
+        { "id": "Ular itu bersembunyi di bawah batu.", "ru": "Эта змея прячется под камнем." },
+        { "id": "Hati-hati, ada ular di jalan!", "ru": "Осторожно, на дороге змея!" },
+        { "id": "Tidak semua ular itu berbahaya.", "ru": "Не все змеи опасны." }
+      ]
     },
     {
       "id": "katak",
       "ru": "лягушка",
-      "en": "frog"
+      "en": "frog",
+      "examples": [
+        { "id": "Katak melompat ke dalam air.", "ru": "Лягушка прыгнула в воду." },
+        { "id": "Saya mendengar suara katak di malam hari.", "ru": "Я слышу кваканье лягушек ночью." },
+        { "id": "Katak suka hidup di tempat yang lembap.", "ru": "Лягушки любят жить во влажных местах." }
+      ]
     },
     {
       "id": "kura-kura",
       "ru": "черепаха",
-      "en": "turtle"
+      "en": "turtle",
+      "examples": [
+        { "id": "Kura-kura berjalan sangat lambat.", "ru": "Черепаха ходит очень медленно." },
+        { "id": "Kura-kura laut hidup di laut dalam.", "ru": "Морские черепахи живут в глубоком море." },
+        { "id": "Anak saya punya kura-kura kecil di rumah.", "ru": "У моего ребёнка дома есть маленькая черепаха." }
+      ]
     },
     {
       "id": "monyet",
       "ru": "обезьяна",
-      "en": "monkey"
+      "en": "monkey",
+      "examples": [
+        { "id": "Monyet itu memanjat pohon dengan cepat.", "ru": "Эта обезьяна быстро залезает на дерево." },
+        { "id": "Monyet suka makan pisang.", "ru": "Обезьяны любят есть бананы." },
+        { "id": "Di kebun binatang ada banyak monyet.", "ru": "В зоопарке много обезьян." }
+      ]
     },
     {
       "id": "tikus",
       "ru": "мышь / крыса",
-      "en": "mouse / rat"
+      "en": "mouse / rat",
+      "examples": [
+        { "id": "Tikus masuk ke dalam rumah saya.", "ru": "Мышь вошла в мой дом." },
+        { "id": "Kucing itu mengejar tikus di dapur.", "ru": "Кошка гоняется за мышью на кухне." },
+        { "id": "Saya tidak suka tikus karena kotor.", "ru": "Мне не нравятся мыши, потому что они грязные." }
+      ]
     },
     {
       "id": "kelinci",
       "ru": "кролик",
-      "en": "rabbit"
+      "en": "rabbit",
+      "examples": [
+        { "id": "Kelinci saya suka makan wortel.", "ru": "Мой кролик любит есть морковку." },
+        { "id": "Kelinci itu melompat-lompat di taman.", "ru": "Этот кролик прыгает по саду." },
+        { "id": "Adik saya ingin punya kelinci sebagai hewan peliharaan.", "ru": "Моя сестра хочет завести кролика в качестве домашнего животного." }
+      ]
     },
     {
       "id": "harimau",
       "ru": "тигр",
-      "en": "tiger"
+      "en": "tiger",
+      "examples": [
+        { "id": "Harimau adalah hewan yang sangat kuat.", "ru": "Тигр — очень сильное животное." },
+        { "id": "Harimau Sumatera hampir punah.", "ru": "Суматранский тигр находится под угрозой исчезновения." },
+        { "id": "Saya melihat harimau di kebun binatang kemarin.", "ru": "Вчера я видел тигра в зоопарке." }
+      ]
     },
     {
       "id": "gajah",
       "ru": "слон",
-      "en": "elephant"
+      "en": "elephant",
+      "examples": [
+        { "id": "Gajah adalah hewan terbesar di darat.", "ru": "Слон — самое большое наземное животное." },
+        { "id": "Gajah minum air dengan belalainya.", "ru": "Слон пьёт воду хоботом." },
+        { "id": "Saya ingin melihat gajah di alam liar.", "ru": "Я хочу увидеть слонов в дикой природе." }
+      ]
     },
     {
       "id": "singa",
       "ru": "лев",
-      "en": "lion"
+      "en": "lion",
+      "examples": [
+        { "id": "Singa disebut raja hutan.", "ru": "Льва называют королём зверей." },
+        { "id": "Singa betina berburu untuk keluarganya.", "ru": "Львица охотится для своей семьи." },
+        { "id": "Suara singa sangat keras dan menakutkan.", "ru": "Рёв льва очень громкий и пугающий." }
+      ]
     },
     {
       "id": "beruang",
       "ru": "медведь",
-      "en": "bear"
+      "en": "bear",
+      "examples": [
+        { "id": "Beruang suka makan madu.", "ru": "Медведь любит есть мёд." },
+        { "id": "Beruang tidur di musim dingin.", "ru": "Медведь спит зимой." },
+        { "id": "Jangan mendekati beruang di hutan.", "ru": "Не подходи к медведю в лесу." }
+      ]
     },
     {
       "id": "serigala",
       "ru": "волк",
-      "en": "wolf"
+      "en": "wolf",
+      "examples": [
+        { "id": "Serigala hidup dalam kelompok yang disebut kawanan.", "ru": "Волки живут в группах, называемых стаями." },
+        { "id": "Serigala melolong di malam hari.", "ru": "Волк воет ночью." },
+        { "id": "Saya mendengar suara serigala di hutan.", "ru": "Я слышал вой волка в лесу." }
+      ]
     },
     {
       "id": "rusa",
       "ru": "олень",
-      "en": "deer"
+      "en": "deer",
+      "examples": [
+        { "id": "Rusa itu berlari kencang di padang rumput.", "ru": "Этот олень быстро бежит по лугу." },
+        { "id": "Rusa jantan memiliki tanduk yang besar.", "ru": "У самца оленя большие рога." },
+        { "id": "Kami melihat rusa di tepi hutan.", "ru": "Мы видели оленя на опушке леса." }
+      ]
     },
     {
       "id": "buaya",
       "ru": "крокодил",
-      "en": "crocodile"
+      "en": "crocodile",
+      "examples": [
+        { "id": "Buaya berbaring diam di pinggir sungai.", "ru": "Крокодил неподвижно лежит на берегу реки." },
+        { "id": "Jangan berenang di sungai yang ada buayanya.", "ru": "Не плавай в реке, где есть крокодилы." },
+        { "id": "Buaya memiliki gigi yang sangat tajam.", "ru": "У крокодила очень острые зубы." }
+      ]
     },
     {
       "id": "hiu",
       "ru": "акула",
-      "en": "shark"
+      "en": "shark",
+      "examples": [
+        { "id": "Hiu berenang cepat di laut.", "ru": "Акула быстро плавает в море." },
+        { "id": "Tidak semua hiu berbahaya bagi manusia.", "ru": "Не все акулы опасны для людей." },
+        { "id": "Nelayan itu melihat hiu besar di lautan.", "ru": "Тот рыбак увидел большую акулу в океане." }
+      ]
     },
     {
       "id": "lumba-lumba",
       "ru": "дельфин",
-      "en": "dolphin"
+      "en": "dolphin",
+      "examples": [
+        { "id": "Lumba-lumba sangat cerdas dan ramah.", "ru": "Дельфины очень умные и дружелюбные." },
+        { "id": "Saya melihat lumba-lumba melompat di laut.", "ru": "Я видел дельфина, прыгающего в море." },
+        { "id": "Lumba-lumba suka berenang bersama kapal.", "ru": "Дельфины любят плавать рядом с кораблями." }
+      ]
     },
     {
       "id": "paus",
       "ru": "кит",
-      "en": "whale"
+      "en": "whale",
+      "examples": [
+        { "id": "Paus adalah hewan terbesar di dunia.", "ru": "Кит — самое большое животное в мире." },
+        { "id": "Paus bernapas dengan paru-paru, bukan insang.", "ru": "Киты дышат лёгкими, а не жабрами." },
+        { "id": "Wisatawan itu melihat paus dari atas kapal.", "ru": "Туристы видели кита с борта корабля." }
+      ]
     },
     {
       "id": "kupu-kupu",
       "ru": "бабочка",
-      "en": "butterfly"
+      "en": "butterfly",
+      "examples": [
+        { "id": "Kupu-kupu hinggap di bunga yang indah.", "ru": "Бабочка села на красивый цветок." },
+        { "id": "Ada banyak kupu-kupu di taman ini.", "ru": "В этом саду много бабочек." },
+        { "id": "Sayap kupu-kupu memiliki warna yang cantik.", "ru": "Крылья бабочки имеют красивые цвета." }
+      ]
     },
     {
       "id": "lebah",
       "ru": "пчела",
-      "en": "bee"
+      "en": "bee",
+      "examples": [
+        { "id": "Lebah membuat madu yang manis.", "ru": "Пчёлы делают сладкий мёд." },
+        { "id": "Jangan menggangu sarang lebah.", "ru": "Не тревожь пчелиный улей." },
+        { "id": "Lebah terbang dari bunga ke bunga.", "ru": "Пчела летает с цветка на цветок." }
+      ]
     },
     {
       "id": "semut",
       "ru": "муравей",
-      "en": "ant"
+      "en": "ant",
+      "examples": [
+        { "id": "Semut bekerja keras setiap hari.", "ru": "Муравьи усердно трудятся каждый день." },
+        { "id": "Ada banyak semut di atas makanan itu.", "ru": "На этой еде много муравьёв." },
+        { "id": "Semut membawa makanan ke sarangnya.", "ru": "Муравей несёт еду в свой муравейник." }
+      ]
     },
     {
       "id": "nyamuk",
       "ru": "комар",
-      "en": "mosquito"
+      "en": "mosquito",
+      "examples": [
+        { "id": "Nyamuk menggigit saya tadi malam.", "ru": "Комар укусил меня прошлой ночью." },
+        { "id": "Gunakan obat nyamuk agar tidak digigit.", "ru": "Используй средство от комаров, чтобы не кусали." },
+        { "id": "Nyamuk banyak muncul di musim hujan.", "ru": "Комаров много появляется в сезон дождей." }
+      ]
     },
     {
       "id": "lalat",
       "ru": "муха",
-      "en": "fly"
+      "en": "fly",
+      "examples": [
+        { "id": "Lalat hinggap di makanan itu.", "ru": "Муха села на эту еду." },
+        { "id": "Tutup makananmu agar tidak dihinggapi lalat.", "ru": "Накрой еду, чтобы на неё не садились мухи." },
+        { "id": "Ada banyak lalat di tempat sampah.", "ru": "У мусорного бака много мух." }
+      ]
     },
     {
       "id": "laba-laba",
       "ru": "паук",
-      "en": "spider"
+      "en": "spider",
+      "examples": [
+        { "id": "Laba-laba membuat jaring untuk menangkap serangga.", "ru": "Паук плетёт паутину, чтобы ловить насекомых." },
+        { "id": "Ada laba-laba besar di sudut kamar saya.", "ru": "В углу моей комнаты есть большой паук." },
+        { "id": "Laba-laba itu bergerak dengan cepat.", "ru": "Этот паук движется очень быстро." }
+      ]
     },
     {
       "id": "cecak",
       "ru": "геккон",
-      "en": "gecko"
+      "en": "gecko",
+      "examples": [
+        { "id": "Cecak sering terlihat di dinding rumah.", "ru": "Геккона часто видно на стенах домов." },
+        { "id": "Cecak memakan nyamuk dan serangga kecil.", "ru": "Геккон ест комаров и мелких насекомых." },
+        { "id": "Suara cecak berbunyi di malam hari.", "ru": "Геккон издаёт звуки ночью." }
+      ]
     }
   ]
 }

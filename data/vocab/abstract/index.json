@@ -7,132 +7,262 @@
     {
       "id": "pertanyaan",
       "ru": "вопрос",
-      "en": "question"
+      "en": "question",
+      "examples": [
+        { "id": "Saya punya satu pertanyaan untuk guru.", "ru": "У меня есть один вопрос к учителю." },
+        { "id": "Pertanyaan ini sangat sulit.", "ru": "Этот вопрос очень сложный." },
+        { "id": "Boleh saya tanya satu pertanyaan?", "ru": "Можно задать один вопрос?" }
+      ]
     },
     {
       "id": "masalah",
       "ru": "проблема",
-      "en": "problem"
+      "en": "problem",
+      "examples": [
+        { "id": "Ada masalah dengan komputer saya.", "ru": "С моим компьютером есть проблема." },
+        { "id": "Kami harus mencari solusi untuk masalah ini.", "ru": "Нам нужно найти решение этой проблемы." },
+        { "id": "Tidak ada masalah, saya bisa membantu.", "ru": "Нет проблем, я могу помочь." }
+      ]
     },
     {
       "id": "solusi",
       "ru": "решение",
-      "en": "solution"
+      "en": "solution",
+      "examples": [
+        { "id": "Saya sudah menemukan solusinya.", "ru": "Я уже нашёл решение." },
+        { "id": "Solusi terbaik adalah berbicara langsung.", "ru": "Лучшее решение — поговорить напрямую." },
+        { "id": "Apakah kamu punya solusi untuk masalah ini?", "ru": "У тебя есть решение этой проблемы?" }
+      ]
     },
     {
       "id": "ide",
       "ru": "идея",
-      "en": "idea"
+      "en": "idea",
+      "examples": [
+        { "id": "Saya punya ide yang bagus!", "ru": "У меня есть отличная идея!" },
+        { "id": "Ide kamu sangat kreatif.", "ru": "Твоя идея очень креативная." },
+        { "id": "Mari kita coba ide baru ini.", "ru": "Давайте попробуем эту новую идею." }
+      ]
     },
     {
       "id": "rencana",
       "ru": "план",
-      "en": "plan"
+      "en": "plan",
+      "examples": [
+        { "id": "Apa rencana kamu untuk akhir pekan?", "ru": "Какие у тебя планы на выходные?" },
+        { "id": "Rencana kami berubah karena hujan.", "ru": "Наши планы изменились из-за дождя." },
+        { "id": "Saya sudah membuat rencana perjalanan.", "ru": "Я уже составил план поездки." }
+      ]
     },
     {
       "id": "tujuan",
       "ru": "цель",
-      "en": "goal"
+      "en": "goal",
+      "examples": [
+        { "id": "Tujuan saya adalah belajar bahasa Indonesia.", "ru": "Моя цель — выучить индонезийский язык." },
+        { "id": "Apa tujuan hidup kamu?", "ru": "Какова твоя жизненная цель?" },
+        { "id": "Dia sudah mencapai tujuannya.", "ru": "Она уже достигла своей цели." }
+      ]
     },
     {
       "id": "harapan",
       "ru": "надежда",
-      "en": "hope"
+      "en": "hope",
+      "examples": [
+        { "id": "Saya masih punya harapan.", "ru": "У меня ещё есть надежда." },
+        { "id": "Harapan saya adalah semoga kamu sehat.", "ru": "Моя надежда — чтобы ты был здоров." },
+        { "id": "Jangan kehilangan harapan!", "ru": "Не теряй надежды!" }
+      ]
     },
     {
       "id": "cita-cita",
       "ru": "мечта (цель в жизни)",
-      "en": "ambition"
+      "en": "ambition",
+      "examples": [
+        { "id": "Cita-cita saya adalah menjadi dokter.", "ru": "Моя мечта — стать врачом." },
+        { "id": "Apa cita-cita kamu waktu kecil?", "ru": "О чём ты мечтал в детстве?" },
+        { "id": "Dia bekerja keras untuk meraih cita-citanya.", "ru": "Он усердно работает, чтобы достичь своей мечты." }
+      ]
     },
     {
       "id": "alasan",
       "ru": "причина",
-      "en": "reason"
+      "en": "reason",
+      "examples": [
+        { "id": "Apa alasan kamu terlambat?", "ru": "Какова причина твоего опоздания?" },
+        { "id": "Tidak ada alasan untuk marah.", "ru": "Нет причины злиться." },
+        { "id": "Alasan saya belajar bahasa ini adalah untuk perjalanan.", "ru": "Причина, по которой я учу этот язык, — путешествие." }
+      ]
     },
     {
       "id": "hasil",
       "ru": "результат",
-      "en": "result"
+      "en": "result",
+      "examples": [
+        { "id": "Hasil ujian saya bagus.", "ru": "Результат моего экзамена хороший." },
+        { "id": "Kerja keras selalu memberikan hasil yang baik.", "ru": "Упорный труд всегда даёт хороший результат." },
+        { "id": "Apa hasil dari pertemuan itu?", "ru": "Каков результат той встречи?" }
+      ]
     },
     {
       "id": "contoh",
       "ru": "пример",
-      "en": "example"
+      "en": "example",
+      "examples": [
+        { "id": "Bisakah kamu memberi contoh?", "ru": "Можешь привести пример?" },
+        { "id": "Guru memberikan contoh yang mudah.", "ru": "Учитель привёл простой пример." },
+        { "id": "Dia adalah contoh yang baik bagi kami.", "ru": "Он является хорошим примером для нас." }
+      ]
     },
     {
       "id": "fakta",
       "ru": "факт",
-      "en": "fact"
+      "en": "fact",
+      "examples": [
+        { "id": "Itu adalah fakta, bukan opini.", "ru": "Это факт, а не мнение." },
+        { "id": "Ada banyak fakta menarik tentang Indonesia.", "ru": "Есть много интересных фактов об Индонезии." },
+        { "id": "Tolong tunjukkan faktanya.", "ru": "Пожалуйста, покажи факты." }
+      ]
     },
     {
       "id": "kebenaran",
       "ru": "правда",
-      "en": "truth"
+      "en": "truth",
+      "examples": [
+        { "id": "Selalu katakan kebenaran.", "ru": "Всегда говори правду." },
+        { "id": "Kebenaran itu kadang menyakitkan.", "ru": "Правда иногда причиняет боль." },
+        { "id": "Saya ingin tahu kebenaran tentang hal ini.", "ru": "Я хочу знать правду об этом." }
+      ]
     },
     {
       "id": "kebohongan",
       "ru": "ложь",
-      "en": "lie"
+      "en": "lie",
+      "examples": [
+        { "id": "Kebohongan itu tidak baik.", "ru": "Ложь — это нехорошо." },
+        { "id": "Jangan katakan kebohongan kepada orang tua.", "ru": "Не лги родителям." },
+        { "id": "Dia akhirnya mengakui kebohongannya.", "ru": "Он в конце концов признал свою ложь." }
+      ]
     },
     {
       "id": "kabar",
       "ru": "новость",
-      "en": "news"
+      "en": "news",
+      "examples": [
+        { "id": "Apa kabar terbaru?", "ru": "Какие последние новости?" },
+        { "id": "Saya mendengar kabar baik hari ini.", "ru": "Я услышал хорошую новость сегодня." },
+        { "id": "Kabar itu membuat semua orang senang.", "ru": "Эта новость обрадовала всех." }
+      ]
     },
     {
       "id": "cerita",
       "ru": "история",
-      "en": "story"
+      "en": "story",
+      "examples": [
+        { "id": "Tolong ceritakan cerita yang menarik.", "ru": "Расскажи интересную историю." },
+        { "id": "Cerita ini sangat panjang.", "ru": "Эта история очень длинная." },
+        { "id": "Anak-anak suka mendengar cerita sebelum tidur.", "ru": "Дети любят слушать истории перед сном." }
+      ]
     },
     {
       "id": "kisah",
       "ru": "рассказ",
-      "en": "tale"
+      "en": "tale",
+      "examples": [
+        { "id": "Kisah hidupnya sangat menginspirasi.", "ru": "Рассказ о его жизни очень вдохновляет." },
+        { "id": "Nenek selalu punya kisah yang indah.", "ru": "У бабушки всегда есть красивый рассказ." },
+        { "id": "Ini adalah kisah cinta yang sedih.", "ru": "Это грустный рассказ о любви." }
+      ]
     },
     {
       "id": "pendapat",
       "ru": "мнение",
-      "en": "opinion"
+      "en": "opinion",
+      "examples": [
+        { "id": "Apa pendapat kamu tentang film ini?", "ru": "Какое твоё мнение об этом фильме?" },
+        { "id": "Setiap orang punya pendapat yang berbeda.", "ru": "У каждого человека разное мнение." },
+        { "id": "Pendapat saya, lebih baik kita pergi lebih awal.", "ru": "По моему мнению, лучше нам уйти пораньше." }
+      ]
     },
     {
       "id": "pengalaman",
       "ru": "опыт",
-      "en": "experience"
+      "en": "experience",
+      "examples": [
+        { "id": "Pengalaman bekerja di luar negeri sangat berharga.", "ru": "Опыт работы за рубежом очень ценен." },
+        { "id": "Saya tidak punya pengalaman memasak.", "ru": "У меня нет опыта в приготовлении пищи." },
+        { "id": "Pengalaman adalah guru terbaik.", "ru": "Опыт — лучший учитель." }
+      ]
     },
     {
       "id": "kesempatan",
       "ru": "возможность / шанс",
-      "en": "opportunity"
+      "en": "opportunity",
+      "examples": [
+        { "id": "Ini adalah kesempatan yang bagus.", "ru": "Это хорошая возможность." },
+        { "id": "Jangan lewatkan kesempatan ini!", "ru": "Не упускай этот шанс!" },
+        { "id": "Dia mendapat kesempatan bekerja di Jakarta.", "ru": "Он получил возможность работать в Джакарте." }
+      ]
     },
     {
       "id": "pilihan",
       "ru": "выбор",
-      "en": "choice"
+      "en": "choice",
+      "examples": [
+        { "id": "Ini adalah pilihan yang sulit.", "ru": "Это трудный выбор." },
+        { "id": "Ada banyak pilihan di menu ini.", "ru": "В этом меню много вариантов выбора." },
+        { "id": "Keputusan itu adalah pilihanmu sendiri.", "ru": "Это решение — твой собственный выбор." }
+      ]
     },
     {
       "id": "perubahan",
       "ru": "изменение",
-      "en": "change"
+      "en": "change",
+      "examples": [
+        { "id": "Perubahan itu tidak selalu buruk.", "ru": "Изменения не всегда плохи." },
+        { "id": "Saya ingin membuat perubahan dalam hidup saya.", "ru": "Я хочу сделать изменения в своей жизни." },
+        { "id": "Cuaca mengalami banyak perubahan akhir-akhir ini.", "ru": "В последнее время погода сильно меняется." }
+      ]
     },
     {
       "id": "kehidupan",
       "ru": "жизнь",
-      "en": "life"
+      "en": "life",
+      "examples": [
+        { "id": "Kehidupan di kota besar sangat sibuk.", "ru": "Жизнь в большом городе очень насыщенная." },
+        { "id": "Saya bersyukur atas kehidupan yang saya miliki.", "ru": "Я благодарен за жизнь, которая у меня есть." },
+        { "id": "Kehidupan terus berjalan.", "ru": "Жизнь продолжается." }
+      ]
     },
     {
       "id": "kematian",
       "ru": "смерть",
-      "en": "death"
+      "en": "death",
+      "examples": [
+        { "id": "Kematian adalah bagian dari kehidupan.", "ru": "Смерть — это часть жизни." },
+        { "id": "Keluarganya sangat sedih setelah kematian itu.", "ru": "Его семья была очень опечалена после этой смерти." },
+        { "id": "Kita tidak tahu kapan kematian akan datang.", "ru": "Мы не знаем, когда придёт смерть." }
+      ]
     },
     {
       "id": "kelahiran",
       "ru": "рождение",
-      "en": "birth"
+      "en": "birth",
+      "examples": [
+        { "id": "Kelahiran bayi itu membuat semua orang bahagia.", "ru": "Рождение ребёнка обрадовало всех." },
+        { "id": "Tanggal kelahiran saya adalah 10 Maret.", "ru": "Дата моего рождения — 10 марта." },
+        { "id": "Kelahiran adiknya dirayakan dengan pesta kecil.", "ru": "Рождение его сестры отпраздновали небольшой вечеринкой." }
+      ]
     },
     {
       "id": "pernikahan",
       "ru": "свадьба / брак",
-      "en": "marriage"
+      "en": "marriage",
+      "examples": [
+        { "id": "Pernikahan mereka sangat meriah.", "ru": "Их свадьба была очень пышной." },
+        { "id": "Kapan pernikahan kamu?", "ru": "Когда твоя свадьба?" },
+        { "id": "Pernikahan yang bahagia butuh kepercayaan.", "ru": "Счастливый брак требует доверия." }
+      ]
     }
   ]
 }

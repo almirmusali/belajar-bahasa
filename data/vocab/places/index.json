@@ -7,267 +7,532 @@
     {
       "id": "kota",
       "ru": "город",
-      "en": "city"
+      "en": "city",
+      "examples": [
+        { "id": "Saya tinggal di kota besar.", "ru": "Я живу в большом городе." },
+        { "id": "Kota ini sangat ramai.", "ru": "Этот город очень оживлённый." },
+        { "id": "Kami berjalan-jalan di kota.", "ru": "Мы гуляли по городу." }
+      ]
     },
     {
       "id": "desa",
       "ru": "деревня",
-      "en": "village"
+      "en": "village",
+      "examples": [
+        { "id": "Nenek saya tinggal di desa.", "ru": "Моя бабушка живёт в деревне." },
+        { "id": "Desa ini sangat tenang.", "ru": "Эта деревня очень тихая." },
+        { "id": "Mereka pindah dari desa ke kota.", "ru": "Они переехали из деревни в город." }
+      ]
     },
     {
       "id": "kampung",
       "ru": "село",
-      "en": "hamlet"
+      "en": "hamlet",
+      "examples": [
+        { "id": "Ayah saya berasal dari kampung.", "ru": "Мой отец родом из села." },
+        { "id": "Kampung itu kecil tapi indah.", "ru": "Это село маленькое, но красивое." },
+        { "id": "Kami mengunjungi kampung halaman setiap tahun.", "ru": "Мы навещаем родное село каждый год." }
+      ]
     },
     {
       "id": "daerah",
       "ru": "район",
-      "en": "district"
+      "en": "district",
+      "examples": [
+        { "id": "Saya tinggal di daerah selatan.", "ru": "Я живу в южном районе." },
+        { "id": "Daerah ini aman untuk keluarga.", "ru": "Этот район безопасен для семей." },
+        { "id": "Di mana daerah itu?", "ru": "Где находится этот район?" }
+      ]
     },
     {
       "id": "wilayah",
       "ru": "регион",
-      "en": "region"
+      "en": "region",
+      "examples": [
+        { "id": "Wilayah timur Indonesia sangat indah.", "ru": "Восточный регион Индонезии очень красивый." },
+        { "id": "Setiap wilayah punya budaya sendiri.", "ru": "У каждого региона есть своя культура." },
+        { "id": "Saya berasal dari wilayah Jawa.", "ru": "Я родом из региона Ява." }
+      ]
     },
     {
       "id": "negara",
       "ru": "страна",
-      "en": "country"
+      "en": "country",
+      "examples": [
+        { "id": "Indonesia adalah negara kepulauan.", "ru": "Индонезия — островная страна." },
+        { "id": "Negara mana yang ingin kamu kunjungi?", "ru": "Какую страну ты хочешь посетить?" },
+        { "id": "Saya suka belajar tentang negara lain.", "ru": "Мне нравится узнавать о других странах." }
+      ]
     },
     {
       "id": "ibu kota",
       "ru": "столица",
-      "en": "capital"
+      "en": "capital",
+      "examples": [
+        { "id": "Jakarta adalah ibu kota Indonesia.", "ru": "Джакарта — столица Индонезии." },
+        { "id": "Ibu kota baru Indonesia sedang dibangun.", "ru": "Новая столица Индонезии строится." },
+        { "id": "Saya ingin pergi ke ibu kota.", "ru": "Я хочу поехать в столицу." }
+      ]
     },
     {
       "id": "dunia",
       "ru": "мир",
-      "en": "world"
+      "en": "world",
+      "examples": [
+        { "id": "Indonesia terkenal di seluruh dunia.", "ru": "Индонезия известна во всём мире." },
+        { "id": "Saya ingin keliling dunia.", "ru": "Я хочу объехать весь мир." },
+        { "id": "Dunia ini sangat luas.", "ru": "Мир очень большой." }
+      ]
     },
     {
       "id": "Indonesia",
       "ru": "Индонезия",
-      "en": "Indonesia"
+      "en": "Indonesia",
+      "examples": [
+        { "id": "Indonesia adalah negara yang indah.", "ru": "Индонезия — красивая страна." },
+        { "id": "Saya belajar bahasa Indonesia.", "ru": "Я изучаю индонезийский язык." },
+        { "id": "Indonesia punya banyak pulau.", "ru": "В Индонезии много островов." }
+      ]
     },
     {
       "id": "Rusia",
       "ru": "Россия",
-      "en": "Russia"
+      "en": "Russia",
+      "examples": [
+        { "id": "Rusia adalah negara terbesar di dunia.", "ru": "Россия — самая большая страна в мире." },
+        { "id": "Saya berasal dari Rusia.", "ru": "Я родом из России." },
+        { "id": "Musim dingin di Rusia sangat dingin.", "ru": "Зима в России очень холодная." }
+      ]
     },
     {
       "id": "Jakarta",
       "ru": "Джакарта",
-      "en": "Jakarta"
+      "en": "Jakarta",
+      "examples": [
+        { "id": "Jakarta adalah kota terbesar di Indonesia.", "ru": "Джакарта — самый большой город в Индонезии." },
+        { "id": "Saya bekerja di Jakarta.", "ru": "Я работаю в Джакарте." },
+        { "id": "Lalu lintas di Jakarta sangat macet.", "ru": "Пробки в Джакарте очень большие." }
+      ]
     },
     {
       "id": "Bali",
       "ru": "Бали",
-      "en": "Bali"
+      "en": "Bali",
+      "examples": [
+        { "id": "Bali adalah pulau yang terkenal.", "ru": "Бали — известный остров." },
+        { "id": "Saya berlibur di Bali minggu lalu.", "ru": "На прошлой неделе я отдыхал на Бали." },
+        { "id": "Pantai di Bali sangat cantik.", "ru": "Пляжи на Бали очень красивые." }
+      ]
     },
     {
       "id": "Moskow",
       "ru": "Москва",
-      "en": "Moscow"
+      "en": "Moscow",
+      "examples": [
+        { "id": "Moskow adalah ibu kota Rusia.", "ru": "Москва — столица России." },
+        { "id": "Saya ingin mengunjungi Moskow.", "ru": "Я хочу посетить Москву." },
+        { "id": "Moskow adalah kota yang besar.", "ru": "Москва — большой город." }
+      ]
     },
     {
       "id": "tempat",
       "ru": "место",
-      "en": "place"
+      "en": "place",
+      "examples": [
+        { "id": "Ini tempat yang bagus.", "ru": "Это хорошее место." },
+        { "id": "Di mana tempat makan yang enak?", "ru": "Где есть вкусное место для еды?" },
+        { "id": "Tempat ini selalu ramai.", "ru": "Это место всегда оживлённое." }
+      ]
     },
     {
       "id": "lokasi",
       "ru": "локация",
-      "en": "location"
+      "en": "location",
+      "examples": [
+        { "id": "Apa lokasi restoran itu?", "ru": "Какова локация этого ресторана?" },
+        { "id": "Lokasi hotel ini sangat strategis.", "ru": "Расположение этого отеля очень удобное." },
+        { "id": "Tolong kirim lokasi kamu.", "ru": "Пожалуйста, отправь свою локацию." }
+      ]
     },
     {
       "id": "jalan",
       "ru": "дорога / улица",
-      "en": "road / street"
+      "en": "road / street",
+      "examples": [
+        { "id": "Jalan ini sangat panjang.", "ru": "Эта дорога очень длинная." },
+        { "id": "Saya tinggal di Jalan Merdeka.", "ru": "Я живу на улице Мердека." },
+        { "id": "Jalan depan rumah saya sedang diperbaiki.", "ru": "Дорога перед моим домом ремонтируется." }
+      ]
     },
     {
       "id": "gang",
       "ru": "переулок",
-      "en": "alley"
+      "en": "alley",
+      "examples": [
+        { "id": "Rumah saya ada di dalam gang.", "ru": "Мой дом находится в переулке." },
+        { "id": "Gang ini sempit dan gelap.", "ru": "Этот переулок узкий и тёмный." },
+        { "id": "Belok kiri di gang itu.", "ru": "Поверни налево в том переулке." }
+      ]
     },
     {
       "id": "simpang",
       "ru": "перекрёсток",
-      "en": "intersection"
+      "en": "intersection",
+      "examples": [
+        { "id": "Belok kanan di simpang berikutnya.", "ru": "Поверни направо на следующем перекрёстке." },
+        { "id": "Ada kecelakaan di simpang itu.", "ru": "На том перекрёстке произошла авария." },
+        { "id": "Tunggu saya di simpang jalan.", "ru": "Подожди меня на перекрёстке." }
+      ]
     },
     {
       "id": "lampu lalu lintas",
       "ru": "светофор",
-      "en": "traffic light"
+      "en": "traffic light",
+      "examples": [
+        { "id": "Berhenti di lampu lalu lintas merah.", "ru": "Остановись на красном светофоре." },
+        { "id": "Lampu lalu lintas itu rusak.", "ru": "Тот светофор сломан." },
+        { "id": "Belok di lampu lalu lintas pertama.", "ru": "Поверни на первом светофоре." }
+      ]
     },
     {
       "id": "jembatan",
       "ru": "мост",
-      "en": "bridge"
+      "en": "bridge",
+      "examples": [
+        { "id": "Jembatan ini sangat panjang.", "ru": "Этот мост очень длинный." },
+        { "id": "Kami berjalan di atas jembatan.", "ru": "Мы шли по мосту." },
+        { "id": "Jembatan itu menghubungkan dua kota.", "ru": "Тот мост соединяет два города." }
+      ]
     },
     {
       "id": "taman",
       "ru": "парк / сад",
-      "en": "park"
+      "en": "park",
+      "examples": [
+        { "id": "Saya suka duduk di taman.", "ru": "Мне нравится сидеть в парке." },
+        { "id": "Anak-anak bermain di taman.", "ru": "Дети играют в парке." },
+        { "id": "Taman ini penuh dengan bunga.", "ru": "Этот сад полон цветов." }
+      ]
     },
     {
       "id": "lapangan",
       "ru": "площадь / поле",
-      "en": "field / square"
+      "en": "field / square",
+      "examples": [
+        { "id": "Mereka bermain bola di lapangan.", "ru": "Они играют в мяч на поле." },
+        { "id": "Ada acara di lapangan kota.", "ru": "На городской площади есть мероприятие." },
+        { "id": "Lapangan ini luas sekali.", "ru": "Это поле очень большое." }
+      ]
     },
     {
       "id": "pasar",
       "ru": "рынок",
-      "en": "market"
+      "en": "market",
+      "examples": [
+        { "id": "Ibu membeli sayur di pasar.", "ru": "Мама купила овощи на рынке." },
+        { "id": "Pasar ini buka setiap pagi.", "ru": "Этот рынок открыт каждое утро." },
+        { "id": "Harga di pasar lebih murah.", "ru": "Цены на рынке дешевле." }
+      ]
     },
     {
       "id": "toko",
       "ru": "магазин",
-      "en": "shop"
+      "en": "shop",
+      "examples": [
+        { "id": "Ada toko buku di dekat sini.", "ru": "Рядом отсюда есть книжный магазин." },
+        { "id": "Toko itu tutup pada hari Minggu.", "ru": "Этот магазин закрыт в воскресенье." },
+        { "id": "Saya membeli baju di toko itu.", "ru": "Я купил одежду в том магазине." }
+      ]
     },
     {
       "id": "warung",
       "ru": "ларёк / закусочная",
-      "en": "stall"
+      "en": "stall",
+      "examples": [
+        { "id": "Saya makan nasi goreng di warung.", "ru": "Я ел жареный рис в закусочной." },
+        { "id": "Warung ini murah dan enak.", "ru": "Этот ларёк дешёвый и вкусный." },
+        { "id": "Di depan rumah ada warung kopi.", "ru": "Перед домом есть кофейный ларёк." }
+      ]
     },
     {
       "id": "supermarket",
       "ru": "супермаркет",
-      "en": "supermarket"
+      "en": "supermarket",
+      "examples": [
+        { "id": "Saya belanja di supermarket setiap minggu.", "ru": "Я делаю покупки в супермаркете каждую неделю." },
+        { "id": "Supermarket ini buka sampai jam sepuluh malam.", "ru": "Этот супермаркет открыт до десяти вечера." },
+        { "id": "Di supermarket ada banyak pilihan makanan.", "ru": "В супермаркете есть большой выбор продуктов." }
+      ]
     },
     {
       "id": "mal",
       "ru": "торговый центр",
-      "en": "mall"
+      "en": "mall",
+      "examples": [
+        { "id": "Kami jalan-jalan ke mal hari Sabtu.", "ru": "В субботу мы прогулялись по торговому центру." },
+        { "id": "Mal ini punya bioskop dan restoran.", "ru": "В этом торговом центре есть кинотеатр и рестораны." },
+        { "id": "Mal di sini sangat besar.", "ru": "Торговый центр здесь очень большой." }
+      ]
     },
     {
       "id": "kantor",
       "ru": "офис",
-      "en": "office"
+      "en": "office",
+      "examples": [
+        { "id": "Saya pergi ke kantor setiap hari.", "ru": "Я хожу в офис каждый день." },
+        { "id": "Kantornya ada di lantai tiga.", "ru": "Офис находится на третьем этаже." },
+        { "id": "Di mana kantor kamu?", "ru": "Где твой офис?" }
+      ]
     },
     {
       "id": "sekolah",
       "ru": "школа",
-      "en": "school"
+      "en": "school",
+      "examples": [
+        { "id": "Anak saya pergi ke sekolah setiap pagi.", "ru": "Мой ребёнок ходит в школу каждое утро." },
+        { "id": "Sekolah ini dekat dengan rumah kami.", "ru": "Эта школа близко от нашего дома." },
+        { "id": "Dia suka belajar di sekolah.", "ru": "Ему нравится учиться в школе." }
+      ]
     },
     {
       "id": "universitas",
       "ru": "университет",
-      "en": "university"
+      "en": "university",
+      "examples": [
+        { "id": "Saya kuliah di universitas negeri.", "ru": "Я учусь в государственном университете." },
+        { "id": "Universitas ini sangat terkenal.", "ru": "Этот университет очень известный." },
+        { "id": "Dia lulus dari universitas tahun lalu.", "ru": "Он окончил университет в прошлом году." }
+      ]
     },
     {
       "id": "rumah sakit",
       "ru": "больница",
-      "en": "hospital"
+      "en": "hospital",
+      "examples": [
+        { "id": "Ibu saya dirawat di rumah sakit.", "ru": "Моя мама лежит в больнице." },
+        { "id": "Rumah sakit ini buka dua puluh empat jam.", "ru": "Эта больница работает круглосуточно." },
+        { "id": "Tolong antar saya ke rumah sakit.", "ru": "Пожалуйста, отвези меня в больницу." }
+      ]
     },
     {
       "id": "klinik",
       "ru": "клиника",
-      "en": "clinic"
+      "en": "clinic",
+      "examples": [
+        { "id": "Saya periksa ke klinik tadi pagi.", "ru": "Сегодня утром я ходил в клинику на осмотр." },
+        { "id": "Klinik ini ada dokter gigi.", "ru": "В этой клинике есть стоматолог." },
+        { "id": "Antrian di klinik sangat panjang.", "ru": "Очередь в клинике очень длинная." }
+      ]
     },
     {
       "id": "apotek",
       "ru": "аптека",
-      "en": "pharmacy"
+      "en": "pharmacy",
+      "examples": [
+        { "id": "Di mana apotek terdekat?", "ru": "Где ближайшая аптека?" },
+        { "id": "Saya beli obat di apotek.", "ru": "Я купил лекарство в аптеке." },
+        { "id": "Apotek ini buka sampai malam.", "ru": "Эта аптека открыта до вечера." }
+      ]
     },
     {
       "id": "bank",
       "ru": "банк",
-      "en": "bank"
+      "en": "bank",
+      "examples": [
+        { "id": "Saya perlu pergi ke bank hari ini.", "ru": "Мне нужно сегодня пойти в банк." },
+        { "id": "Bank ini tutup pada hari Minggu.", "ru": "Этот банк закрыт в воскресенье." },
+        { "id": "Ada ATM di depan bank.", "ru": "Перед банком есть банкомат." }
+      ]
     },
     {
       "id": "kantor pos",
       "ru": "почта",
-      "en": "post office"
+      "en": "post office",
+      "examples": [
+        { "id": "Saya mengirim paket dari kantor pos.", "ru": "Я отправил посылку с почты." },
+        { "id": "Kantor pos ini dekat dengan sekolah.", "ru": "Почта находится рядом со школой." },
+        { "id": "Di mana kantor pos terdekat?", "ru": "Где ближайшая почта?" }
+      ]
     },
     {
       "id": "stasiun",
       "ru": "станция",
-      "en": "station"
+      "en": "station",
+      "examples": [
+        { "id": "Saya menunggu kereta di stasiun.", "ru": "Я жду поезд на станции." },
+        { "id": "Stasiun ini sangat besar dan ramai.", "ru": "Эта станция очень большая и оживлённая." },
+        { "id": "Bagaimana cara ke stasiun?", "ru": "Как добраться до станции?" }
+      ]
     },
     {
       "id": "bandara",
       "ru": "аэропорт",
-      "en": "airport"
+      "en": "airport",
+      "examples": [
+        { "id": "Pesawat saya berangkat dari bandara pukul delapan.", "ru": "Мой самолёт вылетает из аэропорта в восемь часов." },
+        { "id": "Bandara ini sangat modern.", "ru": "Этот аэропорт очень современный." },
+        { "id": "Saya jemput teman di bandara.", "ru": "Я встречаю друга в аэропорту." }
+      ]
     },
     {
       "id": "pelabuhan",
       "ru": "порт",
-      "en": "port"
+      "en": "port",
+      "examples": [
+        { "id": "Kapal feri berangkat dari pelabuhan.", "ru": "Паром отправляется из порта." },
+        { "id": "Pelabuhan ini sibuk setiap hari.", "ru": "Этот порт оживлённый каждый день." },
+        { "id": "Kami tiba di pelabuhan pagi-pagi.", "ru": "Мы прибыли в порт рано утром." }
+      ]
     },
     {
       "id": "terminal",
       "ru": "автовокзал",
-      "en": "terminal"
+      "en": "terminal",
+      "examples": [
+        { "id": "Bus ke Bandung berangkat dari terminal.", "ru": "Автобус до Бандунга отправляется с автовокзала." },
+        { "id": "Terminal ini ramai pada hari libur.", "ru": "Автовокзал оживлённый в праздничные дни." },
+        { "id": "Saya beli tiket bus di terminal.", "ru": "Я купил билет на автобус на автовокзале." }
+      ]
     },
     {
       "id": "halte",
       "ru": "остановка",
-      "en": "bus stop"
+      "en": "bus stop",
+      "examples": [
+        { "id": "Saya menunggu bus di halte.", "ru": "Я жду автобус на остановке." },
+        { "id": "Halte berikutnya adalah pusat kota.", "ru": "Следующая остановка — центр города." },
+        { "id": "Ada halte bus di depan sekolah.", "ru": "Перед школой есть автобусная остановка." }
+      ]
     },
     {
       "id": "restoran",
       "ru": "ресторан",
-      "en": "restaurant"
+      "en": "restaurant",
+      "examples": [
+        { "id": "Kami makan malam di restoran.", "ru": "Мы ужинали в ресторане." },
+        { "id": "Restoran ini terkenal dengan makanan Padang.", "ru": "Этот ресторан известен едой из Паданга." },
+        { "id": "Apakah kamu punya rekomendasi restoran?", "ru": "У тебя есть рекомендации по ресторанам?" }
+      ]
     },
     {
       "id": "kafe",
       "ru": "кафе",
-      "en": "cafe"
+      "en": "cafe",
+      "examples": [
+        { "id": "Saya kerja dari kafe setiap hari.", "ru": "Я работаю из кафе каждый день." },
+        { "id": "Kafe ini punya wifi gratis.", "ru": "В этом кафе есть бесплатный вайфай." },
+        { "id": "Mari kita ngobrol di kafe.", "ru": "Давай поговорим в кафе." }
+      ]
     },
     {
       "id": "hotel",
       "ru": "отель",
-      "en": "hotel"
+      "en": "hotel",
+      "examples": [
+        { "id": "Kami menginap di hotel bintang tiga.", "ru": "Мы остановились в трёхзвёздочном отеле." },
+        { "id": "Hotel ini dekat dengan pantai.", "ru": "Этот отель находится рядом с пляжем." },
+        { "id": "Berapa harga kamar hotel per malam?", "ru": "Сколько стоит номер в отеле за ночь?" }
+      ]
     },
     {
       "id": "museum",
       "ru": "музей",
-      "en": "museum"
+      "en": "museum",
+      "examples": [
+        { "id": "Kami mengunjungi museum sejarah kemarin.", "ru": "Вчера мы посетили исторический музей." },
+        { "id": "Museum ini sangat menarik.", "ru": "Этот музей очень интересный." },
+        { "id": "Tiket masuk museum tidak mahal.", "ru": "Входной билет в музей недорогой." }
+      ]
     },
     {
       "id": "perpustakaan",
       "ru": "библиотека",
-      "en": "library"
+      "en": "library",
+      "examples": [
+        { "id": "Saya meminjam buku dari perpustakaan.", "ru": "Я взял книгу в библиотеке." },
+        { "id": "Perpustakaan ini tenang dan nyaman.", "ru": "Эта библиотека тихая и удобная." },
+        { "id": "Dia belajar di perpustakaan setiap sore.", "ru": "Он учится в библиотеке каждый вечер." }
+      ]
     },
     {
       "id": "gereja",
       "ru": "церковь",
-      "en": "church"
+      "en": "church",
+      "examples": [
+        { "id": "Mereka pergi ke gereja setiap hari Minggu.", "ru": "Они ходят в церковь каждое воскресенье." },
+        { "id": "Gereja ini sangat tua dan indah.", "ru": "Эта церковь очень старая и красивая." },
+        { "id": "Ada gereja besar di pusat kota.", "ru": "В центре города есть большая церковь." }
+      ]
     },
     {
       "id": "masjid",
       "ru": "мечеть",
-      "en": "mosque"
+      "en": "mosque",
+      "examples": [
+        { "id": "Bapak saya sholat di masjid.", "ru": "Мой отец молится в мечети." },
+        { "id": "Masjid ini bisa menampung seribu orang.", "ru": "Эта мечеть вмещает тысячу человек." },
+        { "id": "Suara adzan terdengar dari masjid.", "ru": "Из мечети слышен азан." }
+      ]
     },
     {
       "id": "kuil",
       "ru": "храм",
-      "en": "temple"
+      "en": "temple",
+      "examples": [
+        { "id": "Kuil ini dibangun ratusan tahun lalu.", "ru": "Этот храм был построен сотни лет назад." },
+        { "id": "Wisatawan sering mengunjungi kuil tersebut.", "ru": "Туристы часто посещают этот храм." },
+        { "id": "Di Bali ada banyak kuil.", "ru": "На Бали много храмов." }
+      ]
     },
     {
       "id": "pura",
       "ru": "пура (балийский храм)",
-      "en": "Balinese temple"
+      "en": "Balinese temple",
+      "examples": [
+        { "id": "Pura Tanah Lot sangat terkenal di Bali.", "ru": "Пура Танах Лот очень известна на Бали." },
+        { "id": "Kami mengunjungi pura saat berlibur di Bali.", "ru": "Мы посетили пуру во время отдыха на Бали." },
+        { "id": "Pura ini indah saat matahari terbenam.", "ru": "Эта пура красивая во время заката." }
+      ]
     },
     {
       "id": "kuburan",
       "ru": "кладбище",
-      "en": "cemetery"
+      "en": "cemetery",
+      "examples": [
+        { "id": "Kami mengunjungi kuburan pada hari besar.", "ru": "Мы посещаем кладбище в праздничные дни." },
+        { "id": "Kuburan itu ada di pinggir desa.", "ru": "Кладбище находится на окраине деревни." },
+        { "id": "Kuburan ini sangat tua.", "ru": "Это кладбище очень старое." }
+      ]
     },
     {
       "id": "polisi",
       "ru": "полиция / полицейский",
-      "en": "police"
+      "en": "police",
+      "examples": [
+        { "id": "Polisi membantu orang yang tersesat.", "ru": "Полицейский помогает заблудившимся людям." },
+        { "id": "Saya melapor ke polisi setelah kehilangan dompet.", "ru": "Я сообщил в полицию после потери кошелька." },
+        { "id": "Ada polisi di depan bank.", "ru": "Перед банком стоит полицейский." }
+      ]
     },
     {
       "id": "kantor polisi",
       "ru": "полицейский участок",
-      "en": "police station"
+      "en": "police station",
+      "examples": [
+        { "id": "Di mana kantor polisi terdekat?", "ru": "Где ближайший полицейский участок?" },
+        { "id": "Saya perlu pergi ke kantor polisi.", "ru": "Мне нужно пойти в полицейский участок." },
+        { "id": "Kantor polisi buka dua puluh empat jam.", "ru": "Полицейский участок работает круглосуточно." }
+      ]
     },
     {
       "id": "pemadam kebakaran",
       "ru": "пожарная служба",
-      "en": "fire department"
+      "en": "fire department",
+      "examples": [
+        { "id": "Pemadam kebakaran datang dengan cepat.", "ru": "Пожарная служба приехала быстро." },
+        { "id": "Nomor telepon pemadam kebakaran adalah 113.", "ru": "Номер телефона пожарной службы — 113." },
+        { "id": "Mobil pemadam kebakaran lewat dengan sirene.", "ru": "Пожарная машина проехала с сиреной." }
+      ]
     }
   ]
 }
