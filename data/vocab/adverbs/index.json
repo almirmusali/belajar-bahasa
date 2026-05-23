@@ -7,102 +7,382 @@
     {
       "id": "sangat",
       "ru": "очень",
-      "en": "very"
+      "en": "very",
+      "examples": [
+        {
+          "id": "Saya sangat lelah.",
+          "ru": "Я очень устал."
+        },
+        {
+          "id": "Makanan ini sangat enak.",
+          "ru": "Эта еда очень вкусная."
+        },
+        {
+          "id": "Sangat dingin di luar.",
+          "ru": "На улице очень холодно."
+        }
+      ]
     },
     {
       "id": "sekali",
       "ru": "очень (после прил.)",
-      "en": "very"
+      "en": "very",
+      "examples": [
+        {
+          "id": "Indah sekali!",
+          "ru": "Очень красиво!"
+        },
+        {
+          "id": "Sedih sekali.",
+          "ru": "Очень грустно."
+        },
+        {
+          "id": "Terima kasih sekali.",
+          "ru": "Большое спасибо."
+        }
+      ]
     },
     {
       "id": "amat",
       "ru": "крайне",
-      "en": "extremely"
+      "en": "extremely",
+      "examples": [
+        {
+          "id": "Amat penting bagi saya.",
+          "ru": "Крайне важно для меня."
+        },
+        {
+          "id": "Amat sangat baik.",
+          "ru": "Крайне хорошо."
+        },
+        {
+          "id": "Amat berbahaya.",
+          "ru": "Крайне опасно."
+        }
+      ]
     },
     {
       "id": "terlalu",
       "ru": "слишком",
-      "en": "too"
+      "en": "too",
+      "examples": [
+        {
+          "id": "Terlalu mahal.",
+          "ru": "Слишком дорого."
+        },
+        {
+          "id": "Jangan terlalu cepat.",
+          "ru": "Не слишком быстро."
+        },
+        {
+          "id": "Terlalu banyak gula.",
+          "ru": "Слишком много сахара."
+        }
+      ]
     },
     {
       "id": "agak",
       "ru": "немного",
-      "en": "a bit"
+      "en": "a bit",
+      "examples": [
+        {
+          "id": "Saya agak lelah.",
+          "ru": "Я немного устал."
+        },
+        {
+          "id": "Agak dingin hari ini.",
+          "ru": "Сегодня немного холодно."
+        },
+        {
+          "id": "Agak mahal, tapi bagus.",
+          "ru": "Немного дорого, но хорошо."
+        }
+      ]
     },
     {
       "id": "lebih",
       "ru": "более",
-      "en": "more"
+      "en": "more",
+      "examples": [
+        {
+          "id": "Lebih baik begitu.",
+          "ru": "Лучше так."
+        },
+        {
+          "id": "Saya lebih suka teh.",
+          "ru": "Я больше люблю чай."
+        },
+        {
+          "id": "Lebih cepat lebih baik.",
+          "ru": "Чем быстрее, тем лучше."
+        }
+      ]
     },
     {
       "id": "paling",
       "ru": "самый",
-      "en": "most"
+      "en": "most",
+      "examples": [
+        {
+          "id": "Paling enak di sini.",
+          "ru": "Самое вкусное тут."
+        },
+        {
+          "id": "Paling murah.",
+          "ru": "Самое дешёвое."
+        },
+        {
+          "id": "Saya paling suka kopi.",
+          "ru": "Больше всего я люблю кофе."
+        }
+      ]
     },
     {
       "id": "lebih baik",
       "ru": "лучше",
-      "en": "better"
+      "en": "better",
+      "examples": [
+        {
+          "id": "Lebih baik tidur sekarang.",
+          "ru": "Лучше сейчас лечь спать."
+        },
+        {
+          "id": "Ini lebih baik dari itu.",
+          "ru": "Это лучше того."
+        },
+        {
+          "id": "Lebih baik diam.",
+          "ru": "Лучше промолчать."
+        }
+      ]
     },
     {
       "id": "paling baik",
       "ru": "самый лучший",
-      "en": "best"
+      "en": "best",
+      "examples": [
+        {
+          "id": "Yang paling baik.",
+          "ru": "Самый лучший."
+        },
+        {
+          "id": "Paling baik dari semuanya.",
+          "ru": "Лучший из всех."
+        },
+        {
+          "id": "Pilih yang paling baik.",
+          "ru": "Выбери лучший."
+        }
+      ]
     },
     {
       "id": "sama",
       "ru": "одинаковый",
-      "en": "same"
+      "en": "same",
+      "examples": [
+        {
+          "id": "Kami sama.",
+          "ru": "Мы одинаковые."
+        },
+        {
+          "id": "Harga sama dengan kemarin.",
+          "ru": "Цена такая же, как вчера."
+        },
+        {
+          "id": "Sama saja bagi saya.",
+          "ru": "Мне всё равно."
+        }
+      ]
     },
     {
       "id": "berbeda",
       "ru": "разный",
-      "en": "different"
+      "en": "different",
+      "examples": [
+        {
+          "id": "Kami berbeda.",
+          "ru": "Мы разные."
+        },
+        {
+          "id": "Pendapat saya berbeda.",
+          "ru": "Моё мнение другое."
+        },
+        {
+          "id": "Hari ini berbeda dari kemarin.",
+          "ru": "Сегодня иначе, чем вчера."
+        }
+      ]
     },
     {
       "id": "beda",
       "ru": "разница",
-      "en": "difference"
+      "en": "difference",
+      "examples": [
+        {
+          "id": "Apa bedanya?",
+          "ru": "Какая разница?"
+        },
+        {
+          "id": "Tidak ada beda.",
+          "ru": "Никакой разницы."
+        },
+        {
+          "id": "Beda jauh.",
+          "ru": "Большая разница."
+        }
+      ]
     },
     {
       "id": "mirip",
       "ru": "похожий",
-      "en": "similar"
+      "en": "similar",
+      "examples": [
+        {
+          "id": "Kami mirip.",
+          "ru": "Мы похожи."
+        },
+        {
+          "id": "Anak mirip ibunya.",
+          "ru": "Ребёнок похож на маму."
+        },
+        {
+          "id": "Cerita yang mirip.",
+          "ru": "Похожая история."
+        }
+      ]
     },
     {
       "id": "khusus",
       "ru": "особенный",
-      "en": "special"
+      "en": "special",
+      "examples": [
+        {
+          "id": "Hari ini khusus.",
+          "ru": "Сегодня особый день."
+        },
+        {
+          "id": "Hadiah khusus untukmu.",
+          "ru": "Особый подарок для тебя."
+        },
+        {
+          "id": "Khusus pelanggan.",
+          "ru": "Только для клиентов."
+        }
+      ]
     },
     {
       "id": "umum",
       "ru": "общий",
-      "en": "general"
+      "en": "general",
+      "examples": [
+        {
+          "id": "Pendapat umum.",
+          "ru": "Общее мнение."
+        },
+        {
+          "id": "Pengetahuan umum.",
+          "ru": "Общее знание."
+        },
+        {
+          "id": "Sangat umum di sini.",
+          "ru": "Здесь очень распространено."
+        }
+      ]
     },
     {
       "id": "khas",
       "ru": "характерный",
-      "en": "characteristic"
+      "en": "characteristic",
+      "examples": [
+        {
+          "id": "Makanan khas Indonesia.",
+          "ru": "Традиционная индонезийская еда."
+        },
+        {
+          "id": "Bau khas pasar.",
+          "ru": "Характерный запах рынка."
+        },
+        {
+          "id": "Suara khas kucing.",
+          "ru": "Характерный кошачий звук."
+        }
+      ]
     },
     {
       "id": "spesial",
       "ru": "особый",
-      "en": "special"
+      "en": "special",
+      "examples": [
+        {
+          "id": "Hari spesial.",
+          "ru": "Особый день."
+        },
+        {
+          "id": "Menu spesial hari ini.",
+          "ru": "Спецменю сегодня."
+        },
+        {
+          "id": "Untukmu spesial.",
+          "ru": "Специально для тебя."
+        }
+      ]
     },
     {
       "id": "bersama",
       "ru": "вместе",
-      "en": "together"
+      "en": "together",
+      "examples": [
+        {
+          "id": "Kami bersama.",
+          "ru": "Мы вместе."
+        },
+        {
+          "id": "Makan bersama keluarga.",
+          "ru": "Едим всей семьёй."
+        },
+        {
+          "id": "Pergi bersama saya.",
+          "ru": "Пойдём со мной."
+        }
+      ]
     },
     {
       "id": "sendiri",
       "ru": "сам / один",
-      "en": "alone / self"
+      "en": "alone / self",
+      "examples": [
+        {
+          "id": "Saya pergi sendiri.",
+          "ru": "Я иду один."
+        },
+        {
+          "id": "Buat sendiri.",
+          "ru": "Сделай сам."
+        },
+        {
+          "id": "Dia tinggal sendiri.",
+          "ru": "Он живёт один."
+        }
+      ]
     },
     {
       "id": "sendirian",
       "ru": "в одиночку",
-      "en": "by oneself"
+      "en": "by oneself",
+      "examples": [
+        {
+          "id": "Jangan sendirian.",
+          "ru": "Не оставайся один."
+        },
+        {
+          "id": "Saya sendirian di rumah.",
+          "ru": "Я один дома."
+        },
+        {
+          "id": "Anak itu menangis sendirian.",
+          "ru": "Ребёнок плачет в одиночестве."
+        }
+      ]
     }
   ]
 }

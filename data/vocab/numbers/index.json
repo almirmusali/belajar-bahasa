@@ -7,232 +7,876 @@
     {
       "id": "nol",
       "ru": "0",
-      "en": "zero"
+      "en": "zero",
+      "examples": [
+        {
+          "id": "Nol derajat Celsius.",
+          "ru": "Ноль градусов Цельсия."
+        },
+        {
+          "id": "Nilai saya nol.",
+          "ru": "Моя оценка — ноль."
+        },
+        {
+          "id": "Mulai dari nol.",
+          "ru": "Начнём с нуля."
+        }
+      ]
     },
     {
       "id": "satu",
       "ru": "1",
-      "en": "one"
+      "en": "one",
+      "examples": [
+        {
+          "id": "Tunggu satu jam.",
+          "ru": "Подожди один час."
+        },
+        {
+          "id": "Beli satu apel.",
+          "ru": "Купи одно яблоко."
+        },
+        {
+          "id": "Hanya satu kesempatan.",
+          "ru": "Только один шанс."
+        }
+      ]
     },
     {
       "id": "dua",
       "ru": "2",
-      "en": "two"
+      "en": "two",
+      "examples": [
+        {
+          "id": "Ada dua orang di sini.",
+          "ru": "Здесь два человека."
+        },
+        {
+          "id": "Dua jam lagi.",
+          "ru": "Ещё два часа."
+        },
+        {
+          "id": "Beli dua kopi.",
+          "ru": "Купи два кофе."
+        }
+      ]
     },
     {
       "id": "tiga",
       "ru": "3",
-      "en": "three"
+      "en": "three",
+      "examples": [
+        {
+          "id": "Saya punya tiga anak.",
+          "ru": "У меня трое детей."
+        },
+        {
+          "id": "Tunggu tiga menit.",
+          "ru": "Подожди три минуты."
+        },
+        {
+          "id": "Tiga kali sehari.",
+          "ru": "Три раза в день."
+        }
+      ]
     },
     {
       "id": "empat",
       "ru": "4",
-      "en": "four"
+      "en": "four",
+      "examples": [
+        {
+          "id": "Ada empat kursi.",
+          "ru": "Тут четыре стула."
+        },
+        {
+          "id": "Empat hari libur.",
+          "ru": "Четыре выходных дня."
+        },
+        {
+          "id": "Empat orang datang.",
+          "ru": "Пришли четыре человека."
+        }
+      ]
     },
     {
       "id": "lima",
       "ru": "5",
-      "en": "five"
+      "en": "five",
+      "examples": [
+        {
+          "id": "Tunggu lima menit.",
+          "ru": "Подожди пять минут."
+        },
+        {
+          "id": "Lima ribu rupiah.",
+          "ru": "Пять тысяч рупий."
+        },
+        {
+          "id": "Saya ada lima kelas.",
+          "ru": "У меня пять занятий."
+        }
+      ]
     },
     {
       "id": "enam",
       "ru": "6",
-      "en": "six"
+      "en": "six",
+      "examples": [
+        {
+          "id": "Saya beli enam buku.",
+          "ru": "Я купил шесть книг."
+        },
+        {
+          "id": "Enam jam tidur.",
+          "ru": "Шесть часов сна."
+        },
+        {
+          "id": "Enam orang di kantor.",
+          "ru": "Шесть человек в офисе."
+        }
+      ]
     },
     {
       "id": "tujuh",
       "ru": "7",
-      "en": "seven"
+      "en": "seven",
+      "examples": [
+        {
+          "id": "Seminggu tujuh hari.",
+          "ru": "В неделе семь дней."
+        },
+        {
+          "id": "Saya bangun jam tujuh.",
+          "ru": "Я встаю в семь."
+        },
+        {
+          "id": "Tujuh tahun lalu.",
+          "ru": "Семь лет назад."
+        }
+      ]
     },
     {
       "id": "delapan",
       "ru": "8",
-      "en": "eight"
+      "en": "eight",
+      "examples": [
+        {
+          "id": "Delapan jam kerja.",
+          "ru": "Восемь часов работы."
+        },
+        {
+          "id": "Delapan ribu rupiah.",
+          "ru": "Восемь тысяч рупий."
+        },
+        {
+          "id": "Anak saya delapan tahun.",
+          "ru": "Моему ребёнку восемь лет."
+        }
+      ]
     },
     {
       "id": "sembilan",
       "ru": "9",
-      "en": "nine"
+      "en": "nine",
+      "examples": [
+        {
+          "id": "Sembilan jam perjalanan.",
+          "ru": "Девять часов в дороге."
+        },
+        {
+          "id": "Sembilan tahun pengalaman.",
+          "ru": "Девять лет опыта."
+        },
+        {
+          "id": "Ada sembilan orang.",
+          "ru": "Девять человек."
+        }
+      ]
     },
     {
       "id": "sepuluh",
       "ru": "10",
-      "en": "ten"
+      "en": "ten",
+      "examples": [
+        {
+          "id": "Sepuluh menit lagi.",
+          "ru": "Ещё десять минут."
+        },
+        {
+          "id": "Sepuluh ribu rupiah.",
+          "ru": "Десять тысяч рупий."
+        },
+        {
+          "id": "Sepuluh tahun bersama.",
+          "ru": "Десять лет вместе."
+        }
+      ]
     },
     {
       "id": "sebelas",
       "ru": "11",
-      "en": "eleven"
+      "en": "eleven",
+      "examples": [
+        {
+          "id": "Tim sepak bola sebelas orang.",
+          "ru": "Футбольная команда — одиннадцать человек."
+        },
+        {
+          "id": "Sebelas jam tidur.",
+          "ru": "Одиннадцать часов сна."
+        },
+        {
+          "id": "Anak saya sebelas tahun.",
+          "ru": "Моему ребёнку одиннадцать."
+        }
+      ]
     },
     {
       "id": "dua belas",
       "ru": "12",
-      "en": "twelve"
+      "en": "twelve",
+      "examples": [
+        {
+          "id": "Dua belas bulan setahun.",
+          "ru": "Двенадцать месяцев в году."
+        },
+        {
+          "id": "Dua belas jam.",
+          "ru": "Двенадцать часов."
+        },
+        {
+          "id": "Pukul dua belas siang.",
+          "ru": "Двенадцать часов дня."
+        }
+      ]
     },
     {
       "id": "tiga belas",
       "ru": "13",
-      "en": "thirteen"
+      "en": "thirteen",
+      "examples": [
+        {
+          "id": "Umur tiga belas tahun.",
+          "ru": "Возраст тринадцать лет."
+        },
+        {
+          "id": "Tiga belas orang datang.",
+          "ru": "Пришли тринадцать человек."
+        },
+        {
+          "id": "Lantai tiga belas.",
+          "ru": "Тринадцатый этаж."
+        }
+      ]
     },
     {
       "id": "empat belas",
       "ru": "14",
-      "en": "fourteen"
+      "en": "fourteen",
+      "examples": [
+        {
+          "id": "Empat belas hari.",
+          "ru": "Четырнадцать дней."
+        },
+        {
+          "id": "Empat belas tahun.",
+          "ru": "Четырнадцать лет."
+        },
+        {
+          "id": "Empat belas pelajar di kelas.",
+          "ru": "Четырнадцать учеников в классе."
+        }
+      ]
     },
     {
       "id": "lima belas",
       "ru": "15",
-      "en": "fifteen"
+      "en": "fifteen",
+      "examples": [
+        {
+          "id": "Lima belas menit lagi.",
+          "ru": "Ещё пятнадцать минут."
+        },
+        {
+          "id": "Lima belas tahun yang lalu.",
+          "ru": "Пятнадцать лет назад."
+        },
+        {
+          "id": "Pukul lima belas.",
+          "ru": "Пятнадцать часов."
+        }
+      ]
     },
     {
       "id": "enam belas",
       "ru": "16",
-      "en": "sixteen"
+      "en": "sixteen",
+      "examples": [
+        {
+          "id": "Umur enam belas tahun.",
+          "ru": "Шестнадцать лет."
+        },
+        {
+          "id": "Enam belas hari libur.",
+          "ru": "Шестнадцать выходных дней."
+        },
+        {
+          "id": "Enam belas orang di rapat.",
+          "ru": "Шестнадцать человек на собрании."
+        }
+      ]
     },
     {
       "id": "tujuh belas",
       "ru": "17",
-      "en": "seventeen"
+      "en": "seventeen",
+      "examples": [
+        {
+          "id": "Tujuh belas Agustus hari kemerdekaan.",
+          "ru": "Семнадцатое августа — день независимости."
+        },
+        {
+          "id": "Umur tujuh belas tahun.",
+          "ru": "Семнадцать лет."
+        },
+        {
+          "id": "Tujuh belas orang menang.",
+          "ru": "Семнадцать человек выиграли."
+        }
+      ]
     },
     {
       "id": "delapan belas",
       "ru": "18",
-      "en": "eighteen"
+      "en": "eighteen",
+      "examples": [
+        {
+          "id": "Delapan belas tahun dewasa.",
+          "ru": "В восемнадцать — совершеннолетие."
+        },
+        {
+          "id": "Delapan belas hari.",
+          "ru": "Восемнадцать дней."
+        },
+        {
+          "id": "Delapan belas kursi tersedia.",
+          "ru": "Доступно восемнадцать мест."
+        }
+      ]
     },
     {
       "id": "sembilan belas",
       "ru": "19",
-      "en": "nineteen"
+      "en": "nineteen",
+      "examples": [
+        {
+          "id": "Umur sembilan belas tahun.",
+          "ru": "Девятнадцать лет."
+        },
+        {
+          "id": "Sembilan belas orang lulus.",
+          "ru": "Девятнадцать человек сдали."
+        },
+        {
+          "id": "Sembilan belas hari libur.",
+          "ru": "Девятнадцать выходных."
+        }
+      ]
     },
     {
       "id": "dua puluh",
       "ru": "20",
-      "en": "twenty"
+      "en": "twenty",
+      "examples": [
+        {
+          "id": "Dua puluh ribu rupiah.",
+          "ru": "Двадцать тысяч рупий."
+        },
+        {
+          "id": "Dua puluh menit lagi.",
+          "ru": "Ещё двадцать минут."
+        },
+        {
+          "id": "Dua puluh tahun pernikahan.",
+          "ru": "Двадцать лет в браке."
+        }
+      ]
     },
     {
       "id": "tiga puluh",
       "ru": "30",
-      "en": "thirty"
+      "en": "thirty",
+      "examples": [
+        {
+          "id": "Tiga puluh hari sebulan.",
+          "ru": "Тридцать дней в месяце."
+        },
+        {
+          "id": "Tiga puluh ribu rupiah.",
+          "ru": "Тридцать тысяч рупий."
+        },
+        {
+          "id": "Tiga puluh menit jalan kaki.",
+          "ru": "Тридцать минут пешком."
+        }
+      ]
     },
     {
       "id": "empat puluh",
       "ru": "40",
-      "en": "forty"
+      "en": "forty",
+      "examples": [
+        {
+          "id": "Umur empat puluh tahun.",
+          "ru": "Сорок лет."
+        },
+        {
+          "id": "Empat puluh derajat panas.",
+          "ru": "Сорок градусов жары."
+        },
+        {
+          "id": "Empat puluh ribu rupiah.",
+          "ru": "Сорок тысяч рупий."
+        }
+      ]
     },
     {
       "id": "lima puluh",
       "ru": "50",
-      "en": "fifty"
+      "en": "fifty",
+      "examples": [
+        {
+          "id": "Diskon lima puluh persen.",
+          "ru": "Скидка пятьдесят процентов."
+        },
+        {
+          "id": "Lima puluh ribu rupiah.",
+          "ru": "Пятьдесят тысяч рупий."
+        },
+        {
+          "id": "Lima puluh tahun bersama.",
+          "ru": "Пятьдесят лет вместе."
+        }
+      ]
     },
     {
       "id": "enam puluh",
       "ru": "60",
-      "en": "sixty"
+      "en": "sixty",
+      "examples": [
+        {
+          "id": "Enam puluh menit sejam.",
+          "ru": "Шестьдесят минут в часе."
+        },
+        {
+          "id": "Umur enam puluh tahun.",
+          "ru": "Шестьдесят лет."
+        },
+        {
+          "id": "Enam puluh ribu rupiah.",
+          "ru": "Шестьдесят тысяч рупий."
+        }
+      ]
     },
     {
       "id": "tujuh puluh",
       "ru": "70",
-      "en": "seventy"
+      "en": "seventy",
+      "examples": [
+        {
+          "id": "Tujuh puluh kilometer per jam.",
+          "ru": "Семьдесят километров в час."
+        },
+        {
+          "id": "Kakek umur tujuh puluh tahun.",
+          "ru": "Дедушке семьдесят лет."
+        },
+        {
+          "id": "Tujuh puluh ribu rupiah.",
+          "ru": "Семьдесят тысяч рупий."
+        }
+      ]
     },
     {
       "id": "delapan puluh",
       "ru": "80",
-      "en": "eighty"
+      "en": "eighty",
+      "examples": [
+        {
+          "id": "Delapan puluh persen lulus.",
+          "ru": "Восемьдесят процентов сдали."
+        },
+        {
+          "id": "Nenek umur delapan puluh tahun.",
+          "ru": "Бабушке восемьдесят лет."
+        },
+        {
+          "id": "Delapan puluh derajat.",
+          "ru": "Восемьдесят градусов."
+        }
+      ]
     },
     {
       "id": "sembilan puluh",
       "ru": "90",
-      "en": "ninety"
+      "en": "ninety",
+      "examples": [
+        {
+          "id": "Sembilan puluh menit.",
+          "ru": "Девяносто минут."
+        },
+        {
+          "id": "Sembilan puluh persen yakin.",
+          "ru": "Уверен на девяносто процентов."
+        },
+        {
+          "id": "Sembilan puluh kilometer dari sini.",
+          "ru": "Девяносто километров отсюда."
+        }
+      ]
     },
     {
       "id": "seratus",
       "ru": "100",
-      "en": "one hundred"
+      "en": "one hundred",
+      "examples": [
+        {
+          "id": "Seratus ribu rupiah.",
+          "ru": "Сто тысяч рупий."
+        },
+        {
+          "id": "Seratus tahun lalu.",
+          "ru": "Сто лет назад."
+        },
+        {
+          "id": "Seratus persen benar.",
+          "ru": "Сто процентов правда."
+        }
+      ]
     },
     {
       "id": "dua ratus",
       "ru": "200",
-      "en": "two hundred"
+      "en": "two hundred",
+      "examples": [
+        {
+          "id": "Dua ratus ribu rupiah.",
+          "ru": "Двести тысяч рупий."
+        },
+        {
+          "id": "Dua ratus tahun sejarah.",
+          "ru": "Двести лет истории."
+        },
+        {
+          "id": "Dua ratus kilometer dari sini.",
+          "ru": "Двести километров отсюда."
+        }
+      ]
     },
     {
       "id": "lima ratus",
       "ru": "500",
-      "en": "five hundred"
+      "en": "five hundred",
+      "examples": [
+        {
+          "id": "Lima ratus ribu rupiah.",
+          "ru": "Пятьсот тысяч рупий."
+        },
+        {
+          "id": "Lima ratus tahun yang lalu.",
+          "ru": "Пятьсот лет назад."
+        },
+        {
+          "id": "Lima ratus orang hadir.",
+          "ru": "Присутствуют пятьсот человек."
+        }
+      ]
     },
     {
       "id": "seribu",
       "ru": "1000",
-      "en": "one thousand"
+      "en": "one thousand",
+      "examples": [
+        {
+          "id": "Seribu rupiah.",
+          "ru": "Тысяча рупий."
+        },
+        {
+          "id": "Saya bilang seribu kali!",
+          "ru": "Я говорил тысячу раз!"
+        },
+        {
+          "id": "Seribu tahun.",
+          "ru": "Тысяча лет."
+        }
+      ]
     },
     {
       "id": "sepuluh ribu",
       "ru": "10 000",
-      "en": "ten thousand"
+      "en": "ten thousand",
+      "examples": [
+        {
+          "id": "Sepuluh ribu rupiah.",
+          "ru": "Десять тысяч рупий."
+        },
+        {
+          "id": "Sepuluh ribu orang menonton.",
+          "ru": "Десять тысяч человек смотрели."
+        },
+        {
+          "id": "Berjalan sepuluh ribu langkah.",
+          "ru": "Пройти десять тысяч шагов."
+        }
+      ]
     },
     {
       "id": "seratus ribu",
       "ru": "100 000",
-      "en": "one hundred thousand"
+      "en": "one hundred thousand",
+      "examples": [
+        {
+          "id": "Seratus ribu rupiah.",
+          "ru": "Сто тысяч рупий."
+        },
+        {
+          "id": "Seratus ribu pendukung.",
+          "ru": "Сто тысяч сторонников."
+        },
+        {
+          "id": "Sudah seratus ribu pelanggan.",
+          "ru": "Уже сто тысяч клиентов."
+        }
+      ]
     },
     {
       "id": "sejuta",
       "ru": "миллион",
-      "en": "one million"
+      "en": "one million",
+      "examples": [
+        {
+          "id": "Sejuta rupiah.",
+          "ru": "Миллион рупий."
+        },
+        {
+          "id": "Sejuta penonton di stadion.",
+          "ru": "Миллион зрителей на стадионе."
+        },
+        {
+          "id": "Sejuta bintang di langit.",
+          "ru": "Миллион звёзд на небе."
+        }
+      ]
     },
     {
       "id": "semiliar",
       "ru": "миллиард",
-      "en": "one billion"
+      "en": "one billion",
+      "examples": [
+        {
+          "id": "Semiliar rupiah.",
+          "ru": "Миллиард рупий."
+        },
+        {
+          "id": "Semiliar manusia di Bumi.",
+          "ru": "Миллиард людей на Земле."
+        },
+        {
+          "id": "Semiliar dolar.",
+          "ru": "Миллиард долларов."
+        }
+      ]
     },
     {
       "id": "pertama",
       "ru": "первый",
-      "en": "first"
+      "en": "first",
+      "examples": [
+        {
+          "id": "Hari pertama di sekolah.",
+          "ru": "Первый день в школе."
+        },
+        {
+          "id": "Saya yang pertama datang.",
+          "ru": "Я пришёл первым."
+        },
+        {
+          "id": "Tempat pertama!",
+          "ru": "Первое место!"
+        }
+      ]
     },
     {
       "id": "kedua",
       "ru": "второй",
-      "en": "second"
+      "en": "second",
+      "examples": [
+        {
+          "id": "Pelajaran kedua.",
+          "ru": "Второй урок."
+        },
+        {
+          "id": "Anak kedua saya.",
+          "ru": "Мой второй ребёнок."
+        },
+        {
+          "id": "Untuk kali kedua.",
+          "ru": "Во второй раз."
+        }
+      ]
     },
     {
       "id": "ketiga",
       "ru": "третий",
-      "en": "third"
+      "en": "third",
+      "examples": [
+        {
+          "id": "Bulan ketiga.",
+          "ru": "Третий месяц."
+        },
+        {
+          "id": "Pemenang ketiga.",
+          "ru": "Третий призёр."
+        },
+        {
+          "id": "Hari ketiga liburan.",
+          "ru": "Третий день отпуска."
+        }
+      ]
     },
     {
       "id": "keempat",
       "ru": "четвёртый",
-      "en": "fourth"
+      "en": "fourth",
+      "examples": [
+        {
+          "id": "Lantai keempat.",
+          "ru": "Четвёртый этаж."
+        },
+        {
+          "id": "Bulan keempat tahun.",
+          "ru": "Четвёртый месяц года."
+        },
+        {
+          "id": "Untuk kali keempat saya kesini.",
+          "ru": "Я здесь в четвёртый раз."
+        }
+      ]
     },
     {
       "id": "kelima",
       "ru": "пятый",
-      "en": "fifth"
+      "en": "fifth",
+      "examples": [
+        {
+          "id": "Hari kelima liburan.",
+          "ru": "Пятый день отпуска."
+        },
+        {
+          "id": "Anak kelima.",
+          "ru": "Пятый ребёнок."
+        },
+        {
+          "id": "Pelajaran kelima.",
+          "ru": "Пятый урок."
+        }
+      ]
     },
     {
       "id": "terakhir",
       "ru": "последний",
-      "en": "last"
+      "en": "last",
+      "examples": [
+        {
+          "id": "Hari terakhir di Bali.",
+          "ru": "Последний день на Бали."
+        },
+        {
+          "id": "Yang terakhir saja.",
+          "ru": "Только последнее."
+        },
+        {
+          "id": "Saya terakhir datang.",
+          "ru": "Я пришёл последним."
+        }
+      ]
     },
     {
       "id": "setengah",
       "ru": "половина",
-      "en": "half"
+      "en": "half",
+      "examples": [
+        {
+          "id": "Tunggu setengah jam.",
+          "ru": "Подожди полчаса."
+        },
+        {
+          "id": "Setengah kilo apel.",
+          "ru": "Полкило яблок."
+        },
+        {
+          "id": "Setengah harga sale.",
+          "ru": "Распродажа за полцены."
+        }
+      ]
     },
     {
       "id": "seperempat",
       "ru": "четверть",
-      "en": "quarter"
+      "en": "quarter",
+      "examples": [
+        {
+          "id": "Seperempat jam.",
+          "ru": "Четверть часа."
+        },
+        {
+          "id": "Seperempat kilo.",
+          "ru": "Четверть килограмма."
+        },
+        {
+          "id": "Seperempat pizza saja.",
+          "ru": "Только четверть пиццы."
+        }
+      ]
     },
     {
       "id": "kali",
       "ru": "раз",
-      "en": "times"
+      "en": "times",
+      "examples": [
+        {
+          "id": "Dua kali sehari.",
+          "ru": "Два раза в день."
+        },
+        {
+          "id": "Berapa kali kamu datang?",
+          "ru": "Сколько раз ты приходил?"
+        },
+        {
+          "id": "Beberapa kali saja.",
+          "ru": "Всего несколько раз."
+        }
+      ]
     },
     {
       "id": "pasang",
       "ru": "пара",
-      "en": "pair"
+      "en": "pair",
+      "examples": [
+        {
+          "id": "Sepasang sepatu baru.",
+          "ru": "Пара новой обуви."
+        },
+        {
+          "id": "Dua pasang kaus kaki.",
+          "ru": "Две пары носков."
+        },
+        {
+          "id": "Pasangan suami istri.",
+          "ru": "Супружеская пара."
+        }
+      ]
     }
   ]
 }

@@ -7,137 +7,515 @@
     {
       "id": "Senin",
       "ru": "понедельник",
-      "en": "Monday"
+      "en": "Monday",
+      "examples": [
+        {
+          "id": "Hari Senin saya kerja.",
+          "ru": "В понедельник я работаю."
+        },
+        {
+          "id": "Senin minggu depan.",
+          "ru": "В понедельник на следующей неделе."
+        },
+        {
+          "id": "Mulai hari Senin.",
+          "ru": "Начинаем с понедельника."
+        }
+      ]
     },
     {
       "id": "Selasa",
       "ru": "вторник",
-      "en": "Tuesday"
+      "en": "Tuesday",
+      "examples": [
+        {
+          "id": "Selasa libur sekolah.",
+          "ru": "Во вторник в школе выходной."
+        },
+        {
+          "id": "Selasa malam saya ada rapat.",
+          "ru": "Во вторник вечером у меня собрание."
+        },
+        {
+          "id": "Setiap Selasa saya olahraga.",
+          "ru": "Каждый вторник я занимаюсь спортом."
+        }
+      ]
     },
     {
       "id": "Rabu",
       "ru": "среда",
-      "en": "Wednesday"
+      "en": "Wednesday",
+      "examples": [
+        {
+          "id": "Hari Rabu hari pasar.",
+          "ru": "Среда — день рынка."
+        },
+        {
+          "id": "Rabu sore saya ada kelas.",
+          "ru": "В среду вечером у меня занятие."
+        },
+        {
+          "id": "Rabu depan saya pergi.",
+          "ru": "В следующую среду я уезжаю."
+        }
+      ]
     },
     {
       "id": "Kamis",
       "ru": "четверг",
-      "en": "Thursday"
+      "en": "Thursday",
+      "examples": [
+        {
+          "id": "Kamis pagi saya rapat.",
+          "ru": "В четверг утром у меня встреча."
+        },
+        {
+          "id": "Setiap Kamis saya ke pasar.",
+          "ru": "Каждый четверг я хожу на рынок."
+        },
+        {
+          "id": "Kamis berapa?",
+          "ru": "Какого числа четверг?"
+        }
+      ]
     },
     {
       "id": "Jumat",
       "ru": "пятница",
-      "en": "Friday"
+      "en": "Friday",
+      "examples": [
+        {
+          "id": "Jumat sore saya pulang awal.",
+          "ru": "В пятницу я ухожу пораньше."
+        },
+        {
+          "id": "Jumat hari ibadah.",
+          "ru": "Пятница — день молитвы."
+        },
+        {
+          "id": "Jumat libur.",
+          "ru": "Пятница — выходной."
+        }
+      ]
     },
     {
       "id": "Sabtu",
       "ru": "суббота",
-      "en": "Saturday"
+      "en": "Saturday",
+      "examples": [
+        {
+          "id": "Sabtu malam kami pesta.",
+          "ru": "В субботу вечером у нас вечеринка."
+        },
+        {
+          "id": "Sabtu di rumah saja.",
+          "ru": "В субботу просто дома."
+        },
+        {
+          "id": "Sabtu kemarin saya jalan-jalan.",
+          "ru": "В прошлую субботу я гулял."
+        }
+      ]
     },
     {
       "id": "Minggu",
       "ru": "воскресенье",
-      "en": "Sunday"
+      "en": "Sunday",
+      "examples": [
+        {
+          "id": "Hari Minggu istirahat.",
+          "ru": "В воскресенье отдыхаю."
+        },
+        {
+          "id": "Minggu depan kita bertemu.",
+          "ru": "Встретимся на следующей неделе."
+        },
+        {
+          "id": "Setiap minggu saya ke gereja.",
+          "ru": "Каждое воскресенье я хожу в церковь."
+        }
+      ]
     },
     {
       "id": "akhir pekan",
       "ru": "выходные",
-      "en": "weekend"
+      "en": "weekend",
+      "examples": [
+        {
+          "id": "Akhir pekan ini saya bebas.",
+          "ru": "На этих выходных я свободен."
+        },
+        {
+          "id": "Akhir pekan saya jalan-jalan.",
+          "ru": "На выходных я гуляю."
+        },
+        {
+          "id": "Selamat akhir pekan!",
+          "ru": "Хороших выходных!"
+        }
+      ]
     },
     {
       "id": "Januari",
       "ru": "январь",
-      "en": "January"
+      "en": "January",
+      "examples": [
+        {
+          "id": "Bulan Januari dingin.",
+          "ru": "Январь — холодный месяц."
+        },
+        {
+          "id": "Saya lahir di Januari.",
+          "ru": "Я родился в январе."
+        },
+        {
+          "id": "Januari tahun lalu.",
+          "ru": "В январе прошлого года."
+        }
+      ]
     },
     {
       "id": "Februari",
       "ru": "февраль",
-      "en": "February"
+      "en": "February",
+      "examples": [
+        {
+          "id": "Februari bulan terpendek.",
+          "ru": "Февраль — самый короткий месяц."
+        },
+        {
+          "id": "Valentine di bulan Februari.",
+          "ru": "День Валентина в феврале."
+        },
+        {
+          "id": "Februari hujan terus.",
+          "ru": "В феврале постоянно дождь."
+        }
+      ]
     },
     {
       "id": "Maret",
       "ru": "март",
-      "en": "March"
+      "en": "March",
+      "examples": [
+        {
+          "id": "Maret mulai musim semi.",
+          "ru": "В марте начинается весна."
+        },
+        {
+          "id": "Bulan Maret hangat.",
+          "ru": "Март — тёплый месяц."
+        },
+        {
+          "id": "Awal Maret saya ke Bali.",
+          "ru": "В начале марта я еду на Бали."
+        }
+      ]
     },
     {
       "id": "April",
       "ru": "апрель",
-      "en": "April"
+      "en": "April",
+      "examples": [
+        {
+          "id": "Bulan April hujan.",
+          "ru": "В апреле дожди."
+        },
+        {
+          "id": "April mop.",
+          "ru": "Первое апреля — день шуток."
+        },
+        {
+          "id": "Akhir April libur.",
+          "ru": "В конце апреля выходные."
+        }
+      ]
     },
     {
       "id": "Mei",
       "ru": "май",
-      "en": "May"
+      "en": "May",
+      "examples": [
+        {
+          "id": "Bulan Mei hangat.",
+          "ru": "Май — тёплый месяц."
+        },
+        {
+          "id": "Mei libur panjang.",
+          "ru": "В мае длинные выходные."
+        },
+        {
+          "id": "Awal Mei bunga mekar.",
+          "ru": "В начале мая цветут цветы."
+        }
+      ]
     },
     {
       "id": "Juni",
       "ru": "июнь",
-      "en": "June"
+      "en": "June",
+      "examples": [
+        {
+          "id": "Juni mulai musim panas.",
+          "ru": "В июне начинается лето."
+        },
+        {
+          "id": "Bulan Juni libur sekolah.",
+          "ru": "В июне школьные каникулы."
+        },
+        {
+          "id": "Akhir Juni saya pergi.",
+          "ru": "В конце июня я уезжаю."
+        }
+      ]
     },
     {
       "id": "Juli",
       "ru": "июль",
-      "en": "July"
+      "en": "July",
+      "examples": [
+        {
+          "id": "Juli libur panjang.",
+          "ru": "В июле длинные каникулы."
+        },
+        {
+          "id": "Bulan Juli panas.",
+          "ru": "Июль — жаркий месяц."
+        },
+        {
+          "id": "Awal Juli kami ke pantai.",
+          "ru": "В начале июля мы поехали на пляж."
+        }
+      ]
     },
     {
       "id": "Agustus",
       "ru": "август",
-      "en": "August"
+      "en": "August",
+      "examples": [
+        {
+          "id": "Tujuh belas Agustus Hari Kemerdekaan.",
+          "ru": "Семнадцатое августа — День независимости."
+        },
+        {
+          "id": "Bulan Agustus panas terik.",
+          "ru": "Август — палящий жаркий месяц."
+        },
+        {
+          "id": "Akhir Agustus kembali sekolah.",
+          "ru": "В конце августа возвращаемся в школу."
+        }
+      ]
     },
     {
       "id": "September",
       "ru": "сентябрь",
-      "en": "September"
+      "en": "September",
+      "examples": [
+        {
+          "id": "September mulai sekolah.",
+          "ru": "В сентябре начинается школа."
+        },
+        {
+          "id": "Bulan September musim gugur.",
+          "ru": "Сентябрь — осенний месяц."
+        },
+        {
+          "id": "Akhir September dingin.",
+          "ru": "В конце сентября холодно."
+        }
+      ]
     },
     {
       "id": "Oktober",
       "ru": "октябрь",
-      "en": "October"
+      "en": "October",
+      "examples": [
+        {
+          "id": "Oktober daun jatuh.",
+          "ru": "В октябре падают листья."
+        },
+        {
+          "id": "Bulan Oktober hujan.",
+          "ru": "В октябре дожди."
+        },
+        {
+          "id": "Awal Oktober masih hangat.",
+          "ru": "В начале октября ещё тепло."
+        }
+      ]
     },
     {
       "id": "November",
       "ru": "ноябрь",
-      "en": "November"
+      "en": "November",
+      "examples": [
+        {
+          "id": "November dingin.",
+          "ru": "Ноябрь холодный."
+        },
+        {
+          "id": "Bulan November singkat.",
+          "ru": "Ноябрь короткий."
+        },
+        {
+          "id": "Akhir November salju pertama.",
+          "ru": "В конце ноября первый снег."
+        }
+      ]
     },
     {
       "id": "Desember",
       "ru": "декабрь",
-      "en": "December"
+      "en": "December",
+      "examples": [
+        {
+          "id": "Desember libur Natal.",
+          "ru": "В декабре рождественские каникулы."
+        },
+        {
+          "id": "Bulan Desember akhir tahun.",
+          "ru": "Декабрь — конец года."
+        },
+        {
+          "id": "Akhir Desember tahun baru.",
+          "ru": "В конце декабря Новый год."
+        }
+      ]
     },
     {
       "id": "musim",
       "ru": "сезон",
-      "en": "season"
+      "en": "season",
+      "examples": [
+        {
+          "id": "Sekarang musim apa?",
+          "ru": "Сейчас какое время года?"
+        },
+        {
+          "id": "Musim ini hujan.",
+          "ru": "В этот сезон дождь."
+        },
+        {
+          "id": "Berganti musim.",
+          "ru": "Сменился сезон."
+        }
+      ]
     },
     {
       "id": "musim hujan",
       "ru": "сезон дождей",
-      "en": "rainy season"
+      "en": "rainy season",
+      "examples": [
+        {
+          "id": "Sekarang musim hujan.",
+          "ru": "Сейчас сезон дождей."
+        },
+        {
+          "id": "Musim hujan dingin.",
+          "ru": "В сезон дождей холодно."
+        },
+        {
+          "id": "Bawa payung di musim hujan.",
+          "ru": "В сезон дождей бери зонт."
+        }
+      ]
     },
     {
       "id": "musim kemarau",
       "ru": "сухой сезон",
-      "en": "dry season"
+      "en": "dry season",
+      "examples": [
+        {
+          "id": "Musim kemarau panas.",
+          "ru": "В сухой сезон жарко."
+        },
+        {
+          "id": "Musim kemarau langit cerah.",
+          "ru": "В сухой сезон чистое небо."
+        },
+        {
+          "id": "Akhir musim kemarau.",
+          "ru": "Конец сухого сезона."
+        }
+      ]
     },
     {
       "id": "musim panas",
       "ru": "лето",
-      "en": "summer"
+      "en": "summer",
+      "examples": [
+        {
+          "id": "Musim panas saya berenang.",
+          "ru": "Летом я плаваю."
+        },
+        {
+          "id": "Musim panas waktu liburan.",
+          "ru": "Лето — время отпусков."
+        },
+        {
+          "id": "Musim panas Eropa indah.",
+          "ru": "Лето в Европе прекрасно."
+        }
+      ]
     },
     {
       "id": "musim dingin",
       "ru": "зима",
-      "en": "winter"
+      "en": "winter",
+      "examples": [
+        {
+          "id": "Musim dingin pakai jaket.",
+          "ru": "Зимой надо носить куртку."
+        },
+        {
+          "id": "Musim dingin Rusia keras.",
+          "ru": "Зима в России суровая."
+        },
+        {
+          "id": "Saya tidak suka musim dingin.",
+          "ru": "Я не люблю зиму."
+        }
+      ]
     },
     {
       "id": "musim semi",
       "ru": "весна",
-      "en": "spring"
+      "en": "spring",
+      "examples": [
+        {
+          "id": "Musim semi indah.",
+          "ru": "Весна прекрасна."
+        },
+        {
+          "id": "Bunga mekar musim semi.",
+          "ru": "Весной цветут цветы."
+        },
+        {
+          "id": "Musim semi April.",
+          "ru": "Весна в апреле."
+        }
+      ]
     },
     {
       "id": "musim gugur",
       "ru": "осень",
-      "en": "autumn"
+      "en": "autumn",
+      "examples": [
+        {
+          "id": "Musim gugur daun jatuh.",
+          "ru": "Осенью падают листья."
+        },
+        {
+          "id": "Musim gugur indah.",
+          "ru": "Осень красива."
+        },
+        {
+          "id": "Musim gugur September.",
+          "ru": "Осень в сентябре."
+        }
+      ]
     }
   ]
 }

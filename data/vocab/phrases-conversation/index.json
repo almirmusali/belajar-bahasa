@@ -7,117 +7,439 @@
     {
       "id": "siapa namamu",
       "ru": "как тебя зовут",
-      "en": "what's your name"
+      "en": "what's your name",
+      "examples": [
+        {
+          "id": "Halo, siapa namamu?",
+          "ru": "Привет, как тебя зовут?"
+        },
+        {
+          "id": "Maaf, siapa namamu lagi?",
+          "ru": "Извини, как тебя зовут, ещё раз?"
+        },
+        {
+          "id": "Siapa namamu, anak?",
+          "ru": "Как тебя зовут, ребёнок?"
+        }
+      ]
     },
     {
       "id": "siapa nama Anda",
       "ru": "как Вас зовут",
-      "en": "what is your name (formal)"
+      "en": "what is your name (formal)",
+      "examples": [
+        {
+          "id": "Selamat siang, siapa nama Anda?",
+          "ru": "Добрый день, как Вас зовут?"
+        },
+        {
+          "id": "Maaf, siapa nama Anda?",
+          "ru": "Извините, как Вас зовут?"
+        },
+        {
+          "id": "Siapa nama Anda? — Saya Budi.",
+          "ru": "Как Вас зовут? — Я Буди."
+        }
+      ]
     },
     {
       "id": "berapa umurmu",
       "ru": "сколько тебе лет",
-      "en": "how old are you"
+      "en": "how old are you",
+      "examples": [
+        {
+          "id": "Berapa umurmu?",
+          "ru": "Сколько тебе лет?"
+        },
+        {
+          "id": "Berapa umurmu sekarang?",
+          "ru": "Сколько тебе сейчас лет?"
+        },
+        {
+          "id": "Boleh tahu berapa umurmu?",
+          "ru": "Можно узнать сколько тебе лет?"
+        }
+      ]
     },
     {
       "id": "dari mana asalmu",
       "ru": "откуда ты",
-      "en": "where are you from"
+      "en": "where are you from",
+      "examples": [
+        {
+          "id": "Dari mana asalmu?",
+          "ru": "Откуда ты?"
+        },
+        {
+          "id": "Senang bertemu, dari mana asalmu?",
+          "ru": "Приятно встретить, откуда ты?"
+        },
+        {
+          "id": "Dari mana asalmu sebenarnya?",
+          "ru": "А вообще откуда ты?"
+        }
+      ]
     },
     {
       "id": "kamu tinggal di mana",
       "ru": "где ты живёшь",
-      "en": "where do you live"
+      "en": "where do you live",
+      "examples": [
+        {
+          "id": "Kamu tinggal di mana?",
+          "ru": "Где ты живёшь?"
+        },
+        {
+          "id": "Sekarang kamu tinggal di mana?",
+          "ru": "Где ты сейчас живёшь?"
+        },
+        {
+          "id": "Maaf, kamu tinggal di mana?",
+          "ru": "Извини, где ты живёшь?"
+        }
+      ]
     },
     {
       "id": "bisa berbicara bahasa Indonesia",
       "ru": "говоришь на индонезийском",
-      "en": "can you speak Indonesian"
+      "en": "can you speak Indonesian",
+      "examples": [
+        {
+          "id": "Apa kamu bisa berbicara bahasa Indonesia?",
+          "ru": "Ты говоришь по-индонезийски?"
+        },
+        {
+          "id": "Saya bisa berbicara bahasa Indonesia sedikit.",
+          "ru": "Я немного говорю по-индонезийски."
+        },
+        {
+          "id": "Sudah berapa lama bisa berbicara bahasa Indonesia?",
+          "ru": "Как давно ты говоришь по-индонезийски?"
+        }
+      ]
     },
     {
       "id": "saya tidak mengerti",
       "ru": "я не понимаю",
-      "en": "I don't understand"
+      "en": "I don't understand",
+      "examples": [
+        {
+          "id": "Maaf, saya tidak mengerti.",
+          "ru": "Извини, я не понимаю."
+        },
+        {
+          "id": "Saya tidak mengerti, ulangi tolong.",
+          "ru": "Я не понимаю, повтори, пожалуйста."
+        },
+        {
+          "id": "Saya tidak mengerti bahasa Jawa.",
+          "ru": "Я не понимаю яванский."
+        }
+      ]
     },
     {
       "id": "saya mengerti",
       "ru": "я понимаю",
-      "en": "I understand"
+      "en": "I understand",
+      "examples": [
+        {
+          "id": "Saya mengerti, terima kasih.",
+          "ru": "Я понимаю, спасибо."
+        },
+        {
+          "id": "Sekarang saya mengerti.",
+          "ru": "Теперь я понимаю."
+        },
+        {
+          "id": "Saya mengerti maksudmu.",
+          "ru": "Я понимаю, о чём ты."
+        }
+      ]
     },
     {
       "id": "tolong ulangi",
       "ru": "повторите, пожалуйста",
-      "en": "please repeat"
+      "en": "please repeat",
+      "examples": [
+        {
+          "id": "Tolong ulangi sekali lagi.",
+          "ru": "Повтори, пожалуйста."
+        },
+        {
+          "id": "Maaf, tolong ulangi.",
+          "ru": "Извини, повтори."
+        },
+        {
+          "id": "Tolong ulangi lebih keras.",
+          "ru": "Повтори громче."
+        }
+      ]
     },
     {
       "id": "tolong bicara pelan-pelan",
       "ru": "говорите помедленнее",
-      "en": "please speak slowly"
+      "en": "please speak slowly",
+      "examples": [
+        {
+          "id": "Tolong bicara pelan-pelan.",
+          "ru": "Пожалуйста, говори медленнее."
+        },
+        {
+          "id": "Saya pemula, tolong bicara pelan-pelan.",
+          "ru": "Я новичок, говори медленнее."
+        },
+        {
+          "id": "Tolong bicara pelan-pelan dan jelas.",
+          "ru": "Говори медленно и чётко."
+        }
+      ]
     },
     {
       "id": "apa artinya",
       "ru": "что это значит",
-      "en": "what does it mean"
+      "en": "what does it mean",
+      "examples": [
+        {
+          "id": "Apa artinya kata ini?",
+          "ru": "Что значит это слово?"
+        },
+        {
+          "id": "Apa artinya dalam bahasa Rusia?",
+          "ru": "Что это значит по-русски?"
+        },
+        {
+          "id": "Maaf, apa artinya?",
+          "ru": "Извини, что это значит?"
+        }
+      ]
     },
     {
       "id": "bagaimana mengatakannya",
       "ru": "как сказать",
-      "en": "how do I say it"
+      "en": "how do I say it",
+      "examples": [
+        {
+          "id": "Bagaimana mengatakannya?",
+          "ru": "Как это сказать?"
+        },
+        {
+          "id": "Bagaimana mengatakannya dalam bahasa Indonesia?",
+          "ru": "Как сказать это по-индонезийски?"
+        },
+        {
+          "id": "Saya lupa, bagaimana mengatakannya?",
+          "ru": "Я забыл, как это сказать?"
+        }
+      ]
     },
     {
       "id": "saya tidak tahu",
       "ru": "я не знаю",
-      "en": "I don't know"
+      "en": "I don't know",
+      "examples": [
+        {
+          "id": "Maaf, saya tidak tahu.",
+          "ru": "Извини, я не знаю."
+        },
+        {
+          "id": "Saya tidak tahu jawabannya.",
+          "ru": "Я не знаю ответа."
+        },
+        {
+          "id": "Saya tidak tahu di mana itu.",
+          "ru": "Я не знаю, где это."
+        }
+      ]
     },
     {
       "id": "saya tidak yakin",
       "ru": "я не уверен",
-      "en": "I'm not sure"
+      "en": "I'm not sure",
+      "examples": [
+        {
+          "id": "Saya tidak yakin.",
+          "ru": "Я не уверен."
+        },
+        {
+          "id": "Saya tidak yakin tentang itu.",
+          "ru": "Я не уверен насчёт этого."
+        },
+        {
+          "id": "Saya tidak yakin jawabannya benar.",
+          "ru": "Я не уверен, что ответ верный."
+        }
+      ]
     },
     {
       "id": "tidak masalah",
       "ru": "не проблема",
-      "en": "no problem"
+      "en": "no problem",
+      "examples": [
+        {
+          "id": "Tidak masalah, jangan khawatir.",
+          "ru": "Не проблема, не волнуйся."
+        },
+        {
+          "id": "Terlambat? Tidak masalah.",
+          "ru": "Опоздал? Не проблема."
+        },
+        {
+          "id": "Tidak masalah bagi saya.",
+          "ru": "Для меня без проблем."
+        }
+      ]
     },
     {
       "id": "jangan khawatir",
       "ru": "не волнуйся",
-      "en": "don't worry"
+      "en": "don't worry",
+      "examples": [
+        {
+          "id": "Jangan khawatir, semua baik.",
+          "ru": "Не волнуйся, всё хорошо."
+        },
+        {
+          "id": "Jangan khawatir, saya bantu.",
+          "ru": "Не волнуйся, я помогу."
+        },
+        {
+          "id": "Jangan khawatir tentang itu.",
+          "ru": "Не волнуйся об этом."
+        }
+      ]
     },
     {
       "id": "tenang saja",
       "ru": "успокойся",
-      "en": "just relax"
+      "en": "just relax",
+      "examples": [
+        {
+          "id": "Tenang saja, jangan panik.",
+          "ru": "Спокойно, не паникуй."
+        },
+        {
+          "id": "Tenang saja, semua aman.",
+          "ru": "Спокойно, всё в безопасности."
+        },
+        {
+          "id": "Tenang saja, saya di sini.",
+          "ru": "Успокойся, я здесь."
+        }
+      ]
     },
     {
       "id": "tidak masalah bagi saya",
       "ru": "для меня не проблема",
-      "en": "no problem for me"
+      "en": "no problem for me",
+      "examples": [
+        {
+          "id": "Tidak masalah bagi saya.",
+          "ru": "Для меня не проблема."
+        },
+        {
+          "id": "Apa pun, tidak masalah bagi saya.",
+          "ru": "Что угодно, мне всё равно."
+        },
+        {
+          "id": "Datang malam? Tidak masalah bagi saya.",
+          "ru": "Прийти вечером? Мне ок."
+        }
+      ]
     },
     {
       "id": "saya setuju",
       "ru": "я согласен",
-      "en": "I agree"
+      "en": "I agree",
+      "examples": [
+        {
+          "id": "Saya setuju dengan kamu.",
+          "ru": "Я согласен с тобой."
+        },
+        {
+          "id": "Saya setuju 100 persen.",
+          "ru": "Я согласен на 100 процентов."
+        },
+        {
+          "id": "Saya setuju, mari kita lakukan.",
+          "ru": "Согласен, давай сделаем."
+        }
+      ]
     },
     {
       "id": "saya tidak setuju",
       "ru": "я не согласен",
-      "en": "I disagree"
+      "en": "I disagree",
+      "examples": [
+        {
+          "id": "Maaf, saya tidak setuju.",
+          "ru": "Извини, я не согласен."
+        },
+        {
+          "id": "Saya tidak setuju dengan itu.",
+          "ru": "Я с этим не согласен."
+        },
+        {
+          "id": "Saya tidak setuju, tapi paham.",
+          "ru": "Я не согласен, но понимаю."
+        }
+      ]
     },
     {
       "id": "menurut saya",
       "ru": "по-моему",
-      "en": "in my opinion"
+      "en": "in my opinion",
+      "examples": [
+        {
+          "id": "Menurut saya, itu benar.",
+          "ru": "По-моему, это правильно."
+        },
+        {
+          "id": "Menurut saya lebih baik begitu.",
+          "ru": "По-моему, лучше так."
+        },
+        {
+          "id": "Menurut saya, kamu harus istirahat.",
+          "ru": "По-моему, тебе надо отдохнуть."
+        }
+      ]
     },
     {
       "id": "saya rasa",
       "ru": "я думаю",
-      "en": "I think"
+      "en": "I think",
+      "examples": [
+        {
+          "id": "Saya rasa kamu benar.",
+          "ru": "Думаю, ты прав."
+        },
+        {
+          "id": "Saya rasa akan hujan.",
+          "ru": "Думаю, будет дождь."
+        },
+        {
+          "id": "Saya rasa cukup untuk hari ini.",
+          "ru": "Думаю, на сегодня хватит."
+        }
+      ]
     },
     {
       "id": "saya kira",
       "ru": "мне кажется",
-      "en": "I suppose"
+      "en": "I suppose",
+      "examples": [
+        {
+          "id": "Saya kira dia sudah pergi.",
+          "ru": "Я думал, он уже ушёл."
+        },
+        {
+          "id": "Saya kira lebih murah.",
+          "ru": "Я думал, дешевле."
+        },
+        {
+          "id": "Saya kira hari ini libur.",
+          "ru": "Я думал, сегодня выходной."
+        }
+      ]
     }
   ]
 }

@@ -7,262 +7,990 @@
     {
       "id": "waktu",
       "ru": "время",
-      "en": "time"
+      "en": "time",
+      "examples": [
+        {
+          "id": "Waktu cepat berlalu.",
+          "ru": "Время быстро летит."
+        },
+        {
+          "id": "Tidak ada waktu.",
+          "ru": "Времени нет."
+        },
+        {
+          "id": "Berapa banyak waktu?",
+          "ru": "Сколько времени?"
+        }
+      ]
     },
     {
       "id": "jam",
       "ru": "час / часы",
-      "en": "hour / clock"
+      "en": "hour / clock",
+      "examples": [
+        {
+          "id": "Sekarang jam berapa?",
+          "ru": "Который сейчас час?"
+        },
+        {
+          "id": "Tunggu satu jam.",
+          "ru": "Подожди час."
+        },
+        {
+          "id": "Jam dinding rusak.",
+          "ru": "Настенные часы сломались."
+        }
+      ]
     },
     {
       "id": "menit",
       "ru": "минута",
-      "en": "minute"
+      "en": "minute",
+      "examples": [
+        {
+          "id": "Tunggu lima menit.",
+          "ru": "Подожди пять минут."
+        },
+        {
+          "id": "Setiap menit penting.",
+          "ru": "Каждая минута важна."
+        },
+        {
+          "id": "Sebentar, satu menit.",
+          "ru": "Секундочку, одну минуту."
+        }
+      ]
     },
     {
       "id": "detik",
       "ru": "секунда",
-      "en": "second"
+      "en": "second",
+      "examples": [
+        {
+          "id": "Tunggu beberapa detik.",
+          "ru": "Подожди несколько секунд."
+        },
+        {
+          "id": "Setiap detik berharga.",
+          "ru": "Каждая секунда дорога."
+        },
+        {
+          "id": "Tiga detik lagi!",
+          "ru": "Ещё три секунды!"
+        }
+      ]
     },
     {
       "id": "hari",
       "ru": "день",
-      "en": "day"
+      "en": "day",
+      "examples": [
+        {
+          "id": "Hari ini cerah.",
+          "ru": "Сегодня солнечно."
+        },
+        {
+          "id": "Setiap hari belajar.",
+          "ru": "Каждый день учусь."
+        },
+        {
+          "id": "Hari yang indah!",
+          "ru": "Прекрасный день!"
+        }
+      ]
     },
     {
       "id": "minggu",
       "ru": "неделя",
-      "en": "week"
+      "en": "week",
+      "examples": [
+        {
+          "id": "Minggu lalu saya sibuk.",
+          "ru": "На прошлой неделе я был занят."
+        },
+        {
+          "id": "Setiap minggu kami bertemu.",
+          "ru": "Каждую неделю мы встречаемся."
+        },
+        {
+          "id": "Minggu ini panjang.",
+          "ru": "Эта неделя долгая."
+        }
+      ]
     },
     {
       "id": "bulan",
       "ru": "месяц / луна",
-      "en": "month / moon"
+      "en": "month / moon",
+      "examples": [
+        {
+          "id": "Bulan ini cepat.",
+          "ru": "Этот месяц быстро пролетел."
+        },
+        {
+          "id": "Bulan lalu saya sakit.",
+          "ru": "В прошлом месяце я болел."
+        },
+        {
+          "id": "Bulan purnama indah.",
+          "ru": "Полная луна красива."
+        }
+      ]
     },
     {
       "id": "tahun",
       "ru": "год",
-      "en": "year"
+      "en": "year",
+      "examples": [
+        {
+          "id": "Tahun ini lebih baik.",
+          "ru": "Этот год лучше."
+        },
+        {
+          "id": "Tahun lalu saya menikah.",
+          "ru": "В прошлом году я женился."
+        },
+        {
+          "id": "Selamat tahun baru!",
+          "ru": "С Новым годом!"
+        }
+      ]
     },
     {
       "id": "abad",
       "ru": "век",
-      "en": "century"
+      "en": "century",
+      "examples": [
+        {
+          "id": "Abad ke-21.",
+          "ru": "Двадцать первый век."
+        },
+        {
+          "id": "Abad lalu sejarah.",
+          "ru": "Прошлый век — история."
+        },
+        {
+          "id": "Setengah abad lalu.",
+          "ru": "Полвека назад."
+        }
+      ]
     },
     {
       "id": "zaman",
       "ru": "эпоха",
-      "en": "era"
+      "en": "era",
+      "examples": [
+        {
+          "id": "Zaman dahulu.",
+          "ru": "В старые времена."
+        },
+        {
+          "id": "Zaman modern.",
+          "ru": "Современная эпоха."
+        },
+        {
+          "id": "Zaman sudah berubah.",
+          "ru": "Времена изменились."
+        }
+      ]
     },
     {
       "id": "masa",
       "ru": "период",
-      "en": "period"
+      "en": "period",
+      "examples": [
+        {
+          "id": "Masa kecil saya bahagia.",
+          "ru": "Моё детство было счастливым."
+        },
+        {
+          "id": "Masa sulit sudah lewat.",
+          "ru": "Тяжёлые времена прошли."
+        },
+        {
+          "id": "Masa indah bersamamu.",
+          "ru": "Прекрасное время с тобой."
+        }
+      ]
     },
     {
       "id": "sekarang",
       "ru": "сейчас",
-      "en": "now"
+      "en": "now",
+      "examples": [
+        {
+          "id": "Sekarang jam berapa?",
+          "ru": "Сейчас сколько времени?"
+        },
+        {
+          "id": "Mari kita pergi sekarang.",
+          "ru": "Пойдём прямо сейчас."
+        },
+        {
+          "id": "Sekarang saya sibuk.",
+          "ru": "Сейчас я занят."
+        }
+      ]
     },
     {
       "id": "nanti",
       "ru": "потом",
-      "en": "later"
+      "en": "later",
+      "examples": [
+        {
+          "id": "Nanti saya telepon.",
+          "ru": "Я позвоню позже."
+        },
+        {
+          "id": "Sampai nanti!",
+          "ru": "До встречи!"
+        },
+        {
+          "id": "Nanti malam saja.",
+          "ru": "Лучше попозже вечером."
+        }
+      ]
     },
     {
       "id": "tadi",
       "ru": "только что",
-      "en": "just now"
+      "en": "just now",
+      "examples": [
+        {
+          "id": "Tadi saya bertemu Andi.",
+          "ru": "Только что я встретил Анди."
+        },
+        {
+          "id": "Apa yang tadi kamu bilang?",
+          "ru": "Что ты только что сказал?"
+        },
+        {
+          "id": "Tadi pagi saya bangun jam enam.",
+          "ru": "Сегодня утром я встал в шесть."
+        }
+      ]
     },
     {
       "id": "dulu",
       "ru": "раньше",
-      "en": "before / used to"
+      "en": "before / used to",
+      "examples": [
+        {
+          "id": "Dulu di sini ada toko.",
+          "ru": "Раньше здесь был магазин."
+        },
+        {
+          "id": "Saya dulu tinggal di Moskow.",
+          "ru": "Я раньше жил в Москве."
+        },
+        {
+          "id": "Tunggu dulu!",
+          "ru": "Подожди-ка!"
+        }
+      ]
     },
     {
       "id": "dahulu",
       "ru": "давно",
-      "en": "long ago"
+      "en": "long ago",
+      "examples": [
+        {
+          "id": "Dahulu kala hidup raja.",
+          "ru": "Давным-давно жил король."
+        },
+        {
+          "id": "Zaman dahulu.",
+          "ru": "В давние времена."
+        },
+        {
+          "id": "Dahulu rumah ini kecil.",
+          "ru": "Раньше этот дом был маленьким."
+        }
+      ]
     },
     {
       "id": "kemarin",
       "ru": "вчера",
-      "en": "yesterday"
+      "en": "yesterday",
+      "examples": [
+        {
+          "id": "Kemarin saya di rumah.",
+          "ru": "Вчера я был дома."
+        },
+        {
+          "id": "Apa kabar kemarin?",
+          "ru": "Как вчера прошло?"
+        },
+        {
+          "id": "Kemarin saya bertemu dia.",
+          "ru": "Вчера я его встретил."
+        }
+      ]
     },
     {
       "id": "hari ini",
       "ru": "сегодня",
-      "en": "today"
+      "en": "today",
+      "examples": [
+        {
+          "id": "Hari ini saya libur.",
+          "ru": "Сегодня у меня выходной."
+        },
+        {
+          "id": "Apa rencana hari ini?",
+          "ru": "Какие планы на сегодня?"
+        },
+        {
+          "id": "Hari ini panas sekali.",
+          "ru": "Сегодня очень жарко."
+        }
+      ]
     },
     {
       "id": "besok",
       "ru": "завтра",
-      "en": "tomorrow"
+      "en": "tomorrow",
+      "examples": [
+        {
+          "id": "Besok kita bertemu.",
+          "ru": "Завтра увидимся."
+        },
+        {
+          "id": "Besok hari Senin.",
+          "ru": "Завтра понедельник."
+        },
+        {
+          "id": "Sampai besok!",
+          "ru": "До завтра!"
+        }
+      ]
     },
     {
       "id": "lusa",
       "ru": "послезавтра",
-      "en": "day after tomorrow"
+      "en": "day after tomorrow",
+      "examples": [
+        {
+          "id": "Lusa saya berangkat.",
+          "ru": "Послезавтра я уезжаю."
+        },
+        {
+          "id": "Sampai lusa!",
+          "ru": "До послезавтра!"
+        },
+        {
+          "id": "Lusa hari libur.",
+          "ru": "Послезавтра выходной."
+        }
+      ]
     },
     {
       "id": "pagi",
       "ru": "утро",
-      "en": "morning"
+      "en": "morning",
+      "examples": [
+        {
+          "id": "Saya bangun pagi.",
+          "ru": "Я встал утром."
+        },
+        {
+          "id": "Pagi yang cerah.",
+          "ru": "Солнечное утро."
+        },
+        {
+          "id": "Sampai pagi.",
+          "ru": "До утра."
+        }
+      ]
     },
     {
       "id": "siang",
       "ru": "день (полдень)",
-      "en": "noon / midday"
+      "en": "noon / midday",
+      "examples": [
+        {
+          "id": "Siang sekarang.",
+          "ru": "Сейчас день."
+        },
+        {
+          "id": "Makan siang di kantor.",
+          "ru": "Обедаю в офисе."
+        },
+        {
+          "id": "Pukul dua siang.",
+          "ru": "Два часа дня."
+        }
+      ]
     },
     {
       "id": "sore",
       "ru": "вечер",
-      "en": "afternoon / evening"
+      "en": "afternoon / evening",
+      "examples": [
+        {
+          "id": "Sore yang sejuk.",
+          "ru": "Прохладный вечер."
+        },
+        {
+          "id": "Saya pulang sore.",
+          "ru": "Я возвращаюсь вечером."
+        },
+        {
+          "id": "Sore ini ada rapat.",
+          "ru": "Сегодня вечером собрание."
+        }
+      ]
     },
     {
       "id": "malam",
       "ru": "ночь",
-      "en": "night"
+      "en": "night",
+      "examples": [
+        {
+          "id": "Malam yang dingin.",
+          "ru": "Холодная ночь."
+        },
+        {
+          "id": "Selamat malam.",
+          "ru": "Доброй ночи."
+        },
+        {
+          "id": "Malam ini hujan.",
+          "ru": "Сегодня ночью дождь."
+        }
+      ]
     },
     {
       "id": "subuh",
       "ru": "рассвет",
-      "en": "dawn"
+      "en": "dawn",
+      "examples": [
+        {
+          "id": "Bangun pada subuh.",
+          "ru": "Просыпаюсь на рассвете."
+        },
+        {
+          "id": "Subuh masih gelap.",
+          "ru": "На рассвете ещё темно."
+        },
+        {
+          "id": "Sholat subuh.",
+          "ru": "Утренняя молитва."
+        }
+      ]
     },
     {
       "id": "senja",
       "ru": "закат",
-      "en": "dusk"
+      "en": "dusk",
+      "examples": [
+        {
+          "id": "Senja indah di pantai.",
+          "ru": "Закат прекрасен на пляже."
+        },
+        {
+          "id": "Pulang sebelum senja.",
+          "ru": "Вернись до заката."
+        },
+        {
+          "id": "Warna senja merah.",
+          "ru": "Цвет заката красный."
+        }
+      ]
     },
     {
       "id": "tengah hari",
       "ru": "полдень",
-      "en": "midday"
+      "en": "midday",
+      "examples": [
+        {
+          "id": "Tengah hari panas.",
+          "ru": "В полдень жарко."
+        },
+        {
+          "id": "Makan tengah hari.",
+          "ru": "Обед в полдень."
+        },
+        {
+          "id": "Sampai tengah hari.",
+          "ru": "До полудня."
+        }
+      ]
     },
     {
       "id": "tengah malam",
       "ru": "полночь",
-      "en": "midnight"
+      "en": "midnight",
+      "examples": [
+        {
+          "id": "Tengah malam saya tidur.",
+          "ru": "В полночь я уже сплю."
+        },
+        {
+          "id": "Pesta sampai tengah malam.",
+          "ru": "Вечеринка до полуночи."
+        },
+        {
+          "id": "Tengah malam sudah lewat.",
+          "ru": "Уже за полночь."
+        }
+      ]
     },
     {
       "id": "saat ini",
       "ru": "в данный момент",
-      "en": "at this moment"
+      "en": "at this moment",
+      "examples": [
+        {
+          "id": "Saat ini saya sibuk.",
+          "ru": "В данный момент я занят."
+        },
+        {
+          "id": "Saat ini cuaca cerah.",
+          "ru": "Сейчас погода ясная."
+        },
+        {
+          "id": "Saat ini lebih baik.",
+          "ru": "Сейчас лучше."
+        }
+      ]
     },
     {
       "id": "masa depan",
       "ru": "будущее",
-      "en": "future"
+      "en": "future",
+      "examples": [
+        {
+          "id": "Masa depan cerah.",
+          "ru": "Будущее светлое."
+        },
+        {
+          "id": "Pikirkan masa depan.",
+          "ru": "Думай о будущем."
+        },
+        {
+          "id": "Saya percaya masa depan.",
+          "ru": "Я верю в будущее."
+        }
+      ]
     },
     {
       "id": "masa lalu",
       "ru": "прошлое",
-      "en": "past"
+      "en": "past",
+      "examples": [
+        {
+          "id": "Masa lalu sudah berlalu.",
+          "ru": "Прошлое прошло."
+        },
+        {
+          "id": "Jangan ingat masa lalu.",
+          "ru": "Не вспоминай прошлое."
+        },
+        {
+          "id": "Masa lalu pengalaman.",
+          "ru": "Прошлое — это опыт."
+        }
+      ]
     },
     {
       "id": "minggu lalu",
       "ru": "на прошлой неделе",
-      "en": "last week"
+      "en": "last week",
+      "examples": [
+        {
+          "id": "Minggu lalu saya sibuk.",
+          "ru": "На прошлой неделе я был занят."
+        },
+        {
+          "id": "Minggu lalu hujan.",
+          "ru": "На прошлой неделе шёл дождь."
+        },
+        {
+          "id": "Minggu lalu saya bertemu dia.",
+          "ru": "На прошлой неделе я встретил его."
+        }
+      ]
     },
     {
       "id": "minggu depan",
       "ru": "на следующей неделе",
-      "en": "next week"
+      "en": "next week",
+      "examples": [
+        {
+          "id": "Minggu depan saya libur.",
+          "ru": "На следующей неделе у меня выходной."
+        },
+        {
+          "id": "Minggu depan kita bertemu.",
+          "ru": "Встретимся на следующей неделе."
+        },
+        {
+          "id": "Minggu depan saya pergi.",
+          "ru": "На следующей неделе я уеду."
+        }
+      ]
     },
     {
       "id": "bulan lalu",
       "ru": "в прошлом месяце",
-      "en": "last month"
+      "en": "last month",
+      "examples": [
+        {
+          "id": "Bulan lalu saya sakit.",
+          "ru": "В прошлом месяце я болел."
+        },
+        {
+          "id": "Bulan lalu ulang tahun.",
+          "ru": "В прошлом месяце был день рождения."
+        },
+        {
+          "id": "Bulan lalu hujan terus.",
+          "ru": "В прошлом месяце постоянно дождь."
+        }
+      ]
     },
     {
       "id": "bulan depan",
       "ru": "в следующем месяце",
-      "en": "next month"
+      "en": "next month",
+      "examples": [
+        {
+          "id": "Bulan depan saya menikah.",
+          "ru": "В следующем месяце я женюсь."
+        },
+        {
+          "id": "Bulan depan liburan.",
+          "ru": "В следующем месяце отпуск."
+        },
+        {
+          "id": "Bulan depan kita pindah.",
+          "ru": "В следующем месяце мы переезжаем."
+        }
+      ]
     },
     {
       "id": "tahun lalu",
       "ru": "в прошлом году",
-      "en": "last year"
+      "en": "last year",
+      "examples": [
+        {
+          "id": "Tahun lalu saya ke Bali.",
+          "ru": "В прошлом году я был на Бали."
+        },
+        {
+          "id": "Tahun lalu lebih baik.",
+          "ru": "Прошлый год был лучше."
+        },
+        {
+          "id": "Tahun lalu saya lulus.",
+          "ru": "В прошлом году я выпустился."
+        }
+      ]
     },
     {
       "id": "tahun depan",
       "ru": "в следующем году",
-      "en": "next year"
+      "en": "next year",
+      "examples": [
+        {
+          "id": "Tahun depan saya pindah.",
+          "ru": "В следующем году я переезжаю."
+        },
+        {
+          "id": "Tahun depan saya 30 tahun.",
+          "ru": "В следующем году мне будет 30."
+        },
+        {
+          "id": "Tahun depan akan lebih baik.",
+          "ru": "Следующий год будет лучше."
+        }
+      ]
     },
     {
       "id": "baru-baru ini",
       "ru": "недавно",
-      "en": "recently"
+      "en": "recently",
+      "examples": [
+        {
+          "id": "Baru-baru ini saya sakit.",
+          "ru": "Я недавно болел."
+        },
+        {
+          "id": "Baru-baru ini hujan terus.",
+          "ru": "В последнее время постоянно дождь."
+        },
+        {
+          "id": "Baru-baru ini cuaca dingin.",
+          "ru": "В последнее время холодно."
+        }
+      ]
     },
     {
       "id": "akhir-akhir ini",
       "ru": "в последнее время",
-      "en": "lately"
+      "en": "lately",
+      "examples": [
+        {
+          "id": "Akhir-akhir ini saya lelah.",
+          "ru": "В последнее время я устаю."
+        },
+        {
+          "id": "Akhir-akhir ini sibuk.",
+          "ru": "Последнее время занят."
+        },
+        {
+          "id": "Akhir-akhir ini banyak masalah.",
+          "ru": "Последнее время много проблем."
+        }
+      ]
     },
     {
       "id": "sebentar",
       "ru": "минутку",
-      "en": "a moment"
+      "en": "a moment",
+      "examples": [
+        {
+          "id": "Tunggu sebentar.",
+          "ru": "Подожди минутку."
+        },
+        {
+          "id": "Sebentar saja.",
+          "ru": "Совсем недолго."
+        },
+        {
+          "id": "Saya pergi sebentar.",
+          "ru": "Я отойду ненадолго."
+        }
+      ]
     },
     {
       "id": "sebentar lagi",
       "ru": "скоро",
-      "en": "soon"
+      "en": "soon",
+      "examples": [
+        {
+          "id": "Sebentar lagi sampai.",
+          "ru": "Скоро приедем."
+        },
+        {
+          "id": "Sebentar lagi makan malam.",
+          "ru": "Скоро ужин."
+        },
+        {
+          "id": "Sebentar lagi selesai.",
+          "ru": "Скоро закончу."
+        }
+      ]
     },
     {
       "id": "segera",
       "ru": "сразу",
-      "en": "immediately"
+      "en": "immediately",
+      "examples": [
+        {
+          "id": "Segera saya datang.",
+          "ru": "Сейчас же приду."
+        },
+        {
+          "id": "Segera mungkin.",
+          "ru": "Как можно скорее."
+        },
+        {
+          "id": "Segera setelah selesai.",
+          "ru": "Сразу как закончу."
+        }
+      ]
     },
     {
       "id": "buru-buru",
       "ru": "в спешке",
-      "en": "in a hurry"
+      "en": "in a hurry",
+      "examples": [
+        {
+          "id": "Maaf, saya buru-buru.",
+          "ru": "Извини, я тороплюсь."
+        },
+        {
+          "id": "Jangan buru-buru.",
+          "ru": "Не торопись."
+        },
+        {
+          "id": "Dia buru-buru pergi.",
+          "ru": "Он спешно ушёл."
+        }
+      ]
     },
     {
       "id": "awal",
       "ru": "начало",
-      "en": "beginning"
+      "en": "beginning",
+      "examples": [
+        {
+          "id": "Awal bulan.",
+          "ru": "Начало месяца."
+        },
+        {
+          "id": "Awal yang baik.",
+          "ru": "Хорошее начало."
+        },
+        {
+          "id": "Dari awal lagi.",
+          "ru": "Сначала."
+        }
+      ]
     },
     {
       "id": "akhir",
       "ru": "конец",
-      "en": "end"
+      "en": "end",
+      "examples": [
+        {
+          "id": "Akhir tahun.",
+          "ru": "Конец года."
+        },
+        {
+          "id": "Akhir cerita.",
+          "ru": "Конец истории."
+        },
+        {
+          "id": "Akhirnya selesai.",
+          "ru": "Наконец закончилось."
+        }
+      ]
     },
     {
       "id": "pertengahan",
       "ru": "середина",
-      "en": "middle"
+      "en": "middle",
+      "examples": [
+        {
+          "id": "Pertengahan bulan.",
+          "ru": "Середина месяца."
+        },
+        {
+          "id": "Pertengahan jalan.",
+          "ru": "Середина дороги."
+        },
+        {
+          "id": "Sampai pertengahan film.",
+          "ru": "До середины фильма."
+        }
+      ]
     },
     {
       "id": "sering",
       "ru": "часто",
-      "en": "often"
+      "en": "often",
+      "examples": [
+        {
+          "id": "Saya sering ke pasar.",
+          "ru": "Я часто хожу на рынок."
+        },
+        {
+          "id": "Dia sering terlambat.",
+          "ru": "Он часто опаздывает."
+        },
+        {
+          "id": "Apa kamu sering datang?",
+          "ru": "Ты часто приходишь?"
+        }
+      ]
     },
     {
       "id": "jarang",
       "ru": "редко",
-      "en": "rarely"
+      "en": "rarely",
+      "examples": [
+        {
+          "id": "Saya jarang minum kopi.",
+          "ru": "Я редко пью кофе."
+        },
+        {
+          "id": "Dia jarang tersenyum.",
+          "ru": "Он редко улыбается."
+        },
+        {
+          "id": "Jarang sekali bertemu.",
+          "ru": "Очень редко встречаемся."
+        }
+      ]
     },
     {
       "id": "kadang-kadang",
       "ru": "иногда",
-      "en": "sometimes"
+      "en": "sometimes",
+      "examples": [
+        {
+          "id": "Kadang-kadang saya menangis.",
+          "ru": "Иногда я плачу."
+        },
+        {
+          "id": "Dia kadang-kadang datang.",
+          "ru": "Он иногда приходит."
+        },
+        {
+          "id": "Kadang-kadang hujan.",
+          "ru": "Иногда дождь."
+        }
+      ]
     },
     {
       "id": "selalu",
       "ru": "всегда",
-      "en": "always"
+      "en": "always",
+      "examples": [
+        {
+          "id": "Saya selalu cinta kamu.",
+          "ru": "Я всегда буду любить тебя."
+        },
+        {
+          "id": "Dia selalu terlambat.",
+          "ru": "Он всегда опаздывает."
+        },
+        {
+          "id": "Selalu ada harapan.",
+          "ru": "Всегда есть надежда."
+        }
+      ]
     },
     {
       "id": "tidak pernah",
       "ru": "никогда",
-      "en": "never"
+      "en": "never",
+      "examples": [
+        {
+          "id": "Saya tidak pernah ke Bali.",
+          "ru": "Я никогда не был на Бали."
+        },
+        {
+          "id": "Dia tidak pernah berbohong.",
+          "ru": "Он никогда не врёт."
+        },
+        {
+          "id": "Tidak pernah terlambat.",
+          "ru": "Никогда не опаздывает."
+        }
+      ]
     },
     {
       "id": "biasanya",
       "ru": "обычно",
-      "en": "usually"
+      "en": "usually",
+      "examples": [
+        {
+          "id": "Biasanya saya bangun jam tujuh.",
+          "ru": "Обычно я встаю в семь."
+        },
+        {
+          "id": "Biasanya tidak ada masalah.",
+          "ru": "Обычно проблем нет."
+        },
+        {
+          "id": "Biasanya dia datang sore.",
+          "ru": "Обычно он приходит вечером."
+        }
+      ]
     }
   ]
 }

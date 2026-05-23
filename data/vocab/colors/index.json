@@ -7,72 +7,268 @@
     {
       "id": "warna",
       "ru": "цвет",
-      "en": "color"
+      "en": "color",
+      "examples": [
+        {
+          "id": "Warna apa kesukaanmu?",
+          "ru": "Какой твой любимый цвет?"
+        },
+        {
+          "id": "Banyak warna di pasar.",
+          "ru": "На рынке много цветов."
+        },
+        {
+          "id": "Warna ini bagus.",
+          "ru": "Этот цвет красивый."
+        }
+      ]
     },
     {
       "id": "merah",
       "ru": "красный",
-      "en": "red"
+      "en": "red",
+      "examples": [
+        {
+          "id": "Bendera Indonesia merah putih.",
+          "ru": "Флаг Индонезии красно-белый."
+        },
+        {
+          "id": "Mobil merah itu cepat.",
+          "ru": "Та красная машина быстрая."
+        },
+        {
+          "id": "Bunga merah indah.",
+          "ru": "Красные цветы красивые."
+        }
+      ]
     },
     {
       "id": "hijau",
       "ru": "зелёный",
-      "en": "green"
+      "en": "green",
+      "examples": [
+        {
+          "id": "Daun hijau di pohon.",
+          "ru": "Зелёные листья на дереве."
+        },
+        {
+          "id": "Lampu hijau, jalan!",
+          "ru": "Зелёный свет, идём!"
+        },
+        {
+          "id": "Tanaman hijau segar.",
+          "ru": "Зелёные растения свежие."
+        }
+      ]
     },
     {
       "id": "biru",
       "ru": "синий",
-      "en": "blue"
+      "en": "blue",
+      "examples": [
+        {
+          "id": "Langit biru cerah.",
+          "ru": "Голубое небо ясное."
+        },
+        {
+          "id": "Laut biru luas.",
+          "ru": "Синее море широкое."
+        },
+        {
+          "id": "Saya suka biru.",
+          "ru": "Мне нравится синий."
+        }
+      ]
     },
     {
       "id": "kuning",
       "ru": "жёлтый",
-      "en": "yellow"
+      "en": "yellow",
+      "examples": [
+        {
+          "id": "Matahari kuning terang.",
+          "ru": "Солнце ярко-жёлтое."
+        },
+        {
+          "id": "Pisang kuning manis.",
+          "ru": "Жёлтые бананы сладкие."
+        },
+        {
+          "id": "Saya beli baju kuning.",
+          "ru": "Я купил жёлтую рубашку."
+        }
+      ]
     },
     {
       "id": "hitam",
       "ru": "чёрный",
-      "en": "black"
+      "en": "black",
+      "examples": [
+        {
+          "id": "Kucing hitam itu cantik.",
+          "ru": "Та чёрная кошка красивая."
+        },
+        {
+          "id": "Rambut hitam panjang.",
+          "ru": "Длинные чёрные волосы."
+        },
+        {
+          "id": "Mobil hitam mahal.",
+          "ru": "Чёрная машина дорогая."
+        }
+      ]
     },
     {
       "id": "putih",
       "ru": "белый",
-      "en": "white"
+      "en": "white",
+      "examples": [
+        {
+          "id": "Salju putih bersih.",
+          "ru": "Снег белый и чистый."
+        },
+        {
+          "id": "Baju putih bersih.",
+          "ru": "Белая рубашка чистая."
+        },
+        {
+          "id": "Susu putih.",
+          "ru": "Молоко белое."
+        }
+      ]
     },
     {
       "id": "abu-abu",
       "ru": "серый",
-      "en": "gray"
+      "en": "gray",
+      "examples": [
+        {
+          "id": "Langit abu-abu hari ini.",
+          "ru": "Сегодня небо серое."
+        },
+        {
+          "id": "Kucing abu-abu lucu.",
+          "ru": "Серая кошка милая."
+        },
+        {
+          "id": "Saya pakai jaket abu-abu.",
+          "ru": "Я в серой куртке."
+        }
+      ]
     },
     {
       "id": "ungu",
       "ru": "фиолетовый",
-      "en": "purple"
+      "en": "purple",
+      "examples": [
+        {
+          "id": "Bunga ungu di taman.",
+          "ru": "Фиолетовые цветы в саду."
+        },
+        {
+          "id": "Saya suka warna ungu.",
+          "ru": "Мне нравится фиолетовый."
+        },
+        {
+          "id": "Anggur ungu.",
+          "ru": "Фиолетовый виноград."
+        }
+      ]
     },
     {
       "id": "oranye",
       "ru": "оранжевый",
-      "en": "orange"
+      "en": "orange",
+      "examples": [
+        {
+          "id": "Jeruk oranye segar.",
+          "ru": "Оранжевые апельсины свежие."
+        },
+        {
+          "id": "Senja oranye indah.",
+          "ru": "Оранжевый закат красив."
+        },
+        {
+          "id": "Baju oranye terang.",
+          "ru": "Оранжевая одежда яркая."
+        }
+      ]
     },
     {
       "id": "jingga",
       "ru": "оранжевый",
-      "en": "orange"
+      "en": "orange",
+      "examples": [
+        {
+          "id": "Langit jingga waktu senja.",
+          "ru": "Небо оранжевое на закате."
+        },
+        {
+          "id": "Bunga jingga indah.",
+          "ru": "Оранжевый цветок красив."
+        },
+        {
+          "id": "Warna jingga hangat.",
+          "ru": "Оранжевый цвет тёплый."
+        }
+      ]
     },
     {
       "id": "merah muda",
       "ru": "розовый",
-      "en": "pink"
+      "en": "pink",
+      "examples": [
+        {
+          "id": "Baju merah muda lucu.",
+          "ru": "Розовая одежда милая."
+        },
+        {
+          "id": "Bunga merah muda harum.",
+          "ru": "Розовые цветы душистые."
+        },
+        {
+          "id": "Anak perempuan suka merah muda.",
+          "ru": "Девочки любят розовый."
+        }
+      ]
     },
     {
       "id": "perak",
       "ru": "серебряный",
-      "en": "silver"
+      "en": "silver",
+      "examples": [
+        {
+          "id": "Cincin perak.",
+          "ru": "Серебряное кольцо."
+        },
+        {
+          "id": "Medali perak.",
+          "ru": "Серебряная медаль."
+        },
+        {
+          "id": "Mobil perak mengkilap.",
+          "ru": "Серебристая машина блестит."
+        }
+      ]
     },
     {
       "id": "emas",
       "ru": "золотой",
-      "en": "gold"
+      "en": "gold",
+      "examples": [
+        {
+          "id": "Cincin emas mahal.",
+          "ru": "Золотое кольцо дорогое."
+        },
+        {
+          "id": "Medali emas juara.",
+          "ru": "Золотая медаль чемпиона."
+        },
+        {
+          "id": "Matahari emas senja.",
+          "ru": "Золотое солнце на закате."
+        }
+      ]
     }
   ]
 }
