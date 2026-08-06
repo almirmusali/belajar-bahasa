@@ -27,9 +27,9 @@ import { useLocale } from "@/lib/use-locale";
 import { t, tf } from "@/lib/i18n";
 import { audioUrl } from "@/lib/audio-url";
 import {
-  countCached,
+  countReady,
+  downloadSet,
   getPlayableUrl,
-  prefetchToCache,
   warm,
 } from "@/lib/audio-cache";
 import {
@@ -468,7 +468,7 @@ export function FlashcardPlayer({
   const [offline, setOffline] = useState({ done: 0, busy: false });
   useEffect(() => {
     let alive = true;
-    countCached(setAudioUrls).then((n) => {
+    countReady(setAudioUrls).then((n) => {
       if (alive) setOffline((o) => (o.busy ? o : { done: n, busy: false }));
     });
     return () => {
@@ -479,13 +479,12 @@ export function FlashcardPlayer({
   const downloadSetAudio = async () => {
     if (offline.busy) return;
     setOffline({ done: 0, busy: true });
-    await prefetchToCache(setAudioUrls, {
+    const ready = await downloadSet(setAudioUrls, {
       onProgress: (done) => setOffline({ done, busy: true }),
     });
-    // Итог берём из самого кеша, а не из числа скачанных: часть файлов могла
-    // не сохраниться (нет места, не поднялся service worker), и обещать
-    // работу без сети в таком случае нельзя.
-    setOffline({ done: await countCached(setAudioUrls), busy: false });
+    // Итог берём по факту готовых файлов, а не по числу попыток: часть могла
+    // не скачаться, и обещать работу без сети в таком случае нельзя.
+    setOffline({ done: ready, busy: false });
   };
 
   const flip = useCallback(() => setSide((s) => (s === 0 ? 1 : 0)), []);

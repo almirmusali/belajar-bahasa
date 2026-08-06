@@ -9,59 +9,85 @@
  * и фраза просто пропадала. Плюс медиа-запросы Safari шлёт с Range-заголовком,
  * а service worker отдаёт на них целый ответ, и это тоже иногда не проигрывалось.
  *
- * Теперь файл сначала скачивается обычным fetch (его кеширует service worker,
- * см. public/sw.js), а элементу отдаётся blob: — то есть данные, которые уже
- * лежат в памяти. Сеть перестаёт участвовать в моменте воспроизведения.
+ * Теперь файл сначала скачивается обычным fetch, а элементу отдаётся blob: —
+ * то есть данные, которые уже лежат в памяти. Сеть перестаёт участвовать в
+ * моменте воспроизведения.
+ *
+ * Два уровня:
+ *  - «горячие» blob'ы вокруг текущей карточки, с вытеснением по давности;
+ *  - закреплённый набор — то, что пользователь скачал кнопкой; не вытесняется,
+ *    пока он не откроет другой набор.
+ *
+ * Если сайт открыт по https (или с localhost), поверх этого работает ещё и
+ * кеш service worker'а — тогда озвучка переживает перезагрузку. По http
+ * Cache API браузером не даётся вовсе, поэтому память — единственный уровень.
  */
 
-// Blob'ы держим в памяти ограниченно: набор целиком — это мегабайты, а
-// телефону это память. Порядок вставки в Map = порядок вытеснения.
 const MAX_BLOBS = 120;
+// Самый большой набор словаря — 177 слов на три языка, 531 файл.
+const MAX_PINNED = 600;
+
 const blobs = new Map<string, string>();
+const pinned = new Map<string, string>();
 const inflight = new Map<string, Promise<string>>();
 
-function remember(url: string, objectUrl: string) {
-  blobs.set(url, objectUrl);
-  while (blobs.size > MAX_BLOBS) {
-    const oldest = blobs.keys().next().value;
+function lookup(url: string): string | undefined {
+  const kept = pinned.get(url);
+  if (kept) return kept;
+  const hot = blobs.get(url);
+  if (hot) {
+    // Освежаем позицию в очереди вытеснения.
+    blobs.delete(url);
+    blobs.set(url, hot);
+  }
+  return hot;
+}
+
+function release(url: string, objectUrl: string) {
+  // Один и тот же файл может лежать на обоих уровнях — отзываем только когда
+  // его больше никто не держит, иначе оборвём то, что сейчас играет.
+  if (pinned.get(url) === objectUrl || blobs.get(url) === objectUrl) return;
+  URL.revokeObjectURL(objectUrl);
+}
+
+function remember(url: string, objectUrl: string, keep: boolean) {
+  const store = keep ? pinned : blobs;
+  const limit = keep ? MAX_PINNED : MAX_BLOBS;
+  store.set(url, objectUrl);
+  while (store.size > limit) {
+    const oldest = store.keys().next().value;
     if (oldest === undefined) break;
-    const dead = blobs.get(oldest);
-    blobs.delete(oldest);
-    // Вытесняем самое давнее — то, что играло десятки карточек назад.
-    if (dead) URL.revokeObjectURL(dead);
+    const dead = store.get(oldest);
+    store.delete(oldest);
+    if (dead) release(oldest, dead);
+  }
+}
+
+async function fetchBlobUrl(url: string, keep: boolean): Promise<string> {
+  try {
+    const res = await fetch(url);
+    if (!res.ok) return url;
+    const objectUrl = URL.createObjectURL(await res.blob());
+    remember(url, objectUrl, keep);
+    return objectUrl;
+  } catch {
+    // Сеть не дала — пусть элемент попробует сам, вдруг ответит service worker.
+    return url;
   }
 }
 
 /**
  * URL, который можно отдать `<audio>`: blob, если файл удалось скачать.
- * Если скачать не вышло, возвращается исходный адрес — пусть элемент
- * попробует сам, вдруг ответит service worker.
+ * Если скачать не вышло, возвращается исходный адрес.
  */
 export function getPlayableUrl(url: string): Promise<string> {
-  const hit = blobs.get(url);
-  if (hit) {
-    // Освежаем позицию в очереди вытеснения.
-    blobs.delete(url);
-    blobs.set(url, hit);
-    return Promise.resolve(hit);
-  }
+  const hit = lookup(url);
+  if (hit) return Promise.resolve(hit);
 
   const pending = inflight.get(url);
   if (pending) return pending;
 
-  const task = (async () => {
-    try {
-      const res = await fetch(url);
-      if (!res.ok) return url;
-      const objectUrl = URL.createObjectURL(await res.blob());
-      remember(url, objectUrl);
-      return objectUrl;
-    } catch {
-      return url;
-    } finally {
-      inflight.delete(url);
-    }
-  })();
+  const task = fetchBlobUrl(url, false).finally(() => inflight.delete(url));
   inflight.set(url, task);
   return task;
 }
@@ -69,25 +95,34 @@ export function getPlayableUrl(url: string): Promise<string> {
 /** Скачать заранее, ничего не проигрывая. Ошибки не важны: это подготовка. */
 export function warm(urls: string[]): void {
   for (const url of urls) {
-    if (blobs.has(url) || inflight.has(url)) continue;
+    if (lookup(url) || inflight.has(url)) continue;
     void getPlayableUrl(url);
   }
 }
 
 /**
- * Положить набор в кеш service worker'а — чтобы озвучка работала вообще без
- * сети. В память blob'ы при этом не тянем: набор целиком туда не влезет.
+ * Скачать набор целиком и закрепить в памяти — чтобы озвучка не зависела от
+ * сети вообще. Возвращает, сколько файлов реально готово.
  */
-export async function prefetchToCache(
+export async function downloadSet(
   urls: string[],
   opts: {
     onProgress?: (done: number, total: number) => void;
     signal?: AbortSignal;
     concurrency?: number;
   } = {},
-): Promise<void> {
+): Promise<number> {
   const { onProgress, signal, concurrency = 4 } = opts;
-  const queue = [...new Set(urls)];
+  const wanted = new Set(urls);
+
+  // Прошлый набор больше не нужен — освобождаем память.
+  for (const [url, objectUrl] of [...pinned]) {
+    if (wanted.has(url)) continue;
+    pinned.delete(url);
+    release(url, objectUrl);
+  }
+
+  const queue = [...wanted];
   const total = queue.length;
   let done = 0;
 
@@ -96,13 +131,13 @@ export async function prefetchToCache(
       if (signal?.aborted) return;
       const url = queue.shift();
       if (!url) return;
-      try {
-        const res = await fetch(url);
-        // Тело нужно дочитать: пока оно не прочитано, service worker не
-        // успевает положить ответ в кеш.
-        if (res.ok) await res.arrayBuffer();
-      } catch {
-        // Один недокачанный файл не повод останавливать всё.
+      const hot = blobs.get(url);
+      if (hot) {
+        // Уже качали по ходу озвучки — просто переводим в закреплённые.
+        blobs.delete(url);
+        remember(url, hot, true);
+      } else if (!pinned.has(url)) {
+        await fetchBlobUrl(url, true);
       }
       onProgress?.(++done, total);
     }
@@ -111,26 +146,36 @@ export async function prefetchToCache(
   await Promise.all(
     Array.from({ length: Math.min(concurrency, total) }, worker),
   );
+  return countReadySync(urls);
+}
+
+function countReadySync(urls: string[]): number {
+  let n = 0;
+  for (const url of new Set(urls)) if (lookup(url)) n++;
+  return n;
 }
 
 /**
- * Сколько из этих файлов уже лежит в кеше service worker'а.
- * Считаем одним проходом по ключам кеша: поштучный caches.match на пол-тысячи
+ * Сколько файлов готово играть без сети: в памяти или в кеше service worker'а.
+ * Кеш обходим одним проходом по ключам — поштучный caches.match на пол-тысячи
  * адресов заметно тормозит при открытии набора.
  */
-export async function countCached(urls: string[]): Promise<number> {
-  if (typeof caches === "undefined") return 0;
+export async function countReady(urls: string[]): Promise<number> {
   const wanted = new Set(urls);
-  let n = 0;
+  const ready = new Set<string>();
+  for (const url of wanted) if (lookup(url)) ready.add(url);
+
+  if (typeof caches === "undefined") return ready.size;
   try {
     for (const name of await caches.keys()) {
       const cache = await caches.open(name);
       for (const req of await cache.keys()) {
-        if (wanted.has(new URL(req.url).pathname)) n++;
+        const path = new URL(req.url).pathname;
+        if (wanted.has(path)) ready.add(path);
       }
     }
   } catch {
-    return n;
+    return ready.size;
   }
-  return n;
+  return ready.size;
 }
