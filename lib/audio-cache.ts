@@ -124,6 +124,20 @@ export async function downloadSet(
   const { onProgress, signal, concurrency = 4 } = opts;
   const wanted = new Set(urls);
 
+  // Ждём, пока service worker возьмёт страницу под контроль: запросы, ушедшие
+  // раньше, он не увидит и в кеш не положит — при первом заходе так терялась
+  // часть набора, и после перезагрузки приходилось докачивать.
+  if (typeof navigator !== "undefined" && "serviceWorker" in navigator) {
+    try {
+      await Promise.race([
+        navigator.serviceWorker.ready,
+        new Promise((resolve) => setTimeout(resolve, 3000)),
+      ]);
+    } catch {
+      // Нет service worker'а — просто качаем в память.
+    }
+  }
+
   // Прошлый набор больше не нужен — освобождаем память.
   for (const [url, objectUrl] of [...pinned]) {
     if (wanted.has(url)) continue;
