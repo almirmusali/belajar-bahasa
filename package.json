@@ -7,7 +7,11 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "gen-icons": "node scripts/gen-icons.mjs"
+    "gen-icons": "node scripts/gen-icons.mjs",
+    "audio:voices": "node scripts/generate-audio-voicer.mjs voices",
+    "audio:sample": "node scripts/generate-audio-voicer.mjs sample",
+    "audio:dry": "node scripts/generate-audio-voicer.mjs --dry",
+    "audio:gen": "node scripts/generate-audio-voicer.mjs"
   },
   "dependencies": {
     "@supabase/ssr": "^0.10.3",

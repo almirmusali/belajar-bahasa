@@ -2,11 +2,15 @@
 // Стратегии:
 //  - HTML / navigation: network-first → cache fallback
 //    Это значит свежие страницы при онлайне, и кеш когда нет сети.
-//  - Статика (JS, CSS, изображения): cache-first → network fallback
-//    Закешированные ассеты грузятся мгновенно, новые ходят за сетью.
-//  - Чужой origin (Supabase, OpenAI и т.п.): не вмешиваемся.
+//  - RSC-пейлоады Next (?_rsc=…): network-first, как и HTML.
+//    Это не статика: они привязаны к buildId. Закешированный навсегда
+//    RSC от старой сборки вместе со свежими чанками роняет гидрацию
+//    («client-side exception»), поэтому cache-first тут недопустим.
+//  - Статика (JS, CSS, изображения, аудио): cache-first → network fallback.
+//    Имена файлов content-hashed, так что старый файл никогда не «просрочен».
+//  - Чужой origin (Supabase и т.п.): не вмешиваемся.
 
-const VERSION = "v5";
+const VERSION = "v6";
 const CACHE = `belajar-${VERSION}`;
 
 // Маршруты, которые предзагружаются сразу при установке SW —
@@ -63,9 +67,23 @@ self.addEventListener("fetch", (event) => {
   // Только наш origin — чужие домены (Supabase Storage, OpenAI) не трогаем
   if (url.origin !== self.location.origin) return;
 
+  // RSC-пейлоад: Next дозапрашивает данные маршрута при клиентской навигации.
+  // Помечен либо query-параметром _rsc, либо заголовком RSC/Accept.
+  const isRSC =
+    url.searchParams.has("_rsc") ||
+    req.headers.get("rsc") === "1" ||
+    (req.headers.get("accept") || "").includes("text/x-component");
+
   const isHTML =
     req.mode === "navigate" ||
     (req.headers.get("accept") || "").includes("text/html");
+
+  if (isRSC) {
+    // RSC вообще не кешируем: оффлайновый пейлоад от прошлой сборки опаснее,
+    // чем неудавшийся запрос. При ошибке Next сам сделает полную навигацию.
+    event.respondWith(fetch(req));
+    return;
+  }
 
   if (isHTML) {
     // Network-first для HTML: свежие версии быстро доезжают, фоллбек на кеш оффлайн

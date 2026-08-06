@@ -34,3 +34,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# временные сэмплы голосов из scripts/generate-audio-elevenlabs.mjs sample
+/public/audio/_samples
+
+# временные архивы чанков от Voicer
+/.audio-tmp

@@ -33,6 +33,13 @@ export function SWRegister() {
       } catch {}
     };
 
+    // Гидрация обычно происходит уже после события load — если просто
+    // подписаться на него, обработчик не выстрелит никогда, и SW не обновится
+    // (залипший кеш от старой сборки роняет гидрацию «client-side exception»).
+    if (document.readyState === "complete") {
+      onLoad();
+      return;
+    }
     window.addEventListener("load", onLoad);
     return () => window.removeEventListener("load", onLoad);
   }, []);

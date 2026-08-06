@@ -2,24 +2,13 @@
 
 import { Volume2 } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { speakId } from "@/lib/speak-id";
 
 export function SpeakButton({ text, className }: { text: string; className?: string }) {
-  function speak() {
-    if (typeof window === "undefined" || !("speechSynthesis" in window)) return;
-    const utter = new SpeechSynthesisUtterance(text);
-    utter.lang = "id-ID";
-    utter.rate = 0.95;
-    const voices = window.speechSynthesis.getVoices();
-    const idVoice = voices.find((v) => v.lang === "id-ID" || v.lang.startsWith("id"));
-    if (idVoice) utter.voice = idVoice;
-    window.speechSynthesis.cancel();
-    window.speechSynthesis.speak(utter);
-  }
-
   return (
     <button
       type="button"
-      onClick={speak}
+      onClick={() => speakId(text)}
       title="Прослушать"
       aria-label={`Произнести: ${text}`}
       className={cn(

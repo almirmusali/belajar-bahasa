@@ -6,6 +6,7 @@ import { Volume2, X } from "lucide-react";
 import { useLearned, useMounted } from "@/lib/use-learned";
 import { useLocale } from "@/lib/use-locale";
 import { t, tf } from "@/lib/i18n";
+import { speakId } from "@/lib/speak-id";
 import type { VocabSet } from "@/lib/vocab";
 
 export function LearnedList({ sets }: { sets: VocabSet[] }) {
@@ -26,14 +27,7 @@ export function LearnedList({ sets }: { sets: VocabSet[] }) {
 
   const totalLearned = groups.reduce((s, g) => s + g.words.length, 0);
 
-  function speak(text: string) {
-    if (typeof window === "undefined" || !("speechSynthesis" in window)) return;
-    window.speechSynthesis.cancel();
-    const u = new SpeechSynthesisUtterance(text);
-    u.lang = "id-ID";
-    u.rate = 0.95;
-    window.speechSynthesis.speak(u);
-  }
+  const speak = speakId;
 
   if (!mounted) {
     return (

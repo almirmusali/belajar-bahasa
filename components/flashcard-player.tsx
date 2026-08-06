@@ -25,6 +25,15 @@ import { useSetState, readSetState } from "@/lib/use-set-state";
 import { useLocale } from "@/lib/use-locale";
 import { t, tf } from "@/lib/i18n";
 import { audioUrl } from "@/lib/audio-url";
+import {
+  SILENCE_URL,
+  playUrl,
+  setMediaSessionHandlers,
+  setMediaSessionMetadata,
+  setMediaSessionPlaying,
+  stopAudioElement,
+  unlockAudio,
+} from "@/lib/audio-element";
 import { cn } from "@/lib/utils";
 
 type Direction = "target-first" | "translation-first";
@@ -88,8 +97,11 @@ export function FlashcardPlayer({
   const [direction, setDirection] = useState<Direction>("target-first");
   const [playing, setPlaying] = useState(false);
   const [speed, setSpeed] = useState(3);
+  // По умолчанию озвучиваются все три языка: на стороне цели — сама цель,
+  // на стороне перевода — оба перевода (английский и родной). Раньше родной
+  // язык был выключен, и перевод звучал только по-английски.
   const [langs, setLangs] = useState<Lang[]>(() =>
-    locale === "ru" ? ["id", "en"] : ["ru", "en"],
+    locale === "ru" ? ["id", "en", "ru"] : ["ru", "en", "id"],
   );
   const [hideLearned, setHideLearned] = useState(true);
   const [studyMode, setStudyMode] = useState(false);
@@ -109,7 +121,7 @@ export function FlashcardPlayer({
 
   // При переключении языка интерфейса обновляем дефолтные чипы озвучки
   useEffect(() => {
-    setLangs(locale === "ru" ? ["id", "en"] : ["ru", "en"]);
+    setLangs(locale === "ru" ? ["id", "en", "ru"] : ["ru", "en", "id"]);
     setSide(0);
   }, [locale]);
 
@@ -160,46 +172,33 @@ export function FlashcardPlayer({
     return side === 0 ? "translation" : "target";
   }, [side, direction]);
 
-  const audioElRef = useRef<HTMLAudioElement | null>(null);
   const chainTokenRef = useRef(0);
+  // Асинхронные обработчики озвучки живут дольше рендера, поэтому актуальные
+  // значения читаются через ref, а не из замыкания.
+  const playingRef = useRef(false);
+  const sideRef = useRef(0);
+  const advanceRef = useRef<() => void>(() => {});
 
   function stopAllPlayback() {
-    if (audioElRef.current) {
-      audioElRef.current.pause();
-      audioElRef.current.src = "";
-      audioElRef.current = null;
-    }
+    stopAudioElement();
     if (typeof window !== "undefined" && "speechSynthesis" in window) {
       window.speechSynthesis.cancel();
     }
   }
 
-  function tryRemoteAudio(text: string, lang: Lang): Promise<boolean> {
-    return new Promise((resolve) => {
-      const url = audioUrl(text, lang);
-      if (!url) return resolve(false);
-      const audio = new Audio(url);
-      audio.preload = "auto";
-      audioElRef.current = audio;
-      let resolved = false;
-      let startedPlaying = false;
-      const done = (ok: boolean) => {
-        if (resolved) return;
-        resolved = true;
-        if (audioElRef.current === audio) audioElRef.current = null;
-        resolve(ok);
-      };
-      audio.onplaying = () => {
-        startedPlaying = true;
-      };
-      audio.onended = () => done(true);
-      // Если ошибка или пауза случилась уже после старта проигрывания —
-      // считаем что аудио уже отыграло, fallback на Web Speech не делаем
-      // (иначе пользователь услышит то же слово дважды: частичный MP3 + полный Web Speech).
-      audio.onerror = () => done(startedPlaying);
-      audio.onpause = () => done(startedPlaying);
-      audio.play().catch(() => done(false));
-    });
+  // Играет на общем переиспользуемом элементе (см. lib/audio-element.ts) —
+  // только он сохраняет право звучать, когда приложение уходит в фон.
+  async function tryRemoteAudio(
+    text: string,
+    lang: Lang,
+    isCurrent: () => boolean,
+  ): Promise<boolean> {
+    const url = audioUrl(text, lang);
+    if (!url) return false;
+    const outcome = await playUrl(url, isCurrent);
+    // "error" = файла нет, ниже отработает системный голос.
+    // "cancelled" = нас прервали; сообщаем «сыграло», чтобы не читать повторно.
+    return outcome !== "error";
   }
 
   function playWebSpeech(text: string, lang: Lang): Promise<void> {
@@ -229,22 +228,26 @@ export function FlashcardPlayer({
     });
   }
 
+  // Возвращает true, если цепочка доиграла целиком и её не прервали —
+  // по этому признаку в фоне двигаем карточку дальше.
   const speakChain = useCallback(
     async (items: Array<{ text: string; lang: Lang }>) => {
-      if (typeof window === "undefined") return;
+      if (typeof window === "undefined") return false;
       const myToken = ++chainTokenRef.current;
+      const isCurrent = () => chainTokenRef.current === myToken;
       stopAllPlayback();
-      if (items.length === 0) return;
+      if (items.length === 0) return false;
 
       for (const item of items) {
-        if (chainTokenRef.current !== myToken) return;
-        const ok = await tryRemoteAudio(item.text, item.lang);
-        if (chainTokenRef.current !== myToken) return;
+        if (!isCurrent()) return false;
+        const ok = await tryRemoteAudio(item.text, item.lang, isCurrent);
+        if (!isCurrent()) return false;
         if (!ok) {
           await playWebSpeech(item.text, item.lang);
-          if (chainTokenRef.current !== myToken) return;
+          if (!isCurrent()) return false;
         }
       }
+      return true;
     },
     [],
   );
@@ -273,7 +276,21 @@ export function FlashcardPlayer({
         if (text) chain.push({ text, lang: native });
       }
     }
-    speakChain(chain);
+    let cancelled = false;
+    speakChain(chain).then(async (finished) => {
+      if (cancelled || !finished) return;
+      // В фоне (другое приложение, погасший экран) iOS придушивает таймеры,
+      // и автопрокрутка по setTimeout встаёт. Поэтому пока страница скрыта,
+      // сторону переключает сама озвучка: доиграла — пауза тишиной — дальше.
+      // Пауза сделана звуком намеренно: она не зависит от таймеров.
+      if (!playingRef.current || !document.hidden) return;
+      await playUrl(SILENCE_URL, () => !cancelled);
+      if (cancelled || !playingRef.current || !document.hidden) return;
+      advanceRef.current();
+    });
+    return () => {
+      cancelled = true;
+    };
   }, [
     pos,
     side,
@@ -301,17 +318,69 @@ export function FlashcardPlayer({
     );
   }, [effectiveOrder.length]);
 
+  // На самой быстрой скорости сторона перевода не успевает: там звучат два
+  // языка подряд (английский и родной), 1.5 с на оба не хватает.
+  const sideSeconds = useMemo(
+    () => (speed === 1.5 && sideKind !== "target" ? speed + 1 : speed),
+    [speed, sideKind],
+  );
+
+  // Один шаг автопрокрутки: сначала переворот на перевод, потом следующее слово.
+  // Дёргается и таймером (когда экран виден), и озвучкой (когда мы в фоне).
+  const advance = useCallback(() => {
+    if (effectiveOrder.length === 0) return;
+    if (sideRef.current === 0) setSide(1);
+    else {
+      setSide(0);
+      setPos((p) => (p + 1) % effectiveOrder.length);
+    }
+  }, [effectiveOrder.length]);
+
+  useEffect(() => {
+    playingRef.current = playing;
+    sideRef.current = side;
+    advanceRef.current = advance;
+  }, [playing, side, advance]);
+
+  // Возврат из фона должен снова запустить таймер: эффект автопрокрутки
+  // читает document.hidden, поэтому ему нужен повод пересчитаться.
+  const [hidden, setHidden] = useState(false);
+  useEffect(() => {
+    const sync = () => setHidden(document.hidden);
+    sync();
+    document.addEventListener("visibilitychange", sync);
+    return () => document.removeEventListener("visibilitychange", sync);
+  }, []);
+
+  // Экран блокировки и кнопки на наушниках.
+  useEffect(() => {
+    setMediaSessionHandlers({
+      play: () => setPlaying(true),
+      pause: () => setPlaying(false),
+      nexttrack: () => next(),
+      previoustrack: () => prev(),
+    });
+  }, [next, prev]);
+
+  useEffect(() => {
+    setMediaSessionPlaying(playing);
+  }, [playing]);
+
+  useEffect(() => {
+    if (!current) return;
+    const title = textFor(current, target) ?? current.id;
+    const subtitle = textFor(current, native) ?? "";
+    setMediaSessionMetadata(title, subtitle);
+  }, [current, target, native]);
+
   useEffect(() => {
     if (!playing || effectiveOrder.length === 0) return;
-    const t = setTimeout(() => {
-      if (side === 0) setSide(1);
-      else {
-        setSide(0);
-        setPos((p) => (p + 1) % effectiveOrder.length);
-      }
-    }, speed * 1000);
+    // В фоне сторону двигает озвучка (см. эффект цепочки), таймер там всё
+    // равно не сработает — не дублируем.
+    if (hidden) return;
+    const t = setTimeout(advance, sideSeconds * 1000);
     return () => clearTimeout(t);
-  }, [playing, side, pos, speed, effectiveOrder.length]);
+  }, [playing, side, pos, sideSeconds, effectiveOrder.length, advance, hidden]);
 
   const timerRef = useRef<HTMLDivElement | null>(null);
   useEffect(() => {
@@ -320,9 +389,10 @@ export function FlashcardPlayer({
     el.style.animation = "none";
     el.offsetHeight;
     if (playing) {
-      el.style.animation = `flashcard-tick ${speed}s linear forwards`;
+      // Полоса-таймер должна идти ровно столько, сколько живёт сторона.
+      el.style.animation = `flashcard-tick ${sideSeconds}s linear forwards`;
     }
-  }, [playing, side, pos, speed]);
+  }, [playing, side, pos, sideSeconds]);
 
   const shuffle = () => {
     const next = [...baseOrder];
@@ -390,6 +460,9 @@ export function FlashcardPlayer({
   };
 
   const handleCardClick = () => {
+    // Разрешение на звук выдаётся только из обработчика касания. Берём его
+    // при любом касании карточки, чтобы потом озвучка работала и в фоне.
+    unlockAudio();
     if (swipedRef.current) {
       swipedRef.current = false;
       return;
@@ -592,32 +665,35 @@ export function FlashcardPlayer({
                 {current.examples.slice(0, 3).map((ex, i) => (
                   <li key={i} className="text-center leading-snug">
                     {sideKind === "target" ? (
-                      <div
+                      <ExampleLine
+                        text={locale === "ru" ? ex.id : ex.ru}
+                        lang={locale === "ru" ? "id" : "ru"}
+                        onSpeak={speakOne}
                         className={cn(
-                          "text-center text-muted-foreground",
+                          "text-muted-foreground",
                           studyMode ? "text-base sm:text-lg" : "text-sm",
                         )}
-                      >
-                        {locale === "ru" ? ex.id : ex.ru}
-                      </div>
+                      />
                     ) : (
                       <>
-                        <div
+                        <ExampleLine
+                          text={ex.id}
+                          lang="id"
+                          onSpeak={speakOne}
                           className={cn(
-                            "text-center text-muted-foreground",
+                            "text-muted-foreground",
                             studyMode ? "text-base sm:text-lg" : "text-sm",
                           )}
-                        >
-                          {ex.id}
-                        </div>
-                        <div
+                        />
+                        <ExampleLine
+                          text={ex.ru}
+                          lang="ru"
+                          onSpeak={speakOne}
                           className={cn(
-                            "text-center text-muted-foreground/70",
+                            "text-muted-foreground/70",
                             studyMode ? "text-sm sm:text-base" : "text-xs",
                           )}
-                        >
-                          {ex.ru}
-                        </div>
+                        />
                       </>
                     )}
                   </li>
@@ -648,7 +724,10 @@ export function FlashcardPlayer({
         </IconButton>
         <button
           type="button"
-          onClick={() => setPlaying((p) => !p)}
+          onClick={() => {
+            unlockAudio();
+            setPlaying((p) => !p);
+          }}
           className="inline-flex items-center gap-2 rounded-md bg-primary px-5 py-2 text-sm font-medium text-primary-foreground transition hover:bg-primary/90"
         >
           {playing ? (
@@ -865,6 +944,42 @@ export function FlashcardPlayer({
           {isTouch ? t(locale, "fc_swipe_hint") : t(locale, "fc_kbd_hint")}
         </div>
       )}
+    </div>
+  );
+}
+
+/**
+ * Строка примера под карточкой — кликабельна, чтобы прослушать фразу.
+ *
+ * Не <button>: сама карточка уже кнопка (переворот по клику), а кнопка внутри
+ * кнопки — невалидный HTML и ошибка гидрации. Поэтому div с onClick; слово
+ * целиком по-прежнему доступно с клавиатуры через кнопки ID/EN/RU под карточкой.
+ * stopPropagation обязателен, иначе клик долетит до карточки и перевернёт её.
+ */
+function ExampleLine({
+  text,
+  lang,
+  onSpeak,
+  className,
+}: {
+  text: string;
+  lang: Lang;
+  onSpeak: (text: string, lang: Lang) => void;
+  className?: string;
+}) {
+  return (
+    <div
+      onClick={(e) => {
+        e.stopPropagation();
+        onSpeak(text, lang);
+      }}
+      title="Прослушать"
+      className={cn(
+        "cursor-pointer text-balance text-center transition hover:text-foreground",
+        className,
+      )}
+    >
+      {text}
     </div>
   );
 }
