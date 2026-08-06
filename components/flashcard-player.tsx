@@ -5,6 +5,7 @@ import {
   ArrowLeftRight,
   Check,
   CheckCircle2,
+  Download,
   Eye,
   EyeOff,
   GraduationCap,
@@ -25,6 +26,12 @@ import { useSetState, readSetState } from "@/lib/use-set-state";
 import { useLocale } from "@/lib/use-locale";
 import { t, tf } from "@/lib/i18n";
 import { audioUrl } from "@/lib/audio-url";
+import {
+  countCached,
+  getPlayableUrl,
+  prefetchToCache,
+  warm,
+} from "@/lib/audio-cache";
 import {
   SILENCE_URL,
   playUrl,
@@ -172,6 +179,10 @@ export function FlashcardPlayer({
     return side === 0 ? "translation" : "target";
   }, [side, direction]);
 
+  // Сколько карточек скачиваем на опережение. Больше не нужно: этого хватает,
+  // чтобы пережить провал связи, и память не забивается.
+  const LOOKAHEAD_CARDS = 3;
+
   const chainTokenRef = useRef(0);
   // Асинхронные обработчики озвучки живут дольше рендера, поэтому актуальные
   // значения читаются через ref, а не из замыкания.
@@ -239,6 +250,24 @@ export function FlashcardPlayer({
     return items;
   }
 
+  // Скачать вперёд текущую карточку и несколько следующих — обе стороны.
+  // Дома по Wi-Fi это незаметно, а в машине именно тут терялись фразы.
+  function warmAhead(from: number) {
+    const cfg = cfgRef.current;
+    if (cfg.order.length === 0) return;
+    const urls: string[] = [];
+    for (let i = 0; i <= LOOKAHEAD_CARDS; i++) {
+      const p = (from + i) % cfg.order.length;
+      for (const s of [0, 1] as const) {
+        for (const item of itemsAt(p, s)) {
+          const url = audioUrl(item.text, item.lang);
+          if (url) urls.push(url);
+        }
+      }
+    }
+    warm(urls);
+  }
+
   function stopAllPlayback() {
     stopAudioElement();
     if (typeof window !== "undefined" && "speechSynthesis" in window) {
@@ -248,6 +277,8 @@ export function FlashcardPlayer({
 
   // Играет на общем переиспользуемом элементе (см. lib/audio-element.ts) —
   // только он сохраняет право звучать, когда приложение уходит в фон.
+  // Файл берётся из кеша (lib/audio-cache.ts): в машине сеть может не успеть
+  // отдать MP3 к моменту фразы, и тогда фраза пропадала целиком.
   async function tryRemoteAudio(
     text: string,
     lang: Lang,
@@ -255,7 +286,7 @@ export function FlashcardPlayer({
   ): Promise<boolean> {
     const url = audioUrl(text, lang);
     if (!url) return false;
-    const outcome = await playUrl(url, isCurrent);
+    const outcome = await playUrl(await getPlayableUrl(url), isCurrent);
     // "error" = файла нет, ниже отработает системный голос.
     // "cancelled" = нас прервали; сообщаем «сыграло», чтобы не читать повторно.
     return outcome !== "error";
@@ -369,21 +400,29 @@ export function FlashcardPlayer({
     try {
       while (alive()) {
         const { pos: p, side: s } = stateRef.current;
+        // Следующие карточки скачиваем, пока звучит текущая: к своей очереди
+        // они должны быть уже в памяти, а не в пути по сотовой сети.
+        warmAhead(p);
         for (const item of itemsAt(p, s)) {
           if (!alive()) return;
           const url = audioUrl(item.text, item.lang);
-          const outcome = url ? await playUrl(url, alive) : "error";
+          let outcome = url ? await playUrl(await getPlayableUrl(url), alive) : "error";
+          // Сорвалась загрузка — пробуем ещё раз: в дороге связь моргает, а
+          // молчащая фраза заметнее секундной задержки.
+          if (outcome === "error" && url && alive()) {
+            outcome = await playUrl(await getPlayableUrl(url), alive);
+          }
           if (outcome === "cancelled") return;
           // Системный голос в фоне молчит и не присылает событий — ждать его
           // нельзя, петля встанет навсегда. Вместо него держим паузу тишиной.
           if (outcome === "error") {
-            if ((await playUrl(SILENCE_URL, alive)) === "cancelled") return;
+            if ((await playUrl(await getPlayableUrl(SILENCE_URL), alive)) === "cancelled") return;
           }
         }
         if (!alive()) return;
         // Пауза между сторонами. Сделана звуком намеренно: setTimeout в фоне
         // не срабатывает, а ещё пустой элемент теряет право играть дальше.
-        if ((await playUrl(SILENCE_URL, alive)) === "cancelled") return;
+        if ((await playUrl(await getPlayableUrl(SILENCE_URL), alive)) === "cancelled") return;
         if (!alive()) return;
         stepHidden();
       }
@@ -398,6 +437,7 @@ export function FlashcardPlayer({
     if (loopActiveRef.current) return;
     // Озвучка синхронна со стороной карточки: на target-стороне звучит target;
     // на стороне перевода — выбранные помощники (EN и/или native).
+    warmAhead(pos);
     speakChain(itemsAt(pos, side));
   }, [
     pos,
@@ -409,6 +449,44 @@ export function FlashcardPlayer({
     native,
     speakChain,
   ]);
+
+  // Все файлы набора — на все три языка, независимо от чипов озвучки:
+  // скачивают заранее, а переключиться могут потом.
+  const setAudioUrls = useMemo(() => {
+    const urls = new Set<string>();
+    for (const w of words) {
+      for (const lang of ["id", "en", "ru"] as const) {
+        const text = textFor(w, lang);
+        if (!text) continue;
+        const url = audioUrl(text, lang);
+        if (url) urls.add(url);
+      }
+    }
+    return [...urls];
+  }, [words]);
+
+  const [offline, setOffline] = useState({ done: 0, busy: false });
+  useEffect(() => {
+    let alive = true;
+    countCached(setAudioUrls).then((n) => {
+      if (alive) setOffline((o) => (o.busy ? o : { done: n, busy: false }));
+    });
+    return () => {
+      alive = false;
+    };
+  }, [setAudioUrls]);
+
+  const downloadSetAudio = async () => {
+    if (offline.busy) return;
+    setOffline({ done: 0, busy: true });
+    await prefetchToCache(setAudioUrls, {
+      onProgress: (done) => setOffline({ done, busy: true }),
+    });
+    // Итог берём из самого кеша, а не из числа скачанных: часть файлов могла
+    // не сохраниться (нет места, не поднялся service worker), и обещать
+    // работу без сети в таком случае нельзя.
+    setOffline({ done: await countCached(setAudioUrls), busy: false });
+  };
 
   const flip = useCallback(() => setSide((s) => (s === 0 ? 1 : 0)), []);
   const next = useCallback(() => {
@@ -1037,6 +1115,48 @@ export function FlashcardPlayer({
                   langs: langs.map((l) => LANG_META[l].label).join(" · "),
                 })}
           </div>
+
+          {/* Оффлайн: в машине сеть моргает, и фразы пропадали поодиночке. */}
+          {(() => {
+            const total = setAudioUrls.length;
+            const ready = !offline.busy && offline.done >= total && total > 0;
+            return (
+              <div className="space-y-1 pt-1">
+                <button
+                  type="button"
+                  onClick={downloadSetAudio}
+                  disabled={offline.busy || ready}
+                  className="inline-flex items-center gap-2 rounded-md border px-3 py-1.5 text-sm transition hover:bg-secondary disabled:cursor-default disabled:opacity-70"
+                >
+                  {ready ? (
+                    <Check className="h-4 w-4 text-primary" />
+                  ) : (
+                    <Download
+                      className={cn("h-4 w-4", offline.busy && "animate-pulse")}
+                    />
+                  )}
+                  {offline.busy
+                    ? tf(locale, "fc_offline_downloading", {
+                        done: String(offline.done),
+                        total: String(total),
+                      })
+                    : ready
+                      ? t(locale, "fc_offline_ready")
+                      : offline.done > 0
+                        ? tf(locale, "fc_offline_partial", {
+                            done: String(offline.done),
+                            total: String(total),
+                          })
+                        : t(locale, "fc_offline_download")}
+                </button>
+                {!ready && !offline.busy && (
+                  <div className="text-xs text-muted-foreground">
+                    {t(locale, "fc_offline_hint")}
+                  </div>
+                )}
+              </div>
+            );
+          })()}
         </Field>
 
         <Field label={t(locale, "fc_settings_learned")}>
