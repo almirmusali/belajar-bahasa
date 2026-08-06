@@ -30,6 +30,7 @@ import {
   countReady,
   downloadSet,
   getPlayableUrl,
+  hasPersistentCache,
   warm,
 } from "@/lib/audio-cache";
 import {
@@ -1148,9 +1149,13 @@ export function FlashcardPlayer({
                           })
                         : t(locale, "fc_offline_download")}
                 </button>
-                {!ready && !offline.busy && (
+                {!offline.busy && (
                   <div className="text-xs text-muted-foreground">
-                    {t(locale, "fc_offline_hint")}
+                    {ready
+                      ? hasPersistentCache()
+                        ? null
+                        : t(locale, "fc_offline_session")
+                      : t(locale, "fc_offline_hint")}
                   </div>
                 )}
               </div>

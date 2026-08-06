@@ -92,6 +92,15 @@ export function getPlayableUrl(url: string): Promise<string> {
   return task;
 }
 
+/**
+ * Переживёт ли скачанное перезагрузку страницы. По http браузер не даёт
+ * Cache API вовсе, и набор живёт только в памяти вкладки — об этом честнее
+ * сказать в интерфейсе, чем обещать оффлайн навсегда.
+ */
+export function hasPersistentCache(): boolean {
+  return typeof caches !== "undefined";
+}
+
 /** Скачать заранее, ничего не проигрывая. Ошибки не важны: это подготовка. */
 export function warm(urls: string[]): void {
   for (const url of urls) {
