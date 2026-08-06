@@ -177,7 +177,67 @@ export function FlashcardPlayer({
   // значения читаются через ref, а не из замыкания.
   const playingRef = useRef(false);
   const sideRef = useRef(0);
-  const advanceRef = useRef<() => void>(() => {});
+
+  // Снимок всего, что нужно озвучке. Фоновая петля (см. runHiddenLoop) живёт
+  // вне ререндера, поэтому читает данные отсюда, а не из замыкания.
+  const cfgRef = useRef({
+    words,
+    order: effectiveOrder,
+    langs,
+    target,
+    native,
+    direction,
+  });
+  useEffect(() => {
+    cfgRef.current = {
+      words,
+      order: effectiveOrder,
+      langs,
+      target,
+      native,
+      direction,
+    };
+  }, [words, effectiveOrder, langs, target, native, direction]);
+
+  const stateRef = useRef<{ pos: number; side: 0 | 1 }>({ pos, side });
+  const loopTokenRef = useRef(0);
+  const loopActiveRef = useRef(false);
+  useEffect(() => {
+    // Пока идёт фоновая петля, позиция ведётся ею: ререндер в фоне может
+    // прийти с опозданием и откатить ref назад.
+    if (!loopActiveRef.current) stateRef.current = { pos, side };
+  }, [pos, side]);
+
+  // Что звучит на такой-то карточке и стороне. Одна и та же логика нужна и
+  // эффекту (страница на экране), и фоновой петле.
+  function itemsAt(p: number, s: 0 | 1): Array<{ text: string; lang: Lang }> {
+    const cfg = cfgRef.current;
+    const word = cfg.words[cfg.order[p]];
+    if (!word) return [];
+    const kind: SideKind =
+      cfg.direction === "target-first"
+        ? s === 0
+          ? "target"
+          : "translation"
+        : s === 0
+          ? "translation"
+          : "target";
+    const set = new Set(cfg.langs);
+    const items: Array<{ text: string; lang: Lang }> = [];
+    if (kind === "target") {
+      if (set.has(cfg.target)) {
+        const text = textFor(word, cfg.target);
+        if (text) items.push({ text, lang: cfg.target });
+      }
+    } else {
+      if (set.has("en") && word.en) items.push({ text: word.en, lang: "en" });
+      if (set.has(cfg.native)) {
+        const text = textFor(word, cfg.native);
+        if (text) items.push({ text, lang: cfg.native });
+      }
+    }
+    return items;
+  }
 
   function stopAllPlayback() {
     stopAudioElement();
@@ -216,14 +276,19 @@ export function FlashcardPlayer({
       );
       if (voice) u.voice = voice;
       let resolved = false;
+      let guard = 0;
       const done = () => {
         if (!resolved) {
           resolved = true;
+          clearTimeout(guard);
           resolve();
         }
       };
       u.onend = done;
       u.onerror = done;
+      // Системный голос умеет промолчать вообще без событий (нет голоса на
+      // язык, страница ушла в фон). Без страховки цепочка встанет навсегда.
+      guard = window.setTimeout(done, 2000 + text.length * 120);
       window.speechSynthesis.speak(u);
     });
   }
@@ -257,40 +322,83 @@ export function FlashcardPlayer({
     [speakChain],
   );
 
+  // Шаг очереди в фоне: сначала переворот, потом следующее слово. Меняет и
+  // ref (по нему идёт петля), и состояние React (по нему рисуется карточка).
+  function stepHidden() {
+    const cfg = cfgRef.current;
+    const cur = stateRef.current;
+    const next: { pos: number; side: 0 | 1 } =
+      cur.side === 0
+        ? { pos: cur.pos, side: 1 }
+        : {
+            pos: cfg.order.length === 0 ? 0 : (cur.pos + 1) % cfg.order.length,
+            side: 0,
+          };
+    stateRef.current = next;
+    sideRef.current = next.side;
+    setSide(next.side);
+    setPos(next.pos);
+    // Экран блокировки должен показывать то, что звучит. Эффект с метаданными
+    // ждёт ререндера, а его в фоне может не быть — обновляем здесь же.
+    const word = cfg.words[cfg.order[next.pos]];
+    if (word) {
+      setMediaSessionMetadata(
+        textFor(word, cfg.target) ?? word.id,
+        textFor(word, cfg.native) ?? "",
+      );
+    }
+  }
+
+  /**
+   * Фоновая петля озвучки.
+   *
+   * Пока страница скрыта (погас экран, ушли в другое приложение), iOS
+   * придушивает таймеры, а ререндер React может не случиться вовсе. Поэтому
+   * очередь здесь двигает сама озвучка: следующий src ставится прямо из
+   * обработчика `ended`, без ожидания эффектов. Всё нужное читается из ref'ов,
+   * состояние React обновляется следом — только чтобы нарисовать карточку.
+   */
+  async function runHiddenLoop() {
+    if (loopActiveRef.current) return;
+    const myToken = ++loopTokenRef.current;
+    loopActiveRef.current = true;
+    // Элемент один: цепочку, начатую видимой страницей, забираем себе.
+    chainTokenRef.current++;
+    const alive = () =>
+      loopTokenRef.current === myToken && playingRef.current && document.hidden;
+    try {
+      while (alive()) {
+        const { pos: p, side: s } = stateRef.current;
+        for (const item of itemsAt(p, s)) {
+          if (!alive()) return;
+          const url = audioUrl(item.text, item.lang);
+          const outcome = url ? await playUrl(url, alive) : "error";
+          if (outcome === "cancelled") return;
+          // Системный голос в фоне молчит и не присылает событий — ждать его
+          // нельзя, петля встанет навсегда. Вместо него держим паузу тишиной.
+          if (outcome === "error") {
+            if ((await playUrl(SILENCE_URL, alive)) === "cancelled") return;
+          }
+        }
+        if (!alive()) return;
+        // Пауза между сторонами. Сделана звуком намеренно: setTimeout в фоне
+        // не срабатывает, а ещё пустой элемент теряет право играть дальше.
+        if ((await playUrl(SILENCE_URL, alive)) === "cancelled") return;
+        if (!alive()) return;
+        stepHidden();
+      }
+    } finally {
+      if (loopTokenRef.current === myToken) loopActiveRef.current = false;
+    }
+  }
+
   useEffect(() => {
     if (langSet.size === 0 || !current) return;
+    // В фоне очередь ведёт runHiddenLoop, здесь бы мы только перебили ей звук.
+    if (loopActiveRef.current) return;
     // Озвучка синхронна со стороной карточки: на target-стороне звучит target;
     // на стороне перевода — выбранные помощники (EN и/или native).
-    const chain: Array<{ text: string; lang: Lang }> = [];
-    if (sideKind === "target") {
-      if (langSet.has(target)) {
-        const text = textFor(current, target);
-        if (text) chain.push({ text, lang: target });
-      }
-    } else {
-      if (langSet.has("en") && current.en) {
-        chain.push({ text: current.en, lang: "en" });
-      }
-      if (langSet.has(native)) {
-        const text = textFor(current, native);
-        if (text) chain.push({ text, lang: native });
-      }
-    }
-    let cancelled = false;
-    speakChain(chain).then(async (finished) => {
-      if (cancelled || !finished) return;
-      // В фоне (другое приложение, погасший экран) iOS придушивает таймеры,
-      // и автопрокрутка по setTimeout встаёт. Поэтому пока страница скрыта,
-      // сторону переключает сама озвучка: доиграла — пауза тишиной — дальше.
-      // Пауза сделана звуком намеренно: она не зависит от таймеров.
-      if (!playingRef.current || !document.hidden) return;
-      await playUrl(SILENCE_URL, () => !cancelled);
-      if (cancelled || !playingRef.current || !document.hidden) return;
-      advanceRef.current();
-    });
-    return () => {
-      cancelled = true;
-    };
+    speakChain(itemsAt(pos, side));
   }, [
     pos,
     side,
@@ -325,8 +433,8 @@ export function FlashcardPlayer({
     [speed, sideKind],
   );
 
-  // Один шаг автопрокрутки: сначала переворот на перевод, потом следующее слово.
-  // Дёргается и таймером (когда экран виден), и озвучкой (когда мы в фоне).
+  // Один шаг автопрокрутки таймером, пока страница на экране.
+  // В фоне то же самое делает stepHidden, но по событиям озвучки.
   const advance = useCallback(() => {
     if (effectiveOrder.length === 0) return;
     if (sideRef.current === 0) setSide(1);
@@ -339,14 +447,42 @@ export function FlashcardPlayer({
   useEffect(() => {
     playingRef.current = playing;
     sideRef.current = side;
-    advanceRef.current = advance;
-  }, [playing, side, advance]);
+  }, [playing, side]);
+
+  // Слушатель visibilitychange вешается один раз и живёт с первым замыканием,
+  // поэтому в петлю ходим через ref — так вызывается свежая версия.
+  const runHiddenLoopRef = useRef(runHiddenLoop);
+  runHiddenLoopRef.current = runHiddenLoop;
+
+  // Пуск и остановка автопрокрутки. playingRef ставится сразу, не дожидаясь
+  // ререндера: на нём завязана фоновая петля, и она может стартовать раньше.
+  const setPlayingNow = useCallback((next: boolean) => {
+    playingRef.current = next;
+    setPlaying(next);
+    if (next && typeof document !== "undefined" && document.hidden) {
+      void runHiddenLoopRef.current();
+    }
+  }, []);
+  const togglePlaying = useCallback(
+    () => setPlayingNow(!playingRef.current),
+    [setPlayingNow],
+  );
 
   // Возврат из фона должен снова запустить таймер: эффект автопрокрутки
   // читает document.hidden, поэтому ему нужен повод пересчитаться.
   const [hidden, setHidden] = useState(false);
   useEffect(() => {
-    const sync = () => setHidden(document.hidden);
+    const sync = () => {
+      setHidden(document.hidden);
+      if (document.hidden) {
+        // Уходим в фон — дальше очередь ведёт озвучка, а не таймер.
+        if (playingRef.current) void runHiddenLoopRef.current();
+      } else {
+        // Вернулись на экран — петля больше не нужна, снова работает таймер.
+        loopTokenRef.current++;
+        loopActiveRef.current = false;
+      }
+    };
     sync();
     document.addEventListener("visibilitychange", sync);
     return () => document.removeEventListener("visibilitychange", sync);
@@ -355,12 +491,12 @@ export function FlashcardPlayer({
   // Экран блокировки и кнопки на наушниках.
   useEffect(() => {
     setMediaSessionHandlers({
-      play: () => setPlaying(true),
-      pause: () => setPlaying(false),
+      play: () => setPlayingNow(true),
+      pause: () => setPlayingNow(false),
       nexttrack: () => next(),
       previoustrack: () => prev(),
     });
-  }, [next, prev]);
+  }, [next, prev, setPlayingNow]);
 
   useEffect(() => {
     setMediaSessionPlaying(playing);
@@ -478,7 +614,7 @@ export function FlashcardPlayer({
         flip();
       } else if (e.code === "ArrowRight") next();
       else if (e.code === "ArrowLeft") prev();
-      else if (e.code === "KeyP") setPlaying((p) => !p);
+      else if (e.code === "KeyP") togglePlaying();
       else if (e.code === "KeyK") handleKnow();
     };
     window.addEventListener("keydown", onKey);
@@ -726,7 +862,7 @@ export function FlashcardPlayer({
           type="button"
           onClick={() => {
             unlockAudio();
-            setPlaying((p) => !p);
+            togglePlaying();
           }}
           className="inline-flex items-center gap-2 rounded-md bg-primary px-5 py-2 text-sm font-medium text-primary-foreground transition hover:bg-primary/90"
         >

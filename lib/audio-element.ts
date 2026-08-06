@@ -50,6 +50,12 @@ export const SILENCE_URL = "/audio/silence-1s.mp3";
 
 export type PlayOutcome = "ended" | "error" | "cancelled";
 
+// Незавершённое воспроизведение на общем элементе. Элемент один, поэтому
+// новый playUrl забирает его себе — и обязан закрыть предыдущее обещание.
+// Иначе тот, кто его ждёт, зависает навсегда: обработчики перезаписаны и
+// событий он уже не получит.
+let settlePending: ((outcome: PlayOutcome) => void) | null = null;
+
 /**
  * Проиграть один URL на общем элементе. Возвращает, чем закончилось:
  * "ended" — доиграл, "error" — файла нет или не смог, "cancelled" — прервали.
@@ -57,6 +63,8 @@ export type PlayOutcome = "ended" | "error" | "cancelled";
 export function playUrl(url: string, token: () => boolean): Promise<PlayOutcome> {
   const a = getAudioElement();
   if (!a) return Promise.resolve("error");
+
+  settlePending?.("cancelled");
 
   return new Promise((resolve) => {
     let settled = false;
@@ -66,13 +74,15 @@ export function playUrl(url: string, token: () => boolean): Promise<PlayOutcome>
       a.onplaying = null;
       a.onended = null;
       a.onerror = null;
+      if (settlePending === done) settlePending = null;
     };
     const done = (outcome: PlayOutcome) => {
       if (settled) return;
       settled = true;
       cleanup();
-      resolve(token() ? outcome : "cancelled");
+      resolve(outcome === "cancelled" || token() ? outcome : "cancelled");
     };
+    settlePending = done;
 
     a.onplaying = () => {
       started = true;
@@ -90,6 +100,7 @@ export function playUrl(url: string, token: () => boolean): Promise<PlayOutcome>
 export function stopAudioElement(): void {
   const a = el;
   if (!a) return;
+  settlePending?.("cancelled");
   a.onplaying = null;
   a.onended = null;
   a.onerror = null;
