@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 900" width="600" height="900" role="img" aria-label="Обложка книги «Kabut di Lembang»">
+  <title>KABUT DI LEMBANG</title>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0d1b26"/>
+      <stop offset="42%" stop-color="#1d3140"/>
+      <stop offset="72%" stop-color="#3a5560"/>
+      <stop offset="100%" stop-color="#8fa4a6"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffcf8a" stop-opacity=".85"/>
+      <stop offset="100%" stop-color="#ffcf8a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#c9d6d6" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#c9d6d6" stop-opacity=".55"/>
+    </linearGradient>
+    <filter id="soft" x="-30%" y="-60%" width="160%" height="220%">
+      <feGaussianBlur stdDeviation="14"/>
+    </filter>
+    <filter id="softer" x="-30%" y="-60%" width="160%" height="220%">
+      <feGaussianBlur stdDeviation="26"/>
+    </filter>
+  </defs>
+
+  <rect width="600" height="900" fill="url(#sky)"/>
+
+  <!-- Дальние гряды: чем дальше, тем светлее и мягче — так читается туман. -->
+  <path d="M0 476 Q70 408 148 450 Q232 384 316 446 Q404 396 486 452 Q548 424 600 438 L600 900 L0 900 Z" fill="#5d757c" opacity=".55"/>
+  <path d="M0 524 Q62 470 152 510 Q246 452 344 506 Q436 462 528 512 Q568 494 600 502 L600 900 L0 900 Z" fill="#46626c" opacity=".7"/>
+  <ellipse cx="300" cy="500" rx="420" ry="52" fill="#cddada" opacity=".38" filter="url(#softer)"/>
+  <path d="M0 590 Q96 524 206 576 Q300 512 404 572 Q500 526 600 574 L600 900 L0 900 Z" fill="#2f4a55" opacity=".92"/>
+
+  <!-- Вилла на склоне: единственное тёплое пятно во всём кадре. -->
+  <g transform="translate(300 604)">
+    <ellipse cx="6" cy="46" rx="150" ry="26" fill="#233a44" opacity=".55" filter="url(#soft)"/>
+    <path d="M-62 -6 L0 -52 L62 -6 Z" fill="#16262e"/>
+    <rect x="-52" y="-6" width="104" height="52" fill="#1a2c34"/>
+    <rect x="-8" y="16" width="18" height="30" fill="#101d24"/>
+    <circle cx="-27" cy="8" r="30" fill="url(#glow)"/>
+    <rect x="-33" y="2" width="13" height="13" fill="#ffd79a"/>
+    <rect x="20" y="2" width="13" height="13" fill="#2b4048"/>
+    <rect x="-6" y="-34" width="10" height="12" fill="#0e191f"/>
+  </g>
+
+  <!-- Ближний склон и сосны: рамка кадра снизу. -->
+  <path d="M0 696 Q104 644 232 692 Q348 636 470 690 Q540 660 600 672 L600 900 L0 900 Z" fill="#16262e"/>
+  <g fill="#0d181d">
+    <path d="M76 700 L94 640 L112 700 Z"/>
+    <path d="M92 712 L112 636 L132 712 Z"/>
+    <path d="M470 706 L488 646 L506 706 Z"/>
+    <path d="M496 716 L516 650 L536 716 Z"/>
+  </g>
+
+  <!-- Дождь: редкие косые штрихи, иначе кадр читается как просто туман. -->
+  <g stroke="#dbe7e7" stroke-width="1.1" opacity=".2">
+    <path d="M60 90 l-9 46"/><path d="M148 40 l-9 46"/><path d="M232 120 l-9 46"/>
+    <path d="M318 60 l-9 46"/><path d="M402 140 l-9 46"/><path d="M486 70 l-9 46"/>
+    <path d="M556 160 l-9 46"/><path d="M104 210 l-9 46"/><path d="M270 240 l-9 46"/>
+    <path d="M440 220 l-9 46"/><path d="M20 300 l-9 46"/><path d="M360 320 l-9 46"/>
+    <path d="M200 350 l-9 46"/><path d="M520 360 l-9 46"/>
+  </g>
+
+  <!-- Полосы тумана поверх всего: они и есть kabut из названия. -->
+  <ellipse cx="180" cy="640" rx="300" ry="30" fill="#cfdcdc" opacity=".3" filter="url(#soft)"/>
+  <ellipse cx="430" cy="700" rx="320" ry="26" fill="#dfeaea" opacity=".26" filter="url(#soft)"/>
+  <rect y="700" width="600" height="200" fill="url(#fade)"/>
+
+  <!-- Титул -->
+  <g text-anchor="middle" font-family="Georgia, 'Iowan Old Style', 'Times New Roman', serif">
+    <text x="300" y="150" font-size="27" letter-spacing="15" fill="#e8f0ef" opacity=".62">KABUT DI</text>
+    <text x="300" y="222" font-size="62" letter-spacing="6" fill="#f4f8f7" font-weight="bold">LEMBANG</text>
+    <line x1="228" y1="256" x2="372" y2="256" stroke="#f4f8f7" stroke-width="1" opacity=".5"/>
+    <text x="300" y="290" font-size="19" letter-spacing="3" fill="#dbe6e5" opacity=".78" font-style="italic">Sebuah cerita detektif</text>
+    <text x="300" y="846" font-size="14" letter-spacing="6" fill="#25353c" opacity=".62">BAHASA INDONESIA SEHARI-HARI</text>
+  </g>
+</svg>

@@ -1,0 +1,6130 @@
+[
+ {
+  "w": "saya",
+  "n": 809
+ },
+ {
+  "w": "dia",
+  "n": 420
+ },
+ {
+  "w": "di",
+  "n": 413
+ },
+ {
+  "w": "nggak",
+  "n": 358
+ },
+ {
+  "w": "yang",
+  "n": 320
+ },
+ {
+  "w": "ada",
+  "n": 221
+ },
+ {
+  "w": "dan",
+  "n": 208
+ },
+ {
+  "w": "itu",
+  "n": 207
+ },
+ {
+  "w": "ke",
+  "n": 190
+ },
+ {
+  "w": "kamu",
+  "n": 166
+ },
+ {
+  "w": "bu",
+  "n": 159
+ },
+ {
+  "w": "orang",
+  "n": 138
+ },
+ {
+  "w": "terus",
+  "n": 134
+ },
+ {
+  "w": "lihat",
+  "n": 119
+ },
+ {
+  "w": "pak",
+  "n": 117
+ },
+ {
+  "w": "dari",
+  "n": 104
+ },
+ {
+  "w": "tahu",
+  "n": 102
+ },
+ {
+  "w": "dua",
+  "n": 95
+ },
+ {
+  "w": "sama",
+  "n": 92
+ },
+ {
+  "w": "udah",
+  "n": 90
+ },
+ {
+  "w": "lagi",
+  "n": 89
+ },
+ {
+  "w": "jam",
+  "n": 87
+ },
+ {
+  "w": "sinta",
+  "n": 83
+ },
+ {
+  "w": "waktu",
+  "n": 75
+ },
+ {
+  "w": "tahun",
+  "n": 74
+ },
+ {
+  "w": "cuma",
+  "n": 71
+ },
+ {
+  "w": "ini",
+  "n": 68
+ },
+ {
+  "w": "karena",
+  "n": 68
+ },
+ {
+  "w": "ibu",
+  "n": 65
+ },
+ {
+  "w": "tapi",
+  "n": 64
+ },
+ {
+  "w": "ngomong",
+  "n": 64
+ },
+ {
+  "w": "banget",
+  "n": 59
+ },
+ {
+  "w": "hendra",
+  "n": 58
+ },
+ {
+  "w": "kalau",
+  "n": 57
+ },
+ {
+  "w": "iya",
+  "n": 56
+ },
+ {
+  "w": "mbak",
+  "n": 55
+ },
+ {
+  "w": "duduk",
+  "n": 52
+ },
+ {
+  "w": "yuni",
+  "n": 50
+ },
+ {
+  "w": "mau",
+  "n": 50
+ },
+ {
+  "w": "rumah",
+  "n": 49
+ },
+ {
+  "w": "semua",
+  "n": 49
+ },
+ {
+  "w": "bapak",
+  "n": 49
+ },
+ {
+  "w": "buat",
+  "n": 48
+ },
+ {
+  "w": "dimas",
+  "n": 47
+ },
+ {
+  "w": "bukan",
+  "n": 46
+ },
+ {
+  "w": "rio",
+  "n": 46
+ },
+ {
+  "w": "bilang",
+  "n": 46
+ },
+ {
+  "w": "sampai",
+  "n": 45
+ },
+ {
+  "w": "satu",
+  "n": 45
+ },
+ {
+  "w": "bisa",
+  "n": 44
+ },
+ {
+  "w": "jalan",
+  "n": 43
+ },
+ {
+  "w": "belakang",
+  "n": 42
+ },
+ {
+  "w": "gue",
+  "n": 42
+ },
+ {
+  "w": "berdiri",
+  "n": 42
+ },
+ {
+  "w": "pakai",
+  "n": 41
+ },
+ {
+  "w": "kayak",
+  "n": 41
+ },
+ {
+  "w": "katanya",
+  "n": 41
+ },
+ {
+  "w": "meja",
+  "n": 40
+ },
+ {
+  "w": "kenapa",
+  "n": 40
+ },
+ {
+  "w": "ratna",
+  "n": 40
+ },
+ {
+  "w": "depan",
+  "n": 40
+ },
+ {
+  "w": "empat",
+  "n": 40
+ },
+ {
+  "w": "dapur",
+  "n": 38
+ },
+ {
+  "w": "bikin",
+  "n": 37
+ },
+ {
+  "w": "puluh",
+  "n": 37
+ },
+ {
+  "w": "apa-apa",
+  "n": 37
+ },
+ {
+  "w": "kecil",
+  "n": 36
+ },
+ {
+  "w": "pernah",
+  "n": 36
+ },
+ {
+  "w": "nanya",
+  "n": 36
+ },
+ {
+  "w": "apa",
+  "n": 35
+ },
+ {
+  "w": "sekarang",
+  "n": 35
+ },
+ {
+  "w": "tiga",
+  "n": 35
+ },
+ {
+  "w": "ya",
+  "n": 34
+ },
+ {
+  "w": "bakal",
+  "n": 34
+ },
+ {
+  "w": "masih",
+  "n": 34
+ },
+ {
+  "w": "asep",
+  "n": 33
+ },
+ {
+  "w": "jadi",
+  "n": 33
+ },
+ {
+  "w": "belas",
+  "n": 33
+ },
+ {
+  "w": "masuk",
+  "n": 33
+ },
+ {
+  "w": "aja",
+  "n": 32
+ },
+ {
+  "w": "kata",
+  "n": 32
+ },
+ {
+  "w": "lewat",
+  "n": 32
+ },
+ {
+  "w": "malam",
+  "n": 32
+ },
+ {
+  "w": "berhenti",
+  "n": 32
+ },
+ {
+  "w": "ruang",
+  "n": 32
+ },
+ {
+  "w": "anak",
+  "n": 31
+ },
+ {
+  "w": "lama",
+  "n": 31
+ },
+ {
+  "w": "turun",
+  "n": 31
+ },
+ {
+  "w": "lorong",
+  "n": 31
+ },
+ {
+  "w": "bambang",
+  "n": 30
+ },
+ {
+  "w": "pintu",
+  "n": 30
+ },
+ {
+  "w": "mukanya",
+  "n": 30
+ },
+ {
+  "w": "foto",
+  "n": 30
+ },
+ {
+  "w": "bawah",
+  "n": 30
+ },
+ {
+  "w": "mereka",
+  "n": 29
+ },
+ {
+  "w": "bawa",
+  "n": 29
+ },
+ {
+  "w": "kita",
+  "n": 29
+ },
+ {
+  "w": "diem",
+  "n": 29
+ },
+ {
+  "w": "kerja",
+  "n": 28
+ },
+ {
+  "w": "kali",
+  "n": 28
+ },
+ {
+  "w": "kamar",
+  "n": 28
+ },
+ {
+  "w": "gula",
+  "n": 28
+ },
+ {
+  "w": "punya",
+  "n": 27
+ },
+ {
+  "w": "sendiri",
+  "n": 27
+ },
+ {
+  "w": "ningsih",
+  "n": 27
+ },
+ {
+  "w": "baru",
+  "n": 27
+ },
+ {
+  "w": "tidur",
+  "n": 27
+ },
+ {
+  "w": "ketawa",
+  "n": 27
+ },
+ {
+  "w": "lebih",
+  "n": 26
+ },
+ {
+  "w": "laras",
+  "n": 26
+ },
+ {
+  "w": "mungkin",
+  "n": 26
+ },
+ {
+  "w": "setengah",
+  "n": 26
+ },
+ {
+  "w": "cerita",
+  "n": 25
+ },
+ {
+  "w": "mulai",
+  "n": 25
+ },
+ {
+  "w": "dulu",
+  "n": 25
+ },
+ {
+  "w": "sepuluh",
+  "n": 25
+ },
+ {
+  "w": "inget",
+  "n": 25
+ },
+ {
+  "w": "pelan",
+  "n": 25
+ },
+ {
+  "w": "siapa",
+  "n": 24
+ },
+ {
+  "w": "tangannya",
+  "n": 24
+ },
+ {
+  "w": "keluar",
+  "n": 24
+ },
+ {
+  "w": "sebelas",
+  "n": 23
+ },
+ {
+  "w": "ambil",
+  "n": 23
+ },
+ {
+  "w": "mana",
+  "n": 23
+ },
+ {
+  "w": "hari",
+  "n": 22
+ },
+ {
+  "w": "lalu",
+  "n": 22
+ },
+ {
+  "w": "bulan",
+  "n": 22
+ },
+ {
+  "w": "sekali",
+  "n": 22
+ },
+ {
+  "w": "semalam",
+  "n": 22
+ },
+ {
+  "w": "bayu",
+  "n": 22
+ },
+ {
+  "w": "gitu",
+  "n": 21
+ },
+ {
+  "w": "tangan",
+  "n": 21
+ },
+ {
+  "w": "situ",
+  "n": 21
+ },
+ {
+  "w": "mikir",
+  "n": 21
+ },
+ {
+  "w": "langsung",
+  "n": 21
+ },
+ {
+  "w": "kasih",
+  "n": 21
+ },
+ {
+  "w": "nampan",
+  "n": 21
+ },
+ {
+  "w": "dingin",
+  "n": 20
+ },
+ {
+  "w": "harus",
+  "n": 20
+ },
+ {
+  "w": "lain",
+  "n": 20
+ },
+ {
+  "w": "pagi",
+  "n": 20
+ },
+ {
+  "w": "tiap",
+  "n": 20
+ },
+ {
+  "w": "sakit",
+  "n": 20
+ },
+ {
+  "w": "soal",
+  "n": 20
+ },
+ {
+  "w": "cepat",
+  "n": 19
+ },
+ {
+  "w": "juga",
+  "n": 19
+ },
+ {
+  "w": "obat",
+  "n": 19
+ },
+ {
+  "w": "pertama",
+  "n": 19
+ },
+ {
+  "w": "berat",
+  "n": 19
+ },
+ {
+  "w": "mati",
+  "n": 19
+ },
+ {
+  "w": "nangis",
+  "n": 19
+ },
+ {
+  "w": "paling",
+  "n": 18
+ },
+ {
+  "w": "suka",
+  "n": 18
+ },
+ {
+  "w": "lantai",
+  "n": 18
+ },
+ {
+  "w": "dalam",
+  "n": 18
+ },
+ {
+  "w": "kosong",
+  "n": 18
+ },
+ {
+  "w": "suaranya",
+  "n": 18
+ },
+ {
+  "w": "keliatan",
+  "n": 18
+ },
+ {
+  "w": "semuanya",
+  "n": 18
+ },
+ {
+  "w": "buka",
+  "n": 17
+ },
+ {
+  "w": "hujan",
+  "n": 17
+ },
+ {
+  "w": "sesuatu",
+  "n": 17
+ },
+ {
+  "w": "tempat",
+  "n": 17
+ },
+ {
+  "w": "pegang",
+  "n": 17
+ },
+ {
+  "w": "jendela",
+  "n": 17
+ },
+ {
+  "w": "mobil",
+  "n": 16
+ },
+ {
+  "w": "sebelum",
+  "n": 16
+ },
+ {
+  "w": "sini",
+  "n": 16
+ },
+ {
+  "w": "takut",
+  "n": 16
+ },
+ {
+  "w": "air",
+  "n": 16
+ },
+ {
+  "w": "setahun",
+  "n": 16
+ },
+ {
+  "w": "banyak",
+  "n": 16
+ },
+ {
+  "w": "minum",
+  "n": 16
+ },
+ {
+  "w": "perusahaan",
+  "n": 16
+ },
+ {
+  "w": "gimana",
+  "n": 15
+ },
+ {
+  "w": "mah",
+  "n": 15
+ },
+ {
+  "w": "nama",
+  "n": 15
+ },
+ {
+  "w": "suara",
+  "n": 15
+ },
+ {
+  "w": "belum",
+  "n": 15
+ },
+ {
+  "w": "sebentar",
+  "n": 15
+ },
+ {
+  "w": "senyum",
+  "n": 15
+ },
+ {
+  "w": "jawab",
+  "n": 15
+ },
+ {
+  "w": "nunggu",
+  "n": 15
+ },
+ {
+  "w": "selama",
+  "n": 15
+ },
+ {
+  "w": "taruh",
+  "n": 15
+ },
+ {
+  "w": "jangan",
+  "n": 15
+ },
+ {
+  "w": "sep",
+  "n": 15
+ },
+ {
+  "w": "natap",
+  "n": 15
+ },
+ {
+  "w": "polisi",
+  "n": 15
+ },
+ {
+  "w": "gelas",
+  "n": 15
+ },
+ {
+  "w": "vila",
+  "n": 14
+ },
+ {
+  "w": "tangga",
+  "n": 14
+ },
+ {
+  "w": "bohong",
+  "n": 14
+ },
+ {
+  "w": "kursi",
+  "n": 14
+ },
+ {
+  "w": "ruangan",
+  "n": 14
+ },
+ {
+  "w": "tamu",
+  "n": 14
+ },
+ {
+  "w": "balik",
+  "n": 14
+ },
+ {
+  "w": "wedang",
+  "n": 14
+ },
+ {
+  "w": "wisnu",
+  "n": 14
+ },
+ {
+  "w": "ngerti",
+  "n": 13
+ },
+ {
+  "w": "wijaya",
+  "n": 13
+ },
+ {
+  "w": "tanah",
+  "n": 13
+ },
+ {
+  "w": "sebelah",
+  "n": 13
+ },
+ {
+  "w": "diam",
+  "n": 13
+ },
+ {
+  "w": "meninggal",
+  "n": 13
+ },
+ {
+  "w": "delapan",
+  "n": 13
+ },
+ {
+  "w": "terakhir",
+  "n": 13
+ },
+ {
+  "w": "gelap",
+  "n": 13
+ },
+ {
+  "w": "hilang",
+  "n": 13
+ },
+ {
+  "w": "atas",
+  "n": 13
+ },
+ {
+  "w": "halaman",
+  "n": 13
+ },
+ {
+  "w": "noleh",
+  "n": 13
+ },
+ {
+  "w": "kepala",
+  "n": 13
+ },
+ {
+  "w": "lima",
+  "n": 13
+ },
+ {
+  "w": "bener",
+  "n": 13
+ },
+ {
+  "w": "kurang",
+  "n": 13
+ },
+ {
+  "w": "gudang",
+  "n": 13
+ },
+ {
+  "w": "hal",
+  "n": 12
+ },
+ {
+  "w": "lembang",
+  "n": 12
+ },
+ {
+  "w": "tua",
+  "n": 12
+ },
+ {
+  "w": "bapaknya",
+  "n": 12
+ },
+ {
+  "w": "lampu",
+  "n": 12
+ },
+ {
+  "w": "naik",
+  "n": 12
+ },
+ {
+  "w": "gazebo",
+  "n": 12
+ },
+ {
+  "w": "panjang",
+  "n": 12
+ },
+ {
+  "w": "perapian",
+  "n": 12
+ },
+ {
+  "w": "agak",
+  "n": 12
+ },
+ {
+  "w": "umur",
+  "n": 12
+ },
+ {
+  "w": "ngangkat",
+  "n": 12
+ },
+ {
+  "w": "biar",
+  "n": 12
+ },
+ {
+  "w": "setelah",
+  "n": 12
+ },
+ {
+  "w": "bandung",
+  "n": 11
+ },
+ {
+  "w": "baca",
+  "n": 11
+ },
+ {
+  "w": "biasa",
+  "n": 11
+ },
+ {
+  "w": "datang",
+  "n": 11
+ },
+ {
+  "w": "beneran",
+  "n": 11
+ },
+ {
+  "w": "yun",
+  "n": 11
+ },
+ {
+  "w": "tujuh",
+  "n": 11
+ },
+ {
+  "w": "cara",
+  "n": 11
+ },
+ {
+  "w": "cari",
+  "n": 11
+ },
+ {
+  "w": "hp",
+  "n": 11
+ },
+ {
+  "w": "kolam",
+  "n": 11
+ },
+ {
+  "w": "makan",
+  "n": 10
+ },
+ {
+  "w": "dekat",
+  "n": 10
+ },
+ {
+  "w": "muda",
+  "n": 10
+ },
+ {
+  "w": "tanpa",
+  "n": 10
+ },
+ {
+  "w": "selalu",
+  "n": 10
+ },
+ {
+  "w": "sambil",
+  "n": 10
+ },
+ {
+  "w": "kurus",
+  "n": 10
+ },
+ {
+  "w": "keras",
+  "n": 10
+ },
+ {
+  "w": "kebun",
+  "n": 10
+ },
+ {
+  "w": "capek",
+  "n": 10
+ },
+ {
+  "w": "namanya",
+  "n": 10
+ },
+ {
+  "w": "laki-laki",
+  "n": 10
+ },
+ {
+  "w": "matanya",
+  "n": 10
+ },
+ {
+  "w": "percaya",
+  "n": 10
+ },
+ {
+  "w": "mata",
+  "n": 10
+ },
+ {
+  "w": "enam",
+  "n": 10
+ },
+ {
+  "w": "dikit",
+  "n": 10
+ },
+ {
+  "w": "bam",
+  "n": 10
+ },
+ {
+  "w": "arah",
+  "n": 10
+ },
+ {
+  "w": "napas",
+  "n": 10
+ },
+ {
+  "w": "sin",
+  "n": 10
+ },
+ {
+  "w": "bunyi",
+  "n": 10
+ },
+ {
+  "w": "ngambil",
+  "n": 10
+ },
+ {
+  "w": "berapa",
+  "n": 10
+ },
+ {
+  "w": "nutup",
+  "n": 10
+ },
+ {
+  "w": "buku",
+  "n": 9
+ },
+ {
+  "w": "hidup",
+  "n": 9
+ },
+ {
+  "w": "bagian",
+  "n": 9
+ },
+ {
+  "w": "salah",
+  "n": 9
+ },
+ {
+  "w": "lanjut",
+  "n": 9
+ },
+ {
+  "w": "kedua",
+  "n": 9
+ },
+ {
+  "w": "teman",
+  "n": 9
+ },
+ {
+  "w": "keluarga",
+  "n": 9
+ },
+ {
+  "w": "kabut",
+  "n": 9
+ },
+ {
+  "w": "kertas",
+  "n": 9
+ },
+ {
+  "w": "aneh",
+  "n": 9
+ },
+ {
+  "w": "tiba-tiba",
+  "n": 9
+ },
+ {
+  "w": "akhirnya",
+  "n": 9
+ },
+ {
+  "w": "bagus",
+  "n": 9
+ },
+ {
+  "w": "kadang",
+  "n": 9
+ },
+ {
+  "w": "kayu",
+  "n": 9
+ },
+ {
+  "w": "manis",
+  "n": 9
+ },
+ {
+  "w": "sofa",
+  "n": 9
+ },
+ {
+  "w": "tutup",
+  "n": 9
+ },
+ {
+  "w": "detik",
+  "n": 9
+ },
+ {
+  "w": "kepalanya",
+  "n": 9
+ },
+ {
+  "w": "makin",
+  "n": 9
+ },
+ {
+  "w": "botol",
+  "n": 9
+ },
+ {
+  "w": "non",
+  "n": 9
+ },
+ {
+  "w": "pelan-pelan",
+  "n": 9
+ },
+ {
+  "w": "denger",
+  "n": 9
+ },
+ {
+  "w": "jahe",
+  "n": 9
+ },
+ {
+  "w": "antara",
+  "n": 9
+ },
+ {
+  "w": "angguk",
+  "n": 9
+ },
+ {
+  "w": "album",
+  "n": 9
+ },
+ {
+  "w": "bahasa",
+  "n": 8
+ },
+ {
+  "w": "guru",
+  "n": 8
+ },
+ {
+  "w": "dengar",
+  "n": 8
+ },
+ {
+  "w": "jelas",
+  "n": 8
+ },
+ {
+  "w": "jelek",
+  "n": 8
+ },
+ {
+  "w": "gede",
+  "n": 8
+ },
+ {
+  "w": "jauh",
+  "n": 8
+ },
+ {
+  "w": "kaget",
+  "n": 8
+ },
+ {
+  "w": "rambutnya",
+  "n": 8
+ },
+ {
+  "w": "siap",
+  "n": 8
+ },
+ {
+  "w": "hen",
+  "n": 8
+ },
+ {
+  "w": "gelasnya",
+  "n": 8
+ },
+ {
+  "w": "penuh",
+  "n": 8
+ },
+ {
+  "w": "narik",
+  "n": 8
+ },
+ {
+  "w": "uang",
+  "n": 8
+ },
+ {
+  "w": "yakin",
+  "n": 8
+ },
+ {
+  "w": "kebuka",
+  "n": 8
+ },
+ {
+  "w": "sembilan",
+  "n": 8
+ },
+ {
+  "w": "senter",
+  "n": 8
+ },
+ {
+  "w": "pinggir",
+  "n": 8
+ },
+ {
+  "w": "dorong",
+  "n": 8
+ },
+ {
+  "w": "kalimat",
+  "n": 7
+ },
+ {
+  "w": "teh",
+  "n": 7
+ },
+ {
+  "w": "usah",
+  "n": 7
+ },
+ {
+  "w": "beda",
+  "n": 7
+ },
+ {
+  "w": "ketemu",
+  "n": 7
+ },
+ {
+  "w": "hampir",
+  "n": 7
+ },
+ {
+  "w": "sd",
+  "n": 7
+ },
+ {
+  "w": "sore",
+  "n": 7
+ },
+ {
+  "w": "tadi",
+  "n": 7
+ },
+ {
+  "w": "berubah",
+  "n": 7
+ },
+ {
+  "w": "ujung",
+  "n": 7
+ },
+ {
+  "w": "sedetik",
+  "n": 7
+ },
+ {
+  "w": "nyala",
+  "n": 7
+ },
+ {
+  "w": "ikan",
+  "n": 7
+ },
+ {
+  "w": "nanti",
+  "n": 7
+ },
+ {
+  "w": "hp-nya",
+  "n": 7
+ },
+ {
+  "w": "wasiat",
+  "n": 7
+ },
+ {
+  "w": "sunyi",
+  "n": 7
+ },
+ {
+  "w": "luar",
+  "n": 7
+ },
+ {
+  "w": "sinyal",
+  "n": 7
+ },
+ {
+  "w": "jantung",
+  "n": 7
+ },
+ {
+  "w": "bahu",
+  "n": 7
+ },
+ {
+  "w": "simpan",
+  "n": 7
+ },
+ {
+  "w": "satu-satunya",
+  "n": 7
+ },
+ {
+  "w": "plastik",
+  "n": 7
+ },
+ {
+  "w": "balikin",
+  "n": 7
+ },
+ {
+  "w": "hati-hati",
+  "n": 7
+ },
+ {
+  "w": "masukin",
+  "n": 7
+ },
+ {
+  "w": "kunci",
+  "n": 7
+ },
+ {
+  "w": "lutut",
+  "n": 7
+ },
+ {
+  "w": "deket",
+  "n": 7
+ },
+ {
+  "w": "curiga",
+  "n": 7
+ },
+ {
+  "w": "bunuh",
+  "n": 7
+ },
+ {
+  "w": "dateng",
+  "n": 7
+ },
+ {
+  "w": "a",
+  "n": 7
+ },
+ {
+  "w": "ngobrol",
+  "n": 6
+ },
+ {
+  "w": "beberapa",
+  "n": 6
+ },
+ {
+  "w": "perhatiin",
+  "n": 6
+ },
+ {
+  "w": "ngapain",
+  "n": 6
+ },
+ {
+  "w": "jaga",
+  "n": 6
+ },
+ {
+  "w": "kaki",
+  "n": 6
+ },
+ {
+  "w": "besar",
+  "n": 6
+ },
+ {
+  "w": "badan",
+  "n": 6
+ },
+ {
+  "w": "jaket",
+  "n": 6
+ },
+ {
+  "w": "kenal",
+  "n": 6
+ },
+ {
+  "w": "enak",
+  "n": 6
+ },
+ {
+  "w": "bangun",
+  "n": 6
+ },
+ {
+  "w": "badannya",
+  "n": 6
+ },
+ {
+  "w": "kiri",
+  "n": 6
+ },
+ {
+  "w": "muka",
+  "n": 6
+ },
+ {
+  "w": "basah",
+  "n": 6
+ },
+ {
+  "w": "kedengeran",
+  "n": 6
+ },
+ {
+  "w": "dengan",
+  "n": 6
+ },
+ {
+  "w": "lurus",
+  "n": 6
+ },
+ {
+  "w": "kebiasaan",
+  "n": 6
+ },
+ {
+  "w": "mulut",
+  "n": 6
+ },
+ {
+  "w": "bener-bener",
+  "n": 6
+ },
+ {
+  "w": "gerak",
+  "n": 6
+ },
+ {
+  "w": "angkat",
+  "n": 6
+ },
+ {
+  "w": "benci",
+  "n": 6
+ },
+ {
+  "w": "dim",
+  "n": 6
+ },
+ {
+  "w": "sekolah",
+  "n": 6
+ },
+ {
+  "w": "kalian",
+  "n": 6
+ },
+ {
+  "w": "satu-satu",
+  "n": 6
+ },
+ {
+  "w": "ngelap",
+  "n": 6
+ },
+ {
+  "w": "saku",
+  "n": 6
+ },
+ {
+  "w": "punggungnya",
+  "n": 6
+ },
+ {
+  "w": "jatuh",
+  "n": 6
+ },
+ {
+  "w": "jongkok",
+  "n": 6
+ },
+ {
+  "w": "jawaban",
+  "n": 6
+ },
+ {
+  "w": "nampannya",
+  "n": 6
+ },
+ {
+  "w": "tenang",
+  "n": 6
+ },
+ {
+  "w": "gila",
+  "n": 6
+ },
+ {
+  "w": "alasan",
+  "n": 6
+ },
+ {
+  "w": "kapan",
+  "n": 6
+ },
+ {
+  "w": "cek",
+  "n": 6
+ },
+ {
+  "w": "nemu",
+  "n": 6
+ },
+ {
+  "w": "anaknya",
+  "n": 6
+ },
+ {
+  "w": "pun",
+  "n": 6
+ },
+ {
+  "w": "lah",
+  "n": 5
+ },
+ {
+  "w": "punten",
+  "n": 5
+ },
+ {
+  "w": "artinya",
+  "n": 5
+ },
+ {
+  "w": "kantor",
+  "n": 5
+ },
+ {
+  "w": "panas",
+  "n": 5
+ },
+ {
+  "w": "butuh",
+  "n": 5
+ },
+ {
+  "w": "sendirian",
+  "n": 5
+ },
+ {
+  "w": "anak-anak",
+  "n": 5
+ },
+ {
+  "w": "awal",
+  "n": 5
+ },
+ {
+  "w": "selesai",
+  "n": 5
+ },
+ {
+  "w": "surat",
+  "n": 5
+ },
+ {
+  "w": "pergi",
+  "n": 5
+ },
+ {
+  "w": "kampung",
+  "n": 5
+ },
+ {
+  "w": "tebal",
+  "n": 5
+ },
+ {
+  "w": "lupa",
+  "n": 5
+ },
+ {
+  "w": "mikirin",
+  "n": 5
+ },
+ {
+  "w": "gendut",
+  "n": 5
+ },
+ {
+  "w": "nyalain",
+  "n": 5
+ },
+ {
+  "w": "nulis",
+  "n": 5
+ },
+ {
+  "w": "tas",
+  "n": 5
+ },
+ {
+  "w": "tinggal",
+  "n": 5
+ },
+ {
+  "w": "batu",
+  "n": 5
+ },
+ {
+  "w": "menit",
+  "n": 5
+ },
+ {
+  "w": "emang",
+  "n": 5
+ },
+ {
+  "w": "sering",
+  "n": 5
+ },
+ {
+  "w": "angin",
+  "n": 5
+ },
+ {
+  "w": "kopi",
+  "n": 5
+ },
+ {
+  "w": "terlalu",
+  "n": 5
+ },
+ {
+  "w": "rapi",
+  "n": 5
+ },
+ {
+  "w": "baik",
+  "n": 5
+ },
+ {
+  "w": "kamarnya",
+  "n": 5
+ },
+ {
+  "w": "ngajar",
+  "n": 5
+ },
+ {
+  "w": "persis",
+  "n": 5
+ },
+ {
+  "w": "dengerin",
+  "n": 5
+ },
+ {
+  "w": "siapa-siapa",
+  "n": 5
+ },
+ {
+  "w": "makanan",
+  "n": 5
+ },
+ {
+  "w": "putih",
+  "n": 5
+ },
+ {
+  "w": "bakar",
+  "n": 5
+ },
+ {
+  "w": "awalnya",
+  "n": 5
+ },
+ {
+  "w": "dapat",
+  "n": 5
+ },
+ {
+  "w": "minggu",
+  "n": 5
+ },
+ {
+  "w": "gemetar",
+  "n": 5
+ },
+ {
+  "w": "kursinya",
+  "n": 5
+ },
+ {
+  "w": "nikah",
+  "n": 5
+ },
+ {
+  "w": "pindah",
+  "n": 5
+ },
+ {
+  "w": "pikir",
+  "n": 5
+ },
+ {
+  "w": "jujur",
+  "n": 5
+ },
+ {
+  "w": "bareng",
+  "n": 5
+ },
+ {
+  "w": "pertanyaan",
+  "n": 5
+ },
+ {
+  "w": "sayang",
+  "n": 5
+ },
+ {
+  "w": "sorot",
+  "n": 5
+ },
+ {
+  "w": "angka",
+  "n": 5
+ },
+ {
+  "w": "minta",
+  "n": 5
+ },
+ {
+  "w": "sandar",
+  "n": 5
+ },
+ {
+  "w": "kardigan",
+  "n": 5
+ },
+ {
+  "w": "kemarin",
+  "n": 5
+ },
+ {
+  "w": "alat",
+  "n": 5
+ },
+ {
+  "w": "nunjuk",
+  "n": 5
+ },
+ {
+  "w": "kira-kira",
+  "n": 5
+ },
+ {
+  "w": "geleng",
+  "n": 5
+ },
+ {
+  "w": "keluarin",
+  "n": 5
+ },
+ {
+  "w": "utang",
+  "n": 5
+ },
+ {
+  "w": "lembar",
+  "n": 5
+ },
+ {
+  "w": "map",
+  "n": 5
+ },
+ {
+  "w": "kemudian",
+  "n": 5
+ },
+ {
+  "w": "api",
+  "n": 5
+ },
+ {
+  "w": "punggung",
+  "n": 5
+ },
+ {
+  "w": "ulang",
+  "n": 5
+ },
+ {
+  "w": "prasetyo",
+  "n": 5
+ },
+ {
+  "w": "dipakai",
+  "n": 4
+ },
+ {
+  "w": "kan",
+  "n": 4
+ },
+ {
+  "w": "daftar",
+  "n": 4
+ },
+ {
+  "w": "lo",
+  "n": 4
+ },
+ {
+  "w": "biasanya",
+  "n": 4
+ },
+ {
+  "w": "selamat",
+  "n": 4
+ },
+ {
+  "w": "kafe",
+  "n": 4
+ },
+ {
+  "w": "istri",
+  "n": 4
+ },
+ {
+  "w": "bisnis",
+  "n": 4
+ },
+ {
+  "w": "fotografer",
+  "n": 4
+ },
+ {
+  "w": "gunung",
+  "n": 4
+ },
+ {
+  "w": "buru-buru",
+  "n": 4
+ },
+ {
+  "w": "sabtu",
+  "n": 4
+ },
+ {
+  "w": "tolong",
+  "n": 4
+ },
+ {
+  "w": "manggil",
+  "n": 4
+ },
+ {
+  "w": "males",
+  "n": 4
+ },
+ {
+  "w": "ngomongin",
+  "n": 4
+ },
+ {
+  "w": "pengen",
+  "n": 4
+ },
+ {
+  "w": "lebar",
+  "n": 4
+ },
+ {
+  "w": "ketawanya",
+  "n": 4
+ },
+ {
+  "w": "kanan",
+  "n": 4
+ },
+ {
+  "w": "pohon",
+  "n": 4
+ },
+ {
+  "w": "muter",
+  "n": 4
+ },
+ {
+  "w": "rumput",
+  "n": 4
+ },
+ {
+  "w": "sayur",
+  "n": 4
+ },
+ {
+  "w": "udaranya",
+  "n": 4
+ },
+ {
+  "w": "dinding",
+  "n": 4
+ },
+ {
+  "w": "toko",
+  "n": 4
+ },
+ {
+  "w": "duluan",
+  "n": 4
+ },
+ {
+  "w": "orangnya",
+  "n": 4
+ },
+ {
+  "w": "ganti",
+  "n": 4
+ },
+ {
+  "w": "dada",
+  "n": 4
+ },
+ {
+  "w": "maaf",
+  "n": 4
+ },
+ {
+  "w": "kemejanya",
+  "n": 4
+ },
+ {
+  "w": "bolak-balik",
+  "n": 4
+ },
+ {
+  "w": "tante",
+  "n": 4
+ },
+ {
+  "w": "panggil",
+  "n": 4
+ },
+ {
+  "w": "bunyinya",
+  "n": 4
+ },
+ {
+  "w": "pintunya",
+  "n": 4
+ },
+ {
+  "w": "besok",
+  "n": 4
+ },
+ {
+  "w": "dirinya",
+  "n": 4
+ },
+ {
+  "w": "boleh",
+  "n": 4
+ },
+ {
+  "w": "sopan",
+  "n": 4
+ },
+ {
+  "w": "lilin",
+  "n": 4
+ },
+ {
+  "w": "jahat",
+  "n": 4
+ },
+ {
+  "w": "dalamnya",
+  "n": 4
+ },
+ {
+  "w": "kalinya",
+  "n": 4
+ },
+ {
+  "w": "pojok",
+  "n": 4
+ },
+ {
+  "w": "nyambungin",
+  "n": 4
+ },
+ {
+  "w": "ngaku",
+  "n": 4
+ },
+ {
+  "w": "total",
+  "n": 4
+ },
+ {
+  "w": "teriak",
+  "n": 4
+ },
+ {
+  "w": "kami",
+  "n": 4
+ },
+ {
+  "w": "seperempat",
+  "n": 4
+ },
+ {
+  "w": "jahenya",
+  "n": 4
+ },
+ {
+  "w": "tembok",
+  "n": 4
+ },
+ {
+  "w": "seumur",
+  "n": 4
+ },
+ {
+  "w": "nunduk",
+  "n": 4
+ },
+ {
+  "w": "obatnya",
+  "n": 4
+ },
+ {
+  "w": "nutupin",
+  "n": 4
+ },
+ {
+  "w": "tunggu",
+  "n": 4
+ },
+ {
+  "w": "ngelakuin",
+  "n": 4
+ },
+ {
+  "w": "atau",
+  "n": 4
+ },
+ {
+  "w": "berikutnya",
+  "n": 4
+ },
+ {
+  "w": "main",
+  "n": 4
+ },
+ {
+  "w": "lemari",
+  "n": 4
+ },
+ {
+  "w": "rak",
+  "n": 4
+ },
+ {
+  "w": "miring",
+  "n": 4
+ },
+ {
+  "w": "stabil",
+  "n": 4
+ },
+ {
+  "w": "bekas",
+  "n": 4
+ },
+ {
+  "w": "luka",
+  "n": 4
+ },
+ {
+  "w": "sebelumnya",
+  "n": 4
+ },
+ {
+  "w": "dong",
+  "n": 3
+ },
+ {
+  "w": "penting",
+  "n": 3
+ },
+ {
+  "w": "ceritanya",
+  "n": 3
+ },
+ {
+  "w": "coba",
+  "n": 3
+ },
+ {
+  "w": "handayani",
+  "n": 3
+ },
+ {
+  "w": "anggara",
+  "n": 3
+ },
+ {
+  "w": "tunangan",
+  "n": 3
+ },
+ {
+  "w": "asli",
+  "n": 3
+ },
+ {
+  "w": "hafal",
+  "n": 3
+ },
+ {
+  "w": "udara",
+  "n": 3
+ },
+ {
+  "w": "telepon",
+  "n": 3
+ },
+ {
+  "w": "ngumumin",
+  "n": 3
+ },
+ {
+  "w": "ngomongnya",
+  "n": 3
+ },
+ {
+  "w": "tinggi",
+  "n": 3
+ },
+ {
+  "w": "imas",
+  "n": 3
+ },
+ {
+  "w": "teras",
+  "n": 3
+ },
+ {
+  "w": "tipis",
+  "n": 3
+ },
+ {
+  "w": "dunia",
+  "n": 3
+ },
+ {
+  "w": "sempat",
+  "n": 3
+ },
+ {
+  "w": "nolak",
+  "n": 3
+ },
+ {
+  "w": "rapat",
+  "n": 3
+ },
+ {
+  "w": "sejam",
+  "n": 3
+ },
+ {
+  "w": "warnanya",
+  "n": 3
+ },
+ {
+  "w": "muncul",
+  "n": 3
+ },
+ {
+  "w": "tikungan",
+  "n": 3
+ },
+ {
+  "w": "rumahnya",
+  "n": 3
+ },
+ {
+  "w": "matiin",
+  "n": 3
+ },
+ {
+  "w": "perempuan",
+  "n": 3
+ },
+ {
+  "w": "umurnya",
+  "n": 3
+ },
+ {
+  "w": "puluhan",
+  "n": 3
+ },
+ {
+  "w": "bau",
+  "n": 3
+ },
+ {
+  "w": "rambut",
+  "n": 3
+ },
+ {
+  "w": "bayi",
+  "n": 3
+ },
+ {
+  "w": "kemeja",
+  "n": 3
+ },
+ {
+  "w": "kesalahan",
+  "n": 3
+ },
+ {
+  "w": "baju",
+  "n": 3
+ },
+ {
+  "w": "bentuknya",
+  "n": 3
+ },
+ {
+  "w": "cekung",
+  "n": 3
+ },
+ {
+  "w": "siang",
+  "n": 3
+ },
+ {
+  "w": "merah",
+  "n": 3
+ },
+ {
+  "w": "salaman",
+  "n": 3
+ },
+ {
+  "w": "online",
+  "n": 3
+ },
+ {
+  "w": "berantem",
+  "n": 3
+ },
+ {
+  "w": "ngerasa",
+  "n": 3
+ },
+ {
+  "w": "ibunya",
+  "n": 3
+ },
+ {
+  "w": "peluk",
+  "n": 3
+ },
+ {
+  "w": "ragu",
+  "n": 3
+ },
+ {
+  "w": "sebelahnya",
+  "n": 3
+ },
+ {
+  "w": "cium",
+  "n": 3
+ },
+ {
+  "w": "jarang",
+  "n": 3
+ },
+ {
+  "w": "cukup",
+  "n": 3
+ },
+ {
+  "w": "sekeliling",
+  "n": 3
+ },
+ {
+  "w": "apalagi",
+  "n": 3
+ },
+ {
+  "w": "gunanya",
+  "n": 3
+ },
+ {
+  "w": "tengah",
+  "n": 3
+ },
+ {
+  "w": "tetap",
+  "n": 3
+ },
+ {
+  "w": "pas",
+  "n": 3
+ },
+ {
+  "w": "nyerah",
+  "n": 3
+ },
+ {
+  "w": "nuang",
+  "n": 3
+ },
+ {
+  "w": "aduh",
+  "n": 3
+ },
+ {
+  "w": "naruh",
+  "n": 3
+ },
+ {
+  "w": "hal-hal",
+  "n": 3
+ },
+ {
+  "w": "ketuk",
+  "n": 3
+ },
+ {
+  "w": "yayasan",
+  "n": 3
+ },
+ {
+  "w": "kena",
+  "n": 3
+ },
+ {
+  "w": "berdua",
+  "n": 3
+ },
+ {
+  "w": "malu",
+  "n": 3
+ },
+ {
+  "w": "ayo",
+  "n": 3
+ },
+ {
+  "w": "ketuk-ketuk",
+  "n": 3
+ },
+ {
+  "w": "ikut",
+  "n": 3
+ },
+ {
+  "w": "isi",
+  "n": 3
+ },
+ {
+  "w": "hitung",
+  "n": 3
+ },
+ {
+  "w": "ngapa-ngapain",
+  "n": 3
+ },
+ {
+  "w": "gampang",
+  "n": 3
+ },
+ {
+  "w": "diri",
+  "n": 3
+ },
+ {
+  "w": "lap",
+  "n": 3
+ },
+ {
+  "w": "dapurnya",
+  "n": 3
+ },
+ {
+  "w": "niat",
+  "n": 3
+ },
+ {
+  "w": "akan",
+  "n": 3
+ },
+ {
+  "w": "justru",
+  "n": 3
+ },
+ {
+  "w": "makanya",
+  "n": 3
+ },
+ {
+  "w": "bahkan",
+  "n": 3
+ },
+ {
+  "w": "sejajar",
+  "n": 3
+ },
+ {
+  "w": "sadar",
+  "n": 3
+ },
+ {
+  "w": "sepi",
+  "n": 3
+ },
+ {
+  "w": "nyangka",
+  "n": 3
+ },
+ {
+  "w": "layarnya",
+  "n": 3
+ },
+ {
+  "w": "doang",
+  "n": 3
+ },
+ {
+  "w": "sepatu",
+  "n": 3
+ },
+ {
+  "w": "makasih",
+  "n": 3
+ },
+ {
+  "w": "untung",
+  "n": 3
+ },
+ {
+  "w": "senternya",
+  "n": 3
+ },
+ {
+  "w": "mandi",
+  "n": 3
+ },
+ {
+  "w": "gerakannya",
+  "n": 3
+ },
+ {
+  "w": "lembek",
+  "n": 3
+ },
+ {
+  "w": "isinya",
+  "n": 3
+ },
+ {
+  "w": "rasain",
+  "n": 3
+ },
+ {
+  "w": "teriakan",
+  "n": 3
+ },
+ {
+  "w": "panik",
+  "n": 3
+ },
+ {
+  "w": "pulpen",
+  "n": 3
+ },
+ {
+  "w": "walaupun",
+  "n": 3
+ },
+ {
+  "w": "tulis",
+  "n": 3
+ },
+ {
+  "w": "sisa",
+  "n": 3
+ },
+ {
+  "w": "sentuh",
+  "n": 3
+ },
+ {
+  "w": "kecuali",
+  "n": 3
+ },
+ {
+  "w": "demi",
+  "n": 3
+ },
+ {
+  "w": "pahit",
+  "n": 3
+ },
+ {
+  "w": "buang",
+  "n": 3
+ },
+ {
+  "w": "barang",
+  "n": 3
+ },
+ {
+  "w": "bukti",
+  "n": 3
+ },
+ {
+  "w": "jago",
+  "n": 3
+ },
+ {
+  "w": "lembah",
+  "n": 3
+ },
+ {
+  "w": "adi",
+  "n": 3
+ },
+ {
+  "w": "kuliah",
+  "n": 3
+ },
+ {
+  "w": "semarang",
+  "n": 3
+ },
+ {
+  "w": "ratus",
+  "n": 3
+ },
+ {
+  "w": "gosok",
+  "n": 3
+ },
+ {
+  "w": "supaya",
+  "n": 3
+ },
+ {
+  "w": "robek",
+  "n": 3
+ },
+ {
+  "w": "tanda",
+  "n": 3
+ },
+ {
+  "w": "sejak",
+  "n": 3
+ },
+ {
+  "w": "wajar",
+  "n": 3
+ },
+ {
+  "w": "merhatiin",
+  "n": 3
+ },
+ {
+  "w": "ngasih",
+  "n": 3
+ },
+ {
+  "w": "kebetulan",
+  "n": 3
+ },
+ {
+  "w": "pembantu",
+  "n": 3
+ },
+ {
+  "w": "dijual",
+  "n": 3
+ },
+ {
+  "w": "albumnya",
+  "n": 3
+ },
+ {
+  "w": "kue",
+  "n": 3
+ },
+ {
+  "w": "jari",
+  "n": 3
+ },
+ {
+  "w": "ngecek",
+  "n": 3
+ },
+ {
+  "w": "semen",
+  "n": 3
+ },
+ {
+  "w": "bungkus",
+  "n": 3
+ },
+ {
+  "w": "beres-beres",
+  "n": 3
+ },
+ {
+  "w": "fotonya",
+  "n": 3
+ },
+ {
+  "w": "akhir",
+  "n": 3
+ },
+ {
+  "w": "jelasin",
+  "n": 3
+ },
+ {
+  "w": "layar",
+  "n": 3
+ },
+ {
+  "w": "ngobatin",
+  "n": 3
+ },
+ {
+  "w": "sepertiga",
+  "n": 3
+ },
+ {
+  "w": "indonesia",
+  "n": 2
+ },
+ {
+  "w": "perlu",
+  "n": 2
+ },
+ {
+  "w": "kata-kata",
+  "n": 2
+ },
+ {
+  "w": "sih",
+  "n": 2
+ },
+ {
+  "w": "kok",
+  "n": 2
+ },
+ {
+  "w": "deh",
+  "n": 2
+ },
+ {
+  "w": "sunda",
+  "n": 2
+ },
+ {
+  "w": "mangga",
+  "n": 2
+ },
+ {
+  "w": "atuh",
+  "n": 2
+ },
+ {
+  "w": "pisan",
+  "n": 2
+ },
+ {
+  "w": "jakarta",
+  "n": 2
+ },
+ {
+  "w": "gaya",
+  "n": 2
+ },
+ {
+  "w": "penyanyi",
+  "n": 2
+ },
+ {
+  "w": "kabutnya",
+  "n": 2
+ },
+ {
+  "w": "amplop",
+  "n": 2
+ },
+ {
+  "w": "dianter",
+  "n": 2
+ },
+ {
+  "w": "ciumbuleuit",
+  "n": 2
+ },
+ {
+  "w": "sopirnya",
+  "n": 2
+ },
+ {
+  "w": "hitam",
+  "n": 2
+ },
+ {
+  "w": "nganter",
+  "n": 2
+ },
+ {
+  "w": "tulisan",
+  "n": 2
+ },
+ {
+  "w": "nginep",
+  "n": 2
+ },
+ {
+  "w": "almarhum",
+  "n": 2
+ },
+ {
+  "w": "murid",
+  "n": 2
+ },
+ {
+  "w": "lipat",
+  "n": 2
+ },
+ {
+  "w": "tetangga",
+  "n": 2
+ },
+ {
+  "w": "nyapu",
+  "n": 2
+ },
+ {
+  "w": "mutusin",
+  "n": 2
+ },
+ {
+  "w": "wah",
+  "n": 2
+ },
+ {
+  "w": "sana",
+  "n": 2
+ },
+ {
+  "w": "kulitnya",
+  "n": 2
+ },
+ {
+  "w": "mobilnya",
+  "n": 2
+ },
+ {
+  "w": "lepas",
+  "n": 2
+ },
+ {
+  "w": "aspalnya",
+  "n": 2
+ },
+ {
+  "w": "abu-abu",
+  "n": 2
+ },
+ {
+  "w": "jual",
+  "n": 2
+ },
+ {
+  "w": "bukit",
+  "n": 2
+ },
+ {
+  "w": "atapnya",
+  "n": 2
+ },
+ {
+  "w": "jaman",
+  "n": 2
+ },
+ {
+  "w": "jemur",
+  "n": 2
+ },
+ {
+  "w": "dikasih",
+  "n": 2
+ },
+ {
+  "w": "mesin",
+  "n": 2
+ },
+ {
+  "w": "kaos",
+  "n": 2
+ },
+ {
+  "w": "celana",
+  "n": 2
+ },
+ {
+  "w": "lega",
+  "n": 2
+ },
+ {
+  "w": "foto-foto",
+  "n": 2
+ },
+ {
+  "w": "persegi",
+  "n": 2
+ },
+ {
+  "w": "hijau",
+  "n": 2
+ },
+ {
+  "w": "berisik",
+  "n": 2
+ },
+ {
+  "w": "tentang",
+  "n": 2
+ },
+ {
+  "w": "sebut",
+  "n": 2
+ },
+ {
+  "w": "oh",
+  "n": 2
+ },
+ {
+  "w": "taksi",
+  "n": 2
+ },
+ {
+  "w": "ngaji",
+  "n": 2
+ },
+ {
+  "w": "matematika",
+  "n": 2
+ },
+ {
+  "w": "alhamdulillah",
+  "n": 2
+ },
+ {
+  "w": "ngundang",
+  "n": 2
+ },
+ {
+  "w": "kamera",
+  "n": 2
+ },
+ {
+  "w": "ganteng",
+  "n": 2
+ },
+ {
+  "w": "konten",
+  "n": 2
+ },
+ {
+  "w": "laku",
+  "n": 2
+ },
+ {
+  "w": "lumayan",
+  "n": 2
+ },
+ {
+  "w": "lengannya",
+  "n": 2
+ },
+ {
+  "w": "maksud",
+  "n": 2
+ },
+ {
+  "w": "samping",
+  "n": 2
+ },
+ {
+  "w": "kumpul",
+  "n": 2
+ },
+ {
+  "w": "halus",
+  "n": 2
+ },
+ {
+  "w": "bahunya",
+  "n": 2
+ },
+ {
+  "w": "pasti",
+  "n": 2
+ },
+ {
+  "w": "batuk",
+  "n": 2
+ },
+ {
+  "w": "makanannya",
+  "n": 2
+ },
+ {
+  "w": "bank",
+  "n": 2
+ },
+ {
+  "w": "airnya",
+  "n": 2
+ },
+ {
+  "w": "sendoknya",
+  "n": 2
+ },
+ {
+  "w": "tegak",
+  "n": 2
+ },
+ {
+  "w": "sendok",
+  "n": 2
+ },
+ {
+  "w": "senin",
+  "n": 2
+ },
+ {
+  "w": "marah",
+  "n": 2
+ },
+ {
+  "w": "bentar",
+  "n": 2
+ },
+ {
+  "w": "sebagian",
+  "n": 2
+ },
+ {
+  "w": "bereaksi",
+  "n": 2
+ },
+ {
+  "w": "sisanya",
+  "n": 2
+ },
+ {
+  "w": "oke",
+  "n": 2
+ },
+ {
+  "w": "mulutnya",
+  "n": 2
+ },
+ {
+  "w": "kotor",
+  "n": 2
+ },
+ {
+  "w": "dokter",
+  "n": 2
+ },
+ {
+  "w": "botolnya",
+  "n": 2
+ },
+ {
+  "w": "lapor",
+  "n": 2
+ },
+ {
+  "w": "serius",
+  "n": 2
+ },
+ {
+  "w": "nonton",
+  "n": 2
+ },
+ {
+  "w": "nyuci",
+  "n": 2
+ },
+ {
+  "w": "piring",
+  "n": 2
+ },
+ {
+  "w": "kirain",
+  "n": 2
+ },
+ {
+  "w": "hangat",
+  "n": 2
+ },
+ {
+  "w": "tarik",
+  "n": 2
+ },
+ {
+  "w": "putus",
+  "n": 2
+ },
+ {
+  "w": "bak",
+  "n": 2
+ },
+ {
+  "w": "cuci",
+  "n": 2
+ },
+ {
+  "w": "jatuhin",
+  "n": 2
+ },
+ {
+  "w": "nguping",
+  "n": 2
+ },
+ {
+  "w": "kecewa",
+  "n": 2
+ },
+ {
+  "w": "rencanain",
+  "n": 2
+ },
+ {
+  "w": "cahayanya",
+  "n": 2
+ },
+ {
+  "w": "genset",
+  "n": 2
+ },
+ {
+  "w": "ketutup",
+  "n": 2
+ },
+ {
+  "w": "ketiga",
+  "n": 2
+ },
+ {
+  "w": "istrinya",
+  "n": 2
+ },
+ {
+  "w": "senengnya",
+  "n": 2
+ },
+ {
+  "w": "nyanyi",
+  "n": 2
+ },
+ {
+  "w": "nikahin",
+  "n": 2
+ },
+ {
+  "w": "ilang",
+  "n": 2
+ },
+ {
+  "w": "lumpur",
+  "n": 2
+ },
+ {
+  "w": "galak",
+  "n": 2
+ },
+ {
+  "w": "wedangnya",
+  "n": 2
+ },
+ {
+  "w": "papasan",
+  "n": 2
+ },
+ {
+  "w": "uapnya",
+  "n": 2
+ },
+ {
+  "w": "bangunin",
+  "n": 2
+ },
+ {
+  "w": "lari",
+  "n": 2
+ },
+ {
+  "w": "secepat",
+  "n": 2
+ },
+ {
+  "w": "kertas-kertas",
+  "n": 2
+ },
+ {
+  "w": "laptop",
+  "n": 2
+ },
+ {
+  "w": "dilakuin",
+  "n": 2
+ },
+ {
+  "w": "dasar",
+  "n": 2
+ },
+ {
+  "w": "jalannya",
+  "n": 2
+ },
+ {
+  "w": "hidupnya",
+  "n": 2
+ },
+ {
+  "w": "milih",
+  "n": 2
+ },
+ {
+  "w": "posisi",
+  "n": 2
+ },
+ {
+  "w": "serak",
+  "n": 2
+ },
+ {
+  "w": "allah",
+  "n": 2
+ },
+ {
+  "w": "pahitnya",
+  "n": 2
+ },
+ {
+  "w": "sakunya",
+  "n": 2
+ },
+ {
+  "w": "dikunci",
+  "n": 2
+ },
+ {
+  "w": "biarin",
+  "n": 2
+ },
+ {
+  "w": "rata",
+  "n": 2
+ },
+ {
+  "w": "pait",
+  "n": 2
+ },
+ {
+  "w": "kirim",
+  "n": 2
+ },
+ {
+  "w": "rahasia",
+  "n": 2
+ },
+ {
+  "w": "seratus",
+  "n": 2
+ },
+ {
+  "w": "persen",
+  "n": 2
+ },
+ {
+  "w": "ngingetin",
+  "n": 2
+ },
+ {
+  "w": "berarti",
+  "n": 2
+ },
+ {
+  "w": "nganterin",
+  "n": 2
+ },
+ {
+  "w": "rokoknya",
+  "n": 2
+ },
+ {
+  "w": "keliatannya",
+  "n": 2
+ },
+ {
+  "w": "dicoret",
+  "n": 2
+ },
+ {
+  "w": "abu",
+  "n": 2
+ },
+ {
+  "w": "juta",
+  "n": 2
+ },
+ {
+  "w": "pinjem",
+  "n": 2
+ },
+ {
+  "w": "parah",
+  "n": 2
+ },
+ {
+  "w": "bayarin",
+  "n": 2
+ },
+ {
+  "w": "laci",
+  "n": 2
+ },
+ {
+  "w": "tiru",
+  "n": 2
+ },
+ {
+  "w": "kantong",
+  "n": 2
+ },
+ {
+  "w": "pangkuan",
+  "n": 2
+ },
+ {
+  "w": "om",
+  "n": 2
+ },
+ {
+  "w": "musuh",
+  "n": 2
+ },
+ {
+  "w": "draf",
+  "n": 2
+ },
+ {
+  "w": "goyang",
+  "n": 2
+ },
+ {
+  "w": "supplier",
+  "n": 2
+ },
+ {
+  "w": "koma",
+  "n": 2
+ },
+ {
+  "w": "miliar",
+  "n": 2
+ },
+ {
+  "w": "gaji",
+  "n": 2
+ },
+ {
+  "w": "kira",
+  "n": 2
+ },
+ {
+  "w": "pinter",
+  "n": 2
+ },
+ {
+  "w": "ternyata",
+  "n": 2
+ },
+ {
+  "w": "susah",
+  "n": 2
+ },
+ {
+  "w": "lakuin",
+  "n": 2
+ },
+ {
+  "w": "abunya",
+  "n": 2
+ },
+ {
+  "w": "potongan",
+  "n": 2
+ },
+ {
+  "w": "berkas",
+  "n": 2
+ },
+ {
+  "w": "kering",
+  "n": 2
+ },
+ {
+  "w": "begini",
+  "n": 2
+ },
+ {
+  "w": "urutannya",
+  "n": 2
+ },
+ {
+  "w": "cangkirnya",
+  "n": 2
+ },
+ {
+  "w": "kerjaan",
+  "n": 2
+ },
+ {
+  "w": "tanya",
+  "n": 2
+ },
+ {
+  "w": "alibi",
+  "n": 2
+ },
+ {
+  "w": "duaan",
+  "n": 2
+ },
+ {
+  "w": "pameran",
+  "n": 2
+ },
+ {
+  "w": "seni",
+  "n": 2
+ },
+ {
+  "w": "ember",
+  "n": 2
+ },
+ {
+  "w": "licin",
+  "n": 2
+ },
+ {
+  "w": "sisi",
+  "n": 2
+ },
+ {
+  "w": "lho",
+  "n": 2
+ },
+ {
+  "w": "terus-terusan",
+  "n": 2
+ },
+ {
+  "w": "mirip",
+  "n": 2
+ },
+ {
+  "w": "kulit",
+  "n": 2
+ },
+ {
+  "w": "foto-fotonya",
+  "n": 2
+ },
+ {
+  "w": "lebaran",
+  "n": 2
+ },
+ {
+  "w": "sekitar",
+  "n": 2
+ },
+ {
+  "w": "dagunya",
+  "n": 2
+ },
+ {
+  "w": "kelima",
+  "n": 2
+ },
+ {
+  "w": "papan",
+  "n": 2
+ },
+ {
+  "w": "pra",
+  "n": 2
+ },
+ {
+  "w": "seluruh",
+  "n": 2
+ },
+ {
+  "w": "kasihan",
+  "n": 2
+ },
+ {
+  "w": "uap",
+  "n": 2
+ },
+ {
+  "w": "protes",
+  "n": 2
+ },
+ {
+  "w": "butiran",
+  "n": 2
+ },
+ {
+  "w": "bersihin",
+  "n": 2
+ },
+ {
+  "w": "berdarah",
+  "n": 2
+ },
+ {
+  "w": "belajar",
+  "n": 2
+ },
+ {
+  "w": "anter",
+  "n": 2
+ },
+ {
+  "w": "galeri",
+  "n": 2
+ },
+ {
+  "w": "embernya",
+  "n": 2
+ },
+ {
+  "w": "rumputnya",
+  "n": 2
+ },
+ {
+  "w": "mas",
+  "n": 2
+ },
+ {
+  "w": "ditutup",
+  "n": 2
+ },
+ {
+  "w": "ngitung",
+  "n": 2
+ },
+ {
+  "w": "diurug",
+  "n": 2
+ },
+ {
+  "w": "kolamnya",
+  "n": 2
+ },
+ {
+  "w": "heran",
+  "n": 2
+ },
+ {
+  "w": "partner",
+  "n": 2
+ },
+ {
+  "w": "dibawa",
+  "n": 2
+ },
+ {
+  "w": "catatan",
+  "n": 2
+ },
+ {
+  "w": "bawahnya",
+  "n": 2
+ },
+ {
+  "w": "ribu",
+  "n": 2
+ },
+ {
+  "w": "legal",
+  "n": 2
+ },
+ {
+  "w": "pengacaranya",
+  "n": 2
+ },
+ {
+  "w": "negeri",
+  "n": 2
+ },
+ {
+  "w": "bay",
+  "n": 2
+ },
+ {
+  "w": "ditulis",
+  "n": 1
+ },
+ {
+  "w": "sehari-hari",
+  "n": 1
+ },
+ {
+  "w": "berita",
+  "n": 1
+ },
+ {
+  "w": "warung",
+  "n": 1
+ },
+ {
+  "w": "partikel",
+  "n": 1
+ },
+ {
+  "w": "nih",
+  "n": 1
+ },
+ {
+  "w": "tuh",
+  "n": 1
+ },
+ {
+  "w": "arti",
+  "n": 1
+ },
+ {
+  "w": "terdengar",
+  "n": 1
+ },
+ {
+  "w": "campur",
+  "n": 1
+ },
+ {
+  "w": "euy",
+  "n": 1
+ },
+ {
+  "w": "pelajaran",
+  "n": 1
+ },
+ {
+  "w": "tidak",
+  "n": 1
+ },
+ {
+  "w": "sudah",
+  "n": 1
+ },
+ {
+  "w": "bagaimana",
+  "n": 1
+ },
+ {
+  "w": "mengapa",
+  "n": 1
+ },
+ {
+  "w": "sedang",
+  "n": 1
+ },
+ {
+  "w": "nyata",
+  "n": 1
+ },
+ {
+  "w": "satu-dua",
+  "n": 1
+ },
+ {
+  "w": "membaca",
+  "n": 1
+ },
+ {
+  "w": "pensiun",
+  "n": 1
+ },
+ {
+  "w": "mana-mana",
+  "n": 1
+ },
+ {
+  "w": "sutrisno",
+  "n": 1
+ },
+ {
+  "w": "lahir",
+  "n": 1
+ },
+ {
+  "w": "sandalnya",
+  "n": 1
+ },
+ {
+  "w": "undangan",
+  "n": 1
+ },
+ {
+  "w": "selasa",
+  "n": 1
+ },
+ {
+  "w": "whatsapp",
+  "n": 1
+ },
+ {
+  "w": "dimasukin",
+  "n": 1
+ },
+ {
+  "w": "pagar",
+  "n": 1
+ },
+ {
+  "w": "kikuk",
+  "n": 1
+ },
+ {
+  "w": "sopir",
+  "n": 1
+ },
+ {
+  "w": "disuruh",
+  "n": 1
+ },
+ {
+  "w": "amplopnya",
+  "n": 1
+ },
+ {
+  "w": "tulisannya",
+  "n": 1
+ },
+ {
+  "w": "memang",
+  "n": 1
+ },
+ {
+  "w": "huruf-hurufnya",
+  "n": 1
+ },
+ {
+  "w": "dipercaya",
+  "n": 1
+ },
+ {
+  "w": "pertamanya",
+  "n": 1
+ },
+ {
+  "w": "begitulah",
+  "n": 1
+ },
+ {
+  "w": "tumbuh",
+  "n": 1
+ },
+ {
+  "w": "kanker",
+  "n": 1
+ },
+ {
+  "w": "saksi",
+  "n": 1
+ },
+ {
+  "w": "keluarganya",
+  "n": 1
+ },
+ {
+  "w": "diundang",
+  "n": 1
+ },
+ {
+  "w": "malamnya",
+  "n": 1
+ },
+ {
+  "w": "anak-anaknya",
+  "n": 1
+ },
+ {
+  "w": "remaja",
+  "n": 1
+ },
+ {
+  "w": "berangkat",
+  "n": 1
+ },
+ {
+  "w": "travel",
+  "n": 1
+ },
+ {
+  "w": "dago",
+  "n": 1
+ },
+ {
+  "w": "sebenernya",
+  "n": 1
+ },
+ {
+  "w": "jalanan",
+  "n": 1
+ },
+ {
+  "w": "neraka",
+  "n": 1
+ },
+ {
+  "w": "kayaknya",
+  "n": 1
+ },
+ {
+  "w": "pertigaan",
+  "n": 1
+ },
+ {
+  "w": "pickup",
+  "n": 1
+ },
+ {
+  "w": "topinya",
+  "n": 1
+ },
+ {
+  "w": "jemput",
+  "n": 1
+ },
+ {
+  "w": "bolong-bolong",
+  "n": 1
+ },
+ {
+  "w": "titik",
+  "n": 1
+ },
+ {
+  "w": "pinus",
+  "n": 1
+ },
+ {
+  "w": "langit",
+  "n": 1
+ },
+ {
+  "w": "payung",
+  "n": 1
+ },
+ {
+  "w": "vilanya",
+  "n": 1
+ },
+ {
+  "w": "dikelilingi",
+  "n": 1
+ },
+ {
+  "w": "kagum",
+  "n": 1
+ },
+ {
+  "w": "belanda",
+  "n": 1
+ },
+ {
+  "w": "jurang",
+  "n": 1
+ },
+ {
+  "w": "duduk-duduk",
+  "n": 1
+ },
+ {
+  "w": "nabrak",
+  "n": 1
+ },
+ {
+  "w": "diikat",
+  "n": 1
+ },
+ {
+  "w": "riau",
+  "n": 1
+ },
+ {
+  "w": "bikinin",
+  "n": 1
+ },
+ {
+  "w": "takarannya",
+  "n": 1
+ },
+ {
+  "w": "lembap",
+  "n": 1
+ },
+ {
+  "w": "pegunungan",
+  "n": 1
+ },
+ {
+  "w": "tamunya",
+  "n": 1
+ },
+ {
+  "w": "gondrong",
+  "n": 1
+ },
+ {
+  "w": "pantai",
+  "n": 1
+ },
+ {
+  "w": "ngikutin",
+  "n": 1
+ },
+ {
+  "w": "jendelanya",
+  "n": 1
+ },
+ {
+  "w": "menghadap",
+  "n": 1
+ },
+ {
+  "w": "jeruk",
+  "n": 1
+ },
+ {
+  "w": "ditumbuhin",
+  "n": 1
+ },
+ {
+  "w": "sekitarnya",
+  "n": 1
+ },
+ {
+  "w": "kedinginan",
+  "n": 1
+ },
+ {
+  "w": "tamu-tamu",
+  "n": 1
+ },
+ {
+  "w": "mesinnya",
+  "n": 1
+ },
+ {
+  "w": "parkir",
+  "n": 1
+ },
+ {
+  "w": "gemuk",
+  "n": 1
+ },
+ {
+  "w": "batik",
+  "n": 1
+ },
+ {
+  "w": "mahal",
+  "n": 1
+ },
+ {
+  "w": "disisir",
+  "n": 1
+ },
+ {
+  "w": "angguk-angguk",
+  "n": 1
+ },
+ {
+  "w": "topik",
+  "n": 1
+ },
+ {
+  "w": "gerbang",
+  "n": 1
+ },
+ {
+  "w": "ongkos",
+  "n": 1
+ },
+ {
+  "w": "pemalu",
+  "n": 1
+ },
+ {
+  "w": "fokus",
+  "n": 1
+ },
+ {
+  "w": "tasnya",
+  "n": 1
+ },
+ {
+  "w": "miringin",
+  "n": 1
+ },
+ {
+  "w": "sabar",
+  "n": 1
+ },
+ {
+  "w": "bersih",
+  "n": 1
+ },
+ {
+  "w": "norak",
+  "n": 1
+ },
+ {
+  "w": "video-video",
+  "n": 1
+ },
+ {
+  "w": "macam-macam",
+  "n": 1
+ },
+ {
+  "w": "wisata",
+  "n": 1
+ },
+ {
+  "w": "wedding",
+  "n": 1
+ },
+ {
+  "w": "nyubit",
+  "n": 1
+ },
+ {
+  "w": "ngerendah",
+  "n": 1
+ },
+ {
+  "w": "gini",
+  "n": 1
+ },
+ {
+  "w": "cantik",
+  "n": 1
+ },
+ {
+  "w": "dandanannya",
+  "n": 1
+ },
+ {
+  "w": "hutan",
+  "n": 1
+ },
+ {
+  "w": "ketiduran",
+  "n": 1
+ },
+ {
+  "w": "ngantuk",
+  "n": 1
+ },
+ {
+  "w": "arahnya",
+  "n": 1
+ },
+ {
+  "w": "pinggiran",
+  "n": 1
+ },
+ {
+  "w": "leher",
+  "n": 1
+ },
+ {
+  "w": "kegedean",
+  "n": 1
+ },
+ {
+  "w": "berubahnya",
+  "n": 1
+ },
+ {
+  "w": "bantuin",
+  "n": 1
+ },
+ {
+  "w": "asem",
+  "n": 1
+ },
+ {
+  "w": "ayam",
+  "n": 1
+ },
+ {
+  "w": "goreng",
+  "n": 1
+ },
+ {
+  "w": "sambal",
+  "n": 1
+ },
+ {
+  "w": "macam",
+  "n": 1
+ },
+ {
+  "w": "lalapan",
+  "n": 1
+ },
+ {
+  "w": "restoran",
+  "n": 1
+ },
+ {
+  "w": "obrolannya",
+  "n": 1
+ },
+ {
+  "w": "macet",
+  "n": 1
+ },
+ {
+  "w": "cuaca",
+  "n": 1
+ },
+ {
+  "w": "harga",
+  "n": 1
+ },
+ {
+  "w": "suasananya",
+  "n": 1
+ },
+ {
+  "w": "antapani",
+  "n": 1
+ },
+ {
+  "w": "kabar",
+  "n": 1
+ },
+ {
+  "w": "tumpah",
+  "n": 1
+ },
+ {
+  "w": "anggurnya",
+  "n": 1
+ },
+ {
+  "w": "ditanya",
+  "n": 1
+ },
+ {
+  "w": "telat",
+  "n": 1
+ },
+ {
+  "w": "mainin",
+  "n": 1
+ },
+ {
+  "w": "suap",
+  "n": 1
+ },
+ {
+  "w": "buah",
+  "n": 1
+ },
+ {
+  "w": "napasnya",
+  "n": 1
+ },
+ {
+  "w": "notaris",
+  "n": 1
+ },
+ {
+  "w": "marahnya",
+  "n": 1
+ },
+ {
+  "w": "garpunya",
+  "n": 1
+ },
+ {
+  "w": "hukum",
+  "n": 1
+ },
+ {
+  "w": "setelahnya",
+  "n": 1
+ },
+ {
+  "w": "habis",
+  "n": 1
+ },
+ {
+  "w": "bar",
+  "n": 1
+ },
+ {
+  "w": "sendiri-sendiri",
+  "n": 1
+ },
+ {
+  "w": "versi",
+  "n": 1
+ },
+ {
+  "w": "serbet",
+  "n": 1
+ },
+ {
+  "w": "keputusan",
+  "n": 1
+ },
+ {
+  "w": "ditinggal",
+  "n": 1
+ },
+ {
+  "w": "piring-piring",
+  "n": 1
+ },
+ {
+  "w": "rasanya",
+  "n": 1
+ },
+ {
+  "w": "operasi",
+  "n": 1
+ },
+ {
+  "w": "pikir-pikir",
+  "n": 1
+ },
+ {
+  "w": "deras",
+  "n": 1
+ },
+ {
+  "w": "ngalir",
+  "n": 1
+ },
+ {
+  "w": "talang",
+  "n": 1
+ },
+ {
+  "w": "undang",
+  "n": 1
+ },
+ {
+  "w": "muterin",
+  "n": 1
+ },
+ {
+  "w": "maksudnya",
+  "n": 1
+ },
+ {
+  "w": "harusnya",
+  "n": 1
+ },
+ {
+  "w": "depannya",
+  "n": 1
+ },
+ {
+  "w": "hati",
+  "n": 1
+ },
+ {
+  "w": "tembus",
+  "n": 1
+ },
+ {
+  "w": "sinar-x",
+  "n": 1
+ },
+ {
+  "w": "berlebihan",
+  "n": 1
+ },
+ {
+  "w": "lihat-lihat",
+  "n": 1
+ },
+ {
+  "w": "piringnya",
+  "n": 1
+ },
+ {
+  "w": "astaga",
+  "n": 1
+ },
+ {
+  "w": "nyaring",
+  "n": 1
+ },
+ {
+  "w": "keramik",
+  "n": 1
+ },
+ {
+  "w": "ceroboh",
+  "n": 1
+ },
+ {
+  "w": "normal",
+  "n": 1
+ },
+ {
+  "w": "masak",
+  "n": 1
+ },
+ {
+  "w": "tutupin",
+  "n": 1
+ },
+ {
+  "w": "duitnya",
+  "n": 1
+ },
+ {
+  "w": "digeser",
+  "n": 1
+ },
+ {
+  "w": "kemaleman",
+  "n": 1
+ },
+ {
+  "w": "deg-degan",
+  "n": 1
+ },
+ {
+  "w": "ketahuan",
+  "n": 1
+ },
+ {
+  "w": "nyontek",
+  "n": 1
+ },
+ {
+  "w": "eh",
+  "n": 1
+ },
+ {
+  "w": "minggir",
+  "n": 1
+ },
+ {
+  "w": "perut",
+  "n": 1
+ },
+ {
+  "w": "apa-apanya",
+  "n": 1
+ },
+ {
+  "w": "iyalah",
+  "n": 1
+ },
+ {
+  "w": "aseeep",
+  "n": 1
+ },
+ {
+  "w": "raba-raba",
+  "n": 1
+ },
+ {
+  "w": "kesel",
+  "n": 1
+ },
+ {
+  "w": "tangganya",
+  "n": 1
+ },
+ {
+  "w": "batang",
+  "n": 1
+ },
+ {
+  "w": "dinyalain",
+  "n": 1
+ },
+ {
+  "w": "nerangin",
+  "n": 1
+ },
+ {
+  "w": "permisi",
+  "n": 1
+ },
+ {
+  "w": "bertiga",
+  "n": 1
+ },
+ {
+  "w": "kerjanya",
+  "n": 1
+ },
+ {
+  "w": "cahaya",
+  "n": 1
+ },
+ {
+  "w": "tajam",
+  "n": 1
+ },
+ {
+  "w": "pikiran",
+  "n": 1
+ },
+ {
+  "w": "selingkuh",
+  "n": 1
+ },
+ {
+  "w": "temenan",
+  "n": 1
+ },
+ {
+  "w": "nyesel",
+  "n": 1
+ },
+ {
+  "w": "mundur",
+  "n": 1
+ },
+ {
+  "w": "pendek",
+  "n": 1
+ },
+ {
+  "w": "lembut",
+  "n": 1
+ },
+ {
+  "w": "pesannya",
+  "n": 1
+ },
+ {
+  "w": "profil",
+  "n": 1
+ },
+ {
+  "w": "ngirim",
+  "n": 1
+ },
+ {
+  "w": "ngedip-ngedip",
+  "n": 1
+ },
+ {
+  "w": "aki",
+  "n": 1
+ },
+ {
+  "w": "genset-nya",
+  "n": 1
+ },
+ {
+  "w": "soak",
+  "n": 1
+ },
+ {
+  "w": "pln-nya",
+  "n": 1
+ },
+ {
+  "w": "lengan",
+  "n": 1
+ },
+ {
+  "w": "persisnya",
+  "n": 1
+ },
+ {
+  "w": "parut",
+  "n": 1
+ },
+ {
+  "w": "talenan",
+  "n": 1
+ },
+ {
+  "w": "baunya",
+  "n": 1
+ },
+ {
+  "w": "ngisi",
+  "n": 1
+ },
+ {
+  "w": "siram",
+  "n": 1
+ },
+ {
+  "w": "otomatis",
+  "n": 1
+ },
+ {
+  "w": "dimarahin",
+  "n": 1
+ },
+ {
+  "w": "ngaduk",
+  "n": 1
+ },
+ {
+  "w": "diganggu",
+  "n": 1
+ },
+ {
+  "w": "kelar",
+  "n": 1
+ },
+ {
+  "w": "vas",
+  "n": 1
+ },
+ {
+  "w": "bunga",
+  "n": 1
+ },
+ {
+  "w": "atasnya",
+  "n": 1
+ },
+ {
+  "w": "beresin",
+  "n": 1
+ },
+ {
+  "w": "bengkak",
+  "n": 1
+ },
+ {
+  "w": "jualan",
+  "n": 1
+ },
+ {
+  "w": "berturut-turut",
+  "n": 1
+ },
+ {
+  "w": "telanjang",
+  "n": 1
+ },
+ {
+  "w": "berantakan",
+  "n": 1
+ },
+ {
+  "w": "kehabisan",
+  "n": 1
+ },
+ {
+  "w": "kanannya",
+  "n": 1
+ },
+ {
+  "w": "megang",
+  "n": 1
+ },
+ {
+  "w": "lehernya",
+  "n": 1
+ },
+ {
+  "w": "keadaan",
+  "n": 1
+ },
+ {
+  "w": "darurat",
+  "n": 1
+ },
+ {
+  "w": "nyelamatin",
+  "n": 1
+ },
+ {
+  "w": "garis",
+  "n": 1
+ },
+ {
+  "w": "tutupnya",
+  "n": 1
+ },
+ {
+  "w": "butir",
+  "n": 1
+ },
+ {
+  "w": "sirup",
+  "n": 1
+ },
+ {
+  "w": "kental",
+  "n": 1
+ },
+ {
+  "w": "ngumpul",
+  "n": 1
+ },
+ {
+  "w": "karpet",
+  "n": 1
+ },
+ {
+  "w": "kuping",
+  "n": 1
+ },
+ {
+  "w": "banting",
+  "n": 1
+ },
+ {
+  "w": "kuyup",
+  "n": 1
+ },
+ {
+  "w": "sepatunya",
+  "n": 1
+ },
+ {
+  "w": "longsor",
+  "n": 1
+ },
+ {
+  "w": "tebingnya",
+  "n": 1
+ },
+ {
+  "w": "lanjutin",
+  "n": 1
+ },
+ {
+  "w": "kumpulin",
+  "n": 1
+ },
+ {
+  "w": "anehnya",
+  "n": 1
+ },
+ {
+  "w": "rendah",
+  "n": 1
+ },
+ {
+  "w": "segala",
+  "n": 1
+ },
+ {
+  "w": "hormat",
+  "n": 1
+ },
+ {
+  "w": "waktunya",
+  "n": 1
+ },
+ {
+  "w": "cepat-cepat",
+  "n": 1
+ },
+ {
+  "w": "minuman",
+  "n": 1
+ },
+ {
+  "w": "ngopi",
+  "n": 1
+ },
+ {
+  "w": "dasarnya",
+  "n": 1
+ },
+ {
+  "w": "jantungnya",
+  "n": 1
+ },
+ {
+  "w": "pembunuhan",
+  "n": 1
+ },
+ {
+  "w": "ngendap",
+  "n": 1
+ },
+ {
+  "w": "asap",
+  "n": 1
+ },
+ {
+  "w": "ngarang",
+  "n": 1
+ },
+ {
+  "w": "saling",
+  "n": 1
+ },
+ {
+  "w": "kejadian",
+  "n": 1
+ },
+ {
+  "w": "pr",
+  "n": 1
+ },
+ {
+  "w": "aturan",
+  "n": 1
+ },
+ {
+  "w": "kuncinya",
+  "n": 1
+ },
+ {
+  "w": "romantis",
+  "n": 1
+ },
+ {
+  "w": "terang",
+  "n": 1
+ },
+ {
+  "w": "profilnya",
+  "n": 1
+ },
+ {
+  "w": "biru",
+  "n": 1
+ },
+ {
+  "w": "belakangnya",
+  "n": 1
+ },
+ {
+  "w": "kampus",
+  "n": 1
+ },
+ {
+  "w": "semester",
+  "n": 1
+ },
+ {
+  "w": "dihitungin",
+  "n": 1
+ },
+ {
+  "w": "hamil",
+  "n": 1
+ },
+ {
+  "w": "kabur",
+  "n": 1
+ },
+ {
+  "w": "kakak",
+  "n": 1
+ },
+ {
+  "w": "duit",
+  "n": 1
+ },
+ {
+  "w": "tantenya",
+  "n": 1
+ },
+ {
+  "w": "nangisnya",
+  "n": 1
+ },
+ {
+  "w": "bertahun-tahun",
+  "n": 1
+ },
+ {
+  "w": "kelamaan",
+  "n": 1
+ },
+ {
+  "w": "bunganya",
+  "n": 1
+ },
+ {
+  "w": "bulanan",
+  "n": 1
+ },
+ {
+  "w": "tanyain",
+  "n": 1
+ },
+ {
+  "w": "dicurigai",
+  "n": 1
+ },
+ {
+  "w": "tiang",
+  "n": 1
+ },
+ {
+  "w": "rahasiain",
+  "n": 1
+ },
+ {
+  "w": "bales",
+  "n": 1
+ },
+ {
+  "w": "pesan",
+  "n": 1
+ },
+ {
+  "w": "ingatan",
+  "n": 1
+ },
+ {
+  "w": "dinginin",
+  "n": 1
+ },
+ {
+  "w": "tehnya",
+  "n": 1
+ },
+ {
+  "w": "dihukum",
+  "n": 1
+ },
+ {
+  "w": "ngerokok",
+  "n": 1
+ },
+ {
+  "w": "keempat",
+  "n": 1
+ },
+ {
+  "w": "nangkep",
+  "n": 1
+ },
+ {
+  "w": "bayangin",
+  "n": 1
+ },
+ {
+  "w": "kecil-kecilan",
+  "n": 1
+ },
+ {
+  "w": "pinjeman",
+  "n": 1
+ },
+ {
+  "w": "seneng",
+  "n": 1
+ },
+ {
+  "w": "sekalipun",
+  "n": 1
+ },
+ {
+  "w": "kedelapan",
+  "n": 1
+ },
+ {
+  "w": "nyakitin",
+  "n": 1
+ },
+ {
+  "w": "kos",
+  "n": 1
+ },
+ {
+  "w": "anjing",
+  "n": 1
+ },
+ {
+  "w": "dompet",
+  "n": 1
+ },
+ {
+  "w": "dilipat",
+  "n": 1
+ },
+ {
+  "w": "natapin",
+  "n": 1
+ },
+ {
+  "w": "nomor",
+  "n": 1
+ },
+ {
+  "w": "cetak",
+  "n": 1
+ },
+ {
+  "w": "tambah",
+  "n": 1
+ },
+ {
+  "w": "temennya",
+  "n": 1
+ },
+ {
+  "w": "hasil",
+  "n": 1
+ },
+ {
+  "w": "tes",
+  "n": 1
+ },
+ {
+  "w": "belanja",
+  "n": 1
+ },
+ {
+  "w": "nilainya",
+  "n": 1
+ },
+ {
+  "w": "digabung",
+  "n": 1
+ },
+ {
+  "w": "pecat",
+  "n": 1
+ },
+ {
+  "w": "sedarah",
+  "n": 1
+ },
+ {
+  "w": "print-an",
+  "n": 1
+ },
+ {
+  "w": "coretan",
+  "n": 1
+ },
+ {
+  "w": "pinggir-pinggirnya",
+  "n": 1
+ },
+ {
+  "w": "tanggalnya",
+  "n": 1
+ },
+ {
+  "w": "siap-siap",
+  "n": 1
+ },
+ {
+  "w": "kilo",
+  "n": 1
+ },
+ {
+  "w": "berbulan-bulan",
+  "n": 1
+ },
+ {
+  "w": "hancur",
+  "n": 1
+ },
+ {
+  "w": "sementara",
+  "n": 1
+ },
+ {
+  "w": "sepanjang",
+  "n": 1
+ },
+ {
+  "w": "hujannya",
+  "n": 1
+ },
+ {
+  "w": "ipar",
+  "n": 1
+ },
+ {
+  "w": "panjang-panjang",
+  "n": 1
+ },
+ {
+  "w": "bodoh",
+  "n": 1
+ },
+ {
+  "w": "australia",
+  "n": 1
+ },
+ {
+  "w": "dua-duanya",
+  "n": 1
+ },
+ {
+  "w": "butik",
+  "n": 1
+ },
+ {
+  "w": "rugi",
+  "n": 1
+ },
+ {
+  "w": "setiabudi",
+  "n": 1
+ },
+ {
+  "w": "kpr",
+  "n": 1
+ },
+ {
+  "w": "sebagai",
+  "n": 1
+ },
+ {
+  "w": "direktur",
+  "n": 1
+ },
+ {
+  "w": "seperlima",
+  "n": 1
+ },
+ {
+  "w": "dikasihanin",
+  "n": 1
+ },
+ {
+  "w": "anget-angetan",
+  "n": 1
+ },
+ {
+  "w": "abis",
+  "n": 1
+ },
+ {
+  "w": "kecil-kecil",
+  "n": 1
+ },
+ {
+  "w": "deretan",
+  "n": 1
+ },
+ {
+  "w": "salinan",
+  "n": 1
+ },
+ {
+  "w": "kontrak",
+  "n": 1
+ },
+ {
+  "w": "lemas",
+  "n": 1
+ },
+ {
+  "w": "audit",
+  "n": 1
+ },
+ {
+  "w": "rajin",
+  "n": 1
+ },
+ {
+  "w": "sebulan",
+  "n": 1
+ },
+ {
+  "w": "hargain",
+  "n": 1
+ },
+ {
+  "w": "kebakar",
+  "n": 1
+ },
+ {
+  "w": "urutan",
+  "n": 1
+ },
+ {
+  "w": "maling",
+  "n": 1
+ },
+ {
+  "w": "buta",
+  "n": 1
+ },
+ {
+  "w": "nawarin",
+  "n": 1
+ },
+ {
+  "w": "seberang",
+  "n": 1
+ },
+ {
+  "w": "detail",
+  "n": 1
+ },
+ {
+  "w": "ngangguk",
+  "n": 1
+ },
+ {
+  "w": "gugup",
+  "n": 1
+ },
+ {
+  "w": "belasan",
+  "n": 1
+ },
+ {
+  "w": "edit",
+  "n": 1
+ },
+ {
+  "w": "headphone",
+  "n": 1
+ },
+ {
+  "w": "satuan",
+  "n": 1
+ },
+ {
+  "w": "kopinya",
+  "n": 1
+ },
+ {
+  "w": "akui",
+  "n": 1
+ },
+ {
+  "w": "perasaan",
+  "n": 1
+ },
+ {
+  "w": "lanjutnya",
+  "n": 1
+ },
+ {
+  "w": "hukuman",
+  "n": 1
+ },
+ {
+  "w": "hadiah",
+  "n": 1
+ },
+ {
+  "w": "gara-gara",
+  "n": 1
+ },
+ {
+  "w": "beliau",
+  "n": 1
+ },
+ {
+  "w": "mencurigakan",
+  "n": 1
+ },
+ {
+  "w": "rencana",
+  "n": 1
+ },
+ {
+  "w": "acara",
+  "n": 1
+ },
+ {
+  "w": "toilet",
+  "n": 1
+ },
+ {
+  "w": "nyasar",
+  "n": 1
+ },
+ {
+  "w": "setuju",
+  "n": 1
+ },
+ {
+  "w": "numpang",
+  "n": 1
+ },
+ {
+  "w": "cangkir",
+  "n": 1
+ },
+ {
+  "w": "tanahnya",
+  "n": 1
+ },
+ {
+  "w": "amblas",
+  "n": 1
+ },
+ {
+  "w": "lampunya",
+  "n": 1
+ },
+ {
+  "w": "satunya",
+  "n": 1
+ },
+ {
+  "w": "apinya",
+  "n": 1
+ },
+ {
+  "w": "atap",
+  "n": 1
+ },
+ {
+  "w": "seng",
+  "n": 1
+ },
+ {
+  "w": "kerjain",
+  "n": 1
+ },
+ {
+  "w": "ngeremes",
+  "n": 1
+ },
+ {
+  "w": "dasternya",
+  "n": 1
+ },
+ {
+  "w": "usaha",
+  "n": 1
+ },
+ {
+  "w": "es",
+  "n": 1
+ },
+ {
+  "w": "pisah",
+  "n": 1
+ },
+ {
+  "w": "masalah",
+  "n": 1
+ },
+ {
+  "w": "masalahnya",
+  "n": 1
+ },
+ {
+  "w": "urusan",
+  "n": 1
+ },
+ {
+  "w": "condong",
+  "n": 1
+ },
+ {
+  "w": "asa",
+  "n": 1
+ },
+ {
+  "w": "dipecat",
+  "n": 1
+ },
+ {
+  "w": "suami",
+  "n": 1
+ },
+ {
+  "w": "berdebu",
+  "n": 1
+ },
+ {
+  "w": "kotak-kotak",
+  "n": 1
+ },
+ {
+  "w": "koran",
+  "n": 1
+ },
+ {
+  "w": "kabel",
+  "n": 1
+ },
+ {
+  "w": "kaya",
+  "n": 1
+ },
+ {
+  "w": "sampulnya",
+  "n": 1
+ },
+ {
+  "w": "palsu",
+  "n": 1
+ },
+ {
+  "w": "warna",
+  "n": 1
+ },
+ {
+  "w": "coklat",
+  "n": 1
+ },
+ {
+  "w": "sudutnya",
+  "n": 1
+ },
+ {
+  "w": "rusak",
+  "n": 1
+ },
+ {
+  "w": "urut",
+  "n": 1
+ },
+ {
+  "w": "kumisan",
+  "n": 1
+ },
+ {
+  "w": "rok",
+  "n": 1
+ },
+ {
+  "w": "senyumnya",
+  "n": 1
+ },
+ {
+  "w": "lama-lama",
+  "n": 1
+ },
+ {
+  "w": "hidungnya",
+  "n": 1
+ },
+ {
+  "w": "melingkar",
+  "n": 1
+ },
+ {
+  "w": "topi",
+  "n": 1
+ },
+ {
+  "w": "bisik",
+  "n": 1
+ },
+ {
+  "w": "halamannya",
+  "n": 1
+ },
+ {
+  "w": "perusahaannya",
+  "n": 1
+ },
+ {
+  "w": "identitas",
+  "n": 1
+ },
+ {
+  "w": "dipeluk",
+  "n": 1
+ },
+ {
+  "w": "anginnya",
+  "n": 1
+ },
+ {
+  "w": "nampar",
+  "n": 1
+ },
+ {
+  "w": "terasnya",
+  "n": 1
+ },
+ {
+  "w": "jejak",
+  "n": 1
+ },
+ {
+  "w": "nyeri",
+  "n": 1
+ },
+ {
+  "w": "trik",
+  "n": 1
+ },
+ {
+  "w": "bayangan",
+  "n": 1
+ },
+ {
+  "w": "butiran-butiran",
+  "n": 1
+ },
+ {
+  "w": "kasar",
+  "n": 1
+ },
+ {
+  "w": "nempel",
+  "n": 1
+ },
+ {
+  "w": "celah",
+  "n": 1
+ },
+ {
+  "w": "lidah",
+  "n": 1
+ },
+ {
+  "w": "gudangnya",
+  "n": 1
+ },
+ {
+  "w": "dispenser",
+  "n": 1
+ },
+ {
+  "w": "utama",
+  "n": 1
+ },
+ {
+  "w": "diremes",
+  "n": 1
+ },
+ {
+  "w": "ngatur",
+  "n": 1
+ },
+ {
+  "w": "geprek",
+  "n": 1
+ },
+ {
+  "w": "aduk",
+  "n": 1
+ },
+ {
+  "w": "tambahin",
+  "n": 1
+ },
+ {
+  "w": "jawabannya",
+  "n": 1
+ },
+ {
+  "w": "segitu",
+  "n": 1
+ },
+ {
+  "w": "jadwal",
+  "n": 1
+ },
+ {
+  "w": "dibikin",
+  "n": 1
+ },
+ {
+  "w": "ditaruh",
+  "n": 1
+ },
+ {
+  "w": "didiemin",
+  "n": 1
+ },
+ {
+  "w": "adalah",
+  "n": 1
+ },
+ {
+  "w": "kebangun",
+  "n": 1
+ },
+ {
+  "w": "panci",
+  "n": 1
+ },
+ {
+  "w": "darah",
+  "n": 1
+ },
+ {
+  "w": "telinga",
+  "n": 1
+ },
+ {
+  "w": "kotak",
+  "n": 1
+ },
+ {
+  "w": "lukanya",
+  "n": 1
+ },
+ {
+  "w": "dicek",
+  "n": 1
+ },
+ {
+  "w": "takutnya",
+  "n": 1
+ },
+ {
+  "w": "gegar",
+  "n": 1
+ },
+ {
+  "w": "p",
+  "n": 1
+ },
+ {
+  "w": "k",
+  "n": 1
+ },
+ {
+  "w": "meringis",
+  "n": 1
+ },
+ {
+  "w": "pukul",
+  "n": 1
+ },
+ {
+  "w": "kenceng",
+  "n": 1
+ },
+ {
+  "w": "gambar",
+  "n": 1
+ },
+ {
+  "w": "kaligrafi",
+  "n": 1
+ },
+ {
+  "w": "tengkurap",
+  "n": 1
+ },
+ {
+  "w": "buram",
+  "n": 1
+ },
+ {
+  "w": "ngelilingin",
+  "n": 1
+ },
+ {
+  "w": "perban",
+  "n": 1
+ },
+ {
+  "w": "sumur",
+  "n": 1
+ },
+ {
+  "w": "langitnya",
+  "n": 1
+ },
+ {
+  "w": "pusing",
+  "n": 1
+ },
+ {
+  "w": "astaghfirullah",
+  "n": 1
+ },
+ {
+  "w": "geleng-geleng",
+  "n": 1
+ },
+ {
+  "w": "berbentuk",
+  "n": 1
+ },
+ {
+  "w": "loncat",
+  "n": 1
+ },
+ {
+  "w": "tahunan",
+  "n": 1
+ },
+ {
+  "w": "nyuruh",
+  "n": 1
+ },
+ {
+  "w": "ngurus",
+  "n": 1
+ },
+ {
+  "w": "nyamuk",
+  "n": 1
+ },
+ {
+  "w": "ditanem",
+  "n": 1
+ },
+ {
+  "w": "garuk",
+  "n": 1
+ },
+ {
+  "w": "juni",
+  "n": 1
+ },
+ {
+  "w": "muter-muter",
+  "n": 1
+ },
+ {
+  "w": "gulita",
+  "n": 1
+ },
+ {
+  "w": "tempatnya",
+  "n": 1
+ },
+ {
+  "w": "lubang",
+  "n": 1
+ },
+ {
+  "w": "letaknya",
+  "n": 1
+ },
+ {
+  "w": "galian",
+  "n": 1
+ },
+ {
+  "w": "pekan",
+  "n": 1
+ },
+ {
+  "w": "seumuran",
+  "n": 1
+ },
+ {
+  "w": "teriak-teriak",
+  "n": 1
+ },
+ {
+  "w": "begitu",
+  "n": 1
+ },
+ {
+  "w": "suruh",
+  "n": 1
+ },
+ {
+  "w": "diperban",
+  "n": 1
+ },
+ {
+  "w": "bantal",
+  "n": 1
+ },
+ {
+  "w": "dramatis",
+  "n": 1
+ },
+ {
+  "w": "anget",
+  "n": 1
+ },
+ {
+  "w": "masing-masing",
+  "n": 1
+ },
+ {
+  "w": "ternganga",
+  "n": 1
+ },
+ {
+  "w": "judi",
+  "n": 1
+ },
+ {
+  "w": "nyuri",
+  "n": 1
+ },
+ {
+  "w": "ceknya",
+  "n": 1
+ },
+ {
+  "w": "bantah",
+  "n": 1
+ },
+ {
+  "w": "nyolong",
+  "n": 1
+ },
+ {
+  "w": "sembunyiin",
+  "n": 1
+ },
+ {
+  "w": "adiknya",
+  "n": 1
+ },
+ {
+  "w": "digeprek",
+  "n": 1
+ },
+ {
+  "w": "targetmu",
+  "n": 1
+ },
+ {
+  "w": "alarm",
+  "n": 1
+ },
+ {
+  "w": "berasa",
+  "n": 1
+ },
+ {
+  "w": "kuat",
+  "n": 1
+ },
+ {
+  "w": "akal",
+  "n": 1
+ },
+ {
+  "w": "otaknya",
+  "n": 1
+ },
+ {
+  "w": "lututnya",
+  "n": 1
+ },
+ {
+  "w": "bingung",
+  "n": 1
+ },
+ {
+  "w": "jarinya",
+  "n": 1
+ },
+ {
+  "w": "bergerak",
+  "n": 1
+ },
+ {
+  "w": "diganti",
+  "n": 1
+ },
+ {
+  "w": "group",
+  "n": 1
+ },
+ {
+  "w": "kehilangan",
+  "n": 1
+ },
+ {
+  "w": "ucapin",
+  "n": 1
+ },
+ {
+  "w": "marga",
+  "n": 1
+ },
+ {
+  "w": "tunangannya",
+  "n": 1
+ },
+ {
+  "w": "diminta",
+  "n": 1
+ },
+ {
+  "w": "maju",
+  "n": 1
+ },
+ {
+  "w": "monster",
+  "n": 1
+ },
+ {
+  "w": "ngajarin",
+  "n": 1
+ },
+ {
+  "w": "ikannya",
+  "n": 1
+ },
+ {
+  "w": "nol",
+  "n": 1
+ },
+ {
+  "w": "kopo",
+  "n": 1
+ },
+ {
+  "w": "modal",
+  "n": 1
+ },
+ {
+  "w": "dagang",
+  "n": 1
+ },
+ {
+  "w": "datar",
+  "n": 1
+ },
+ {
+  "w": "ngulang",
+  "n": 1
+ },
+ {
+  "w": "ribuan",
+  "n": 1
+ },
+ {
+  "w": "disodorin",
+  "n": 1
+ },
+ {
+  "w": "ditandatangan",
+  "n": 1
+ },
+ {
+  "w": "dibaca",
+  "n": 1
+ },
+ {
+  "w": "mindahin",
+  "n": 1
+ },
+ {
+  "w": "aset",
+  "n": 1
+ },
+ {
+  "w": "pengacara",
+  "n": 1
+ },
+ {
+  "w": "kontrakan",
+  "n": 1
+ },
+ {
+  "w": "cimahi",
+  "n": 1
+ },
+ {
+  "w": "umum",
+  "n": 1
+ },
+ {
+  "w": "balas",
+  "n": 1
+ },
+ {
+  "w": "dendam",
+  "n": 1
+ },
+ {
+  "w": "barangnya",
+  "n": 1
+ },
+ {
+  "w": "tanggal",
+  "n": 1
+ },
+ {
+  "w": "diambil",
+  "n": 1
+ },
+ {
+  "w": "untuk",
+  "n": 1
+ },
+ {
+  "w": "sedih",
+  "n": 1
+ },
+ {
+  "w": "halaman-halaman",
+  "n": 1
+ },
+ {
+  "w": "angkanya",
+  "n": 1
+ },
+ {
+  "w": "deketin",
+  "n": 1
+ },
+ {
+  "w": "ngerencanain",
+  "n": 1
+ },
+ {
+  "w": "ngajak",
+  "n": 1
+ },
+ {
+  "w": "pantes",
+  "n": 1
+ },
+ {
+  "w": "momen",
+  "n": 1
+ },
+ {
+  "w": "disalahin",
+  "n": 1
+ },
+ {
+  "w": "sedikit-sedikit",
+  "n": 1
+ },
+ {
+  "w": "emosi",
+  "n": 1
+ },
+ {
+  "w": "kebanyakan",
+  "n": 1
+ },
+ {
+  "w": "perbannya",
+  "n": 1
+ },
+ {
+  "w": "sepatah",
+  "n": 1
+ },
+ {
+  "w": "ambulans",
+  "n": 1
+ },
+ {
+  "w": "sempit",
+  "n": 1
+ },
+ {
+  "w": "mimpin",
+  "n": 1
+ },
+ {
+  "w": "iptu",
+  "n": 1
+ },
+ {
+  "w": "nugraha",
+  "n": 1
+ },
+ {
+  "w": "motong",
+  "n": 1
+ },
+ {
+  "w": "catatannya",
+  "n": 1
+ },
+ {
+  "w": "adik",
+  "n": 1
+ },
+ {
+  "w": "kelas",
+  "n": 1
+ },
+ {
+  "w": "nugroho",
+  "n": 1
+ },
+ {
+  "w": "ulangan",
+  "n": 1
+ },
+ {
+  "w": "akuntan",
+  "n": 1
+ },
+ {
+  "w": "dibogem",
+  "n": 1
+ },
+ {
+  "w": "diseret",
+  "n": 1
+ },
+ {
+  "w": "jalur",
+  "n": 1
+ },
+ {
+  "w": "dibuka",
+  "n": 1
+ },
+ {
+  "w": "nyorot",
+  "n": 1
+ },
+ {
+  "w": "meter",
+  "n": 1
+ },
+ {
+  "w": "nyimpen",
+  "n": 1
+ },
+ {
+  "w": "nyambung",
+  "n": 1
+ },
+ {
+  "w": "cepet-cepet",
+  "n": 1
+ },
+ {
+  "w": "nyambungnya",
+  "n": 1
+ },
+ {
+  "w": "padahal",
+  "n": 1
+ },
+ {
+  "w": "kota",
+  "n": 1
+ },
+ {
+  "w": "menurut",
+  "n": 1
+ },
+ {
+  "w": "ngubah",
+  "n": 1
+ },
+ {
+  "w": "dewasa",
+  "n": 1
+ },
+ {
+  "w": "bahwa",
+  "n": 1
+ },
+ {
+  "w": "adil",
+  "n": 1
+ },
+ {
+  "w": "dibalikin",
+  "n": 1
+ },
+ {
+  "w": "nelepon",
+  "n": 1
+ },
+ {
+  "w": "sahamnya",
+  "n": 1
+ },
+ {
+  "w": "dibeli",
+  "n": 1
+ },
+ {
+  "w": "grup",
+  "n": 1
+ },
+ {
+  "w": "uangnya",
+  "n": 1
+ },
+ {
+  "w": "bagi",
+  "n": 1
+ },
+ {
+  "w": "rehab",
+  "n": 1
+ },
+ {
+  "w": "parkiran",
+  "n": 1
+ },
+ {
+  "w": "pulang",
+  "n": 1
+ },
+ {
+  "w": "mayatnya",
+  "n": 1
+ },
+ {
+  "w": "ngelakuinnya",
+  "n": 1
+ },
+ {
+  "w": "disambungin",
+  "n": 1
+ },
+ {
+  "w": "utuh",
+  "n": 1
+ },
+ {
+  "w": "matahari",
+  "n": 1
+ },
+ {
+  "w": "sorenya",
+  "n": 1
+ },
+ {
+  "w": "tamat",
+  "n": 1
+ }
+]

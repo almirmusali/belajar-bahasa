@@ -6,6 +6,7 @@ const ru: Dict = {
   // Nav / header
   nav_lessons: "Уроки",
   nav_vocab: "Словарь",
+  nav_reading: "Чтение",
   switch_lang_title: "Переключить язык интерфейса",
 
   // Home
@@ -191,6 +192,7 @@ const ru: Dict = {
 const id: Dict = {
   nav_lessons: "Pelajaran",
   nav_vocab: "Kosakata",
+  nav_reading: "Bacaan",
   switch_lang_title: "Ganti bahasa antarmuka",
 
   home_badge: "Bahasa Rusia",

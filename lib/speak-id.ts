@@ -8,12 +8,26 @@ import { audioUrl } from "./audio-url";
  * Возвращает функцию остановки — вызови её, если нужно прервать
  * воспроизведение (например, при уходе со страницы).
  *
+ * opts.onEnd срабатывает, когда фраза договорена сама (не при stop()) —
+ * читалке это нужно, чтобы погасить индикатор «играет».
+ *
  * FlashcardPlayer сюда не заходит: ему нужны промисы, три языка и
  * своя очередь озвучки, поэтому у него отдельная реализация.
  */
-export function speakId(text: string): () => void {
+export function speakId(
+  text: string,
+  opts?: { onEnd?: () => void },
+): () => void {
   let audio: HTMLAudioElement | null = null;
   let stopped = false;
+
+  // Сообщаем о конце ровно один раз и никогда — после stop():
+  // тот, кто остановил, и так знает.
+  const finish = () => {
+    if (stopped) return;
+    stopped = true;
+    opts?.onEnd?.();
+  };
 
   const stop = () => {
     stopped = true;
@@ -34,8 +48,13 @@ export function speakId(text: string): () => void {
   const webSpeech = () => {
     if (stopped || settled) return;
     settled = true;
-    if (typeof window === "undefined" || !("speechSynthesis" in window)) return;
+    if (typeof window === "undefined" || !("speechSynthesis" in window)) {
+      finish();
+      return;
+    }
     const utter = new SpeechSynthesisUtterance(text);
+    utter.onend = finish;
+    utter.onerror = finish;
     utter.lang = "id-ID";
     utter.rate = 0.95;
     const voices = window.speechSynthesis.getVoices();
@@ -69,16 +88,19 @@ export function speakId(text: string): () => void {
   el.onended = () => {
     settled = true;
     clear();
+    finish();
   };
   // Ошибка после старта — слово уже прозвучало, второй раз читать не нужно,
   // иначе пользователь услышит и MP3, и системный голос.
   el.onerror = () => {
     clear();
     if (!started) webSpeech();
+    else finish();
   };
   el.play().catch(() => {
     clear();
     if (!started) webSpeech();
+    else finish();
   });
 
   return stop;

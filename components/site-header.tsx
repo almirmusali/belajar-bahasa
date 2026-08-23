@@ -23,6 +23,9 @@ export function SiteHeader() {
           <Link href="/vocab" className="hover:text-foreground">
             {t(locale, "nav_vocab")}
           </Link>
+          <Link href="/reading" className="hover:text-foreground">
+            {t(locale, "nav_reading")}
+          </Link>
           <InstallButton />
           <LocaleSwitcher />
           <UserMenu />

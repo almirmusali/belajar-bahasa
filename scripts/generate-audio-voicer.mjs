@@ -58,8 +58,14 @@ const TMP_DIR = path.join(ROOT, ".audio-tmp");
 
 // Голос на каждый язык — выбраны вручную по демо-нарезкам (команда `sample`).
 // null = язык пока не озвучиваем: плеер сам сходит на системный Web Speech.
+// 24 августа 2026: прежний id-голос zd0hd2egR1Q6EzSLTzCp на стороне Voicer
+// перестал существовать («клон не готов в БД»), задачи с ним падают целиком.
+// Заменён на 21m00Tcm4TlvDq8ikWAM — спокойный женский голос, он же читает
+// книгу в читалке. Сравнить кандидатов: npm run audio:sample -- --lang=id
+// --voice=<id>; рабочие на сегодня — 21m00Tcm4TlvDq8ikWAM,
+// AB9XsbSA4eLG12t2myjN, EXAVITQu4vr4xnSDxMaL, ErXwobaYiN019PkySvjV.
 const LANG_VOICES = {
-  id: "zd0hd2egR1Q6EzSLTzCp",
+  id: "21m00Tcm4TlvDq8ikWAM",
   ru: "D5RRIJYa9pFwxiSpbGbR",
   en: "uYXf8XasLslADfZ2MB4u",
 };
@@ -113,12 +119,19 @@ const FORCE = has("force");
 // Ограничить одним набором (папка в data/vocab) — например чтобы посмотреть
 // на озвучку примеров в одном наборе, прежде чем катить на все.
 const ONLY_SET = flag("set", null);
+// --reading[=slug] переключает источник текстов со словаря на книгу читалки:
+// озвучиваются предложения из data/reading/<slug>.json. Всё остальное —
+// батчи, ZIP, имена файлов по хэшу — работает ровно так же.
+const READING = flag("reading", has("reading") ? "kabut-di-lembang" : null);
 
 const ALL_LANGS = ["id", "ru", "en"];
 const langArg = flag("lang", null);
-const LANGS = langArg
-  ? langArg.split(",").map((s) => s.trim())
-  : ALL_LANGS.filter((l) => LANG_VOICES[l]);
+// Книга на индонезийском — русского и английского перевода вслух не бывает.
+const LANGS = READING
+  ? ["id"]
+  : langArg
+    ? langArg.split(",").map((s) => s.trim())
+    : ALL_LANGS.filter((l) => LANG_VOICES[l]);
 
 for (const l of LANGS) {
   if (!ALL_LANGS.includes(l)) {
@@ -199,6 +212,29 @@ function collectTexts(langs) {
     }
   }
   return [...seen.values()];
+}
+
+// Предложения книги для читалки: те же ключи, что у переводов, — сам текст.
+// Дубли схлопываются, повторяющаяся реплика озвучивается один раз.
+function collectReadingTexts(slug) {
+  const file = path.join(ROOT, "data", "reading", `${slug}.json`);
+  if (!fs.existsSync(file)) {
+    console.error(`Нет ${path.relative(ROOT, file)} — сначала node scripts/build-reading.mjs`);
+    process.exit(1);
+  }
+  const book = JSON.parse(fs.readFileSync(file, "utf8"));
+  const seen = new Set();
+  const out = [];
+  for (const ch of book.chapters ?? []) {
+    for (const b of ch.blocks ?? []) {
+      for (const s of b.sent ?? []) {
+        if (!s.id || seen.has(s.id)) continue;
+        seen.add(s.id);
+        out.push({ text: s.id, lang: "id", kind: "sentence" });
+      }
+    }
+  }
+  return out;
 }
 
 // Что уходит в TTS. Два требования:
@@ -357,7 +393,7 @@ async function cmdSample() {
 }
 
 async function cmdGenerate() {
-  let items = collectTexts(LANGS);
+  let items = READING ? collectReadingTexts(READING) : collectTexts(LANGS);
   if (LIMIT > 0) items = items.slice(0, LIMIT);
 
   for (const l of LANGS) fs.mkdirSync(path.join(AUDIO_DIR, l), { recursive: true });
@@ -369,7 +405,9 @@ async function cmdGenerate() {
   );
   const chars = pending.reduce((a, b) => a + ttsInput(b.text).length, 0);
 
-  console.log(`Языки: ${LANGS.join(", ")}${FORCE ? " · --force (перезапись)" : ""}`);
+  console.log(
+    `Источник: ${READING ? `книга ${READING}` : "словарь"} · языки: ${LANGS.join(", ")}${FORCE ? " · --force (перезапись)" : ""}`,
+  );
   for (const l of LANGS) {
     const all = items.filter((i) => i.lang === l);
     const todo = pending.filter((i) => i.lang === l);
