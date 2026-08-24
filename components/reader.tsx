@@ -1,22 +1,32 @@
 "use client";
 
 import { useCallback, useEffect, useRef, useState } from "react";
-import { Languages, Square, Volume2 } from "lucide-react";
-import { isProse, type Block, type Glossary } from "@/lib/reading-types";
+import { Languages, Square, Star, Volume2 } from "lucide-react";
+import {
+  isProse,
+  type Block,
+  type Glossary,
+  type GlossaryEntry,
+  type Prose,
+} from "@/lib/reading-types";
 import { speakId } from "@/lib/speak-id";
+import { useWordSets } from "@/lib/use-word-sets";
 import { cn } from "@/lib/utils";
 
 // Читалка главы. Три взаимодействия, и все три работают на её собственных
 // данных, без единого запроса в сеть:
 //   1. слово — перевод во всплывашке (наведение мышью, тап на телефоне);
-//   2. значок ⇄ в конце предложения — перевод целиком прямо в строке;
-//   3. значок 🔊 там же — озвучка предложения (MP3 из public/audio, иначе
-//      системный Web Speech).
+//   2. значок ⇄ в конце абзаца — перевод абзаца целиком, отдельной строкой
+//      под ним;
+//   2a. звёздочка во всплывашке — слово уходит в «Избранное» и потом учится
+//      карточками в разделе «Словарь»;
+//   3. значок 🔊 там же — озвучка абзаца: предложения читаются подряд, текущее
+//      подсвечивается (MP3 из public/audio, иначе системный Web Speech).
 //
 // Значки стоят в потоке текста и видны всегда. Плавающая панель, которая
 // появлялась по наведению, для этого не годилась: она гасла, стоило увести
-// курсор, и в неё нельзя было прицелиться. Постоянные значки занимают своё
-// место всегда, поэтому строки не прыгают в момент появления.
+// курсор, и в неё нельзя было прицелиться. По паре значков на предложение
+// получалось слишком пёстро, поэтому пара одна — на абзац.
 //
 // Глоссарий и переводы приходят пропсами, уже урезанными до этой главы —
 // см. chapterGlossary/chapterTranslations в lib/reading.ts.
@@ -33,12 +43,13 @@ export function Reader({
   glossary: Glossary;
 }) {
   const [popup, setPopup] = useState<Popup | null>(null);
-  const [open, setOpen] = useState<Record<string, boolean>>({});
+  const [open, setOpen] = useState<Record<number, boolean>>({});
   const [showAll, setShowAll] = useState(false);
   const [playing, setPlaying] = useState<string | null>(null);
   const [voice, setVoice] = useState(true);
   const stopRef = useRef<(() => void) | null>(null);
   const queueRef = useRef<string[]>([]);
+  const { toggleFavorite, isFavorite } = useWordSets();
 
   // На тач-экранах наведения нет: там всплывашка живёт по тапу.
   const [hoverable, setHoverable] = useState(true);
@@ -77,7 +88,10 @@ export function Reader({
   // для React, и для памяти. Ловим события на корне и смотрим data-w.
   const onOver = (e: React.MouseEvent) => {
     if (!hoverable) return;
-    const word = (e.target as HTMLElement).closest<HTMLElement>("[data-w]");
+    const target = e.target as HTMLElement;
+    // Курсор поехал на саму всплывашку — она нужна живой, там звёздочка.
+    if (target.closest("[data-tip]")) return;
+    const word = target.closest<HTMLElement>("[data-w]");
     if (word) showWord(word);
     else setPopup(null);
   };
@@ -93,7 +107,8 @@ export function Reader({
   useEffect(() => {
     if (!popup) return;
     const onDocClick = (e: MouseEvent) => {
-      if ((e.target as HTMLElement | null)?.closest("[data-w]")) return;
+      const el = e.target as HTMLElement | null;
+      if (el?.closest("[data-w]") || el?.closest("[data-tip]")) return;
       setPopup(null);
     };
     const hide = () => setPopup(null);
@@ -107,8 +122,9 @@ export function Reader({
     };
   }, [popup]);
 
-  const toggle = (id: string) =>
-    setOpen((prev) => ({ ...prev, [id]: !(prev[id] ?? showAll) }));
+  // Ключ — индекс абзаца в главе: перевод раскрывается целым абзацем.
+  const toggle = (bi: number) =>
+    setOpen((prev) => ({ ...prev, [bi]: !(prev[bi] ?? showAll) }));
 
   const stopSpeaking = () => {
     queueRef.current = [];
@@ -132,11 +148,6 @@ export function Reader({
       stopRef.current = speakId(id, { onEnd: next });
     };
     next();
-  };
-
-  const speak = (id: string) => {
-    if (playing === id) stopSpeaking();
-    else speakQueue([id]);
   };
 
   const translated = Object.keys(translations).length;
@@ -192,7 +203,11 @@ export function Reader({
 
       <div
         onMouseOver={onOver}
-        onMouseLeave={() => setPopup(null)}
+        onMouseLeave={(e) => {
+          const to = e.relatedTarget as HTMLElement | null;
+          if (to?.closest?.("[data-tip]")) return;
+          setPopup(null);
+        }}
         onClick={onClick}
         className="space-y-5 text-[1.0625rem] leading-[2] sm:text-lg"
       >
@@ -200,104 +215,158 @@ export function Reader({
           !isProse(block) ? (
             <VocabBoxView key={bi} title={block.title} items={block.items} />
           ) : (
-            <p
+            <ParagraphView
               key={bi}
-              className={cn(
-                block.kind === "q" &&
-                  "rounded-r-md border-l-2 border-primary/40 bg-secondary/40 py-2 pl-4 pr-3 italic",
-              )}
-            >
-              {block.sent.map((sent, si) => {
-                const ru = translations[sent.id];
-                const isOpen = open[sent.id] ?? showAll;
-                const isPlaying = playing === sent.id;
-                return (
-                  <span key={si} className="group/sent">
-                    <span
-                      className={cn(
-                        "rounded transition-colors",
-                        isPlaying && "bg-primary/[0.08]",
-                      )}
-                    >
-                      {sent.seg.map((seg, gi) => (
-                        <span
-                          key={gi}
-                          className={cn(
-                            seg.em === "b" && "font-semibold",
-                            seg.em === "i" && "italic",
-                          )}
-                        >
-                          {seg.tk.map((tk, ti) =>
-                            tk.w ? (
-                              <span
-                                key={ti}
-                                data-w={tk.w}
-                                className={cn(
-                                  "-mx-0.5 rounded px-0.5 transition-colors",
-                                  lookup(tk.w)
-                                    ? "cursor-help hover:bg-primary/20"
-                                    : "cursor-default",
-                                )}
-                              >
-                                {tk.w}
-                              </span>
-                            ) : (
-                              <span key={ti}>{tk.s}</span>
-                            ),
-                          )}
-                        </span>
-                      ))}
-                    </span>
-
-                    {/* Значки конца предложения: не отрываются от него при
-                        переносе строки и не тянут за собой курсив цитаты. */}
-                    <span className="ml-1 inline-flex translate-y-[0.15em] items-center gap-0.5 whitespace-nowrap align-baseline not-italic">
-                      {voice && (
-                        <SentenceAction
-                          active={isPlaying}
-                          title={isPlaying ? "Остановить" : "Прослушать предложение"}
-                          onClick={() => speak(sent.id)}
-                        >
-                          {isPlaying ? (
-                            <Square className="h-2.5 w-2.5 fill-current" />
-                          ) : (
-                            <Volume2 className="h-[13px] w-[13px]" />
-                          )}
-                        </SentenceAction>
-                      )}
-                      {ru && (
-                        <SentenceAction
-                          active={isOpen}
-                          title="Перевод предложения"
-                          onClick={() => toggle(sent.id)}
-                        >
-                          <Languages className="h-[13px] w-[13px]" />
-                        </SentenceAction>
-                      )}
-                    </span>
-
-                    {isOpen && ru && (
-                      <span className="mx-1 rounded bg-secondary px-1.5 py-0.5 text-[0.9em] not-italic text-muted-foreground">
-                        {ru}
-                      </span>
-                    )}
-                    {si < block.sent.length - 1 && " "}
-                  </span>
-                );
-              })}
-            </p>
+              block={block}
+              translations={translations}
+              lookup={lookup}
+              playing={playing}
+              voice={voice}
+              open={open[bi] ?? showAll}
+              onToggle={() => toggle(bi)}
+              onSpeak={() => {
+                const ids = block.sent.map((x) => x.id);
+                if (ids.some((id) => id === playing)) stopSpeaking();
+                else speakQueue(ids);
+              }}
+            />
           ),
         )}
       </div>
 
-      {popup && <WordPopup popup={popup} />}
+      {popup && (
+        <WordPopup
+          popup={popup}
+          starred={isFavorite(popup.word.toLowerCase())}
+          onStar={() =>
+            toggleFavorite({
+              id: popup.word.toLowerCase(),
+              ru: popup.ru,
+              note: popup.lemma ? `от ${popup.lemma}` : undefined,
+            })
+          }
+        />
+      )}
     </div>
   );
 }
 
-// Значок действия в конце предложения. Приглушён, пока предложение не под
+// Абзац: текст, пара значков в конце и — если раскрыт — перевод целиком
+// отдельной строкой под ним. Перевод склеивается из переводов предложений:
+// разбит он по предложениям только потому, что так надёжнее переводить.
+function ParagraphView({
+  block,
+  translations,
+  lookup,
+  playing,
+  voice,
+  open,
+  onToggle,
+  onSpeak,
+}: {
+  block: Prose;
+  translations: Record<string, string>;
+  lookup: (raw: string) => GlossaryEntry | null;
+  playing: string | null;
+  voice: boolean;
+  open: boolean;
+  onToggle: () => void;
+  onSpeak: () => void;
+}) {
+  const ru = block.sent
+    .map((s) => translations[s.id])
+    .filter(Boolean)
+    .join(" ");
+  const isPlaying = block.sent.some((s) => s.id === playing);
+
+  return (
+    <div className="group/par">
+      <p
+        className={cn(
+          block.kind === "q" &&
+            "rounded-r-md border-l-2 border-primary/40 bg-secondary/40 py-2 pl-4 pr-3 italic",
+        )}
+      >
+        {block.sent.map((sent, si) => (
+          <span key={si}>
+            <span
+              className={cn(
+                "rounded transition-colors",
+                playing === sent.id && "bg-primary/[0.08]",
+              )}
+            >
+              {sent.seg.map((seg, gi) => (
+                <span
+                  key={gi}
+                  className={cn(
+                    seg.em === "b" && "font-semibold",
+                    seg.em === "i" && "italic",
+                  )}
+                >
+                  {seg.tk.map((tk, ti) =>
+                    tk.w ? (
+                      <span
+                        key={ti}
+                        data-w={tk.w}
+                        className={cn(
+                          "-mx-0.5 rounded px-0.5 transition-colors",
+                          lookup(tk.w)
+                            ? "cursor-help hover:bg-primary/20"
+                            : "cursor-default",
+                        )}
+                      >
+                        {tk.w}
+                      </span>
+                    ) : (
+                      <span key={ti}>{tk.s}</span>
+                    ),
+                  )}
+                </span>
+              ))}
+            </span>
+            {si < block.sent.length - 1 && " "}
+          </span>
+        ))}
+
+        {/* Значки не отрываются от последней строки абзаца при переносе. */}
+        <span className="ml-1.5 inline-flex translate-y-[0.15em] items-center gap-0.5 whitespace-nowrap align-baseline not-italic">
+          {voice && (
+            <ParagraphAction
+              active={isPlaying}
+              title={isPlaying ? "Остановить" : "Прослушать абзац"}
+              onClick={onSpeak}
+            >
+              {isPlaying ? (
+                <Square className="h-2.5 w-2.5 fill-current" />
+              ) : (
+                <Volume2 className="h-[15px] w-[15px]" />
+              )}
+            </ParagraphAction>
+          )}
+          {ru && (
+            <ParagraphAction
+              active={open}
+              title="Перевод абзаца"
+              onClick={onToggle}
+            >
+              <Languages className="h-[15px] w-[15px]" />
+            </ParagraphAction>
+          )}
+        </span>
+      </p>
+
+      {open && ru && (
+        <p className="mt-1.5 rounded-md border-l-2 border-secondary bg-secondary/50 py-1.5 pl-3 pr-3 text-[0.92em] not-italic leading-relaxed text-muted-foreground">
+          {ru}
+        </p>
+      )}
+    </div>
+  );
+}
+
+// Значок действия в конце абзаца. Приглушён, пока предложение не под
 // курсором, — иначе две иконки после каждой фразы забивают полосу текста.
-function SentenceAction({
+function ParagraphAction({
   active,
   title,
   onClick,
@@ -319,10 +388,10 @@ function SentenceAction({
       aria-label={title}
       aria-pressed={active}
       className={cn(
-        "inline-flex h-[18px] w-[18px] items-center justify-center rounded transition",
+        "inline-flex h-5 w-5 items-center justify-center rounded transition",
         active
           ? "bg-primary/10 text-primary"
-          : "text-muted-foreground/45 group-hover/sent:text-muted-foreground hover:!bg-secondary hover:!text-foreground",
+          : "text-muted-foreground/50 group-hover/par:text-muted-foreground hover:!bg-secondary hover:!text-foreground",
       )}
     >
       {children}
@@ -356,7 +425,15 @@ function VocabBoxView({
   );
 }
 
-function WordPopup({ popup }: { popup: Popup }) {
+function WordPopup({
+  popup,
+  starred,
+  onStar,
+}: {
+  popup: Popup;
+  starred: boolean;
+  onStar: () => void;
+}) {
   const ref = useRef<HTMLDivElement>(null);
   const [left, setLeft] = useState(popup.x);
 
@@ -375,21 +452,43 @@ function WordPopup({ popup }: { popup: Popup }) {
   // Всплывашка неизбежно накрывает строку выше — в плотном тексте её просто
   // некуда деть. Поэтому она полупрозрачная и с размытием под собой: видно,
   // что это слой поверх текста, а не слипшиеся строки.
+  //
+  // Нижний отступ обёртки — «мостик»: без него курсор, идущий от слова к
+  // звёздочке, проходил бы через пустоту и гасил всплывашку.
   return (
     <div
       ref={ref}
-      role="tooltip"
-      style={{ left, top: popup.y - 10 }}
-      className="pointer-events-none fixed z-50 max-w-[min(18rem,90vw)] -translate-x-1/2 -translate-y-full rounded-lg border bg-popover/85 px-2.5 py-1.5 text-center shadow-xl ring-1 ring-black/5 backdrop-blur-md"
+      data-tip
+      style={{ left, top: popup.y - 2 }}
+      className="fixed z-50 max-w-[min(20rem,92vw)] -translate-x-1/2 -translate-y-full pb-2"
     >
-      <div className="text-sm font-medium leading-tight text-popover-foreground">
-        {popup.ru}
-      </div>
-      {popup.lemma && (
-        <div className="mt-0.5 text-[11px] leading-tight text-muted-foreground">
-          от {popup.lemma}
+      <div className="flex items-center gap-2 rounded-lg border bg-popover/85 py-1.5 pl-2.5 pr-1.5 shadow-xl ring-1 ring-black/5 backdrop-blur-md">
+        <div className="min-w-0 text-left">
+          <div className="text-sm font-medium leading-tight text-popover-foreground">
+            {popup.ru}
+          </div>
+          {popup.lemma && (
+            <div className="mt-0.5 text-[11px] leading-tight text-muted-foreground">
+              от {popup.lemma}
+            </div>
+          )}
         </div>
-      )}
+        <button
+          type="button"
+          onClick={onStar}
+          title={starred ? "Убрать из избранного" : "В избранное"}
+          aria-label={starred ? "Убрать из избранного" : "Добавить в избранное"}
+          aria-pressed={starred}
+          className={cn(
+            "inline-flex h-7 w-7 shrink-0 items-center justify-center rounded-md transition",
+            starred
+              ? "text-primary"
+              : "text-muted-foreground/60 hover:bg-secondary hover:text-foreground",
+          )}
+        >
+          <Star className={cn("h-4 w-4", starred && "fill-current")} />
+        </button>
+      </div>
     </div>
   );
 }

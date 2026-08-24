@@ -10,7 +10,7 @@
 //    Имена файлов content-hashed, так что старый файл никогда не «просрочен».
 //  - Чужой origin (Supabase и т.п.): не вмешиваемся.
 
-const VERSION = "v9";
+const VERSION = "v10";
 const CACHE = `belajar-${VERSION}`;
 
 // Маршруты, которые предзагружаются сразу при установке SW —
