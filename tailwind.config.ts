@@ -43,6 +43,15 @@ const config: Config = {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        // Переменные --popover в globals.css были, а цвета в конфиге — нет,
+        // поэтому классы bg-popover / text-popover-foreground не генерировались
+        // вовсе: на светлой теме это сходило с рук, на тёмной подсказка над
+        // словом осталась бы без фона. Форма с <alpha-value> нужна, чтобы
+        // работал модификатор прозрачности (bg-popover/85).
+        popover: {
+          DEFAULT: "hsl(var(--popover) / <alpha-value>)",
+          foreground: "hsl(var(--popover-foreground) / <alpha-value>)",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
