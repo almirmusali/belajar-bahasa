@@ -1,8 +1,8 @@
 "use client";
 
 import { useCallback, useEffect, useRef, useState } from "react";
-import { Languages, Square, Volume2 } from "lucide-react";
-import type { Block, Glossary } from "@/lib/reading";
+import { Languages, Play, Square, Volume2 } from "lucide-react";
+import { isProse, type Block, type Glossary } from "@/lib/reading-types";
 import { speakId } from "@/lib/speak-id";
 import { cn } from "@/lib/utils";
 
@@ -10,7 +10,10 @@ import { cn } from "@/lib/utils";
 // данных, без единого запроса в сеть:
 //   1. слово — перевод во всплывашке (наведение мышью, тап на телефоне);
 //   2. кнопка ⇄ у предложения — перевод целиком прямо в строке;
-//   3. кнопка 🔊 — озвучка предложения (MP3 из public/audio, иначе Web Speech).
+//   3. кнопка 🔊 слева от абзаца — озвучка абзаца подряд, предложение за
+//      предложением, с подсветкой текущего (MP3 из public/audio, иначе
+//      Web Speech). Она стоит в отдельной колонке и видна всегда — плавающая
+//      панель для этого не годилась: она гаснет, стоит увести курсор.
 //
 // Глоссарий и переводы приходят пропсами, уже урезанными до этой главы —
 // см. chapterGlossary/chapterTranslations в lib/reading.ts.
@@ -36,7 +39,9 @@ export function Reader({
   const [open, setOpen] = useState<Record<string, boolean>>({});
   const [showAll, setShowAll] = useState(false);
   const [playing, setPlaying] = useState<string | null>(null);
+  const [voiceBar, setVoiceBar] = useState(true);
   const stopRef = useRef<(() => void) | null>(null);
+  const queueRef = useRef<string[]>([]);
 
   // На тач-экранах наведения нет: там всё живёт по тапу.
   const [hoverable, setHoverable] = useState(true);
@@ -45,6 +50,7 @@ export function Reader({
   }, []);
 
   useEffect(() => () => stopRef.current?.(), []);
+
 
   const lookup = useCallback(
     (raw: string) => glossary[raw.toLowerCase()] ?? null,
@@ -112,6 +118,20 @@ export function Reader({
     else setBar(null);
   };
 
+  // Тап мимо текста тоже закрывает подсказку: иначе на телефоне она висит
+  // над абзацем до следующего тапа по слову и загораживает чтение.
+  useEffect(() => {
+    if (!popup && !bar) return;
+    const onDocClick = (e: MouseEvent) => {
+      const el = e.target as HTMLElement | null;
+      if (el?.closest("[data-w]") || el?.closest("[data-bar]")) return;
+      setPopup(null);
+      setBar(null);
+    };
+    document.addEventListener("click", onDocClick);
+    return () => document.removeEventListener("click", onDocClick);
+  }, [popup, bar]);
+
   // Всплывашка и панель привязаны к координатам на экране: при скролле их
   // проще убрать, чем пересчитывать на каждый кадр.
   useEffect(() => {
@@ -131,20 +151,38 @@ export function Reader({
   const toggle = (id: string) =>
     setOpen((prev) => ({ ...prev, [id]: !(prev[id] ?? showAll) }));
 
-  const speak = (id: string) => {
+  const stopSpeaking = () => {
+    queueRef.current = [];
     stopRef.current?.();
-    if (playing === id) {
-      setPlaying(null);
-      return;
-    }
-    setPlaying(id);
-    stopRef.current = speakId(id, {
-      onEnd: () => setPlaying((cur) => (cur === id ? null : cur)),
-    });
+    stopRef.current = null;
+    setPlaying(null);
+  };
+
+  // Озвучка идёт очередью: абзац — это список предложений, которые читаются
+  // подряд. Одно предложение — та же очередь длиной один, поэтому кнопка
+  // абзаца и кнопка предложения используют один и тот же путь.
+  const speakQueue = (ids: string[]) => {
+    stopSpeaking();
+    queueRef.current = ids.slice();
+    const next = () => {
+      const id = queueRef.current.shift();
+      if (!id) {
+        setPlaying(null);
+        return;
+      }
+      setPlaying(id);
+      stopRef.current = speakId(id, { onEnd: next });
+    };
+    next();
+  };
+
+  const speak = (id: string) => {
+    if (playing === id && queueRef.current.length === 0) stopSpeaking();
+    else speakQueue([id]);
   };
 
   const translated = Object.keys(translations).length;
-  const total = blocks.reduce((a, b) => a + b.sent.length, 0);
+  const total = blocks.reduce((a, b) => a + (isProse(b) ? b.sent.length : 0), 0);
 
   return (
     <div className="relative">
@@ -165,7 +203,23 @@ export function Reader({
           <Languages className="h-3.5 w-3.5" />
           {showAll ? "Перевод везде" : "Перевод по кнопке"}
         </button>
-        <span className="text-[11px] leading-tight text-muted-foreground">
+        <button
+          type="button"
+          onClick={() => {
+            if (voiceBar) stopSpeaking();
+            setVoiceBar((v) => !v);
+          }}
+          className={cn(
+            "inline-flex items-center gap-1.5 rounded-md border px-2.5 py-1 text-xs font-medium transition",
+            voiceBar
+              ? "border-primary bg-primary text-primary-foreground"
+              : "hover:bg-secondary",
+          )}
+        >
+          <Volume2 className="h-3.5 w-3.5" />
+          {voiceBar ? "Озвучка" : "Без озвучки"}
+        </button>
+        <span className="w-full text-[11px] leading-tight text-muted-foreground sm:w-auto">
           {hoverable ? "Наведи на слово" : "Тапни по слову"} — увидишь перевод
           {translated < total && (
             <span className="ml-1 opacity-70">
@@ -184,10 +238,24 @@ export function Reader({
         onClick={onClick}
         className="space-y-5 text-[1.0625rem] leading-[1.9] sm:text-lg"
       >
-        {blocks.map((block, bi) => (
+        {blocks.map((block, bi) =>
+          !isProse(block) ? (
+            <VocabBoxView key={bi} title={block.title} items={block.items} />
+          ) : (
+          <div key={bi} className="flex gap-1.5 sm:gap-2">
+            {voiceBar && (
+              <ParagraphPlayButton
+                playing={block.sent.some((x) => x.id === playing)}
+                onClick={() =>
+                  block.sent.some((x) => x.id === playing)
+                    ? stopSpeaking()
+                    : speakQueue(block.sent.map((x) => x.id))
+                }
+              />
+            )}
           <p
-            key={bi}
             className={cn(
+              "min-w-0 flex-1",
               block.kind === "q" &&
                 "rounded-r-md border-l-2 border-primary/40 bg-secondary/40 py-2 pl-4 pr-3 italic",
             )}
@@ -244,7 +312,9 @@ export function Reader({
               );
             })}
           </p>
-        ))}
+          </div>
+          ),
+        )}
 
         {bar && (
           <span
@@ -255,19 +325,21 @@ export function Reader({
               bar.flip && "-translate-x-full",
             )}
           >
-            <button
-              type="button"
-              onClick={() => speak(bar.id)}
-              title={playing === bar.id ? "Остановить" : "Прослушать предложение"}
-              aria-label="Прослушать предложение"
-              className="inline-flex h-6 w-6 items-center justify-center rounded text-muted-foreground transition hover:bg-secondary hover:text-foreground"
-            >
-              {playing === bar.id ? (
-                <Square className="h-3 w-3 fill-current" />
-              ) : (
-                <Volume2 className="h-3.5 w-3.5" />
-              )}
-            </button>
+            {voiceBar && (
+              <button
+                type="button"
+                onClick={() => speak(bar.id)}
+                title={playing === bar.id ? "Остановить" : "Прослушать предложение"}
+                aria-label="Прослушать предложение"
+                className="inline-flex h-6 w-6 items-center justify-center rounded text-muted-foreground transition hover:bg-secondary hover:text-foreground"
+              >
+                {playing === bar.id ? (
+                  <Square className="h-3 w-3 fill-current" />
+                ) : (
+                  <Volume2 className="h-3.5 w-3.5" />
+                )}
+              </button>
+            )}
             {translations[bar.id] && (
               <button
                 type="button"
@@ -289,6 +361,64 @@ export function Reader({
 
       {popup && <WordPopup popup={popup} />}
     </div>
+  );
+}
+
+// Кнопка озвучки абзаца — своя колонка слева от текста. Всегда на месте,
+// поэтому по ней можно целиться, не боясь, что она исчезнет вместе с
+// курсором; выключается тумблером «Озвучка» в шапке.
+function ParagraphPlayButton({
+  playing,
+  onClick,
+}: {
+  playing: boolean;
+  onClick: () => void;
+}) {
+  return (
+    <button
+      type="button"
+      onClick={onClick}
+      title={playing ? "Остановить" : "Прослушать абзац"}
+      aria-label={playing ? "Остановить озвучку" : "Прослушать абзац"}
+      className={cn(
+        "mt-[0.3em] inline-flex h-6 w-6 shrink-0 items-center justify-center rounded-full border transition",
+        playing
+          ? "border-primary bg-primary text-primary-foreground"
+          : "border-transparent text-muted-foreground/50 hover:border-border hover:bg-secondary hover:text-foreground",
+      )}
+    >
+      {playing ? (
+        <Square className="h-2.5 w-2.5 fill-current" />
+      ) : (
+        <Play className="ml-px h-3 w-3 fill-current" />
+      )}
+    </button>
+  );
+}
+
+// Врезка-словарик автора в конце главы: показываем как есть, без кнопок —
+// переводить и озвучивать там нечего, это уже перевод.
+function VocabBoxView({
+  title,
+  items,
+}: {
+  title: string;
+  items: { id: string; ru: string }[];
+}) {
+  return (
+    <aside className="rounded-xl border bg-secondary/40 px-4 py-3 text-base leading-relaxed sm:px-5">
+      <h2 className="text-xs font-semibold uppercase tracking-wider text-muted-foreground">
+        {title}
+      </h2>
+      <dl className="mt-2 grid gap-x-6 gap-y-1 sm:grid-cols-2">
+        {items.map((item, i) => (
+          <div key={i} className="flex gap-2 text-[0.95rem] leading-snug">
+            <dt className="font-medium">{item.id}</dt>
+            <dd className="text-muted-foreground">— {item.ru}</dd>
+          </div>
+        ))}
+      </dl>
+    </aside>
   );
 }
 

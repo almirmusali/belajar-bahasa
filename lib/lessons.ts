@@ -119,6 +119,20 @@ export const lessons: Lesson[] = [
     topics: ["gue / lo", "Междометия", "Обращения"],
     available: false,
   },
+  {
+    id: 17,
+    title: "Чтение без словаря",
+    subtitle: "Как понимать текст, не зная каждого слова",
+    topics: ["Контекст", "Корни слов", "Приставки"],
+    available: false,
+  },
+  {
+    id: 18,
+    title: "Живая речь на слух",
+    subtitle: "Быстрая речь, проглоченные слоги, региональный акцент",
+    topics: ["Аудирование", "Сунданский", "Темп речи"],
+    available: false,
+  },
 ];
 
 export function getLesson(id: number): Lesson | undefined {

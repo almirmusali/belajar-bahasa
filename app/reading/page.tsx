@@ -17,11 +17,14 @@ export default function ReadingIndexPage() {
     .map((book) => {
       const words = book.chapters.reduce((a, c) => a + chapterSize(c).words, 0);
       const sentences = uniqueSentenceCount(book);
+      const tr = getTranslations(book.slug);
       return {
         book,
         words,
         sentences,
-        translated: Object.keys(getTranslations(book.slug)).length,
+        translated: Object.keys(tr).length,
+        titleRu: tr[book.title] ?? null,
+        subtitleRu: tr[book.subtitle] ?? null,
         cover: coverUrl(book.slug),
       };
     });
@@ -52,13 +55,13 @@ export default function ReadingIndexPage() {
           </p>
         ) : (
           <div className="mt-8 grid gap-5 sm:grid-cols-2">
-            {books.map(({ book, words, sentences, translated, cover }) => (
+            {books.map(({ book, words, sentences, translated, cover, titleRu, subtitleRu }) => (
               <Link
                 key={book.slug}
                 href={`/reading/${book.slug}`}
                 className="group flex gap-4 rounded-xl border bg-card p-4 transition hover:border-primary hover:shadow-md"
               >
-                <div className="w-[92px] shrink-0 overflow-hidden rounded-md border shadow-sm">
+                <div className="h-fit w-[92px] shrink-0 self-start overflow-hidden rounded-md border shadow-sm">
                   {cover ? (
                     // eslint-disable-next-line @next/next/no-img-element
                     <img
@@ -77,8 +80,12 @@ export default function ReadingIndexPage() {
                   <h2 className="text-base font-semibold leading-snug group-hover:text-primary">
                     {book.title}
                   </h2>
-                  <p className="mt-0.5 text-sm text-muted-foreground">
+                  {titleRu && (
+                    <p className="text-sm text-muted-foreground">{titleRu}</p>
+                  )}
+                  <p className="mt-1 text-xs text-muted-foreground">
                     {book.subtitle}
+                    {subtitleRu && ` · ${subtitleRu}`}
                   </p>
                   <p className="mt-2 text-xs text-muted-foreground">
                     {book.chapters.length} глав · {words.toLocaleString("ru")} слов

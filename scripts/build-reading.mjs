@@ -99,6 +99,19 @@ function sliceSegs(segs, start, end) {
   return out;
 }
 
+// Врезка «Kata Baru» в конце главы — это готовый словарик автора
+// (`pulau — остров · tamu — гость · …`), а не проза. Предложениями его
+// разбирать бессмысленно: переводить там нечего, озвучивать тоже.
+function makeVocabBox(title, raw) {
+  const items = raw
+    .split("·")
+    .map((chunk) => chunk.split(/\s+[—–-]\s+/))
+    .filter((pair) => pair.length >= 2)
+    .map(([id, ...rest]) => ({ id: id.trim(), ru: rest.join(" — ").trim() }))
+    .filter((x) => x.id && x.ru);
+  return { kind: "v", title, items };
+}
+
 function makeParagraph(raw, kind) {
   const segs = segments(raw);
   const text = segs.map((s) => s.t).join("");
@@ -138,8 +151,12 @@ const md = fs.readFileSync(src, "utf8");
 
 // Приложение (словарь, грамматика) — русскоязычный справочник. Его не
 // разбираем на слова: там нечего переводить наведением.
-const APPENDIX_RE = /^#\s+DAFTAR KATA.*$/m;
-const appendixAt = md.search(APPENDIX_RE);
+//
+// Заголовок приложения у каждой книги свой («DAFTAR KATA / СЛОВАРЬ»,
+// «BAGIAN BELAKANG / СПРАВОЧНАЯ ЧАСТЬ»), поэтому опознаём его не по тексту,
+// а по уровню: первый `#` — название книги, второй — начало приложения.
+const topHeadings = [...md.matchAll(/^#\s+.*$/gm)];
+const appendixAt = topHeadings.length > 1 ? topHeadings[1].index : -1;
 const bodyMd = appendixAt >= 0 ? md.slice(0, appendixAt) : md;
 const appendixMd = appendixAt >= 0 ? md.slice(appendixAt) : "";
 
@@ -151,12 +168,28 @@ let chapter = null;
 let buf = [];
 let bufKind = "p";
 
+let boxTitle = "";
+
 const flush = () => {
   const raw = buf.join(" ").replace(/\s+/g, " ").trim();
+  const kind = bufKind;
+  const title = boxTitle;
   buf = [];
-  if (!raw || !chapter) return;
-  chapter.blocks.push(makeParagraph(raw, bufKind));
   bufKind = "p";
+  boxTitle = "";
+  if (!raw || !chapter) return;
+  if (kind === "v") {
+    const box = makeVocabBox(title, raw);
+    // Пары не набрались — значит это обычная цитата с жирным заголовком,
+    // а не словарик. Тогда возвращаем заголовок в текст и разбираем как прозу.
+    chapter.blocks.push(
+      box.items.length >= 3
+        ? box
+        : makeParagraph(title ? `**${title}** ${raw}` : raw, "q"),
+    );
+    return;
+  }
+  chapter.blocks.push(makeParagraph(raw, kind));
 };
 
 const openChapter = (num, heading) => {
@@ -173,7 +206,7 @@ const openChapter = (num, heading) => {
 for (const line of lines) {
   const trimmed = line.trim();
 
-  if (/^#\s+/.test(trimmed) && !title.startsWith("KABUT")) {
+  if (/^#\s+/.test(trimmed)) {
     flush();
     title = trimmed.replace(/^#\s+/, "");
     continue;
@@ -201,11 +234,21 @@ for (const line of lines) {
     const inner = trimmed.replace(/^>\s?/, "");
     if (!inner) {
       flush();
-      bufKind = "q";
       continue;
     }
-    if (bufKind !== "q") flush();
-    bufKind = "q";
+    // Цитата, начинающаяся с одиночного **заголовка**, — это врезка-словарик.
+    // Внутри заголовка звёздочек быть не может: иначе под шаблон попадёт
+    // любая строка, которая просто начинается и кончается жирным, — например
+    // строка хронологии `**22:50** — Bambang lewat lorong. **Meja kosong.**`.
+    const head = inner.match(/^\*\*([^*]+)\*\*$/);
+    if (head) {
+      flush();
+      bufKind = "v";
+      boxTitle = head[1].trim();
+      continue;
+    }
+    if (bufKind !== "q" && bufKind !== "v") flush();
+    if (bufKind === "p") bufKind = "q";
     buf.push(inner);
     continue;
   }
@@ -231,7 +274,7 @@ const sentences = [];
 const words = new Map();
 for (const ch of chapters) {
   for (const b of ch.blocks) {
-    for (const s of b.sent) {
+    for (const s of b.sent ?? []) {
       sentences.push(s.id);
       for (const seg of s.seg) {
         for (const tk of seg.tk) {

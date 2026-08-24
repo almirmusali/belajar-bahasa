@@ -4,7 +4,13 @@ import { ArrowLeft, BookMarked } from "lucide-react";
 import { SiteHeader } from "@/components/site-header";
 import { ActivityTracker } from "@/components/activity-tracker";
 import { ResumeReading } from "@/components/reading-position";
-import { bookSlugs, chapterSize, coverUrl, getBook } from "@/lib/reading";
+import {
+  bookSlugs,
+  chapterSize,
+  coverUrl,
+  getBook,
+  getTranslations,
+} from "@/lib/reading";
 
 export function generateStaticParams() {
   return bookSlugs().map((slug) => ({ slug }));
@@ -19,6 +25,7 @@ export default async function BookPage({
   const book = getBook(slug);
   if (!book) notFound();
   const cover = coverUrl(slug);
+  const tr = getTranslations(slug);
   const words = book.chapters.reduce((a, c) => a + chapterSize(c).words, 0);
 
   return (
@@ -47,7 +54,15 @@ export default async function BookPage({
             <h1 className="text-3xl font-bold tracking-tight sm:text-4xl">
               {book.title}
             </h1>
-            <p className="mt-2 text-muted-foreground">{book.subtitle}</p>
+            {tr[book.title] && (
+              <p className="mt-1 text-lg text-muted-foreground">
+                {tr[book.title]}
+              </p>
+            )}
+            <p className="mt-2 text-sm text-muted-foreground">
+              {book.subtitle}
+              {tr[book.subtitle] && ` · ${tr[book.subtitle]}`}
+            </p>
             <p className="mt-3 text-sm text-muted-foreground">
               {book.chapters.length} глав · {words.toLocaleString("ru")} слов ·
               перевод каждого слова и предложения, озвучка
@@ -71,7 +86,14 @@ export default async function BookPage({
                   <span className="w-6 shrink-0 text-sm tabular-nums text-muted-foreground">
                     {ch.num ?? "—"}
                   </span>
-                  <span className="flex-1 font-medium">{ch.title}</span>
+                  <span className="min-w-0 flex-1">
+                    <span className="block font-medium">{ch.title}</span>
+                    {tr[ch.title] && (
+                      <span className="block text-sm text-muted-foreground">
+                        {tr[ch.title]}
+                      </span>
+                    )}
+                  </span>
                   <span className="shrink-0 text-xs text-muted-foreground">
                     {size.words} слов
                   </span>

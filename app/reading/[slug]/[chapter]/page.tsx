@@ -38,7 +38,8 @@ export default async function ChapterPage({
 
   // В браузер уезжает только эта глава: её предложения, её переводы и
   // тот кусок глоссария, который в ней реально встречается.
-  const translations = chapterTranslations(current, getTranslations(slug));
+  const allTranslations = getTranslations(slug);
+  const translations = chapterTranslations(current, allTranslations);
   const glossary = chapterGlossary(current, getGlossary(slug));
 
   const prev = book.chapters[index - 1];
@@ -69,6 +70,11 @@ export default async function ChapterPage({
           )}
           {current.title}
         </h1>
+        {allTranslations[current.title] && (
+          <p className="mt-1 text-base text-muted-foreground sm:text-lg">
+            {allTranslations[current.title]}
+          </p>
+        )}
 
         <div className="mt-6">
           <Reader

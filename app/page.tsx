@@ -19,10 +19,7 @@ export default function Home() {
           <span className="rounded-full border px-3 py-1 text-xs uppercase tracking-widest text-muted-foreground">
             {t(locale, "home_badge")}
           </span>
-          <h1 className="mt-4 text-balance text-4xl font-bold tracking-tight sm:text-5xl">
-            {t(locale, "home_title")}
-          </h1>
-          <p className="mt-4 text-balance text-base text-muted-foreground sm:text-lg">
+          <p className="mt-4 text-balance text-lg text-foreground sm:text-xl">
             {t(locale, "home_subtitle")}
           </p>
           <div className="mt-6 flex justify-center gap-3">

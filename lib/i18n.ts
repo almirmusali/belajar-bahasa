@@ -11,9 +11,10 @@ const ru: Dict = {
 
   // Home
   home_badge: "Bahasa Indonesia",
-  home_title: "Индонезийский за 16 уроков",
   home_subtitle:
     "Курс по образцу «Полиглота»: короткие уроки, грамматические матрицы и устные упражнения. Подходит тем, кто начинает с нуля.",
+  reading_voice_on: "Озвучка",
+  reading_voice_off: "Озвучка выключена",
   home_cta_lessons: "К урокам",
   home_cta_vocab: "Словарь",
   home_lesson: "Урок",
@@ -196,7 +197,6 @@ const id: Dict = {
   switch_lang_title: "Ganti bahasa antarmuka",
 
   home_badge: "Bahasa Rusia",
-  home_title: "Bahasa Rusia dalam 16 pelajaran",
   home_subtitle:
     "Kursus bergaya «Polyglot»: pelajaran singkat, matriks tata bahasa, dan latihan lisan. Cocok untuk pemula dari nol.",
   home_cta_lessons: "Ke pelajaran",

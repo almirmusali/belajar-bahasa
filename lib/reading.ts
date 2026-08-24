@@ -1,6 +1,10 @@
 import fs from "node:fs";
 import path from "node:path";
 
+import { isProse, type Block, type Book, type Chapter, type Glossary } from "./reading-types";
+
+export * from "./reading-types";
+
 // Данные читалки лежат в data/reading/ и собираются скриптами:
 //   scripts/build-reading.mjs      книга .md → <slug>.json (главы, предложения, токены)
 //   scripts/translate-reading.mjs  → <slug>.translations.json и <slug>.glossary.json
@@ -8,21 +12,6 @@ import path from "node:path";
 // Читается всё на сервере: страница главы рендерится в RSC, и в браузер
 // уезжает только та глава, которую открыли, вместе с её переводами и
 // нужным куском глоссария. Целиком книгу клиенту не отдаём.
-
-export type Token = { w?: string; s?: string };
-export type Segment = { t: string; em?: "b" | "i"; tk: Token[] };
-export type Sentence = { id: string; seg: Segment[] };
-export type Block = { kind: "p" | "q"; sent: Sentence[] };
-export type Chapter = { id: number; num: number | null; title: string; blocks: Block[] };
-export type Book = {
-  slug: string;
-  title: string;
-  subtitle: string;
-  chapters: Chapter[];
-  appendix: string;
-};
-export type GlossaryEntry = { ru: string; lemma?: string };
-export type Glossary = Record<string, GlossaryEntry>;
 
 const DIR = path.join(process.cwd(), "data", "reading");
 
@@ -80,6 +69,7 @@ export function chapterSize(chapter: Chapter): { sentences: number; words: numbe
   let sentences = 0;
   let words = 0;
   for (const b of chapter.blocks) {
+    if (!isProse(b)) continue;
     for (const s of b.sent) {
       sentences++;
       for (const seg of s.seg) for (const tk of seg.tk) if (tk.w) words++;
@@ -96,7 +86,10 @@ export function chapterSize(chapter: Chapter): { sentences: number; words: numbe
 export function uniqueSentenceCount(book: Book): number {
   const seen = new Set<string>();
   for (const ch of book.chapters) {
-    for (const b of ch.blocks) for (const s of b.sent) seen.add(s.id);
+    for (const b of ch.blocks) {
+      if (!isProse(b)) continue;
+      for (const s of b.sent) seen.add(s.id);
+    }
   }
   return seen.size;
 }
@@ -108,6 +101,7 @@ export function chapterTranslations(
 ): Record<string, string> {
   const out: Record<string, string> = {};
   for (const b of chapter.blocks) {
+    if (!isProse(b)) continue;
     for (const s of b.sent) {
       const ru = all[s.id];
       if (ru) out[s.id] = ru;
@@ -120,6 +114,7 @@ export function chapterTranslations(
 export function chapterGlossary(chapter: Chapter, all: Glossary): Glossary {
   const out: Glossary = {};
   for (const b of chapter.blocks) {
+    if (!isProse(b)) continue;
     for (const s of b.sent) {
       for (const seg of s.seg) {
         for (const tk of seg.tk) {

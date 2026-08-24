@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 900" width="600" height="900" role="img" aria-label="Обложка книги «Perahu Terakhir»">
+  <title>PERAHU TERAKHIR</title>
+  <defs>
+    <linearGradient id="dusk" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a2340"/>
+      <stop offset="34%" stop-color="#3d3557"/>
+      <stop offset="58%" stop-color="#8a5560"/>
+      <stop offset="76%" stop-color="#d98b62"/>
+      <stop offset="100%" stop-color="#f0b97e"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#c9835f"/>
+      <stop offset="30%" stop-color="#7d5570"/>
+      <stop offset="100%" stop-color="#2a2942"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffe6b0" stop-opacity=".95"/>
+      <stop offset="55%" stop-color="#ffc178" stop-opacity=".35"/>
+      <stop offset="100%" stop-color="#ffc178" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="deep" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1c1c30" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#151527" stop-opacity=".9"/>
+    </linearGradient>
+    <filter id="haze" x="-30%" y="-70%" width="160%" height="240%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+  </defs>
+
+  <rect width="600" height="900" fill="url(#dusk)"/>
+
+  <!-- Солнце у самого горизонта: последняя лодка уходит на закате. -->
+  <circle cx="392" cy="556" r="118" fill="url(#sun)"/>
+  <circle cx="392" cy="556" r="27" fill="#ffe9bd" opacity=".9"/>
+
+  <!-- Дальние острова — плоские, как в архипелаге. -->
+  <path d="M0 548 Q54 528 112 546 L112 552 L0 552 Z" fill="#4a3b55" opacity=".8"/>
+  <path d="M470 545 Q520 522 600 542 L600 552 L470 552 Z" fill="#43364f" opacity=".85"/>
+
+  <rect y="552" width="600" height="348" fill="url(#sea)"/>
+
+  <!-- Дорожка света на воде: короткие штрихи, сходящиеся к солнцу. -->
+  <g fill="#ffdca8">
+    <rect x="358" y="567" width="46" height="3" rx="1.5" opacity=".5"/>
+    <rect x="414" y="567" width="18" height="3" rx="1.5" opacity=".38"/>
+    <rect x="340" y="581" width="30" height="3" rx="1.5" opacity=".34"/>
+    <rect x="380" y="580" width="62" height="3" rx="1.5" opacity=".46"/>
+    <rect x="334" y="597" width="74" height="4" rx="2" opacity=".36"/>
+    <rect x="420" y="598" width="34" height="4" rx="2" opacity=".28"/>
+    <rect x="318" y="618" width="42" height="4" rx="2" opacity=".24"/>
+    <rect x="372" y="617" width="90" height="4" rx="2" opacity=".32"/>
+    <rect x="306" y="642" width="96" height="4" rx="2" opacity=".22"/>
+    <rect x="418" y="643" width="52" height="4" rx="2" opacity=".17"/>
+    <rect x="290" y="672" width="58" height="5" rx="2.5" opacity=".14"/>
+    <rect x="362" y="670" width="118" height="5" rx="2.5" opacity=".18"/>
+    <rect x="330" y="706" width="150" height="5" rx="2.5" opacity=".12"/>
+    <rect x="272" y="742" width="86" height="5" rx="2.5" opacity=".08"/>
+    <rect x="384" y="744" width="130" height="5" rx="2.5" opacity=".1"/>
+  </g>
+
+  <!-- Лодка: маленькая, уже далеко, силуэтом против солнца. -->
+  <g transform="translate(392 560)">
+    <path d="M-30 6 Q0 20 30 6 L24 12 Q0 24 -24 12 Z" fill="#1d1b2c"/>
+    <path d="M-2 6 L-2 -30 L20 -4 Z" fill="#1d1b2c"/>
+    <rect x="-9" y="-2" width="7" height="8" fill="#1d1b2c"/>
+  </g>
+
+  <!-- Причал уходит от зрителя в воду: точка, откуда лодка отчалила. -->
+  <g fill="#171523">
+    <rect x="196" y="672" width="120" height="9"/>
+    <rect x="204" y="681" width="9" height="52"/>
+    <rect x="240" y="681" width="9" height="66"/>
+    <rect x="276" y="681" width="9" height="80"/>
+    <rect x="300" y="681" width="9" height="92"/>
+    <path d="M0 900 L0 742 Q92 706 196 686 L316 681 L316 900 Z"/>
+  </g>
+  <ellipse cx="150" cy="760" rx="230" ry="34" fill="#0f0e1a" opacity=".45" filter="url(#haze)"/>
+
+  <!-- Пальма у берега: остров, а не просто море. -->
+  <g transform="translate(96 690)" fill="#121020">
+    <path d="M-3 0 q-6 -46 6 -92 l8 2 q-12 44 -5 90 Z"/>
+    <path d="M11 -92 q28 -20 54 -10 q-30 -2 -50 16 Z"/>
+    <path d="M11 -92 q30 6 42 32 q-22 -22 -44 -22 Z"/>
+    <path d="M9 -94 q-30 -18 -56 -6 q30 -2 50 14 Z"/>
+    <path d="M9 -92 q-28 10 -38 36 q20 -24 42 -24 Z"/>
+  </g>
+
+  <rect y="700" width="600" height="200" fill="url(#deep)"/>
+
+  <!-- Титул -->
+  <g text-anchor="middle" font-family="Georgia, 'Iowan Old Style', 'Times New Roman', serif">
+    <text x="300" y="150" font-size="27" letter-spacing="16" fill="#f2e4dc" opacity=".62">PERAHU</text>
+    <text x="300" y="224" font-size="58" letter-spacing="5" fill="#fdf3ec" font-weight="bold">TERAKHIR</text>
+    <line x1="222" y1="258" x2="378" y2="258" stroke="#fdf3ec" stroke-width="1" opacity=".5"/>
+    <text x="300" y="292" font-size="18" letter-spacing="2" fill="#f4e5db" opacity=".8" font-style="italic">Cerita detektif</text>
+    <text x="300" y="846" font-size="14" letter-spacing="6" fill="#f6ddc4" opacity=".5">BAHASA INDONESIA MUDAH</text>
+  </g>
+</svg>

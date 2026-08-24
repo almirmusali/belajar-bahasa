@@ -141,9 +141,23 @@ const SENT_PROMPT = `Ты переводишь индонезийский дет
 function collectSentences() {
   const seen = new Set();
   const out = [];
+
+  // Название книги, подзаголовок и названия глав переводятся тем же
+  // механизмом, что и проза: ключ — сам текст. Читалка потом показывает
+  // перевод под оригиналом, поэтому оглавление читается с ходу.
+  for (const heading of [
+    book.title,
+    book.subtitle,
+    ...book.chapters.map((c) => c.title),
+  ]) {
+    if (!heading || seen.has(heading)) continue;
+    seen.add(heading);
+    out.push({ t: heading, chapter: "названия глав" });
+  }
+
   for (const ch of book.chapters) {
     for (const b of ch.blocks) {
-      for (const s of b.sent) {
+      for (const s of b.sent ?? []) {
         if (seen.has(s.id)) continue;
         seen.add(s.id);
         out.push({ t: s.id, chapter: `${ch.num ? `${ch.num}. ` : ""}${ch.title}` });
@@ -173,7 +187,10 @@ async function translateSentences() {
 
   await runPool(batches, async ({ chapter, items }) => {
     const input = JSON.stringify(items.map((s, i) => ({ i, t: s.t })));
-    const prompt = `${SENT_PROMPT}\n\nЭто подряд идущие предложения из главы «${chapter}».`;
+    const prompt =
+      chapter === "названия глав"
+        ? `${SENT_PROMPT}\n\nЭто НАЗВАНИЯ книги и её глав. Переводи их как заголовки: коротко, без точки в конце, сохраняя интригу оригинала.`
+        : `${SENT_PROMPT}\n\nЭто подряд идущие предложения из главы «${chapter}».`;
     for (let attempt = 1; attempt <= RETRY; attempt++) {
       try {
         const rows = parseArray(await claude(prompt, input));
@@ -217,7 +234,7 @@ function wordExamples() {
   const best = new Map();
   for (const ch of book.chapters) {
     for (const b of ch.blocks) {
-      for (const s of b.sent) {
+      for (const s of b.sent ?? []) {
         for (const seg of s.seg) {
           for (const tk of seg.tk) {
             if (!tk.w) continue;

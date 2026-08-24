@@ -119,6 +119,15 @@ const FORCE = has("force");
 // Ограничить одним набором (папка в data/vocab) — например чтобы посмотреть
 // на озвучку примеров в одном наборе, прежде чем катить на все.
 const ONLY_SET = flag("set", null);
+// Голос на книгу. У каждой книги свой рассказчик, поэтому голос привязан
+// к slug, а не к языку: kabut-di-lembang читает женский голос (рассказчица —
+// пожилая учительница), perahu-terakhir — свой. Нет книги в списке — берётся
+// общий LANG_VOICES.id. Переопределяется флагом --voice=<id>.
+const READING_VOICES = {
+  "kabut-di-lembang": "21m00Tcm4TlvDq8ikWAM",
+  "perahu-terakhir": "52LXmmR0nGnIcDs1TL3f",
+};
+
 // --reading[=slug] переключает источник текстов со словаря на книгу читалки:
 // озвучиваются предложения из data/reading/<slug>.json. Всё остальное —
 // батчи, ZIP, имена файлов по хэшу — работает ровно так же.
@@ -148,7 +157,10 @@ if (voiceOverride && LANGS.length !== 1) {
   process.exit(1);
 }
 const voiceFor = (lang) =>
-  voiceOverride ?? LANG_VOICES[lang] ?? null;
+  voiceOverride ??
+  (READING ? READING_VOICES[READING] : null) ??
+  LANG_VOICES[lang] ??
+  null;
 
 // Под словарь: высокая стабильность (одинаковая подача на всех словах),
 // style 0 (без интонационной отсебятины), чуть медленнее нормы.
