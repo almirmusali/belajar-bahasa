@@ -40,3 +40,50 @@ next-env.d.ts
 
 # временные архивы чанков от Voicer
 /.audio-tmp
+
+# --- auto-added before GitHub push ---
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.p12
+*.key
+credentials.json
+token.json
+*.session
+*.session-journal
+secrets.json
+node_modules/
+venv/
+.venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+dist/
+build/
+.next/
+.cache/
+.parcel-cache/
+*.log
+# heavy binaries / models / media
+*.gguf
+*.bin
+*.pt
+*.pth
+*.safetensors
+*.onnx
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+*.mp3
+*.wav
+*.m4a
+*.aac
+*.zip
+*.dmg
+*.7z
