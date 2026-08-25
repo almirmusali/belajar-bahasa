@@ -6,20 +6,24 @@
 
 ## Состояние
 
-Всё закоммичено и запушено в ветку **`audio-voiceover`** репозитория
-`almirmusali/belajar-bahasa`. Живой сервис на Mac Studio обновлён:
-**http://mac-studio:8766** (через Tailscale), карточка есть на панели
-**http://mac-studio**.
+Всё закоммичено и разложено по трём местам:
+
+| где | адрес | ветка |
+|-----|-------|-------|
+| GitHub | `almirmusali/belajar-bahasa` | `main` = `audio-voiceover` |
+| Vercel (продакшн) | https://belajar-bahasa.vercel.app | автодеплой с `main` |
+| Mac Studio | http://mac-studio:8766 (Tailscale) | текущая ветка, `./deploy.sh` |
 
 ```bash
 git clone https://github.com/almirmusali/belajar-bahasa.git
-cd belajar-bahasa && git checkout audio-voiceover && npm install
-npm run dev
+cd belajar-bahasa && npm install && npm run dev
 ```
 
-**Ветка не влита в `main`** — она впереди на 14 коммитов. Автодеплой на
-Vercel идёт с `main`, так что до слияния в продакшн на Vercel читалка не
-попадёт. На Mac Studio это не влияет: там разворачивается текущая ветка.
+`audio-voiceover` влита в `main` без расхождений, обе ветки указывают на один
+коммит. Дальше можно работать прямо в `main`.
+
+**Репозиторий публичный.** Вместе с кодом там лежат обе книги и ~250 МБ
+озвучки. Секретов в нём нет (`.env*` в `.gitignore`), но иметь в виду стоит.
 
 ## Что нужно положить руками
 
