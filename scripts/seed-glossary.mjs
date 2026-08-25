@@ -42,7 +42,9 @@ const donors = fs
   .filter((s) => s !== slug)
   .filter((s) => (readJson(path.join(DIR, `${s}.json`), null)?.lang ?? "id") === (book.lang ?? "id"));
 
-const pool = {};
+// Общий словарик языка: имена, топонимы и формы, которых нет ни в одной
+// старой книге. Лежит первым в пуле — он точнее заимствований.
+const pool = { ...readJson(path.join(DIR, `${book.lang ?? "id"}-extra.glossary.json`), {}) };
 for (const donor of donors) {
   for (const [w, entry] of Object.entries(readJson(path.join(DIR, `${donor}.glossary.json`), {}))) {
     if (!pool[w]) pool[w] = entry;

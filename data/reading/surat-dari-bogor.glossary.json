@@ -913,5 +913,169 @@
  "gelasnya": {
   "ru": "его стакан",
   "lemma": "gelas"
+ },
+ "sabun": {
+  "ru": "мыло"
+ },
+ "stiker": {
+  "ru": "наклейка"
+ },
+ "perangko": {
+  "ru": "почтовая марка"
+ },
+ "cengkeh": {
+  "ru": "гвоздика"
+ },
+ "gigi": {
+  "ru": "зуб"
+ },
+ "toples": {
+  "ru": "банка"
+ },
+ "ramai": {
+  "ru": "людно, шумно"
+ },
+ "periksa": {
+  "ru": "осматривать, проверять"
+ },
+ "racun": {
+  "ru": "яд"
+ },
+ "tikus": {
+  "ru": "крыса, мышь"
+ },
+ "sibuk": {
+  "ru": "занятый"
+ },
+ "sobek": {
+  "ru": "рвать, порвать"
+ },
+ "kapas": {
+  "ru": "вата"
+ },
+ "gigit": {
+  "ru": "кусать"
+ },
+ "giliran": {
+  "ru": "очередь"
+ },
+ "pembunuh": {
+  "ru": "убийца"
+ },
+ "bahasanya": {
+  "ru": "язык (его)",
+  "lemma": "bahasa"
+ },
+ "gani": {
+  "ru": "Гани, имя"
+ },
+ "tebak-tebakan": {
+  "ru": "угадайка",
+  "lemma": "tebak"
+ },
+ "rian": {
+  "ru": "Риан, имя"
+ },
+ "tukang": {
+  "ru": "мастер, рабочий"
+ },
+ "seharian": {
+  "ru": "целыми днями",
+  "lemma": "hari"
+ },
+ "tomo": {
+  "ru": "Томо, имя"
+ },
+ "kenanga": {
+  "ru": "Кенанга (иланг-иланг); название улицы"
+ },
+ "wati": {
+  "ru": "Вати, имя"
+ },
+ "dedi": {
+  "ru": "Деди, имя"
+ },
+ "bogor": {
+  "ru": "Богор, город"
+ },
+ "maret": {
+  "ru": "март"
+ },
+ "praktek": {
+  "ru": "практика (врачебная)"
+ },
+ "salam": {
+  "ru": "приветствие"
+ },
+ "klinik": {
+  "ru": "клиника"
+ },
+ "benda": {
+  "ru": "предмет, вещь"
+ },
+ "pasar": {
+  "ru": "рынок"
+ },
+ "kertasnya": {
+  "ru": "бумага",
+  "lemma": "kertas"
+ },
+ "besar-besar": {
+  "ru": "крупные, большие",
+  "lemma": "besar"
+ },
+ "rokok": {
+  "ru": "сигарета"
+ },
+ "kretek": {
+  "ru": "кретек, сигареты с гвоздикой"
+ },
+ "gulanya": {
+  "ru": "сахар",
+  "lemma": "gula"
+ },
+ "racunnya": {
+  "ru": "яд",
+  "lemma": "racun"
+ },
+ "notarisnya": {
+  "ru": "нотариус",
+  "lemma": "notaris"
+ },
+ "bengkel": {
+  "ru": "мастерская"
+ },
+ "disobek": {
+  "ru": "быть вырванным",
+  "lemma": "sobek"
+ },
+ "besoknya": {
+  "ru": "на следующий день",
+  "lemma": "besok"
+ },
+ "februari": {
+  "ru": "февраль"
+ },
+ "giginya": {
+  "ru": "его зуб",
+  "lemma": "gigi"
+ },
+ "pembunuhnya": {
+  "ru": "убийца",
+  "lemma": "pembunuh"
+ },
+ "toplesnya": {
+  "ru": "банка",
+  "lemma": "toples"
+ },
+ "benar": {
+  "ru": "верно, правильно"
+ },
+ "saksinya": {
+  "ru": "свидетель",
+  "lemma": "saksi"
+ },
+ "pinjam": {
+  "ru": "занимать, брать в долг"
  }
 }

@@ -138,7 +138,7 @@ lines.forEach((line, i) => {
   if (para.length && /^[a-zà-ÿ]/.test(id)) {
     problems.push(`строка ${lineNo}: предложение начинается со строчной — «${id.slice(0, 40)}…»`);
   }
-  if (!/[.!?…:»"]$/.test(id)) {
+  if (!/[.!?…:»"]$/.test(plainKey(id, false))) {
     problems.push(`строка ${lineNo}: нет знака конца предложения — «${id.slice(0, 40)}…»`);
   }
   remember(plainKey(id, false), ru, lineNo);

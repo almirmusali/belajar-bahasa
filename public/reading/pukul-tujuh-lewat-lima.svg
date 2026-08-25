@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 900" width="600" height="900" role="img" aria-label="Обложка книги «Pukul Tujuh Lewat Lima»">
+  <title>PUKUL TUJUH LEWAT LIMA</title>
+  <defs>
+    <linearGradient id="studio" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#170d10"/>
+      <stop offset="60%" stop-color="#2b1418"/>
+      <stop offset="100%" stop-color="#451a1d"/>
+    </linearGradient>
+    <radialGradient id="onair" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ff5b4a" stop-opacity=".55"/>
+      <stop offset="100%" stop-color="#ff5b4a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="600" height="900" fill="url(#studio)"/>
+
+  <!-- Красный свет «в эфире». -->
+  <circle cx="300" cy="470" r="250" fill="url(#onair)"/>
+
+  <!-- Циферблат: 19:05 — время, которого не было. -->
+  <circle cx="300" cy="470" r="176" fill="#120a0c" stroke="#e8dccb" stroke-width="5"/>
+  <g stroke="#e8dccb" stroke-width="4" opacity=".85">
+    <line x1="300" y1="310" x2="300" y2="334"/>
+    <line x1="460" y1="470" x2="436" y2="470"/>
+    <line x1="300" y1="630" x2="300" y2="606"/>
+    <line x1="140" y1="470" x2="164" y2="470"/>
+  </g>
+  <g stroke="#a8968a" stroke-width="2.5" opacity=".6">
+    <line x1="380" y1="331" x2="368" y2="352"/><line x1="439" y1="390" x2="418" y2="402"/>
+    <line x1="439" y1="550" x2="418" y2="538"/><line x1="380" y1="609" x2="368" y2="588"/>
+    <line x1="220" y1="609" x2="232" y2="588"/><line x1="161" y1="550" x2="182" y2="538"/>
+    <line x1="161" y1="390" x2="182" y2="402"/><line x1="220" y1="331" x2="232" y2="352"/>
+  </g>
+
+  <!-- Часовая на семи, минутная на пяти минутах. -->
+  <line x1="300" y1="470" x2="222" y2="536" stroke="#f6ece0" stroke-width="9" stroke-linecap="round"/>
+  <line x1="300" y1="470" x2="380" y2="331" stroke="#f6ece0" stroke-width="6" stroke-linecap="round"/>
+  <line x1="300" y1="470" x2="300" y2="360" stroke="#e0483b" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="300" cy="470" r="11" fill="#e0483b"/>
+
+  <!-- Микрофон у нижнего края: студия. -->
+  <g transform="translate(300 780)" fill="#d9cbb8">
+    <rect x="-16" y="-70" width="32" height="52" rx="16"/>
+    <path d="M-28 -34 a28 28 0 0 0 56 0" fill="none" stroke="#d9cbb8" stroke-width="5"/>
+    <rect x="-3" y="-8" width="6" height="30"/>
+    <rect x="-26" y="22" width="52" height="7" rx="3.5"/>
+  </g>
+
+  <g text-anchor="middle" font-family="Georgia, 'Iowan Old Style', 'Times New Roman', serif">
+    <text x="300" y="120" font-size="23" letter-spacing="13" fill="#f2c9b6" opacity=".6">PUKUL TUJUH</text>
+    <text x="300" y="188" font-size="52" letter-spacing="5" fill="#fdf1e6" font-weight="bold">LEWAT LIMA</text>
+    <line x1="196" y1="222" x2="404" y2="222" stroke="#fdf1e6" stroke-width="1" opacity=".45"/>
+    <text x="300" y="256" font-size="18" letter-spacing="2" fill="#f7ded0" opacity=".8" font-style="italic">Cerita detektif</text>
+    <text x="300" y="866" font-size="13" letter-spacing="6" fill="#e2a58e" opacity=".5">BAHASA INDONESIA MUDAH</text>
+  </g>
+</svg>
