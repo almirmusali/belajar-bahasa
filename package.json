@@ -14,7 +14,8 @@
     "audio:gen": "node scripts/generate-audio-voicer.mjs",
     "reading:build": "node scripts/build-reading.mjs",
     "reading:translate": "node scripts/translate-reading.mjs",
-    "audio:reading": "node scripts/generate-audio-voicer.mjs --reading"
+    "audio:reading": "node scripts/generate-audio-voicer.mjs --reading",
+    "audio:express": "node scripts/generate-audio-voicer.mjs --express"
   },
   "dependencies": {
     "@supabase/ssr": "^0.10.3",

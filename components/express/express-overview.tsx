@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { BookOpen, Check, Play, Sparkles, Timer } from "lucide-react";
+import { BookOpen, Check, Play, RotateCcw, Sparkles, Timer } from "lucide-react";
 import { useExpressProgress } from "@/lib/use-express-progress";
 import { TRACK_TITLE, type Track } from "@/lib/express-types";
 import { cn } from "@/lib/utils";
@@ -52,6 +52,12 @@ export function ExpressOverview({ units }: { units: UnitCard[] }) {
           >
             <Play className="h-4 w-4" />
             {started ? `Продолжить: ${next.id}` : "Начать с P1"}
+          </Link>
+          <Link
+            href="/express/repeat"
+            className="inline-flex items-center gap-2 rounded-md border px-4 py-2 text-sm font-medium hover:bg-secondary"
+          >
+            <RotateCcw className="h-4 w-4" /> Работа над ошибками
           </Link>
           <Link
             href="/express/reference"

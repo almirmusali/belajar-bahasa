@@ -134,6 +134,14 @@ const READING_VOICES = {
 // батчи, ZIP, имена файлов по хэшу — работает ровно так же.
 const READING = flag("reading", has("reading") ? "kabut-di-lembang" : null);
 
+// --express переключает источник на модуль «Экспресс»: озвучиваются все
+// индонезийские строки из data/express — примеры частиц, формы и примеры
+// корней, материал дриллов. Язык всегда один, индонезийский.
+const EXPRESS = has("express");
+// Голос модуля — тот же, что читает «Kabut di Lembang»: он живой на стороне
+// Voicer, а старый голос словаря (zd0hd2egR1Q6EzSLTzCp) уже мёртв.
+const EXPRESS_VOICE = "21m00Tcm4TlvDq8ikWAM";
+
 // Язык книги лежит в её .json (пишет scripts/build-reading.mjs). Читаем его
 // заранее: от языка зависят и папка public/audio/<lang>, и голос по умолчанию.
 function readingLang(slug) {
@@ -145,7 +153,9 @@ function readingLang(slug) {
 const ALL_LANGS = ["id", "ru", "en"];
 const langArg = flag("lang", null);
 // У книги один язык — её собственный: перевода вслух не бывает.
-const LANGS = READING
+const LANGS = EXPRESS
+  ? ["id"]
+  : READING
   ? [readingLang(READING)]
   : langArg
     ? langArg.split(",").map((s) => s.trim())
@@ -167,6 +177,7 @@ if (voiceOverride && LANGS.length !== 1) {
 }
 const voiceFor = (lang) =>
   voiceOverride ??
+  (EXPRESS ? EXPRESS_VOICE : null) ??
   (READING ? READING_VOICES[READING] : null) ??
   LANG_VOICES[lang] ??
   null;
@@ -233,6 +244,76 @@ function collectTexts(langs) {
     }
   }
   return [...seen.values()];
+}
+
+// Индонезийские строки модуля «Экспресс». Источник разнородный (частицы,
+// корни, дриллы), поэтому фильтр строгий: русские формулировки, служебные
+// записи аффиксов вроде «peN- + -an» и обрывки на озвучку не идут.
+function isSpeakableId(text) {
+  if (!text) return false;
+  const t = text.trim();
+  if (t.length < 2 || t.length > 120) return false;
+  if (/[\u0400-\u04FF]/.test(t)) return false;   // кириллица — это перевод
+  if (!/^[A-Za-z]/.test(t)) return false;
+  if (/[+…]/.test(t)) return false;               // запись аффиксов
+  if (/-$/.test(t)) return false;                 // «meN-», «ter-»
+  return true;
+}
+
+function collectExpressTexts() {
+  const dir = path.join(ROOT, "data", "express");
+  if (!fs.existsSync(dir)) {
+    console.error(`Нет ${path.relative(ROOT, dir)}`);
+    process.exit(1);
+  }
+  const read = (f) => JSON.parse(fs.readFileSync(path.join(dir, f), "utf8"));
+  const seen = new Set();
+  const out = [];
+  const add = (text) => {
+    if (!isSpeakableId(text)) return;
+    const t = text.trim();
+    if (seen.has(t)) return;
+    seen.add(t);
+    out.push({ text: t, lang: "id", kind: "express" });
+  };
+
+  const p = read("particles.json");
+  for (const particle of p.particles) {
+    for (const fn of particle.functions) for (const ex of fn.examples) add(ex.id);
+    for (const e of particle.common_errors) add(e.right);
+  }
+  for (const c of p.chunks) add(c.id);
+  for (const pair of p.minimal_pairs) for (const v of pair.variants) add(v.id);
+  for (const row of p.ru_bridge_table) add(row.id);
+
+  const r = read("roots.json");
+  for (const root of r.roots) {
+    for (const f of root.family) {
+      add(f.form);
+      add(f.example_id);
+      if (f.colloquial) add(f.colloquial.split(" / ")[0]);
+    }
+  }
+  for (const pair of [...r.register_pairs, ...r.in_pairs]) {
+    add(pair.baku);
+    add(pair.colloquial.split(" / ")[0]);
+  }
+  for (const k of r.ktsp) {
+    add(k.root);
+    add(k.result);
+  }
+
+  const unitsDir = path.join(dir, "units");
+  for (const file of fs.readdirSync(unitsDir).filter((f) => f.endsWith(".json"))) {
+    const u = JSON.parse(fs.readFileSync(path.join(unitsDir, file), "utf8"));
+    for (const d of u.drills) {
+      add(d.audio);
+      add(d.prompt);
+      add(d.answer);
+      for (const f of d.fields ?? []) add(f.answer);
+    }
+  }
+  return out;
 }
 
 // Предложения книги для читалки: те же ключи, что у переводов, — сам текст.
@@ -414,7 +495,11 @@ async function cmdSample() {
 }
 
 async function cmdGenerate() {
-  let items = READING ? collectReadingTexts(READING) : collectTexts(LANGS);
+  let items = EXPRESS
+    ? collectExpressTexts()
+    : READING
+      ? collectReadingTexts(READING)
+      : collectTexts(LANGS);
   if (LIMIT > 0) items = items.slice(0, LIMIT);
 
   for (const l of LANGS) fs.mkdirSync(path.join(AUDIO_DIR, l), { recursive: true });
@@ -427,7 +512,7 @@ async function cmdGenerate() {
   const chars = pending.reduce((a, b) => a + ttsInput(b.text).length, 0);
 
   console.log(
-    `Источник: ${READING ? `книга ${READING}` : "словарь"} · языки: ${LANGS.join(", ")}${FORCE ? " · --force (перезапись)" : ""}`,
+    `Источник: ${EXPRESS ? "модуль «Экспресс»" : READING ? `книга ${READING}` : "словарь"} · языки: ${LANGS.join(", ")}${FORCE ? " · --force (перезапись)" : ""}`,
   );
   for (const l of LANGS) {
     const all = items.filter((i) => i.lang === l);
