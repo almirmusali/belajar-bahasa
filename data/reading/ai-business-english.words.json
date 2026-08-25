@@ -1,0 +1,7826 @@
+[
+ {
+  "w": "the",
+  "n": 546
+ },
+ {
+  "w": "a",
+  "n": 319
+ },
+ {
+  "w": "is",
+  "n": 273
+ },
+ {
+  "w": "and",
+  "n": 234
+ },
+ {
+  "w": "in",
+  "n": 129
+ },
+ {
+  "w": "of",
+  "n": 127
+ },
+ {
+  "w": "to",
+  "n": 116
+ },
+ {
+  "w": "ai",
+  "n": 108
+ },
+ {
+  "w": "it",
+  "n": 103
+ },
+ {
+  "w": "you",
+  "n": 87
+ },
+ {
+  "w": "that",
+  "n": 81
+ },
+ {
+  "w": "what",
+  "n": 78
+ },
+ {
+  "w": "not",
+  "n": 66
+ },
+ {
+  "w": "with",
+  "n": 63
+ },
+ {
+  "w": "for",
+  "n": 59
+ },
+ {
+  "w": "are",
+  "n": 55
+ },
+ {
+  "w": "they",
+  "n": 54
+ },
+ {
+  "w": "this",
+  "n": 52
+ },
+ {
+  "w": "your",
+  "n": 47
+ },
+ {
+  "w": "an",
+  "n": 44
+ },
+ {
+  "w": "one",
+  "n": 42
+ },
+ {
+  "w": "business",
+  "n": 40
+ },
+ {
+  "w": "from",
+  "n": 39
+ },
+ {
+  "w": "do",
+  "n": 36
+ },
+ {
+  "w": "or",
+  "n": 35
+ },
+ {
+  "w": "every",
+  "n": 33
+ },
+ {
+  "w": "product",
+  "n": 33
+ },
+ {
+  "w": "can",
+  "n": 31
+ },
+ {
+  "w": "data",
+  "n": 31
+ },
+ {
+  "w": "people",
+  "n": 29
+ },
+ {
+  "w": "why",
+  "n": 29
+ },
+ {
+  "w": "how",
+  "n": 28
+ },
+ {
+  "w": "at",
+  "n": 28
+ },
+ {
+  "w": "does",
+  "n": 28
+ },
+ {
+  "w": "which",
+  "n": 28
+ },
+ {
+  "w": "on",
+  "n": 27
+ },
+ {
+  "w": "most",
+  "n": 26
+ },
+ {
+  "w": "who",
+  "n": 25
+ },
+ {
+  "w": "but",
+  "n": 24
+ },
+ {
+  "w": "model",
+  "n": 24
+ },
+ {
+  "w": "when",
+  "n": 24
+ },
+ {
+  "w": "more",
+  "n": 24
+ },
+ {
+  "w": "vocabulary",
+  "n": 23
+ },
+ {
+  "w": "s",
+  "n": 23
+ },
+ {
+  "w": "has",
+  "n": 23
+ },
+ {
+  "w": "new",
+  "n": 23
+ },
+ {
+  "w": "english",
+  "n": 22
+ },
+ {
+  "w": "by",
+  "n": 22
+ },
+ {
+  "w": "human",
+  "n": 22
+ },
+ {
+  "w": "first",
+  "n": 22
+ },
+ {
+  "w": "because",
+  "n": 21
+ },
+ {
+  "w": "as",
+  "n": 21
+ },
+ {
+  "w": "customer",
+  "n": 21
+ },
+ {
+  "w": "sales",
+  "n": 21
+ },
+ {
+  "w": "two",
+  "n": 21
+ },
+ {
+  "w": "three",
+  "n": 20
+ },
+ {
+  "w": "process",
+  "n": 20
+ },
+ {
+  "w": "team",
+  "n": 20
+ },
+ {
+  "w": "small",
+  "n": 19
+ },
+ {
+  "w": "all",
+  "n": 19
+ },
+ {
+  "w": "be",
+  "n": 19
+ },
+ {
+  "w": "where",
+  "n": 19
+ },
+ {
+  "w": "company",
+  "n": 19
+ },
+ {
+  "w": "will",
+  "n": 18
+ },
+ {
+  "w": "have",
+  "n": 18
+ },
+ {
+  "w": "now",
+  "n": 18
+ },
+ {
+  "w": "work",
+  "n": 18
+ },
+ {
+  "w": "content",
+  "n": 18
+ },
+ {
+  "w": "use",
+  "n": 18
+ },
+ {
+  "w": "like",
+  "n": 17
+ },
+ {
+  "w": "companies",
+  "n": 17
+ },
+ {
+  "w": "marketing",
+  "n": 17
+ },
+ {
+  "w": "key",
+  "n": 16
+ },
+ {
+  "w": "check",
+  "n": 16
+ },
+ {
+  "w": "startup",
+  "n": 16
+ },
+ {
+  "w": "between",
+  "n": 16
+ },
+ {
+  "w": "numbers",
+  "n": 16
+ },
+ {
+  "w": "if",
+  "n": 16
+ },
+ {
+  "w": "their",
+  "n": 16
+ },
+ {
+  "w": "them",
+  "n": 16
+ },
+ {
+  "w": "about",
+  "n": 15
+ },
+ {
+  "w": "person",
+  "n": 15
+ },
+ {
+  "w": "own",
+  "n": 15
+ },
+ {
+  "w": "same",
+  "n": 15
+ },
+ {
+  "w": "customers",
+  "n": 15
+ },
+ {
+  "w": "time",
+  "n": 15
+ },
+ {
+  "w": "revenue",
+  "n": 15
+ },
+ {
+  "w": "software",
+  "n": 14
+ },
+ {
+  "w": "everything",
+  "n": 14
+ },
+ {
+  "w": "teams",
+  "n": 14
+ },
+ {
+  "w": "yourself",
+  "n": 13
+ },
+ {
+  "w": "language",
+  "n": 13
+ },
+ {
+  "w": "difference",
+  "n": 13
+ },
+ {
+  "w": "different",
+  "n": 13
+ },
+ {
+  "w": "learn",
+  "n": 13
+ },
+ {
+  "w": "money",
+  "n": 13
+ },
+ {
+  "w": "founders",
+  "n": 12
+ },
+ {
+  "w": "each",
+  "n": 12
+ },
+ {
+  "w": "questions",
+  "n": 12
+ },
+ {
+  "w": "call",
+  "n": 12
+ },
+ {
+  "w": "than",
+  "n": 12
+ },
+ {
+  "w": "build",
+  "n": 12
+ },
+ {
+  "w": "never",
+  "n": 12
+ },
+ {
+  "w": "month",
+  "n": 12
+ },
+ {
+  "w": "explain",
+  "n": 11
+ },
+ {
+  "w": "real",
+  "n": 11
+ },
+ {
+  "w": "we",
+  "n": 11
+ },
+ {
+  "w": "into",
+  "n": 11
+ },
+ {
+  "w": "word",
+  "n": 11
+ },
+ {
+  "w": "speed",
+  "n": 11
+ },
+ {
+  "w": "good",
+  "n": 11
+ },
+ {
+  "w": "before",
+  "n": 11
+ },
+ {
+  "w": "pipeline",
+  "n": 11
+ },
+ {
+  "w": "founder",
+  "n": 11
+ },
+ {
+  "w": "tools",
+  "n": 11
+ },
+ {
+  "w": "users",
+  "n": 11
+ },
+ {
+  "w": "writing",
+  "n": 10
+ },
+ {
+  "w": "those",
+  "n": 10
+ },
+ {
+  "w": "no",
+  "n": 10
+ },
+ {
+  "w": "so",
+  "n": 10
+ },
+ {
+  "w": "second",
+  "n": 10
+ },
+ {
+  "w": "means",
+  "n": 10
+ },
+ {
+  "w": "test",
+  "n": 10
+ },
+ {
+  "w": "buy",
+  "n": 10
+ },
+ {
+  "w": "here",
+  "n": 10
+ },
+ {
+  "w": "look",
+  "n": 10
+ },
+ {
+  "w": "automate",
+  "n": 10
+ },
+ {
+  "w": "steps",
+  "n": 10
+ },
+ {
+  "w": "cannot",
+  "n": 10
+ },
+ {
+  "w": "many",
+  "n": 10
+ },
+ {
+  "w": "change",
+  "n": 10
+ },
+ {
+  "w": "trust",
+  "n": 10
+ },
+ {
+  "w": "skills",
+  "n": 10
+ },
+ {
+  "w": "read",
+  "n": 9
+ },
+ {
+  "w": "become",
+  "n": 9
+ },
+ {
+  "w": "next",
+  "n": 9
+ },
+ {
+  "w": "only",
+  "n": 9
+ },
+ {
+  "w": "working",
+  "n": 9
+ },
+ {
+  "w": "five",
+  "n": 9
+ },
+ {
+  "w": "measure",
+  "n": 9
+ },
+ {
+  "w": "these",
+  "n": 9
+ },
+ {
+  "w": "job",
+  "n": 9
+ },
+ {
+  "w": "its",
+  "n": 9
+ },
+ {
+  "w": "nothing",
+  "n": 9
+ },
+ {
+  "w": "matters",
+  "n": 9
+ },
+ {
+  "w": "changes",
+  "n": 9
+ },
+ {
+  "w": "ask",
+  "n": 9
+ },
+ {
+  "w": "building",
+  "n": 9
+ },
+ {
+  "w": "user",
+  "n": 9
+ },
+ {
+  "w": "churn",
+  "n": 8
+ },
+ {
+  "w": "simple",
+  "n": 8
+ },
+ {
+  "w": "words",
+  "n": 8
+ },
+ {
+  "w": "rules",
+  "n": 8
+ },
+ {
+  "w": "models",
+  "n": 8
+ },
+ {
+  "w": "then",
+  "n": 8
+ },
+ {
+  "w": "modern",
+  "n": 8
+ },
+ {
+  "w": "video",
+  "n": 8
+ },
+ {
+  "w": "technology",
+  "n": 8
+ },
+ {
+  "w": "keep",
+  "n": 8
+ },
+ {
+  "w": "way",
+  "n": 8
+ },
+ {
+  "w": "i",
+  "n": 8
+ },
+ {
+  "w": "any",
+  "n": 8
+ },
+ {
+  "w": "leverage",
+  "n": 8
+ },
+ {
+  "w": "bottleneck",
+  "n": 8
+ },
+ {
+  "w": "question",
+  "n": 8
+ },
+ {
+  "w": "something",
+  "n": 8
+ },
+ {
+  "w": "die",
+  "n": 8
+ },
+ {
+  "w": "must",
+  "n": 8
+ },
+ {
+  "w": "features",
+  "n": 8
+ },
+ {
+  "w": "retention",
+  "n": 8
+ },
+ {
+  "w": "lead",
+  "n": 8
+ },
+ {
+  "w": "monthly",
+  "n": 8
+ },
+ {
+  "w": "metrics",
+  "n": 8
+ },
+ {
+  "w": "runway",
+  "n": 8
+ },
+ {
+  "w": "b",
+  "n": 7
+ },
+ {
+  "w": "honest",
+  "n": 7
+ },
+ {
+  "w": "text",
+  "n": 7
+ },
+ {
+  "w": "used",
+  "n": 7
+ },
+ {
+  "w": "write",
+  "n": 7
+ },
+ {
+  "w": "answers",
+  "n": 7
+ },
+ {
+  "w": "tasks",
+  "n": 7
+ },
+ {
+  "w": "want",
+  "n": 7
+ },
+ {
+  "w": "would",
+  "n": 7
+ },
+ {
+  "w": "world",
+  "n": 7
+ },
+ {
+  "w": "conversation",
+  "n": 7
+ },
+ {
+  "w": "get",
+  "n": 7
+ },
+ {
+  "w": "example",
+  "n": 7
+ },
+ {
+  "w": "mean",
+  "n": 7
+ },
+ {
+  "w": "serious",
+  "n": 7
+ },
+ {
+  "w": "instead",
+  "n": 7
+ },
+ {
+  "w": "ten",
+  "n": 7
+ },
+ {
+  "w": "takes",
+  "n": 7
+ },
+ {
+  "w": "output",
+  "n": 7
+ },
+ {
+  "w": "skill",
+  "n": 7
+ },
+ {
+  "w": "through",
+  "n": 7
+ },
+ {
+  "w": "mistake",
+  "n": 7
+ },
+ {
+  "w": "week",
+  "n": 7
+ },
+ {
+  "w": "after",
+  "n": 7
+ },
+ {
+  "w": "improve",
+  "n": 7
+ },
+ {
+  "w": "whole",
+  "n": 7
+ },
+ {
+  "w": "just",
+  "n": 7
+ },
+ {
+  "w": "else",
+  "n": 7
+ },
+ {
+  "w": "always",
+  "n": 7
+ },
+ {
+  "w": "value",
+  "n": 7
+ },
+ {
+  "w": "decisions",
+  "n": 7
+ },
+ {
+  "w": "startups",
+  "n": 7
+ },
+ {
+  "w": "year",
+  "n": 7
+ },
+ {
+  "w": "reach",
+  "n": 7
+ },
+ {
+  "w": "onboarding",
+  "n": 7
+ },
+ {
+  "w": "attention",
+  "n": 7
+ },
+ {
+  "w": "total",
+  "n": 7
+ },
+ {
+  "w": "profit",
+  "n": 7
+ },
+ {
+  "w": "k",
+  "n": 7
+ },
+ {
+  "w": "useful",
+  "n": 6
+ },
+ {
+  "w": "chapter",
+  "n": 6
+ },
+ {
+  "w": "day",
+  "n": 6
+ },
+ {
+  "w": "everyone",
+  "n": 6
+ },
+ {
+  "w": "nobody",
+  "n": 6
+ },
+ {
+  "w": "learning",
+  "n": 6
+ },
+ {
+  "w": "again",
+  "n": 6
+ },
+ {
+  "w": "out",
+  "n": 6
+ },
+ {
+  "w": "result",
+  "n": 6
+ },
+ {
+  "w": "emails",
+  "n": 6
+ },
+ {
+  "w": "come",
+  "n": 6
+ },
+ {
+  "w": "years",
+  "n": 6
+ },
+ {
+  "w": "became",
+  "n": 6
+ },
+ {
+  "w": "powerful",
+  "n": 6
+ },
+ {
+  "w": "history",
+  "n": 6
+ },
+ {
+  "w": "better",
+  "n": 6
+ },
+ {
+  "w": "important",
+  "n": 6
+ },
+ {
+  "w": "tool",
+  "n": 6
+ },
+ {
+  "w": "clear",
+  "n": 6
+ },
+ {
+  "w": "judgment",
+  "n": 6
+ },
+ {
+  "w": "ones",
+  "n": 6
+ },
+ {
+  "w": "works",
+  "n": 6
+ },
+ {
+  "w": "often",
+  "n": 6
+ },
+ {
+  "w": "support",
+  "n": 6
+ },
+ {
+  "w": "long",
+  "n": 6
+ },
+ {
+  "w": "need",
+  "n": 6
+ },
+ {
+  "w": "easy",
+  "n": 6
+ },
+ {
+  "w": "pattern",
+  "n": 6
+ },
+ {
+  "w": "loop",
+  "n": 6
+ },
+ {
+  "w": "knowing",
+  "n": 6
+ },
+ {
+  "w": "processes",
+  "n": 6
+ },
+ {
+  "w": "could",
+  "n": 6
+ },
+ {
+  "w": "move",
+  "n": 6
+ },
+ {
+  "w": "start",
+  "n": 6
+ },
+ {
+  "w": "fast",
+  "n": 6
+ },
+ {
+  "w": "rule",
+  "n": 6
+ },
+ {
+  "w": "without",
+  "n": 6
+ },
+ {
+  "w": "automation",
+  "n": 6
+ },
+ {
+  "w": "quietly",
+  "n": 6
+ },
+ {
+  "w": "once",
+  "n": 6
+ },
+ {
+  "w": "version",
+  "n": 6
+ },
+ {
+  "w": "say",
+  "n": 6
+ },
+ {
+  "w": "too",
+  "n": 6
+ },
+ {
+  "w": "moat",
+  "n": 6
+ },
+ {
+  "w": "experience",
+  "n": 6
+ },
+ {
+  "w": "funnel",
+  "n": 6
+ },
+ {
+  "w": "rate",
+  "n": 6
+ },
+ {
+  "w": "discipline",
+  "n": 6
+ },
+ {
+  "w": "deals",
+  "n": 6
+ },
+ {
+  "w": "expensive",
+  "n": 6
+ },
+ {
+  "w": "subscribers",
+  "n": 6
+ },
+ {
+  "w": "professional",
+  "n": 6
+ },
+ {
+  "w": "hiring",
+  "n": 6
+ },
+ {
+  "w": "fit",
+  "n": 5
+ },
+ {
+  "w": "describe",
+  "n": 5
+ },
+ {
+  "w": "take",
+  "n": 5
+ },
+ {
+  "w": "path",
+  "n": 5
+ },
+ {
+  "w": "itself",
+  "n": 5
+ },
+ {
+  "w": "training",
+  "n": 5
+ },
+ {
+  "w": "until",
+  "n": 5
+ },
+ {
+  "w": "saying",
+  "n": 5
+ },
+ {
+  "w": "industry",
+  "n": 5
+ },
+ {
+  "w": "enormous",
+  "n": 5
+ },
+ {
+  "w": "should",
+  "n": 5
+ },
+ {
+  "w": "old",
+  "n": 5
+ },
+ {
+  "w": "third",
+  "n": 5
+ },
+ {
+  "w": "investors",
+  "n": 5
+ },
+ {
+  "w": "wrong",
+  "n": 5
+ },
+ {
+  "w": "actually",
+  "n": 5
+ },
+ {
+  "w": "exactly",
+  "n": 5
+ },
+ {
+  "w": "make",
+  "n": 5
+ },
+ {
+  "w": "usually",
+  "n": 5
+ },
+ {
+  "w": "order",
+  "n": 5
+ },
+ {
+  "w": "drafts",
+  "n": 5
+ },
+ {
+  "w": "looks",
+  "n": 5
+ },
+ {
+  "w": "leads",
+  "n": 5
+ },
+ {
+  "w": "analysis",
+  "n": 5
+ },
+ {
+  "w": "analyst",
+  "n": 5
+ },
+ {
+  "w": "find",
+  "n": 5
+ },
+ {
+  "w": "anything",
+  "n": 5
+ },
+ {
+  "w": "hire",
+  "n": 5
+ },
+ {
+  "w": "map",
+  "n": 5
+ },
+ {
+  "w": "already",
+  "n": 5
+ },
+ {
+  "w": "give",
+  "n": 5
+ },
+ {
+  "w": "stay",
+  "n": 5
+ },
+ {
+  "w": "tech",
+  "n": 5
+ },
+ {
+  "w": "starts",
+  "n": 5
+ },
+ {
+  "w": "mvp",
+  "n": 5
+ },
+ {
+  "w": "watch",
+  "n": 5
+ },
+ {
+  "w": "name",
+  "n": 5
+ },
+ {
+  "w": "early",
+  "n": 5
+ },
+ {
+  "w": "moment",
+  "n": 5
+ },
+ {
+  "w": "audience",
+  "n": 5
+ },
+ {
+  "w": "while",
+  "n": 5
+ },
+ {
+  "w": "some",
+  "n": 5
+ },
+ {
+  "w": "wave",
+  "n": 5
+ },
+ {
+  "w": "opportunity",
+  "n": 5
+ },
+ {
+  "w": "bought",
+  "n": 5
+ },
+ {
+  "w": "strategy",
+  "n": 5
+ },
+ {
+  "w": "stage",
+  "n": 5
+ },
+ {
+  "w": "views",
+  "n": 5
+ },
+ {
+  "w": "over",
+  "n": 5
+ },
+ {
+  "w": "correlation",
+  "n": 5
+ },
+ {
+  "w": "knows",
+  "n": 5
+ },
+ {
+  "w": "burn",
+  "n": 5
+ },
+ {
+  "w": "salary",
+  "n": 5
+ },
+ {
+  "w": "async",
+  "n": 5
+ },
+ {
+  "w": "phrases",
+  "n": 4
+ },
+ {
+  "w": "product-market",
+  "n": 4
+ },
+ {
+  "w": "short",
+  "n": 4
+ },
+ {
+  "w": "core",
+  "n": 4
+ },
+ {
+  "w": "very",
+  "n": 4
+ },
+ {
+  "w": "even",
+  "n": 4
+ },
+ {
+  "w": "code",
+  "n": 4
+ },
+ {
+  "w": "traditional",
+  "n": 4
+ },
+ {
+  "w": "hand",
+  "n": 4
+ },
+ {
+  "w": "patterns",
+  "n": 4
+ },
+ {
+  "w": "imagine",
+  "n": 4
+ },
+ {
+  "w": "thousands",
+  "n": 4
+ },
+ {
+  "w": "writes",
+  "n": 4
+ },
+ {
+  "w": "called",
+  "n": 4
+ },
+ {
+  "w": "machine",
+  "n": 4
+ },
+ {
+  "w": "today",
+  "n": 4
+ },
+ {
+  "w": "system",
+  "n": 4
+ },
+ {
+  "w": "amounts",
+  "n": 4
+ },
+ {
+  "w": "garbage",
+  "n": 4
+ },
+ {
+  "w": "bad",
+  "n": 4
+ },
+ {
+  "w": "matter",
+  "n": 4
+ },
+ {
+  "w": "type",
+  "n": 4
+ },
+ {
+  "w": "documents",
+  "n": 4
+ },
+ {
+  "w": "response",
+  "n": 4
+ },
+ {
+  "w": "did",
+  "n": 4
+ },
+ {
+  "w": "together",
+  "n": 4
+ },
+ {
+  "w": "power",
+  "n": 4
+ },
+ {
+  "w": "sometimes",
+  "n": 4
+ },
+ {
+  "w": "simply",
+  "n": 4
+ },
+ {
+  "w": "practical",
+  "n": 4
+ },
+ {
+  "w": "needs",
+  "n": 4
+ },
+ {
+  "w": "win",
+  "n": 4
+ },
+ {
+  "w": "boring",
+  "n": 4
+ },
+ {
+  "w": "my",
+  "n": 4
+ },
+ {
+  "w": "assistant",
+  "n": 4
+ },
+ {
+  "w": "faster",
+  "n": 4
+ },
+ {
+  "w": "cost",
+  "n": 4
+ },
+ {
+  "w": "per",
+  "n": 4
+ },
+ {
+  "w": "stops",
+  "n": 4
+ },
+ {
+  "w": "drowning",
+  "n": 4
+ },
+ {
+  "w": "email",
+  "n": 4
+ },
+ {
+  "w": "completely",
+  "n": 4
+ },
+ {
+  "w": "task",
+  "n": 4
+ },
+ {
+  "w": "back",
+  "n": 4
+ },
+ {
+  "w": "office",
+  "n": 4
+ },
+ {
+  "w": "line",
+  "n": 4
+ },
+ {
+  "w": "gives",
+  "n": 4
+ },
+ {
+  "w": "daily",
+  "n": 4
+ },
+ {
+  "w": "videos",
+  "n": 4
+ },
+ {
+  "w": "cheapest",
+  "n": 4
+ },
+ {
+  "w": "project",
+  "n": 4
+ },
+ {
+  "w": "opposite",
+  "n": 4
+ },
+ {
+  "w": "comes",
+  "n": 4
+ },
+ {
+  "w": "number",
+  "n": 4
+ },
+ {
+  "w": "bank",
+  "n": 4
+ },
+ {
+  "w": "whether",
+  "n": 4
+ },
+ {
+  "w": "idea",
+  "n": 4
+ },
+ {
+  "w": "step",
+  "n": 4
+ },
+ {
+  "w": "moves",
+  "n": 4
+ },
+ {
+  "w": "half",
+  "n": 4
+ },
+ {
+  "w": "percentage",
+  "n": 4
+ },
+ {
+  "w": "predictable",
+  "n": 4
+ },
+ {
+  "w": "taste",
+  "n": 4
+ },
+ {
+  "w": "specific",
+  "n": 4
+ },
+ {
+  "w": "grow",
+  "n": 4
+ },
+ {
+  "w": "runs",
+  "n": 4
+ },
+ {
+  "w": "weak",
+  "n": 4
+ },
+ {
+  "w": "feedback",
+  "n": 4
+ },
+ {
+  "w": "market",
+  "n": 4
+ },
+ {
+  "w": "game",
+  "n": 4
+ },
+ {
+  "w": "pivot",
+  "n": 4
+ },
+ {
+  "w": "direction",
+  "n": 4
+ },
+ {
+  "w": "keeping",
+  "n": 4
+ },
+ {
+  "w": "creates",
+  "n": 4
+ },
+ {
+  "w": "both",
+  "n": 4
+ },
+ {
+  "w": "responsible",
+  "n": 4
+ },
+ {
+  "w": "speak",
+  "n": 4
+ },
+ {
+  "w": "list",
+  "n": 4
+ },
+ {
+  "w": "management",
+  "n": 4
+ },
+ {
+  "w": "leave",
+  "n": 4
+ },
+ {
+  "w": "live",
+  "n": 4
+ },
+ {
+  "w": "inside",
+  "n": 4
+ },
+ {
+  "w": "best",
+  "n": 4
+ },
+ {
+  "w": "metric",
+  "n": 4
+ },
+ {
+  "w": "top",
+  "n": 4
+ },
+ {
+  "w": "know",
+  "n": 4
+ },
+ {
+  "w": "conversion",
+  "n": 4
+ },
+ {
+  "w": "buys",
+  "n": 4
+ },
+ {
+  "w": "earns",
+  "n": 4
+ },
+ {
+  "w": "hook",
+  "n": 4
+ },
+ {
+  "w": "goes",
+  "n": 4
+ },
+ {
+  "w": "salespeople",
+  "n": 4
+ },
+ {
+  "w": "other",
+  "n": 4
+ },
+ {
+  "w": "last",
+  "n": 4
+ },
+ {
+  "w": "makes",
+  "n": 4
+ },
+ {
+  "w": "margin",
+  "n": 4
+ },
+ {
+  "w": "months",
+  "n": 4
+ },
+ {
+  "w": "equity",
+  "n": 4
+ },
+ {
+  "w": "plus",
+  "n": 4
+ },
+ {
+  "w": "jobs",
+  "n": 4
+ },
+ {
+  "w": "augmentation",
+  "n": 4
+ },
+ {
+  "w": "raise",
+  "n": 3
+ },
+ {
+  "w": "weeks",
+  "n": 3
+ },
+ {
+  "w": "feel",
+  "n": 3
+ },
+ {
+  "w": "intelligence",
+  "n": 3
+ },
+ {
+  "w": "few",
+  "n": 3
+ },
+ {
+  "w": "require",
+  "n": 3
+ },
+ {
+  "w": "images",
+  "n": 3
+ },
+ {
+  "w": "making",
+  "n": 3
+ },
+ {
+  "w": "learns",
+  "n": 3
+ },
+ {
+  "w": "tell",
+  "n": 3
+ },
+ {
+  "w": "examples",
+  "n": 3
+ },
+ {
+  "w": "behind",
+  "n": 3
+ },
+ {
+  "w": "almost",
+  "n": 3
+ },
+ {
+  "w": "transactions",
+  "n": 3
+ },
+ {
+  "w": "there",
+  "n": 3
+ },
+ {
+  "w": "algorithm",
+  "n": 3
+ },
+ {
+  "w": "famous",
+  "n": 3
+ },
+ {
+  "w": "large",
+  "n": 3
+ },
+ {
+  "w": "internet",
+  "n": 3
+ },
+ {
+  "w": "answer",
+  "n": 3
+ },
+ {
+  "w": "languages",
+  "n": 3
+ },
+ {
+  "w": "chatbot",
+  "n": 3
+ },
+ {
+  "w": "happen",
+  "n": 3
+ },
+ {
+  "w": "things",
+  "n": 3
+ },
+ {
+  "w": "cheap",
+  "n": 3
+ },
+ {
+  "w": "anyone",
+  "n": 3
+ },
+ {
+  "w": "ago",
+  "n": 3
+ },
+ {
+  "w": "routine",
+  "n": 3
+ },
+ {
+  "w": "hype",
+  "n": 3
+ },
+ {
+  "w": "reality",
+  "n": 3
+ },
+ {
+  "w": "head",
+  "n": 3
+ },
+ {
+  "w": "produce",
+  "n": 3
+ },
+ {
+  "w": "understand",
+  "n": 3
+ },
+ {
+  "w": "dramatically",
+  "n": 3
+ },
+ {
+  "w": "up",
+  "n": 3
+ },
+ {
+  "w": "costs",
+  "n": 3
+ },
+ {
+  "w": "believe",
+  "n": 3
+ },
+ {
+  "w": "adopt",
+  "n": 3
+ },
+ {
+  "w": "phrase",
+  "n": 3
+ },
+ {
+  "w": "twenty",
+  "n": 3
+ },
+ {
+  "w": "dangerous",
+  "n": 3
+ },
+ {
+  "w": "valuable",
+  "n": 3
+ },
+ {
+  "w": "wins",
+  "n": 3
+ },
+ {
+  "w": "friction",
+  "n": 3
+ },
+ {
+  "w": "scale",
+  "n": 3
+ },
+ {
+  "w": "economics",
+  "n": 3
+ },
+ {
+  "w": "requests",
+  "n": 3
+ },
+ {
+  "w": "hours",
+  "n": 3
+ },
+ {
+  "w": "agents",
+  "n": 3
+ },
+ {
+  "w": "cases",
+  "n": 3
+ },
+ {
+  "w": "unusual",
+  "n": 3
+ },
+ {
+  "w": "results",
+  "n": 3
+ },
+ {
+  "w": "times",
+  "n": 3
+ },
+ {
+  "w": "lower",
+  "n": 3
+ },
+ {
+  "w": "loses",
+  "n": 3
+ },
+ {
+  "w": "repetitive",
+  "n": 3
+ },
+ {
+  "w": "ads",
+  "n": 3
+ },
+ {
+  "w": "versions",
+  "n": 3
+ },
+ {
+  "w": "notice",
+  "n": 3
+ },
+ {
+  "w": "draft",
+  "n": 3
+ },
+ {
+  "w": "future",
+  "n": 3
+ },
+ {
+  "w": "editing",
+  "n": 3
+ },
+ {
+  "w": "spends",
+  "n": 3
+ },
+ {
+  "w": "right",
+  "n": 3
+ },
+ {
+  "w": "personalized",
+  "n": 3
+ },
+ {
+  "w": "meeting",
+  "n": 3
+ },
+ {
+  "w": "updates",
+  "n": 3
+ },
+ {
+  "w": "crm",
+  "n": 3
+ },
+ {
+  "w": "checks",
+  "n": 3
+ },
+ {
+  "w": "bottom",
+  "n": 3
+ },
+ {
+  "w": "input",
+  "n": 3
+ },
+ {
+  "w": "advantage",
+  "n": 3
+ },
+ {
+  "w": "ships",
+  "n": 3
+ },
+ {
+  "w": "documented",
+  "n": 3
+ },
+ {
+  "w": "exist",
+  "n": 3
+ },
+ {
+  "w": "lives",
+  "n": 3
+ },
+ {
+  "w": "delegate",
+  "n": 3
+ },
+ {
+  "w": "think",
+  "n": 3
+ },
+ {
+  "w": "written",
+  "n": 3
+ },
+ {
+  "w": "days",
+  "n": 3
+ },
+ {
+  "w": "bigger",
+  "n": 3
+ },
+ {
+  "w": "operators",
+  "n": 3
+ },
+ {
+  "w": "honestly",
+  "n": 3
+ },
+ {
+  "w": "go",
+  "n": 3
+ },
+ {
+  "w": "strict",
+  "n": 3
+ },
+ {
+  "w": "eliminate",
+  "n": 3
+ },
+ {
+  "w": "remains",
+  "n": 3
+ },
+ {
+  "w": "fits",
+  "n": 3
+ },
+ {
+  "w": "classic",
+  "n": 3
+ },
+ {
+  "w": "arrives",
+  "n": 3
+ },
+ {
+  "w": "spreadsheet",
+  "n": 3
+ },
+ {
+  "w": "decide",
+  "n": 3
+ },
+ {
+  "w": "responsibility",
+  "n": 3
+ },
+ {
+  "w": "enough",
+  "n": 3
+ },
+ {
+  "w": "dialect",
+  "n": 3
+ },
+ {
+  "w": "becomes",
+  "n": 3
+ },
+ {
+  "w": "million",
+  "n": 3
+ },
+ {
+  "w": "reason",
+  "n": 3
+ },
+ {
+  "w": "single",
+  "n": 3
+ },
+ {
+  "w": "explains",
+  "n": 3
+ },
+ {
+  "w": "entire",
+  "n": 3
+ },
+ {
+  "w": "method",
+  "n": 3
+ },
+ {
+  "w": "avoid",
+  "n": 3
+ },
+ {
+  "w": "design",
+  "n": 3
+ },
+ {
+  "w": "release",
+  "n": 3
+ },
+ {
+  "w": "habit",
+  "n": 3
+ },
+ {
+  "w": "talking",
+  "n": 3
+ },
+ {
+  "w": "pmf",
+  "n": 3
+ },
+ {
+  "w": "growth",
+  "n": 3
+ },
+ {
+  "w": "face",
+  "n": 3
+ },
+ {
+  "w": "failure",
+  "n": 3
+ },
+ {
+  "w": "coding",
+  "n": 3
+ },
+ {
+  "w": "terms",
+  "n": 3
+ },
+ {
+  "w": "rarely",
+  "n": 3
+ },
+ {
+  "w": "competitors",
+  "n": 3
+ },
+ {
+  "w": "products",
+  "n": 3
+ },
+ {
+  "w": "roadmap",
+  "n": 3
+ },
+ {
+  "w": "feature",
+  "n": 3
+ },
+ {
+  "w": "ship",
+  "n": 3
+ },
+ {
+  "w": "plan",
+  "n": 3
+ },
+ {
+  "w": "well",
+  "n": 3
+ },
+ {
+  "w": "form",
+  "n": 3
+ },
+ {
+  "w": "quality",
+  "n": 3
+ },
+ {
+  "w": "zero",
+  "n": 3
+ },
+ {
+  "w": "also",
+  "n": 3
+ },
+ {
+  "w": "compare",
+  "n": 3
+ },
+ {
+  "w": "drop",
+  "n": 3
+ },
+ {
+  "w": "off",
+  "n": 3
+ },
+ {
+  "w": "marketer",
+  "n": 3
+ },
+ {
+  "w": "viewer",
+  "n": 3
+ },
+ {
+  "w": "advertising",
+  "n": 3
+ },
+ {
+  "w": "seconds",
+  "n": 3
+ },
+ {
+  "w": "performs",
+  "n": 3
+ },
+ {
+  "w": "strong",
+  "n": 3
+ },
+ {
+  "w": "trap",
+  "n": 3
+ },
+ {
+  "w": "might",
+  "n": 3
+ },
+ {
+  "w": "someone",
+  "n": 3
+ },
+ {
+  "w": "was",
+  "n": 3
+ },
+ {
+  "w": "recorded",
+  "n": 3
+ },
+ {
+  "w": "closing",
+  "n": 3
+ },
+ {
+  "w": "lose",
+  "n": 3
+ },
+ {
+  "w": "existing",
+  "n": 3
+ },
+ {
+  "w": "success",
+  "n": 3
+ },
+ {
+  "w": "correlate",
+  "n": 3
+ },
+ {
+  "w": "objections",
+  "n": 3
+ },
+ {
+  "w": "kpis",
+  "n": 3
+ },
+ {
+  "w": "dashboard",
+  "n": 3
+ },
+ {
+  "w": "one-time",
+  "n": 3
+ },
+ {
+  "w": "story",
+  "n": 3
+ },
+ {
+  "w": "rise",
+  "n": 3
+ },
+ {
+  "w": "causation",
+  "n": 3
+ },
+ {
+  "w": "practice",
+  "n": 3
+ },
+ {
+  "w": "being",
+  "n": 3
+ },
+ {
+  "w": "vanity",
+  "n": 3
+ },
+ {
+  "w": "health",
+  "n": 3
+ },
+ {
+  "w": "financial",
+  "n": 3
+ },
+ {
+  "w": "mrr",
+  "n": 3
+ },
+ {
+  "w": "recurring",
+  "n": 3
+ },
+ {
+  "w": "cac",
+  "n": 3
+ },
+ {
+  "w": "acquisition",
+  "n": 3
+ },
+ {
+  "w": "spend",
+  "n": 3
+ },
+ {
+  "w": "ltv",
+  "n": 3
+ },
+ {
+  "w": "exchange",
+  "n": 3
+ },
+ {
+  "w": "bootstrapping",
+  "n": 3
+ },
+ {
+  "w": "compounding",
+  "n": 3
+ },
+ {
+  "w": "culture",
+  "n": 3
+ },
+ {
+  "w": "beats",
+  "n": 3
+ },
+ {
+  "w": "hard",
+  "n": 3
+ },
+ {
+  "w": "destroy",
+  "n": 3
+ },
+ {
+  "w": "verification",
+  "n": 3
+ },
+ {
+  "w": "paste",
+  "n": 3
+ },
+ {
+  "w": "disruption",
+  "n": 3
+ },
+ {
+  "w": "intersection",
+  "n": 3
+ },
+ {
+  "w": "round",
+  "n": 2
+ },
+ {
+  "w": "cut",
+  "n": 2
+ },
+ {
+  "w": "busy",
+  "n": 2
+ },
+ {
+  "w": "paragraph",
+  "n": 2
+ },
+ {
+  "w": "aloud",
+  "n": 2
+ },
+ {
+  "w": "four",
+  "n": 2
+ },
+ {
+  "w": "artificial",
+  "n": 2
+ },
+ {
+  "w": "let",
+  "n": 2
+ },
+ {
+  "w": "fix",
+  "n": 2
+ },
+ {
+  "w": "understanding",
+  "n": 2
+ },
+ {
+  "w": "predictions",
+  "n": 2
+ },
+ {
+  "w": "follows",
+  "n": 2
+ },
+ {
+  "w": "photos",
+  "n": 2
+ },
+ {
+  "w": "cat",
+  "n": 2
+ },
+ {
+  "w": "approach",
+  "n": 2
+ },
+ {
+  "w": "breaks",
+  "n": 2
+ },
+ {
+  "w": "quickly",
+  "n": 2
+ },
+ {
+  "w": "messy",
+  "n": 2
+ },
+ {
+  "w": "collect",
+  "n": 2
+ },
+ {
+  "w": "train",
+  "n": 2
+ },
+ {
+  "w": "finds",
+  "n": 2
+ },
+ {
+  "w": "engine",
+  "n": 2
+ },
+ {
+  "w": "structure",
+  "n": 2
+ },
+ {
+  "w": "millions",
+  "n": 2
+ },
+ {
+  "w": "parameters",
+  "n": 2
+ },
+ {
+  "w": "huge",
+  "n": 2
+ },
+ {
+  "w": "raw",
+  "n": 2
+ },
+ {
+  "w": "trained",
+  "n": 2
+ },
+ {
+  "w": "summarize",
+  "n": 2
+ },
+ {
+  "w": "prompt",
+  "n": 2
+ },
+ {
+  "w": "predicting",
+  "n": 2
+ },
+ {
+  "w": "research",
+  "n": 2
+ },
+ {
+  "w": "boom",
+  "n": 2
+ },
+ {
+  "w": "recently",
+  "n": 2
+ },
+ {
+  "w": "available",
+  "n": 2
+ },
+ {
+  "w": "requires",
+  "n": 2
+ },
+ {
+  "w": "rent",
+  "n": 2
+ },
+ {
+  "w": "produced",
+  "n": 2
+ },
+ {
+  "w": "ways",
+  "n": 2
+ },
+ {
+  "w": "themselves",
+  "n": 2
+ },
+ {
+  "w": "improves",
+  "n": 2
+ },
+ {
+  "w": "expected",
+  "n": 2
+ },
+ {
+  "w": "description",
+  "n": 2
+ },
+ {
+  "w": "vs",
+  "n": 2
+ },
+ {
+  "w": "attracts",
+  "n": 2
+ },
+ {
+  "w": "impressive",
+  "n": 2
+ },
+ {
+  "w": "hallucinate",
+  "n": 2
+ },
+ {
+  "w": "confident",
+  "n": 2
+ },
+ {
+  "w": "prejudice",
+  "n": 2
+ },
+ {
+  "w": "treat",
+  "n": 2
+ },
+ {
+  "w": "open",
+  "n": 2
+ },
+ {
+  "w": "instructions",
+  "n": 2
+ },
+ {
+  "w": "uses",
+  "n": 2
+ },
+ {
+  "w": "robots",
+  "n": 2
+ },
+ {
+  "w": "cars",
+  "n": 2
+ },
+ {
+  "w": "biggest",
+  "n": 2
+ },
+ {
+  "w": "everyday",
+  "n": 2
+ },
+ {
+  "w": "operations",
+  "n": 2
+ },
+ {
+  "w": "answering",
+  "n": 2
+ },
+ {
+  "w": "sorting",
+  "n": 2
+ },
+ {
+  "w": "descriptions",
+  "n": 2
+ },
+ {
+  "w": "replace",
+  "n": 2
+ },
+ {
+  "w": "removes",
+  "n": 2
+ },
+ {
+  "w": "thousand",
+  "n": 2
+ },
+ {
+  "w": "place",
+  "n": 2
+ },
+ {
+  "w": "password",
+  "n": 2
+ },
+ {
+  "w": "instantly",
+  "n": 2
+ },
+ {
+  "w": "difficult",
+  "n": 2
+ },
+ {
+  "w": "situations",
+  "n": 2
+ },
+ {
+  "w": "ticket",
+  "n": 2
+ },
+ {
+  "w": "campaigns",
+  "n": 2
+ },
+ {
+  "w": "posts",
+  "n": 2
+ },
+ {
+  "w": "changed",
+  "n": 2
+ },
+ {
+  "w": "took",
+  "n": 2
+ },
+ {
+  "w": "minutes",
+  "n": 2
+ },
+ {
+  "w": "marketers",
+  "n": 2
+ },
+ {
+  "w": "translation",
+  "n": 2
+ },
+ {
+  "w": "final",
+  "n": 2
+ },
+ {
+  "w": "decision",
+  "n": 2
+ },
+ {
+  "w": "blank",
+  "n": 2
+ },
+ {
+  "w": "outreach",
+  "n": 2
+ },
+ {
+  "w": "earth",
+  "n": 2
+ },
+ {
+  "w": "contracts",
+  "n": 2
+ },
+ {
+  "w": "orders",
+  "n": 2
+ },
+ {
+  "w": "eat",
+  "n": 2
+ },
+ {
+  "w": "automating",
+  "n": 2
+ },
+ {
+  "w": "sound",
+  "n": 2
+ },
+ {
+  "w": "shows",
+  "n": 2
+ },
+ {
+  "w": "big",
+  "n": 2
+ },
+ {
+  "w": "capabilities",
+  "n": 2
+ },
+ {
+  "w": "employees",
+  "n": 2
+ },
+ {
+  "w": "struggle",
+  "n": 2
+ },
+ {
+  "w": "transformation",
+  "n": 2
+ },
+ {
+  "w": "painful",
+  "n": 2
+ },
+ {
+  "w": "competitive",
+  "n": 2
+ },
+ {
+  "w": "see",
+  "n": 2
+ },
+ {
+  "w": "turns",
+  "n": 2
+ },
+ {
+  "w": "package",
+  "n": 2
+ },
+ {
+  "w": "collection",
+  "n": 2
+ },
+ {
+  "w": "such",
+  "n": 2
+ },
+ {
+  "w": "owner",
+  "n": 2
+ },
+ {
+  "w": "scalable",
+  "n": 2
+ },
+ {
+  "w": "others",
+  "n": 2
+ },
+ {
+  "w": "wide",
+  "n": 2
+ },
+ {
+  "w": "production",
+  "n": 2
+ },
+ {
+  "w": "scripts",
+  "n": 2
+ },
+ {
+  "w": "front",
+  "n": 2
+ },
+ {
+  "w": "editor",
+  "n": 2
+ },
+ {
+  "w": "saves",
+  "n": 2
+ },
+ {
+  "w": "ignore",
+  "n": 2
+ },
+ {
+  "w": "done",
+  "n": 2
+ },
+ {
+  "w": "cycle",
+  "n": 2
+ },
+ {
+  "w": "turnaround",
+  "n": 2
+ },
+ {
+  "w": "problem",
+  "n": 2
+ },
+ {
+  "w": "cliché",
+  "n": 2
+ },
+ {
+  "w": "add",
+  "n": 2
+ },
+ {
+  "w": "multiplies",
+  "n": 2
+ },
+ {
+  "w": "including",
+  "n": 2
+ },
+ {
+  "w": "copy",
+  "n": 2
+ },
+ {
+  "w": "amount",
+  "n": 2
+ },
+ {
+  "w": "handles",
+  "n": 2
+ },
+ {
+  "w": "complaint",
+  "n": 2
+ },
+ {
+  "w": "reply",
+  "n": 2
+ },
+ {
+  "w": "follow",
+  "n": 2
+ },
+ {
+  "w": "information",
+  "n": 2
+ },
+ {
+  "w": "territory",
+  "n": 2
+ },
+ {
+  "w": "relationships",
+  "n": 2
+ },
+ {
+  "w": "remain",
+  "n": 2
+ },
+ {
+  "w": "pick",
+  "n": 2
+ },
+ {
+  "w": "smart",
+  "n": 2
+ },
+ {
+  "w": "repeat",
+  "n": 2
+ },
+ {
+  "w": "using",
+  "n": 2
+ },
+ {
+  "w": "podcast",
+  "n": 2
+ },
+ {
+  "w": "brutal",
+  "n": 2
+ },
+ {
+  "w": "logic",
+  "n": 2
+ },
+ {
+  "w": "lazy",
+  "n": 2
+ },
+ {
+  "w": "death",
+  "n": 2
+ },
+ {
+  "w": "central",
+  "n": 2
+ },
+ {
+  "w": "thing",
+  "n": 2
+ },
+ {
+  "w": "ideas",
+  "n": 2
+ },
+ {
+  "w": "iterate",
+  "n": 2
+ },
+ {
+  "w": "spending",
+  "n": 2
+ },
+ {
+  "w": "press",
+  "n": 2
+ },
+ {
+  "w": "sharp",
+  "n": 2
+ },
+ {
+  "w": "entirely",
+  "n": 2
+ },
+ {
+  "w": "dead",
+  "n": 2
+ },
+ {
+  "w": "engineers",
+  "n": 2
+ },
+ {
+  "w": "built",
+  "n": 2
+ },
+ {
+  "w": "mostly",
+  "n": 2
+ },
+ {
+  "w": "describing",
+  "n": 2
+ },
+ {
+  "w": "plain",
+  "n": 2
+ },
+ {
+  "w": "threat",
+  "n": 2
+ },
+ {
+  "w": "barrier",
+  "n": 2
+ },
+ {
+  "w": "entry",
+  "n": 2
+ },
+ {
+  "w": "been",
+  "n": 2
+ },
+ {
+  "w": "equal",
+  "n": 2
+ },
+ {
+  "w": "protects",
+  "n": 2
+ },
+ {
+  "w": "distribution",
+  "n": 2
+ },
+ {
+  "w": "brand",
+  "n": 2
+ },
+ {
+  "w": "fastest",
+  "n": 2
+ },
+ {
+  "w": "sell",
+  "n": 2
+ },
+ {
+  "w": "gets",
+  "n": 2
+ },
+ {
+  "w": "deciding",
+  "n": 2
+ },
+ {
+  "w": "designers",
+  "n": 2
+ },
+ {
+  "w": "fluently",
+  "n": 2
+ },
+ {
+  "w": "carries",
+  "n": 2
+ },
+ {
+  "w": "much",
+  "n": 2
+ },
+ {
+  "w": "art",
+  "n": 2
+ },
+ {
+  "w": "hundreds",
+  "n": 2
+ },
+ {
+  "w": "yes",
+  "n": 2
+ },
+ {
+  "w": "voice",
+  "n": 2
+ },
+ {
+  "w": "note",
+  "n": 2
+ },
+ {
+  "w": "forces",
+  "n": 2
+ },
+ {
+  "w": "crash",
+  "n": 2
+ },
+ {
+  "w": "ux",
+  "n": 2
+ },
+ {
+  "w": "feels",
+  "n": 2
+ },
+ {
+  "w": "ui",
+  "n": 2
+ },
+ {
+  "w": "competitor",
+  "n": 2
+ },
+ {
+  "w": "carry",
+  "n": 2
+ },
+ {
+  "w": "point",
+  "n": 2
+ },
+ {
+  "w": "downloads",
+  "n": 2
+ },
+ {
+  "w": "innovation",
+  "n": 2
+ },
+ {
+  "w": "action",
+  "n": 2
+ },
+ {
+  "w": "got",
+  "n": 2
+ },
+ {
+  "w": "easier",
+  "n": 2
+ },
+ {
+  "w": "prototype",
+  "n": 2
+ },
+ {
+  "w": "weekend",
+  "n": 2
+ },
+ {
+  "w": "resource",
+  "n": 2
+ },
+ {
+  "w": "happens",
+  "n": 2
+ },
+ {
+  "w": "edge",
+  "n": 2
+ },
+ {
+  "w": "author",
+  "n": 2
+ },
+ {
+  "w": "master",
+  "n": 2
+ },
+ {
+  "w": "stages",
+  "n": 2
+ },
+ {
+  "w": "interest",
+  "n": 2
+ },
+ {
+  "w": "cta",
+  "n": 2
+ },
+ {
+  "w": "free",
+  "n": 2
+ },
+ {
+  "w": "guide",
+  "n": 2
+ },
+ {
+  "w": "book",
+  "n": 2
+ },
+ {
+  "w": "common",
+  "n": 2
+ },
+ {
+  "w": "creator",
+  "n": 2
+ },
+ {
+  "w": "builds",
+  "n": 2
+ },
+ {
+  "w": "gone",
+  "n": 2
+ },
+ {
+  "w": "engagement",
+  "n": 2
+ },
+ {
+  "w": "shares",
+  "n": 2
+ },
+ {
+  "w": "organic",
+  "n": 2
+ },
+ {
+  "w": "paid",
+  "n": 2
+ },
+ {
+  "w": "testing",
+  "n": 2
+ },
+ {
+  "w": "hooks",
+  "n": 2
+ },
+ {
+  "w": "constantly",
+  "n": 2
+ },
+ {
+  "w": "kill",
+  "n": 2
+ },
+ {
+  "w": "bring",
+  "n": 2
+ },
+ {
+  "w": "volume",
+  "n": 2
+ },
+ {
+  "w": "segment",
+  "n": 2
+ },
+ {
+  "w": "message",
+  "n": 2
+ },
+ {
+  "w": "sameness",
+  "n": 2
+ },
+ {
+  "w": "winners",
+  "n": 2
+ },
+ {
+  "w": "part",
+  "n": 2
+ },
+ {
+  "w": "run",
+  "n": 2
+ },
+ {
+  "w": "speech",
+  "n": 2
+ },
+ {
+  "w": "checking",
+  "n": 2
+ },
+ {
+  "w": "qualify",
+  "n": 2
+ },
+ {
+  "w": "set",
+  "n": 2
+ },
+ {
+  "w": "potential",
+  "n": 2
+ },
+ {
+  "w": "demo",
+  "n": 2
+ },
+ {
+  "w": "negotiation",
+  "n": 2
+ },
+ {
+  "w": "deal",
+  "n": 2
+ },
+ {
+  "w": "promise",
+  "n": 2
+ },
+ {
+  "w": "our",
+  "n": 2
+ },
+ {
+  "w": "close",
+  "n": 2
+ },
+ {
+  "w": "verbs",
+  "n": 2
+ },
+ {
+  "w": "politely",
+  "n": 2
+ },
+ {
+  "w": "fourth",
+  "n": 2
+ },
+ {
+  "w": "touch",
+  "n": 2
+ },
+ {
+  "w": "signed",
+  "n": 2
+ },
+ {
+  "w": "contract",
+  "n": 2
+ },
+ {
+  "w": "quiet",
+  "n": 2
+ },
+ {
+  "w": "subscription",
+  "n": 2
+ },
+ {
+  "w": "businesses",
+  "n": 2
+ },
+ {
+  "w": "mature",
+  "n": 2
+ },
+ {
+  "w": "invest",
+  "n": 2
+ },
+ {
+  "w": "whose",
+  "n": 2
+ },
+ {
+  "w": "member",
+  "n": 2
+ },
+ {
+  "w": "hour",
+  "n": 2
+ },
+ {
+  "w": "summary",
+  "n": 2
+ },
+ {
+  "w": "preparation",
+  "n": 2
+ },
+ {
+  "w": "feed",
+  "n": 2
+ },
+ {
+  "w": "help",
+  "n": 2
+ },
+ {
+  "w": "around",
+  "n": 2
+ },
+ {
+  "w": "opinions",
+  "n": 2
+ },
+ {
+  "w": "weekly",
+  "n": 2
+ },
+ {
+  "w": "growing",
+  "n": 2
+ },
+ {
+  "w": "jump",
+  "n": 2
+ },
+ {
+  "w": "grew",
+  "n": 2
+ },
+ {
+  "w": "month-over-month",
+  "n": 2
+ },
+ {
+  "w": "compares",
+  "n": 2
+ },
+ {
+  "w": "divided",
+  "n": 2
+ },
+ {
+  "w": "outliers",
+  "n": 2
+ },
+ {
+  "w": "data-driven",
+  "n": 2
+ },
+ {
+  "w": "alone",
+  "n": 2
+ },
+ {
+  "w": "proves",
+  "n": 2
+ },
+ {
+  "w": "especially",
+  "n": 2
+ },
+ {
+  "w": "quarter",
+  "n": 2
+ },
+ {
+  "w": "asking",
+  "n": 2
+ },
+ {
+  "w": "deeply",
+  "n": 2
+ },
+ {
+  "w": "finance",
+  "n": 2
+ },
+ {
+  "w": "subscriptions",
+  "n": 2
+ },
+ {
+  "w": "brings",
+  "n": 2
+ },
+ {
+  "w": "life",
+  "n": 2
+ },
+ {
+  "w": "cash",
+  "n": 2
+ },
+ {
+  "w": "funding",
+  "n": 2
+ },
+ {
+  "w": "grows",
+  "n": 2
+ },
+ {
+  "w": "valuation",
+  "n": 2
+ },
+ {
+  "w": "worth",
+  "n": 2
+ },
+ {
+  "w": "correct",
+  "n": 2
+ },
+ {
+  "w": "venture",
+  "n": 2
+ },
+ {
+  "w": "reading",
+  "n": 2
+ },
+ {
+  "w": "yours",
+  "n": 2
+ },
+ {
+  "w": "ignored",
+  "n": 2
+ },
+ {
+  "w": "rewards",
+  "n": 2
+ },
+ {
+  "w": "prefer",
+  "n": 2
+ },
+ {
+  "w": "fire",
+  "n": 2
+ },
+ {
+  "w": "role",
+  "n": 2
+ },
+ {
+  "w": "candidates",
+  "n": 2
+ },
+ {
+  "w": "recruiting",
+  "n": 2
+ },
+ {
+  "w": "employee",
+  "n": 2
+ },
+ {
+  "w": "contractor",
+  "n": 2
+ },
+ {
+  "w": "pay",
+  "n": 2
+ },
+ {
+  "w": "compensation",
+  "n": 2
+ },
+ {
+  "w": "cheaply",
+  "n": 2
+ },
+ {
+  "w": "brutally",
+  "n": 2
+ },
+ {
+  "w": "public",
+  "n": 2
+ },
+ {
+  "w": "outcome",
+  "n": 2
+ },
+ {
+  "w": "forever",
+  "n": 2
+ },
+ {
+  "w": "remote",
+  "n": 2
+ },
+ {
+  "w": "communication",
+  "n": 2
+ },
+ {
+  "w": "superpower",
+  "n": 2
+ },
+ {
+  "w": "owning",
+  "n": 2
+ },
+ {
+  "w": "everywhere",
+  "n": 2
+ },
+ {
+  "w": "developer",
+  "n": 2
+ },
+ {
+  "w": "machines",
+  "n": 2
+ },
+ {
+  "w": "smaller",
+  "n": 2
+ },
+ {
+  "w": "risks",
+  "n": 2
+ },
+ {
+  "w": "basic",
+  "n": 2
+ },
+ {
+  "w": "middle",
+  "n": 2
+ },
+ {
+  "w": "legal",
+  "n": 2
+ },
+ {
+  "w": "bias",
+  "n": 2
+ },
+ {
+  "w": "discrimination",
+  "n": 2
+ },
+ {
+  "w": "privacy",
+  "n": 2
+ },
+ {
+  "w": "plans",
+  "n": 2
+ },
+ {
+  "w": "provider",
+  "n": 2
+ },
+ {
+  "w": "personal",
+  "n": 2
+ },
+ {
+  "w": "spot",
+  "n": 2
+ },
+ {
+  "w": "verify",
+  "n": 2
+ },
+ {
+  "w": "disclose",
+  "n": 2
+ },
+ {
+  "w": "tax",
+  "n": 2
+ },
+ {
+  "w": "deepfake",
+  "n": 2
+ },
+ {
+  "w": "compound",
+  "n": 2
+ },
+ {
+  "w": "humans",
+  "n": 2
+ },
+ {
+  "w": "us",
+  "n": 2
+ },
+ {
+  "w": "profession",
+  "n": 2
+ },
+ {
+  "w": "transfer",
+  "n": 2
+ },
+ {
+  "w": "travel",
+  "n": 2
+ },
+ {
+  "w": "fall",
+  "n": 2
+ },
+ {
+  "w": "closes",
+  "n": 2
+ },
+ {
+  "w": "sentences",
+  "n": 2
+ },
+ {
+  "w": "beat",
+  "n": 2
+ },
+ {
+  "w": "luck",
+  "n": 2
+ },
+ {
+  "w": "tts",
+  "n": 1
+ },
+ {
+  "w": "hit",
+  "n": 1
+ },
+ {
+  "w": "briefly",
+  "n": 1
+ },
+ {
+  "w": "graded",
+  "n": 1
+ },
+ {
+  "w": "reader",
+  "n": 1
+ },
+ {
+  "w": "followed",
+  "n": 1
+ },
+ {
+  "w": "frequently",
+  "n": 1
+ },
+ {
+  "w": "ready-made",
+  "n": 1
+ },
+ {
+  "w": "home",
+  "n": 1
+ },
+ {
+  "w": "prepared",
+  "n": 1
+ },
+ {
+  "w": "claude",
+  "n": 1
+ },
+ {
+  "w": "almir",
+  "n": 1
+ },
+ {
+  "w": "talks",
+  "n": 1
+ },
+ {
+  "w": "perform",
+  "n": 1
+ },
+ {
+  "w": "normally",
+  "n": 1
+ },
+ {
+  "w": "recognizing",
+  "n": 1
+ },
+ {
+  "w": "programmer",
+  "n": 1
+ },
+ {
+  "w": "wrote",
+  "n": 1
+ },
+ {
+  "w": "program",
+  "n": 1
+ },
+ {
+  "w": "cats",
+  "n": 1
+ },
+ {
+  "w": "dogs",
+  "n": 1
+ },
+ {
+  "w": "pointy",
+  "n": 1
+ },
+ {
+  "w": "ears",
+  "n": 1
+ },
+ {
+  "w": "whiskers",
+  "n": 1
+ },
+ {
+  "w": "nose",
+  "n": 1
+ },
+ {
+  "w": "labeled",
+  "n": 1
+ },
+ {
+  "w": "dog",
+  "n": 1
+ },
+ {
+  "w": "emerge",
+  "n": 1
+ },
+ {
+  "w": "appear",
+  "n": 1
+ },
+ {
+  "w": "brain",
+  "n": 1
+ },
+ {
+  "w": "mathematical",
+  "n": 1
+ },
+ {
+  "w": "billions",
+  "n": 1
+ },
+ {
+  "w": "adjustable",
+  "n": 1
+ },
+ {
+  "w": "showing",
+  "n": 1
+ },
+ {
+  "w": "adjusting",
+  "n": 1
+ },
+ {
+  "w": "accurate",
+  "n": 1
+ },
+ {
+  "w": "material",
+  "n": 1
+ },
+ {
+  "w": "clicks",
+  "n": 1
+ },
+ {
+  "w": "popular",
+  "n": 1
+ },
+ {
+  "w": "clever",
+  "n": 1
+ },
+ {
+  "w": "llm",
+  "n": 1
+ },
+ {
+  "w": "books",
+  "n": 1
+ },
+ {
+  "w": "translate",
+  "n": 1
+ },
+ {
+  "w": "hold",
+  "n": 1
+ },
+ {
+  "w": "request",
+  "n": 1
+ },
+ {
+  "w": "instruction",
+  "n": 1
+ },
+ {
+  "w": "generates",
+  "n": 1
+ },
+ {
+  "w": "seventy",
+  "n": 1
+ },
+ {
+  "w": "came",
+  "n": 1
+ },
+ {
+  "w": "computing",
+  "n": 1
+ },
+ {
+  "w": "chips",
+  "n": 1
+ },
+ {
+  "w": "parallel",
+  "n": 1
+ },
+ {
+  "w": "cloud",
+  "n": 1
+ },
+ {
+  "w": "providers",
+  "n": 1
+ },
+ {
+  "w": "credit",
+  "n": 1
+ },
+ {
+  "w": "card",
+  "n": 1
+ },
+ {
+  "w": "exploded",
+  "n": 1
+ },
+ {
+  "w": "humanity",
+  "n": 1
+ },
+ {
+  "w": "had",
+  "n": 1
+ },
+ {
+  "w": "created",
+  "n": 1
+ },
+ {
+  "w": "previous",
+  "n": 1
+ },
+ {
+  "w": "researchers",
+  "n": 1
+ },
+ {
+  "w": "found",
+  "n": 1
+ },
+ {
+  "w": "architectures",
+  "n": 1
+ },
+ {
+  "w": "seemed",
+  "n": 1
+ },
+ {
+  "w": "impossible",
+  "n": 1
+ },
+ {
+  "w": "plain-english",
+  "n": 1
+ },
+ {
+  "w": "racing",
+  "n": 1
+ },
+ {
+  "w": "figure",
+  "n": 1
+ },
+ {
+  "w": "cool",
+  "n": 1
+ },
+ {
+  "w": "limitations",
+  "n": 1
+ },
+ {
+  "w": "biased",
+  "n": 1
+ },
+ {
+  "w": "contains",
+  "n": 1
+ },
+ {
+  "w": "extremely",
+  "n": 1
+ },
+ {
+  "w": "conclusion",
+  "n": 1
+ },
+ {
+  "w": "magic",
+  "n": 1
+ },
+ {
+  "w": "opportunities",
+  "n": 1
+ },
+ {
+  "w": "supervision",
+  "n": 1
+ },
+ {
+  "w": "main",
+  "n": 1
+ },
+ {
+  "w": "hallucinates",
+  "n": 1
+ },
+ {
+  "w": "opinion",
+  "n": 1
+ },
+ {
+  "w": "limitation",
+  "n": 1
+ },
+ {
+  "w": "forget",
+  "n": 1
+ },
+ {
+  "w": "science",
+  "n": 1
+ },
+ {
+  "w": "fiction",
+  "n": 1
+ },
+ {
+  "w": "surprisingly",
+  "n": 1
+ },
+ {
+  "w": "picture",
+  "n": 1
+ },
+ {
+  "w": "self-driving",
+  "n": 1
+ },
+ {
+  "w": "analyzing",
+  "n": 1
+ },
+ {
+  "w": "remove",
+  "n": 1
+ },
+ {
+  "w": "savings",
+  "n": 1
+ },
+ {
+  "w": "adopts",
+  "n": 1
+ },
+ {
+  "w": "reset",
+  "n": 1
+ },
+ {
+  "w": "refund",
+  "n": 1
+ },
+ {
+  "w": "handle",
+  "n": 1
+ },
+ {
+  "w": "twenty-four",
+  "n": 1
+ },
+ {
+  "w": "focus",
+  "n": 1
+ },
+ {
+  "w": "angry",
+  "n": 1
+ },
+ {
+  "w": "problems",
+  "n": 1
+ },
+ {
+  "w": "empathy",
+  "n": 1
+ },
+ {
+  "w": "typically",
+  "n": 1
+ },
+ {
+  "w": "report",
+  "n": 1
+ },
+ {
+  "w": "higher",
+  "n": 1
+ },
+ {
+  "w": "satisfaction",
+  "n": 1
+ },
+ {
+  "w": "landing",
+  "n": 1
+ },
+ {
+  "w": "pages",
+  "n": 1
+ },
+ {
+  "w": "social",
+  "n": 1
+ },
+ {
+  "w": "media",
+  "n": 1
+ },
+ {
+  "w": "copywriter",
+  "n": 1
+ },
+ {
+  "w": "ad",
+  "n": 1
+ },
+ {
+  "w": "headline",
+  "n": 1
+ },
+ {
+  "w": "selects",
+  "n": 1
+ },
+ {
+  "w": "polishes",
+  "n": 1
+ },
+ {
+  "w": "stays",
+  "n": 1
+ },
+ {
+  "w": "publish",
+  "n": 1
+ },
+ {
+  "w": "brainstorming",
+  "n": 1
+ },
+ {
+  "w": "adaptation",
+  "n": 1
+ },
+ {
+  "w": "page",
+  "n": 1
+ },
+ {
+  "w": "curating",
+  "n": 1
+ },
+ {
+  "w": "reads",
+  "n": 1
+ },
+ {
+  "w": "predicts",
+  "n": 1
+ },
+ {
+  "w": "likely",
+  "n": 1
+ },
+ {
+  "w": "prepares",
+  "n": 1
+ },
+ {
+  "w": "summaries",
+  "n": 1
+ },
+ {
+  "w": "automatically",
+  "n": 1
+ },
+ {
+  "w": "salesperson",
+  "n": 1
+ },
+ {
+  "w": "hates",
+  "n": 1
+ },
+ {
+  "w": "doing",
+  "n": 1
+ },
+ {
+  "w": "invoices",
+  "n": 1
+ },
+ {
+  "w": "risky",
+  "n": 1
+ },
+ {
+  "w": "clauses",
+  "n": 1
+ },
+ {
+  "w": "matches",
+  "n": 1
+ },
+ {
+  "w": "payments",
+  "n": 1
+ },
+ {
+  "w": "flags",
+  "n": 1
+ },
+ {
+  "w": "invisible",
+  "n": 1
+ },
+ {
+  "w": "exciting",
+  "n": 1
+ },
+ {
+  "w": "conference",
+  "n": 1
+ },
+ {
+  "w": "directly",
+  "n": 1
+ },
+ {
+  "w": "interesting",
+  "n": 1
+ },
+ {
+  "w": "shift",
+  "n": 1
+ },
+ {
+  "w": "corporations",
+  "n": 1
+ },
+ {
+  "w": "afford",
+  "n": 1
+ },
+ {
+  "w": "two-person",
+  "n": 1
+ },
+ {
+  "w": "produces",
+  "n": 1
+ },
+ {
+  "w": "full-time",
+  "n": 1
+ },
+ {
+  "w": "getting",
+  "n": 1
+ },
+ {
+  "w": "giant",
+  "n": 1
+ },
+ {
+  "w": "succeed",
+  "n": 1
+ },
+ {
+  "w": "stacked",
+  "n": 1
+ },
+ {
+  "w": "turn",
+  "n": 1
+ },
+ {
+  "w": "area",
+  "n": 1
+ },
+ {
+  "w": "back-office",
+  "n": 1
+ },
+ {
+  "w": "repeatable",
+  "n": 1
+ },
+ {
+  "w": "sequence",
+  "n": 1
+ },
+ {
+  "w": "somebody",
+  "n": 1
+ },
+ {
+  "w": "payment",
+  "n": 1
+ },
+ {
+  "w": "packs",
+  "n": 1
+ },
+ {
+  "w": "prints",
+  "n": 1
+ },
+ {
+  "w": "label",
+  "n": 1
+ },
+ {
+  "w": "box",
+  "n": 1
+ },
+ {
+  "w": "sends",
+  "n": 1
+ },
+ {
+  "w": "tracking",
+  "n": 1
+ },
+ {
+  "w": "happy",
+  "n": 1
+ },
+ {
+  "w": "coffee",
+  "n": 1
+ },
+ {
+  "w": "shop",
+  "n": 1
+ },
+ {
+  "w": "sees",
+  "n": 1
+ },
+ {
+  "w": "chaotic",
+  "n": 1
+ },
+ {
+  "w": "paper",
+  "n": 1
+ },
+ {
+  "w": "notion",
+  "n": 1
+ },
+ {
+  "w": "certainly",
+  "n": 1
+ },
+ {
+  "w": "slower",
+  "n": 1
+ },
+ {
+  "w": "limits",
+  "n": 1
+ },
+ {
+  "w": "traffic",
+  "n": 1
+ },
+ {
+  "w": "highway",
+  "n": 1
+ },
+ {
+  "w": "narrows",
+  "n": 1
+ },
+ {
+  "w": "lanes",
+  "n": 1
+ },
+ {
+  "w": "road",
+  "n": 1
+ },
+ {
+  "w": "narrow",
+  "n": 1
+ },
+ {
+  "w": "section",
+  "n": 1
+ },
+ {
+  "w": "defines",
+  "n": 1
+ },
+ {
+  "w": "filming",
+  "n": 1
+ },
+ {
+  "w": "scriptwriter",
+  "n": 1
+ },
+ {
+  "w": "create",
+  "n": 1
+ },
+ {
+  "w": "queue",
+  "n": 1
+ },
+ {
+  "w": "widens",
+  "n": 1
+ },
+ {
+  "w": "simpler",
+  "n": 1
+ },
+ {
+  "w": "optimize",
+  "n": 1
+ },
+ {
+  "w": "improvements",
+  "n": 1
+ },
+ {
+  "w": "anywhere",
+  "n": 1
+ },
+ {
+  "w": "illusion",
+  "n": 1
+ },
+ {
+  "w": "progress",
+  "n": 1
+ },
+ {
+  "w": "down",
+  "n": 1
+ },
+ {
+  "w": "shocked",
+  "n": 1
+ },
+ {
+  "w": "thought",
+  "n": 1
+ },
+ {
+  "w": "ve",
+  "n": 1
+ },
+ {
+  "w": "finish",
+  "n": 1
+ },
+ {
+  "w": "sit",
+  "n": 1
+ },
+ {
+  "w": "wait",
+  "n": 1
+ },
+ {
+  "w": "rework",
+  "n": 1
+ },
+ {
+  "w": "precisely",
+  "n": 1
+ },
+ {
+  "w": "true",
+  "n": 1
+ },
+ {
+  "w": "simplify",
+  "n": 1
+ },
+ {
+  "w": "standardize",
+  "n": 1
+ },
+ {
+  "w": "enormously",
+  "n": 1
+ },
+ {
+  "w": "delivered",
+  "n": 1
+ },
+ {
+  "w": "whatever",
+  "n": 1
+ },
+ {
+  "w": "chaos",
+  "n": 1
+ },
+ {
+  "w": "newest",
+  "n": 1
+ },
+ {
+  "w": "flexible",
+  "n": 1
+ },
+ {
+  "w": "automated",
+  "n": 1
+ },
+ {
+  "w": "handled",
+  "n": 1
+ },
+ {
+  "w": "structured",
+  "n": 1
+ },
+ {
+  "w": "invoice",
+  "n": 1
+ },
+ {
+  "w": "spam",
+  "n": 1
+ },
+ {
+  "w": "polite",
+  "n": 1
+ },
+ {
+  "w": "tone",
+  "n": 1
+ },
+ {
+  "w": "annoying",
+  "n": 1
+ },
+ {
+  "w": "summarizing",
+  "n": 1
+ },
+ {
+  "w": "drafting",
+  "n": 1
+ },
+ {
+  "w": "translating",
+  "n": 1
+ },
+ {
+  "w": "extracting",
+  "n": 1
+ },
+ {
+  "w": "ordinary",
+  "n": 1
+ },
+ {
+  "w": "extraordinary",
+  "n": 1
+ },
+ {
+  "w": "possible",
+  "n": 1
+ },
+ {
+  "w": "simplifying",
+  "n": 1
+ },
+ {
+  "w": "types",
+  "n": 1
+ },
+ {
+  "w": "pitch",
+  "n": 1
+ },
+ {
+  "w": "deck",
+  "n": 1
+ },
+ {
+  "w": "blog",
+  "n": 1
+ },
+ {
+  "w": "young",
+  "n": 1
+ },
+ {
+  "w": "searching",
+  "n": 1
+ },
+ {
+  "w": "barbershop",
+  "n": 1
+ },
+ {
+  "w": "serve",
+  "n": 1
+ },
+ {
+  "w": "barbershops",
+  "n": 1
+ },
+ {
+  "w": "co-founders",
+  "n": 1
+ },
+ {
+  "w": "dominant",
+  "n": 1
+ },
+ {
+  "w": "wants",
+  "n": 1
+ },
+ {
+  "w": "fact",
+  "n": 1
+ },
+ {
+  "w": "designed",
+  "n": 1
+ },
+ {
+  "w": "minimum",
+  "n": 1
+ },
+ {
+  "w": "viable",
+  "n": 1
+ },
+ {
+  "w": "smallest",
+  "n": 1
+ },
+ {
+  "w": "simplest",
+  "n": 1
+ },
+ {
+  "w": "presentation",
+  "n": 1
+ },
+ {
+  "w": "mockup",
+  "n": 1
+ },
+ {
+  "w": "however",
+  "n": 1
+ },
+ {
+  "w": "ugly",
+  "n": 1
+ },
+ {
+  "w": "guesses",
+  "n": 1
+ },
+ {
+  "w": "guess",
+  "n": 1
+ },
+ {
+  "w": "launch",
+  "n": 1
+ },
+ {
+  "w": "quick",
+  "n": 1
+ },
+ {
+  "w": "cycles",
+  "n": 1
+ },
+ {
+  "w": "iteration",
+  "n": 1
+ },
+ {
+  "w": "perfect",
+  "n": 1
+ },
+ {
+  "w": "secret",
+  "n": 1
+ },
+ {
+  "w": "march",
+  "n": 1
+ },
+ {
+  "w": "late",
+  "n": 1
+ },
+ {
+  "w": "importantly",
+  "n": 1
+ },
+ {
+  "w": "treated",
+  "n": 1
+ },
+ {
+  "w": "substance",
+  "n": 1
+ },
+ {
+  "w": "gift",
+  "n": 1
+ },
+ {
+  "w": "leaves",
+  "n": 1
+ },
+ {
+  "w": "silently",
+  "n": 1
+ },
+ {
+  "w": "disaster",
+  "n": 1
+ },
+ {
+  "w": "holy",
+  "n": 1
+ },
+ {
+  "w": "grail",
+  "n": 1
+ },
+ {
+  "w": "shortened",
+  "n": 1
+ },
+ {
+  "w": "pulling",
+  "n": 1
+ },
+ {
+  "w": "hands",
+  "n": 1
+ },
+ {
+  "w": "reminders",
+  "n": 1
+ },
+ {
+  "w": "friends",
+  "n": 1
+ },
+ {
+  "w": "feeling",
+  "n": 1
+ },
+ {
+  "w": "pushing",
+  "n": 1
+ },
+ {
+  "w": "rock",
+  "n": 1
+ },
+ {
+  "w": "uphill",
+  "n": 1
+ },
+ {
+  "w": "logo",
+  "n": 1
+ },
+ {
+  "w": "challenge",
+  "n": 1
+ },
+ {
+  "w": "infrastructure",
+  "n": 1
+ },
+ {
+  "w": "breaking",
+  "n": 1
+ },
+ {
+  "w": "hardest",
+  "n": 1
+ },
+ {
+  "w": "lessons",
+  "n": 1
+ },
+ {
+  "w": "learned",
+  "n": 1
+ },
+ {
+  "w": "started",
+  "n": 1
+ },
+ {
+  "w": "platform",
+  "n": 1
+ },
+ {
+  "w": "twitter",
+  "n": 1
+ },
+ {
+  "w": "online",
+  "n": 1
+ },
+ {
+  "w": "slack",
+  "n": 1
+ },
+ {
+  "w": "staying",
+  "n": 1
+ },
+ {
+  "w": "living",
+  "n": 1
+ },
+ {
+  "w": "largest",
+  "n": 1
+ },
+ {
+  "w": "powered",
+  "n": 1
+ },
+ {
+  "w": "economic",
+  "n": 1
+ },
+ {
+  "w": "collapses",
+  "n": 1
+ },
+ {
+  "w": "needed",
+  "n": 1
+ },
+ {
+  "w": "term",
+  "n": 1
+ },
+ {
+  "w": "vibe",
+  "n": 1
+ },
+ {
+  "w": "solo",
+  "n": 1
+ },
+ {
+  "w": "bandung",
+  "n": 1
+ },
+ {
+  "w": "competes",
+  "n": 1
+ },
+ {
+  "w": "san",
+  "n": 1
+ },
+ {
+  "w": "francisco",
+  "n": 1
+ },
+ {
+  "w": "defensible",
+  "n": 1
+ },
+ {
+  "w": "community",
+  "n": 1
+ },
+ {
+  "w": "unique",
+  "n": 1
+ },
+ {
+  "w": "moats",
+  "n": 1
+ },
+ {
+  "w": "cleverest",
+  "n": 1
+ },
+ {
+  "w": "fight",
+  "n": 1
+ },
+ {
+  "w": "recognize",
+  "n": 1
+ },
+ {
+  "w": "overloaded",
+  "n": 1
+ },
+ {
+  "w": "unpacks",
+  "n": 1
+ },
+ {
+  "w": "manager",
+  "n": 1
+ },
+ {
+  "w": "pm",
+  "n": 1
+ },
+ {
+  "w": "plays",
+  "n": 1
+ },
+ {
+  "w": "roles",
+  "n": 1
+ },
+ {
+  "w": "releases",
+  "n": 1
+ },
+ {
+  "w": "made",
+  "n": 1
+ },
+ {
+  "w": "individual",
+  "n": 1
+ },
+ {
+  "w": "search",
+  "n": 1
+ },
+ {
+  "w": "dark",
+  "n": 1
+ },
+ {
+  "w": "mode",
+  "n": 1
+ },
+ {
+  "w": "export",
+  "n": 1
+ },
+ {
+  "w": "pdf",
+  "n": 1
+ },
+ {
+  "w": "universal",
+  "n": 1
+ },
+ {
+  "w": "verb",
+  "n": 1
+ },
+ {
+  "w": "releasing",
+  "n": 1
+ },
+ {
+  "w": "certain",
+  "n": 1
+ },
+ {
+  "w": "pride",
+  "n": 1
+ },
+ {
+  "w": "released",
+  "n": 1
+ },
+ {
+  "w": "roughly",
+  "n": 1
+ },
+ {
+  "w": "promises",
+  "n": 1
+ },
+ {
+  "w": "dates",
+  "n": 1
+ },
+ {
+  "w": "priorities",
+  "n": 1
+ },
+ {
+  "w": "harder",
+  "n": 1
+ },
+ {
+  "w": "shiny",
+  "n": 1
+ },
+ {
+  "w": "bloated",
+  "n": 1
+ },
+ {
+  "w": "choose",
+  "n": 1
+ },
+ {
+  "w": "record",
+  "n": 1
+ },
+ {
+  "w": "clean",
+  "n": 1
+ },
+ {
+  "w": "transcript",
+  "n": 1
+ },
+ {
+  "w": "don",
+  "n": 1
+ },
+ {
+  "w": "t",
+  "n": 1
+ },
+ {
+  "w": "goal",
+  "n": 1
+ },
+ {
+  "w": "meet",
+  "n": 1
+ },
+ {
+  "w": "discussion",
+  "n": 1
+ },
+ {
+  "w": "bug",
+  "n": 1
+ },
+ {
+  "w": "error",
+  "n": 1
+ },
+ {
+  "w": "bugs",
+  "n": 1
+ },
+ {
+  "w": "app",
+  "n": 1
+ },
+ {
+  "w": "interface",
+  "n": 1
+ },
+ {
+  "w": "manual",
+  "n": 1
+ },
+ {
+  "w": "intuitive",
+  "n": 1
+ },
+ {
+  "w": "patience",
+  "n": 1
+ },
+ {
+  "w": "try",
+  "n": 1
+ },
+ {
+  "w": "lot",
+  "n": 1
+ },
+ {
+  "w": "weight",
+  "n": 1
+ },
+ {
+  "w": "aha",
+  "n": 1
+ },
+ {
+  "w": "signal",
+  "n": 1
+ },
+ {
+  "w": "belong",
+  "n": 1
+ },
+ {
+  "w": "temptation",
+  "n": 1
+ },
+ {
+  "w": "quieter",
+  "n": 1
+ },
+ {
+  "w": "button",
+  "n": 1
+ },
+ {
+  "w": "sorts",
+  "n": 1
+ },
+ {
+  "w": "inbox",
+  "n": 1
+ },
+ {
+  "w": "fills",
+  "n": 1
+ },
+ {
+  "w": "suggests",
+  "n": 1
+ },
+ {
+  "w": "scarce",
+  "n": 1
+ },
+ {
+  "w": "put",
+  "n": 1
+ },
+ {
+  "w": "winner",
+  "n": 1
+ },
+ {
+  "w": "internalize",
+  "n": 1
+ },
+ {
+  "w": "pace",
+  "n": 1
+ },
+ {
+  "w": "older",
+  "n": 1
+ },
+ {
+  "w": "match",
+  "n": 1
+ },
+ {
+  "w": "case",
+  "n": 1
+ },
+ {
+  "w": "format",
+  "n": 1
+ },
+ {
+  "w": "scarcest",
+  "n": 1
+ },
+ {
+  "w": "admission",
+  "n": 1
+ },
+ {
+  "w": "waiting",
+  "n": 1
+ },
+ {
+  "w": "messages",
+  "n": 1
+ },
+ {
+  "w": "therefore",
+  "n": 1
+ },
+ {
+  "w": "inform",
+  "n": 1
+ },
+ {
+  "w": "earn",
+  "n": 1
+ },
+ {
+  "w": "metaphor",
+  "n": 1
+ },
+ {
+  "w": "cone",
+  "n": 1
+ },
+ {
+  "w": "enter",
+  "n": 1
+ },
+ {
+  "w": "paying",
+  "n": 1
+ },
+ {
+  "w": "awareness",
+  "n": 1
+ },
+ {
+  "w": "consideration",
+  "n": 1
+ },
+ {
+  "w": "alternatives",
+  "n": 1
+ },
+ {
+  "w": "fifty",
+  "n": 1
+ },
+ {
+  "w": "click",
+  "n": 1
+ },
+ {
+  "w": "link",
+  "n": 1
+ },
+ {
+  "w": "transitions",
+  "n": 1
+ },
+ {
+  "w": "measured",
+  "n": 1
+ },
+ {
+  "w": "improved",
+  "n": 1
+ },
+ {
+  "w": "says",
+  "n": 1
+ },
+ {
+  "w": "leaking",
+  "n": 1
+ },
+ {
+  "w": "act",
+  "n": 1
+ },
+ {
+  "w": "comment",
+  "n": 1
+ },
+ {
+  "w": "download",
+  "n": 1
+ },
+ {
+  "w": "leak",
+  "n": 1
+ },
+ {
+  "w": "funnels",
+  "n": 1
+ },
+ {
+  "w": "great",
+  "n": 1
+ },
+ {
+  "w": "told",
+  "n": 1
+ },
+ {
+  "w": "newsletters",
+  "n": 1
+ },
+ {
+  "w": "podcasts",
+  "n": 1
+ },
+ {
+  "w": "micro-vocabulary",
+  "n": 1
+ },
+ {
+  "w": "sentence",
+  "n": 1
+ },
+ {
+  "w": "image",
+  "n": 1
+ },
+ {
+  "w": "scroll",
+  "n": 1
+ },
+ {
+  "w": "fails",
+  "n": 1
+ },
+ {
+  "w": "exists",
+  "n": 1
+ },
+ {
+  "w": "likes",
+  "n": 1
+ },
+ {
+  "w": "comments",
+  "n": 1
+ },
+ {
+  "w": "platforms",
+  "n": 1
+ },
+ {
+  "w": "reward",
+  "n": 1
+ },
+ {
+  "w": "earned",
+  "n": 1
+ },
+ {
+  "w": "budget",
+  "n": 1
+ },
+ {
+  "w": "piece",
+  "n": 1
+ },
+ {
+  "w": "spreads",
+  "n": 1
+ },
+ {
+  "w": "explosively",
+  "n": 1
+ },
+ {
+  "w": "viral",
+  "n": 1
+ },
+ {
+  "w": "scenes",
+  "n": 1
+ },
+ {
+  "w": "headlines",
+  "n": 1
+ },
+ {
+  "w": "thumbnails",
+  "n": 1
+ },
+ {
+  "w": "audiences",
+  "n": 1
+ },
+ {
+  "w": "measures",
+  "n": 1
+ },
+ {
+  "w": "creativity",
+  "n": 1
+ },
+ {
+  "w": "emotion",
+  "n": 1
+ },
+ {
+  "w": "god",
+  "n": 1
+ },
+ {
+  "w": "agency",
+  "n": 1
+ },
+ {
+  "w": "translated",
+  "n": 1
+ },
+ {
+  "w": "captions",
+  "n": 1
+ },
+ {
+  "w": "dozens",
+  "n": 1
+ },
+ {
+  "w": "variations",
+  "n": 1
+ },
+ {
+  "w": "collapsed",
+  "n": 1
+ },
+ {
+  "w": "personalization",
+  "n": 1
+ },
+ {
+  "w": "adapt",
+  "n": 1
+ },
+ {
+  "w": "pains",
+  "n": 1
+ },
+ {
+  "w": "manage",
+  "n": 1
+ },
+ {
+  "w": "prompts",
+  "n": 1
+ },
+ {
+  "w": "stories",
+  "n": 1
+ },
+ {
+  "w": "personality",
+  "n": 1
+ },
+ {
+  "w": "failures",
+  "n": 1
+ },
+ {
+  "w": "generate",
+  "n": 1
+ },
+ {
+  "w": "having",
+  "n": 1
+ },
+ {
+  "w": "concrete",
+  "n": 1
+ },
+ {
+  "w": "planet",
+  "n": 1
+ },
+ {
+  "w": "cold",
+  "n": 1
+ },
+ {
+  "w": "heard",
+  "n": 1
+ },
+ {
+  "w": "warm",
+  "n": 1
+ },
+ {
+  "w": "shown",
+  "n": 1
+ },
+ {
+  "w": "watched",
+  "n": 1
+ },
+ {
+  "w": "downloaded",
+  "n": 1
+ },
+ {
+  "w": "asked",
+  "n": 1
+ },
+ {
+  "w": "finding",
+  "n": 1
+ },
+ {
+  "w": "generation",
+  "n": 1
+ },
+ {
+  "w": "gen",
+  "n": 1
+ },
+ {
+  "w": "authority",
+  "n": 1
+ },
+ {
+  "w": "qualification",
+  "n": 1
+ },
+ {
+  "w": "waste",
+  "n": 1
+ },
+ {
+  "w": "going",
+  "n": 1
+ },
+ {
+  "w": "organized",
+  "n": 1
+ },
+ {
+  "w": "typical",
+  "n": 1
+ },
+ {
+  "w": "contacted",
+  "n": 1
+ },
+ {
+  "w": "booked",
+  "n": 1
+ },
+ {
+  "w": "proposal",
+  "n": 1
+ },
+ {
+  "w": "sent",
+  "n": 1
+ },
+ {
+  "w": "closed-won",
+  "n": 1
+ },
+ {
+  "w": "closed-lost",
+  "n": 1
+ },
+ {
+  "w": "sale",
+  "n": 1
+ },
+ {
+  "w": "relationship",
+  "n": 1
+ },
+ {
+  "w": "managers",
+  "n": 1
+ },
+ {
+  "w": "monday",
+  "n": 1
+ },
+ {
+  "w": "stuck",
+  "n": 1
+ },
+ {
+  "w": "healthy",
+  "n": 1
+ },
+ {
+  "w": "panic",
+  "n": 1
+ },
+ {
+  "w": "dominate",
+  "n": 1
+ },
+ {
+  "w": "contact",
+  "n": 1
+ },
+ {
+  "w": "persistently",
+  "n": 1
+ },
+ {
+  "w": "won",
+  "n": 1
+ },
+ {
+  "w": "fifth",
+  "n": 1
+ },
+ {
+  "w": "gentler",
+  "n": 1
+ },
+ {
+  "w": "helping",
+  "n": 1
+ },
+ {
+  "w": "winning",
+  "n": 1
+ },
+ {
+  "w": "losing",
+  "n": 1
+ },
+ {
+  "w": "silent",
+  "n": 1
+ },
+ {
+  "w": "killer",
+  "n": 1
+ },
+ {
+  "w": "full",
+  "n": 1
+ },
+ {
+  "w": "force",
+  "n": 1
+ },
+ {
+  "w": "dramatic",
+  "n": 1
+ },
+ {
+  "w": "cheaper",
+  "n": 1
+ },
+ {
+  "w": "acquiring",
+  "n": 1
+ },
+ {
+  "w": "function",
+  "n": 1
+ },
+ {
+  "w": "sure",
+  "n": 1
+ },
+ {
+  "w": "achieve",
+  "n": 1
+ },
+ {
+  "w": "goals",
+  "n": 1
+ },
+ {
+  "w": "renew",
+  "n": 1
+ },
+ {
+  "w": "ideally",
+  "n": 1
+ },
+ {
+  "w": "expand",
+  "n": 1
+ },
+ {
+  "w": "upsell",
+  "n": 1
+ },
+ {
+  "w": "cross-sell",
+  "n": 1
+ },
+ {
+  "w": "additional",
+  "n": 1
+ },
+ {
+  "w": "hiding",
+  "n": 1
+ },
+ {
+  "w": "hardest-working",
+  "n": 1
+ },
+ {
+  "w": "researches",
+  "n": 1
+ },
+ {
+  "w": "prospect",
+  "n": 1
+ },
+ {
+  "w": "news",
+  "n": 1
+ },
+ {
+  "w": "background",
+  "n": 1
+ },
+ {
+  "w": "smell",
+  "n": 1
+ },
+ {
+  "w": "template",
+  "n": 1
+ },
+ {
+  "w": "joins",
+  "n": 1
+ },
+ {
+  "w": "notes",
+  "n": 1
+ },
+ {
+  "w": "administrative",
+  "n": 1
+ },
+ {
+  "w": "famously",
+  "n": 1
+ },
+ {
+  "w": "listens",
+  "n": 1
+ },
+ {
+  "w": "calls",
+  "n": 1
+ },
+ {
+  "w": "closed",
+  "n": 1
+ },
+ {
+  "w": "objection",
+  "n": 1
+ },
+ {
+  "w": "fear",
+  "n": 1
+ },
+ {
+  "w": "prepare",
+  "n": 1
+ },
+ {
+  "w": "advance",
+  "n": 1
+ },
+ {
+  "w": "excellent",
+  "n": 1
+ },
+ {
+  "w": "sharpen",
+  "n": 1
+ },
+ {
+  "w": "responses",
+  "n": 1
+ },
+ {
+  "w": "craft",
+  "n": 1
+ },
+ {
+  "w": "room",
+  "n": 1
+ },
+ {
+  "w": "fully",
+  "n": 1
+ },
+ {
+  "w": "present",
+  "n": 1
+ },
+ {
+  "w": "calculate",
+  "n": 1
+ },
+ {
+  "w": "parts",
+  "n": 1
+ },
+ {
+  "w": "respected",
+  "n": 1
+ },
+ {
+  "w": "teaches",
+  "n": 1
+ },
+ {
+  "w": "shortest",
+  "n": 1
+ },
+ {
+  "w": "sounding",
+  "n": 1
+ },
+ {
+  "w": "eventually",
+  "n": 1
+ },
+ {
+  "w": "general",
+  "n": 1
+ },
+ {
+  "w": "regularly",
+  "n": 1
+ },
+ {
+  "w": "visitors",
+  "n": 1
+ },
+ {
+  "w": "among",
+  "n": 1
+ },
+ {
+  "w": "watches",
+  "n": 1
+ },
+ {
+  "w": "performance",
+  "n": 1
+ },
+ {
+  "w": "indicators",
+  "n": 1
+ },
+ {
+  "w": "track",
+  "n": 1
+ },
+ {
+  "w": "noise",
+  "n": 1
+ },
+ {
+  "w": "screen",
+  "n": 1
+ },
+ {
+  "w": "visible",
+  "n": 1
+ },
+ {
+  "w": "precise",
+  "n": 1
+ },
+ {
+  "w": "movement",
+  "n": 1
+ },
+ {
+  "w": "increase",
+  "n": 1
+ },
+ {
+  "w": "surge",
+  "n": 1
+ },
+ {
+  "w": "skyrocket",
+  "n": 1
+ },
+ {
+  "w": "decrease",
+  "n": 1
+ },
+ {
+  "w": "decline",
+  "n": 1
+ },
+ {
+  "w": "plunge",
+  "n": 1
+ },
+ {
+  "w": "flat",
+  "n": 1
+ },
+ {
+  "w": "plateau",
+  "n": 1
+ },
+ {
+  "w": "percentages",
+  "n": 1
+ },
+ {
+  "w": "comparisons",
+  "n": 1
+ },
+ {
+  "w": "bare",
+  "n": 1
+ },
+ {
+  "w": "feelings",
+  "n": 1
+ },
+ {
+  "w": "mom",
+  "n": 1
+ },
+ {
+  "w": "year-over-year",
+  "n": 1
+ },
+ {
+  "w": "yoy",
+  "n": 1
+ },
+ {
+  "w": "fairer",
+  "n": 1
+ },
+ {
+  "w": "comparison",
+  "n": 1
+ },
+ {
+  "w": "seasonal",
+  "n": 1
+ },
+ {
+  "w": "trend",
+  "n": 1
+ },
+ {
+  "w": "spike",
+  "n": 1
+ },
+ {
+  "w": "outlier",
+  "n": 1
+ },
+ {
+  "w": "strange",
+  "n": 1
+ },
+ {
+  "w": "essentials",
+  "n": 1
+ },
+ {
+  "w": "average",
+  "n": 1
+ },
+ {
+  "w": "sum",
+  "n": 1
+ },
+ {
+  "w": "count",
+  "n": 1
+ },
+ {
+  "w": "easily",
+  "n": 1
+ },
+ {
+  "w": "distorted",
+  "n": 1
+ },
+ {
+  "w": "abused",
+  "n": 1
+ },
+ {
+  "w": "analytics",
+  "n": 1
+ },
+ {
+  "w": "causes",
+  "n": 1
+ },
+ {
+  "w": "ice",
+  "n": 1
+ },
+ {
+  "w": "cream",
+  "n": 1
+ },
+ {
+  "w": "deaths",
+  "n": 1
+ },
+ {
+  "w": "summer",
+  "n": 1
+ },
+ {
+  "w": "confusing",
+  "n": 1
+ },
+ {
+  "w": "analytical",
+  "n": 1
+ },
+ {
+  "w": "pointing",
+  "n": 1
+ },
+ {
+  "w": "choices",
+  "n": 1
+ },
+ {
+  "w": "based",
+  "n": 1
+ },
+ {
+  "w": "evidence",
+  "n": 1
+ },
+ {
+  "w": "rather",
+  "n": 1
+ },
+ {
+  "w": "intuition",
+  "n": 1
+ },
+ {
+  "w": "hypothesis",
+  "n": 1
+ },
+ {
+  "w": "shorter",
+  "n": 1
+ },
+ {
+  "w": "beware",
+  "n": 1
+ },
+ {
+  "w": "traps",
+  "n": 1
+ },
+ {
+  "w": "registered",
+  "n": 1
+ },
+ {
+  "w": "active",
+  "n": 1
+ },
+ {
+  "w": "followers",
+  "n": 1
+ },
+ {
+  "w": "measuring",
+  "n": 1
+ },
+ {
+  "w": "truly",
+  "n": 1
+ },
+ {
+  "w": "reflect",
+  "n": 1
+ },
+ {
+  "w": "rest",
+  "n": 1
+ },
+ {
+  "w": "required",
+  "n": 1
+ },
+ {
+  "w": "spoke",
+  "n": 1
+ },
+ {
+  "w": "sql",
+  "n": 1
+ },
+ {
+  "w": "demolished",
+  "n": 1
+ },
+ {
+  "w": "upload",
+  "n": 1
+ },
+ {
+  "w": "topics",
+  "n": 1
+ },
+ {
+  "w": "drove",
+  "n": 1
+ },
+ {
+  "w": "weekday",
+  "n": 1
+ },
+ {
+  "w": "draws",
+  "n": 1
+ },
+ {
+  "w": "chart",
+  "n": 1
+ },
+ {
+  "w": "analysts",
+  "n": 1
+ },
+ {
+  "w": "useless",
+  "n": 1
+ },
+ {
+  "w": "calculation",
+  "n": 1
+ },
+ {
+  "w": "armed",
+  "n": 1
+ },
+ {
+  "w": "out-think",
+  "n": 1
+ },
+ {
+  "w": "develop",
+  "n": 1
+ },
+ {
+  "w": "statistics",
+  "n": 1
+ },
+ {
+  "w": "curiosity",
+  "n": 1
+ },
+ {
+  "w": "kpi",
+  "n": 1
+ },
+ {
+  "w": "rewrite",
+  "n": 1
+ },
+ {
+  "w": "tempts",
+  "n": 1
+ },
+ {
+  "w": "personally",
+  "n": 1
+ },
+ {
+  "w": "frightens",
+  "n": 1
+ },
+ {
+  "w": "unnecessarily",
+  "n": 1
+ },
+ {
+  "w": "day-to-day",
+  "n": 1
+ },
+ {
+  "w": "informally",
+  "n": 1
+ },
+ {
+  "w": "sits",
+  "n": 1
+ },
+ {
+  "w": "statement",
+  "n": 1
+ },
+ {
+  "w": "subtract",
+  "n": 1
+ },
+ {
+  "w": "expenses",
+  "n": 1
+ },
+ {
+  "w": "salaries",
+  "n": 1
+ },
+ {
+  "w": "fat",
+  "n": 1
+ },
+ {
+  "w": "healthier",
+  "n": 1
+ },
+ {
+  "w": "burning",
+  "n": 1
+ },
+ {
+  "w": "course",
+  "n": 1
+ },
+ {
+  "w": "sells",
+  "n": 1
+ },
+ {
+  "w": "delivering",
+  "n": 1
+ },
+ {
+  "w": "beloved",
+  "n": 1
+ },
+ {
+  "w": "margins",
+  "n": 1
+ },
+ {
+  "w": "compared",
+  "n": 1
+ },
+ {
+  "w": "physical",
+  "n": 1
+ },
+ {
+  "w": "goods",
+  "n": 1
+ },
+ {
+  "w": "materials",
+  "n": 1
+ },
+ {
+  "w": "shipping",
+  "n": 1
+ },
+ {
+  "w": "warehouses",
+  "n": 1
+ },
+ {
+  "w": "math",
+  "n": 1
+ },
+ {
+  "w": "two-letter",
+  "n": 1
+ },
+ {
+  "w": "arr",
+  "n": 1
+ },
+ {
+  "w": "annually",
+  "n": 1
+ },
+ {
+  "w": "love",
+  "n": 1
+ },
+ {
+  "w": "re-earned",
+  "n": 1
+ },
+ {
+  "w": "compounds",
+  "n": 1
+ },
+ {
+  "w": "orbit",
+  "n": 1
+ },
+ {
+  "w": "linked",
+  "n": 1
+ },
+ {
+  "w": "lifetime",
+  "n": 1
+ },
+ {
+  "w": "ratio",
+  "n": 1
+ },
+ {
+  "w": "least",
+  "n": 1
+ },
+ {
+  "w": "acquire",
+  "n": 1
+ },
+ {
+  "w": "exceeds",
+  "n": 1
+ },
+ {
+  "w": "poorer",
+  "n": 1
+ },
+ {
+  "w": "accelerated",
+  "n": 1
+ },
+ {
+  "w": "dying",
+  "n": 1
+ },
+ {
+  "w": "straight",
+  "n": 1
+ },
+ {
+  "w": "aviation",
+  "n": 1
+ },
+ {
+  "w": "burns",
+  "n": 1
+ },
+ {
+  "w": "lasts",
+  "n": 1
+ },
+ {
+  "w": "pilot",
+  "n": 1
+ },
+ {
+  "w": "fuel",
+  "n": 1
+ },
+ {
+  "w": "ends",
+  "n": 1
+ },
+ {
+  "w": "plane",
+  "n": 1
+ },
+ {
+  "w": "taken",
+  "n": 1
+ },
+ {
+  "w": "extend",
+  "n": 1
+ },
+ {
+  "w": "rounds",
+  "n": 1
+ },
+ {
+  "w": "names",
+  "n": 1
+ },
+ {
+  "w": "pre-seed",
+  "n": 1
+ },
+ {
+  "w": "seed",
+  "n": 1
+ },
+ {
+  "w": "earliest",
+  "n": 1
+ },
+ {
+  "w": "bets",
+  "n": 1
+ },
+ {
+  "w": "series",
+  "n": 1
+ },
+ {
+  "w": "c",
+  "n": 1
+ },
+ {
+  "w": "receive",
+  "n": 1
+ },
+ {
+  "w": "share",
+  "n": 1
+ },
+ {
+  "w": "ownership",
+  "n": 1
+ },
+ {
+  "w": "agreed",
+  "n": 1
+ },
+ {
+  "w": "deemed",
+  "n": 1
+ },
+ {
+  "w": "raising",
+  "n": 1
+ },
+ {
+  "w": "selling",
+  "n": 1
+ },
+ {
+  "w": "alternative",
+  "n": 1
+ },
+ {
+  "w": "proud",
+  "n": 1
+ },
+ {
+  "w": "purely",
+  "n": 1
+ },
+ {
+  "w": "neither",
+  "n": 1
+ },
+ {
+  "w": "capital",
+  "n": 1
+ },
+ {
+  "w": "dilution",
+  "n": 1
+ },
+ {
+  "w": "pressure",
+  "n": 1
+ },
+ {
+  "w": "freedom",
+  "n": 1
+ },
+ {
+  "w": "slowness",
+  "n": 1
+ },
+ {
+  "w": "accountant",
+  "n": 1
+ },
+ {
+  "w": "wizard",
+  "n": 1
+ },
+ {
+  "w": "expense",
+  "n": 1
+ },
+ {
+  "w": "drops",
+  "n": 1
+ },
+ {
+  "w": "forecast",
+  "n": 1
+ },
+ {
+  "w": "scenarios",
+  "n": 1
+ },
+ {
+  "w": "valuably",
+  "n": 1
+ },
+ {
+  "w": "anomalies",
+  "n": 1
+ },
+ {
+  "w": "noticed",
+  "n": 1
+ },
+ {
+  "w": "hurts",
+  "n": 1
+ },
+ {
+  "w": "negative",
+  "n": 1
+ },
+ {
+  "w": "little",
+  "n": 1
+ },
+ {
+  "w": "price",
+  "n": 1
+ },
+ {
+  "w": "scales",
+  "n": 1
+ },
+ {
+  "w": "transition",
+  "n": 1
+ },
+ {
+  "w": "beyond",
+  "n": 1
+ },
+ {
+  "w": "enters",
+  "n": 1
+ },
+ {
+  "w": "painfully",
+  "n": 1
+ },
+ {
+  "w": "interested",
+  "n": 1
+ },
+ {
+  "w": "applicants",
+  "n": 1
+ },
+ {
+  "w": "interview",
+  "n": 1
+ },
+ {
+  "w": "references",
+  "n": 1
+ },
+ {
+  "w": "offer",
+  "n": 1
+ },
+ {
+  "w": "posting",
+  "n": 1
+ },
+ {
+  "w": "talent",
+  "n": 1
+ },
+ {
+  "w": "distinctions",
+  "n": 1
+ },
+ {
+  "w": "confuse",
+  "n": 1
+ },
+ {
+  "w": "russian",
+  "n": 1
+ },
+ {
+  "w": "speakers",
+  "n": 1
+ },
+ {
+  "w": "long-term",
+  "n": 1
+ },
+ {
+  "w": "freelancer",
+  "n": 1
+ },
+ {
+  "w": "legally",
+  "n": 1
+ },
+ {
+  "w": "financially",
+  "n": 1
+ },
+ {
+  "w": "animals",
+  "n": 1
+ },
+ {
+  "w": "fixed",
+  "n": 1
+ },
+ {
+  "w": "annual",
+  "n": 1
+ },
+ {
+  "w": "bonuses",
+  "n": 1
+ },
+ {
+  "w": "accept",
+  "n": 1
+ },
+ {
+  "w": "stock",
+  "n": 1
+ },
+ {
+  "w": "options",
+  "n": 1
+ },
+ {
+  "w": "later",
+  "n": 1
+ },
+ {
+  "w": "lottery",
+  "n": 1
+ },
+ {
+  "w": "ninety",
+  "n": 1
+ },
+ {
+  "w": "turning",
+  "n": 1
+ },
+ {
+  "w": "stranger",
+  "n": 1
+ },
+ {
+  "w": "productive",
+  "n": 1
+ },
+ {
+  "w": "guessing",
+  "n": 1
+ },
+ {
+  "w": "avoidable",
+  "n": 1
+ },
+ {
+  "w": "mistakes",
+  "n": 1
+ },
+ {
+  "w": "quits",
+  "n": 1
+ },
+ {
+  "w": "effective",
+  "n": 1
+ },
+ {
+  "w": "assigned",
+  "n": 1
+ },
+ {
+  "w": "deserves",
+  "n": 1
+ },
+ {
+  "w": "treats",
+  "n": 1
+ },
+ {
+  "w": "differently",
+  "n": 1
+ },
+ {
+  "w": "regular",
+  "n": 1
+ },
+ {
+  "w": "two-directional",
+  "n": 1
+ },
+ {
+  "w": "yearly",
+  "n": 1
+ },
+ {
+  "w": "verdict",
+  "n": 1
+ },
+ {
+  "w": "constant",
+  "n": 1
+ },
+ {
+  "w": "low-drama",
+  "n": 1
+ },
+ {
+  "w": "d",
+  "n": 1
+ },
+ {
+  "w": "praise",
+  "n": 1
+ },
+ {
+  "w": "private",
+  "n": 1
+ },
+ {
+  "w": "golden",
+  "n": 1
+ },
+ {
+  "w": "delegation",
+  "n": 1
+ },
+ {
+  "w": "published",
+  "n": 1
+ },
+ {
+  "w": "friday",
+  "n": 1
+ },
+ {
+  "w": "forty",
+  "n": 1
+ },
+ {
+  "w": "micro-instructions",
+  "n": 1
+ },
+ {
+  "w": "executor",
+  "n": 1
+ },
+ {
+  "w": "waits",
+  "n": 1
+ },
+ {
+  "w": "cities",
+  "n": 1
+ },
+ {
+  "w": "zones",
+  "n": 1
+ },
+ {
+  "w": "offices",
+  "n": 1
+ },
+ {
+  "w": "taught",
+  "n": 1
+ },
+ {
+  "w": "asynchronous",
+  "n": 1
+ },
+ {
+  "w": "endless",
+  "n": 1
+ },
+ {
+  "w": "meetings",
+  "n": 1
+ },
+ {
+  "w": "over-communicate",
+  "n": 1
+ },
+ {
+  "w": "context",
+  "n": 1
+ },
+ {
+  "w": "enjoy",
+  "n": 1
+ },
+ {
+  "w": "hidden",
+  "n": 1
+ },
+ {
+  "w": "deep",
+  "n": 1
+ },
+ {
+  "w": "uninterrupted",
+  "n": 1
+ },
+ {
+  "w": "meeting-driven",
+  "n": 1
+ },
+ {
+  "w": "synchronization",
+  "n": 1
+ },
+ {
+  "w": "productivity",
+  "n": 1
+ },
+ {
+  "w": "accountability",
+  "n": 1
+ },
+ {
+  "w": "excuses",
+  "n": 1
+ },
+ {
+  "w": "alignment",
+  "n": 1
+ },
+ {
+  "w": "understands",
+  "n": 1
+ },
+ {
+  "w": "agrees",
+  "n": 1
+ },
+ {
+  "w": "misaligned",
+  "n": 1
+ },
+ {
+  "w": "row",
+  "n": 1
+ },
+ {
+  "w": "directions",
+  "n": 1
+ },
+ {
+  "w": "effort",
+  "n": 1
+ },
+ {
+  "w": "burnout",
+  "n": 1
+ },
+ {
+  "w": "exhaustion",
+  "n": 1
+ },
+ {
+  "w": "prolonged",
+  "n": 1
+ },
+ {
+  "w": "overwork",
+  "n": 1
+ },
+ {
+  "w": "badge",
+  "n": 1
+ },
+ {
+  "w": "honor",
+  "n": 1
+ },
+ {
+  "w": "recovery",
+  "n": 1
+ },
+ {
+  "w": "ai-augmented",
+  "n": 1
+ },
+ {
+  "w": "reshaping",
+  "n": 1
+ },
+ {
+  "w": "emerging",
+  "n": 1
+ },
+ {
+  "w": "triple",
+  "n": 1
+ },
+ {
+  "w": "developers",
+  "n": 1
+ },
+ {
+  "w": "load",
+  "n": 1
+ },
+ {
+  "w": "department",
+  "n": 1
+ },
+ {
+  "w": "candidate",
+  "n": 1
+ },
+ {
+  "w": "longer",
+  "n": 1
+ },
+ {
+  "w": "delegates",
+  "n": 1
+ },
+ {
+  "w": "openly",
+  "n": 1
+ },
+ {
+  "w": "interviews",
+  "n": 1
+ },
+ {
+  "w": "show",
+  "n": 1
+ },
+ {
+  "w": "me",
+  "n": 1
+ },
+ {
+  "w": "stare",
+  "n": 1
+ },
+ {
+  "w": "red",
+  "n": 1
+ },
+ {
+  "w": "flag",
+  "n": 1
+ },
+ {
+  "w": "diploma",
+  "n": 1
+ },
+ {
+  "w": "caution",
+  "n": 1
+ },
+ {
+  "w": "shrink",
+  "n": 1
+ },
+ {
+  "w": "size",
+  "n": 1
+ },
+ {
+  "w": "slowly",
+  "n": 1
+ },
+ {
+  "w": "asset",
+  "n": 1
+ },
+ {
+  "w": "toxic",
+  "n": 1
+ },
+ {
+  "w": "atmosphere",
+  "n": 1
+ },
+ {
+  "w": "unlock",
+  "n": 1
+ },
+ {
+  "w": "harm",
+  "n": 1
+ },
+ {
+  "w": "intelligently",
+  "n": 1
+ },
+ {
+  "w": "polarized",
+  "n": 1
+ },
+ {
+  "w": "loud",
+  "n": 1
+ },
+ {
+  "w": "camps",
+  "n": 1
+ },
+ {
+  "w": "solve",
+  "n": 1
+ },
+ {
+  "w": "occupy",
+  "n": 1
+ },
+ {
+  "w": "duty",
+  "n": 1
+ },
+ {
+  "w": "systems",
+  "n": 1
+ },
+ {
+  "w": "state",
+  "n": 1
+ },
+ {
+  "w": "falsehoods",
+  "n": 1
+ },
+ {
+  "w": "confidence",
+  "n": 1
+ },
+ {
+  "w": "poem",
+  "n": 1
+ },
+ {
+  "w": "charming",
+  "n": 1
+ },
+ {
+  "w": "document",
+  "n": 1
+ },
+ {
+  "w": "medical",
+  "n": 1
+ },
+ {
+  "w": "abandon",
+  "n": 1
+ },
+ {
+  "w": "unverified",
+  "n": 1
+ },
+ {
+  "w": "review",
+  "n": 1
+ },
+ {
+  "w": "past",
+  "n": 1
+ },
+ {
+  "w": "kind",
+  "n": 1
+ },
+ {
+  "w": "hired",
+  "n": 1
+ },
+ {
+  "w": "looking",
+  "n": 1
+ },
+ {
+  "w": "objective",
+  "n": 1
+ },
+ {
+  "w": "antidote",
+  "n": 1
+ },
+ {
+  "w": "fairness",
+  "n": 1
+ },
+ {
+  "w": "across",
+  "n": 1
+ },
+ {
+  "w": "groups",
+  "n": 1
+ },
+ {
+  "w": "trusting",
+  "n": 1
+ },
+ {
+  "w": "may",
+  "n": 1
+ },
+ {
+  "w": "contain",
+  "n": 1
+ },
+ {
+  "w": "sensitive",
+  "n": 1
+ },
+ {
+  "w": "financials",
+  "n": 1
+ },
+ {
+  "w": "unreleased",
+  "n": 1
+ },
+ {
+  "w": "sending",
+  "n": 1
+ },
+ {
+  "w": "stored",
+  "n": 1
+ },
+ {
+  "w": "consent",
+  "n": 1
+ },
+ {
+  "w": "permission",
+  "n": 1
+ },
+ {
+  "w": "protection",
+  "n": 1
+ },
+ {
+  "w": "stop",
+  "n": 1
+ },
+ {
+  "w": "lawyer-speak",
+  "n": 1
+ },
+ {
+  "w": "operational",
+  "n": 1
+ },
+ {
+  "w": "rough",
+  "n": 1
+ },
+ {
+  "w": "forum",
+  "n": 1
+ },
+ {
+  "w": "unless",
+  "n": 1
+ },
+ {
+  "w": "trusted",
+  "n": 1
+ },
+ {
+  "w": "policy",
+  "n": 1
+ },
+ {
+  "w": "security",
+  "n": 1
+ },
+ {
+  "w": "attack",
+  "n": 1
+ },
+ {
+  "w": "surfaces",
+  "n": 1
+ },
+ {
+  "w": "deepfakes",
+  "n": 1
+ },
+ {
+  "w": "convincing",
+  "n": 1
+ },
+ {
+  "w": "fake",
+  "n": 1
+ },
+ {
+  "w": "audio",
+  "n": 1
+ },
+ {
+  "w": "impersonate",
+  "n": 1
+ },
+ {
+  "w": "ceos",
+  "n": 1
+ },
+ {
+  "w": "authorize",
+  "n": 1
+ },
+ {
+  "w": "fraudulent",
+  "n": 1
+ },
+ {
+  "w": "transfers",
+  "n": 1
+ },
+ {
+  "w": "phishing",
+  "n": 1
+ },
+ {
+  "w": "broken",
+  "n": 1
+ },
+ {
+  "w": "defense",
+  "n": 1
+ },
+ {
+  "w": "paranoia",
+  "n": 1
+ },
+ {
+  "w": "channel",
+  "n": 1
+ },
+ {
+  "w": "involving",
+  "n": 1
+ },
+ {
+  "w": "governments",
+  "n": 1
+ },
+ {
+  "w": "responding",
+  "n": 1
+ },
+ {
+  "w": "regulation",
+  "n": 1
+ },
+ {
+  "w": "appears",
+  "n": 1
+ },
+ {
+  "w": "compliance",
+  "n": 1
+ },
+ {
+  "w": "following",
+  "n": 1
+ },
+ {
+  "w": "applicable",
+  "n": 1
+ },
+ {
+  "w": "ignores",
+  "n": 1
+ },
+ {
+  "w": "faces",
+  "n": 1
+ },
+ {
+  "w": "fines",
+  "n": 1
+ },
+ {
+  "w": "bans",
+  "n": 1
+ },
+ {
+  "w": "regulatory",
+  "n": 1
+ },
+ {
+  "w": "patchwork",
+  "n": 1
+ },
+ {
+  "w": "regions",
+  "n": 1
+ },
+ {
+  "w": "approaches",
+  "n": 1
+ },
+ {
+  "w": "regimes",
+  "n": 1
+ },
+ {
+  "w": "heavy",
+  "n": 1
+ },
+ {
+  "w": "documentation",
+  "n": 1
+ },
+ {
+  "w": "requirements",
+  "n": 1
+ },
+ {
+  "w": "lighter-touch",
+  "n": 1
+ },
+ {
+  "w": "frameworks",
+  "n": 1
+ },
+ {
+  "w": "shifts",
+  "n": 1
+ },
+ {
+  "w": "takeaway",
+  "n": 1
+ },
+ {
+  "w": "memorize",
+  "n": 1
+ },
+ {
+  "w": "laws",
+  "n": 1
+ },
+ {
+  "w": "apply",
+  "n": 1
+ },
+ {
+  "w": "transparency",
+  "n": 1
+ },
+ {
+  "w": "increasingly",
+  "n": 1
+ },
+ {
+  "w": "requirement",
+  "n": 1
+ },
+ {
+  "w": "interestingly",
+  "n": 1
+ },
+ {
+  "w": "reframe",
+  "n": 1
+ },
+ {
+  "w": "separates",
+  "n": 1
+ },
+ {
+  "w": "tourists",
+  "n": 1
+ },
+ {
+  "w": "incident",
+  "n": 1
+ },
+ {
+  "w": "leaked",
+  "n": 1
+ },
+ {
+  "w": "dataset",
+  "n": 1
+ },
+ {
+  "w": "discriminatory",
+  "n": 1
+ },
+ {
+  "w": "scandal",
+  "n": 1
+ },
+ {
+  "w": "traced",
+  "n": 1
+ },
+ {
+  "w": "erase",
+  "n": 1
+ },
+ {
+  "w": "overnight",
+  "n": 1
+ },
+ {
+  "w": "meanwhile",
+  "n": 1
+ },
+ {
+  "w": "virtues",
+  "n": 1
+ },
+ {
+  "w": "disclosure",
+  "n": 1
+ },
+ {
+  "w": "reputation",
+  "n": 1
+ },
+ {
+  "w": "compute",
+  "n": 1
+ },
+ {
+  "w": "checklist",
+  "n": 1
+ },
+ {
+  "w": "sticky",
+  "n": 1
+ },
+ {
+  "w": "reviewing",
+  "n": 1
+ },
+ {
+  "w": "high-stakes",
+  "n": 1
+ },
+ {
+  "w": "money-related",
+  "n": 1
+ },
+ {
+  "w": "twice",
+  "n": 1
+ },
+ {
+  "w": "none",
+  "n": 1
+ },
+ {
+  "w": "differentiator",
+  "n": 1
+ },
+ {
+  "w": "fraud",
+  "n": 1
+ },
+ {
+  "w": "technological",
+  "n": 1
+ },
+ {
+  "w": "triggers",
+  "n": 1
+ },
+ {
+  "w": "printing",
+  "n": 1
+ },
+ {
+  "w": "memory",
+  "n": 1
+ },
+ {
+  "w": "end",
+  "n": 1
+ },
+ {
+  "w": "employment",
+  "n": 1
+ },
+ {
+  "w": "computers",
+  "n": 1
+ },
+ {
+  "w": "disappeared",
+  "n": 1
+ },
+ {
+  "w": "appeared",
+  "n": 1
+ },
+ {
+  "w": "forgets",
+  "n": 1
+ },
+ {
+  "w": "nearly",
+  "n": 1
+ },
+ {
+  "w": "surviving",
+  "n": 1
+ },
+ {
+  "w": "transformed",
+  "n": 1
+ },
+ {
+  "w": "farmers",
+  "n": 1
+ },
+ {
+  "w": "programmers",
+  "n": 1
+ },
+ {
+  "w": "farming",
+  "n": 1
+ },
+ {
+  "w": "realistic",
+  "n": 1
+ },
+ {
+  "w": "expectation",
+  "n": 1
+ },
+ {
+  "w": "less",
+  "n": 1
+ },
+ {
+  "w": "sounds",
+  "n": 1
+ },
+ {
+  "w": "destructive",
+  "n": 1
+ },
+ {
+  "w": "unprepared",
+  "n": 1
+ },
+ {
+  "w": "closer",
+  "n": 1
+ },
+ {
+  "w": "resist",
+  "n": 1
+ },
+ {
+  "w": "ride",
+  "n": 1
+ },
+ {
+  "w": "fought",
+  "n": 1
+ },
+ {
+  "w": "vanished",
+  "n": 1
+ },
+ {
+  "w": "specialized",
+  "n": 1
+ },
+ {
+  "w": "thrive",
+  "n": 1
+ },
+ {
+  "w": "side",
+  "n": 1
+ },
+ {
+  "w": "define",
+  "n": 1
+ },
+ {
+  "w": "futures",
+  "n": 1
+ },
+ {
+  "w": "given",
+  "n": 1
+ },
+ {
+  "w": "amplifies",
+  "n": 1
+ },
+ {
+  "w": "near",
+  "n": 1
+ },
+ {
+  "w": "knowledge",
+  "n": 1
+ },
+ {
+  "w": "commanding",
+  "n": 1
+ },
+ {
+  "w": "directing",
+  "n": 1
+ },
+ {
+  "w": "fleet",
+  "n": 1
+ },
+ {
+  "w": "anticipated",
+  "n": 1
+ },
+ {
+  "w": "reshapes",
+  "n": 1
+ },
+ {
+  "w": "clarity",
+  "n": 1
+ },
+ {
+  "w": "standard",
+  "n": 1
+ },
+ {
+  "w": "direct",
+  "n": 1
+ },
+ {
+  "w": "domain",
+  "n": 1
+ },
+ {
+  "w": "expertise",
+  "n": 1
+ },
+ {
+  "w": "punishes",
+  "n": 1
+ },
+ {
+  "w": "generic",
+  "n": 1
+ },
+ {
+  "w": "pays",
+  "n": 1
+ },
+ {
+  "w": "upskilling",
+  "n": 1
+ },
+ {
+  "w": "continuously",
+  "n": 1
+ },
+ {
+  "w": "adding",
+  "n": 1
+ },
+ {
+  "w": "cousin",
+  "n": 1
+ },
+ {
+  "w": "reskilling",
+  "n": 1
+ },
+ {
+  "w": "education",
+  "n": 1
+ },
+ {
+  "w": "study",
+  "n": 1
+ },
+ {
+  "w": "lifelong",
+  "n": 1
+ },
+ {
+  "w": "slogan",
+  "n": 1
+ },
+ {
+  "w": "calendar",
+  "n": 1
+ },
+ {
+  "w": "layers",
+  "n": 1
+ },
+ {
+  "w": "literacy",
+  "n": 1
+ },
+ {
+  "w": "gadget",
+  "n": 1
+ },
+ {
+  "w": "prompting",
+  "n": 1
+ },
+ {
+  "w": "modes",
+  "n": 1
+ },
+ {
+  "w": "automations",
+  "n": 1
+ },
+ {
+  "w": "fundamentals",
+  "n": 1
+ },
+ {
+  "w": "expire",
+  "n": 1
+ },
+ {
+  "w": "thinking",
+  "n": 1
+ },
+ {
+  "w": "frontier",
+  "n": 1
+ },
+ {
+  "w": "publishes",
+  "n": 1
+ },
+ {
+  "w": "rare",
+  "n": 1
+ },
+ {
+  "w": "commodity",
+  "n": 1
+ },
+ {
+  "w": "theme",
+  "n": 1
+ },
+ {
+  "w": "stacking",
+  "n": 1
+ },
+ {
+  "w": "motion",
+  "n": 1
+ },
+ {
+  "w": "studying",
+  "n": 1
+ },
+ {
+  "w": "twelve",
+  "n": 1
+ },
+ {
+  "w": "chapters",
+  "n": 1
+ },
+ {
+  "w": "heroics",
+  "n": 1
+ },
+ {
+  "w": "communicate",
+  "n": 1
+ },
+ {
+  "w": "replaced",
+  "n": 1
+ },
+ {
+  "w": "negotiates",
+  "n": 1
+ },
+ {
+  "w": "pitches",
+  "n": 1
+ },
+ {
+  "w": "fluent",
+  "n": 1
+ },
+ {
+  "w": "although",
+  "n": 1
+ },
+ {
+  "w": "suggest",
+  "n": 1
+ },
+ {
+  "w": "current",
+  "n": 1
+ }
+]

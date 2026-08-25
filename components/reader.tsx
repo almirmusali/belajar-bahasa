@@ -9,7 +9,8 @@ import {
   type GlossaryEntry,
   type Prose,
 } from "@/lib/reading-types";
-import { speakId } from "@/lib/speak-id";
+import type { AudioLang } from "@/lib/audio-url";
+import { speak } from "@/lib/speak";
 import { useWordSets } from "@/lib/use-word-sets";
 import { cn } from "@/lib/utils";
 
@@ -37,10 +38,12 @@ export function Reader({
   blocks,
   translations,
   glossary,
+  lang,
 }: {
   blocks: Block[];
   translations: Record<string, string>;
   glossary: Glossary;
+  lang: AudioLang;
 }) {
   const [popup, setPopup] = useState<Popup | null>(null);
   const [open, setOpen] = useState<Record<number, boolean>>({});
@@ -135,7 +138,7 @@ export function Reader({
 
   // Озвучка идёт очередью: сейчас в ней всегда одно предложение, но очередь
   // оставлена намеренно — из неё же читается несколько подряд, если понадобится.
-  const speakQueue = (ids: string[]) => {
+  const speakQueue = (ids: string[], say: AudioLang) => {
     stopSpeaking();
     queueRef.current = ids.slice();
     const next = () => {
@@ -145,7 +148,7 @@ export function Reader({
         return;
       }
       setPlaying(id);
-      stopRef.current = speakId(id, { onEnd: next });
+      stopRef.current = speak(id, { onEnd: next, lang: say });
     };
     next();
   };
@@ -212,7 +215,9 @@ export function Reader({
         className="space-y-5 text-[1.0625rem] leading-[2] sm:text-lg"
       >
         {blocks.map((block, bi) =>
-          !isProse(block) ? (
+          block.kind === "t" ? (
+            <TableView key={bi} head={block.head} rows={block.rows} />
+          ) : !isProse(block) ? (
             <VocabBoxView key={bi} title={block.title} items={block.items} />
           ) : (
             <ParagraphView
@@ -227,7 +232,7 @@ export function Reader({
               onSpeak={() => {
                 const ids = block.sent.map((x) => x.id);
                 if (ids.some((id) => id === playing)) stopSpeaking();
-                else speakQueue(ids);
+                else speakQueue(ids, block.lang ?? lang);
               }}
             />
           ),
@@ -279,12 +284,18 @@ function ParagraphView({
     .join(" ");
   const isPlaying = block.sent.some((s) => s.id === playing);
 
+  // Подзаголовок — тот же абзац, только заголовочным тегом: наведение на
+  // слово, перевод и озвучка в нём работают ровно так же, как в прозе.
+  const Tag = block.kind === "h" ? "h2" : "p";
+
   return (
     <div className="group/par">
-      <p
+      <Tag
         className={cn(
           block.kind === "q" &&
             "rounded-r-md border-l-2 border-primary/40 bg-secondary/40 py-2 pl-4 pr-3 italic",
+          block.kind === "h" &&
+            "mt-9 text-[1.05em] font-semibold leading-snug tracking-tight",
         )}
       >
         {block.sent.map((sent, si) => (
@@ -353,7 +364,7 @@ function ParagraphView({
             </ParagraphAction>
           )}
         </span>
-      </p>
+      </Tag>
 
       {open && ru && (
         <p className="mt-1.5 rounded-md border-l-2 border-secondary bg-secondary/50 py-1.5 pl-3 pr-3 text-[0.92em] not-italic leading-relaxed text-muted-foreground">
@@ -396,6 +407,48 @@ function ParagraphAction({
     >
       {children}
     </button>
+  );
+}
+
+// Таблица главы («Key Vocabulary»): двуязычный справочник автора, поэтому —
+// как и врезка-словарик — без кнопок и без подсветки слов. На узком экране
+// прокручивается вбок сама, не растягивая страницу.
+function TableView({ head, rows }: { head: string[]; rows: string[][] }) {
+  return (
+    <div className="-mx-4 overflow-x-auto px-4 sm:mx-0 sm:px-0">
+      <table className="w-full min-w-[34rem] border-collapse text-[0.82em] leading-normal">
+        <thead>
+          <tr>
+            {head.map((c, i) => (
+              <th
+                key={i}
+                className="border-b px-3 py-2 text-left font-semibold text-muted-foreground"
+              >
+                {c}
+              </th>
+            ))}
+          </tr>
+        </thead>
+        <tbody>
+          {rows.map((row, ri) => (
+            <tr key={ri} className="align-top">
+              {row.map((c, ci) => (
+                <td
+                  key={ci}
+                  className={cn(
+                    "border-b px-3 py-2",
+                    ci === 0 && "font-medium",
+                    ci > 0 && "text-muted-foreground",
+                  )}
+                >
+                  {c}
+                </td>
+              ))}
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
   );
 }
 

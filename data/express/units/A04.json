@@ -1,0 +1,34 @@
+{
+  "id": "A4", "track": "affixes", "kind": "unit", "week": 5, "day": 3, "order": 24,
+  "title_ru": "meN- — механика, часть 2: KTSP",
+  "subtitle_ru": "Четыре согласных, которые исчезают",
+  "items": ["meN-"],
+  "theory_ru": "Правило выпадения — **KTSP**. Начальные `k, t, s, p` при добавлении `meN-` **исчезают**, а префикс берёт на себя их место артикуляции.\n\n| Корень | Результат | Что произошло |\n|---|---|---|\n| **k**irim | me**ng**irim | k → ng |\n| **t**ulis | me**n**ulis | t → n |\n| **s**ewa | me**ny**ewa | s → ny |\n| **p**ukul | me**m**ukul | p → m |\n\nМнемоника: буква не пропадает бесследно — она превращается в носовой того же места. Задняя `k` даёт заднее `ng`, зубная `t` даёт зубное `n`, свистящая `s` даёт `ny`, губная `p` даёт губное `m`.\n\nВсе остальные согласные остаются: `baca` → `membaca`, `dengar` → `mendengar`, `jual` → `menjual`.\n\nОбратная задача важнее прямой. Увидел в тексте `menulis` — надо мгновенно достать корень `tulis`, иначе словарь не поможет. Увидел `mengirim` — корень `kirim`, а не `ngirim` и не `girim`.\n\nИсключение, которое стоит знать: заимствования часто сохраняют согласную — `memproses`, `mengkritik`. Правило KTSP на них не распространяется.",
+  "checklist": [
+    "Произвожу форму от k, t, s, p без раздумий",
+    "По форме с meN- восстанавливаю корень для словаря",
+    "Помню про заимствования: memproses, а не memroses"
+  ],
+  "drills": [
+    { "id": "d_A4_01", "type": "men_drill", "mode": "input", "prompt": "kirim", "answer": "mengirim", "time_limit_sec": 5, "explain_ru": "k выпадает, префикс meng-" },
+    { "id": "d_A4_02", "type": "men_drill", "mode": "input", "prompt": "tulis", "answer": "menulis", "time_limit_sec": 5, "explain_ru": "t выпадает, префикс men-" },
+    { "id": "d_A4_03", "type": "men_drill", "mode": "input", "prompt": "sewa", "answer": "menyewa", "time_limit_sec": 5, "explain_ru": "s выпадает, префикс meny-" },
+    { "id": "d_A4_04", "type": "men_drill", "mode": "input", "prompt": "pukul", "answer": "memukul", "time_limit_sec": 5, "explain_ru": "p выпадает, префикс mem-" },
+    { "id": "d_A4_05", "type": "men_drill", "mode": "input", "prompt": "tunggu", "answer": "menunggu", "time_limit_sec": 5 },
+    { "id": "d_A4_06", "type": "men_drill", "mode": "input", "prompt": "potong", "answer": "memotong", "time_limit_sec": 5 },
+    { "id": "d_A4_07", "type": "word_strip", "mode": "input",
+      "prompt": "menyapu", "prompt_ru": "Восстанови корень — как искать в словаре.",
+      "answer": "sapu", "accept": ["nyapu"],
+      "explain_ru": "meny- почти всегда означает выпавшую s. «Подметать»." },
+    { "id": "d_A4_08", "type": "word_strip", "mode": "input",
+      "prompt": "mengunci", "prompt_ru": "Восстанови корень.",
+      "answer": "kunci",
+      "explain_ru": "meng- перед гласной может означать и выпавшую k. Проверяй обе версии: unci не слово, kunci — «замок»." },
+    { "id": "d_A4_09", "type": "error_hunt", "mode": "choice",
+      "prompt": "memroses data",
+      "prompt_ru": "Найди ошибку.",
+      "options": ["memproses data", "memroses data", "mengproses data", "meroses data"],
+      "answer": "memproses data",
+      "explain_ru": "Заимствования сохраняют согласную: KTSP на них не распространяется." }
+  ]
+}

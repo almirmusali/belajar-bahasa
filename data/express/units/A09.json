@@ -1,0 +1,58 @@
+{
+  "id": "A9", "track": "affixes", "kind": "unit", "week": 7, "day": 3, "order": 29,
+  "title_ru": "-kan — бенефактив",
+  "subtitle_ru": "Сделать для кого-то другого",
+  "items": ["-kan"],
+  "theory_ru": "Вторая работа `-kan`: **сделать что-то для кого-то**.\n\n| Без -kan | С -kan |\n|---|---|\n| `membeli kopi` — купить кофе | `membelikan kopi` — купить кофе **кому-то** |\n| `membuat teh` — сделать чай | `membuatkan teh` — сделать чай **кому-то** |\n| `mengambil kunci` — взять ключ | `mengambilkan kunci` — подать ключ **кому-то** |\n\nВот здесь русскоязычный делает ошибку, которую слышно сразу:\n\n> ✗ `Saya membelikan kopi` — если ты купил кофе **себе**.\n\n`-kan` означает «для другого». Купил себе — `Saya beli kopi`. Купил жене — `Aku beliin kopi buat istri`.\n\nБенефициар ставится сразу после глагола или вводится через `buat` / `untuk`:\n\n> `Beliin aku kopi dong` — купи мне кофе.\n> `Aku bikinin teh buat kamu` — я сделаю тебе чай.\n\nПрактический критерий, чтобы не путать с каузативом A8: если после глагола стоит **человек** — это бенефактив, если **состояние или вещь** — каузатив.",
+  "checklist": [
+    "Не ставлю -kan, когда делаю что-то для себя",
+    "Прошу купить мне кофе через «Beliin aku kopi dong»",
+    "Различаю каузатив (сделать таким) и бенефактив (сделать для кого-то)"
+  ],
+  "drills": [
+    { "id": "d_A9_01", "type": "error_hunt", "mode": "choice",
+      "prompt": "Saya membelikan kopi.",
+      "prompt_ru": "Ты купил кофе себе. Что не так?",
+      "options": [
+        "Saya beli kopi",
+        "Saya membelikan kopi",
+        "Saya membeli kopi untuk saya",
+        "Saya belikan kopi sendiri"
+      ],
+      "answer": "Saya beli kopi",
+      "explain_ru": "-kan означает «для кого-то другого». Для себя — просто beli." },
+    { "id": "d_A9_02", "type": "particle_situation", "mode": "choice",
+      "prompt_ru": "Просишь друга купить тебе кофе, пока он в очереди.",
+      "options": ["Beliin aku kopi dong", "Beli aku kopi dong", "Aku beli kopi dong", "Membelikan kopi dong"],
+      "answer": "Beliin aku kopi dong",
+      "explain_ru": "Бенефактив плюс dong — самая частая бытовая просьба в языке.",
+      "audio": "Beliin aku kopi dong" },
+    { "id": "d_A9_03", "type": "men_drill", "mode": "input",
+      "prompt": "buat", "prompt_ru": "Бенефактив: meN- + корень + -kan", "answer": "membuatkan", "time_limit_sec": 7 },
+    { "id": "d_A9_04", "type": "men_drill", "mode": "input",
+      "prompt": "ambil", "prompt_ru": "Бенефактив: meN- + корень + -kan", "answer": "mengambilkan", "time_limit_sec": 7 },
+    { "id": "d_A9_05", "type": "particle_contrast", "mode": "choice",
+      "prompt_ru": "Который вариант означает «включить свет», а не «включить свет кому-то»?",
+      "options": ["menyalakan lampu", "menyalakan adik", "membelikan lampu", "menjalankan lampu"],
+      "answer": "menyalakan lampu",
+      "explain_ru": "После глагола вещь — значит каузатив. Был бы человек — бенефактив." },
+    { "id": "d_A9_06", "type": "register_swap", "mode": "input",
+      "prompt": "Saya akan membuatkan Anda teh",
+      "prompt_ru": "Скажи то же другу, разговорно.",
+      "answer": "Aku bikinin kamu teh",
+      "accept": ["aku bikinin teh buat kamu", "bikinin kamu teh", "aku bikinin kamu teh ya"],
+      "explain_ru": "membuatkan → bikinin: подмена корня плюс разговорный суффикс." },
+    { "id": "d_A9_07", "type": "root_expand", "mode": "fields",
+      "prompt": "beli",
+      "prompt_ru": "Собери формы от корня beli.",
+      "fields": [
+        { "label_ru": "покупать (книжно)", "answer": "membeli" },
+        { "label_ru": "купить кому-то (книжно)", "answer": "membelikan" },
+        { "label_ru": "покупатель", "answer": "pembeli" }
+      ] },
+    { "id": "d_A9_08", "type": "live_produce", "mode": "selfcheck", "speak_aloud": true,
+      "prompt_ru": "Ты идёшь в варунг. Спроси у коллеги, купить ли ему что-нибудь заодно.",
+      "answer": "Mau dibeliin sesuatu nggak?",
+      "explain_ru": "Пассив плюс бенефактив плюс -in: «тебе купить чего-нибудь?»" }
+  ]
+}

@@ -5,8 +5,9 @@
 // На выходе data/reading/<slug>.json:
 //   { slug, title, subtitle, chapters: [{ id, num, title, blocks }], appendix }
 //
-// Блок — абзац, цитата или разделитель. Абзац разбит на предложения, каждое
-// предложение — на сегменты (курсив/жирный) и токены (слово / не-слово).
+// Блок — абзац, цитата, подзаголовок, врезка-словарик или таблица. Абзац
+// разбит на предложения, каждое предложение — на сегменты (курсив/жирный)
+// и токены (слово / не-слово).
 // Разбор идёт один раз на сборке, фронтенд получает готовое дерево.
 //
 // Ключи для перевода и озвучки — сам текст предложения (translations.json)
@@ -22,6 +23,12 @@ const ROOT = path.join(__dirname, "..");
 const DIR = path.join(ROOT, "data", "reading");
 
 const slug = process.argv[2] ?? "kabut-di-lembang";
+
+// Язык книги. От него зависит и папка озвучки (public/audio/<lang>), и голос
+// Web Speech в читалке, когда MP3 нет. По умолчанию индонезийский — книг на
+// нём большинство, а исключения проще перечислить.
+const LANGS = { "ai-business-english": "en" };
+const lang = LANGS[slug] ?? "id";
 const src = path.join(DIR, `${slug}.md`);
 if (!fs.existsSync(src)) {
   console.error(`Нет файла ${path.relative(ROOT, src)}`);
@@ -71,7 +78,7 @@ function tokenize(text) {
 // Граница предложения: .!?… (возможно с закрывающей кавычкой/скобкой),
 // пробел, и дальше начало нового — заглавная буква, кавычка, тире, *, цифра.
 // Многоточие внутри реплики («Anu… saya…») не режем: после него строчная.
-const SENT_RE = /(?<=[.!?…]["»)]?)\s+(?=[«"(*A-ZÀ-Þ0-9—-])/g;
+const SENT_RE = /(?<=[.!?…]["»)]?)\s+(?=[«"(*A-ZÀ-Þ0-9А-ЯЁ—-])/g;
 
 function splitSentences(text) {
   return text
@@ -112,15 +119,41 @@ function makeVocabBox(title, raw) {
   return { kind: "v", title, items };
 }
 
+// Таблица главы («Key Vocabulary» в AI & Business English) — тоже готовый
+// справочник автора, а не проза: обе колонки уже с переводом, разбирать её
+// на предложения незачем.
+function makeTable(rows) {
+  const cells = (row) =>
+    row
+      .replace(/^\||\|$/g, "")
+      .split("|")
+      .map((c) => c.trim());
+  const [head, , ...body] = rows;
+  return { kind: "t", head: cells(head), rows: body.map(cells) };
+}
+
+// Абзац на кириллице внутри нерусской книги — обращение автора к читателю
+// («По-русски, коротко…» во вступлении английского ридера). Переводить его
+// некуда, а озвучивать надо русским голосом, а не английским, поэтому язык
+// такого абзаца проставляется отдельно.
+function paragraphLang(text) {
+  if (lang === "ru") return null;
+  const cyr = (text.match(/[А-Яа-яЁё]/g) ?? []).length;
+  const lat = (text.match(/[A-Za-z]/g) ?? []).length;
+  return cyr > lat ? "ru" : null;
+}
+
 function makeParagraph(raw, kind) {
   const segs = segments(raw);
   const text = segs.map((s) => s.t).join("");
 
   // Границы предложений ищем по чистому тексту: разметка на них не влияет.
+  // Подзаголовок дробить нельзя ни при каких условиях: «Hype vs. Reality»
+  // распалось бы надвое и переводилось бы двумя обрывками.
   const cuts = [];
   SENT_RE.lastIndex = 0;
   let m;
-  while ((m = SENT_RE.exec(text))) cuts.push([m.index, SENT_RE.lastIndex]);
+  if (kind !== "h") while ((m = SENT_RE.exec(text))) cuts.push([m.index, SENT_RE.lastIndex]);
 
   const ranges = [];
   let from = 0;
@@ -142,7 +175,8 @@ function makeParagraph(raw, kind) {
     }));
     sent.push({ id, seg });
   }
-  return { kind, sent };
+  const own = paragraphLang(text);
+  return own ? { kind, lang: own, sent } : { kind, sent };
 }
 
 // ------------------------------------------------------------------ разбор
@@ -169,8 +203,20 @@ let buf = [];
 let bufKind = "p";
 
 let boxTitle = "";
+let table = [];
+
+// Таблица набирается отдельным буфером: у неё нет ни предложений, ни
+// сегментов, поэтому через makeParagraph её вести нельзя.
+const flushTable = () => {
+  const rows = table;
+  table = [];
+  // Меньше трёх строк — это шапка без данных: рисовать нечего.
+  if (rows.length < 3 || !chapter) return;
+  chapter.blocks.push(makeTable(rows));
+};
 
 const flush = () => {
+  flushTable();
   const raw = buf.join(" ").replace(/\s+/g, " ").trim();
   const kind = bufKind;
   const title = boxTitle;
@@ -213,13 +259,23 @@ for (const line of lines) {
   }
   if (/^###\s+/.test(trimmed)) {
     flush();
-    if (!chapter) subtitle = trimmed.replace(/^###\s+/, "");
+    const heading = trimmed.replace(/^###\s+/, "");
+    // До первой главы `###` — подзаголовок книги; внутри главы — её
+    // подзаголовок-врезка («Key Vocabulary», «Why Now?»). Разбирается как
+    // проза: наведение на слово и перевод работают и в заголовке.
+    if (chapter) chapter.blocks.push(makeParagraph(heading, "h"));
+    else subtitle = heading;
     continue;
   }
   if (/^##\s+/.test(trimmed)) {
     const heading = trimmed.replace(/^##\s+/, "");
     const m = heading.match(/^(\d+)\.\s*(.+)$/);
     openChapter(m ? Number(m[1]) : null, m ? m[2] : heading);
+    continue;
+  }
+  if (/^\|.*\|$/.test(trimmed)) {
+    if (!table.length) flush();
+    table.push(trimmed);
     continue;
   }
   if (/^---+$/.test(trimmed)) {
@@ -261,6 +317,7 @@ const book = {
   slug,
   title,
   subtitle,
+  lang,
   chapters,
   appendix: appendixMd.trim(),
 };

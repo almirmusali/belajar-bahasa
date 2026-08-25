@@ -5,6 +5,7 @@ type Dict = Record<string, string>;
 const ru: Dict = {
   // Nav / header
   nav_lessons: "Уроки",
+  nav_express: "Экспресс",
   nav_vocab: "Словарь",
   nav_reading: "Чтение",
   switch_lang_title: "Переключить язык интерфейса",
@@ -192,6 +193,7 @@ const ru: Dict = {
 
 const id: Dict = {
   nav_lessons: "Pelajaran",
+  nav_express: "Ekspres",
   nav_vocab: "Kosakata",
   nav_reading: "Bacaan",
   switch_lang_title: "Ganti bahasa antarmuka",

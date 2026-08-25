@@ -1,6 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 
+import { audioFilename } from "./audio-url";
 import { isProse, type Block, type Book, type Chapter, type Glossary } from "./reading-types";
 
 export * from "./reading-types";
@@ -62,6 +63,29 @@ export function coverUrl(slug: string): string | null {
     }
   }
   return null;
+}
+
+/**
+ * Есть ли у книги студийная озвучка. Проверяем по первым предложениям: MP3
+ * называется хэшем текста, поэтому файл либо лежит на месте, либо его нет и
+ * читалка уйдёт на системный голос. Витрине это нужно, чтобы не обещать
+ * озвучку книге, которую ещё не прогоняли через Voicer.
+ */
+export function hasStudioAudio(book: Book): boolean {
+  const dir = path.join(process.cwd(), "public", "audio");
+  let checked = 0;
+  for (const ch of book.chapters) {
+    for (const b of ch.blocks) {
+      if (!isProse(b)) continue;
+      for (const s of b.sent) {
+        if (fs.existsSync(path.join(dir, audioFilename(s.id, b.lang ?? book.lang)))) {
+          return true;
+        }
+        if (++checked >= 20) return false;
+      }
+    }
+  }
+  return false;
 }
 
 /** Сколько предложений в главе — для оглавления и оценки объёма. */

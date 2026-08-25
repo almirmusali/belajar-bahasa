@@ -1,9 +1,19 @@
-import { audioUrl } from "./audio-url";
+import { audioUrl, type AudioLang } from "./audio-url";
+
+// Голос Web Speech по языку. Нужен только как запасной вариант: когда MP3
+// есть, системный синтезатор не участвует вовсе.
+const BCP47: Record<AudioLang, string> = {
+  id: "id-ID",
+  en: "en-US",
+  ru: "ru-RU",
+};
 
 /**
- * Произносит индонезийскую фразу: сначала пробует студийную озвучку
- * (предгенерированный MP3 в public/audio/), при её отсутствии — системный
- * голос Web Speech.
+ * Произносит фразу: сначала пробует студийную озвучку (предгенерированный
+ * MP3 в public/audio/<lang>/), при её отсутствии — системный голос Web Speech.
+ *
+ * Язык по умолчанию индонезийский — словарь и уроки других не знают; читалка
+ * передаёт язык книги, потому что «AI & Business English» английская.
  *
  * Возвращает функцию остановки — вызови её, если нужно прервать
  * воспроизведение (например, при уходе со страницы).
@@ -14,10 +24,11 @@ import { audioUrl } from "./audio-url";
  * FlashcardPlayer сюда не заходит: ему нужны промисы, три языка и
  * своя очередь озвучки, поэтому у него отдельная реализация.
  */
-export function speakId(
+export function speak(
   text: string,
-  opts?: { onEnd?: () => void },
+  opts?: { onEnd?: () => void; lang?: AudioLang },
 ): () => void {
+  const lang = opts?.lang ?? "id";
   let audio: HTMLAudioElement | null = null;
   let stopped = false;
 
@@ -55,13 +66,13 @@ export function speakId(
     const utter = new SpeechSynthesisUtterance(text);
     utter.onend = finish;
     utter.onerror = finish;
-    utter.lang = "id-ID";
+    utter.lang = BCP47[lang];
     utter.rate = 0.95;
     const voices = window.speechSynthesis.getVoices();
-    const idVoice = voices.find(
-      (v) => v.lang === "id-ID" || v.lang.startsWith("id"),
+    const match = voices.find(
+      (v) => v.lang === BCP47[lang] || v.lang.startsWith(lang),
     );
-    if (idVoice) utter.voice = idVoice;
+    if (match) utter.voice = match;
     window.speechSynthesis.speak(utter);
   };
 
@@ -70,7 +81,7 @@ export function speakId(
     window.speechSynthesis.cancel();
   }
 
-  const url = audioUrl(text, "id");
+  const url = audioUrl(text, lang);
   if (!url) {
     webSpeech();
     return stop;

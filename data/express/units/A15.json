@@ -1,0 +1,42 @@
+{
+  "id": "A15", "track": "affixes", "kind": "unit", "week": 10, "day": 1, "order": 35,
+  "title_ru": "ke-…-an — абстрактное существительное",
+  "subtitle_ru": "Продуктивная и предсказуемая рамка",
+  "items": ["ke-…-an"],
+  "theory_ru": "У `ke-…-an` две жизни. Сегодня первая, простая: **абстрактное существительное от прилагательного**.\n\n| Прилагательное | Существительное |\n|---|---|\n| `baik` хороший | `kebaikan` доброта |\n| `sehat` здоровый | `kesehatan` здоровье |\n| `bebas` свободный | `kebebasan` свобода |\n| `mungkin` возможный | `kemungkinan` возможность |\n| `aman` безопасный | `keamanan` безопасность |\n| `indah` красивый | `keindahan` красота |\n\nРамка продуктивная и предсказуемая: берёшь качество, обкладываешь с двух сторон — получаешь понятие. Ошибиться в форме почти невозможно, префикс `ke-` не меняется никогда.\n\nОтсюда же названия учреждений и сфер: `kedutaan` (посольство, от `duta` — посол), `kecamatan` (район), `kepolisian` (полиция как система).\n\nЭто книжный ряд: в разговоре чаще скажут прилагательным. Не `Kesehatan saya baik`, а `Aku sehat kok`. Но читать без этой рамки невозможно — она в каждой вывеске и в каждой новости.\n\nЗавтра — вторая жизнь `ke-…-an`, та, которой нет в учебниках и без которой не проживёшь неделю.",
+  "checklist": [
+    "Собираю абстрактное существительное от любого знакомого прилагательного",
+    "Узнаю kesehatan, keamanan, kebebasan в тексте",
+    "Помню, что в разговоре чаще идёт прилагательное, а не эта форма"
+  ],
+  "drills": [
+    { "id": "d_A15_01", "type": "men_drill", "mode": "input", "prompt": "baik", "prompt_ru": "ke- + корень + -an", "answer": "kebaikan", "time_limit_sec": 6 },
+    { "id": "d_A15_02", "type": "men_drill", "mode": "input", "prompt": "sehat", "prompt_ru": "ke- + корень + -an", "answer": "kesehatan", "time_limit_sec": 6 },
+    { "id": "d_A15_03", "type": "men_drill", "mode": "input", "prompt": "bebas", "prompt_ru": "ke- + корень + -an", "answer": "kebebasan", "time_limit_sec": 6 },
+    { "id": "d_A15_04", "type": "men_drill", "mode": "input", "prompt": "mungkin", "prompt_ru": "ke- + корень + -an", "answer": "kemungkinan", "time_limit_sec": 6 },
+    { "id": "d_A15_05", "type": "word_strip", "mode": "input",
+      "prompt": "keamanan", "prompt_ru": "Восстанови корень.", "answer": "aman",
+      "explain_ru": "«Безопасность». Слово с любой вывески у входа." },
+    { "id": "d_A15_06", "type": "word_strip", "mode": "choice",
+      "prompt": "kedutaan",
+      "prompt_ru": "Что это и от чего образовано?",
+      "options": ["Посольство, от duta — посол", "Дуэт, от dua — два", "Долг, от utang", "Обязанность, от wajib"],
+      "answer": "Посольство, от duta — посол",
+      "explain_ru": "Та же рамка даёт названия учреждений." },
+    { "id": "d_A15_07", "type": "register_swap", "mode": "choice",
+      "prompt": "Kesehatan saya baik",
+      "prompt_ru": "Как то же самое скажет человек в разговоре?",
+      "options": ["Aku sehat kok", "Kesehatanku baik ya", "Sehat saya baik", "Aku kesehatan baik"],
+      "answer": "Aku sehat kok",
+      "explain_ru": "Книжная рамка в быту уступает простому прилагательному с частицей.",
+      "audio": "Aku sehat kok" },
+    { "id": "d_A15_08", "type": "root_expand", "mode": "fields",
+      "prompt": "baik",
+      "prompt_ru": "Собери формы от корня baik.",
+      "fields": [
+        { "label_ru": "доброта", "answer": "kebaikan" },
+        { "label_ru": "лучший", "answer": "terbaik" },
+        { "label_ru": "лучше бы", "answer": "sebaiknya" }
+      ] }
+  ]
+}

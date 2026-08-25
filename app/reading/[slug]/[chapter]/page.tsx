@@ -81,6 +81,7 @@ export default async function ChapterPage({
             blocks={current.blocks}
             translations={translations}
             glossary={glossary}
+            lang={book.lang ?? "id"}
           />
         </div>
 

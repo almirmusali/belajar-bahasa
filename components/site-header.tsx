@@ -20,6 +20,9 @@ export function SiteHeader() {
           <Link href="/" className="hover:text-foreground">
             {t(locale, "nav_lessons")}
           </Link>
+          <Link href="/express" className="hover:text-foreground">
+            {t(locale, "nav_express")}
+          </Link>
           <Link href="/vocab" className="hover:text-foreground">
             {t(locale, "nav_vocab")}
           </Link>

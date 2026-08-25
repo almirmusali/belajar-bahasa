@@ -122,7 +122,8 @@ const ONLY_SET = flag("set", null);
 // Голос на книгу. У каждой книги свой рассказчик, поэтому голос привязан
 // к slug, а не к языку: kabut-di-lembang читает женский голос (рассказчица —
 // пожилая учительница), perahu-terakhir — свой. Нет книги в списке — берётся
-// общий LANG_VOICES.id. Переопределяется флагом --voice=<id>.
+// общий голос её языка из LANG_VOICES (так озвучивается ai-business-english).
+// Переопределяется флагом --voice=<id>.
 const READING_VOICES = {
   "kabut-di-lembang": "21m00Tcm4TlvDq8ikWAM",
   "perahu-terakhir": "52LXmmR0nGnIcDs1TL3f",
@@ -133,11 +134,19 @@ const READING_VOICES = {
 // батчи, ZIP, имена файлов по хэшу — работает ровно так же.
 const READING = flag("reading", has("reading") ? "kabut-di-lembang" : null);
 
+// Язык книги лежит в её .json (пишет scripts/build-reading.mjs). Читаем его
+// заранее: от языка зависят и папка public/audio/<lang>, и голос по умолчанию.
+function readingLang(slug) {
+  const file = path.join(ROOT, "data", "reading", `${slug}.json`);
+  if (!fs.existsSync(file)) return "id";
+  return JSON.parse(fs.readFileSync(file, "utf8")).lang ?? "id";
+}
+
 const ALL_LANGS = ["id", "ru", "en"];
 const langArg = flag("lang", null);
-// Книга на индонезийском — русского и английского перевода вслух не бывает.
+// У книги один язык — её собственный: перевода вслух не бывает.
 const LANGS = READING
-  ? ["id"]
+  ? [readingLang(READING)]
   : langArg
     ? langArg.split(",").map((s) => s.trim())
     : ALL_LANGS.filter((l) => LANG_VOICES[l]);
@@ -242,7 +251,7 @@ function collectReadingTexts(slug) {
       for (const s of b.sent ?? []) {
         if (!s.id || seen.has(s.id)) continue;
         seen.add(s.id);
-        out.push({ text: s.id, lang: "id", kind: "sentence" });
+        out.push({ text: s.id, lang: book.lang ?? "id", kind: "sentence" });
       }
     }
   }

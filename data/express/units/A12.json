@@ -1,0 +1,50 @@
+{
+  "id": "A12", "track": "affixes", "kind": "unit", "week": 8, "day": 3, "order": 32,
+  "title_ru": "-an — результат и объект",
+  "subtitle_ru": "Самый лёгкий суффикс и его разговорная жизнь",
+  "items": ["-an"],
+  "theory_ru": "`-an` превращает действие в его **результат или объект**.\n\n| Корень | С -an | Значение |\n|---|---|---|\n| `makan` есть | `makanan` | еда |\n| `tulis` писать | `tulisan` | надпись, текст |\n| `baca` читать | `bacaan` | чтение, текст |\n| `main` играть | `mainan` | игрушка |\n| `kirim` посылать | `kiriman` | посылка |\n| `atur` устраивать | `aturan` | правило |\n\nВторое значение — **собирательность и регулярность**: `bulanan` (ежемесячный), `harian` (ежедневный), `satuan` (поштучно), `jalanan` (улицы вообще).\n\nТретье — разговорная замена длинных именных форм: `pekerjaan` → `kerjaan`, `penjualan` → `jualan`. Смысл тот же, слой другой: `kerjaan` — «работёнка, дела», в чате уместно, в договоре нет.\n\nЗапомни отдельно `masukan` — «замечание, обратная связь», от `masuk` (входить). Слово, которое постоянно нужно в работе: `Ada masukan buat aku?`",
+  "checklist": [
+    "Собираю существительное на -an от знакомого корня",
+    "Различаю pekerjaan (нейтрально) и kerjaan (разговорно)",
+    "Прошу обратную связь через «Ada masukan?»"
+  ],
+  "drills": [
+    { "id": "d_A12_01", "type": "men_drill", "mode": "input", "prompt": "makan", "prompt_ru": "Добавь -an", "answer": "makanan", "time_limit_sec": 5 },
+    { "id": "d_A12_02", "type": "men_drill", "mode": "input", "prompt": "tulis", "prompt_ru": "Добавь -an", "answer": "tulisan", "time_limit_sec": 5 },
+    { "id": "d_A12_03", "type": "men_drill", "mode": "input", "prompt": "kirim", "prompt_ru": "Добавь -an", "answer": "kiriman", "time_limit_sec": 5 },
+    { "id": "d_A12_04", "type": "word_strip", "mode": "choice",
+      "prompt": "Ada masukan buat aku?",
+      "prompt_ru": "О чём просит человек?",
+      "options": ["О замечаниях и обратной связи", "О входе в помещение", "О доходе", "О посылке"],
+      "answer": "О замечаниях и обратной связи",
+      "explain_ru": "masuk + -an. Слово, которое нужно на любой работе.",
+      "audio": "Ada masukan buat aku?" },
+    { "id": "d_A12_05", "type": "particle_contrast", "mode": "choice",
+      "prompt_ru": "Пишешь коллеге в чат, что сегодня завал по делам.",
+      "options": ["Banyak kerjaan hari ini", "Banyak pekerjaan hari ini", "Banyak bekerja hari ini", "Banyak pekerja hari ini"],
+      "answer": "Banyak kerjaan hari ini",
+      "explain_ru": "Оба слова верны; -an без pe- — разговорный слой." },
+    { "id": "d_A12_06", "type": "word_strip", "mode": "fields",
+      "prompt": "jalanan",
+      "prompt_ru": "Разбери слово.",
+      "hint_ru": "Аффикс пиши как -an",
+      "fields": [
+        { "label_ru": "Корень", "answer": "jalan" },
+        { "label_ru": "Аффикс", "answer": "-an", "accept": ["an"] }
+      ],
+      "explain_ru": "«Улицы, дорожное»: Jalanan macet banget." },
+    { "id": "d_A12_07", "type": "root_expand", "mode": "fields",
+      "prompt": "tulis",
+      "prompt_ru": "Собери формы от корня tulis.",
+      "fields": [
+        { "label_ru": "писать (книжно)", "answer": "menulis" },
+        { "label_ru": "надпись, текст", "answer": "tulisan" },
+        { "label_ru": "автор", "answer": "penulis" }
+      ] },
+    { "id": "d_A12_08", "type": "live_produce", "mode": "selfcheck", "speak_aloud": true,
+      "prompt_ru": "Скажи коллеге: сегодня много дел, на дорогах пробки, а еда в новом месте отличная.",
+      "answer": "Banyak kerjaan hari ini, jalanan macet, tapi makanan di tempat baru enak banget",
+      "explain_ru": "Три слова на -an в одной фразе — и все три бытовые." }
+  ]
+}
