@@ -12,6 +12,7 @@ import {
 } from "@/lib/reading-types";
 import type { AudioLang } from "@/lib/audio-url";
 import { speak } from "@/lib/speak";
+import { track } from "@/lib/track";
 import {
   chapterFraction,
   readBook,
@@ -63,6 +64,21 @@ const HINT_KEY = "belajar:reading:hint-done";
 // на последнем абзаце, который ушёл выше неё. Возврат к закладке ставит абзац
 // на эту же строку — иначе закладка при каждом открытии уползала бы назад.
 const READ_LINE = 160;
+
+// Слов в абзаце — для аналитики чтения: события несут «прочитано N слов»,
+// чтобы админка могла считать плотность подглядываний на сто слов.
+function proseWords(b: Block): number {
+  if (!isProse(b)) return 0;
+  return b.sent.reduce(
+    (a, s) =>
+      a +
+      s.seg.reduce(
+        (x, g) => x + g.tk.reduce((y, t) => y + (t.w ? 1 : 0), 0),
+        0,
+      ),
+    0,
+  );
+}
 
 export function Reader({
   slug,
@@ -128,6 +144,41 @@ export function Reader({
 
   useEffect(() => () => stopRef.current?.(), []);
 
+  // Время чтения для аналитики: тикаем, пока вкладка видима, и раз в
+  // ~полминуты отправляем накопленное с пометкой, включён ли «Перевод
+  // везде», — так админка узнаёт долю времени, прожитого в переводе.
+  // Хвост досылается при сворачивании и уходе: track() на скрытой странице
+  // шлёт немедленно (см. lib/track.ts).
+  const showAllRef = useRef(showAll);
+  showAllRef.current = showAll;
+  useEffect(() => {
+    let acc = 0;
+    const dump = () => {
+      if (acc <= 0) return;
+      track("read_time", slug, chapter, {
+        seconds: acc,
+        show_all: showAllRef.current,
+      });
+      acc = 0;
+    };
+    const id = setInterval(() => {
+      if (document.visibilityState !== "visible") return;
+      acc += 5;
+      if (acc >= 30) dump();
+    }, 5000);
+    const onHide = () => {
+      if (document.visibilityState === "hidden") dump();
+    };
+    window.addEventListener("pagehide", dump);
+    document.addEventListener("visibilitychange", onHide);
+    return () => {
+      clearInterval(id);
+      dump();
+      window.removeEventListener("pagehide", dump);
+      document.removeEventListener("visibilitychange", onHide);
+    };
+  }, [slug, chapter]);
+
   // Пока страница не встала на закладку, писать в хранилище нельзя: позиция,
   // измеренная по дороге, затёрла бы её началом главы. Храним не флаг, а
   // время, с которого запись разрешена: флаг сбрасывался бы при повторном
@@ -139,6 +190,10 @@ export function Reader({
   // закончил в прошлый заход, — иначе она убегала бы вниз вместе с ним.
   useEffect(() => {
     touchChapter(slug, chapter);
+    track("chapter_open", slug, chapter, {
+      blocks: blocks.length,
+      words: blocks.reduce((a, b) => a + proseWords(b), 0),
+    });
     const saved = readBook(slug);
     // Дочитанную главу открывают, чтобы перечитать, — тащить читателя в её
     // конец незачем, закладки в ней тоже нет.
@@ -179,6 +234,15 @@ export function Reader({
     let timer: ReturnType<typeof setTimeout> | null = null;
     let pending: { block: number; done: boolean } | null = null;
 
+    // Сколько слов прочитано к каждому абзацу включительно — уезжает в
+    // аналитику вместе с позицией.
+    const wordsUpTo: number[] = [];
+    let acc = 0;
+    for (const b of blocks) {
+      acc += proseWords(b);
+      wordsUpTo.push(acc);
+    }
+
     const flush = () => {
       if (timer) {
         clearTimeout(timer);
@@ -186,6 +250,12 @@ export function Reader({
       }
       if (!pending) return;
       savePosition(slug, chapter, pending.block, blocks.length, pending.done);
+      track("read_progress", slug, chapter, {
+        block: pending.block,
+        blocks: blocks.length,
+        done: pending.done,
+        words_read: wordsUpTo[pending.block] ?? 0,
+      });
       pending = null;
     };
 
@@ -243,6 +313,11 @@ export function Reader({
     [glossary],
   );
 
+  // Наведение мыши дёргает showWord на каждый заход курсора: считать каждый
+  // повтор подглядыванием нечестно, поэтому одно и то же слово в течение
+  // нескольких секунд учитывается один раз.
+  const lastLookup = useRef<{ word: string; t: number } | null>(null);
+
   const showWord = useCallback(
     (el: HTMLElement) => {
       const word = el.dataset.w;
@@ -251,6 +326,11 @@ export function Reader({
         setPopup(null);
         return;
       }
+      const seen = lastLookup.current;
+      if (!seen || seen.word !== word || Date.now() - seen.t > 3000) {
+        track("word_lookup", slug, chapter, { word: word.toLowerCase() });
+      }
+      lastLookup.current = { word, t: Date.now() };
       const r = el.getBoundingClientRect();
       setPopup({
         word,
@@ -260,7 +340,7 @@ export function Reader({
         y: r.top,
       });
     },
-    [lookup],
+    [lookup, slug, chapter],
   );
 
   // Слов в главе сотни: вешать обработчик на каждый span — лишняя работа и
@@ -302,8 +382,11 @@ export function Reader({
   }, [popup]);
 
   // Ключ — индекс абзаца в главе: перевод раскрывается целым абзацем.
-  const toggle = (bi: number) =>
-    setOpen((prev) => ({ ...prev, [bi]: !(prev[bi] ?? showAll) }));
+  const toggle = (bi: number) => {
+    const next = !(open[bi] ?? showAll);
+    track("par_translate", slug, chapter, { block: bi, open: next });
+    setOpen((prev) => ({ ...prev, [bi]: next }));
+  };
 
   const stopSpeaking = () => {
     queueRef.current = [];
@@ -347,6 +430,7 @@ export function Reader({
         <button
           type="button"
           onClick={() => {
+            track("show_all", slug, chapter, { on: !showAll });
             setShowAll((v) => !v);
             setOpen({});
           }}
