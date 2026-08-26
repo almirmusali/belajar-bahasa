@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 900" width="600" height="900" role="img" aria-label="Обложка книги «The Marauders»">
+  <title>THE MARAUDERS</title>
+  <defs>
+    <linearGradient id="night" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#090d1f"/>
+      <stop offset="45%" stop-color="#141b3a"/>
+      <stop offset="78%" stop-color="#26304f"/>
+      <stop offset="100%" stop-color="#39415c"/>
+    </linearGradient>
+    <radialGradient id="moonglow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#f4ecd0" stop-opacity=".9"/>
+      <stop offset="55%" stop-color="#e8ddb8" stop-opacity=".28"/>
+      <stop offset="100%" stop-color="#e8ddb8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="moonface" cx="42%" cy="38%" r="70%">
+      <stop offset="0%" stop-color="#fdf9e8"/>
+      <stop offset="70%" stop-color="#f0e6c2"/>
+      <stop offset="100%" stop-color="#ddd0a4"/>
+    </radialGradient>
+    <linearGradient id="hillfade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#05070f"/>
+      <stop offset="100%" stop-color="#0b0f1e"/>
+    </linearGradient>
+    <filter id="soft" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
+  </defs>
+
+  <rect width="600" height="900" fill="url(#night)"/>
+
+  <!-- Звёзды -->
+  <g fill="#e9ecff">
+    <circle cx="62" cy="88" r="1.6" opacity=".8"/><circle cx="128" cy="200" r="1.2" opacity=".6"/>
+    <circle cx="88" cy="330" r="1.4" opacity=".7"/><circle cx="190" cy="120" r="1.1" opacity=".5"/>
+    <circle cx="256" cy="72" r="1.5" opacity=".7"/><circle cx="332" cy="150" r="1" opacity=".5"/>
+    <circle cx="540" cy="96" r="1.6" opacity=".8"/><circle cx="500" cy="210" r="1.2" opacity=".6"/>
+    <circle cx="566" cy="320" r="1.3" opacity=".6"/><circle cx="422" cy="60" r="1.2" opacity=".6"/>
+    <circle cx="36" cy="470" r="1.2" opacity=".5"/><circle cx="574" cy="450" r="1.1" opacity=".5"/>
+    <circle cx="152" cy="420" r="1" opacity=".45"/><circle cx="470" cy="380" r="1" opacity=".45"/>
+  </g>
+
+  <!-- Полная луна -->
+  <circle cx="420" cy="250" r="170" fill="url(#moonglow)"/>
+  <circle cx="420" cy="250" r="86" fill="url(#moonface)"/>
+  <g fill="#cabf96" opacity=".5">
+    <circle cx="392" cy="228" r="13"/><circle cx="446" cy="272" r="9"/>
+    <circle cx="430" cy="218" r="6"/><circle cx="398" cy="284" r="7"/>
+  </g>
+
+  <!-- Замок на дальнем холме -->
+  <g fill="#0e1329">
+    <path d="M0 560 Q120 500 240 545 Q330 505 430 540 Q520 515 600 535 L600 640 L0 640 Z"/>
+    <g>
+      <rect x="96" y="430" width="26" height="120"/>
+      <path d="M92 430 L109 396 L126 430 Z"/>
+      <rect x="150" y="466" width="70" height="86"/>
+      <rect x="216" y="418" width="22" height="130"/>
+      <path d="M212 418 L227 386 L242 418 Z"/>
+      <rect x="252" y="480" width="56" height="72"/>
+      <rect x="304" y="440" width="24" height="110"/>
+      <path d="M300 440 L316 404 L332 440 Z"/>
+    </g>
+  </g>
+  <!-- Окна замка -->
+  <g fill="#f4d98a" opacity=".85">
+    <rect x="104" y="452" width="4" height="7"/><rect x="112" y="470" width="4" height="7"/>
+    <rect x="162" y="480" width="5" height="8"/><rect x="178" y="496" width="5" height="8"/><rect x="198" y="482" width="5" height="8"/>
+    <rect x="222" y="440" width="4" height="7"/><rect x="228" y="462" width="4" height="7"/>
+    <rect x="262" y="494" width="5" height="8"/><rect x="284" y="506" width="5" height="8"/>
+    <rect x="310" y="458" width="4" height="7"/><rect x="318" y="478" width="4" height="7"/>
+  </g>
+
+  <!-- Ближний холм -->
+  <path d="M0 730 Q140 640 300 668 Q460 640 600 700 L600 900 L0 900 Z" fill="url(#hillfade)"/>
+
+  <!-- Четверо на холме: олень, пёс, волк, крыса -->
+  <g fill="#04060d">
+    <!-- Олень (Prongs) -->
+    <g transform="translate(120,586)">
+      <path d="M28 96 L28 62 Q26 44 40 38 L74 36 Q88 38 90 52 L92 96 L86 96 L84 66 L46 66 L44 96 L38 96 L40 66 L34 66 L34 96 Z"/>
+      <path d="M40 40 L34 22 Q33 16 38 14 L40 22 L46 36 Z"/>
+      <path d="M36 20 Q26 16 24 6 M36 20 Q40 8 34 2 M38 24 Q28 26 20 20" stroke="#04060d" stroke-width="3.4" fill="none" stroke-linecap="round"/>
+      <path d="M37 21 Q46 10 44 0 M37 21 Q50 18 56 10" stroke="#04060d" stroke-width="3.4" fill="none" stroke-linecap="round"/>
+      <ellipse cx="64" cy="50" rx="26" ry="15"/>
+      <path d="M88 44 L96 50 L88 54 Z"/>
+    </g>
+    <!-- Волк (Moony), морда к луне -->
+    <g transform="translate(268,610)">
+      <path d="M20 72 L20 46 Q20 30 36 26 L58 26 Q72 28 74 42 L76 72 L70 72 L68 48 L36 48 L34 72 L28 72 L30 48 L26 48 L26 72 Z"/>
+      <path d="M36 28 Q30 18 36 8 L48 -6 L52 4 L58 0 Q62 12 54 20 Q48 26 42 28 Z"/>
+      <path d="M60 26 Q72 24 76 32 L70 40 Z"/>
+    </g>
+    <!-- Пёс (Padfoot) -->
+    <g transform="translate(392,606)">
+      <path d="M18 76 L18 50 Q18 34 34 30 L62 30 Q76 32 78 46 L80 76 L74 76 L72 52 L38 52 L36 76 L30 76 L32 52 L24 52 L24 76 Z"/>
+      <path d="M30 34 Q22 30 20 20 Q20 10 30 8 L44 10 Q52 12 52 22 Q52 30 44 32 Z"/>
+      <path d="M24 12 L18 0 L30 6 Z"/>
+      <path d="M40 12 L40 0 L48 8 Z"/>
+      <path d="M78 50 Q90 42 94 30" stroke="#04060d" stroke-width="6" fill="none" stroke-linecap="round"/>
+    </g>
+    <!-- Крыса (Wormtail) -->
+    <g transform="translate(496,668)">
+      <ellipse cx="22" cy="16" rx="20" ry="11"/>
+      <circle cx="44" cy="10" r="8"/>
+      <circle cx="46" cy="3" r="3"/>
+      <path d="M52 10 L58 12 L52 14 Z"/>
+      <path d="M4 18 Q-14 22 -22 14" stroke="#04060d" stroke-width="2.6" fill="none" stroke-linecap="round"/>
+    </g>
+  </g>
+
+  <!-- Мягкая дымка над холмом -->
+  <path d="M0 738 Q150 700 300 716 Q450 700 600 730 L600 760 Q440 730 300 744 Q150 732 0 762 Z" fill="#8f9ec0" opacity=".12" filter="url(#soft)"/>
+
+  <!-- Название -->
+  <g text-anchor="middle" font-family="Georgia, 'Times New Roman', serif">
+    <text x="300" y="806" fill="#e9e4cf" font-size="58" letter-spacing="6" font-weight="bold">THE</text>
+    <text x="300" y="862" fill="#e9e4cf" font-size="58" letter-spacing="6" font-weight="bold">MARAUDERS</text>
+  </g>
+  <g text-anchor="middle" font-family="Georgia, 'Times New Roman', serif">
+    <text x="300" y="748" fill="#aeb6d4" font-size="19" letter-spacing="3">FOUR FRIENDS · ONE WAR · ONE TRAITOR</text>
+  </g>
+</svg>

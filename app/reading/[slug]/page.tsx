@@ -119,7 +119,9 @@ export default async function BookPage({
             <span>
               <span className="font-medium">Словарь книги</span>
               <span className="block text-xs text-muted-foreground">
-                Частицы, разговорные формы, сунданские слова, грамматика
+                {book.lang === "en"
+                  ? "Мир книги, главные даты, как читать"
+                  : "Частицы, разговорные формы, сунданские слова, грамматика"}
               </span>
             </span>
           </Link>

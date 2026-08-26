@@ -26,11 +26,21 @@ export function renderMarkdown(md: string): string {
   const out: string[] = [];
   let para: string[] = [];
   let quote: string[] = [];
+  let list: string[] = [];
 
   const flushPara = () => {
     if (!para.length) return;
     out.push(`<p>${inline(para.join(" "))}</p>`);
     para = [];
+  };
+  const flushList = () => {
+    if (!list.length) return;
+    out.push(
+      `<ul class="my-3 list-disc space-y-1.5 pl-5">${list
+        .map((item) => `<li>${inline(item)}</li>`)
+        .join("")}</ul>`,
+    );
+    list = [];
   };
   const flushQuote = () => {
     if (!quote.length) return;
@@ -44,6 +54,7 @@ export function renderMarkdown(md: string): string {
   const flush = () => {
     flushPara();
     flushQuote();
+    flushList();
   };
 
   for (let i = 0; i < lines.length; i++) {
@@ -100,11 +111,22 @@ export function renderMarkdown(md: string): string {
 
     if (line.startsWith(">")) {
       flushPara();
+      flushList();
       quote.push(line.replace(/^>\s?/, ""));
       continue;
     }
 
+    // Пункт списка. Перенос-продолжение пункта в наших файлах не встречается:
+    // каждый пункт — одна строка.
+    if (/^[-*]\s+/.test(line)) {
+      flushPara();
+      flushQuote();
+      list.push(line.replace(/^[-*]\s+/, ""));
+      continue;
+    }
+
     flushQuote();
+    flushList();
     para.push(line);
   }
   flush();
