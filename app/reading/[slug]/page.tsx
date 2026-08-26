@@ -12,6 +12,9 @@ import {
   getTranslations,
 } from "@/lib/reading";
 
+// Только собранные на билде страницы — рантайм-рендера нет (см. next.config.mjs).
+export const dynamicParams = false;
+
 export function generateStaticParams() {
   return bookSlugs().map((slug) => ({ slug }));
 }

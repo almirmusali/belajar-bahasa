@@ -13,6 +13,10 @@ import {
   getTranslations,
 } from "@/lib/reading";
 
+// Только собранные на билде главы: рантайм-рендера нет, поэтому файлы книг
+// и озвучки можно не таскать в serverless-функцию (см. next.config.mjs).
+export const dynamicParams = false;
+
 export function generateStaticParams() {
   return bookSlugs().flatMap((slug) => {
     const book = getBook(slug);

@@ -5,6 +5,9 @@ import { SiteHeader } from "@/components/site-header";
 import { bookSlugs, getBook } from "@/lib/reading";
 import { renderMarkdown } from "@/lib/markdown";
 
+// Только собранные на билде страницы — рантайм-рендера нет (см. next.config.mjs).
+export const dynamicParams = false;
+
 export function generateStaticParams() {
   return bookSlugs().map((slug) => ({ slug }));
 }
