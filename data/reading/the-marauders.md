@@ -6,17 +6,27 @@
 
 ---
 
-## For the Reader
+## Читателю
 
-This book is written in easy English. The sentences are short. The words are simple. The same words come back many times — that is not a mistake. When you see a word five times, the word stays in your head.
+Вы знаете, чем кончилась эта история. Хэллоуин 1981 года, разрушенный дом в Годриковой Впадине, мальчик со шрамом. Об этом написаны семь книг.
 
-This is a story about the world of Harry Potter. It happened twenty years before Harry came to Hogwarts. You will meet his father, James Potter, and his three best friends. If you know the books about Harry, you know how this story ends. But you do not know how it began. Nobody wrote that story. This book is a fan story — it is written with love for that world, and it is free.
+Но вы не знаете, как она началась. Роулинг так и не написала историю Мародёров — четырёх мальчишек, которые встретились в поезде в 1971 году и поклялись, что их дружбу не разрушит ничто. Джеймс. Сириус. Римус. Питер. Один из них — предатель, и вы с первой страницы знаете его имя. В этом и есть жестокость этой книги: вы будете смотреть, как он смеётся с друзьями, ест их сладости, плачет на их свадьбах, — и искать момент, где всё сломалось. Это детектив наоборот: не «кто убил», а «как хороший мальчик дошёл до этого». Рассказывает Римус Люпин — единственный, кто остался и узнал правду.
 
-Some words in this book are "magic words": *wand, spell, wizard, werewolf, moon*. You will see them many times. Point at any word — you will see the Russian translation. At the end of the book there is a dictionary.
+**Как читать эту книгу.** Она построена по принципу метода Ильи Франка: художественный текст, в котором перевод всегда на расстоянии одного касания, — только вместо вставок в скобках здесь живые подсказки читалки.
 
-One more thing. This story is told by Remus Lupin. He is old now. He lost all his friends in one terrible war. For twelve years he believed a lie. Now he knows the truth, and he wants to tell it — slowly, from the first day to the last night.
+**Шаг 1.** Читай абзац целиком, не останавливаясь. Незнакомые слова пропускай — смысл соберётся из контекста. Это главное правило метода: мозг учит язык на потоке текста, а не на зубрёжке.
 
-Do not read this book fast. Read it like Remus tells it: one evening, one chapter, one cup of tea.
+**Шаг 2.** Только если без слова никак — наведи на него (на телефоне тапни). Появится перевод и словарная форма: *ran → бежали, от run*. Переведено каждое слово книги, все 2700 форм.
+
+**Шаг 3.** Дочитал абзац — нажми кнопку перевода рядом с ним и сверься. Понял правильно? Перечитай абзац ещё раз по-английски, уже зная смысл. Это второе правило Франка: одно и то же место дважды — сначала с усилием, потом свободно.
+
+**Шаг 4.** Не выписывай слова столбиком. Ключевые слова книги — *secret, trust, betray, moon, brave* — повторяются десятки раз намеренно: к середине книги они станут твоими без всякой зубрёжки. Врезка «New Words» в конце главы покажет, что глава тебе подарила. Самое ценное отмечай звёздочкой — из «Избранного» слова учатся карточками в разделе «Словарь».
+
+**Шаг 5.** Включи озвучку абзаца и слушай, следя глазами. Читай каждый день по одной-две главы — закладка запомнит место, а полоска прогресса покажет, сколько позади.
+
+И последнее. Книга растёт вместе с тобой. Часть первая написана самым простым английским — короткие фразы, самые частые слова. К третьей части предложения становятся длиннее и глубже: это сделано нарочно, ты поднимаешься по ступеням незаметно для себя. Если долистаешь до «Самой длинной ночи» — ты уже читаешь настоящую английскую прозу. Без словаря. Проверь сам.
+
+Открывай первую главу. Поезд уже отходит.
 
 ---
 

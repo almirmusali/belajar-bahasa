@@ -333,9 +333,11 @@ export function Reader({
     ? Math.min(100, Math.round(((at + 1) / blocks.length) * 100))
     : 0;
 
+  // Абзацы на языке читателя (b.lang === "ru") переводов не имеют по
+  // замыслу — в счётчик непереведённого они не входят.
   const translated = Object.keys(translations).length;
   const total = blocks.reduce(
-    (a, b) => a + (isProse(b) ? b.sent.length : 0),
+    (a, b) => a + (isProse(b) && b.lang !== "ru" ? b.sent.length : 0),
     0,
   );
 
