@@ -41,7 +41,8 @@ export default function LoginPage() {
       setPending(false);
       return;
     }
-    router.push("/account");
+    const next = new URLSearchParams(window.location.search).get("next");
+    router.push(next && next.startsWith("/") ? next : "/account");
     router.refresh();
   }
 

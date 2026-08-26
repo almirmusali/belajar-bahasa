@@ -189,6 +189,31 @@ const ru: Dict = {
   stats_h: "ч",
   stats_min: "мин",
   stats_sec: "с",
+
+  // Landing
+  landing_title: "Индонезийский — с нуля и по-русски",
+  landing_subtitle:
+    "Уроки по методу «Полиглота», словарь-карточки с озвучкой, книги с переводом каждого слова и тренажёр частиц. Прогресс привязан к аккаунту и синхронизируется между устройствами.",
+  landing_cta_signup: "Создать аккаунт",
+  landing_cta_login: "Войти",
+  landing_free_note: "Бесплатно. Нужна только почта.",
+  landing_locked_badge: "После регистрации",
+  landing_feat_lessons_title: "Уроки",
+  landing_feat_lessons_text:
+    "18 коротких уроков по образцу «Полиглота»: грамматические матрицы и устные упражнения — от нуля до уверенной речи.",
+  landing_feat_vocab_title: "Словарь",
+  landing_feat_vocab_text:
+    "Карточки в стиле Quizlet: сотни слов по темам, автолистание и озвучка. Открыт без регистрации — попробуй прямо сейчас.",
+  landing_feat_reading_title: "Книги",
+  landing_feat_reading_text:
+    "Читалка с настоящими книгами: перевод любого слова по наведению, перевод и озвучка целых абзацев.",
+  landing_feat_express_title: "Экспресс",
+  landing_feat_express_text:
+    "Частицы и аффиксы — то, что делает речь живой: 32 юнита и почти 300 упражнений с озвучкой.",
+  landing_feat_progress_title: "Прогресс",
+  landing_feat_progress_text:
+    "Выученные слова и пройденные уроки хранятся в аккаунте и доступны с любого устройства.",
+  landing_try_vocab: "Попробовать словарь",
 };
 
 const id: Dict = {
@@ -375,6 +400,31 @@ const id: Dict = {
   stats_h: "j",
   stats_min: "mnt",
   stats_sec: "d",
+
+  // Landing
+  landing_title: "Bahasa Indonesia — dari nol, dalam bahasa Rusia",
+  landing_subtitle:
+    "Pelajaran ala «Poliglot», kartu kosakata bersuara, buku dengan terjemahan setiap kata, dan latihan partikel. Progres tersimpan di akun dan tersinkron antar perangkat.",
+  landing_cta_signup: "Buat akun",
+  landing_cta_login: "Masuk",
+  landing_free_note: "Gratis. Cukup pakai email.",
+  landing_locked_badge: "Setelah daftar",
+  landing_feat_lessons_title: "Pelajaran",
+  landing_feat_lessons_text:
+    "18 pelajaran singkat ala «Poliglot»: matriks tata bahasa dan latihan lisan — dari nol sampai lancar bicara.",
+  landing_feat_vocab_title: "Kosakata",
+  landing_feat_vocab_text:
+    "Kartu gaya Quizlet: ratusan kata per topik, putar otomatis, dan suara. Terbuka tanpa daftar — coba sekarang.",
+  landing_feat_reading_title: "Buku",
+  landing_feat_reading_text:
+    "Pembaca buku sungguhan: arahkan kursor untuk terjemahan kata, terjemahan dan suara per paragraf.",
+  landing_feat_express_title: "Ekspres",
+  landing_feat_express_text:
+    "Partikel dan imbuhan — yang membuat bahasa terasa hidup: 32 unit dan hampir 300 latihan bersuara.",
+  landing_feat_progress_title: "Progres",
+  landing_feat_progress_text:
+    "Kata yang dihafal dan pelajaran yang selesai tersimpan di akun dan bisa diakses dari perangkat mana pun.",
+  landing_try_vocab: "Coba kosakata",
 };
 
 const dicts: Record<Locale, Dict> = { ru, id };

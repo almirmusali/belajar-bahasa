@@ -28,6 +28,23 @@ export async function updateSession(request: NextRequest) {
     },
   });
 
-  await supabase.auth.getUser();
+  const {
+    data: { user },
+  } = await supabase.auth.getUser();
+
+  // Книги и уроки — только для вошедших. Словарь и «Экспресс» открыты
+  // как витрина. Без настроенного Supabase (анонимный режим) гейта нет:
+  // выше уже вышли из функции.
+  const { pathname } = request.nextUrl;
+  const isProtected =
+    pathname.startsWith("/lessons") || pathname.startsWith("/reading");
+  if (!user && isProtected) {
+    const url = request.nextUrl.clone();
+    url.pathname = "/login";
+    url.search = "";
+    url.searchParams.set("next", pathname);
+    return NextResponse.redirect(url);
+  }
+
   return supabaseResponse;
 }
