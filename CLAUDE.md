@@ -10,8 +10,9 @@ function` в webpack-runtime, а dev после сборки сыплет ENOENT
 ## Порт 3000 бывает занят чужим проектом
 
 На этой машине на :3000 может висеть Remotion Studio из `reels-subtitles`.
-Dev-сервер поднимать через `.claude/launch.json` (`belajar-dev`) — он сам
-уходит на свободный порт.
+Dev-сервер поднимать через `.claude/launch.json` (`belajar-bahasa`, autoPort) —
+он сам уходит на свободный порт. Файл launch.json уже существует — не
+перезаписывать, а править.
 
 ## Аналитика читалки
 
