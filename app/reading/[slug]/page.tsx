@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import { ArrowLeft, BookMarked } from "lucide-react";
 import { SiteHeader } from "@/components/site-header";
 import { ActivityTracker } from "@/components/activity-tracker";
-import { ResumeReading } from "@/components/reading-position";
+import { ChapterMark, ResumeReading } from "@/components/reading-position";
 import {
   bookSlugs,
   chapterSize,
@@ -26,7 +26,9 @@ export default async function BookPage({
   if (!book) notFound();
   const cover = coverUrl(slug);
   const tr = getTranslations(slug);
-  const words = book.chapters.reduce((a, c) => a + chapterSize(c).words, 0);
+  // Веса глав для процента прочитанного: длинная глава двигает полосу сильнее.
+  const weights = book.chapters.map((c) => chapterSize(c).words);
+  const words = weights.reduce((a, b) => a + b, 0);
 
   return (
     <>
@@ -67,7 +69,11 @@ export default async function BookPage({
               {book.chapters.length} глав · {words.toLocaleString("ru")} слов ·
               перевод каждого слова и предложения, озвучка
             </p>
-            <ResumeReading slug={book.slug} chapters={book.chapters.length} />
+            <ResumeReading
+              slug={book.slug}
+              chapters={book.chapters.length}
+              weights={weights}
+            />
           </div>
         </div>
 
@@ -94,6 +100,7 @@ export default async function BookPage({
                       </span>
                     )}
                   </span>
+                  <ChapterMark slug={book.slug} chapter={ch.id} />
                   <span className="shrink-0 text-xs text-muted-foreground">
                     {size.words} слов
                   </span>

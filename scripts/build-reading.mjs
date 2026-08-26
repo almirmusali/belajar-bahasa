@@ -147,7 +147,14 @@ function makeParagraph(raw, kind) {
 
 // ------------------------------------------------------------------ разбор
 
-const md = fs.readFileSync(src, "utf8");
+let md = fs.readFileSync(src, "utf8");
+
+// Язык книги задаётся HTML-комментарием в начале файла: <!-- lang: en -->.
+// Комментарии из текста вырезаются до разбора — иначе строка комментария
+// стала бы абзацем прозы.
+const langMatch = md.match(/<!--\s*lang:\s*([a-z]{2})\s*-->/);
+const lang = langMatch ? langMatch[1] : "id";
+md = md.replace(/<!--[\s\S]*?-->/g, "");
 
 // Приложение (словарь, грамматика) — русскоязычный справочник. Его не
 // разбираем на слова: там нечего переводить наведением.
@@ -261,6 +268,7 @@ const book = {
   slug,
   title,
   subtitle,
+  lang,
   chapters,
   appendix: appendixMd.trim(),
 };

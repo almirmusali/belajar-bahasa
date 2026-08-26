@@ -23,10 +23,16 @@ export type Block = Prose | VocabBox;
 
 export const isProse = (b: Block): b is Prose => b.kind !== "v";
 export type Chapter = { id: number; num: number | null; title: string; blocks: Block[] };
+/**
+ * Язык книги. Определяет голос озвучки (MP3-папка и фолбэк Web Speech).
+ * У старых JSON поля нет — читается как "id".
+ */
+export type BookLang = "id" | "en";
 export type Book = {
   slug: string;
   title: string;
   subtitle: string;
+  lang?: BookLang;
   chapters: Chapter[];
   appendix: string;
 };

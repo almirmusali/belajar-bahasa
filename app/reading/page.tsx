@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { BookOpen, Languages, Volume2 } from "lucide-react";
 import { SiteHeader } from "@/components/site-header";
+import { BookCardProgress } from "@/components/reading-position";
 import {
   bookSlugs,
   chapterSize,
@@ -15,11 +16,13 @@ export default function ReadingIndexPage() {
     .map((slug) => getBook(slug))
     .filter((b) => b !== null)
     .map((book) => {
-      const words = book.chapters.reduce((a, c) => a + chapterSize(c).words, 0);
+      const weights = book.chapters.map((c) => chapterSize(c).words);
+      const words = weights.reduce((a, b) => a + b, 0);
       const sentences = uniqueSentenceCount(book);
       const tr = getTranslations(book.slug);
       return {
         book,
+        weights,
         words,
         sentences,
         translated: Object.keys(tr).length,
@@ -40,9 +43,9 @@ export default function ReadingIndexPage() {
           Библиотека
         </h1>
         <p className="mt-3 max-w-xl text-muted-foreground">
-          Книги на разговорном индонезийском. Наведи на слово — увидишь
-          перевод, нажми кнопку у предложения — получишь перевод целиком или
-          озвучку.
+          Книги на разговорном индонезийском и простом английском. Наведи на
+          слово — увидишь перевод, нажми кнопку у предложения — получишь
+          перевод целиком или озвучку.
         </p>
 
         {books.length === 0 ? (
@@ -55,7 +58,7 @@ export default function ReadingIndexPage() {
           </p>
         ) : (
           <div className="mt-8 grid gap-5 sm:grid-cols-2">
-            {books.map(({ book, words, sentences, translated, cover, titleRu, subtitleRu }) => (
+            {books.map(({ book, weights, words, sentences, translated, cover, titleRu, subtitleRu }) => (
               <Link
                 key={book.slug}
                 href={`/reading/${book.slug}`}
@@ -90,13 +93,16 @@ export default function ReadingIndexPage() {
                   <p className="mt-2 text-xs text-muted-foreground">
                     {book.chapters.length} глав · {words.toLocaleString("ru")} слов
                   </p>
-                  <div className="mt-auto flex flex-wrap gap-1.5 pt-3">
-                    <Badge icon={<Languages className="h-3 w-3" />}>
-                      {translated >= sentences
-                        ? "перевод по предложениям"
-                        : `перевод ${translated}/${sentences}`}
-                    </Badge>
-                    <Badge icon={<Volume2 className="h-3 w-3" />}>озвучка</Badge>
+                  <div className="mt-auto pt-3">
+                    <div className="flex flex-wrap gap-1.5">
+                      <Badge icon={<Languages className="h-3 w-3" />}>
+                        {translated >= sentences
+                          ? "перевод по предложениям"
+                          : `перевод ${translated}/${sentences}`}
+                      </Badge>
+                      <Badge icon={<Volume2 className="h-3 w-3" />}>озвучка</Badge>
+                    </div>
+                    <BookCardProgress slug={book.slug} weights={weights} />
                   </div>
                 </div>
               </Link>

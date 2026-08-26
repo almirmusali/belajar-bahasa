@@ -1,9 +1,17 @@
-import { audioUrl } from "./audio-url";
+import { audioUrl, type AudioLang } from "./audio-url";
+
+// Локаль Web Speech для каждого языка книги.
+const SPEECH_LOCALE: Record<AudioLang, string> = {
+  id: "id-ID",
+  en: "en-US",
+  ru: "ru-RU",
+};
 
 /**
- * Произносит индонезийскую фразу: сначала пробует студийную озвучку
+ * Произносит фразу: сначала пробует студийную озвучку
  * (предгенерированный MP3 в public/audio/), при её отсутствии — системный
- * голос Web Speech.
+ * голос Web Speech. Язык по умолчанию индонезийский; читалка передаёт
+ * язык книги (opts.lang), чтобы английские книги звучали по-английски.
  *
  * Возвращает функцию остановки — вызови её, если нужно прервать
  * воспроизведение (например, при уходе со страницы).
@@ -16,8 +24,10 @@ import { audioUrl } from "./audio-url";
  */
 export function speakId(
   text: string,
-  opts?: { onEnd?: () => void },
+  opts?: { onEnd?: () => void; lang?: AudioLang },
 ): () => void {
+  const lang = opts?.lang ?? "id";
+  const locale = SPEECH_LOCALE[lang];
   let audio: HTMLAudioElement | null = null;
   let stopped = false;
 
@@ -55,13 +65,13 @@ export function speakId(
     const utter = new SpeechSynthesisUtterance(text);
     utter.onend = finish;
     utter.onerror = finish;
-    utter.lang = "id-ID";
+    utter.lang = locale;
     utter.rate = 0.95;
     const voices = window.speechSynthesis.getVoices();
-    const idVoice = voices.find(
-      (v) => v.lang === "id-ID" || v.lang.startsWith("id"),
+    const match = voices.find(
+      (v) => v.lang === locale || v.lang.startsWith(lang),
     );
-    if (idVoice) utter.voice = idVoice;
+    if (match) utter.voice = match;
     window.speechSynthesis.speak(utter);
   };
 
@@ -70,7 +80,7 @@ export function speakId(
     window.speechSynthesis.cancel();
   }
 
-  const url = audioUrl(text, "id");
+  const url = audioUrl(text, lang);
   if (!url) {
     webSpeech();
     return stop;
