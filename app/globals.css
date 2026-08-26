@@ -52,4 +52,28 @@
 @layer base {
   * { @apply border-border; }
   body { @apply bg-background text-foreground; }
+
+  /* Серый прямоугольник, которым мобильный браузер мигает на каждый тап,
+     в приложении с тапабельными словами превращается в визуальный шум:
+     свои состояния нажатия у кнопок и слов уже есть. */
+  html { -webkit-tap-highlight-color: transparent; }
+}
+
+@layer components {
+  /* Абзац, на котором читатель закрыл главу в прошлый раз: при возврате он
+     на пару секунд подсвечивается и гаснет. Анимация, а не состояние в React:
+     таймер пришлось бы заводить в эффекте, а он в дев-режиме прогоняется
+     дважды — подсветка то залипала, то не включалась вовсе. */
+  @keyframes reading-resume-flash {
+    from {
+      background-color: hsl(var(--primary) / 0.1);
+    }
+    to {
+      background-color: transparent;
+    }
+  }
+
+  .reading-resume-flash {
+    animation: reading-resume-flash 2.6s ease-out 1;
+  }
 }

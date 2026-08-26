@@ -3,7 +3,6 @@ import { notFound } from "next/navigation";
 import { ArrowLeft, ArrowRight, List } from "lucide-react";
 import { SiteHeader } from "@/components/site-header";
 import { ActivityTracker } from "@/components/activity-tracker";
-import { RememberChapter } from "@/components/reading-position";
 import { Reader } from "@/components/reader";
 import {
   bookSlugs,
@@ -49,8 +48,7 @@ export default async function ChapterPage({
     <>
       <SiteHeader />
       <ActivityTracker />
-      <RememberChapter slug={slug} chapter={index} />
-      <main className="container mx-auto max-w-2xl px-4 py-8">
+      <main className="container mx-auto max-w-2xl px-4 pt-8 pb-[calc(2rem+env(safe-area-inset-bottom))]">
         <div className="flex items-center justify-between gap-3 text-sm text-muted-foreground">
           <Link
             href={`/reading/${slug}`}
@@ -78,9 +76,12 @@ export default async function ChapterPage({
 
         <div className="mt-6">
           <Reader
+            slug={slug}
+            chapter={index}
             blocks={current.blocks}
             translations={translations}
             glossary={glossary}
+            lang={book.lang ?? "id"}
           />
         </div>
 
@@ -88,7 +89,7 @@ export default async function ChapterPage({
           {prev ? (
             <Link
               href={`/reading/${slug}/${prev.id}`}
-              className="group flex max-w-[48%] items-center gap-2 rounded-lg border px-3 py-2 text-sm transition hover:border-primary"
+              className="group flex max-w-[48%] items-center gap-2 rounded-lg border px-3 py-2 text-sm transition hover:border-primary coarse:py-3"
             >
               <ArrowLeft className="h-4 w-4 shrink-0 text-muted-foreground group-hover:text-primary" />
               <span className="truncate">{prev.title}</span>
@@ -99,7 +100,7 @@ export default async function ChapterPage({
           {next ? (
             <Link
               href={`/reading/${slug}/${next.id}`}
-              className="group flex max-w-[48%] items-center gap-2 rounded-lg border px-3 py-2 text-sm transition hover:border-primary"
+              className="group flex max-w-[48%] items-center gap-2 rounded-lg border px-3 py-2 text-sm transition hover:border-primary coarse:py-3"
             >
               <span className="truncate">{next.title}</span>
               <ArrowRight className="h-4 w-4 shrink-0 text-muted-foreground group-hover:text-primary" />
@@ -107,7 +108,7 @@ export default async function ChapterPage({
           ) : (
             <Link
               href={`/reading/${slug}/appendix`}
-              className="group flex max-w-[48%] items-center gap-2 rounded-lg border px-3 py-2 text-sm transition hover:border-primary"
+              className="group flex max-w-[48%] items-center gap-2 rounded-lg border px-3 py-2 text-sm transition hover:border-primary coarse:py-3"
             >
               <span className="truncate">Словарь книги</span>
               <ArrowRight className="h-4 w-4 shrink-0 text-muted-foreground group-hover:text-primary" />

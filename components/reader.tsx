@@ -1,15 +1,22 @@
 "use client";
 
 import { useCallback, useEffect, useRef, useState } from "react";
-import { Languages, Square, Star, Volume2 } from "lucide-react";
+import { ArrowUp, Bookmark, Languages, Square, Star, Volume2 } from "lucide-react";
 import {
   isProse,
   type Block,
+  type BookLang,
   type Glossary,
   type GlossaryEntry,
   type Prose,
 } from "@/lib/reading-types";
 import { speakId } from "@/lib/speak-id";
+import {
+  chapterFraction,
+  readBook,
+  savePosition,
+  touchChapter,
+} from "@/lib/use-reading-progress";
 import { useWordSets } from "@/lib/use-word-sets";
 import { cn } from "@/lib/utils";
 
@@ -23,6 +30,11 @@ import { cn } from "@/lib/utils";
 //   3. значок 🔊 там же — озвучка абзаца: предложения читаются подряд, текущее
 //      подсвечивается (MP3 из public/audio, иначе системный Web Speech).
 //
+// Плюс закладка: читалка следит за прокруткой и запоминает абзац, на котором
+// читатель остановился (lib/use-reading-progress). При следующем открытии
+// главы страница сама встаёт на это место, абзац помечен линией «здесь вы
+// остановились», а в липкой панели тонкой полосой видно, сколько главы позади.
+//
 // Значки стоят в потоке текста и видны всегда. Плавающая панель, которая
 // появлялась по наведению, для этого не годилась: она гасла, стоило увести
 // курсор, и в неё нельзя было прицелиться. По паре значков на предложение
@@ -33,14 +45,38 @@ import { cn } from "@/lib/utils";
 
 type Popup = { word: string; ru: string; lemma?: string; x: number; y: number };
 
+// Размер текста главы. Три ступени, по умолчанию средняя; выбор живёт в
+// localStorage и общий для всех книг — глаза у читателя одни.
+const FONT_SIZES = [
+  "text-[0.9375rem] leading-[1.9] sm:text-base",
+  "text-[1.0625rem] leading-[2] sm:text-lg",
+  "text-[1.1875rem] leading-[2] sm:text-xl",
+] as const;
+const FONT_KEY = "belajar:reading:font";
+
+// Подсказку «тапни по слову» достаточно показать до первого тапа: дальше
+// читатель уже умеет, а строка в липкой панели — украденная высота экрана.
+const HINT_KEY = "belajar:reading:hint-done";
+
+// Строка чтения: px от верха окна, сразу под липкой панелью. Закладка стоит
+// на последнем абзаце, который ушёл выше неё. Возврат к закладке ставит абзац
+// на эту же строку — иначе закладка при каждом открытии уползала бы назад.
+const READ_LINE = 160;
+
 export function Reader({
+  slug,
+  chapter,
   blocks,
   translations,
   glossary,
+  lang = "id",
 }: {
+  slug: string;
+  chapter: number;
   blocks: Block[];
   translations: Record<string, string>;
   glossary: Glossary;
+  lang?: BookLang;
 }) {
   const [popup, setPopup] = useState<Popup | null>(null);
   const [open, setOpen] = useState<Record<number, boolean>>({});
@@ -51,13 +87,155 @@ export function Reader({
   const queueRef = useRef<string[]>([]);
   const { toggleFavorite, isFavorite } = useWordSets();
 
+  // Закладка: где читатель был в прошлый раз и где он сейчас.
+  const blockRefs = useRef<(HTMLDivElement | null)[]>([]);
+  const [resumeAt, setResumeAt] = useState<number | null>(null);
+  const [at, setAt] = useState(0);
+
   // На тач-экранах наведения нет: там всплывашка живёт по тапу.
   const [hoverable, setHoverable] = useState(true);
   useEffect(() => {
     setHoverable(window.matchMedia("(hover: hover)").matches);
   }, []);
 
+  // Размер текста и подсказка. До монтирования — значения по умолчанию:
+  // localStorage на сервере нет, а разной разметке React не обрадуется.
+  // Подсказка по умолчанию скрыта, а не показана: иначе у постоянного
+  // читателя панель прыгала бы на каждой главе, пока эффект её прячет.
+  const [fontSize, setFontSize] = useState(1);
+  const [showHint, setShowHint] = useState(false);
+  useEffect(() => {
+    // Именно строка, а не Number(getItem(...)): Number(null) — это 0, и
+    // читатель без сохранённого выбора получал бы самый мелкий шрифт.
+    const stored = localStorage.getItem(FONT_KEY);
+    if (stored === "0" || stored === "2") setFontSize(Number(stored));
+    if (!localStorage.getItem(HINT_KEY)) setShowHint(true);
+  }, []);
+
+  const cycleFontSize = () => {
+    const next = (fontSize + 1) % FONT_SIZES.length;
+    setFontSize(next);
+    localStorage.setItem(FONT_KEY, String(next));
+  };
+
+  // Первая же открывшаяся всплывашка гасит подсказку насовсем.
+  useEffect(() => {
+    if (!popup || !showHint) return;
+    setShowHint(false);
+    localStorage.setItem(HINT_KEY, "1");
+  }, [popup, showHint]);
+
   useEffect(() => () => stopRef.current?.(), []);
+
+  // Пока страница не встала на закладку, писать в хранилище нельзя: позиция,
+  // измеренная по дороге, затёрла бы её началом главы. Храним не флаг, а
+  // время, с которого запись разрешена: флаг сбрасывался бы при повторном
+  // прогоне эффекта (в дев-режиме React прогоняет их дважды).
+  const saveFrom = useRef(0);
+
+  // Прошлая закладка читается один раз при открытии главы. Дальше она
+  // переезжает по прокрутке, но метка в тексте остаётся там, где читатель
+  // закончил в прошлый заход, — иначе она убегала бы вниз вместе с ним.
+  useEffect(() => {
+    touchChapter(slug, chapter);
+    const saved = readBook(slug);
+    // Дочитанную главу открывают, чтобы перечитать, — тащить читателя в её
+    // конец незачем, закладки в ней тоже нет.
+    const unfinished = chapterFraction(saved, chapter) < 1;
+    if (saved && saved.chapter === chapter && saved.block > 0 && unfinished) {
+      setResumeAt(Math.min(saved.block, blocks.length - 1));
+    } else {
+      // Главу открыли с начала — это уже прогресс, пусть даже читатель не
+      // тронет колесо: короткая глава помещается в один экран.
+      savePosition(slug, chapter, 0, blocks.length);
+      saveFrom.current = Date.now();
+    }
+  }, [slug, chapter, blocks.length]);
+
+  // Возврат к закладке. Прыгаем, только если она заметно ниже начала главы:
+  // ради второго абзаца дёргать страницу незачем.
+  const jumped = useRef(false);
+  useEffect(() => {
+    if (resumeAt === null || jumped.current) return;
+    jumped.current = true;
+
+    const el = resumeAt >= 2 ? blockRefs.current[resumeAt] : null;
+    if (el) {
+      // Абзац встаёт ровно на строку чтения — там же, где его в прошлый раз
+      // и засчитали. Чуть выше видна пара строк предыдущего абзаца: с них
+      // легче поймать нить, чем с обрыва.
+      const top = window.scrollY + el.getBoundingClientRect().top - READ_LINE + 8;
+      window.scrollTo({ top: Math.max(0, top) });
+    }
+    saveFrom.current = Date.now() + 300;
+  }, [resumeAt]);
+
+  // Слежение за прокруткой: закладка стоит на последнем абзаце, ушедшем выше
+  // строки чтения. В localStorage пишем не на каждый кадр, а после паузы —
+  // и обязательно перед уходом со страницы, иначе последний абзац пропадёт.
+  useEffect(() => {
+    let tick: ReturnType<typeof setTimeout> | null = null;
+    let timer: ReturnType<typeof setTimeout> | null = null;
+    let pending: { block: number; done: boolean } | null = null;
+
+    const flush = () => {
+      if (timer) {
+        clearTimeout(timer);
+        timer = null;
+      }
+      if (!pending) return;
+      savePosition(slug, chapter, pending.block, blocks.length, pending.done);
+      pending = null;
+    };
+
+    const measure = () => {
+      const els = blockRefs.current;
+      let idx = 0;
+      for (let i = 0; i < els.length; i++) {
+        const el = els[i];
+        if (!el) continue;
+        if (el.getBoundingClientRect().top <= READ_LINE) idx = i;
+        else break;
+      }
+      // Докрутили до низа — глава засчитывается целиком: последние абзацы
+      // выше строки чтения уже не поднимутся, дальше просто нечего листать.
+      const done =
+        window.scrollY + window.innerHeight >=
+        document.documentElement.scrollHeight - 120;
+      if (done) idx = Math.max(idx, els.length - 1);
+      setAt(idx);
+
+      if (!saveFrom.current || Date.now() < saveFrom.current) return;
+      if (pending && pending.block === idx && pending.done === done) return;
+      pending = { block: idx, done };
+      if (timer) clearTimeout(timer);
+      timer = setTimeout(flush, 600);
+    };
+
+    // Троттлинг таймером, а не requestAnimationFrame: в скрытой вкладке кадры
+    // не идут, и замер завис бы вместе с ними.
+    const onScroll = () => {
+      if (tick) return;
+      tick = setTimeout(() => {
+        tick = null;
+        measure();
+      }, 120);
+    };
+
+    measure();
+    window.addEventListener("scroll", onScroll, { passive: true });
+    window.addEventListener("resize", onScroll);
+    window.addEventListener("pagehide", flush);
+    document.addEventListener("visibilitychange", flush);
+    return () => {
+      if (tick) clearTimeout(tick);
+      flush();
+      window.removeEventListener("scroll", onScroll);
+      window.removeEventListener("resize", onScroll);
+      window.removeEventListener("pagehide", flush);
+      document.removeEventListener("visibilitychange", flush);
+    };
+  }, [slug, chapter, blocks.length]);
 
   const lookup = useCallback(
     (raw: string) => glossary[raw.toLowerCase()] ?? null,
@@ -145,10 +323,14 @@ export function Reader({
         return;
       }
       setPlaying(id);
-      stopRef.current = speakId(id, { onEnd: next });
+      stopRef.current = speakId(id, { onEnd: next, lang });
     };
     next();
   };
+
+  const chapterPct = blocks.length
+    ? Math.min(100, Math.round(((at + 1) / blocks.length) * 100))
+    : 0;
 
   const translated = Object.keys(translations).length;
   const total = blocks.reduce(
@@ -165,6 +347,7 @@ export function Reader({
             setShowAll((v) => !v);
             setOpen({});
           }}
+          aria-pressed={showAll}
           className={cn(
             "inline-flex items-center gap-1.5 rounded-md border px-2.5 py-1 text-xs font-medium transition",
             showAll
@@ -173,7 +356,7 @@ export function Reader({
           )}
         >
           <Languages className="h-3.5 w-3.5" />
-          {showAll ? "Перевод везде" : "Перевод по кнопке"}
+          Перевод везде
         </button>
         <button
           type="button"
@@ -181,6 +364,7 @@ export function Reader({
             if (voice) stopSpeaking();
             setVoice((v) => !v);
           }}
+          aria-pressed={voice}
           className={cn(
             "inline-flex items-center gap-1.5 rounded-md border px-2.5 py-1 text-xs font-medium transition",
             voice
@@ -189,16 +373,42 @@ export function Reader({
           )}
         >
           <Volume2 className="h-3.5 w-3.5" />
-          {voice ? "Озвучка" : "Без озвучки"}
+          Озвучка
         </button>
-        <span className="w-full text-[11px] leading-tight text-muted-foreground sm:w-auto">
-          {hoverable ? "Наведи на слово" : "Тапни по слову"} — увидишь перевод
-          {translated < total && (
-            <span className="ml-1 opacity-70">
-              · переведено {translated} из {total}
-            </span>
-          )}
+        <button
+          type="button"
+          onClick={cycleFontSize}
+          title="Размер текста"
+          aria-label="Размер текста"
+          className="inline-flex items-center rounded-md border px-2.5 py-1 text-xs font-medium transition hover:bg-secondary"
+        >
+          <span aria-hidden className="leading-none">
+            <span className="text-[10px]">A</span>
+            <span className="text-[13px]">a</span>
+          </span>
+        </button>
+        <span className="ml-auto text-[11px] tabular-nums text-muted-foreground">
+          {chapterPct}%
         </span>
+        {(showHint || translated < total) && (
+          <span className="w-full text-[11px] leading-tight text-muted-foreground">
+            {showHint && (
+              <>{hoverable ? "Наведи на слово" : "Тапни по слову"} — увидишь перевод</>
+            )}
+            {translated < total && (
+              <span className={cn(showHint && "ml-1 opacity-70")}>
+                {showHint && "· "}переведено {translated} из {total}
+              </span>
+            )}
+          </span>
+        )}
+
+        {/* Прогресс по главе: тонкая линия по нижней кромке панели. */}
+        <span
+          aria-hidden
+          className="pointer-events-none absolute bottom-0 left-0 h-0.5 bg-primary/70 transition-[width] duration-300"
+          style={{ width: `${chapterPct}%` }}
+        />
       </div>
 
       <div
@@ -209,29 +419,47 @@ export function Reader({
           setPopup(null);
         }}
         onClick={onClick}
-        className="space-y-5 text-[1.0625rem] leading-[2] sm:text-lg"
-      >
-        {blocks.map((block, bi) =>
-          !isProse(block) ? (
-            <VocabBoxView key={bi} title={block.title} items={block.items} />
-          ) : (
-            <ParagraphView
-              key={bi}
-              block={block}
-              translations={translations}
-              lookup={lookup}
-              playing={playing}
-              voice={voice}
-              open={open[bi] ?? showAll}
-              onToggle={() => toggle(bi)}
-              onSpeak={() => {
-                const ids = block.sent.map((x) => x.id);
-                if (ids.some((id) => id === playing)) stopSpeaking();
-                else speakQueue(ids);
-              }}
-            />
-          ),
+        // touch-manipulation убирает задержку и зум по двойному тапу;
+        // select-none на тач-экране — чтобы тап по слову не спорил с
+        // выделением текста (случайный двойной тап выделяет слово вместо
+        // перевода). Мышиного выделения это не трогает.
+        className={cn(
+          "space-y-5 touch-manipulation coarse:select-none",
+          FONT_SIZES[fontSize],
         )}
+      >
+        {blocks.map((block, bi) => (
+          <div
+            key={bi}
+            ref={(el) => {
+              blockRefs.current[bi] = el;
+            }}
+            className={cn(
+              "scroll-mt-28 rounded-lg",
+              bi === resumeAt && "reading-resume-flash -mx-2 px-2",
+            )}
+          >
+            {bi === resumeAt && <BookmarkLine />}
+            {!isProse(block) ? (
+              <VocabBoxView title={block.title} items={block.items} />
+            ) : (
+              <ParagraphView
+                block={block}
+                translations={translations}
+                lookup={lookup}
+                playing={playing}
+                voice={voice}
+                open={open[bi] ?? showAll}
+                onToggle={() => toggle(bi)}
+                onSpeak={() => {
+                  const ids = block.sent.map((x) => x.id);
+                  if (ids.some((id) => id === playing)) stopSpeaking();
+                  else speakQueue(ids);
+                }}
+              />
+            )}
+          </div>
+        ))}
       </div>
 
       {popup && (
@@ -247,6 +475,29 @@ export function Reader({
           }
         />
       )}
+    </div>
+  );
+}
+
+// Линия закладки над абзацем, на котором читатель закрыл главу в прошлый
+// раз. Нужна именно линия, а не подсветка абзаца: подсвеченный абзац читается
+// как «важное место в книге», а это отметка читателя, а не автора.
+function BookmarkLine() {
+  return (
+    <div className="mb-3 flex select-none items-center gap-2">
+      <span className="inline-flex items-center gap-1 rounded-full bg-primary/10 px-2 py-0.5 text-[11px] font-medium leading-none text-primary">
+        <Bookmark className="h-3 w-3 fill-current" />
+        здесь вы остановились
+      </span>
+      <span className="h-px flex-1 bg-primary/25" />
+      <button
+        type="button"
+        onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+        className="inline-flex items-center gap-1 rounded px-1 py-0.5 text-[11px] text-muted-foreground transition hover:bg-secondary hover:text-foreground"
+      >
+        <ArrowUp className="h-3 w-3" />
+        в начало главы
+      </button>
     </div>
   );
 }
@@ -329,7 +580,7 @@ function ParagraphView({
         ))}
 
         {/* Значки не отрываются от последней строки абзаца при переносе. */}
-        <span className="ml-1.5 inline-flex translate-y-[0.15em] items-center gap-0.5 whitespace-nowrap align-baseline not-italic">
+        <span className="ml-1.5 inline-flex translate-y-[0.15em] items-center gap-0.5 whitespace-nowrap align-baseline not-italic coarse:gap-1.5">
           {voice && (
             <ParagraphAction
               active={isPlaying}
@@ -388,10 +639,13 @@ function ParagraphAction({
       aria-label={title}
       aria-pressed={active}
       className={cn(
-        "inline-flex h-5 w-5 items-center justify-center rounded transition",
+        // На тач-экране мишень крупнее (32px — почти рекомендованный минимум,
+        // строка высотой в leading-[2] её вмещает) и значок не приглушён:
+        // наведения, которое бы его проявило, там нет.
+        "inline-flex h-5 w-5 items-center justify-center rounded transition coarse:h-8 coarse:w-8",
         active
           ? "bg-primary/10 text-primary"
-          : "text-muted-foreground/50 group-hover/par:text-muted-foreground hover:!bg-secondary hover:!text-foreground",
+          : "text-muted-foreground/50 group-hover/par:text-muted-foreground hover:!bg-secondary hover:!text-foreground coarse:text-muted-foreground/70",
       )}
     >
       {children}
@@ -460,11 +714,11 @@ function WordPopup({
       ref={ref}
       data-tip
       style={{ left, top: popup.y - 2 }}
-      className="fixed z-50 max-w-[min(20rem,92vw)] -translate-x-1/2 -translate-y-full pb-2"
+      className="fixed z-50 max-w-[min(20rem,92vw)] -translate-x-1/2 -translate-y-full select-none pb-2"
     >
       <div className="flex items-center gap-2 rounded-lg border bg-popover/85 py-1.5 pl-2.5 pr-1.5 shadow-xl ring-1 ring-black/5 backdrop-blur-md">
         <div className="min-w-0 text-left">
-          <div className="text-sm font-medium leading-tight text-popover-foreground">
+          <div className="text-sm font-medium leading-tight text-popover-foreground coarse:text-[15px]">
             {popup.ru}
           </div>
           {popup.lemma && (
@@ -480,7 +734,7 @@ function WordPopup({
           aria-label={starred ? "Убрать из избранного" : "Добавить в избранное"}
           aria-pressed={starred}
           className={cn(
-            "inline-flex h-7 w-7 shrink-0 items-center justify-center rounded-md transition",
+            "inline-flex h-7 w-7 shrink-0 items-center justify-center rounded-md transition coarse:h-9 coarse:w-9",
             starred
               ? "text-primary"
               : "text-muted-foreground/60 hover:bg-secondary hover:text-foreground",
