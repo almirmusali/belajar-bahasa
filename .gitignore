@@ -98,3 +98,6 @@ build/
 # который создаёт `npm run audio:sample`. Строчка должна идти ПОСЛЕ
 # исключения выше, иначе `!public/audio/**` втягивает их обратно.
 public/audio/_samples/
+
+# черновики конвейера
+/.scratch

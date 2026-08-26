@@ -7,6 +7,7 @@ import { Reader } from "@/components/reader";
 import {
   bookSlugs,
   chapterGlossary,
+  chapterIllustrationUrl,
   chapterTranslations,
   getBook,
   getGlossary,
@@ -47,6 +48,7 @@ export default async function ChapterPage({
 
   const prev = book.chapters[index - 1];
   const next = book.chapters[index + 1];
+  const illustration = chapterIllustrationUrl(slug, current.id);
 
   return (
     <>
@@ -76,6 +78,15 @@ export default async function ChapterPage({
           <p className="mt-1 text-base text-muted-foreground sm:text-lg">
             {allTranslations[current.title]}
           </p>
+        )}
+
+        {illustration && (
+          // eslint-disable-next-line @next/next/no-img-element
+          <img
+            src={illustration}
+            alt={current.title}
+            className="mt-6 w-full rounded-xl border object-cover"
+          />
         )}
 
         <div className="mt-6">

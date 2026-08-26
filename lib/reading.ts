@@ -66,6 +66,20 @@ export function coverUrl(slug: string): string | null {
 }
 
 /**
+ * Иллюстрация главы — файл public/reading/<slug>/ch-<id>.(webp|png|jpg).
+ * Нет файла — вернётся null, и глава рендерится без картинки.
+ */
+export function chapterIllustrationUrl(slug: string, chapterId: number): string | null {
+  const dir = path.join(process.cwd(), "public", "reading", slug);
+  for (const ext of ["webp", "png", "jpg", "jpeg"]) {
+    if (fs.existsSync(path.join(dir, `ch-${chapterId}.${ext}`))) {
+      return `/reading/${slug}/ch-${chapterId}.${ext}`;
+    }
+  }
+  return null;
+}
+
+/**
  * Есть ли у книги студийная озвучка. Проверяем по первым предложениям: MP3
  * называется хэшем текста, поэтому файл либо лежит на месте, либо его нет и
  * читалка уйдёт на системный голос. Витрине это нужно, чтобы не обещать

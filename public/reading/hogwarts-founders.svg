@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 900" width="600" height="900" role="img" aria-label="Обложка книги «The Founders»">
+  <title>THE FOUNDERS</title>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0b1026"/>
+      <stop offset="0.55" stop-color="#1a2140"/>
+      <stop offset="1" stop-color="#2c2a4a"/>
+    </linearGradient>
+    <linearGradient id="lake" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#141a33"/>
+      <stop offset="1" stop-color="#090c1c"/>
+    </linearGradient>
+    <radialGradient id="moon" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fdf6d8"/>
+      <stop offset="0.7" stop-color="#f0e2a8"/>
+      <stop offset="1" stop-color="#f0e2a8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="600" height="640" fill="url(#sky)"/>
+  <rect y="640" width="600" height="260" fill="url(#lake)"/>
+
+  <!-- moon -->
+  <circle cx="470" cy="150" r="90" fill="url(#moon)" opacity="0.9"/>
+  <circle cx="470" cy="150" r="46" fill="#fbf2c9"/>
+
+  <!-- stars -->
+  <g fill="#e8e6f5">
+    <circle cx="60" cy="80" r="2"/><circle cx="140" cy="150" r="1.5"/>
+    <circle cx="230" cy="60" r="2"/><circle cx="330" cy="120" r="1.5"/>
+    <circle cx="90" cy="230" r="1.5"/><circle cx="540" cy="60" r="1.5"/>
+    <circle cx="380" cy="40" r="1.5"/><circle cx="200" cy="200" r="1"/>
+    <circle cx="520" cy="280" r="1.5"/><circle cx="40" cy="320" r="1.5"/>
+  </g>
+
+  <!-- mountains -->
+  <path d="M0 470 L110 340 L210 470 Z" fill="#151b36"/>
+  <path d="M390 470 L500 330 L600 470 L600 500 L390 500 Z" fill="#151b36"/>
+
+  <!-- castle rock -->
+  <path d="M120 640 L160 470 L440 470 L480 640 Z" fill="#0e1229"/>
+
+  <!-- castle -->
+  <g fill="#080b1c">
+    <!-- four towers -->
+    <rect x="160" y="330" width="42" height="160"/>
+    <path d="M155 330 L181 270 L207 330 Z"/>
+    <rect x="240" y="290" width="40" height="200"/>
+    <path d="M235 290 L260 225 L285 290 Z"/>
+    <rect x="322" y="300" width="40" height="190"/>
+    <path d="M317 300 L342 240 L367 300 Z"/>
+    <rect x="400" y="345" width="42" height="145"/>
+    <path d="M395 345 L421 285 L447 345 Z"/>
+    <!-- main hall -->
+    <rect x="185" y="400" width="235" height="95"/>
+  </g>
+
+  <!-- lit windows: four house colours -->
+  <g>
+    <rect x="176" y="360" width="9" height="14" fill="#c94141"/>
+    <rect x="176" y="390" width="9" height="14" fill="#c94141"/>
+    <rect x="255" y="320" width="9" height="14" fill="#3b6fb5"/>
+    <rect x="255" y="352" width="9" height="14" fill="#3b6fb5"/>
+    <rect x="338" y="330" width="9" height="14" fill="#3f9c58"/>
+    <rect x="338" y="362" width="9" height="14" fill="#3f9c58"/>
+    <rect x="416" y="375" width="9" height="14" fill="#e2b93b"/>
+    <rect x="416" y="405" width="9" height="14" fill="#e2b93b"/>
+    <rect x="215" y="425" width="9" height="16" fill="#f0d98a"/>
+    <rect x="245" y="425" width="9" height="16" fill="#f0d98a"/>
+    <rect x="275" y="425" width="9" height="16" fill="#f0d98a"/>
+    <rect x="305" y="425" width="9" height="16" fill="#f0d98a"/>
+    <rect x="335" y="425" width="9" height="16" fill="#f0d98a"/>
+    <rect x="365" y="425" width="9" height="16" fill="#f0d98a"/>
+  </g>
+
+  <!-- reflections on the lake -->
+  <g opacity="0.35">
+    <rect x="215" y="660" width="9" height="30" fill="#f0d98a"/>
+    <rect x="275" y="655" width="9" height="40" fill="#f0d98a"/>
+    <rect x="338" y="662" width="9" height="26" fill="#3f9c58"/>
+    <rect x="255" y="668" width="9" height="22" fill="#3b6fb5"/>
+    <rect x="176" y="665" width="9" height="20" fill="#c94141"/>
+    <rect x="416" y="660" width="9" height="24" fill="#e2b93b"/>
+  </g>
+
+  <!-- little boat with lantern -->
+  <g>
+    <path d="M150 780 Q175 800 200 780 L192 770 L158 770 Z" fill="#1d1a2e"/>
+    <circle cx="175" cy="762" r="5" fill="#f7d774"/>
+    <circle cx="175" cy="762" r="10" fill="#f7d774" opacity="0.25"/>
+  </g>
+
+  <!-- title -->
+  <text x="300" y="80" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="52" font-weight="bold" fill="#f3ecd8" letter-spacing="4">THE</text>
+  <text x="300" y="845" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="58" font-weight="bold" fill="#f3ecd8" letter-spacing="5">FOUNDERS</text>
+  <text x="300" y="878" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="19" font-style="italic" fill="#b8b2d8">Four wizards. One castle. A thousand years.</text>
+
+  <!-- four house dots -->
+  <g>
+    <circle cx="252" cy="120" r="7" fill="#c94141"/>
+    <circle cx="284" cy="120" r="7" fill="#3f9c58"/>
+    <circle cx="316" cy="120" r="7" fill="#3b6fb5"/>
+    <circle cx="348" cy="120" r="7" fill="#e2b93b"/>
+  </g>
+</svg>
