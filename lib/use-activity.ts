@@ -97,7 +97,7 @@ function scheduleCloudFlush(userId: string) {
     const day = todayKey();
     const today = state[day];
     if (!today) return;
-    await supabase.from("study_activity").upsert(
+    const { error } = await supabase.from("study_activity").upsert(
       {
         user_id: userId,
         day,
@@ -107,6 +107,7 @@ function scheduleCloudFlush(userId: string) {
       },
       { onConflict: "user_id,day" },
     );
+    if (error) console.warn("belajar: не ушло в облако", error);
   }, 4000);
 }
 
@@ -132,7 +133,10 @@ export function useActivity() {
         }
       })();
       const sub = sb.auth.onAuthStateChange(
-        async (event: AuthChangeEvent, session: Session | null) => {
+        (event: AuthChangeEvent, session: Session | null) => {
+          // Колбэк выполняется под внутренним локом supabase-js: любой
+          // await supabase.* прямо здесь — взаимоблокировка, после которой
+          // виснут все запросы страницы. setTimeout выносит работу из-под лока.
           if (event === "SIGNED_OUT") {
             userIdRef.current = null;
             write({});
@@ -140,8 +144,9 @@ export function useActivity() {
             session?.user &&
             session.user.id !== userIdRef.current
           ) {
-            userIdRef.current = session.user.id;
-            await mergeWithCloud(sb, session.user.id);
+            const uid = session.user.id;
+            userIdRef.current = uid;
+            setTimeout(() => void mergeWithCloud(sb, uid), 0);
           }
         },
       );

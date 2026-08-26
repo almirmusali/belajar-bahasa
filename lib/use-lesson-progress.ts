@@ -45,7 +45,7 @@ async function mergeWithCloud(
       .from("lesson_progress")
       .upsert(
         newPushes.map((l) => ({ user_id: userId, lesson_id: l })),
-        { onConflict: "user_id,lesson_id" },
+        { onConflict: "user_id,lesson_id", ignoreDuplicates: true },
       );
   }
   write(merged);
@@ -74,13 +74,17 @@ export function useLessonProgress() {
         }
       })();
       const sub = sb.auth.onAuthStateChange(
-        async (event: AuthChangeEvent, session: Session | null) => {
+        (event: AuthChangeEvent, session: Session | null) => {
+          // Колбэк выполняется под внутренним локом supabase-js: любой
+          // await supabase.* прямо здесь — взаимоблокировка, после которой
+          // виснут все запросы страницы. setTimeout выносит работу из-под лока.
           if (event === "SIGNED_OUT") {
             userIdRef.current = null;
             write([]);
           } else if (session?.user && session.user.id !== userIdRef.current) {
-            userIdRef.current = session.user.id;
-            await mergeWithCloud(sb, session.user.id);
+            const uid = session.user.id;
+            userIdRef.current = uid;
+            setTimeout(() => void mergeWithCloud(sb, uid), 0);
           }
         },
       );
@@ -110,9 +114,11 @@ export function useLessonProgress() {
         sb.from("lesson_progress")
           .upsert(
             { user_id: uid, lesson_id: id },
-            { onConflict: "user_id,lesson_id" },
+            { onConflict: "user_id,lesson_id", ignoreDuplicates: true },
           )
-          .then(() => undefined);
+          .then(({ error }: { error: unknown }) => {
+            if (error) console.warn("belajar: не ушло в облако", error);
+          });
       }
     }
   }, []);
@@ -128,7 +134,9 @@ export function useLessonProgress() {
         sb.from("lesson_progress")
           .delete()
           .match({ user_id: uid, lesson_id: id })
-          .then(() => undefined);
+          .then(({ error }: { error: unknown }) => {
+            if (error) console.warn("belajar: не ушло в облако", error);
+          });
       }
     }
   }, []);

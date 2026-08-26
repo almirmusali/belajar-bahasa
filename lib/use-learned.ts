@@ -54,7 +54,10 @@ async function mergeWithCloud(
   if (newPushes.length > 0) {
     await supabase
       .from("learned_words")
-      .upsert(newPushes, { onConflict: "user_id,set_slug,word_id" });
+      .upsert(newPushes, {
+        onConflict: "user_id,set_slug,word_id",
+        ignoreDuplicates: true,
+      });
   }
   write(merged);
 }
@@ -82,13 +85,17 @@ export function useLearned() {
         }
       })();
       const sub = sb.auth.onAuthStateChange(
-        async (event: AuthChangeEvent, session: Session | null) => {
+        (event: AuthChangeEvent, session: Session | null) => {
+          // Колбэк выполняется под внутренним локом supabase-js: любой
+          // await supabase.* прямо здесь — взаимоблокировка, после которой
+          // виснут все запросы страницы. setTimeout выносит работу из-под лока.
           if (event === "SIGNED_OUT") {
             userIdRef.current = null;
             write({});
           } else if (session?.user && session.user.id !== userIdRef.current) {
-            userIdRef.current = session.user.id;
-            await mergeWithCloud(sb, session.user.id);
+            const uid = session.user.id;
+            userIdRef.current = uid;
+            setTimeout(() => void mergeWithCloud(sb, uid), 0);
           }
         },
       );
@@ -123,9 +130,11 @@ export function useLearned() {
         sb.from("learned_words")
           .upsert(
             { user_id: uid, set_slug: slug, word_id: id },
-            { onConflict: "user_id,set_slug,word_id" },
+            { onConflict: "user_id,set_slug,word_id", ignoreDuplicates: true },
           )
-          .then(() => undefined);
+          .then(({ error }: { error: unknown }) => {
+            if (error) console.warn("belajar: не ушло в облако", error);
+          });
       }
     }
   }, []);
@@ -143,7 +152,9 @@ export function useLearned() {
         sb.from("learned_words")
           .delete()
           .match({ user_id: uid, set_slug: slug, word_id: id })
-          .then(() => undefined);
+          .then(({ error }: { error: unknown }) => {
+            if (error) console.warn("belajar: не ушло в облако", error);
+          });
       }
     }
   }, []);
@@ -159,7 +170,9 @@ export function useLearned() {
         sb.from("learned_words")
           .delete()
           .match({ user_id: uid, set_slug: slug })
-          .then(() => undefined);
+          .then(({ error }: { error: unknown }) => {
+            if (error) console.warn("belajar: не ушло в облако", error);
+          });
       }
     }
   }, []);
@@ -173,7 +186,9 @@ export function useLearned() {
         sb.from("learned_words")
           .delete()
           .eq("user_id", uid)
-          .then(() => undefined);
+          .then(({ error }: { error: unknown }) => {
+            if (error) console.warn("belajar: не ушло в облако", error);
+          });
       }
     }
   }, []);
