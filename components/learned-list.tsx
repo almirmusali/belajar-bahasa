@@ -6,7 +6,7 @@ import { Volume2, X } from "lucide-react";
 import { useLearned, useMounted } from "@/lib/use-learned";
 import { useLocale } from "@/lib/use-locale";
 import { t, tf } from "@/lib/i18n";
-import { speakId } from "@/lib/speak-id";
+import { speak } from "@/lib/speak";
 import type { VocabSet } from "@/lib/vocab";
 
 export function LearnedList({ sets }: { sets: VocabSet[] }) {
@@ -26,8 +26,6 @@ export function LearnedList({ sets }: { sets: VocabSet[] }) {
   }, [mounted, sets, data]);
 
   const totalLearned = groups.reduce((s, g) => s + g.words.length, 0);
-
-  const speak = speakId;
 
   if (!mounted) {
     return (

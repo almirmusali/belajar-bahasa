@@ -1,0 +1,482 @@
+{
+  "id": "PX",
+  "track": "particles",
+  "kind": "exam",
+  "week": 3,
+  "day": 6,
+  "order": 13,
+  "title_ru": "Зачёт части A",
+  "subtitle_ru": "Тридцать ситуаций, порог — 24",
+  "items": [
+    "ya",
+    "kan",
+    "sih",
+    "dong",
+    "kok",
+    "aja",
+    "banget",
+    "deh",
+    "nih",
+    "tuh",
+    "lah"
+  ],
+  "pass_score": 24,
+  "theory_ru": "Тридцать ситуаций. На каждую — выбрать реплику с правильной частицей и **произнести её вслух**.\n\nПорог — **24 из 30** и пауза не длиннее двух секунд на ситуацию. Считается не знание таблицы, а скорость выбора хода.\n\nОшибся — ситуация вернётся в конец очереди. Зачёт закрыт, когда пройдены все тридцать; результат считается по первому ответу на каждую.",
+  "checklist": [
+    "Набрал 24 из 30 с первого ответа",
+    "Ни на одной ситуации не думал дольше двух секунд",
+    "Каждую реплику произнёс вслух, а не просто ткнул в вариант"
+  ],
+  "drills": [
+    {
+      "id": "d_PX_01",
+      "type": "particle_situation",
+      "mode": "choice",
+      "prompt_ru": "Вышли на улицу в полдень, обоих накрыло жарой. Комментируешь.",
+      "options": [
+        "Panas ya?",
+        "Panas kan?",
+        "Panas dong",
+        "Panas kok"
+      ],
+      "answer": "Panas ya?",
+      "speak_aloud": true,
+      "audio": "Panas ya?"
+    },
+    {
+      "id": "d_PX_02",
+      "type": "particle_situation",
+      "mode": "choice",
+      "prompt_ru": "Утром предупреждал, что будет пекло. Он не поверил. Сейчас полдень.",
+      "options": [
+        "Panas kan?",
+        "Panas ya?",
+        "Panas sih",
+        "Panas deh"
+      ],
+      "answer": "Panas kan?",
+      "speak_aloud": true,
+      "audio": "Panas kan?"
+    },
+    {
+      "id": "d_PX_03",
+      "type": "particle_situation",
+      "mode": "choice",
+      "prompt_ru": "Друг третий день мрачный. Спрашиваешь мягко, что случилось.",
+      "options": [
+        "Kenapa sih?",
+        "Kenapa?",
+        "Kenapa dong?",
+        "Kenapa kan?"
+      ],
+      "answer": "Kenapa sih?",
+      "speak_aloud": true,
+      "audio": "Kenapa sih?"
+    },
+    {
+      "id": "d_PX_04",
+      "type": "particle_situation",
+      "mode": "choice",
+      "prompt_ru": "Размышляешь вслух сам с собой: и почему же так вышло?",
+      "options": [
+        "Kenapa ya?",
+        "Kenapa sih?",
+        "Kenapa dong?",
+        "Kok kenapa?"
+      ],
+      "answer": "Kenapa ya?",
+      "speak_aloud": true,
+      "audio": "Kenapa ya?"
+    },
+    {
+      "id": "d_PX_05",
+      "type": "particle_situation",
+      "mode": "choice",
+      "prompt_ru": "Тащишь коробки, друг рядом смотрит в телефон.",
+      "options": [
+        "Bantu dong",
+        "Tolong bantu, Pak",
+        "Bantu kok",
+        "Bantu kan"
+      ],
+      "answer": "Bantu dong",
+      "speak_aloud": true,
+      "audio": "Bantu dong"
+    },
+    {
+      "id": "d_PX_06",
+      "type": "particle_situation",
+      "mode": "choice",
+      "prompt_ru": "Просишь помочь директора, которого видишь второй раз в жизни.",
+      "options": [
+        "Tolong bantu, Pak",
+        "Bantu dong, Pak",
+        "Bantu deh",
+        "Bantu ya"
+      ],
+      "answer": "Tolong bantu, Pak",
+      "speak_aloud": true,
+      "audio": "Tolong bantu, Pak"
+    },
+    {
+      "id": "d_PX_07",
+      "type": "particle_situation",
+      "mode": "choice",
+      "prompt_ru": "Уже просил друга помочь, он отмахнулся. Просишь второй раз, уговаривая.",
+      "options": [
+        "Bantu deh",
+        "Bantu dong",
+        "Bantu kan",
+        "Bantu kok"
+      ],
+      "answer": "Bantu deh",
+      "speak_aloud": true,
+      "audio": "Bantu deh"
+    },
+    {
+      "id": "d_PX_08",
+      "type": "particle_situation",
+      "mode": "choice",
+      "prompt_ru": "Собеседник решил, что ты переплатил. Возражаешь мягко.",
+      "options": [
+        "Nggak mahal kok",
+        "Nggak mahal",
+        "Mahal dong",
+        "Nggak mahal kan"
+      ],
+      "answer": "Nggak mahal kok",
+      "speak_aloud": true,
+      "audio": "Nggak mahal kok"
+    },
+    {
+      "id": "d_PX_09",
+      "type": "particle_situation",
+      "mode": "choice",
+      "prompt_ru": "Собеседник удивился цене брендовой вещи. «Ну естественно дорого».",
+      "options": [
+        "Mahal dong",
+        "Mahal kok",
+        "Mahal sih",
+        "Mahal ya?"
+      ],
+      "answer": "Mahal dong",
+      "speak_aloud": true,
+      "audio": "Mahal dong"
+    },
+    {
+      "id": "d_PX_10",
+      "type": "particle_situation",
+      "mode": "choice",
+      "prompt_ru": "Оправдываешь покупку: дорого, но вещь хорошая.",
+      "options": [
+        "Mahal sih, tapi bagus",
+        "Mahal banget, tapi bagus",
+        "Mahal kok, tapi bagus",
+        "Mahal dong, tapi bagus"
+      ],
+      "answer": "Mahal sih, tapi bagus",
+      "speak_aloud": true,
+      "audio": "Mahal sih, tapi bagus"
+    },
+    {
+      "id": "d_PX_11",
+      "type": "particle_situation",
+      "mode": "choice",
+      "prompt_ru": "Реагируешь на цифру в чеке, ни к кому не обращаясь.",
+      "options": [
+        "Mahal banget",
+        "Mahal kan",
+        "Mahal deh",
+        "Mahal nih"
+      ],
+      "answer": "Mahal banget",
+      "speak_aloud": true,
+      "audio": "Mahal banget"
+    },
+    {
+      "id": "d_PX_12",
+      "type": "particle_situation",
+      "mode": "choice",
+      "prompt_ru": "Встретил коллегу в кафе за городом в выходной.",
+      "options": [
+        "Kok kamu di sini?",
+        "Kenapa kamu di sini?",
+        "Kamu di sini dong",
+        "Kamu di sini kan?"
+      ],
+      "answer": "Kok kamu di sini?",
+      "speak_aloud": true,
+      "audio": "Kok kamu di sini?"
+    },
+    {
+      "id": "d_PX_13",
+      "type": "particle_situation",
+      "mode": "choice",
+      "prompt_ru": "Тебе предлагают ненужную помощь. Отказываешься, не обидев.",
+      "options": [
+        "Aku bisa kok",
+        "Kok aku bisa?",
+        "Aku bisa dong",
+        "Aku bisa deh"
+      ],
+      "answer": "Aku bisa kok",
+      "speak_aloud": true,
+      "audio": "Aku bisa kok"
+    },
+    {
+      "id": "d_PX_14",
+      "type": "particle_situation",
+      "mode": "choice",
+      "prompt_ru": "Заказ приехал не на тот адрес, ты не понимаешь, как так вышло.",
+      "options": [
+        "Kok bisa sih?",
+        "Bisa kok",
+        "Bisa dong",
+        "Bisa sih"
+      ],
+      "answer": "Kok bisa sih?",
+      "speak_aloud": true,
+      "audio": "Kok bisa sih?"
+    },
+    {
+      "id": "d_PX_15",
+      "type": "particle_situation",
+      "mode": "choice",
+      "prompt_ru": "Заказываешь в варунге всего две порции.",
+      "options": [
+        "Dua aja",
+        "Dua banget",
+        "Dua dong",
+        "Dua nih"
+      ],
+      "answer": "Dua aja",
+      "speak_aloud": true,
+      "audio": "Dua aja"
+    },
+    {
+      "id": "d_PX_16",
+      "type": "particle_situation",
+      "mode": "choice",
+      "prompt_ru": "Предлагают заняться делом сейчас, ты хочешь отложить — мягко.",
+      "options": [
+        "Nanti aja",
+        "Nanti banget",
+        "Nanti kan",
+        "Nanti nih"
+      ],
+      "answer": "Nanti aja",
+      "speak_aloud": true,
+      "audio": "Nanti aja"
+    },
+    {
+      "id": "d_PX_17",
+      "type": "particle_situation",
+      "mode": "choice",
+      "prompt_ru": "Вернулся домой после съёмочного дня. Одна фраза о себе.",
+      "options": [
+        "Capek banget",
+        "Banget capek",
+        "Capek dong",
+        "Capek kan"
+      ],
+      "answer": "Capek banget",
+      "speak_aloud": true,
+      "audio": "Capek banget"
+    },
+    {
+      "id": "d_PX_18",
+      "type": "particle_situation",
+      "mode": "choice",
+      "prompt_ru": "Провожаешь друга на мотоцикле в дождь.",
+      "options": [
+        "Hati-hati ya",
+        "Hati-hati dong",
+        "Hati-hati sih",
+        "Hati-hati kok"
+      ],
+      "answer": "Hati-hati ya",
+      "speak_aloud": true,
+      "audio": "Hati-hati ya"
+    },
+    {
+      "id": "d_PX_19",
+      "type": "particle_situation",
+      "mode": "choice",
+      "prompt_ru": "Тебя позвали, нужна пара секунд.",
+      "options": [
+        "Bentar ya",
+        "Bentar aja",
+        "Bentar deh",
+        "Bentar kok"
+      ],
+      "answer": "Bentar ya",
+      "speak_aloud": true,
+      "audio": "Bentar ya"
+    },
+    {
+      "id": "d_PX_20",
+      "type": "particle_situation",
+      "mode": "choice",
+      "prompt_ru": "Спор надоел, соглашаешься на его вариант — сразу.",
+      "options": [
+        "Ya udah",
+        "Ya udah deh",
+        "Ya iya dong",
+        "Ya nggak sih"
+      ],
+      "answer": "Ya udah",
+      "speak_aloud": true,
+      "audio": "Ya udah"
+    },
+    {
+      "id": "d_PX_21",
+      "type": "particle_situation",
+      "mode": "choice",
+      "prompt_ru": "Сдаёшься после долгого сопротивления.",
+      "options": [
+        "Ya udah deh",
+        "Ya udah",
+        "Ya iya dong",
+        "Ya kan"
+      ],
+      "answer": "Ya udah deh",
+      "speak_aloud": true,
+      "audio": "Ya udah deh"
+    },
+    {
+      "id": "d_PX_22",
+      "type": "particle_situation",
+      "mode": "choice",
+      "prompt_ru": "Тебя спросили, умеешь ли ты водить. Водишь двадцать лет.",
+      "options": [
+        "Ya iya dong!",
+        "Ya udah deh",
+        "Bisa kok",
+        "Bisa aja"
+      ],
+      "answer": "Ya iya dong!",
+      "speak_aloud": true,
+      "audio": "Ya iya dong"
+    },
+    {
+      "id": "d_PX_23",
+      "type": "particle_situation",
+      "mode": "choice",
+      "prompt_ru": "Друг рассказал невероятную новость. Ты не веришь.",
+      "options": [
+        "Masa sih?",
+        "Ya udah",
+        "Ini nih",
+        "Tuh kan"
+      ],
+      "answer": "Masa sih?",
+      "speak_aloud": true,
+      "audio": "Masa sih?"
+    },
+    {
+      "id": "d_PX_24",
+      "type": "particle_situation",
+      "mode": "choice",
+      "prompt_ru": "Ты предупреждал про дождь. Пошёл дождь.",
+      "options": [
+        "Tuh kan!",
+        "Nih kan!",
+        "Ya udah deh",
+        "Kok bisa?"
+      ],
+      "answer": "Tuh kan!",
+      "speak_aloud": true,
+      "audio": "Tuh kan"
+    },
+    {
+      "id": "d_PX_25",
+      "type": "particle_situation",
+      "mode": "choice",
+      "prompt_ru": "Протягиваешь другу сдачу.",
+      "options": [
+        "Nih, ambil",
+        "Tuh, ambil",
+        "Ambil deh",
+        "Ambil dong"
+      ],
+      "answer": "Nih, ambil",
+      "speak_aloud": true,
+      "audio": "Nih, ambil"
+    },
+    {
+      "id": "d_PX_26",
+      "type": "particle_situation",
+      "mode": "choice",
+      "prompt_ru": "Заметил ожидаемого человека первым: «вон, идёт».",
+      "options": [
+        "Tuh, dia datang",
+        "Nih, dia datang",
+        "Dia datang kok",
+        "Dia datang deh"
+      ],
+      "answer": "Tuh, dia datang",
+      "speak_aloud": true,
+      "audio": "Tuh, dia datang"
+    },
+    {
+      "id": "d_PX_27",
+      "type": "particle_situation",
+      "mode": "choice",
+      "prompt_ru": "Долго выбирал в меню, наконец ткнул пальцем.",
+      "options": [
+        "Yang ini deh",
+        "Yang ini dong",
+        "Yang ini nih",
+        "Yang ini kok"
+      ],
+      "answer": "Yang ini deh",
+      "speak_aloud": true,
+      "audio": "Yang ini deh"
+    },
+    {
+      "id": "d_PX_28",
+      "type": "particle_situation",
+      "mode": "choice",
+      "prompt_ru": "Команда спорит о дате, тебе всё равно, и ты не хочешь давить.",
+      "options": [
+        "Aku sih nggak masalah",
+        "Aku nggak masalah",
+        "Nggak masalah dong",
+        "Nggak masalah kan"
+      ],
+      "answer": "Aku sih nggak masalah",
+      "speak_aloud": true,
+      "audio": "Aku sih nggak masalah"
+    },
+    {
+      "id": "d_PX_29",
+      "type": "particle_situation",
+      "mode": "choice",
+      "prompt_ru": "Человек извиняется за пролитый кофе.",
+      "options": [
+        "Nggak apa-apa kok",
+        "Nggak apa-apa",
+        "Nggak apa-apa dong",
+        "Apa-apa sih"
+      ],
+      "answer": "Nggak apa-apa kok",
+      "speak_aloud": true,
+      "audio": "Nggak apa-apa kok"
+    },
+    {
+      "id": "d_PX_30",
+      "type": "particle_situation",
+      "mode": "choice",
+      "prompt_ru": "Сидишь сзади на мотоцикле, приятель гонит.",
+      "options": [
+        "Pelan-pelan dong",
+        "Pelan-pelan aja",
+        "Pelan-pelan kok",
+        "Pelan-pelan kan"
+      ],
+      "answer": "Pelan-pelan dong",
+      "speak_aloud": true,
+      "audio": "Pelan-pelan dong"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": "A8", "track": "affixes", "kind": "unit", "week": 7, "day": 1, "order": 28,
+  "title_ru": "-kan — каузатив",
+  "subtitle_ru": "Сделать так, чтобы",
+  "items": ["-kan"],
+  "theory_ru": "У суффикса `-kan` две работы. Сегодня первая: **каузатив** — «сделать так, чтобы стало».\n\n| Корень | С -kan | Значение |\n|---|---|---|\n| `besar` большой | `membesarkan` | увеличить, вырастить |\n| `jalan` идти | `menjalankan` | запустить, привести в движение |\n| `masuk` войти | `memasukkan` | вложить, внести |\n| `mati` мёртвый | `mematikan` | выключить |\n| `nyala` гореть | `menyalakan` | включить |\n\nЛогика одна: было состояние — стало действие над кем-то или чем-то, чтобы это состояние возникло. `mati` (выключен) → `matikan` (сделай выключенным).\n\nОтсюда два бытовых глагола, которые нужны каждый день: `matiin` (выключи) и `nyalain` (включи) — те же каузативы, но в разговорной форме, до которой доберёмся в A11.\n\nВторое наблюдение: у каузатива объект **обязателен**. `Membesarkan` требует ответа «что именно увеличить». Непереходная пара к нему — `membesar` (увеличиваться сам по себе).",
+  "checklist": [
+    "Собираю каузатив от прилагательного: besar → membesarkan",
+    "Прошу выключить свет через matikan / matiin",
+    "Помню, что каузатив требует объекта"
+  ],
+  "drills": [
+    { "id": "d_A8_01", "type": "men_drill", "mode": "input",
+      "prompt": "besar", "prompt_ru": "Каузатив: meN- + корень + -kan", "answer": "membesarkan", "time_limit_sec": 7 },
+    { "id": "d_A8_02", "type": "men_drill", "mode": "input",
+      "prompt": "masuk", "prompt_ru": "Каузатив: meN- + корень + -kan", "answer": "memasukkan", "time_limit_sec": 7,
+      "explain_ru": "Двойная k на стыке: masuk + kan." },
+    { "id": "d_A8_03", "type": "men_drill", "mode": "input",
+      "prompt": "mati", "prompt_ru": "Каузатив: meN- + корень + -kan", "answer": "mematikan", "time_limit_sec": 7,
+      "explain_ru": "«Выключить». Разговорное — matiin." },
+    { "id": "d_A8_04", "type": "men_drill", "mode": "input",
+      "prompt": "nyala", "prompt_ru": "Каузатив: meN- + корень + -kan", "answer": "menyalakan", "time_limit_sec": 7,
+      "explain_ru": "ny остаётся, префикс meny-. «Включить»." },
+    { "id": "d_A8_05", "type": "word_strip", "mode": "choice",
+      "prompt": "menjalankan usaha",
+      "prompt_ru": "Что это значит?",
+      "options": ["вести дело", "идти на работу", "ходить по делам", "закрыть дело"],
+      "answer": "вести дело",
+      "explain_ru": "jalan (идти) → menjalankan (заставить идти, вести). Каузатив в чистом виде." },
+    { "id": "d_A8_06", "type": "particle_contrast", "mode": "choice",
+      "prompt_ru": "Компания растёт сама по себе — никто её специально не растит.",
+      "options": ["Usahanya membesar", "Usahanya membesarkan", "Usahanya dibesarkan", "Usahanya terbesar"],
+      "answer": "Usahanya membesar",
+      "explain_ru": "Без -kan — непереходное «увеличиваться». С -kan обязательно нужен тот, кто увеличивает." },
+    { "id": "d_A8_07", "type": "register_swap", "mode": "input",
+      "prompt": "Tolong matikan lampunya",
+      "prompt_ru": "Скажи то же самое другу, разговорно.",
+      "answer": "Matiin lampunya dong",
+      "accept": ["matiin lampunya", "matiin lampu dong", "matiin lampunya dong"],
+      "explain_ru": "Каузатив -kan в быту схлопывается в -in, а tolong уступает место dong." }
+  ]
+}

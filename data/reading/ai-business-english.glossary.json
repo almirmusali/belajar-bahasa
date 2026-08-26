@@ -1,0 +1,6485 @@
+{
+ "live": {
+  "ru": "живут"
+ },
+ "inside": {
+  "ru": "внутри"
+ },
+ "best": {
+  "ru": "лучшая",
+  "lemma": "good"
+ },
+ "metric": {
+  "ru": "метрика"
+ },
+ "top": {
+  "ru": "начало, верх"
+ },
+ "know": {
+  "ru": "знать"
+ },
+ "conversion": {
+  "ru": "конверсия"
+ },
+ "buys": {
+  "ru": "покупает",
+  "lemma": "buy"
+ },
+ "earns": {
+  "ru": "зарабатывает",
+  "lemma": "earn"
+ },
+ "hook": {
+  "ru": "хук, зацепка"
+ },
+ "goes": {
+  "ru": "уходят, идут",
+  "lemma": "go"
+ },
+ "salespeople": {
+  "ru": "продавцы, менеджеры по продажам",
+  "lemma": "salesperson"
+ },
+ "other": {
+  "ru": "другие"
+ },
+ "last": {
+  "ru": "прошлый"
+ },
+ "makes": {
+  "ru": "делает",
+  "lemma": "make"
+ },
+ "margin": {
+  "ru": "маржа"
+ },
+ "months": {
+  "ru": "месяцы",
+  "lemma": "month"
+ },
+ "equity": {
+  "ru": "доля в компании"
+ },
+ "plus": {
+  "ru": "плюс"
+ },
+ "jobs": {
+  "ru": "рабочие места, работы",
+  "lemma": "job"
+ },
+ "augmentation": {
+  "ru": "усиление человека технологией"
+ },
+ "raise": {
+  "ru": "привлекают (деньги)"
+ },
+ "weeks": {
+  "ru": "недели",
+  "lemma": "week"
+ },
+ "feel": {
+  "ru": "ощущаться, казаться"
+ },
+ "intelligence": {
+  "ru": "интеллект"
+ },
+ "few": {
+  "ru": "немногие, мало кто"
+ },
+ "require": {
+  "ru": "требовать"
+ },
+ "images": {
+  "ru": "изображения",
+  "lemma": "image"
+ },
+ "making": {
+  "ru": "принятие (решений)",
+  "lemma": "make"
+ },
+ "learns": {
+  "ru": "изучает, учится",
+  "lemma": "learn"
+ },
+ "tell": {
+  "ru": "отличать"
+ },
+ "examples": {
+  "ru": "примеры",
+  "lemma": "example"
+ },
+ "behind": {
+  "ru": "за, позади"
+ },
+ "almost": {
+  "ru": "почти"
+ },
+ "transactions": {
+  "ru": "транзакции",
+  "lemma": "transaction"
+ },
+ "there": {
+  "ru": "есть, существует"
+ },
+ "algorithm": {
+  "ru": "алгоритм"
+ },
+ "famous": {
+  "ru": "известный"
+ },
+ "large": {
+  "ru": "большая"
+ },
+ "internet": {
+  "ru": "интернет"
+ },
+ "answer": {
+  "ru": "ответ"
+ },
+ "languages": {
+  "ru": "языки",
+  "lemma": "language"
+ },
+ "chatbot": {
+  "ru": "чат-бот"
+ },
+ "happen": {
+  "ru": "происходить, случаться"
+ },
+ "things": {
+  "ru": "вещи",
+  "lemma": "thing"
+ },
+ "cheap": {
+  "ru": "дешёвый"
+ },
+ "anyone": {
+  "ru": "любой, каждый"
+ },
+ "ago": {
+  "ru": "назад"
+ },
+ "routine": {
+  "ru": "обычным делом, рутинным"
+ },
+ "hype": {
+  "ru": "хайп"
+ },
+ "reality": {
+  "ru": "реальность"
+ },
+ "head": {
+  "ru": "голова"
+ },
+ "produce": {
+  "ru": "выдавать, производить"
+ },
+ "understand": {
+  "ru": "понимать"
+ },
+ "dramatically": {
+  "ru": "резко, драматически"
+ },
+ "up": {
+  "ru": "частица (show up = проявляться)"
+ },
+ "costs": {
+  "ru": "стоит",
+  "lemma": "cost"
+ },
+ "believe": {
+  "ru": "верить"
+ },
+ "adopt": {
+  "ru": "внедряют"
+ },
+ "phrase": {
+  "ru": "фраза"
+ },
+ "twenty": {
+  "ru": "двадцать"
+ },
+ "dangerous": {
+  "ru": "опасный"
+ },
+ "valuable": {
+  "ru": "ценный"
+ },
+ "wins": {
+  "ru": "победы",
+  "lemma": "win"
+ },
+ "friction": {
+  "ru": "трение, помехи"
+ },
+ "scale": {
+  "ru": "масштаб"
+ },
+ "economics": {
+  "ru": "экономика"
+ },
+ "requests": {
+  "ru": "запросы",
+  "lemma": "request"
+ },
+ "hours": {
+  "ru": "часы",
+  "lemma": "hour"
+ },
+ "agents": {
+  "ru": "агенты",
+  "lemma": "agent"
+ },
+ "cases": {
+  "ru": "случаи",
+  "lemma": "case"
+ },
+ "unusual": {
+  "ru": "необычный"
+ },
+ "results": {
+  "ru": "результаты",
+  "lemma": "result"
+ },
+ "times": {
+  "ru": "время",
+  "lemma": "time"
+ },
+ "lower": {
+  "ru": "более низкий",
+  "lemma": "low"
+ },
+ "loses": {
+  "ru": "теряет",
+  "lemma": "lose"
+ },
+ "repetitive": {
+  "ru": "рутинный, повторяющийся"
+ },
+ "ads": {
+  "ru": "реклама, объявления",
+  "lemma": "ad"
+ },
+ "versions": {
+  "ru": "версии",
+  "lemma": "version"
+ },
+ "notice": {
+  "ru": "замечать"
+ },
+ "phrases": {
+  "ru": "фразы",
+  "lemma": "phrase"
+ },
+ "product-market": {
+  "ru": "продукт-рынок"
+ },
+ "short": {
+  "ru": "короткий"
+ },
+ "core": {
+  "ru": "основной, ключевой"
+ },
+ "very": {
+  "ru": "очень"
+ },
+ "even": {
+  "ru": "даже"
+ },
+ "code": {
+  "ru": "код"
+ },
+ "traditional": {
+  "ru": "традиционный"
+ },
+ "hand": {
+  "ru": "вручную"
+ },
+ "patterns": {
+  "ru": "закономерности, паттерны",
+  "lemma": "pattern"
+ },
+ "imagine": {
+  "ru": "представьте"
+ },
+ "thousands": {
+  "ru": "тысячи",
+  "lemma": "thousand"
+ },
+ "writes": {
+  "ru": "пишет",
+  "lemma": "write"
+ },
+ "called": {
+  "ru": "называется",
+  "lemma": "call"
+ },
+ "machine": {
+  "ru": "машина"
+ },
+ "today": {
+  "ru": "сегодня"
+ },
+ "system": {
+  "ru": "система"
+ },
+ "amounts": {
+  "ru": "объёмы, количества",
+  "lemma": "amount"
+ },
+ "garbage": {
+  "ru": "мусор"
+ },
+ "bad": {
+  "ru": "плохой"
+ },
+ "matter": {
+  "ru": "иметь значение"
+ },
+ "type": {
+  "ru": "тип"
+ },
+ "documents": {
+  "ru": "документы",
+  "lemma": "document"
+ },
+ "response": {
+  "ru": "ответ"
+ },
+ "did": {
+  "ru": "вспомогательный глагол прошедшего времени",
+  "lemma": "do"
+ },
+ "together": {
+  "ru": "вместе"
+ },
+ "power": {
+  "ru": "мощность"
+ },
+ "sometimes": {
+  "ru": "иногда"
+ },
+ "simply": {
+  "ru": "просто"
+ },
+ "practical": {
+  "ru": "практический"
+ },
+ "needs": {
+  "ru": "нуждается, требует",
+  "lemma": "need"
+ },
+ "win": {
+  "ru": "выигрывать"
+ },
+ "boring": {
+  "ru": "скучный"
+ },
+ "my": {
+  "ru": "мой"
+ },
+ "assistant": {
+  "ru": "ассистент, помощник"
+ },
+ "faster": {
+  "ru": "быстрее",
+  "lemma": "fast"
+ },
+ "cost": {
+  "ru": "стоимость"
+ },
+ "per": {
+  "ru": "на, за"
+ },
+ "stops": {
+  "ru": "останавливается",
+  "lemma": "stop"
+ },
+ "drowning": {
+  "ru": "тонет, захлёбывается",
+  "lemma": "drown"
+ },
+ "email": {
+  "ru": "email, почта"
+ },
+ "completely": {
+  "ru": "полностью"
+ },
+ "task": {
+  "ru": "задача"
+ },
+ "back": {
+  "ru": "тыловой, вспомогательный"
+ },
+ "office": {
+  "ru": "офис"
+ },
+ "line": {
+  "ru": "линейка, линия"
+ },
+ "gives": {
+  "ru": "даёт",
+  "lemma": "give"
+ },
+ "daily": {
+  "ru": "ежедневно"
+ },
+ "videos": {
+  "ru": "видео, ролики",
+  "lemma": "video"
+ },
+ "cheapest": {
+  "ru": "самый дешёвый",
+  "lemma": "cheap"
+ },
+ "project": {
+  "ru": "проект"
+ },
+ "opposite": {
+  "ru": "противоположное"
+ },
+ "comes": {
+  "ru": "приходит, наступает",
+  "lemma": "come"
+ },
+ "number": {
+  "ru": "число, количество"
+ },
+ "bank": {
+  "ru": "банк"
+ },
+ "whether": {
+  "ru": "ли, является ли"
+ },
+ "idea": {
+  "ru": "идея"
+ },
+ "step": {
+  "ru": "шаг"
+ },
+ "moves": {
+  "ru": "шаги, ходы",
+  "lemma": "move"
+ },
+ "half": {
+  "ru": "половина"
+ },
+ "percentage": {
+  "ru": "процент, доля"
+ },
+ "predictable": {
+  "ru": "предсказуемый"
+ },
+ "taste": {
+  "ru": "вкус"
+ },
+ "specific": {
+  "ru": "конкретное, специфичное"
+ },
+ "grow": {
+  "ru": "расти"
+ },
+ "runs": {
+  "ru": "работает, держится",
+  "lemma": "run"
+ },
+ "weak": {
+  "ru": "слабый"
+ },
+ "feedback": {
+  "ru": "обратная связь"
+ },
+ "market": {
+  "ru": "рынок"
+ },
+ "game": {
+  "ru": "игра"
+ },
+ "pivot": {
+  "ru": "пивот"
+ },
+ "direction": {
+  "ru": "направление"
+ },
+ "keeping": {
+  "ru": "удержание, сохранение",
+  "lemma": "keep"
+ },
+ "creates": {
+  "ru": "создаёт",
+  "lemma": "create"
+ },
+ "both": {
+  "ru": "оба, и то и другое"
+ },
+ "responsible": {
+  "ru": "ответственный"
+ },
+ "speak": {
+  "ru": "говорить"
+ },
+ "list": {
+  "ru": "список"
+ },
+ "management": {
+  "ru": "менеджмент, управление"
+ },
+ "leave": {
+  "ru": "уходят, покидают"
+ },
+ "the": {
+  "ru": "определённый артикль"
+ },
+ "a": {
+  "ru": "неопределённый артикль"
+ },
+ "is": {
+  "ru": "есть, является",
+  "lemma": "be"
+ },
+ "and": {
+  "ru": "и"
+ },
+ "in": {
+  "ru": "в"
+ },
+ "of": {
+  "ru": "родительный падеж (of)"
+ },
+ "to": {
+  "ru": "к"
+ },
+ "ai": {
+  "ru": "ИИ"
+ },
+ "it": {
+  "ru": "это, его"
+ },
+ "you": {
+  "ru": "ты, вы"
+ },
+ "that": {
+  "ru": "это, то"
+ },
+ "what": {
+  "ru": "что"
+ },
+ "not": {
+  "ru": "не"
+ },
+ "with": {
+  "ru": "с"
+ },
+ "for": {
+  "ru": "для"
+ },
+ "are": {
+  "ru": "являются",
+  "lemma": "be"
+ },
+ "they": {
+  "ru": "они"
+ },
+ "this": {
+  "ru": "это"
+ },
+ "your": {
+  "ru": "твой, ваш"
+ },
+ "an": {
+  "ru": "неопределённый артикль"
+ },
+ "one": {
+  "ru": "один"
+ },
+ "business": {
+  "ru": "бизнес"
+ },
+ "from": {
+  "ru": "от, из"
+ },
+ "do": {
+  "ru": "вспом. глагол (вопрос)"
+ },
+ "or": {
+  "ru": "или"
+ },
+ "every": {
+  "ru": "каждый"
+ },
+ "product": {
+  "ru": "продукт"
+ },
+ "can": {
+  "ru": "может"
+ },
+ "data": {
+  "ru": "данные"
+ },
+ "people": {
+  "ru": "люди",
+  "lemma": "person"
+ },
+ "why": {
+  "ru": "почему"
+ },
+ "how": {
+  "ru": "как"
+ },
+ "at": {
+  "ru": "при, в"
+ },
+ "does": {
+  "ru": "вспом. глагол (вопрос)",
+  "lemma": "do"
+ },
+ "which": {
+  "ru": "который, какой"
+ },
+ "on": {
+  "ru": "на"
+ },
+ "most": {
+  "ru": "самый (превосх. степень)"
+ },
+ "who": {
+  "ru": "кто"
+ },
+ "but": {
+  "ru": "но"
+ },
+ "model": {
+  "ru": "модель"
+ },
+ "when": {
+  "ru": "когда"
+ },
+ "more": {
+  "ru": "ещё, больше"
+ },
+ "vocabulary": {
+  "ru": "словарь, лексика"
+ },
+ "s": {
+  "ru": "сокращение (let's = let us)",
+  "lemma": "'s"
+ },
+ "has": {
+  "ru": "имеет",
+  "lemma": "have"
+ },
+ "new": {
+  "ru": "новый"
+ },
+ "english": {
+  "ru": "английский язык"
+ },
+ "by": {
+  "ru": "сам по себе (by itself)"
+ },
+ "human": {
+  "ru": "человек"
+ },
+ "first": {
+  "ru": "во-первых"
+ },
+ "because": {
+  "ru": "потому что"
+ },
+ "as": {
+  "ru": "как"
+ },
+ "customer": {
+  "ru": "клиент"
+ },
+ "sales": {
+  "ru": "продажи"
+ },
+ "two": {
+  "ru": "два"
+ },
+ "three": {
+  "ru": "три"
+ },
+ "process": {
+  "ru": "процесс"
+ },
+ "team": {
+  "ru": "команда"
+ },
+ "small": {
+  "ru": "с малого, скромно"
+ },
+ "all": {
+  "ru": "вообще (at all)"
+ },
+ "be": {
+  "ru": "быть (пассив, буд. время)"
+ },
+ "where": {
+  "ru": "где"
+ },
+ "company": {
+  "ru": "компания"
+ },
+ "will": {
+  "ru": "будет (буд. время)"
+ },
+ "have": {
+  "ru": "имеют"
+ },
+ "now": {
+  "ru": "сейчас"
+ },
+ "work": {
+  "ru": "работа"
+ },
+ "content": {
+  "ru": "контент"
+ },
+ "use": {
+  "ru": "использование"
+ },
+ "like": {
+  "ru": "как, подобно"
+ },
+ "companies": {
+  "ru": "компании",
+  "lemma": "company"
+ },
+ "marketing": {
+  "ru": "маркетинг"
+ },
+ "key": {
+  "ru": "ключевой"
+ },
+ "check": {
+  "ru": "проверь"
+ },
+ "startup": {
+  "ru": "стартап"
+ },
+ "between": {
+  "ru": "между"
+ },
+ "numbers": {
+  "ru": "числа, показатели",
+  "lemma": "number"
+ },
+ "if": {
+  "ru": "если"
+ },
+ "their": {
+  "ru": "их"
+ },
+ "them": {
+  "ru": "их"
+ },
+ "i": {
+  "ru": "я"
+ },
+ "any": {
+  "ru": "любой"
+ },
+ "leverage": {
+  "ru": "рычаг, кратный эффект"
+ },
+ "bottleneck": {
+  "ru": "узкое место"
+ },
+ "question": {
+  "ru": "вопрос"
+ },
+ "something": {
+  "ru": "что-то"
+ },
+ "die": {
+  "ru": "умирают"
+ },
+ "must": {
+  "ru": "должен"
+ },
+ "features": {
+  "ru": "функции, фичи",
+  "lemma": "feature"
+ },
+ "retention": {
+  "ru": "удержание"
+ },
+ "lead": {
+  "ru": "лид"
+ },
+ "monthly": {
+  "ru": "ежемесячный"
+ },
+ "metrics": {
+  "ru": "метрики",
+  "lemma": "metric"
+ },
+ "runway": {
+  "ru": "запас денег, runway"
+ },
+ "b": {
+  "ru": "Б (в A/B-тесте)"
+ },
+ "honest": {
+  "ru": "честный"
+ },
+ "text": {
+  "ru": "текст"
+ },
+ "used": {
+  "ru": "используется",
+  "lemma": "use"
+ },
+ "write": {
+  "ru": "записать"
+ },
+ "answers": {
+  "ru": "ответы",
+  "lemma": "answer"
+ },
+ "tasks": {
+  "ru": "задачи",
+  "lemma": "task"
+ },
+ "want": {
+  "ru": "хочешь"
+ },
+ "would": {
+  "ru": "бы (сослагательное)"
+ },
+ "world": {
+  "ru": "мир"
+ },
+ "conversation": {
+  "ru": "разговор"
+ },
+ "get": {
+  "ru": "получаешь"
+ },
+ "example": {
+  "ru": "пример"
+ },
+ "mean": {
+  "ru": "значить"
+ },
+ "serious": {
+  "ru": "серьёзный"
+ },
+ "instead": {
+  "ru": "вместо этого"
+ },
+ "ten": {
+  "ru": "десять"
+ },
+ "takes": {
+  "ru": "занимает",
+  "lemma": "take"
+ },
+ "output": {
+  "ru": "выход, выпуск"
+ },
+ "skill": {
+  "ru": "навык"
+ },
+ "through": {
+  "ru": "проходят (без сбоев)"
+ },
+ "mistake": {
+  "ru": "ошибка"
+ },
+ "week": {
+  "ru": "неделя"
+ },
+ "after": {
+  "ru": "после"
+ },
+ "improve": {
+  "ru": "улучшать"
+ },
+ "whole": {
+  "ru": "весь, целый"
+ },
+ "just": {
+  "ru": "просто"
+ },
+ "else": {
+  "ru": "остальное"
+ },
+ "always": {
+  "ru": "всегда"
+ },
+ "value": {
+  "ru": "стоимость"
+ },
+ "decisions": {
+  "ru": "решения",
+  "lemma": "decision"
+ },
+ "startups": {
+  "ru": "стартапы",
+  "lemma": "startup"
+ },
+ "year": {
+  "ru": "год"
+ },
+ "reach": {
+  "ru": "охват"
+ },
+ "onboarding": {
+  "ru": "онбординг, адаптация"
+ },
+ "attention": {
+  "ru": "внимание"
+ },
+ "total": {
+  "ru": "общий, итоговый"
+ },
+ "profit": {
+  "ru": "прибыль"
+ },
+ "k": {
+  "ru": "тыс. (тысяча)"
+ },
+ "useful": {
+  "ru": "полезный"
+ },
+ "chapter": {
+  "ru": "глава"
+ },
+ "day": {
+  "ru": "день"
+ },
+ "everyone": {
+  "ru": "каждый, все"
+ },
+ "nobody": {
+  "ru": "никто"
+ },
+ "learning": {
+  "ru": "обучение"
+ },
+ "again": {
+  "ru": "снова"
+ },
+ "out": {
+  "ru": "на выходе"
+ },
+ "result": {
+  "ru": "результат"
+ },
+ "emails": {
+  "ru": "письма",
+  "lemma": "email"
+ },
+ "come": {
+  "ru": "происходят"
+ },
+ "years": {
+  "ru": "лет",
+  "lemma": "year"
+ },
+ "became": {
+  "ru": "стал",
+  "lemma": "become"
+ },
+ "powerful": {
+  "ru": "мощный"
+ },
+ "history": {
+  "ru": "история"
+ },
+ "better": {
+  "ru": "лучший",
+  "lemma": "good"
+ },
+ "important": {
+  "ru": "важно"
+ },
+ "tool": {
+  "ru": "инструмент"
+ },
+ "clear": {
+  "ru": "понятный, чёткий"
+ },
+ "judgment": {
+  "ru": "суждение, чутьё"
+ },
+ "ones": {
+  "ru": "те, кто",
+  "lemma": "one"
+ },
+ "works": {
+  "ru": "работает",
+  "lemma": "work"
+ },
+ "often": {
+  "ru": "часто"
+ },
+ "support": {
+  "ru": "поддержка"
+ },
+ "long": {
+  "ru": "долго"
+ },
+ "need": {
+  "ru": "нужно"
+ },
+ "easy": {
+  "ru": "легко"
+ },
+ "pattern": {
+  "ru": "закономерность, паттерн"
+ },
+ "loop": {
+  "ru": "контур, цикл"
+ },
+ "knowing": {
+  "ru": "знание, понимание",
+  "lemma": "know"
+ },
+ "processes": {
+  "ru": "процессы",
+  "lemma": "process"
+ },
+ "could": {
+  "ru": "могли бы"
+ },
+ "move": {
+  "ru": "двигаются, меняются"
+ },
+ "start": {
+  "ru": "начни"
+ },
+ "fast": {
+  "ru": "быстро"
+ },
+ "rule": {
+  "ru": "правило"
+ },
+ "without": {
+  "ru": "без"
+ },
+ "automation": {
+  "ru": "автоматизация"
+ },
+ "quietly": {
+  "ru": "незаметно, тихо"
+ },
+ "once": {
+  "ru": "когда-то, раньше"
+ },
+ "version": {
+  "ru": "версия"
+ },
+ "say": {
+  "ru": "говоришь, скажешь"
+ },
+ "too": {
+  "ru": "тоже"
+ },
+ "moat": {
+  "ru": "ров, защитное преимущество"
+ },
+ "experience": {
+  "ru": "опыт"
+ },
+ "funnel": {
+  "ru": "воронка"
+ },
+ "rate": {
+  "ru": "скорость, показатель"
+ },
+ "discipline": {
+  "ru": "дисциплина"
+ },
+ "deals": {
+  "ru": "сделки",
+  "lemma": "deal"
+ },
+ "expensive": {
+  "ru": "дорогостоящий"
+ },
+ "subscribers": {
+  "ru": "подписчики",
+  "lemma": "subscriber"
+ },
+ "professional": {
+  "ru": "профессиональный"
+ },
+ "hiring": {
+  "ru": "найм",
+  "lemma": "hire"
+ },
+ "fit": {
+  "ru": "соответствие"
+ },
+ "describe": {
+  "ru": "опиши"
+ },
+ "take": {
+  "ru": "выбираешь, идёшь"
+ },
+ "path": {
+  "ru": "путь"
+ },
+ "itself": {
+  "ru": "сам по себе"
+ },
+ "training": {
+  "ru": "обучение",
+  "lemma": "train"
+ },
+ "until": {
+  "ru": "до недавнего времени"
+ },
+ "saying": {
+  "ru": "говорить",
+  "lemma": "say"
+ },
+ "industry": {
+  "ru": "отрасль"
+ },
+ "enormous": {
+  "ru": "огромный"
+ },
+ "should": {
+  "ru": "должен (модальный)"
+ },
+ "old": {
+  "ru": "старый"
+ },
+ "third": {
+  "ru": "в-третьих"
+ },
+ "investors": {
+  "ru": "инвесторы",
+  "lemma": "investor"
+ },
+ "wrong": {
+  "ru": "не так, плохо"
+ },
+ "actually": {
+  "ru": "на самом деле"
+ },
+ "exactly": {
+  "ru": "точно"
+ },
+ "make": {
+  "ru": "делает"
+ },
+ "usually": {
+  "ru": "обычно"
+ },
+ "order": {
+  "ru": "порядок"
+ },
+ "drafts": {
+  "ru": "составляет черновик",
+  "lemma": "draft"
+ },
+ "looks": {
+  "ru": "выглядит",
+  "lemma": "look"
+ },
+ "leads": {
+  "ru": "лиды",
+  "lemma": "lead"
+ },
+ "analysis": {
+  "ru": "анализ"
+ },
+ "analyst": {
+  "ru": "аналитик"
+ },
+ "find": {
+  "ru": "находят"
+ },
+ "anything": {
+  "ru": "что-либо"
+ },
+ "hire": {
+  "ru": "нанимаешь"
+ },
+ "map": {
+  "ru": "составить карту"
+ },
+ "already": {
+  "ru": "уже"
+ },
+ "give": {
+  "ru": "приведи"
+ },
+ "stay": {
+  "ru": "остаются"
+ },
+ "tech": {
+  "ru": "техноиндустрия"
+ },
+ "starts": {
+  "ru": "начинается",
+  "lemma": "start"
+ },
+ "mvp": {
+  "ru": "MVP, минимально жизнеспособный продукт"
+ },
+ "watch": {
+  "ru": "смотрят"
+ },
+ "name": {
+  "ru": "назови"
+ },
+ "early": {
+  "ru": "ранний"
+ },
+ "moment": {
+  "ru": "момент"
+ },
+ "audience": {
+  "ru": "аудитория"
+ },
+ "while": {
+  "ru": "тогда как"
+ },
+ "some": {
+  "ru": "некоторые"
+ },
+ "wave": {
+  "ru": "волна"
+ },
+ "opportunity": {
+  "ru": "возможность"
+ },
+ "bought": {
+  "ru": "покупал",
+  "lemma": "buy"
+ },
+ "strategy": {
+  "ru": "стратегия"
+ },
+ "stage": {
+  "ru": "этап"
+ },
+ "views": {
+  "ru": "просмотры",
+  "lemma": "view"
+ },
+ "over": {
+  "ru": "на протяжении"
+ },
+ "correlation": {
+  "ru": "корреляция"
+ },
+ "knows": {
+  "ru": "знает",
+  "lemma": "know"
+ },
+ "burn": {
+  "ru": "сжигание денег"
+ },
+ "salary": {
+  "ru": "зарплата"
+ },
+ "async": {
+  "ru": "асинхронный"
+ },
+ "about": {
+  "ru": "о"
+ },
+ "person": {
+  "ru": "человек"
+ },
+ "own": {
+  "ru": "свой"
+ },
+ "same": {
+  "ru": "тот же"
+ },
+ "customers": {
+  "ru": "клиенты",
+  "lemma": "customer"
+ },
+ "time": {
+  "ru": "время"
+ },
+ "revenue": {
+  "ru": "выручка"
+ },
+ "software": {
+  "ru": "программное обеспечение, софт"
+ },
+ "everything": {
+  "ru": "всё"
+ },
+ "teams": {
+  "ru": "команды",
+  "lemma": "team"
+ },
+ "yourself": {
+  "ru": "себя, сам"
+ },
+ "language": {
+  "ru": "язык"
+ },
+ "difference": {
+  "ru": "разница"
+ },
+ "different": {
+  "ru": "другой"
+ },
+ "learn": {
+  "ru": "изучить, научиться"
+ },
+ "money": {
+  "ru": "деньги"
+ },
+ "founders": {
+  "ru": "основатели",
+  "lemma": "founder"
+ },
+ "each": {
+  "ru": "каждый"
+ },
+ "questions": {
+  "ru": "вопросы",
+  "lemma": "question"
+ },
+ "call": {
+  "ru": "называть"
+ },
+ "than": {
+  "ru": "чем"
+ },
+ "build": {
+  "ru": "строить, создавать"
+ },
+ "never": {
+  "ru": "никогда"
+ },
+ "month": {
+  "ru": "месяц"
+ },
+ "explain": {
+  "ru": "объяснить"
+ },
+ "real": {
+  "ru": "настоящий"
+ },
+ "we": {
+  "ru": "мы"
+ },
+ "into": {
+  "ru": "в"
+ },
+ "word": {
+  "ru": "слово"
+ },
+ "speed": {
+  "ru": "скорость"
+ },
+ "good": {
+  "ru": "хороший"
+ },
+ "before": {
+  "ru": "перед тем как"
+ },
+ "pipeline": {
+  "ru": "пайплайн"
+ },
+ "founder": {
+  "ru": "основатель"
+ },
+ "tools": {
+  "ru": "инструменты",
+  "lemma": "tool"
+ },
+ "users": {
+  "ru": "пользователи",
+  "lemma": "user"
+ },
+ "writing": {
+  "ru": "писать, составлять",
+  "lemma": "write"
+ },
+ "those": {
+  "ru": "те"
+ },
+ "no": {
+  "ru": "никакой, нет"
+ },
+ "so": {
+  "ru": "поэтому"
+ },
+ "second": {
+  "ru": "во-вторых"
+ },
+ "means": {
+  "ru": "означает",
+  "lemma": "mean"
+ },
+ "test": {
+  "ru": "проверять"
+ },
+ "buy": {
+  "ru": "купить"
+ },
+ "here": {
+  "ru": "вот"
+ },
+ "look": {
+  "ru": "искать"
+ },
+ "automate": {
+  "ru": "автоматизировать"
+ },
+ "steps": {
+  "ru": "шаги",
+  "lemma": "step"
+ },
+ "cannot": {
+  "ru": "не может",
+  "lemma": "can"
+ },
+ "many": {
+  "ru": "сколько"
+ },
+ "change": {
+  "ru": "изменение"
+ },
+ "trust": {
+  "ru": "доверие"
+ },
+ "skills": {
+  "ru": "навыки",
+  "lemma": "skill"
+ },
+ "read": {
+  "ru": "читать"
+ },
+ "become": {
+  "ru": "стать"
+ },
+ "next": {
+  "ru": "следующий"
+ },
+ "only": {
+  "ru": "только"
+ },
+ "working": {
+  "ru": "работать",
+  "lemma": "work"
+ },
+ "five": {
+  "ru": "пять"
+ },
+ "measure": {
+  "ru": "измерять"
+ },
+ "these": {
+  "ru": "эти"
+ },
+ "job": {
+  "ru": "задача"
+ },
+ "its": {
+  "ru": "его, свой"
+ },
+ "nothing": {
+  "ru": "ничего"
+ },
+ "matters": {
+  "ru": "имеет значение",
+  "lemma": "matter"
+ },
+ "changes": {
+  "ru": "меняет",
+  "lemma": "change"
+ },
+ "ask": {
+  "ru": "просить"
+ },
+ "building": {
+  "ru": "создание",
+  "lemma": "build"
+ },
+ "user": {
+  "ru": "пользователь"
+ },
+ "churn": {
+  "ru": "отток клиентов"
+ },
+ "simple": {
+  "ru": "простой"
+ },
+ "words": {
+  "ru": "слова",
+  "lemma": "word"
+ },
+ "rules": {
+  "ru": "правила",
+  "lemma": "rule"
+ },
+ "models": {
+  "ru": "модели",
+  "lemma": "model"
+ },
+ "then": {
+  "ru": "тогда"
+ },
+ "modern": {
+  "ru": "современный"
+ },
+ "video": {
+  "ru": "видео"
+ },
+ "technology": {
+  "ru": "технология"
+ },
+ "keep": {
+  "ru": "сохранять"
+ },
+ "way": {
+  "ru": "способ"
+ },
+ "closing": {
+  "ru": "заключительный"
+ },
+ "lose": {
+  "ru": "терять"
+ },
+ "existing": {
+  "ru": "существующий"
+ },
+ "success": {
+  "ru": "успех"
+ },
+ "correlate": {
+  "ru": "коррелируют"
+ },
+ "objections": {
+  "ru": "возражения",
+  "lemma": "objection"
+ },
+ "kpis": {
+  "ru": "KPI, ключевые показатели",
+  "lemma": "kpi"
+ },
+ "dashboard": {
+  "ru": "дашборд"
+ },
+ "one-time": {
+  "ru": "разовый"
+ },
+ "story": {
+  "ru": "история"
+ },
+ "rise": {
+  "ru": "растут"
+ },
+ "causation": {
+  "ru": "причинность"
+ },
+ "practice": {
+  "ru": "практикуются"
+ },
+ "being": {
+  "ru": "быть",
+  "lemma": "be"
+ },
+ "vanity": {
+  "ru": "тщеславие"
+ },
+ "health": {
+  "ru": "здоровье"
+ },
+ "financial": {
+  "ru": "финансовый"
+ },
+ "mrr": {
+  "ru": "MRR, регулярная выручка"
+ },
+ "recurring": {
+  "ru": "регулярный"
+ },
+ "cac": {
+  "ru": "CAC, стоимость привлечения клиента"
+ },
+ "acquisition": {
+  "ru": "привлечение"
+ },
+ "spend": {
+  "ru": "тратить"
+ },
+ "ltv": {
+  "ru": "LTV, пожизненная ценность клиента"
+ },
+ "exchange": {
+  "ru": "обмен"
+ },
+ "bootstrapping": {
+  "ru": "развитие на свои деньги",
+  "lemma": "bootstrap"
+ },
+ "compounding": {
+  "ru": "накапливающийся",
+  "lemma": "compound"
+ },
+ "culture": {
+  "ru": "культура"
+ },
+ "beats": {
+  "ru": "превосходит",
+  "lemma": "beat"
+ },
+ "hard": {
+  "ru": "трудный"
+ },
+ "destroy": {
+  "ru": "уничтожит"
+ },
+ "verification": {
+  "ru": "проверка"
+ },
+ "paste": {
+  "ru": "вставлять"
+ },
+ "disruption": {
+  "ru": "слом отрасли, дизрапшн"
+ },
+ "intersection": {
+  "ru": "пересечение"
+ },
+ "round": {
+  "ru": "раунд"
+ },
+ "cut": {
+  "ru": "сократить"
+ },
+ "busy": {
+  "ru": "занятой"
+ },
+ "paragraph": {
+  "ru": "абзац"
+ },
+ "aloud": {
+  "ru": "вслух"
+ },
+ "four": {
+  "ru": "четыре"
+ },
+ "artificial": {
+  "ru": "искусственный"
+ },
+ "let": {
+  "ru": "давай"
+ },
+ "fix": {
+  "ru": "исправить"
+ },
+ "understanding": {
+  "ru": "понимание",
+  "lemma": "understand"
+ },
+ "predictions": {
+  "ru": "предсказания",
+  "lemma": "prediction"
+ },
+ "follows": {
+  "ru": "следует",
+  "lemma": "follow"
+ },
+ "photos": {
+  "ru": "фотографии",
+  "lemma": "photo"
+ },
+ "cat": {
+  "ru": "кошка"
+ },
+ "approach": {
+  "ru": "подход"
+ },
+ "breaks": {
+  "ru": "ломает",
+  "lemma": "break"
+ },
+ "quickly": {
+  "ru": "быстро"
+ },
+ "messy": {
+  "ru": "хаотичный"
+ },
+ "collect": {
+  "ru": "собирать"
+ },
+ "train": {
+  "ru": "обучать"
+ },
+ "finds": {
+  "ru": "находит",
+  "lemma": "find"
+ },
+ "engine": {
+  "ru": "движок"
+ },
+ "structure": {
+  "ru": "структурировать"
+ },
+ "millions": {
+  "ru": "миллионы",
+  "lemma": "million"
+ },
+ "parameters": {
+  "ru": "параметры",
+  "lemma": "parameter"
+ },
+ "huge": {
+  "ru": "огромный"
+ },
+ "raw": {
+  "ru": "необработанный"
+ },
+ "trained": {
+  "ru": "обучены",
+  "lemma": "train"
+ },
+ "summarize": {
+  "ru": "кратко излагать"
+ },
+ "prompt": {
+  "ru": "промпт, запрос"
+ },
+ "predicting": {
+  "ru": "предсказывая",
+  "lemma": "predict"
+ },
+ "research": {
+  "ru": "исследования"
+ },
+ "boom": {
+  "ru": "бум"
+ },
+ "recently": {
+  "ru": "недавно"
+ },
+ "available": {
+  "ru": "доступный"
+ },
+ "requires": {
+  "ru": "требует",
+  "lemma": "require"
+ },
+ "rent": {
+  "ru": "аренда"
+ },
+ "produced": {
+  "ru": "произвёл",
+  "lemma": "produce"
+ },
+ "ways": {
+  "ru": "способы",
+  "lemma": "way"
+ },
+ "themselves": {
+  "ru": "сами"
+ },
+ "improves": {
+  "ru": "улучшается",
+  "lemma": "improve"
+ },
+ "expected": {
+  "ru": "ожидал",
+  "lemma": "expect"
+ },
+ "description": {
+  "ru": "описание"
+ },
+ "vs": {
+  "ru": "против"
+ },
+ "attracts": {
+  "ru": "привлекает",
+  "lemma": "attract"
+ },
+ "impressive": {
+  "ru": "впечатляющий"
+ },
+ "testing": {
+  "ru": "тестирование"
+ },
+ "hooks": {
+  "ru": "хуки, зацепки",
+  "lemma": "hook"
+ },
+ "constantly": {
+  "ru": "постоянно"
+ },
+ "kill": {
+  "ru": "убивают"
+ },
+ "bring": {
+  "ru": "довести"
+ },
+ "volume": {
+  "ru": "объём"
+ },
+ "segment": {
+  "ru": "сегмент"
+ },
+ "message": {
+  "ru": "сообщение"
+ },
+ "sameness": {
+  "ru": "однообразие"
+ },
+ "winners": {
+  "ru": "победители",
+  "lemma": "winner"
+ },
+ "part": {
+  "ru": "часть"
+ },
+ "run": {
+  "ru": "провести"
+ },
+ "speech": {
+  "ru": "речь"
+ },
+ "checking": {
+  "ru": "проверка",
+  "lemma": "check"
+ },
+ "qualify": {
+  "ru": "квалифицировать"
+ },
+ "set": {
+  "ru": "набор"
+ },
+ "potential": {
+  "ru": "потенциальная"
+ },
+ "demo": {
+  "ru": "демо"
+ },
+ "negotiation": {
+  "ru": "переговоры"
+ },
+ "deal": {
+  "ru": "сделка"
+ },
+ "promise": {
+  "ru": "обещание"
+ },
+ "our": {
+  "ru": "наш"
+ },
+ "close": {
+  "ru": "закрытие"
+ },
+ "verbs": {
+  "ru": "глаголы",
+  "lemma": "verb"
+ },
+ "politely": {
+  "ru": "вежливо"
+ },
+ "fourth": {
+  "ru": "четвёртое"
+ },
+ "touch": {
+  "ru": "затрагивают"
+ },
+ "signed": {
+  "ru": "подписанный",
+  "lemma": "sign"
+ },
+ "contract": {
+  "ru": "договор"
+ },
+ "quiet": {
+  "ru": "тихая, незаметная"
+ },
+ "subscription": {
+  "ru": "подписка"
+ },
+ "businesses": {
+  "ru": "компании",
+  "lemma": "business"
+ },
+ "mature": {
+  "ru": "зрелые"
+ },
+ "invest": {
+  "ru": "инвестировать"
+ },
+ "whose": {
+  "ru": "чьи"
+ },
+ "member": {
+  "ru": "участник"
+ },
+ "hour": {
+  "ru": "час"
+ },
+ "summary": {
+  "ru": "резюме, итог"
+ },
+ "preparation": {
+  "ru": "подготовка"
+ },
+ "feed": {
+  "ru": "подпитывать"
+ },
+ "help": {
+  "ru": "помогать"
+ },
+ "around": {
+  "ru": "вокруг"
+ },
+ "opinions": {
+  "ru": "мнения",
+  "lemma": "opinion"
+ },
+ "weekly": {
+  "ru": "еженедельно"
+ },
+ "growing": {
+  "ru": "растём",
+  "lemma": "grow"
+ },
+ "jump": {
+  "ru": "резко расти"
+ },
+ "grew": {
+  "ru": "вырос",
+  "lemma": "grow"
+ },
+ "month-over-month": {
+  "ru": "месяц к месяцу"
+ },
+ "compares": {
+  "ru": "сравнивает",
+  "lemma": "compare"
+ },
+ "divided": {
+  "ru": "делённая",
+  "lemma": "divide"
+ },
+ "outliers": {
+  "ru": "выбросы",
+  "lemma": "outlier"
+ },
+ "data-driven": {
+  "ru": "основанный на данных"
+ },
+ "alone": {
+  "ru": "сам по себе"
+ },
+ "proves": {
+  "ru": "доказывает",
+  "lemma": "prove"
+ },
+ "especially": {
+  "ru": "особенно"
+ },
+ "quarter": {
+  "ru": "квартал"
+ },
+ "asking": {
+  "ru": "задать (вопрос)",
+  "lemma": "ask"
+ },
+ "deeply": {
+  "ru": "глубоко"
+ },
+ "finance": {
+  "ru": "финансы"
+ },
+ "subscriptions": {
+  "ru": "подписки",
+  "lemma": "subscription"
+ },
+ "brings": {
+  "ru": "приносит",
+  "lemma": "bring"
+ },
+ "life": {
+  "ru": "жизнь"
+ },
+ "cash": {
+  "ru": "наличные"
+ },
+ "funding": {
+  "ru": "финансирование"
+ },
+ "grows": {
+  "ru": "растёт",
+  "lemma": "grow"
+ },
+ "valuation": {
+  "ru": "оценка компании"
+ },
+ "worth": {
+  "ru": "стоит"
+ },
+ "correct": {
+  "ru": "правильный"
+ },
+ "venture": {
+  "ru": "венчурное"
+ },
+ "reading": {
+  "ru": "чтение",
+  "lemma": "read"
+ },
+ "yours": {
+  "ru": "твой, ваш"
+ },
+ "ignored": {
+  "ru": "игнорируемые",
+  "lemma": "ignore"
+ },
+ "rewards": {
+  "ru": "вознаграждает",
+  "lemma": "reward"
+ },
+ "prefer": {
+  "ru": "предпочитают"
+ },
+ "fire": {
+  "ru": "увольнять"
+ },
+ "role": {
+  "ru": "должность, роль"
+ },
+ "candidates": {
+  "ru": "кандидаты",
+  "lemma": "candidate"
+ },
+ "recruiting": {
+  "ru": "рекрутинг"
+ },
+ "employee": {
+  "ru": "сотрудник"
+ },
+ "contractor": {
+  "ru": "подрядчик"
+ },
+ "hallucinate": {
+  "ru": "галлюцинируют"
+ },
+ "confident": {
+  "ru": "уверенные"
+ },
+ "prejudice": {
+  "ru": "предвзятость"
+ },
+ "treat": {
+  "ru": "относиться"
+ },
+ "open": {
+  "ru": "открывать"
+ },
+ "instructions": {
+  "ru": "инструкции",
+  "lemma": "instruction"
+ },
+ "uses": {
+  "ru": "применения",
+  "lemma": "use"
+ },
+ "robots": {
+  "ru": "роботы",
+  "lemma": "robot"
+ },
+ "cars": {
+  "ru": "машины",
+  "lemma": "car"
+ },
+ "biggest": {
+  "ru": "крупнейшие",
+  "lemma": "big"
+ },
+ "everyday": {
+  "ru": "повседневный"
+ },
+ "operations": {
+  "ru": "операционная деятельность",
+  "lemma": "operation"
+ },
+ "answering": {
+  "ru": "отвечая, подчиняясь",
+  "lemma": "answer"
+ },
+ "sorting": {
+  "ru": "сортировка",
+  "lemma": "sort"
+ },
+ "descriptions": {
+  "ru": "описания",
+  "lemma": "description"
+ },
+ "replace": {
+  "ru": "заменить"
+ },
+ "removes": {
+  "ru": "устраняет",
+  "lemma": "remove"
+ },
+ "thousand": {
+  "ru": "тысяча"
+ },
+ "place": {
+  "ru": "место"
+ },
+ "password": {
+  "ru": "пароль"
+ },
+ "instantly": {
+  "ru": "мгновенно"
+ },
+ "difficult": {
+  "ru": "сложный"
+ },
+ "situations": {
+  "ru": "ситуации",
+  "lemma": "situation"
+ },
+ "ticket": {
+  "ru": "тикет, обращение"
+ },
+ "campaigns": {
+  "ru": "рассылки",
+  "lemma": "campaign"
+ },
+ "posts": {
+  "ru": "посты",
+  "lemma": "post"
+ },
+ "changed": {
+  "ru": "изменил",
+  "lemma": "change"
+ },
+ "took": {
+  "ru": "занимал",
+  "lemma": "take"
+ },
+ "minutes": {
+  "ru": "минуты",
+  "lemma": "minute"
+ },
+ "marketers": {
+  "ru": "маркетологи",
+  "lemma": "marketer"
+ },
+ "translation": {
+  "ru": "перевод"
+ },
+ "final": {
+  "ru": "окончательные"
+ },
+ "decision": {
+  "ru": "решение"
+ },
+ "blank": {
+  "ru": "чистый, пустой"
+ },
+ "outreach": {
+  "ru": "аутрич, холодные контакты"
+ },
+ "earth": {
+  "ru": "Земля"
+ },
+ "contracts": {
+  "ru": "договоры",
+  "lemma": "contract"
+ },
+ "orders": {
+  "ru": "заказы",
+  "lemma": "order"
+ },
+ "eat": {
+  "ru": "съедают, отнимают"
+ },
+ "automating": {
+  "ru": "автоматизация",
+  "lemma": "automate"
+ },
+ "sound": {
+  "ru": "звучать"
+ },
+ "shows": {
+  "ru": "проявляется",
+  "lemma": "show"
+ },
+ "big": {
+  "ru": "большой"
+ },
+ "capabilities": {
+  "ru": "возможности",
+  "lemma": "capability"
+ },
+ "employees": {
+  "ru": "сотрудники",
+  "lemma": "employee"
+ },
+ "struggle": {
+  "ru": "испытывают трудности"
+ },
+ "transformation": {
+  "ru": "трансформация"
+ },
+ "painful": {
+  "ru": "болезненный"
+ },
+ "competitive": {
+  "ru": "конкурентное"
+ },
+ "see": {
+  "ru": "видеть"
+ },
+ "turns": {
+  "ru": "превращает",
+  "lemma": "turn"
+ },
+ "package": {
+  "ru": "посылка"
+ },
+ "collection": {
+  "ru": "набор"
+ },
+ "such": {
+  "ru": "таких"
+ },
+ "owner": {
+  "ru": "владелец"
+ },
+ "scalable": {
+  "ru": "масштабируемый"
+ },
+ "others": {
+  "ru": "остальные",
+  "lemma": "other"
+ },
+ "wide": {
+  "ru": "широкий"
+ },
+ "production": {
+  "ru": "производство"
+ },
+ "scripts": {
+  "ru": "сценарии",
+  "lemma": "script"
+ },
+ "front": {
+  "ru": "перед"
+ },
+ "editor": {
+  "ru": "монтажёр"
+ },
+ "saves": {
+  "ru": "сохранения",
+  "lemma": "save"
+ },
+ "ignore": {
+  "ru": "игнорировать"
+ },
+ "done": {
+  "ru": "выполнены",
+  "lemma": "do"
+ },
+ "cycle": {
+  "ru": "цикл"
+ },
+ "turnaround": {
+  "ru": "срок выполнения"
+ },
+ "problem": {
+  "ru": "проблема"
+ },
+ "cliché": {
+  "ru": "клише"
+ },
+ "add": {
+  "ru": "добавлять"
+ },
+ "multiplies": {
+  "ru": "умножает",
+  "lemma": "multiply"
+ },
+ "including": {
+  "ru": "включая",
+  "lemma": "include"
+ },
+ "copy": {
+  "ru": "скопировать"
+ },
+ "amount": {
+  "ru": "сумма"
+ },
+ "handles": {
+  "ru": "обрабатывает",
+  "lemma": "handle"
+ },
+ "complaint": {
+  "ru": "жалоба"
+ },
+ "reply": {
+  "ru": "ответ"
+ },
+ "follow": {
+  "ru": "следовать"
+ },
+ "information": {
+  "ru": "информация"
+ },
+ "territory": {
+  "ru": "территория, сфера"
+ },
+ "draft": {
+  "ru": "черновик"
+ },
+ "future": {
+  "ru": "будущее"
+ },
+ "editing": {
+  "ru": "редактирование",
+  "lemma": "edit"
+ },
+ "spends": {
+  "ru": "тратит",
+  "lemma": "spend"
+ },
+ "right": {
+  "ru": "правильный"
+ },
+ "personalized": {
+  "ru": "персонализированный",
+  "lemma": "personalize"
+ },
+ "meeting": {
+  "ru": "встречающая",
+  "lemma": "meet"
+ },
+ "updates": {
+  "ru": "отчёты, обновления",
+  "lemma": "update"
+ },
+ "crm": {
+  "ru": "CRM-система"
+ },
+ "checks": {
+  "ru": "проверяет",
+  "lemma": "check"
+ },
+ "bottom": {
+  "ru": "итоговый (bottom line)"
+ },
+ "input": {
+  "ru": "вход, входные данные"
+ },
+ "advantage": {
+  "ru": "преимущество"
+ },
+ "ships": {
+  "ru": "отправляет",
+  "lemma": "ship"
+ },
+ "documented": {
+  "ru": "задокументирован",
+  "lemma": "document"
+ },
+ "exist": {
+  "ru": "существуют"
+ },
+ "lives": {
+  "ru": "находится",
+  "lemma": "live"
+ },
+ "delegate": {
+  "ru": "делегировать"
+ },
+ "think": {
+  "ru": "представь"
+ },
+ "written": {
+  "ru": "письменный",
+  "lemma": "write"
+ },
+ "days": {
+  "ru": "дни",
+  "lemma": "day"
+ },
+ "bigger": {
+  "ru": "больше, крупнее",
+  "lemma": "big"
+ },
+ "operators": {
+  "ru": "операторы, руководители",
+  "lemma": "operator"
+ },
+ "honestly": {
+  "ru": "честно"
+ },
+ "go": {
+  "ru": "пойти (не так)"
+ },
+ "strict": {
+  "ru": "строгий"
+ },
+ "eliminate": {
+  "ru": "устрани"
+ },
+ "remains": {
+  "ru": "остаётся",
+  "lemma": "remain"
+ },
+ "fits": {
+  "ru": "вписывается",
+  "lemma": "fit"
+ },
+ "classic": {
+  "ru": "классическая"
+ },
+ "arrives": {
+  "ru": "поступает",
+  "lemma": "arrive"
+ },
+ "spreadsheet": {
+  "ru": "таблица"
+ },
+ "decide": {
+  "ru": "решают"
+ },
+ "responsibility": {
+  "ru": "ответственность"
+ },
+ "enough": {
+  "ru": "достаточно"
+ },
+ "dialect": {
+  "ru": "диалект"
+ },
+ "becomes": {
+  "ru": "становится",
+  "lemma": "become"
+ },
+ "million": {
+  "ru": "миллион"
+ },
+ "reason": {
+  "ru": "причина"
+ },
+ "single": {
+  "ru": "единственный, самый"
+ },
+ "explains": {
+  "ru": "объясняет",
+  "lemma": "explain"
+ },
+ "entire": {
+  "ru": "весь, целый"
+ },
+ "method": {
+  "ru": "метод"
+ },
+ "avoid": {
+  "ru": "избегать"
+ },
+ "design": {
+  "ru": "дизайн"
+ },
+ "release": {
+  "ru": "релиз"
+ },
+ "habit": {
+  "ru": "привычка"
+ },
+ "talking": {
+  "ru": "разговор, речь",
+  "lemma": "talk"
+ },
+ "pmf": {
+  "ru": "соответствие продукта рынку"
+ },
+ "growth": {
+  "ru": "рост"
+ },
+ "face": {
+  "ru": "сталкиваются"
+ },
+ "failure": {
+  "ru": "провал, неудача"
+ },
+ "coding": {
+  "ru": "кодинг, программирование"
+ },
+ "terms": {
+  "ru": "термины",
+  "lemma": "term"
+ },
+ "rarely": {
+  "ru": "редко"
+ },
+ "competitors": {
+  "ru": "конкуренты",
+  "lemma": "competitor"
+ },
+ "products": {
+  "ru": "продукты",
+  "lemma": "product"
+ },
+ "roadmap": {
+  "ru": "дорожная карта"
+ },
+ "feature": {
+  "ru": "функция, фича"
+ },
+ "ship": {
+  "ru": "выпускают"
+ },
+ "plan": {
+  "ru": "план"
+ },
+ "well": {
+  "ru": "хорошо"
+ },
+ "form": {
+  "ru": "форма, бланк"
+ },
+ "quality": {
+  "ru": "качество"
+ },
+ "zero": {
+  "ru": "нулевое"
+ },
+ "also": {
+  "ru": "также"
+ },
+ "compare": {
+  "ru": "сравни"
+ },
+ "drop": {
+  "ru": "отваливаются"
+ },
+ "off": {
+  "ru": "частица (drop off — отваливаться)"
+ },
+ "marketer": {
+  "ru": "маркетолог"
+ },
+ "viewer": {
+  "ru": "зритель"
+ },
+ "advertising": {
+  "ru": "реклама"
+ },
+ "seconds": {
+  "ru": "секунды",
+  "lemma": "second"
+ },
+ "performs": {
+  "ru": "работает, показывает результат",
+  "lemma": "perform"
+ },
+ "strong": {
+  "ru": "сильные, опытные"
+ },
+ "trap": {
+  "ru": "ловушка"
+ },
+ "might": {
+  "ru": "может (модальный)"
+ },
+ "someone": {
+  "ru": "кто-то"
+ },
+ "was": {
+  "ru": "был, была",
+  "lemma": "be"
+ },
+ "recorded": {
+  "ru": "записанные",
+  "lemma": "record"
+ },
+ "relationships": {
+  "ru": "отношения",
+  "lemma": "relationship"
+ },
+ "remain": {
+  "ru": "остаются"
+ },
+ "pick": {
+  "ru": "выбирают"
+ },
+ "smart": {
+  "ru": "умный"
+ },
+ "repeat": {
+  "ru": "повторить"
+ },
+ "using": {
+  "ru": "используя",
+  "lemma": "use"
+ },
+ "podcast": {
+  "ru": "подкаст"
+ },
+ "brutal": {
+  "ru": "жёсткий, суровый"
+ },
+ "logic": {
+  "ru": "логика"
+ },
+ "lazy": {
+  "ru": "ленивые"
+ },
+ "death": {
+  "ru": "смерть"
+ },
+ "central": {
+  "ru": "главный, центральный"
+ },
+ "thing": {
+  "ru": "вещь"
+ },
+ "ideas": {
+  "ru": "идеи",
+  "lemma": "idea"
+ },
+ "iterate": {
+  "ru": "итерировать"
+ },
+ "spending": {
+  "ru": "тратя",
+  "lemma": "spend"
+ },
+ "press": {
+  "ru": "станок"
+ },
+ "sharp": {
+  "ru": "резкий"
+ },
+ "entirely": {
+  "ru": "полностью"
+ },
+ "dead": {
+  "ru": "мёртвая"
+ },
+ "engineers": {
+  "ru": "инженеры",
+  "lemma": "engineer"
+ },
+ "built": {
+  "ru": "построено, создано",
+  "lemma": "build"
+ },
+ "mostly": {
+  "ru": "в основном"
+ },
+ "describing": {
+  "ru": "описывающий",
+  "lemma": "describe"
+ },
+ "plain": {
+  "ru": "простой"
+ },
+ "threat": {
+  "ru": "угроза"
+ },
+ "barrier": {
+  "ru": "барьер"
+ },
+ "entry": {
+  "ru": "вход"
+ },
+ "been": {
+  "ru": "вспомогательный глагол (пассив)",
+  "lemma": "be"
+ },
+ "equal": {
+  "ru": "равный"
+ },
+ "protects": {
+  "ru": "защищает",
+  "lemma": "protect"
+ },
+ "distribution": {
+  "ru": "дистрибуция"
+ },
+ "brand": {
+  "ru": "бренд"
+ },
+ "fastest": {
+  "ru": "быстрее всего",
+  "lemma": "fast"
+ },
+ "sell": {
+  "ru": "продавать"
+ },
+ "gets": {
+  "ru": "получает",
+  "lemma": "get"
+ },
+ "deciding": {
+  "ru": "решая, определяя",
+  "lemma": "decide"
+ },
+ "designers": {
+  "ru": "дизайнеры",
+  "lemma": "designer"
+ },
+ "fluently": {
+  "ru": "бегло, свободно"
+ },
+ "carries": {
+  "ru": "несёт, содержит",
+  "lemma": "carry"
+ },
+ "much": {
+  "ru": "сколько, много"
+ },
+ "art": {
+  "ru": "искусство"
+ },
+ "hundreds": {
+  "ru": "сотни",
+  "lemma": "hundred"
+ },
+ "yes": {
+  "ru": "да"
+ },
+ "voice": {
+  "ru": "голос"
+ },
+ "note": {
+  "ru": "записка, листок"
+ },
+ "forces": {
+  "ru": "вынуждает",
+  "lemma": "force"
+ },
+ "crash": {
+  "ru": "сбой, крах"
+ },
+ "ux": {
+  "ru": "пользовательский опыт"
+ },
+ "feels": {
+  "ru": "ощущается",
+  "lemma": "feel"
+ },
+ "ui": {
+  "ru": "интерфейс"
+ },
+ "competitor": {
+  "ru": "конкурент"
+ },
+ "carry": {
+  "ru": "несут, имеют вес"
+ },
+ "point": {
+  "ru": "момент, точка"
+ },
+ "downloads": {
+  "ru": "загрузки",
+  "lemma": "download"
+ },
+ "innovation": {
+  "ru": "инновация"
+ },
+ "action": {
+  "ru": "действие"
+ },
+ "got": {
+  "ru": "стал, получил",
+  "lemma": "get"
+ },
+ "easier": {
+  "ru": "легче",
+  "lemma": "easy"
+ },
+ "prototype": {
+  "ru": "прототип"
+ },
+ "weekend": {
+  "ru": "выходные"
+ },
+ "resource": {
+  "ru": "ресурс"
+ },
+ "happens": {
+  "ru": "происходит",
+  "lemma": "happen"
+ },
+ "edge": {
+  "ru": "преимущество"
+ },
+ "author": {
+  "ru": "автор"
+ },
+ "master": {
+  "ru": "главная, ключевая"
+ },
+ "stages": {
+  "ru": "этапы",
+  "lemma": "stage"
+ },
+ "interest": {
+  "ru": "интерес"
+ },
+ "cta": {
+  "ru": "призыв к действию"
+ },
+ "free": {
+  "ru": "бесплатный"
+ },
+ "guide": {
+  "ru": "гайд, руководство"
+ },
+ "book": {
+  "ru": "книга"
+ },
+ "common": {
+  "ru": "распространённые, частые"
+ },
+ "creator": {
+  "ru": "креатор, автор контента"
+ },
+ "builds": {
+  "ru": "строит, создаёт",
+  "lemma": "build"
+ },
+ "gone": {
+  "ru": "ушёл, пропал",
+  "lemma": "go"
+ },
+ "engagement": {
+  "ru": "вовлечённость"
+ },
+ "shares": {
+  "ru": "репосты",
+  "lemma": "share"
+ },
+ "organic": {
+  "ru": "органический"
+ },
+ "paid": {
+  "ru": "платный"
+ },
+ "pay": {
+  "ru": "оплата"
+ },
+ "compensation": {
+  "ru": "вознаграждение"
+ },
+ "cheaply": {
+  "ru": "дёшево"
+ },
+ "brutally": {
+  "ru": "крайне, чрезвычайно"
+ },
+ "public": {
+  "ru": "публично"
+ },
+ "outcome": {
+  "ru": "результат"
+ },
+ "forever": {
+  "ru": "навсегда"
+ },
+ "remote": {
+  "ru": "удалённый"
+ },
+ "communication": {
+  "ru": "общение, коммуникация"
+ },
+ "superpower": {
+  "ru": "суперсила"
+ },
+ "owning": {
+  "ru": "принятие на себя",
+  "lemma": "own"
+ },
+ "everywhere": {
+  "ru": "везде"
+ },
+ "developer": {
+  "ru": "разработчик"
+ },
+ "machines": {
+  "ru": "машины",
+  "lemma": "machine"
+ },
+ "smaller": {
+  "ru": "меньше",
+  "lemma": "small"
+ },
+ "risks": {
+  "ru": "риски",
+  "lemma": "risk"
+ },
+ "basic": {
+  "ru": "базовый"
+ },
+ "middle": {
+  "ru": "середина"
+ },
+ "legal": {
+  "ru": "юридический"
+ },
+ "bias": {
+  "ru": "предвзятость"
+ },
+ "discrimination": {
+  "ru": "дискриминация"
+ },
+ "privacy": {
+  "ru": "приватность"
+ },
+ "plans": {
+  "ru": "планы",
+  "lemma": "plan"
+ },
+ "provider": {
+  "ru": "поставщик"
+ },
+ "personal": {
+  "ru": "личный"
+ },
+ "spot": {
+  "ru": "распознать, заметить"
+ },
+ "verify": {
+  "ru": "проверять"
+ },
+ "disclose": {
+  "ru": "раскрывать"
+ },
+ "tax": {
+  "ru": "налог"
+ },
+ "deepfake": {
+  "ru": "дипфейк"
+ },
+ "compound": {
+  "ru": "накапливаются"
+ },
+ "humans": {
+  "ru": "люди",
+  "lemma": "human"
+ },
+ "us": {
+  "ru": "нам",
+  "lemma": "we"
+ },
+ "profession": {
+  "ru": "профессия"
+ },
+ "transfer": {
+  "ru": "переход"
+ },
+ "travel": {
+  "ru": "туристический"
+ },
+ "fall": {
+  "ru": "падать, снижаться"
+ },
+ "closes": {
+  "ru": "замыкает",
+  "lemma": "close"
+ },
+ "sentences": {
+  "ru": "предложения",
+  "lemma": "sentence"
+ },
+ "beat": {
+  "ru": "побеждают, превосходят"
+ },
+ "luck": {
+  "ru": "удача"
+ },
+ "tts": {
+  "ru": "синтез речи"
+ },
+ "hit": {
+  "ru": "достичь"
+ },
+ "briefly": {
+  "ru": "кратко"
+ },
+ "graded": {
+  "ru": "адаптированный"
+ },
+ "reader": {
+  "ru": "книга"
+ },
+ "followed": {
+  "ru": "за которым следует",
+  "lemma": "follow"
+ },
+ "frequently": {
+  "ru": "часто"
+ },
+ "ready-made": {
+  "ru": "готовые"
+ },
+ "home": {
+  "ru": "привычным, родным"
+ },
+ "prepared": {
+  "ru": "подготовлено",
+  "lemma": "prepare"
+ },
+ "claude": {
+  "ru": "Клод"
+ },
+ "almir": {
+  "ru": "Алмир"
+ },
+ "talks": {
+  "ru": "говорит",
+  "lemma": "talk"
+ },
+ "perform": {
+  "ru": "выполнять"
+ },
+ "normally": {
+  "ru": "обычно"
+ },
+ "recognizing": {
+  "ru": "распознавание",
+  "lemma": "recognize"
+ },
+ "programmer": {
+  "ru": "программист"
+ },
+ "wrote": {
+  "ru": "написал",
+  "lemma": "write"
+ },
+ "program": {
+  "ru": "программа"
+ },
+ "cats": {
+  "ru": "кошки",
+  "lemma": "cat"
+ },
+ "dogs": {
+  "ru": "собаки",
+  "lemma": "dog"
+ },
+ "pointy": {
+  "ru": "заострённые"
+ },
+ "ears": {
+  "ru": "уши",
+  "lemma": "ear"
+ },
+ "whiskers": {
+  "ru": "усы",
+  "lemma": "whisker"
+ },
+ "nose": {
+  "ru": "нос"
+ },
+ "labeled": {
+  "ru": "размеченные",
+  "lemma": "label"
+ },
+ "dog": {
+  "ru": "собака"
+ },
+ "emerge": {
+  "ru": "возникают"
+ },
+ "appear": {
+  "ru": "появляются"
+ },
+ "brain": {
+  "ru": "мозг"
+ },
+ "mathematical": {
+  "ru": "математическая"
+ },
+ "billions": {
+  "ru": "миллиарды",
+  "lemma": "billion"
+ },
+ "adjustable": {
+  "ru": "настраиваемых"
+ },
+ "showing": {
+  "ru": "показ",
+  "lemma": "show"
+ },
+ "adjusting": {
+  "ru": "настройка",
+  "lemma": "adjust"
+ },
+ "accurate": {
+  "ru": "точный"
+ },
+ "material": {
+  "ru": "материал"
+ },
+ "clicks": {
+  "ru": "клики",
+  "lemma": "click"
+ },
+ "popular": {
+  "ru": "популярное"
+ },
+ "reads": {
+  "ru": "просматривает",
+  "lemma": "read"
+ },
+ "predicts": {
+  "ru": "предсказывает",
+  "lemma": "predict"
+ },
+ "likely": {
+  "ru": "наиболее вероятно"
+ },
+ "prepares": {
+  "ru": "готовит",
+  "lemma": "prepare"
+ },
+ "summaries": {
+  "ru": "сводки",
+  "lemma": "summary"
+ },
+ "automatically": {
+  "ru": "автоматически"
+ },
+ "salesperson": {
+  "ru": "продавец"
+ },
+ "hates": {
+  "ru": "ненавидит",
+  "lemma": "hate"
+ },
+ "doing": {
+  "ru": "делать",
+  "lemma": "do"
+ },
+ "invoices": {
+  "ru": "счета",
+  "lemma": "invoice"
+ },
+ "risky": {
+  "ru": "рискованные"
+ },
+ "clauses": {
+  "ru": "пункты договора",
+  "lemma": "clause"
+ },
+ "matches": {
+  "ru": "сопоставляет",
+  "lemma": "match"
+ },
+ "payments": {
+  "ru": "платежи",
+  "lemma": "payment"
+ },
+ "flags": {
+  "ru": "помечает",
+  "lemma": "flag"
+ },
+ "invisible": {
+  "ru": "невидимые"
+ },
+ "exciting": {
+  "ru": "захватывающе"
+ },
+ "conference": {
+  "ru": "конференция"
+ },
+ "directly": {
+  "ru": "напрямую"
+ },
+ "interesting": {
+  "ru": "интересный"
+ },
+ "shift": {
+  "ru": "сдвиг"
+ },
+ "corporations": {
+  "ru": "корпорации",
+  "lemma": "corporation"
+ },
+ "afford": {
+  "ru": "позволить себе"
+ },
+ "two-person": {
+  "ru": "состоящий из двух человек"
+ },
+ "produces": {
+  "ru": "производит",
+  "lemma": "produce"
+ },
+ "full-time": {
+  "ru": "штатный"
+ },
+ "getting": {
+  "ru": "получая",
+  "lemma": "get"
+ },
+ "giant": {
+  "ru": "гигантский"
+ },
+ "succeed": {
+  "ru": "преуспевают"
+ },
+ "stacked": {
+  "ru": "накопленные",
+  "lemma": "stack"
+ },
+ "turn": {
+  "ru": "превращаются"
+ },
+ "area": {
+  "ru": "область"
+ },
+ "back-office": {
+  "ru": "бэк-офисные"
+ },
+ "repeatable": {
+  "ru": "повторяемая"
+ },
+ "sequence": {
+  "ru": "последовательность"
+ },
+ "somebody": {
+  "ru": "кто-то"
+ },
+ "payment": {
+  "ru": "оплату"
+ },
+ "packs": {
+  "ru": "упаковывает",
+  "lemma": "pack"
+ },
+ "prints": {
+  "ru": "печатает",
+  "lemma": "print"
+ },
+ "label": {
+  "ru": "этикетку"
+ },
+ "box": {
+  "ru": "коробку"
+ },
+ "sends": {
+  "ru": "отправляет",
+  "lemma": "send"
+ },
+ "tracking": {
+  "ru": "отслеживания"
+ },
+ "happy": {
+  "ru": "довольный"
+ },
+ "coffee": {
+  "ru": "кофейня"
+ },
+ "shop": {
+  "ru": "магазин"
+ },
+ "sees": {
+  "ru": "видит",
+  "lemma": "see"
+ },
+ "chaotic": {
+  "ru": "хаотичный"
+ },
+ "paper": {
+  "ru": "бумаге"
+ },
+ "notion": {
+  "ru": "Notion"
+ },
+ "certainly": {
+  "ru": "точно"
+ },
+ "slower": {
+  "ru": "медленнее",
+  "lemma": "slow"
+ },
+ "limits": {
+  "ru": "ограничивает",
+  "lemma": "limit"
+ },
+ "traffic": {
+  "ru": "трафик"
+ },
+ "highway": {
+  "ru": "шоссе"
+ },
+ "narrows": {
+  "ru": "сужается",
+  "lemma": "narrow"
+ },
+ "lanes": {
+  "ru": "полос",
+  "lemma": "lane"
+ },
+ "road": {
+  "ru": "дорога"
+ },
+ "narrow": {
+  "ru": "узкий"
+ },
+ "section": {
+  "ru": "участок"
+ },
+ "defines": {
+  "ru": "определяет",
+  "lemma": "define"
+ },
+ "filming": {
+  "ru": "съёмка",
+  "lemma": "film"
+ },
+ "scriptwriter": {
+  "ru": "сценарист"
+ },
+ "create": {
+  "ru": "создаёте"
+ },
+ "queue": {
+  "ru": "очередь"
+ },
+ "widens": {
+  "ru": "расширяет",
+  "lemma": "widen"
+ },
+ "simpler": {
+  "ru": "проще",
+  "lemma": "simple"
+ },
+ "optimize": {
+  "ru": "оптимизируйте"
+ },
+ "improvements": {
+  "ru": "улучшения",
+  "lemma": "improvement"
+ },
+ "anywhere": {
+  "ru": "где-либо"
+ },
+ "illusion": {
+  "ru": "иллюзия"
+ },
+ "progress": {
+  "ru": "прогресса"
+ },
+ "down": {
+  "ru": "вниз (записать)"
+ },
+ "shocked": {
+  "ru": "шокированы",
+  "lemma": "shock"
+ },
+ "thought": {
+  "ru": "думали",
+  "lemma": "think"
+ },
+ "ve": {
+  "ru": "вспомогательный «have» (сокращение)",
+  "lemma": "have"
+ },
+ "finish": {
+  "ru": "конца"
+ },
+ "sit": {
+  "ru": "простаивает"
+ },
+ "wait": {
+  "ru": "ждёт"
+ },
+ "rework": {
+  "ru": "переделка"
+ },
+ "precisely": {
+  "ru": "именно"
+ },
+ "true": {
+  "ru": "истинно, правда"
+ },
+ "simplify": {
+  "ru": "упрощай"
+ },
+ "standardize": {
+  "ru": "стандартизируй"
+ },
+ "enormously": {
+  "ru": "чрезвычайно"
+ },
+ "delivered": {
+  "ru": "выданные, доставленные",
+  "lemma": "deliver"
+ },
+ "whatever": {
+  "ru": "всё что"
+ },
+ "chaos": {
+  "ru": "хаос"
+ },
+ "newest": {
+  "ru": "новейший",
+  "lemma": "new"
+ },
+ "flexible": {
+  "ru": "гибкий"
+ },
+ "automated": {
+  "ru": "автоматизировано",
+  "lemma": "automate"
+ },
+ "handled": {
+  "ru": "обрабатывала",
+  "lemma": "handle"
+ },
+ "structured": {
+  "ru": "структурированную"
+ },
+ "invoice": {
+  "ru": "счёт на оплату"
+ },
+ "spam": {
+  "ru": "спам"
+ },
+ "polite": {
+  "ru": "вежливом"
+ },
+ "tone": {
+  "ru": "тон"
+ },
+ "annoying": {
+  "ru": "раздражающие"
+ },
+ "summarizing": {
+  "ru": "суммаризация",
+  "lemma": "summarize"
+ },
+ "drafting": {
+  "ru": "составление черновиков",
+  "lemma": "draft"
+ },
+ "translating": {
+  "ru": "перевод",
+  "lemma": "translate"
+ },
+ "extracting": {
+  "ru": "извлечение",
+  "lemma": "extract"
+ },
+ "ordinary": {
+  "ru": "обычные"
+ },
+ "extraordinary": {
+  "ru": "выдающиеся"
+ },
+ "possible": {
+  "ru": "возможный"
+ },
+ "simplifying": {
+  "ru": "упрощение",
+  "lemma": "simplify"
+ },
+ "types": {
+  "ru": "типы",
+  "lemma": "type"
+ },
+ "pitch": {
+  "ru": "питч"
+ },
+ "deck": {
+  "ru": "презентация, дек"
+ },
+ "blog": {
+  "ru": "блог"
+ },
+ "young": {
+  "ru": "молодая"
+ },
+ "searching": {
+  "ru": "в поиске",
+  "lemma": "search"
+ },
+ "barbershop": {
+  "ru": "парикмахерская"
+ },
+ "serve": {
+  "ru": "обслуживать"
+ },
+ "barbershops": {
+  "ru": "парикмахерские",
+  "lemma": "barbershop"
+ },
+ "co-founders": {
+  "ru": "сооснователи",
+  "lemma": "co-founder"
+ },
+ "dominant": {
+  "ru": "главная, доминирующая"
+ },
+ "wants": {
+  "ru": "хочет",
+  "lemma": "want"
+ },
+ "fact": {
+  "ru": "факт"
+ },
+ "designed": {
+  "ru": "разработан",
+  "lemma": "design"
+ },
+ "minimum": {
+  "ru": "минимальный"
+ },
+ "viable": {
+  "ru": "жизнеспособный"
+ },
+ "smallest": {
+  "ru": "самый маленький",
+  "lemma": "small"
+ },
+ "simplest": {
+  "ru": "самый простой",
+  "lemma": "simple"
+ },
+ "presentation": {
+  "ru": "презентация"
+ },
+ "mockup": {
+  "ru": "макет"
+ },
+ "however": {
+  "ru": "как бы ни"
+ },
+ "ugly": {
+  "ru": "уродливая"
+ },
+ "guesses": {
+  "ru": "догадки",
+  "lemma": "guess"
+ },
+ "guess": {
+  "ru": "догадка"
+ },
+ "launch": {
+  "ru": "запускайте"
+ },
+ "quick": {
+  "ru": "быстрые"
+ },
+ "cycles": {
+  "ru": "циклы",
+  "lemma": "cycle"
+ },
+ "iteration": {
+  "ru": "итерация"
+ },
+ "perfect": {
+  "ru": "идеальный"
+ },
+ "secret": {
+  "ru": "тайне, секрете"
+ },
+ "march": {
+  "ru": "марш"
+ },
+ "late": {
+  "ru": "поздно"
+ },
+ "importantly": {
+  "ru": "что важнее"
+ },
+ "treated": {
+  "ru": "считается, рассматривается",
+  "lemma": "treat"
+ },
+ "substance": {
+  "ru": "субстанция"
+ },
+ "gift": {
+  "ru": "подарок"
+ },
+ "leaves": {
+  "ru": "уходит",
+  "lemma": "leave"
+ },
+ "silently": {
+  "ru": "молча"
+ },
+ "disaster": {
+  "ru": "катастрофа"
+ },
+ "holy": {
+  "ru": "святой"
+ },
+ "grail": {
+  "ru": "грааль"
+ },
+ "shortened": {
+  "ru": "сокращённый",
+  "lemma": "shorten"
+ },
+ "pulling": {
+  "ru": "тянет",
+  "lemma": "pull"
+ },
+ "hands": {
+  "ru": "руки",
+  "lemma": "hand"
+ },
+ "reminders": {
+  "ru": "напоминания",
+  "lemma": "reminder"
+ },
+ "friends": {
+  "ru": "друзья",
+  "lemma": "friend"
+ },
+ "feeling": {
+  "ru": "ощущаться",
+  "lemma": "feel"
+ },
+ "pushing": {
+  "ru": "толкание",
+  "lemma": "push"
+ },
+ "rock": {
+  "ru": "камень"
+ },
+ "uphill": {
+  "ru": "в гору"
+ },
+ "logo": {
+  "ru": "логотип"
+ },
+ "challenge": {
+  "ru": "задача, вызов"
+ },
+ "infrastructure": {
+  "ru": "инфраструктура"
+ },
+ "breaking": {
+  "ru": "нарушая, ломая",
+  "lemma": "break"
+ },
+ "quieter": {
+  "ru": "тише",
+  "lemma": "quiet"
+ },
+ "button": {
+  "ru": "кнопка"
+ },
+ "sorts": {
+  "ru": "сортирует",
+  "lemma": "sort"
+ },
+ "inbox": {
+  "ru": "входящие"
+ },
+ "fills": {
+  "ru": "заполняет",
+  "lemma": "fill"
+ },
+ "suggests": {
+  "ru": "предлагает",
+  "lemma": "suggest"
+ },
+ "scarce": {
+  "ru": "дефицитный"
+ },
+ "put": {
+  "ru": "поставь"
+ },
+ "winner": {
+  "ru": "победитель"
+ },
+ "internalize": {
+  "ru": "усваивают"
+ },
+ "pace": {
+  "ru": "темп"
+ },
+ "older": {
+  "ru": "более старые",
+  "lemma": "old"
+ },
+ "match": {
+  "ru": "угнаться"
+ },
+ "case": {
+  "ru": "сценарий"
+ },
+ "format": {
+  "ru": "формат"
+ },
+ "scarcest": {
+  "ru": "самый дефицитный",
+  "lemma": "scarce"
+ },
+ "admission": {
+  "ru": "признание"
+ },
+ "waiting": {
+  "ru": "ждёт",
+  "lemma": "wait"
+ },
+ "messages": {
+  "ru": "сообщения",
+  "lemma": "message"
+ },
+ "therefore": {
+  "ru": "следовательно"
+ },
+ "inform": {
+  "ru": "информировать"
+ },
+ "earn": {
+  "ru": "заслужить"
+ },
+ "metaphor": {
+  "ru": "метафора"
+ },
+ "cone": {
+  "ru": "конус"
+ },
+ "enter": {
+  "ru": "входят"
+ },
+ "paying": {
+  "ru": "платящие",
+  "lemma": "pay"
+ },
+ "awareness": {
+  "ru": "узнаваемость"
+ },
+ "consideration": {
+  "ru": "рассмотрение"
+ },
+ "alternatives": {
+  "ru": "альтернативы",
+  "lemma": "alternative"
+ },
+ "fifty": {
+  "ru": "пятьдесят"
+ },
+ "click": {
+  "ru": "кликают"
+ },
+ "link": {
+  "ru": "ссылка"
+ },
+ "transitions": {
+  "ru": "переходы",
+  "lemma": "transition"
+ },
+ "measured": {
+  "ru": "измеряется",
+  "lemma": "measure"
+ },
+ "improved": {
+  "ru": "улучшается",
+  "lemma": "improve"
+ },
+ "says": {
+  "ru": "говорит",
+  "lemma": "say"
+ },
+ "leaking": {
+  "ru": "протекает",
+  "lemma": "leak"
+ },
+ "act": {
+  "ru": "действовать"
+ },
+ "comment": {
+  "ru": "прокомментировать"
+ },
+ "download": {
+  "ru": "скачать"
+ },
+ "leak": {
+  "ru": "утечка"
+ },
+ "funnels": {
+  "ru": "воронки",
+  "lemma": "funnel"
+ },
+ "great": {
+  "ru": "отличный"
+ },
+ "told": {
+  "ru": "сказано",
+  "lemma": "tell"
+ },
+ "newsletters": {
+  "ru": "рассылки",
+  "lemma": "newsletter"
+ },
+ "podcasts": {
+  "ru": "подкасты",
+  "lemma": "podcast"
+ },
+ "micro-vocabulary": {
+  "ru": "специфическая лексика"
+ },
+ "sentence": {
+  "ru": "фраза"
+ },
+ "image": {
+  "ru": "изображение"
+ },
+ "scroll": {
+  "ru": "лента"
+ },
+ "fails": {
+  "ru": "не срабатывает",
+  "lemma": "fail"
+ },
+ "exists": {
+  "ru": "существует",
+  "lemma": "exist"
+ },
+ "likes": {
+  "ru": "лайки",
+  "lemma": "like"
+ },
+ "comments": {
+  "ru": "комментарии",
+  "lemma": "comment"
+ },
+ "platforms": {
+  "ru": "платформы",
+  "lemma": "platform"
+ },
+ "reward": {
+  "ru": "вознаграждают"
+ },
+ "earned": {
+  "ru": "заработанный",
+  "lemma": "earn"
+ },
+ "budget": {
+  "ru": "бюджет"
+ },
+ "piece": {
+  "ru": "единица"
+ },
+ "spreads": {
+  "ru": "распространяется",
+  "lemma": "spread"
+ },
+ "explosively": {
+  "ru": "взрывно"
+ },
+ "viral": {
+  "ru": "вирусный"
+ },
+ "scenes": {
+  "ru": "закулисье",
+  "lemma": "scene"
+ },
+ "headlines": {
+  "ru": "заголовки",
+  "lemma": "headline"
+ },
+ "thumbnails": {
+  "ru": "обложки видео",
+  "lemma": "thumbnail"
+ },
+ "audiences": {
+  "ru": "аудитории",
+  "lemma": "audience"
+ },
+ "measures": {
+  "ru": "измеряет",
+  "lemma": "measure"
+ },
+ "creativity": {
+  "ru": "креативность"
+ },
+ "emotion": {
+  "ru": "эмоции"
+ },
+ "god": {
+  "ru": "бог"
+ },
+ "agency": {
+  "ru": "агентство"
+ },
+ "translated": {
+  "ru": "переведённые",
+  "lemma": "translate"
+ },
+ "captions": {
+  "ru": "субтитры",
+  "lemma": "caption"
+ },
+ "dozens": {
+  "ru": "десятки",
+  "lemma": "dozen"
+ },
+ "variations": {
+  "ru": "вариации",
+  "lemma": "variation"
+ },
+ "collapsed": {
+  "ru": "обрушилась",
+  "lemma": "collapse"
+ },
+ "personalization": {
+  "ru": "персонализация"
+ },
+ "adapt": {
+  "ru": "адаптировать"
+ },
+ "pains": {
+  "ru": "боли",
+  "lemma": "pain"
+ },
+ "manage": {
+  "ru": "справиться"
+ },
+ "clever": {
+  "ru": "умный, хитроумный"
+ },
+ "llm": {
+  "ru": "большая языковая модель"
+ },
+ "books": {
+  "ru": "книги",
+  "lemma": "book"
+ },
+ "translate": {
+  "ru": "переводить"
+ },
+ "hold": {
+  "ru": "вести"
+ },
+ "request": {
+  "ru": "запрос"
+ },
+ "instruction": {
+  "ru": "инструкция"
+ },
+ "generates": {
+  "ru": "генерирует",
+  "lemma": "generate"
+ },
+ "seventy": {
+  "ru": "семьдесят"
+ },
+ "came": {
+  "ru": "сошлись",
+  "lemma": "come"
+ },
+ "computing": {
+  "ru": "вычислительная"
+ },
+ "chips": {
+  "ru": "чипы",
+  "lemma": "chip"
+ },
+ "parallel": {
+  "ru": "параллельно"
+ },
+ "cloud": {
+  "ru": "облачный"
+ },
+ "providers": {
+  "ru": "провайдеры",
+  "lemma": "provider"
+ },
+ "credit": {
+  "ru": "кредитный"
+ },
+ "card": {
+  "ru": "карта"
+ },
+ "exploded": {
+  "ru": "резко выросли, взорвались",
+  "lemma": "explode"
+ },
+ "humanity": {
+  "ru": "человечество"
+ },
+ "had": {
+  "ru": "вспомогательный глагол (перфект)",
+  "lemma": "have"
+ },
+ "created": {
+  "ru": "создало",
+  "lemma": "create"
+ },
+ "previous": {
+  "ru": "предыдущий"
+ },
+ "researchers": {
+  "ru": "исследователи",
+  "lemma": "researcher"
+ },
+ "found": {
+  "ru": "нашли",
+  "lemma": "find"
+ },
+ "architectures": {
+  "ru": "архитектуры",
+  "lemma": "architecture"
+ },
+ "seemed": {
+  "ru": "казались",
+  "lemma": "seem"
+ },
+ "impossible": {
+  "ru": "невозможный"
+ },
+ "plain-english": {
+  "ru": "простой английский"
+ },
+ "racing": {
+  "ru": "гонятся, спешат",
+  "lemma": "race"
+ },
+ "figure": {
+  "ru": "выяснить",
+  "lemma": "figure out"
+ },
+ "cool": {
+  "ru": "хладнокровный"
+ },
+ "limitations": {
+  "ru": "ограничения",
+  "lemma": "limitation"
+ },
+ "biased": {
+  "ru": "предвзятый"
+ },
+ "contains": {
+  "ru": "содержит",
+  "lemma": "contain"
+ },
+ "extremely": {
+  "ru": "чрезвычайно"
+ },
+ "conclusion": {
+  "ru": "вывод"
+ },
+ "magic": {
+  "ru": "магия"
+ },
+ "opportunities": {
+  "ru": "возможности",
+  "lemma": "opportunity"
+ },
+ "supervision": {
+  "ru": "надзор, контроль"
+ },
+ "main": {
+  "ru": "главный, основной"
+ },
+ "hallucinates": {
+  "ru": "галлюцинирует",
+  "lemma": "hallucinate"
+ },
+ "opinion": {
+  "ru": "мнение"
+ },
+ "limitation": {
+  "ru": "ограничение"
+ },
+ "forget": {
+  "ru": "забудьте"
+ },
+ "science": {
+  "ru": "наука"
+ },
+ "fiction": {
+  "ru": "фантастика"
+ },
+ "surprisingly": {
+  "ru": "на удивление"
+ },
+ "picture": {
+  "ru": "представляют"
+ },
+ "self-driving": {
+  "ru": "беспилотный"
+ },
+ "analyzing": {
+  "ru": "анализируя",
+  "lemma": "analyze"
+ },
+ "remove": {
+  "ru": "убирать, устранять"
+ },
+ "savings": {
+  "ru": "экономия",
+  "lemma": "saving"
+ },
+ "adopts": {
+  "ru": "внедряет",
+  "lemma": "adopt"
+ },
+ "reset": {
+  "ru": "сбросить"
+ },
+ "refund": {
+  "ru": "возврат денег"
+ },
+ "handle": {
+  "ru": "обрабатывать"
+ },
+ "twenty-four": {
+  "ru": "двадцать четыре"
+ },
+ "focus": {
+  "ru": "сосредотачиваются"
+ },
+ "angry": {
+  "ru": "злой, разгневанный"
+ },
+ "problems": {
+  "ru": "проблемы",
+  "lemma": "problem"
+ },
+ "empathy": {
+  "ru": "эмпатия, сочувствие"
+ },
+ "typically": {
+  "ru": "обычно"
+ },
+ "report": {
+  "ru": "сообщают, фиксируют"
+ },
+ "higher": {
+  "ru": "более высокий",
+  "lemma": "high"
+ },
+ "satisfaction": {
+  "ru": "удовлетворённость"
+ },
+ "landing": {
+  "ru": "лендинг"
+ },
+ "pages": {
+  "ru": "страницы",
+  "lemma": "page"
+ },
+ "social": {
+  "ru": "социальный"
+ },
+ "media": {
+  "ru": "медиа, соцсети"
+ },
+ "copywriter": {
+  "ru": "копирайтер"
+ },
+ "ad": {
+  "ru": "реклама"
+ },
+ "headline": {
+  "ru": "заголовок"
+ },
+ "selects": {
+  "ru": "выбирает",
+  "lemma": "select"
+ },
+ "polishes": {
+  "ru": "дорабатывает, шлифует",
+  "lemma": "polish"
+ },
+ "stays": {
+  "ru": "остаётся",
+  "lemma": "stay"
+ },
+ "publish": {
+  "ru": "публиковать"
+ },
+ "brainstorming": {
+  "ru": "мозговой штурм"
+ },
+ "adaptation": {
+  "ru": "адаптация"
+ },
+ "page": {
+  "ru": "страница"
+ },
+ "curating": {
+  "ru": "кураторство, отбор",
+  "lemma": "curate"
+ },
+ "hardest": {
+  "ru": "самое трудное",
+  "lemma": "hard"
+ },
+ "lessons": {
+  "ru": "уроки",
+  "lemma": "lesson"
+ },
+ "learned": {
+  "ru": "извлечённые",
+  "lemma": "learn"
+ },
+ "started": {
+  "ru": "начинались",
+  "lemma": "start"
+ },
+ "platform": {
+  "ru": "платформа"
+ },
+ "twitter": {
+  "ru": "Twitter"
+ },
+ "online": {
+  "ru": "онлайн-"
+ },
+ "slack": {
+  "ru": "Slack"
+ },
+ "staying": {
+  "ru": "оставаться",
+  "lemma": "stay"
+ },
+ "living": {
+  "ru": "переживаем",
+  "lemma": "live"
+ },
+ "largest": {
+  "ru": "крупнейшая",
+  "lemma": "large"
+ },
+ "powered": {
+  "ru": "работает на",
+  "lemma": "power"
+ },
+ "economic": {
+  "ru": "экономическая"
+ },
+ "collapses": {
+  "ru": "резко снижает",
+  "lemma": "collapse"
+ },
+ "needed": {
+  "ru": "требовал",
+  "lemma": "need"
+ },
+ "term": {
+  "ru": "термин"
+ },
+ "vibe": {
+  "ru": "вайб-"
+ },
+ "solo": {
+  "ru": "соло-, единоличный"
+ },
+ "bandung": {
+  "ru": "Бандунг"
+ },
+ "competes": {
+  "ru": "конкурирует",
+  "lemma": "compete"
+ },
+ "san": {
+  "ru": "Сан-Франциско",
+  "lemma": "san francisco"
+ },
+ "francisco": {
+  "ru": "Сан-Франциско",
+  "lemma": "san francisco"
+ },
+ "defensible": {
+  "ru": "защищаемое"
+ },
+ "community": {
+  "ru": "сообщество"
+ },
+ "unique": {
+  "ru": "уникальные"
+ },
+ "moats": {
+  "ru": "защитные преимущества",
+  "lemma": "moat"
+ },
+ "cleverest": {
+  "ru": "самая хитроумная",
+  "lemma": "clever"
+ },
+ "fight": {
+  "ru": "бороться с"
+ },
+ "recognize": {
+  "ru": "распознать"
+ },
+ "overloaded": {
+  "ru": "перегруженное",
+  "lemma": "overload"
+ },
+ "unpacks": {
+  "ru": "разбирает",
+  "lemma": "unpack"
+ },
+ "manager": {
+  "ru": "менеджер"
+ },
+ "pm": {
+  "ru": "продакт-менеджер"
+ },
+ "plays": {
+  "ru": "исполняет",
+  "lemma": "play"
+ },
+ "roles": {
+  "ru": "роли",
+  "lemma": "role"
+ },
+ "releases": {
+  "ru": "релизы",
+  "lemma": "release"
+ },
+ "made": {
+  "ru": "состоит из",
+  "lemma": "make"
+ },
+ "individual": {
+  "ru": "отдельные"
+ },
+ "search": {
+  "ru": "поиск"
+ },
+ "dark": {
+  "ru": "тёмный"
+ },
+ "mode": {
+  "ru": "режим"
+ },
+ "export": {
+  "ru": "экспорт"
+ },
+ "pdf": {
+  "ru": "PDF"
+ },
+ "universal": {
+  "ru": "универсальный"
+ },
+ "verb": {
+  "ru": "глагол"
+ },
+ "releasing": {
+  "ru": "выпуска",
+  "lemma": "release"
+ },
+ "certain": {
+  "ru": "определённая"
+ },
+ "pride": {
+  "ru": "гордость"
+ },
+ "released": {
+  "ru": "выпущенные",
+  "lemma": "release"
+ },
+ "roughly": {
+  "ru": "примерно"
+ },
+ "promises": {
+  "ru": "обещания",
+  "lemma": "promise"
+ },
+ "dates": {
+  "ru": "даты",
+  "lemma": "date"
+ },
+ "priorities": {
+  "ru": "приоритеты",
+  "lemma": "priority"
+ },
+ "harder": {
+  "ru": "труднее",
+  "lemma": "hard"
+ },
+ "shiny": {
+  "ru": "эффектные"
+ },
+ "bloated": {
+  "ru": "раздутый"
+ },
+ "choose": {
+  "ru": "выбирать"
+ },
+ "record": {
+  "ru": "записать"
+ },
+ "clean": {
+  "ru": "чистую, аккуратную"
+ },
+ "transcript": {
+  "ru": "расшифровку"
+ },
+ "don": {
+  "ru": "не (отрицание)",
+  "lemma": "do"
+ },
+ "t": {
+  "ru": "не (отрицание)",
+  "lemma": "not"
+ },
+ "goal": {
+  "ru": "цель"
+ },
+ "meet": {
+  "ru": "встретите"
+ },
+ "discussion": {
+  "ru": "обсуждение"
+ },
+ "bug": {
+  "ru": "баг"
+ },
+ "error": {
+  "ru": "ошибка"
+ },
+ "bugs": {
+  "ru": "баги",
+  "lemma": "bug"
+ },
+ "app": {
+  "ru": "приложение"
+ },
+ "interface": {
+  "ru": "интерфейс"
+ },
+ "manual": {
+  "ru": "руководство"
+ },
+ "intuitive": {
+  "ru": "интуитивно понятный"
+ },
+ "patience": {
+  "ru": "терпение"
+ },
+ "try": {
+  "ru": "попробовать"
+ },
+ "lot": {
+  "ru": "много"
+ },
+ "weight": {
+  "ru": "вес, значимость"
+ },
+ "aha": {
+  "ru": "момент осознания ценности"
+ },
+ "signal": {
+  "ru": "сигнал"
+ },
+ "belong": {
+  "ru": "вписывается"
+ },
+ "temptation": {
+  "ru": "соблазн"
+ },
+ "prompts": {
+  "ru": "промпты",
+  "lemma": "prompt"
+ },
+ "stories": {
+  "ru": "истории",
+  "lemma": "story"
+ },
+ "personality": {
+  "ru": "индивидуальность"
+ },
+ "failures": {
+  "ru": "неудачи",
+  "lemma": "failure"
+ },
+ "generate": {
+  "ru": "создать, сгенерировать"
+ },
+ "having": {
+  "ru": "иметь",
+  "lemma": "have"
+ },
+ "concrete": {
+  "ru": "конкретный"
+ },
+ "planet": {
+  "ru": "планета"
+ },
+ "cold": {
+  "ru": "холодный"
+ },
+ "heard": {
+  "ru": "слышал",
+  "lemma": "hear"
+ },
+ "warm": {
+  "ru": "тёплый"
+ },
+ "shown": {
+  "ru": "проявил",
+  "lemma": "show"
+ },
+ "watched": {
+  "ru": "смотрел",
+  "lemma": "watch"
+ },
+ "downloaded": {
+  "ru": "скачал",
+  "lemma": "download"
+ },
+ "asked": {
+  "ru": "задал",
+  "lemma": "ask"
+ },
+ "finding": {
+  "ru": "поиск",
+  "lemma": "find"
+ },
+ "generation": {
+  "ru": "генерация"
+ },
+ "gen": {
+  "ru": "лидген"
+ },
+ "authority": {
+  "ru": "полномочия"
+ },
+ "qualification": {
+  "ru": "квалификация лида"
+ },
+ "waste": {
+  "ru": "тратить впустую"
+ },
+ "going": {
+  "ru": "собираться (буд. время)",
+  "lemma": "go"
+ },
+ "organized": {
+  "ru": "организован",
+  "lemma": "organize"
+ },
+ "typical": {
+  "ru": "типичный"
+ },
+ "contacted": {
+  "ru": "связались",
+  "lemma": "contact"
+ },
+ "booked": {
+  "ru": "назначено",
+  "lemma": "book"
+ },
+ "proposal": {
+  "ru": "коммерческое предложение"
+ },
+ "sent": {
+  "ru": "отправлено",
+  "lemma": "send"
+ },
+ "closed-won": {
+  "ru": "выигранная сделка"
+ },
+ "closed-lost": {
+  "ru": "проигранная сделка"
+ },
+ "sale": {
+  "ru": "продажа"
+ },
+ "relationship": {
+  "ru": "отношения"
+ },
+ "managers": {
+  "ru": "менеджеры",
+  "lemma": "manager"
+ },
+ "monday": {
+  "ru": "понедельник"
+ },
+ "stuck": {
+  "ru": "застряли",
+  "lemma": "stick"
+ },
+ "healthy": {
+  "ru": "здоровый"
+ },
+ "panic": {
+  "ru": "паника"
+ },
+ "dominate": {
+  "ru": "преобладают"
+ },
+ "contact": {
+  "ru": "контакт"
+ },
+ "persistently": {
+  "ru": "настойчиво"
+ },
+ "won": {
+  "ru": "выиграны",
+  "lemma": "win"
+ },
+ "fifth": {
+  "ru": "пятый"
+ },
+ "gentler": {
+  "ru": "мягче",
+  "lemma": "gentle"
+ },
+ "helping": {
+  "ru": "помощь",
+  "lemma": "help"
+ },
+ "winning": {
+  "ru": "привлечение",
+  "lemma": "win"
+ },
+ "losing": {
+  "ru": "потеря",
+  "lemma": "lose"
+ },
+ "silent": {
+  "ru": "безмолвный"
+ },
+ "killer": {
+  "ru": "убийца"
+ },
+ "full": {
+  "ru": "полная"
+ },
+ "force": {
+  "ru": "сила"
+ },
+ "dramatic": {
+  "ru": "впечатляющий"
+ },
+ "cheaper": {
+  "ru": "дешевле",
+  "lemma": "cheap"
+ },
+ "acquiring": {
+  "ru": "привлечение",
+  "lemma": "acquire"
+ },
+ "function": {
+  "ru": "подразделение"
+ },
+ "sure": {
+  "ru": "удостовериться"
+ },
+ "achieve": {
+  "ru": "достигать"
+ },
+ "goals": {
+  "ru": "цели",
+  "lemma": "goal"
+ },
+ "renew": {
+  "ru": "продлевать"
+ },
+ "ideally": {
+  "ru": "в идеале"
+ },
+ "expand": {
+  "ru": "расширять"
+ },
+ "upsell": {
+  "ru": "апселл"
+ },
+ "cross-sell": {
+  "ru": "кросс-селл"
+ },
+ "additional": {
+  "ru": "дополнительный"
+ },
+ "hiding": {
+  "ru": "скрывается",
+  "lemma": "hide"
+ },
+ "hardest-working": {
+  "ru": "самый трудолюбивый",
+  "lemma": "hard-working"
+ },
+ "researches": {
+  "ru": "исследует",
+  "lemma": "research"
+ },
+ "prospect": {
+  "ru": "потенциальный клиент"
+ },
+ "news": {
+  "ru": "новости"
+ },
+ "background": {
+  "ru": "бэкграунд"
+ },
+ "smell": {
+  "ru": "пахнуть"
+ },
+ "template": {
+  "ru": "шаблон"
+ },
+ "joins": {
+  "ru": "присоединяется",
+  "lemma": "join"
+ },
+ "notes": {
+  "ru": "заметки",
+  "lemma": "note"
+ },
+ "administrative": {
+  "ru": "административный"
+ },
+ "famously": {
+  "ru": "как известно"
+ },
+ "listens": {
+  "ru": "слушает",
+  "lemma": "listen"
+ },
+ "calls": {
+  "ru": "звонки",
+  "lemma": "call"
+ },
+ "closed": {
+  "ru": "закрытые",
+  "lemma": "close"
+ },
+ "objection": {
+  "ru": "возражение"
+ },
+ "fear": {
+  "ru": "бояться"
+ },
+ "truly": {
+  "ru": "по-настоящему"
+ },
+ "reflect": {
+  "ru": "отражают"
+ },
+ "rest": {
+  "ru": "остальное"
+ },
+ "required": {
+  "ru": "требовала",
+  "lemma": "require"
+ },
+ "spoke": {
+  "ru": "говорил",
+  "lemma": "speak"
+ },
+ "sql": {
+  "ru": "SQL"
+ },
+ "demolished": {
+  "ru": "снёс",
+  "lemma": "demolish"
+ },
+ "upload": {
+  "ru": "загрузить"
+ },
+ "topics": {
+  "ru": "темы",
+  "lemma": "topic"
+ },
+ "drove": {
+  "ru": "принесли",
+  "lemma": "drive"
+ },
+ "weekday": {
+  "ru": "будний день"
+ },
+ "draws": {
+  "ru": "рисует",
+  "lemma": "draw"
+ },
+ "chart": {
+  "ru": "график"
+ },
+ "analysts": {
+  "ru": "аналитиков",
+  "lemma": "analyst"
+ },
+ "useless": {
+  "ru": "бесполезными"
+ },
+ "calculation": {
+  "ru": "расчёт"
+ },
+ "armed": {
+  "ru": "вооружённый",
+  "lemma": "arm"
+ },
+ "out-think": {
+  "ru": "переиграть"
+ },
+ "develop": {
+  "ru": "развивать"
+ },
+ "statistics": {
+  "ru": "статистика"
+ },
+ "curiosity": {
+  "ru": "любопытство"
+ },
+ "kpi": {
+  "ru": "ключевой показатель"
+ },
+ "rewrite": {
+  "ru": "перепиши"
+ },
+ "tempts": {
+  "ru": "соблазняет",
+  "lemma": "tempt"
+ },
+ "personally": {
+  "ru": "лично"
+ },
+ "frightens": {
+  "ru": "пугает",
+  "lemma": "frighten"
+ },
+ "unnecessarily": {
+  "ru": "напрасно"
+ },
+ "day-to-day": {
+  "ru": "повседневный"
+ },
+ "informally": {
+  "ru": "неформально"
+ },
+ "sits": {
+  "ru": "находится",
+  "lemma": "sit"
+ },
+ "statement": {
+  "ru": "отчёт"
+ },
+ "subtract": {
+  "ru": "вычесть"
+ },
+ "expenses": {
+  "ru": "расходы",
+  "lemma": "expense"
+ },
+ "salaries": {
+  "ru": "зарплаты",
+  "lemma": "salary"
+ },
+ "fat": {
+  "ru": "жирной, большой"
+ },
+ "healthier": {
+  "ru": "более здоровым",
+  "lemma": "healthy"
+ },
+ "burning": {
+  "ru": "сжигающий",
+  "lemma": "burn"
+ },
+ "course": {
+  "ru": "курс"
+ },
+ "sells": {
+  "ru": "продаётся",
+  "lemma": "sell"
+ },
+ "delivering": {
+  "ru": "предоставление",
+  "lemma": "deliver"
+ },
+ "beloved": {
+  "ru": "любимые"
+ },
+ "margins": {
+  "ru": "маржа",
+  "lemma": "margin"
+ },
+ "compared": {
+  "ru": "по сравнению",
+  "lemma": "compare"
+ },
+ "physical": {
+  "ru": "физические"
+ },
+ "goods": {
+  "ru": "товары"
+ },
+ "materials": {
+  "ru": "материалы",
+  "lemma": "material"
+ },
+ "shipping": {
+  "ru": "доставка"
+ },
+ "warehouses": {
+  "ru": "склады",
+  "lemma": "warehouse"
+ },
+ "math": {
+  "ru": "математика"
+ },
+ "two-letter": {
+  "ru": "двухбуквенный"
+ },
+ "arr": {
+  "ru": "годовая регулярная выручка"
+ },
+ "annually": {
+  "ru": "ежегодно"
+ },
+ "love": {
+  "ru": "обожают"
+ },
+ "re-earned": {
+  "ru": "заработана заново",
+  "lemma": "re-earn"
+ },
+ "compounds": {
+  "ru": "накапливается",
+  "lemma": "compound"
+ },
+ "orbit": {
+  "ru": "вращаются вокруг"
+ },
+ "linked": {
+  "ru": "связанных"
+ },
+ "lifetime": {
+  "ru": "пожизненная"
+ },
+ "ratio": {
+  "ru": "соотношение"
+ },
+ "least": {
+  "ru": "как минимум"
+ },
+ "acquire": {
+  "ru": "привлечь"
+ },
+ "exceeds": {
+  "ru": "превышает",
+  "lemma": "exceed"
+ },
+ "poorer": {
+  "ru": "беднее",
+  "lemma": "poor"
+ },
+ "accelerated": {
+  "ru": "ускоренное"
+ },
+ "dying": {
+  "ru": "умирание",
+  "lemma": "die"
+ },
+ "straight": {
+  "ru": "прямо"
+ },
+ "aviation": {
+  "ru": "авиация"
+ },
+ "burns": {
+  "ru": "сжигает",
+  "lemma": "burn"
+ },
+ "lasts": {
+  "ru": "хватает",
+  "lemma": "last"
+ },
+ "pilot": {
+  "ru": "пилот"
+ },
+ "fuel": {
+  "ru": "топливо"
+ },
+ "ends": {
+  "ru": "заканчивается",
+  "lemma": "end"
+ },
+ "plane": {
+  "ru": "самолёт"
+ },
+ "taken": {
+  "ru": "взлетел",
+  "lemma": "take"
+ },
+ "extend": {
+  "ru": "продлить"
+ },
+ "rounds": {
+  "ru": "раунды",
+  "lemma": "round"
+ },
+ "names": {
+  "ru": "названия",
+  "lemma": "name"
+ },
+ "pre-seed": {
+  "ru": "пре-сид раунд"
+ },
+ "seed": {
+  "ru": "посевной раунд"
+ },
+ "earliest": {
+  "ru": "самых ранних",
+  "lemma": "early"
+ },
+ "prepare": {
+  "ru": "готовят заранее"
+ },
+ "advance": {
+  "ru": "заранее"
+ },
+ "excellent": {
+  "ru": "прекрасно справляется"
+ },
+ "sharpen": {
+  "ru": "оттачивать"
+ },
+ "responses": {
+  "ru": "ответы",
+  "lemma": "response"
+ },
+ "craft": {
+  "ru": "ремесло"
+ },
+ "room": {
+  "ru": "настрой аудитории"
+ },
+ "fully": {
+  "ru": "полностью"
+ },
+ "present": {
+  "ru": "присутствующий"
+ },
+ "calculate": {
+  "ru": "посчитайте"
+ },
+ "parts": {
+  "ru": "части",
+  "lemma": "part"
+ },
+ "respected": {
+  "ru": "уважают",
+  "lemma": "respect"
+ },
+ "teaches": {
+  "ru": "учит",
+  "lemma": "teach"
+ },
+ "shortest": {
+  "ru": "самый короткий",
+  "lemma": "short"
+ },
+ "sounding": {
+  "ru": "звучать",
+  "lemma": "sound"
+ },
+ "eventually": {
+  "ru": "в конце концов"
+ },
+ "general": {
+  "ru": "общий"
+ },
+ "regularly": {
+  "ru": "регулярно"
+ },
+ "visitors": {
+  "ru": "посетители",
+  "lemma": "visitor"
+ },
+ "among": {
+  "ru": "среди"
+ },
+ "watches": {
+  "ru": "отслеживает",
+  "lemma": "watch"
+ },
+ "performance": {
+  "ru": "показатели"
+ },
+ "indicators": {
+  "ru": "индикаторы",
+  "lemma": "indicator"
+ },
+ "track": {
+  "ru": "отслеживать"
+ },
+ "noise": {
+  "ru": "шум"
+ },
+ "screen": {
+  "ru": "экран"
+ },
+ "visible": {
+  "ru": "видимый"
+ },
+ "precise": {
+  "ru": "точный"
+ },
+ "movement": {
+  "ru": "движение"
+ },
+ "increase": {
+  "ru": "расти, увеличиваться"
+ },
+ "surge": {
+  "ru": "резко взлетать"
+ },
+ "skyrocket": {
+  "ru": "резко взлетать"
+ },
+ "decrease": {
+  "ru": "снижаться"
+ },
+ "decline": {
+  "ru": "снижаться"
+ },
+ "plunge": {
+  "ru": "обваливаться"
+ },
+ "flat": {
+  "ru": "на одном уровне"
+ },
+ "plateau": {
+  "ru": "выйти на плато"
+ },
+ "percentages": {
+  "ru": "проценты",
+  "lemma": "percentage"
+ },
+ "comparisons": {
+  "ru": "сравнения",
+  "lemma": "comparison"
+ },
+ "bare": {
+  "ru": "голые, без обоснования"
+ },
+ "feelings": {
+  "ru": "ощущения",
+  "lemma": "feeling"
+ },
+ "mom": {
+  "ru": "месяц к месяцу"
+ },
+ "year-over-year": {
+  "ru": "год к году"
+ },
+ "yoy": {
+  "ru": "год к году"
+ },
+ "fairer": {
+  "ru": "более справедливое",
+  "lemma": "fair"
+ },
+ "comparison": {
+  "ru": "сравнение"
+ },
+ "seasonal": {
+  "ru": "сезонный"
+ },
+ "trend": {
+  "ru": "тренд"
+ },
+ "spike": {
+  "ru": "всплеск"
+ },
+ "outlier": {
+  "ru": "выброс, аномалия"
+ },
+ "strange": {
+  "ru": "странный"
+ },
+ "essentials": {
+  "ru": "важных понятия",
+  "lemma": "essential"
+ },
+ "average": {
+  "ru": "среднее значение"
+ },
+ "sum": {
+  "ru": "сумма"
+ },
+ "count": {
+  "ru": "количество"
+ },
+ "easily": {
+  "ru": "легко"
+ },
+ "distorted": {
+  "ru": "искажается",
+  "lemma": "distort"
+ },
+ "abused": {
+  "ru": "злоупотребляемое",
+  "lemma": "abuse"
+ },
+ "analytics": {
+  "ru": "аналитика"
+ },
+ "causes": {
+  "ru": "вызывает",
+  "lemma": "cause"
+ },
+ "ice": {
+  "ru": "мороженое"
+ },
+ "cream": {
+  "ru": "мороженое"
+ },
+ "deaths": {
+  "ru": "смерти",
+  "lemma": "death"
+ },
+ "summer": {
+  "ru": "лето"
+ },
+ "confusing": {
+  "ru": "путать",
+  "lemma": "confuse"
+ },
+ "analytical": {
+  "ru": "аналитический"
+ },
+ "pointing": {
+  "ru": "указывать на это",
+  "lemma": "point out"
+ },
+ "choices": {
+  "ru": "выборы, решения",
+  "lemma": "choice"
+ },
+ "based": {
+  "ru": "основанный",
+  "lemma": "base"
+ },
+ "evidence": {
+  "ru": "доказательства, данные"
+ },
+ "rather": {
+  "ru": "а не"
+ },
+ "intuition": {
+  "ru": "интуиция"
+ },
+ "hypothesis": {
+  "ru": "гипотеза"
+ },
+ "shorter": {
+  "ru": "более короткие",
+  "lemma": "short"
+ },
+ "beware": {
+  "ru": "остерегайтесь"
+ },
+ "traps": {
+  "ru": "ловушки",
+  "lemma": "trap"
+ },
+ "registered": {
+  "ru": "зарегистрированные",
+  "lemma": "register"
+ },
+ "active": {
+  "ru": "активные"
+ },
+ "followers": {
+  "ru": "подписчики",
+  "lemma": "follower"
+ },
+ "measuring": {
+  "ru": "измерение",
+  "lemma": "measure"
+ },
+ "bets": {
+  "ru": "ставки",
+  "lemma": "bet"
+ },
+ "series": {
+  "ru": "раунд, серия"
+ },
+ "c": {
+  "ru": "C"
+ },
+ "receive": {
+  "ru": "получают"
+ },
+ "share": {
+  "ru": "доля"
+ },
+ "ownership": {
+  "ru": "владение"
+ },
+ "agreed": {
+  "ru": "согласованный"
+ },
+ "deemed": {
+  "ru": "считается",
+  "lemma": "deem"
+ },
+ "raising": {
+  "ru": "привлекая",
+  "lemma": "raise"
+ },
+ "selling": {
+  "ru": "продавая",
+  "lemma": "sell"
+ },
+ "alternative": {
+  "ru": "альтернативный"
+ },
+ "proud": {
+  "ru": "гордое"
+ },
+ "purely": {
+  "ru": "исключительно"
+ },
+ "neither": {
+  "ru": "ни тот ни другой"
+ },
+ "capital": {
+  "ru": "капитал"
+ },
+ "dilution": {
+  "ru": "размытие доли"
+ },
+ "pressure": {
+  "ru": "давление"
+ },
+ "freedom": {
+  "ru": "свобода"
+ },
+ "slowness": {
+  "ru": "медлительность"
+ },
+ "accountant": {
+  "ru": "бухгалтер"
+ },
+ "wizard": {
+  "ru": "мастер, волшебник"
+ },
+ "expense": {
+  "ru": "статья расходов"
+ },
+ "drops": {
+  "ru": "падает",
+  "lemma": "drop"
+ },
+ "forecast": {
+  "ru": "прогноз"
+ },
+ "scenarios": {
+  "ru": "сценарии",
+  "lemma": "scenario"
+ },
+ "valuably": {
+  "ru": "особенно ценно"
+ },
+ "anomalies": {
+  "ru": "аномалии",
+  "lemma": "anomaly"
+ },
+ "noticed": {
+  "ru": "замечено",
+  "lemma": "notice"
+ },
+ "hurts": {
+  "ru": "больно",
+  "lemma": "hurt"
+ },
+ "negative": {
+  "ru": "отрицательные"
+ },
+ "little": {
+  "ru": "немного"
+ },
+ "price": {
+  "ru": "цена"
+ },
+ "scales": {
+  "ru": "масштабируется",
+  "lemma": "scale"
+ },
+ "transition": {
+  "ru": "переход"
+ },
+ "beyond": {
+  "ru": "за пределы"
+ },
+ "enters": {
+  "ru": "входит",
+  "lemma": "enter"
+ },
+ "painfully": {
+  "ru": "болезненно"
+ },
+ "interested": {
+  "ru": "заинтересованные"
+ },
+ "applicants": {
+  "ru": "соискатели",
+  "lemma": "applicant"
+ },
+ "interview": {
+  "ru": "собеседовать"
+ },
+ "references": {
+  "ru": "рекомендации",
+  "lemma": "reference"
+ },
+ "offer": {
+  "ru": "оффер"
+ },
+ "posting": {
+  "ru": "размещение",
+  "lemma": "post"
+ },
+ "talent": {
+  "ru": "подбор персонала, талант"
+ },
+ "distinctions": {
+  "ru": "различия",
+  "lemma": "distinction"
+ },
+ "confuse": {
+  "ru": "путают"
+ },
+ "russian": {
+  "ru": "русскоязычных"
+ },
+ "speakers": {
+  "ru": "носителей языка",
+  "lemma": "speaker"
+ },
+ "long-term": {
+  "ru": "долгосрочно"
+ },
+ "freelancer": {
+  "ru": "фрилансер"
+ },
+ "legally": {
+  "ru": "юридически"
+ },
+ "financially": {
+  "ru": "финансово"
+ },
+ "animals": {
+  "ru": "явления, вещи",
+  "lemma": "animal"
+ },
+ "fixed": {
+  "ru": "фиксированная"
+ },
+ "annual": {
+  "ru": "годовая"
+ },
+ "bonuses": {
+  "ru": "бонусы",
+  "lemma": "bonus"
+ },
+ "accept": {
+  "ru": "соглашаются"
+ },
+ "stock": {
+  "ru": "акции"
+ },
+ "options": {
+  "ru": "опционы",
+  "lemma": "option"
+ },
+ "later": {
+  "ru": "позже"
+ },
+ "lottery": {
+  "ru": "лотерейный билет"
+ },
+ "ninety": {
+  "ru": "девяносто"
+ },
+ "turning": {
+  "ru": "превращение",
+  "lemma": "turn"
+ },
+ "stranger": {
+  "ru": "незнакомца"
+ },
+ "productive": {
+  "ru": "продуктивного"
+ },
+ "guessing": {
+  "ru": "гадая",
+  "lemma": "guess"
+ },
+ "avoidable": {
+  "ru": "предотвратимые"
+ },
+ "mistakes": {
+  "ru": "ошибки",
+  "lemma": "mistake"
+ },
+ "quits": {
+  "ru": "увольняется",
+  "lemma": "quit"
+ },
+ "effective": {
+  "ru": "эффективный"
+ },
+ "assigned": {
+  "ru": "назначенный"
+ },
+ "deserves": {
+  "ru": "заслуживает",
+  "lemma": "deserve"
+ },
+ "treats": {
+  "ru": "относится к",
+  "lemma": "treat"
+ },
+ "differently": {
+  "ru": "по-другому"
+ },
+ "regular": {
+  "ru": "регулярная"
+ },
+ "two-directional": {
+  "ru": "двусторонняя"
+ },
+ "yearly": {
+  "ru": "ежегодный"
+ },
+ "verdict": {
+  "ru": "вердикт"
+ },
+ "constant": {
+  "ru": "постоянный"
+ },
+ "low-drama": {
+  "ru": "спокойный, без драмы"
+ },
+ "d": {
+  "ru": "бы (сослагательное)",
+  "lemma": "would"
+ },
+ "praise": {
+  "ru": "хвали"
+ },
+ "private": {
+  "ru": "наедине"
+ },
+ "golden": {
+  "ru": "золотое"
+ },
+ "delegation": {
+  "ru": "делегирование"
+ },
+ "published": {
+  "ru": "опубликован",
+  "lemma": "publish"
+ },
+ "friday": {
+  "ru": "пятница"
+ },
+ "forty": {
+  "ru": "сорок"
+ },
+ "micro-instructions": {
+  "ru": "микроинструкции",
+  "lemma": "micro-instruction"
+ },
+ "executor": {
+  "ru": "исполнитель"
+ },
+ "waits": {
+  "ru": "ждёт",
+  "lemma": "wait"
+ },
+ "cities": {
+  "ru": "города",
+  "lemma": "city"
+ },
+ "zones": {
+  "ru": "пояса",
+  "lemma": "zone"
+ },
+ "offices": {
+  "ru": "офисы",
+  "lemma": "office"
+ },
+ "taught": {
+  "ru": "учили",
+  "lemma": "teach"
+ },
+ "asynchronous": {
+  "ru": "асинхронный"
+ },
+ "endless": {
+  "ru": "бесконечные"
+ },
+ "meetings": {
+  "ru": "встречи, совещания",
+  "lemma": "meeting"
+ },
+ "over-communicate": {
+  "ru": "перекоммуницировать"
+ },
+ "context": {
+  "ru": "контекст"
+ },
+ "enjoy": {
+  "ru": "пользуются"
+ },
+ "hidden": {
+  "ru": "скрытая"
+ },
+ "deep": {
+  "ru": "глубокая"
+ },
+ "uninterrupted": {
+  "ru": "непрерывная"
+ },
+ "meeting-driven": {
+  "ru": "ориентированные на совещания"
+ },
+ "synchronization": {
+  "ru": "синхронизация"
+ },
+ "productivity": {
+  "ru": "продуктивность"
+ },
+ "accountability": {
+  "ru": "ответственность за результат"
+ },
+ "excuses": {
+  "ru": "оправдания",
+  "lemma": "excuse"
+ },
+ "alignment": {
+  "ru": "согласованность в команде"
+ },
+ "understands": {
+  "ru": "понимает",
+  "lemma": "understand"
+ },
+ "agrees": {
+  "ru": "соглашается",
+  "lemma": "agree"
+ },
+ "misaligned": {
+  "ru": "несогласованные"
+ },
+ "row": {
+  "ru": "гребут"
+ },
+ "directions": {
+  "ru": "направления",
+  "lemma": "direction"
+ },
+ "effort": {
+  "ru": "усилие"
+ },
+ "burnout": {
+  "ru": "выгорание"
+ },
+ "exhaustion": {
+  "ru": "истощение"
+ },
+ "prolonged": {
+  "ru": "длительной"
+ },
+ "overwork": {
+  "ru": "переработка"
+ },
+ "badge": {
+  "ru": "знак"
+ },
+ "honor": {
+  "ru": "чести"
+ },
+ "recovery": {
+  "ru": "восстановление"
+ },
+ "ai-augmented": {
+  "ru": "усиленная ИИ"
+ },
+ "reshaping": {
+  "ru": "переформирует",
+  "lemma": "reshape"
+ },
+ "emerging": {
+  "ru": "формирующееся",
+  "lemma": "emerge"
+ },
+ "triple": {
+  "ru": "втрое"
+ },
+ "developers": {
+  "ru": "разработчики",
+  "lemma": "developer"
+ },
+ "load": {
+  "ru": "нагрузка"
+ },
+ "department": {
+  "ru": "отдел"
+ },
+ "candidate": {
+  "ru": "кандидат"
+ },
+ "longer": {
+  "ru": "уже (не)",
+  "lemma": "long"
+ },
+ "delegates": {
+  "ru": "делегирует",
+  "lemma": "delegate"
+ },
+ "openly": {
+  "ru": "открыто"
+ },
+ "interviews": {
+  "ru": "собеседования",
+  "lemma": "interview"
+ },
+ "show": {
+  "ru": "покажи"
+ },
+ "me": {
+  "ru": "мне",
+  "lemma": "i"
+ },
+ "stare": {
+  "ru": "взгляд"
+ },
+ "red": {
+  "ru": "тревожный"
+ },
+ "flag": {
+  "ru": "сигнал"
+ },
+ "diploma": {
+  "ru": "диплом"
+ },
+ "caution": {
+  "ru": "предостережение"
+ },
+ "shrink": {
+  "ru": "сокращаются"
+ },
+ "size": {
+  "ru": "размер"
+ },
+ "slowly": {
+  "ru": "медленно"
+ },
+ "asset": {
+  "ru": "актив"
+ },
+ "toxic": {
+  "ru": "токсичный"
+ },
+ "atmosphere": {
+  "ru": "атмосфера"
+ },
+ "unlock": {
+  "ru": "раскрывает"
+ },
+ "harm": {
+  "ru": "вредить"
+ },
+ "intelligently": {
+  "ru": "разумно"
+ },
+ "polarized": {
+  "ru": "поляризован",
+  "lemma": "polarize"
+ },
+ "loud": {
+  "ru": "громких"
+ },
+ "camps": {
+  "ru": "лагеря",
+  "lemma": "camp"
+ },
+ "solve": {
+  "ru": "решит"
+ },
+ "occupy": {
+  "ru": "занимают"
+ },
+ "duty": {
+  "ru": "долг"
+ },
+ "systems": {
+  "ru": "системы",
+  "lemma": "system"
+ },
+ "state": {
+  "ru": "утверждают"
+ },
+ "falsehoods": {
+  "ru": "ложь",
+  "lemma": "falsehood"
+ },
+ "confidence": {
+  "ru": "уверенность"
+ },
+ "poem": {
+  "ru": "стихотворение"
+ },
+ "charming": {
+  "ru": "мило, очаровательно"
+ },
+ "document": {
+  "ru": "документ"
+ },
+ "medical": {
+  "ru": "медицинский"
+ },
+ "abandon": {
+  "ru": "отказаться от"
+ },
+ "unverified": {
+  "ru": "непроверенным"
+ },
+ "review": {
+  "ru": "проверка"
+ },
+ "past": {
+  "ru": "прошлые"
+ },
+ "kind": {
+  "ru": "тип, вид"
+ },
+ "hired": {
+  "ru": "нанимала",
+  "lemma": "hire"
+ },
+ "looking": {
+  "ru": "выглядя",
+  "lemma": "look"
+ },
+ "objective": {
+  "ru": "объективный"
+ },
+ "antidote": {
+  "ru": "противоядие"
+ },
+ "fairness": {
+  "ru": "справедливость"
+ },
+ "across": {
+  "ru": "среди, по"
+ },
+ "groups": {
+  "ru": "группы",
+  "lemma": "group"
+ },
+ "trusting": {
+  "ru": "доверяя",
+  "lemma": "trust"
+ },
+ "may": {
+  "ru": "может"
+ },
+ "contain": {
+  "ru": "содержать"
+ },
+ "sensitive": {
+  "ru": "чувствительное"
+ },
+ "financials": {
+  "ru": "финансовые данные"
+ },
+ "unreleased": {
+  "ru": "неопубликованные"
+ },
+ "sending": {
+  "ru": "отправляя",
+  "lemma": "send"
+ },
+ "stored": {
+  "ru": "хранятся",
+  "lemma": "store"
+ },
+ "consent": {
+  "ru": "согласие"
+ },
+ "permission": {
+  "ru": "разрешение"
+ },
+ "protection": {
+  "ru": "защита"
+ },
+ "stop": {
+  "ru": "перестают"
+ },
+ "lawyer-speak": {
+  "ru": "юридический жаргон"
+ },
+ "operational": {
+  "ru": "практические"
+ },
+ "rough": {
+  "ru": "приблизительное"
+ },
+ "forum": {
+  "ru": "форум"
+ },
+ "unless": {
+  "ru": "если только не"
+ },
+ "trusted": {
+  "ru": "доверяете",
+  "lemma": "trust"
+ },
+ "policy": {
+  "ru": "политика"
+ },
+ "security": {
+  "ru": "безопасность"
+ },
+ "attack": {
+  "ru": "атака"
+ },
+ "surfaces": {
+  "ru": "поверхности",
+  "lemma": "surface"
+ },
+ "deepfakes": {
+  "ru": "дипфейки",
+  "lemma": "deepfake"
+ },
+ "convincing": {
+  "ru": "убедительное"
+ },
+ "fake": {
+  "ru": "поддельное"
+ },
+ "audio": {
+  "ru": "аудио"
+ },
+ "impersonate": {
+  "ru": "выдавать себя за"
+ },
+ "ceos": {
+  "ru": "гендиректоров",
+  "lemma": "ceo"
+ },
+ "authorize": {
+  "ru": "санкционировать"
+ },
+ "fraudulent": {
+  "ru": "мошеннические"
+ },
+ "transfers": {
+  "ru": "переводы",
+  "lemma": "transfer"
+ },
+ "phishing": {
+  "ru": "фишинг"
+ },
+ "broken": {
+  "ru": "ломаный"
+ },
+ "defense": {
+  "ru": "защита, оборона"
+ },
+ "paranoia": {
+  "ru": "паранойя"
+ },
+ "channel": {
+  "ru": "канал"
+ },
+ "involving": {
+  "ru": "связанное с",
+  "lemma": "involve"
+ },
+ "governments": {
+  "ru": "правительства",
+  "lemma": "government"
+ },
+ "responding": {
+  "ru": "реагируют",
+  "lemma": "respond"
+ },
+ "regulation": {
+  "ru": "регулирование"
+ },
+ "appears": {
+  "ru": "появляется",
+  "lemma": "appear"
+ },
+ "compliance": {
+  "ru": "соответствие требованиям"
+ },
+ "following": {
+  "ru": "соблюдение",
+  "lemma": "follow"
+ },
+ "applicable": {
+  "ru": "применимые"
+ },
+ "ignores": {
+  "ru": "игнорирует",
+  "lemma": "ignore"
+ },
+ "faces": {
+  "ru": "сталкивается с",
+  "lemma": "face"
+ },
+ "fines": {
+  "ru": "штрафы",
+  "lemma": "fine"
+ },
+ "bans": {
+  "ru": "запреты",
+  "lemma": "ban"
+ },
+ "regulatory": {
+  "ru": "регуляторная"
+ },
+ "patchwork": {
+  "ru": "лоскутная мешанина"
+ },
+ "regions": {
+  "ru": "регионы",
+  "lemma": "region"
+ },
+ "approaches": {
+  "ru": "подходы",
+  "lemma": "approach"
+ },
+ "regimes": {
+  "ru": "режимы",
+  "lemma": "regime"
+ },
+ "heavy": {
+  "ru": "объёмные, тяжёлые"
+ },
+ "documentation": {
+  "ru": "документация"
+ },
+ "requirements": {
+  "ru": "требования",
+  "lemma": "requirement"
+ },
+ "lighter-touch": {
+  "ru": "более мягкие"
+ },
+ "frameworks": {
+  "ru": "рамки, фреймворки",
+  "lemma": "framework"
+ },
+ "shifts": {
+  "ru": "меняется",
+  "lemma": "shift"
+ },
+ "takeaway": {
+  "ru": "главный вывод"
+ },
+ "memorize": {
+  "ru": "заучивать"
+ },
+ "laws": {
+  "ru": "законы",
+  "lemma": "law"
+ },
+ "apply": {
+  "ru": "применяются"
+ },
+ "adding": {
+  "ru": "добавляя",
+  "lemma": "add"
+ },
+ "cousin": {
+  "ru": "родственное понятие"
+ },
+ "reskilling": {
+  "ru": "переквалификация",
+  "lemma": "reskill"
+ },
+ "education": {
+  "ru": "образование"
+ },
+ "study": {
+  "ru": "учиться"
+ },
+ "lifelong": {
+  "ru": "пожизненный"
+ },
+ "slogan": {
+  "ru": "лозунг"
+ },
+ "calendar": {
+  "ru": "календарь"
+ },
+ "layers": {
+  "ru": "слои",
+  "lemma": "layer"
+ },
+ "literacy": {
+  "ru": "грамотность"
+ },
+ "gadget": {
+  "ru": "гаджет"
+ },
+ "prompting": {
+  "ru": "составление промптов",
+  "lemma": "prompt"
+ },
+ "modes": {
+  "ru": "режимы",
+  "lemma": "mode"
+ },
+ "automations": {
+  "ru": "автоматизации",
+  "lemma": "automation"
+ },
+ "fundamentals": {
+  "ru": "основы",
+  "lemma": "fundamental"
+ },
+ "expire": {
+  "ru": "устаревать"
+ },
+ "thinking": {
+  "ru": "мышление"
+ },
+ "frontier": {
+  "ru": "передний край"
+ },
+ "publishes": {
+  "ru": "публикует",
+  "lemma": "publish"
+ },
+ "rare": {
+  "ru": "редкий"
+ },
+ "commodity": {
+  "ru": "массовый товар"
+ },
+ "theme": {
+  "ru": "тема"
+ },
+ "stacking": {
+  "ru": "объединяя",
+  "lemma": "stack"
+ },
+ "motion": {
+  "ru": "движение"
+ },
+ "studying": {
+  "ru": "учёба",
+  "lemma": "study"
+ },
+ "twelve": {
+  "ru": "двенадцать"
+ },
+ "chapters": {
+  "ru": "главы",
+  "lemma": "chapter"
+ },
+ "heroics": {
+  "ru": "героизм"
+ },
+ "communicate": {
+  "ru": "общаться"
+ },
+ "replaced": {
+  "ru": "заменён",
+  "lemma": "replace"
+ },
+ "negotiates": {
+  "ru": "ведёт переговоры",
+  "lemma": "negotiate"
+ },
+ "pitches": {
+  "ru": "питчит, презентует",
+  "lemma": "pitch"
+ },
+ "fluent": {
+  "ru": "свободно владеющий"
+ },
+ "although": {
+  "ru": "хотя"
+ },
+ "suggest": {
+  "ru": "подсказывает, предполагает"
+ },
+ "current": {
+  "ru": "текущий"
+ },
+ "transparency": {
+  "ru": "прозрачность"
+ },
+ "increasingly": {
+  "ru": "всё чаще"
+ },
+ "requirement": {
+  "ru": "требование"
+ },
+ "interestingly": {
+  "ru": "что интереснее"
+ },
+ "reframe": {
+  "ru": "переосмысление"
+ },
+ "separates": {
+  "ru": "разделяет",
+  "lemma": "separate"
+ },
+ "tourists": {
+  "ru": "туристы, дилетанты",
+  "lemma": "tourist"
+ },
+ "incident": {
+  "ru": "инцидент"
+ },
+ "leaked": {
+  "ru": "слитый",
+  "lemma": "leak"
+ },
+ "dataset": {
+  "ru": "набор данных"
+ },
+ "discriminatory": {
+  "ru": "дискриминационный"
+ },
+ "scandal": {
+  "ru": "скандал"
+ },
+ "traced": {
+  "ru": "связанный с",
+  "lemma": "trace"
+ },
+ "erase": {
+  "ru": "стереть"
+ },
+ "overnight": {
+  "ru": "за одну ночь"
+ },
+ "meanwhile": {
+  "ru": "между тем"
+ },
+ "virtues": {
+  "ru": "добродетели",
+  "lemma": "virtue"
+ },
+ "disclosure": {
+  "ru": "раскрытие информации"
+ },
+ "reputation": {
+  "ru": "репутация"
+ },
+ "compute": {
+  "ru": "вычислительные мощности"
+ },
+ "checklist": {
+  "ru": "чек-лист"
+ },
+ "sticky": {
+  "ru": "липкий, стикер"
+ },
+ "reviewing": {
+  "ru": "проверяющих",
+  "lemma": "review"
+ },
+ "high-stakes": {
+  "ru": "с высокой ценой ошибки"
+ },
+ "money-related": {
+  "ru": "связанный с деньгами"
+ },
+ "twice": {
+  "ru": "дважды"
+ },
+ "none": {
+  "ru": "ничто"
+ },
+ "differentiator": {
+  "ru": "отличительное преимущество"
+ },
+ "fraud": {
+  "ru": "мошенничество"
+ },
+ "technological": {
+  "ru": "технологический"
+ },
+ "triggers": {
+  "ru": "запускает",
+  "lemma": "trigger"
+ },
+ "printing": {
+  "ru": "печатный"
+ },
+ "memory": {
+  "ru": "память"
+ },
+ "end": {
+  "ru": "положить конец"
+ },
+ "employment": {
+  "ru": "занятость"
+ },
+ "computers": {
+  "ru": "компьютеры",
+  "lemma": "computer"
+ },
+ "disappeared": {
+  "ru": "исчезли",
+  "lemma": "disappear"
+ },
+ "appeared": {
+  "ru": "появились",
+  "lemma": "appear"
+ },
+ "forgets": {
+  "ru": "забывает",
+  "lemma": "forget"
+ },
+ "nearly": {
+  "ru": "почти"
+ },
+ "surviving": {
+  "ru": "уцелевший"
+ },
+ "transformed": {
+  "ru": "трансформировалась",
+  "lemma": "transform"
+ },
+ "farmers": {
+  "ru": "фермеры",
+  "lemma": "farmer"
+ },
+ "programmers": {
+  "ru": "программисты",
+  "lemma": "programmer"
+ },
+ "farming": {
+  "ru": "фермерство"
+ },
+ "realistic": {
+  "ru": "реалистичный"
+ },
+ "expectation": {
+  "ru": "ожидание"
+ },
+ "less": {
+  "ru": "меньше"
+ },
+ "sounds": {
+  "ru": "звучит",
+  "lemma": "sound"
+ },
+ "destructive": {
+  "ru": "разрушительный"
+ },
+ "unprepared": {
+  "ru": "неподготовленный"
+ },
+ "closer": {
+  "ru": "внимательнее",
+  "lemma": "close"
+ },
+ "resist": {
+  "ru": "сопротивляются"
+ },
+ "ride": {
+  "ru": "оседлали"
+ },
+ "fought": {
+  "ru": "боролись",
+  "lemma": "fight"
+ },
+ "vanished": {
+  "ru": "исчезли",
+  "lemma": "vanish"
+ },
+ "specialized": {
+  "ru": "специализированный"
+ },
+ "thrive": {
+  "ru": "процветают"
+ },
+ "side": {
+  "ru": "сторона"
+ },
+ "define": {
+  "ru": "определяют"
+ },
+ "futures": {
+  "ru": "будущее",
+  "lemma": "future"
+ },
+ "given": {
+  "ru": "данный, взятый"
+ },
+ "amplifies": {
+  "ru": "усиливает",
+  "lemma": "amplify"
+ },
+ "near": {
+  "ru": "ближайший"
+ },
+ "knowledge": {
+  "ru": "знания"
+ },
+ "commanding": {
+  "ru": "управляющий",
+  "lemma": "command"
+ },
+ "directing": {
+  "ru": "направляющий",
+  "lemma": "direct"
+ },
+ "fleet": {
+  "ru": "парк, флот"
+ },
+ "anticipated": {
+  "ru": "предвидел",
+  "lemma": "anticipate"
+ },
+ "reshapes": {
+  "ru": "преобразует",
+  "lemma": "reshape"
+ },
+ "clarity": {
+  "ru": "ясность"
+ },
+ "standard": {
+  "ru": "стандартный, типовой"
+ },
+ "direct": {
+  "ru": "направляют"
+ },
+ "domain": {
+  "ru": "отраслевая"
+ },
+ "expertise": {
+  "ru": "экспертиза"
+ },
+ "punishes": {
+  "ru": "наказывает",
+  "lemma": "punish"
+ },
+ "generic": {
+  "ru": "типовой, общий"
+ },
+ "pays": {
+  "ru": "вознаграждает",
+  "lemma": "pay"
+ },
+ "upskilling": {
+  "ru": "повышение квалификации"
+ },
+ "continuously": {
+  "ru": "непрерывно"
+ }
+}

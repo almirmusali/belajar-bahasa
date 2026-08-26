@@ -1,0 +1,52 @@
+{
+  "id": "A5", "track": "affixes", "kind": "unit", "week": 5, "day": 5, "order": 25,
+  "title_ru": "Разговорный сброс meN-",
+  "subtitle_ru": "Голая форма и приставка nge-",
+  "items": ["meN-", "nge-"],
+  "theory_ru": "Вчера ты собирал полный `meN-`. Сегодня — обратный ход: в живой речи он **отваливается**.\n\nДва пути.\n\n**1. Голый корень.** Самый частый: `membeli` → `beli`, `membawa` → `bawa`, `membaca` → `baca`.\n\n> `Aku beli dua aja` — я возьму всего два.\n\n**2. Приставка `nge-`.** Часть глаголов не остаётся голой, а берёт разговорную приставку: `melihat` → `ngeliat` / `liat`, `mengambil` → `ngambil`, `mengerti` → `ngerti`, `berbicara` → `ngomong`.\n\n| Книжно | Разговорно |\n|---|---|\n| mengambil | ngambil |\n| memberi | ngasih |\n| melihat | liat |\n| membuat | bikin |\n| menunggu | nunggu |\n\nОбрати внимание: `membuat` → `bikin` и `memberi` → `ngasih` — это не сброс префикса, а **другое слово**. Такие пары надо просто знать.\n\nПравило регистра: `Saya membeli kopi` в разговоре с другом звучит как чтение вслух с бумаги. Живое — `Aku beli kopi`. И наоборот: `Aku beli` в договоре или на вывеске неуместно.",
+  "checklist": [
+    "Говорю «Aku beli», а не «Saya membeli»",
+    "Узнаю ngambil, ngerti, nunggu и восстанавливаю книжную форму",
+    "Помню пары-подмены: bikin вместо membuat, ngasih вместо memberi"
+  ],
+  "drills": [
+    { "id": "d_A5_01", "type": "register_swap", "mode": "input",
+      "prompt": "Saya membeli kopi", "prompt_ru": "Переведи в разговорный регистр.",
+      "answer": "Aku beli kopi", "accept": ["aku beli kopi", "gue beli kopi"],
+      "explain_ru": "Два сдвига: saya → aku и membeli → beli." },
+    { "id": "d_A5_02", "type": "register_swap", "mode": "input",
+      "prompt": "mengambil", "prompt_ru": "Разговорная форма.",
+      "answer": "ngambil", "accept": ["ambil"] },
+    { "id": "d_A5_03", "type": "register_swap", "mode": "input",
+      "prompt": "menunggu", "prompt_ru": "Разговорная форма.",
+      "answer": "nunggu" },
+    { "id": "d_A5_04", "type": "register_swap", "mode": "choice",
+      "prompt": "membuat", "prompt_ru": "Разговорная форма.",
+      "options": ["bikin", "mbuat", "ngebuat", "buatin"],
+      "answer": "bikin",
+      "explain_ru": "Не сброс префикса, а другое слово. Такие пары учатся отдельно." },
+    { "id": "d_A5_05", "type": "register_swap", "mode": "choice",
+      "prompt": "memberi", "prompt_ru": "Разговорная форма.",
+      "options": ["ngasih", "mberi", "ngeberi", "beriin"],
+      "answer": "ngasih",
+      "explain_ru": "Тоже подмена корня: beri → kasih." },
+    { "id": "d_A5_06", "type": "error_hunt", "mode": "choice",
+      "prompt": "Saya membeli kopi di warung. Saya membaca berita. Saya menunggu teman.",
+      "prompt_ru": "Так пишет русскоязычный в чате друзьям. Что не так?",
+      "options": [
+        "Всё верно",
+        "Регистр: полный meN- и saya в бытовой переписке звучат как чтение с бумаги — нужно «Aku beli / baca / nunggu»",
+        "Нужно добавить частицу ya в каждую фразу",
+        "Нужно поменять порядок слов"
+      ],
+      "answer": "Регистр: полный meN- и saya в бытовой переписке звучат как чтение с бумаги — нужно «Aku beli / baca / nunggu»",
+      "explain_ru": "Формы не ошибочны. Ошибочен слой языка." },
+    { "id": "d_A5_07", "type": "register_swap", "mode": "input",
+      "prompt": "ngerti", "prompt_ru": "Восстанови книжную форму.",
+      "answer": "mengerti" },
+    { "id": "d_A5_08", "type": "live_produce", "mode": "selfcheck", "speak_aloud": true,
+      "prompt_ru": "Напиши другу в чат: жду тебя в варунге, взял уже два кофе.",
+      "answer": "Aku nunggu di warung, udah beli dua kopi",
+      "explain_ru": "Ни одного meN- — и это правильно." }
+  ]
+}

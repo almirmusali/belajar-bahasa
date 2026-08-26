@@ -1,0 +1,45 @@
+{
+  "id": "A13", "track": "affixes", "kind": "unit", "week": 9, "day": 1, "order": 33,
+  "title_ru": "peN- и peN-…-an",
+  "subtitle_ru": "Деятель и процесс",
+  "items": ["peN-", "peN-…-an"],
+  "theory_ru": "`peN-` делает **деятеля или инструмент** от `meN-`-глагола. Форма префикса меняется по тем же правилам, что у `meN-`, включая выпадение KTSP.\n\n| Глагол | Деятель | Значение |\n|---|---|---|\n| menjual | `penjual` | продавец |\n| membeli | `pembeli` | покупатель |\n| menulis | `penulis` | писатель |\n| mendengar | `pendengar` | слушатель |\n| menghapus | `penghapus` | ластик (инструмент) |\n\nПроверка: если знаешь `meN-`-форму, то `peN-`-форма получается заменой `me` на `pe`. `menulis` → `penulis`, `mengirim` → `pengirim`. Ошибиться почти невозможно.\n\nОтдельно `pe-` без носового — **носитель качества**: `pemalas` (лентяй), `pemarah` (вспыльчивый), `pemain` (игрок).\n\n**`peN-…-an`** даёт **процесс** от того же глагола:\n\n> `membangun` строить → `pembangunan` строительство\n> `menjual` продавать → `penjualan` продажи\n> `mengirim` посылать → `pengiriman` доставка\n\nЛогика: `peN-` — кто, `peN-…-an` — что происходит. Оба ряда книжные: в чате их почти нет, в договоре и на вывеске — всюду.",
+  "checklist": [
+    "Получаю деятеля из meN--формы заменой me на pe",
+    "Различаю penjual (продавец) и penjualan (продажи)",
+    "Узнаю pembangunan, pengiriman, pemasukan в письменном тексте"
+  ],
+  "drills": [
+    { "id": "d_A13_01", "type": "men_drill", "mode": "input", "prompt": "menulis", "prompt_ru": "Деятель через peN-", "answer": "penulis", "time_limit_sec": 6 },
+    { "id": "d_A13_02", "type": "men_drill", "mode": "input", "prompt": "mengirim", "prompt_ru": "Деятель через peN-", "answer": "pengirim", "time_limit_sec": 6 },
+    { "id": "d_A13_03", "type": "men_drill", "mode": "input", "prompt": "membeli", "prompt_ru": "Деятель через peN-", "answer": "pembeli", "time_limit_sec": 6 },
+    { "id": "d_A13_04", "type": "particle_contrast", "mode": "choice",
+      "prompt_ru": "Отчёт за месяц: речь о продажах, а не о продавце.",
+      "options": ["Penjualan bulan ini naik", "Penjual bulan ini naik", "Jualan bulan ini naik", "Dijual bulan ini naik"],
+      "answer": "Penjualan bulan ini naik",
+      "explain_ru": "peN-…-an — процесс. Один аффикс -an меняет человека на явление.",
+      "audio": "Penjualan bulan ini naik" },
+    { "id": "d_A13_05", "type": "word_strip", "mode": "input",
+      "prompt": "penghapus", "prompt_ru": "Восстанови корень.",
+      "answer": "hapus",
+      "explain_ru": "«Ластик»: peN- образует не только деятеля, но и инструмент." },
+    { "id": "d_A13_06", "type": "word_strip", "mode": "input",
+      "prompt": "pengiriman", "prompt_ru": "Восстанови корень.",
+      "answer": "kirim",
+      "explain_ru": "Внимание к KTSP в обратную сторону: peng- перед гласной часто означает выпавшую k." },
+    { "id": "d_A13_07", "type": "word_strip", "mode": "choice",
+      "prompt": "pemalas",
+      "prompt_ru": "Что это значит и какой здесь аффикс?",
+      "options": ["Лентяй, pe- носителя качества", "Тот, кто заставляет лениться", "Лень как процесс", "Ленивое место"],
+      "answer": "Лентяй, pe- носителя качества",
+      "explain_ru": "pe- без носового работает с прилагательными: malas → pemalas." },
+    { "id": "d_A13_08", "type": "root_expand", "mode": "fields",
+      "prompt": "jual",
+      "prompt_ru": "Собери формы от корня jual.",
+      "fields": [
+        { "label_ru": "продавец", "answer": "penjual" },
+        { "label_ru": "продажи (процесс)", "answer": "penjualan" },
+        { "label_ru": "продаётся", "answer": "dijual" }
+      ] }
+  ]
+}

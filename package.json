@@ -13,8 +13,12 @@
     "audio:dry": "node scripts/generate-audio-voicer.mjs --dry",
     "audio:gen": "node scripts/generate-audio-voicer.mjs",
     "reading:build": "node scripts/build-reading.mjs",
+    "reading:duo": "node scripts/build-duo.mjs",
     "reading:translate": "node scripts/translate-reading.mjs",
-    "audio:reading": "node scripts/generate-audio-voicer.mjs --reading"
+    "reading:glossary": "node scripts/seed-glossary.mjs",
+    "reading:check": "node scripts/check-reading.mjs",
+    "audio:reading": "node scripts/generate-audio-voicer.mjs --reading",
+    "audio:express": "node scripts/generate-audio-voicer.mjs --express"
   },
   "dependencies": {
     "@supabase/ssr": "^0.10.3",

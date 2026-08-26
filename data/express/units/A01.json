@@ -1,0 +1,67 @@
+{
+  "id": "A1", "track": "affixes", "kind": "unit", "week": 4, "day": 1, "order": 21,
+  "title_ru": "Корень плюс слоты",
+  "subtitle_ru": "Логика системы на примерах ajar и kerja",
+  "items": ["ajar", "kerja"],
+  "theory_ru": "Индонезийское слово устроено как **корень плюс слоты**. Корень несёт смысл, аффиксы задают роль: кто делает, над чем, результат, процесс, деятель, качество.\n\nОдин корень `ajar` — десять слов:\n\n| Форма | Значение | Слот |\n|---|---|---|\n| `belajar` | учиться | bel- |\n| `mengajar` | преподавать | meN- |\n| `mengajari` | обучать кого-то | meN- + -i |\n| `mengajarkan` | преподавать что-то | meN- + -kan |\n| `pelajar` | ученик | pe- |\n| `pengajar` | преподаватель | peN- |\n| `pelajaran` | урок, предмет | pe- + -an |\n| `terpelajar` | образованный | ter- + pe- |\n\nОтсюда главный вывод части B: учить надо не десять слов, а **корень плюс логику слотов**. Тогда любое незнакомое производное разбирается на месте, а нужное — собирается.\n\nВторой корень на сегодня — `kerja`: `bekerja` (работать), `mengerjakan` (выполнять), `pekerja` (работник), `pekerjaan` (работа как занятие), `kerjaan` (работёнка, разговорное).\n\nЗаметь пару `pekerjaan` и `kerjaan`: один корень, один смысл, два регистра. Так устроена половина бытовой лексики.",
+  "checklist": [
+    "Вижу в незнакомом слове корень и отделяю аффиксы",
+    "Называю пять форм от ajar без подсказки",
+    "Различаю pekerjaan (нейтрально) и kerjaan (разговорно)"
+  ],
+  "drills": [
+    { "id": "d_A1_01", "type": "word_strip", "mode": "fields",
+      "prompt": "pelajaran",
+      "prompt_ru": "Разбери слово на корень и аффиксы.",
+      "hint_ru": "Аффиксы пиши через плюс, например: pe- + -an",
+      "fields": [
+        { "label_ru": "Корень", "answer": "ajar" },
+        { "label_ru": "Аффиксы", "answer": "pe- + -an", "accept": ["pe-an", "pe -an", "pe + an", "pelajaran pe- -an"] }
+      ],
+      "explain_ru": "pelajaran — урок, предмет. Схема pe- + корень + -an даёт название сферы или результата." },
+    { "id": "d_A1_02", "type": "word_strip", "mode": "fields",
+      "prompt": "pengajar",
+      "prompt_ru": "Разбери слово на корень и аффиксы.",
+      "hint_ru": "Один аффикс",
+      "fields": [
+        { "label_ru": "Корень", "answer": "ajar" },
+        { "label_ru": "Аффикс", "answer": "peN-", "accept": ["pen-", "peng-", "pe n", "pen"] }
+      ],
+      "explain_ru": "pengajar — преподаватель. peN- делает деятеля от meN--глагола: mengajar → pengajar." },
+    { "id": "d_A1_03", "type": "root_expand", "mode": "fields",
+      "prompt": "ajar",
+      "prompt_ru": "Собери три формы от корня ajar.",
+      "fields": [
+        { "label_ru": "учиться", "answer": "belajar" },
+        { "label_ru": "ученик", "answer": "pelajar" },
+        { "label_ru": "преподавать", "answer": "mengajar", "accept": ["ngajar"] }
+      ],
+      "explain_ru": "bel- — редкий аллофон ber-, встречается почти только с ajar." },
+    { "id": "d_A1_04", "type": "root_expand", "mode": "fields",
+      "prompt": "kerja",
+      "prompt_ru": "Собери три формы от корня kerja.",
+      "fields": [
+        { "label_ru": "работать", "answer": "bekerja", "accept": ["kerja"] },
+        { "label_ru": "работник", "answer": "pekerja" },
+        { "label_ru": "работа, занятие", "answer": "pekerjaan" }
+      ],
+      "explain_ru": "ber- перед корнем с r превращается в be-: bekerja, а не berkerja." },
+    { "id": "d_A1_05", "type": "register_swap", "mode": "choice",
+      "prompt": "Banyak pekerjaan hari ini",
+      "prompt_ru": "Как то же самое скажет коллега в чате?",
+      "options": ["Banyak kerjaan hari ini", "Banyak bekerja hari ini", "Banyak pekerja hari ini", "Banyak mengerjakan hari ini"],
+      "answer": "Banyak kerjaan hari ini",
+      "explain_ru": "Голое -an вместо pe-…-an — разговорный слой того же корня.",
+      "audio": "Banyak kerjaan hari ini" },
+    { "id": "d_A1_06", "type": "word_strip", "mode": "choice",
+      "prompt": "terpelajar",
+      "prompt_ru": "Какой разбор верный?",
+      "options": ["ter- + pe- + ajar", "ter- + pelajar", "terpel + ajar", "ter- + ajar + -an"],
+      "answer": "ter- + pe- + ajar",
+      "explain_ru": "«Образованный»: ter- поверх готового pelajar. Аффиксы наслаиваются, а не заменяют друг друга." },
+    { "id": "d_A1_07", "type": "live_produce", "mode": "selfcheck", "speak_aloud": true,
+      "prompt_ru": "Расскажи о себе в одну фразу: где работаешь и что сейчас учишь.",
+      "answer": "Aku kerja di kafe, lagi belajar bahasa Indonesia",
+      "explain_ru": "Оба корня дня в одной реплике, оба в разговорной форме." }
+  ]
+}

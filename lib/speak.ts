@@ -1,17 +1,19 @@
 import { audioUrl, type AudioLang } from "./audio-url";
 
-// Локаль Web Speech для каждого языка книги.
-const SPEECH_LOCALE: Record<AudioLang, string> = {
+// Голос Web Speech по языку. Нужен только как запасной вариант: когда MP3
+// есть, системный синтезатор не участвует вовсе.
+const BCP47: Record<AudioLang, string> = {
   id: "id-ID",
   en: "en-US",
   ru: "ru-RU",
 };
 
 /**
- * Произносит фразу: сначала пробует студийную озвучку
- * (предгенерированный MP3 в public/audio/), при её отсутствии — системный
- * голос Web Speech. Язык по умолчанию индонезийский; читалка передаёт
- * язык книги (opts.lang), чтобы английские книги звучали по-английски.
+ * Произносит фразу: сначала пробует студийную озвучку (предгенерированный
+ * MP3 в public/audio/<lang>/), при её отсутствии — системный голос Web Speech.
+ *
+ * Язык по умолчанию индонезийский — словарь и уроки других не знают; читалка
+ * передаёт язык книги, потому что «AI & Business English» английская.
  *
  * Возвращает функцию остановки — вызови её, если нужно прервать
  * воспроизведение (например, при уходе со страницы).
@@ -22,12 +24,11 @@ const SPEECH_LOCALE: Record<AudioLang, string> = {
  * FlashcardPlayer сюда не заходит: ему нужны промисы, три языка и
  * своя очередь озвучки, поэтому у него отдельная реализация.
  */
-export function speakId(
+export function speak(
   text: string,
   opts?: { onEnd?: () => void; lang?: AudioLang },
 ): () => void {
   const lang = opts?.lang ?? "id";
-  const locale = SPEECH_LOCALE[lang];
   let audio: HTMLAudioElement | null = null;
   let stopped = false;
 
@@ -65,11 +66,11 @@ export function speakId(
     const utter = new SpeechSynthesisUtterance(text);
     utter.onend = finish;
     utter.onerror = finish;
-    utter.lang = locale;
+    utter.lang = BCP47[lang];
     utter.rate = 0.95;
     const voices = window.speechSynthesis.getVoices();
     const match = voices.find(
-      (v) => v.lang === locale || v.lang.startsWith(lang),
+      (v) => v.lang === BCP47[lang] || v.lang.startsWith(lang),
     );
     if (match) utter.voice = match;
     window.speechSynthesis.speak(utter);

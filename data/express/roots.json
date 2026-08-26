@@ -1,0 +1,1578 @@
+{
+  "roots": [
+    {
+      "root": "ajar",
+      "gloss_ru": "учить",
+      "productivity": 9,
+      "family": [
+        {
+          "form": "belajar",
+          "affix": "bel-",
+          "pos": "v",
+          "ru": "учиться",
+          "register": "neutral",
+          "example_id": "Aku lagi belajar bahasa Indonesia",
+          "example_ru": "Я сейчас учу индонезийский"
+        },
+        {
+          "form": "mengajar",
+          "affix": "meN-",
+          "pos": "v",
+          "ru": "преподавать",
+          "register": "baku",
+          "colloquial": "ngajar",
+          "example_id": "Dia ngajar di SMA",
+          "example_ru": "Он преподаёт в старшей школе"
+        },
+        {
+          "form": "mengajari",
+          "affix": "meN- + -i",
+          "pos": "v",
+          "ru": "обучать кого-то",
+          "register": "baku",
+          "colloquial": "ngajarin",
+          "example_id": "Dia ngajarin aku masak",
+          "example_ru": "Он учит меня готовить"
+        },
+        {
+          "form": "mengajarkan",
+          "affix": "meN- + -kan",
+          "pos": "v",
+          "ru": "преподавать что-то",
+          "register": "baku",
+          "colloquial": "ngajarin",
+          "example_id": "Guru mengajarkan sejarah",
+          "example_ru": "Учитель преподаёт историю"
+        },
+        {
+          "form": "pelajar",
+          "affix": "pe-",
+          "pos": "n",
+          "ru": "ученик",
+          "register": "neutral",
+          "example_id": "Dia masih pelajar",
+          "example_ru": "Он ещё школьник"
+        },
+        {
+          "form": "pengajar",
+          "affix": "peN-",
+          "pos": "n",
+          "ru": "преподаватель",
+          "register": "baku",
+          "example_id": "Pengajarnya orang Bandung",
+          "example_ru": "Преподаватель у них из Бандунга"
+        },
+        {
+          "form": "pelajaran",
+          "affix": "pe- + -an",
+          "pos": "n",
+          "ru": "урок, предмет",
+          "register": "neutral",
+          "example_id": "Pelajaran pertama jam tujuh",
+          "example_ru": "Первый урок в семь"
+        },
+        {
+          "form": "terpelajar",
+          "affix": "ter- + pe-",
+          "pos": "adj",
+          "ru": "образованный",
+          "register": "baku",
+          "example_id": "Orang terpelajar",
+          "example_ru": "Образованный человек"
+        }
+      ]
+    },
+    {
+      "root": "kerja",
+      "gloss_ru": "работа",
+      "productivity": 9,
+      "family": [
+        {
+          "form": "bekerja",
+          "affix": "ber- → be-",
+          "pos": "v",
+          "ru": "работать",
+          "register": "baku",
+          "colloquial": "kerja",
+          "example_id": "Aku kerja di kafe",
+          "example_ru": "Я работаю в кафе"
+        },
+        {
+          "form": "mengerjakan",
+          "affix": "meN- + -kan",
+          "pos": "v",
+          "ru": "выполнять что-то",
+          "register": "baku",
+          "colloquial": "kerjain",
+          "example_id": "Aku kerjain sekarang ya",
+          "example_ru": "Я сейчас этим займусь"
+        },
+        {
+          "form": "pekerja",
+          "affix": "pe-",
+          "pos": "n",
+          "ru": "работник",
+          "register": "neutral",
+          "example_id": "Pekerja di sini ramah",
+          "example_ru": "Работники тут приветливые"
+        },
+        {
+          "form": "pekerjaan",
+          "affix": "pe- + -an",
+          "pos": "n",
+          "ru": "работа, занятие",
+          "register": "neutral",
+          "example_id": "Pekerjaannya apa?",
+          "example_ru": "Кем он работает?"
+        },
+        {
+          "form": "kerjaan",
+          "affix": "-an",
+          "pos": "n",
+          "ru": "работёнка, дела",
+          "register": "colloquial",
+          "example_id": "Banyak kerjaan hari ini",
+          "example_ru": "Сегодня куча дел"
+        }
+      ]
+    },
+    {
+      "root": "jual",
+      "gloss_ru": "продавать",
+      "productivity": 8,
+      "family": [
+        {
+          "form": "menjual",
+          "affix": "meN-",
+          "pos": "v",
+          "ru": "продавать",
+          "register": "baku",
+          "colloquial": "jual",
+          "example_id": "Mereka jual kopi Aceh",
+          "example_ru": "Они продают ачехский кофе"
+        },
+        {
+          "form": "dijual",
+          "affix": "di-",
+          "pos": "v",
+          "ru": "продаётся",
+          "register": "neutral",
+          "example_id": "Rumahnya dijual",
+          "example_ru": "Дом продаётся"
+        },
+        {
+          "form": "terjual",
+          "affix": "ter-",
+          "pos": "v",
+          "ru": "продан",
+          "register": "baku",
+          "example_id": "Tiketnya sudah terjual habis",
+          "example_ru": "Билеты уже распроданы"
+        },
+        {
+          "form": "penjual",
+          "affix": "peN-",
+          "pos": "n",
+          "ru": "продавец",
+          "register": "neutral",
+          "example_id": "Penjualnya lagi salat",
+          "example_ru": "Продавец сейчас на молитве"
+        },
+        {
+          "form": "penjualan",
+          "affix": "peN- + -an",
+          "pos": "n",
+          "ru": "продажи",
+          "register": "baku",
+          "example_id": "Penjualan bulan ini naik",
+          "example_ru": "Продажи в этом месяце выросли"
+        },
+        {
+          "form": "jualan",
+          "affix": "-an",
+          "pos": "n/v",
+          "ru": "торговля, торговать",
+          "register": "colloquial",
+          "example_id": "Dia jualan gorengan di depan",
+          "example_ru": "Он торгует жарёнкой у входа"
+        }
+      ]
+    },
+    {
+      "root": "beli",
+      "gloss_ru": "покупать",
+      "productivity": 8,
+      "family": [
+        {
+          "form": "membeli",
+          "affix": "meN-",
+          "pos": "v",
+          "ru": "покупать",
+          "register": "baku",
+          "colloquial": "beli",
+          "example_id": "Aku beli dua aja",
+          "example_ru": "Я возьму всего два"
+        },
+        {
+          "form": "membelikan",
+          "affix": "meN- + -kan",
+          "pos": "v",
+          "ru": "купить кому-то",
+          "register": "baku",
+          "colloquial": "beliin",
+          "example_id": "Beliin aku kopi dong",
+          "example_ru": "Ну купи мне кофе"
+        },
+        {
+          "form": "dibeli",
+          "affix": "di-",
+          "pos": "v",
+          "ru": "куплен",
+          "register": "neutral",
+          "example_id": "Ini dibeli di pasar",
+          "example_ru": "Это куплено на рынке"
+        },
+        {
+          "form": "pembeli",
+          "affix": "peN-",
+          "pos": "n",
+          "ru": "покупатель",
+          "register": "neutral",
+          "example_id": "Pembelinya banyak banget",
+          "example_ru": "Покупателей просто уйма"
+        },
+        {
+          "form": "pembelian",
+          "affix": "peN- + -an",
+          "pos": "n",
+          "ru": "покупка (процесс)",
+          "register": "baku",
+          "example_id": "Bukti pembelian",
+          "example_ru": "Подтверждение покупки"
+        }
+      ]
+    },
+    {
+      "root": "tulis",
+      "gloss_ru": "писать",
+      "productivity": 8,
+      "family": [
+        {
+          "form": "menulis",
+          "affix": "meN- (t выпадает)",
+          "pos": "v",
+          "ru": "писать",
+          "register": "baku",
+          "colloquial": "nulis",
+          "example_id": "Aku lagi nulis pesan",
+          "example_ru": "Я пишу сообщение"
+        },
+        {
+          "form": "menuliskan",
+          "affix": "meN- + -kan",
+          "pos": "v",
+          "ru": "записать что-то",
+          "register": "baku",
+          "colloquial": "tulisin",
+          "example_id": "Tulisin alamatnya dong",
+          "example_ru": "Ну запиши мне адрес"
+        },
+        {
+          "form": "ditulis",
+          "affix": "di-",
+          "pos": "v",
+          "ru": "написан",
+          "register": "neutral",
+          "example_id": "Ditulis tangan",
+          "example_ru": "Написано от руки"
+        },
+        {
+          "form": "tertulis",
+          "affix": "ter-",
+          "pos": "v",
+          "ru": "значится, написано",
+          "register": "baku",
+          "example_id": "Seperti tertulis di menu",
+          "example_ru": "Как написано в меню"
+        },
+        {
+          "form": "penulis",
+          "affix": "peN-",
+          "pos": "n",
+          "ru": "писатель, автор",
+          "register": "neutral",
+          "example_id": "Siapa penulisnya?",
+          "example_ru": "Кто автор?"
+        },
+        {
+          "form": "tulisan",
+          "affix": "-an",
+          "pos": "n",
+          "ru": "надпись, текст",
+          "register": "neutral",
+          "example_id": "Tulisannya kecil banget",
+          "example_ru": "Шрифт совсем мелкий"
+        }
+      ]
+    },
+    {
+      "root": "baca",
+      "gloss_ru": "читать",
+      "productivity": 7,
+      "family": [
+        {
+          "form": "membaca",
+          "affix": "meN-",
+          "pos": "v",
+          "ru": "читать",
+          "register": "baku",
+          "colloquial": "baca",
+          "example_id": "Aku baca dulu ya",
+          "example_ru": "Я сначала почитаю, ладно?"
+        },
+        {
+          "form": "membacakan",
+          "affix": "meN- + -kan",
+          "pos": "v",
+          "ru": "читать вслух кому-то",
+          "register": "baku",
+          "colloquial": "bacain",
+          "example_id": "Bacain buat anaknya",
+          "example_ru": "Почитай ребёнку"
+        },
+        {
+          "form": "dibaca",
+          "affix": "di-",
+          "pos": "v",
+          "ru": "прочитан",
+          "register": "neutral",
+          "example_id": "Pesannya belum dibaca",
+          "example_ru": "Сообщение ещё не прочитано"
+        },
+        {
+          "form": "terbaca",
+          "affix": "ter-",
+          "pos": "v",
+          "ru": "читаемый, разборчивый",
+          "register": "baku",
+          "example_id": "Tulisannya nggak terbaca",
+          "example_ru": "Почерк неразборчивый"
+        },
+        {
+          "form": "pembaca",
+          "affix": "peN-",
+          "pos": "n",
+          "ru": "читатель",
+          "register": "neutral",
+          "example_id": "Untuk pembaca pemula",
+          "example_ru": "Для начинающего читателя"
+        },
+        {
+          "form": "bacaan",
+          "affix": "-an",
+          "pos": "n",
+          "ru": "чтение, текст для чтения",
+          "register": "neutral",
+          "example_id": "Bacaan ringan",
+          "example_ru": "Лёгкое чтение"
+        }
+      ]
+    },
+    {
+      "root": "lihat",
+      "gloss_ru": "видеть",
+      "productivity": 8,
+      "family": [
+        {
+          "form": "melihat",
+          "affix": "meN-",
+          "pos": "v",
+          "ru": "видеть, смотреть",
+          "register": "baku",
+          "colloquial": "liat",
+          "example_id": "Aku liat dia tadi pagi",
+          "example_ru": "Я видел его утром"
+        },
+        {
+          "form": "kelihatan",
+          "affix": "ke- + -an",
+          "pos": "v",
+          "ru": "виднеется, выглядит",
+          "register": "neutral",
+          "colloquial": "keliatan",
+          "example_id": "Kamu keliatan capek",
+          "example_ru": "Ты выглядишь усталым"
+        },
+        {
+          "form": "terlihat",
+          "affix": "ter-",
+          "pos": "v",
+          "ru": "виден",
+          "register": "baku",
+          "example_id": "Gunung terlihat dari sini",
+          "example_ru": "Отсюда видна гора"
+        },
+        {
+          "form": "memperlihatkan",
+          "affix": "memper- + -kan",
+          "pos": "v",
+          "ru": "показывать",
+          "register": "baku",
+          "colloquial": "nunjukin",
+          "example_id": "Nunjukin fotonya dong",
+          "example_ru": "Ну покажи фотку"
+        },
+        {
+          "form": "penglihatan",
+          "affix": "peN- + -an",
+          "pos": "n",
+          "ru": "зрение",
+          "register": "baku",
+          "example_id": "Penglihatannya kurang bagus",
+          "example_ru": "У него неважное зрение"
+        }
+      ]
+    },
+    {
+      "root": "dengar",
+      "gloss_ru": "слышать",
+      "productivity": 7,
+      "family": [
+        {
+          "form": "mendengar",
+          "affix": "meN-",
+          "pos": "v",
+          "ru": "слышать",
+          "register": "baku",
+          "colloquial": "denger",
+          "example_id": "Aku denger suara motor",
+          "example_ru": "Я слышу звук мотоцикла"
+        },
+        {
+          "form": "mendengarkan",
+          "affix": "meN- + -kan",
+          "pos": "v",
+          "ru": "слушать",
+          "register": "baku",
+          "colloquial": "dengerin",
+          "example_id": "Dengerin dulu deh",
+          "example_ru": "Да послушай сначала"
+        },
+        {
+          "form": "terdengar",
+          "affix": "ter-",
+          "pos": "v",
+          "ru": "слышится",
+          "register": "baku",
+          "example_id": "Suaranya nggak terdengar",
+          "example_ru": "Голоса не слышно"
+        },
+        {
+          "form": "pendengar",
+          "affix": "peN-",
+          "pos": "n",
+          "ru": "слушатель",
+          "register": "neutral",
+          "example_id": "Pendengar setia",
+          "example_ru": "Верный слушатель"
+        },
+        {
+          "form": "pendengaran",
+          "affix": "peN- + -an",
+          "pos": "n",
+          "ru": "слух",
+          "register": "baku",
+          "example_id": "Pendengarannya tajam",
+          "example_ru": "У него острый слух"
+        }
+      ]
+    },
+    {
+      "root": "buat",
+      "gloss_ru": "делать",
+      "productivity": 9,
+      "family": [
+        {
+          "form": "membuat",
+          "affix": "meN-",
+          "pos": "v",
+          "ru": "делать, изготавливать",
+          "register": "baku",
+          "colloquial": "bikin",
+          "example_id": "Aku bikin kopi dulu",
+          "example_ru": "Я сначала сделаю кофе"
+        },
+        {
+          "form": "membuatkan",
+          "affix": "meN- + -kan",
+          "pos": "v",
+          "ru": "сделать кому-то",
+          "register": "baku",
+          "colloquial": "bikinin",
+          "example_id": "Bikinin teh dong",
+          "example_ru": "Ну сделай мне чаю"
+        },
+        {
+          "form": "dibuat",
+          "affix": "di-",
+          "pos": "v",
+          "ru": "сделан",
+          "register": "neutral",
+          "example_id": "Dibuat di Bandung",
+          "example_ru": "Сделано в Бандунге"
+        },
+        {
+          "form": "terbuat",
+          "affix": "ter-",
+          "pos": "v",
+          "ru": "сделан из",
+          "register": "baku",
+          "example_id": "Terbuat dari kayu",
+          "example_ru": "Сделано из дерева"
+        },
+        {
+          "form": "buatan",
+          "affix": "-an",
+          "pos": "n",
+          "ru": "изделие, производства",
+          "register": "neutral",
+          "example_id": "Buatan tangan",
+          "example_ru": "Ручная работа"
+        },
+        {
+          "form": "perbuatan",
+          "affix": "per- + -an",
+          "pos": "n",
+          "ru": "поступок",
+          "register": "baku",
+          "example_id": "Perbuatannya nggak benar",
+          "example_ru": "Он поступил неправильно"
+        }
+      ]
+    },
+    {
+      "root": "main",
+      "gloss_ru": "играть",
+      "productivity": 7,
+      "family": [
+        {
+          "form": "bermain",
+          "affix": "ber-",
+          "pos": "v",
+          "ru": "играть",
+          "register": "baku",
+          "colloquial": "main",
+          "example_id": "Anak-anak main di luar",
+          "example_ru": "Дети играют на улице"
+        },
+        {
+          "form": "memainkan",
+          "affix": "meN- + -kan",
+          "pos": "v",
+          "ru": "играть на чём-то, исполнять",
+          "register": "baku",
+          "colloquial": "mainin",
+          "example_id": "Dia mainin gitar",
+          "example_ru": "Он играет на гитаре"
+        },
+        {
+          "form": "mainan",
+          "affix": "-an",
+          "pos": "n",
+          "ru": "игрушка",
+          "register": "neutral",
+          "example_id": "Mainan anak kecil",
+          "example_ru": "Детская игрушка"
+        },
+        {
+          "form": "permainan",
+          "affix": "per- + -an",
+          "pos": "n",
+          "ru": "игра",
+          "register": "baku",
+          "example_id": "Permainannya seru",
+          "example_ru": "Игра захватывающая"
+        },
+        {
+          "form": "pemain",
+          "affix": "peN- → pe-",
+          "pos": "n",
+          "ru": "игрок",
+          "register": "neutral",
+          "example_id": "Pemain bola",
+          "example_ru": "Футболист"
+        }
+      ]
+    },
+    {
+      "root": "makan",
+      "gloss_ru": "есть",
+      "productivity": 7,
+      "family": [
+        {
+          "form": "makan",
+          "affix": "—",
+          "pos": "v",
+          "ru": "есть",
+          "register": "neutral",
+          "example_id": "Udah makan belum?",
+          "example_ru": "Ты уже поел?"
+        },
+        {
+          "form": "memakan",
+          "affix": "meN-",
+          "pos": "v",
+          "ru": "поглощать, отнимать",
+          "register": "baku",
+          "example_id": "Memakan waktu lama",
+          "example_ru": "Отнимает много времени"
+        },
+        {
+          "form": "dimakan",
+          "affix": "di-",
+          "pos": "v",
+          "ru": "съеден",
+          "register": "neutral",
+          "example_id": "Kuenya udah dimakan",
+          "example_ru": "Пирожное уже съели"
+        },
+        {
+          "form": "termakan",
+          "affix": "ter-",
+          "pos": "v",
+          "ru": "съеден нечаянно, повёлся",
+          "register": "baku",
+          "example_id": "Termakan omongan orang",
+          "example_ru": "Повёлся на чужие разговоры"
+        },
+        {
+          "form": "makanan",
+          "affix": "-an",
+          "pos": "n",
+          "ru": "еда",
+          "register": "neutral",
+          "example_id": "Makanan Sunda pedas",
+          "example_ru": "Сунданская еда острая"
+        },
+        {
+          "form": "makanin",
+          "affix": "-in",
+          "pos": "v",
+          "ru": "покормить, доесть",
+          "register": "colloquial",
+          "example_id": "Makanin kucingnya dong",
+          "example_ru": "Ну покорми кота"
+        }
+      ]
+    },
+    {
+      "root": "jalan",
+      "gloss_ru": "идти, дорога",
+      "productivity": 9,
+      "family": [
+        {
+          "form": "berjalan",
+          "affix": "ber-",
+          "pos": "v",
+          "ru": "идти пешком, идти (о процессе)",
+          "register": "baku",
+          "colloquial": "jalan",
+          "example_id": "Kita jalan aja, deket kok",
+          "example_ru": "Да пойдём пешком, тут близко"
+        },
+        {
+          "form": "menjalankan",
+          "affix": "meN- + -kan",
+          "pos": "v",
+          "ru": "запускать, вести дело",
+          "register": "baku",
+          "colloquial": "jalanin",
+          "example_id": "Dia jalanin usaha keluarga",
+          "example_ru": "Он ведёт семейное дело"
+        },
+        {
+          "form": "perjalanan",
+          "affix": "per- + -an",
+          "pos": "n",
+          "ru": "поездка, путь",
+          "register": "neutral",
+          "example_id": "Perjalanannya tiga jam",
+          "example_ru": "Дорога занимает три часа"
+        },
+        {
+          "form": "jalanan",
+          "affix": "-an",
+          "pos": "n",
+          "ru": "улицы, дорожное",
+          "register": "colloquial",
+          "example_id": "Jalanan macet banget",
+          "example_ru": "На дорогах жуткая пробка"
+        },
+        {
+          "form": "pejalan kaki",
+          "affix": "pe-",
+          "pos": "n",
+          "ru": "пешеход",
+          "register": "baku",
+          "example_id": "Jalur pejalan kaki",
+          "example_ru": "Пешеходная дорожка"
+        }
+      ]
+    },
+    {
+      "root": "datang",
+      "gloss_ru": "приходить",
+      "productivity": 7,
+      "family": [
+        {
+          "form": "datang",
+          "affix": "—",
+          "pos": "v",
+          "ru": "приходить",
+          "register": "neutral",
+          "example_id": "Dia belum datang",
+          "example_ru": "Он ещё не пришёл"
+        },
+        {
+          "form": "mendatangi",
+          "affix": "meN- + -i",
+          "pos": "v",
+          "ru": "явиться куда-то",
+          "register": "baku",
+          "colloquial": "datengin",
+          "example_id": "Aku datengin kantornya",
+          "example_ru": "Я сам поехал к нему в офис"
+        },
+        {
+          "form": "mendatangkan",
+          "affix": "meN- + -kan",
+          "pos": "v",
+          "ru": "привозить, доставлять",
+          "register": "baku",
+          "example_id": "Mendatangkan barang dari Jakarta",
+          "example_ru": "Привозить товар из Джакарты"
+        },
+        {
+          "form": "kedatangan",
+          "affix": "ke- + -an",
+          "pos": "n/v",
+          "ru": "прибытие; к кому-то пришли",
+          "register": "neutral",
+          "example_id": "Kita kedatangan tamu",
+          "example_ru": "К нам пришли гости"
+        },
+        {
+          "form": "pendatang",
+          "affix": "peN-",
+          "pos": "n",
+          "ru": "приезжий",
+          "register": "neutral",
+          "example_id": "Banyak pendatang di Bandung",
+          "example_ru": "В Бандунге много приезжих"
+        }
+      ]
+    },
+    {
+      "root": "masuk",
+      "gloss_ru": "входить",
+      "productivity": 8,
+      "family": [
+        {
+          "form": "masuk",
+          "affix": "—",
+          "pos": "v",
+          "ru": "входить",
+          "register": "neutral",
+          "example_id": "Masuk aja, nggak dikunci",
+          "example_ru": "Заходи, не заперто"
+        },
+        {
+          "form": "memasukkan",
+          "affix": "meN- + -kan",
+          "pos": "v",
+          "ru": "вкладывать, вносить",
+          "register": "baku",
+          "colloquial": "masukin",
+          "example_id": "Masukin ke tas aja",
+          "example_ru": "Да просто положи в сумку"
+        },
+        {
+          "form": "termasuk",
+          "affix": "ter-",
+          "pos": "v",
+          "ru": "включая, относится к",
+          "register": "neutral",
+          "example_id": "Harganya termasuk pajak",
+          "example_ru": "Цена включает налог"
+        },
+        {
+          "form": "kemasukan",
+          "affix": "ke- + -an",
+          "pos": "v",
+          "ru": "внутрь что-то попало",
+          "register": "colloquial",
+          "example_id": "Mataku kemasukan debu",
+          "example_ru": "Мне в глаз попала пыль"
+        },
+        {
+          "form": "pemasukan",
+          "affix": "peN- + -an",
+          "pos": "n",
+          "ru": "доход",
+          "register": "baku",
+          "example_id": "Pemasukan bulan ini kecil",
+          "example_ru": "Доход в этом месяце небольшой"
+        },
+        {
+          "form": "masukan",
+          "affix": "-an",
+          "pos": "n",
+          "ru": "замечание, обратная связь",
+          "register": "neutral",
+          "example_id": "Ada masukan buat aku?",
+          "example_ru": "Есть ко мне замечания?"
+        }
+      ]
+    },
+    {
+      "root": "tanya",
+      "gloss_ru": "спрашивать",
+      "productivity": 7,
+      "family": [
+        {
+          "form": "bertanya",
+          "affix": "ber-",
+          "pos": "v",
+          "ru": "спрашивать",
+          "register": "baku",
+          "colloquial": "nanya",
+          "example_id": "Boleh nanya sedikit?",
+          "example_ru": "Можно спросить?"
+        },
+        {
+          "form": "menanyakan",
+          "affix": "meN- + -kan",
+          "pos": "v",
+          "ru": "спросить о чём-то",
+          "register": "baku",
+          "colloquial": "tanyain",
+          "example_id": "Tanyain harganya dong",
+          "example_ru": "Ну спроси, сколько стоит"
+        },
+        {
+          "form": "ditanya",
+          "affix": "di-",
+          "pos": "v",
+          "ru": "спрошен",
+          "register": "neutral",
+          "example_id": "Aku ditanya polisi tadi",
+          "example_ru": "Меня сегодня остановил полицейский с вопросами"
+        },
+        {
+          "form": "pertanyaan",
+          "affix": "per- + -an",
+          "pos": "n",
+          "ru": "вопрос",
+          "register": "neutral",
+          "example_id": "Ada pertanyaan?",
+          "example_ru": "Есть вопросы?"
+        },
+        {
+          "form": "penanya",
+          "affix": "peN-",
+          "pos": "n",
+          "ru": "спрашивающий",
+          "register": "baku",
+          "example_id": "Penanya pertama",
+          "example_ru": "Первый спрашивающий"
+        }
+      ]
+    },
+    {
+      "root": "tinggal",
+      "gloss_ru": "жить, оставаться",
+      "productivity": 8,
+      "family": [
+        {
+          "form": "tinggal",
+          "affix": "—",
+          "pos": "v",
+          "ru": "жить, оставаться",
+          "register": "neutral",
+          "example_id": "Aku tinggal di Bandung",
+          "example_ru": "Я живу в Бандунге"
+        },
+        {
+          "form": "meninggalkan",
+          "affix": "meN- + -kan",
+          "pos": "v",
+          "ru": "оставить, покинуть",
+          "register": "baku",
+          "colloquial": "ninggalin",
+          "example_id": "Jangan ninggalin aku di sini",
+          "example_ru": "Не бросай меня тут"
+        },
+        {
+          "form": "ditinggal",
+          "affix": "di-",
+          "pos": "v",
+          "ru": "оставлен",
+          "register": "neutral",
+          "example_id": "Motornya ditinggal di depan",
+          "example_ru": "Мотоцикл оставили у входа"
+        },
+        {
+          "form": "tertinggal",
+          "affix": "ter-",
+          "pos": "v",
+          "ru": "остался позади, забыт",
+          "register": "baku",
+          "example_id": "Dompetku tertinggal di rumah",
+          "example_ru": "Кошелёк остался дома"
+        },
+        {
+          "form": "ketinggalan",
+          "affix": "ke- + -an",
+          "pos": "v",
+          "ru": "забыл, опоздал на",
+          "register": "colloquial",
+          "example_id": "Aku ketinggalan kereta",
+          "example_ru": "Я опоздал на поезд"
+        },
+        {
+          "form": "peninggalan",
+          "affix": "peN- + -an",
+          "pos": "n",
+          "ru": "наследие",
+          "register": "baku",
+          "example_id": "Peninggalan Belanda",
+          "example_ru": "Голландское наследие"
+        }
+      ]
+    },
+    {
+      "root": "habis",
+      "gloss_ru": "кончиться",
+      "productivity": 6,
+      "family": [
+        {
+          "form": "habis",
+          "affix": "—",
+          "pos": "v/adj",
+          "ru": "кончился",
+          "register": "neutral",
+          "example_id": "Nasinya habis",
+          "example_ru": "Рис кончился"
+        },
+        {
+          "form": "menghabiskan",
+          "affix": "meN- + -kan",
+          "pos": "v",
+          "ru": "израсходовать, доесть",
+          "register": "baku",
+          "colloquial": "habisin",
+          "example_id": "Habisin dulu makanannya",
+          "example_ru": "Сначала доешь"
+        },
+        {
+          "form": "kehabisan",
+          "affix": "ke- + -an",
+          "pos": "v",
+          "ru": "у кого-то закончилось",
+          "register": "neutral",
+          "example_id": "Kita kehabisan beras",
+          "example_ru": "У нас закончился рис"
+        },
+        {
+          "form": "sehabis",
+          "affix": "se-",
+          "pos": "prep",
+          "ru": "после того как",
+          "register": "baku",
+          "example_id": "Sehabis makan kita jalan",
+          "example_ru": "После еды пойдём"
+        }
+      ]
+    },
+    {
+      "root": "tidur",
+      "gloss_ru": "спать",
+      "productivity": 6,
+      "family": [
+        {
+          "form": "tidur",
+          "affix": "—",
+          "pos": "v",
+          "ru": "спать",
+          "register": "neutral",
+          "example_id": "Aku mau tidur",
+          "example_ru": "Я хочу спать"
+        },
+        {
+          "form": "tertidur",
+          "affix": "ter-",
+          "pos": "v",
+          "ru": "задремал",
+          "register": "baku",
+          "example_id": "Dia tertidur di bus",
+          "example_ru": "Он задремал в автобусе"
+        },
+        {
+          "form": "ketiduran",
+          "affix": "ke- + -an",
+          "pos": "v",
+          "ru": "уснул невольно, проспал",
+          "register": "colloquial",
+          "example_id": "Aku ketiduran, maaf",
+          "example_ru": "Я уснул, извини"
+        },
+        {
+          "form": "menidurkan",
+          "affix": "meN- + -kan",
+          "pos": "v",
+          "ru": "укладывать спать",
+          "register": "baku",
+          "colloquial": "tidurin",
+          "example_id": "Lagi nidurin anak",
+          "example_ru": "Укладываю ребёнка"
+        },
+        {
+          "form": "tempat tidur",
+          "affix": "—",
+          "pos": "n",
+          "ru": "кровать",
+          "register": "neutral",
+          "example_id": "Tempat tidurnya keras",
+          "example_ru": "Кровать жёсткая"
+        }
+      ]
+    },
+    {
+      "root": "baik",
+      "gloss_ru": "хороший",
+      "productivity": 8,
+      "family": [
+        {
+          "form": "baik",
+          "affix": "—",
+          "pos": "adj",
+          "ru": "хороший, добрый",
+          "register": "neutral",
+          "example_id": "Orangnya baik kok",
+          "example_ru": "Да хороший он человек"
+        },
+        {
+          "form": "kebaikan",
+          "affix": "ke- + -an",
+          "pos": "n",
+          "ru": "доброта",
+          "register": "neutral",
+          "example_id": "Terima kasih atas kebaikannya",
+          "example_ru": "Спасибо за вашу доброту"
+        },
+        {
+          "form": "memperbaiki",
+          "affix": "memper- + -i",
+          "pos": "v",
+          "ru": "чинить, исправлять",
+          "register": "baku",
+          "colloquial": "benerin",
+          "example_id": "Benerin motornya dulu",
+          "example_ru": "Сначала почини мотоцикл"
+        },
+        {
+          "form": "perbaikan",
+          "affix": "per- + -an",
+          "pos": "n",
+          "ru": "ремонт, улучшение",
+          "register": "baku",
+          "example_id": "Jalan lagi perbaikan",
+          "example_ru": "Дорога на ремонте"
+        },
+        {
+          "form": "terbaik",
+          "affix": "ter-",
+          "pos": "adj",
+          "ru": "лучший",
+          "register": "neutral",
+          "example_id": "Kopi terbaik di Bandung",
+          "example_ru": "Лучший кофе в Бандунге"
+        },
+        {
+          "form": "sebaiknya",
+          "affix": "se- + -nya",
+          "pos": "adv",
+          "ru": "лучше бы",
+          "register": "neutral",
+          "example_id": "Sebaiknya kita berangkat sekarang",
+          "example_ru": "Лучше бы нам выехать сейчас"
+        }
+      ]
+    },
+    {
+      "root": "besar",
+      "gloss_ru": "большой",
+      "productivity": 8,
+      "family": [
+        {
+          "form": "besar",
+          "affix": "—",
+          "pos": "adj",
+          "ru": "большой",
+          "register": "neutral",
+          "example_id": "Rumahnya besar",
+          "example_ru": "Дом большой"
+        },
+        {
+          "form": "membesarkan",
+          "affix": "meN- + -kan",
+          "pos": "v",
+          "ru": "растить, увеличивать",
+          "register": "baku",
+          "colloquial": "gedein",
+          "example_id": "Gedein suaranya dong",
+          "example_ru": "Ну сделай погромче"
+        },
+        {
+          "form": "kebesaran",
+          "affix": "ke- + -an",
+          "pos": "adj",
+          "ru": "велико по размеру",
+          "register": "colloquial",
+          "example_id": "Bajunya kebesaran",
+          "example_ru": "Рубашка велика"
+        },
+        {
+          "form": "terbesar",
+          "affix": "ter-",
+          "pos": "adj",
+          "ru": "самый большой",
+          "register": "neutral",
+          "example_id": "Pasar terbesar di kota",
+          "example_ru": "Самый большой рынок в городе"
+        },
+        {
+          "form": "sebesar",
+          "affix": "se-",
+          "pos": "adj",
+          "ru": "размером с",
+          "register": "neutral",
+          "example_id": "Sebesar bola tenis",
+          "example_ru": "Размером с теннисный мяч"
+        },
+        {
+          "form": "pembesaran",
+          "affix": "peN- + -an",
+          "pos": "n",
+          "ru": "увеличение",
+          "register": "baku",
+          "example_id": "Pembesaran foto",
+          "example_ru": "Увеличение фотографии"
+        }
+      ]
+    },
+    {
+      "root": "satu",
+      "gloss_ru": "один",
+      "productivity": 7,
+      "family": [
+        {
+          "form": "satu",
+          "affix": "—",
+          "pos": "num",
+          "ru": "один",
+          "register": "neutral",
+          "example_id": "Satu aja ya",
+          "example_ru": "Всего один, ладно?"
+        },
+        {
+          "form": "sebuah",
+          "affix": "se- + buah",
+          "pos": "num",
+          "ru": "один (счётное слово)",
+          "register": "baku",
+          "example_id": "Sebuah rumah kecil",
+          "example_ru": "Один небольшой дом"
+        },
+        {
+          "form": "bersatu",
+          "affix": "ber-",
+          "pos": "v",
+          "ru": "объединяться",
+          "register": "baku",
+          "example_id": "Kita harus bersatu",
+          "example_ru": "Нам надо держаться вместе"
+        },
+        {
+          "form": "menyatukan",
+          "affix": "meN- + -kan (s выпадает)",
+          "pos": "v",
+          "ru": "объединять",
+          "register": "baku",
+          "colloquial": "nyatuin",
+          "example_id": "Nyatuin dua file",
+          "example_ru": "Объединить два файла"
+        },
+        {
+          "form": "persatuan",
+          "affix": "per- + -an",
+          "pos": "n",
+          "ru": "единство, союз",
+          "register": "baku",
+          "example_id": "Persatuan Indonesia",
+          "example_ru": "Единство Индонезии"
+        },
+        {
+          "form": "satuan",
+          "affix": "-an",
+          "pos": "n",
+          "ru": "штучно, единица",
+          "register": "neutral",
+          "example_id": "Dijual satuan",
+          "example_ru": "Продаётся поштучно"
+        }
+      ]
+    },
+    {
+      "root": "hujan",
+      "gloss_ru": "дождь",
+      "productivity": 5,
+      "family": [
+        {
+          "form": "hujan",
+          "affix": "—",
+          "pos": "n/v",
+          "ru": "дождь; идёт дождь",
+          "register": "neutral",
+          "example_id": "Hujan lagi nih",
+          "example_ru": "Вот опять дождь"
+        },
+        {
+          "form": "kehujanan",
+          "affix": "ke- + -an",
+          "pos": "v",
+          "ru": "попал под дождь",
+          "register": "colloquial",
+          "example_id": "Aku kehujanan di jalan",
+          "example_ru": "Я попал под дождь по дороге"
+        },
+        {
+          "form": "hujan-hujanan",
+          "affix": "удвоение + -an",
+          "pos": "v",
+          "ru": "мокнуть нарочно",
+          "register": "colloquial",
+          "example_id": "Anak-anak hujan-hujanan",
+          "example_ru": "Дети носятся под дождём"
+        },
+        {
+          "form": "musim hujan",
+          "affix": "—",
+          "pos": "n",
+          "ru": "сезон дождей",
+          "register": "neutral",
+          "example_id": "Musim hujan mulai Oktober",
+          "example_ru": "Сезон дождей начинается в октябре"
+        }
+      ]
+    },
+    {
+      "root": "atur",
+      "gloss_ru": "порядок, устраивать",
+      "productivity": 8,
+      "family": [
+        {
+          "form": "mengatur",
+          "affix": "meN-",
+          "pos": "v",
+          "ru": "устраивать, регулировать",
+          "register": "baku",
+          "colloquial": "ngatur",
+          "example_id": "Aku yang ngatur jadwalnya",
+          "example_ru": "Расписание составляю я"
+        },
+        {
+          "form": "diatur",
+          "affix": "di-",
+          "pos": "v",
+          "ru": "устроен, улажен",
+          "register": "neutral",
+          "example_id": "Nanti diatur aja",
+          "example_ru": "Потом всё уладим"
+        },
+        {
+          "form": "teratur",
+          "affix": "ter-",
+          "pos": "adj",
+          "ru": "упорядоченный, регулярный",
+          "register": "baku",
+          "example_id": "Makan yang teratur",
+          "example_ru": "Питайся регулярно"
+        },
+        {
+          "form": "aturan",
+          "affix": "-an",
+          "pos": "n",
+          "ru": "правило",
+          "register": "neutral",
+          "example_id": "Aturannya begitu",
+          "example_ru": "Правило такое"
+        },
+        {
+          "form": "peraturan",
+          "affix": "per- + -an",
+          "pos": "n",
+          "ru": "предписание, регламент",
+          "register": "baku",
+          "example_id": "Peraturan kampus",
+          "example_ru": "Правила кампуса"
+        },
+        {
+          "form": "aturin",
+          "affix": "-in",
+          "pos": "v",
+          "ru": "устрой, разрули",
+          "register": "colloquial",
+          "example_id": "Aturin dong buat besok",
+          "example_ru": "Ну устрой это на завтра"
+        }
+      ]
+    },
+    {
+      "root": "kirim",
+      "gloss_ru": "посылать",
+      "productivity": 7,
+      "family": [
+        {
+          "form": "mengirim",
+          "affix": "meN- (k выпадает)",
+          "pos": "v",
+          "ru": "посылать",
+          "register": "baku",
+          "colloquial": "ngirim",
+          "example_id": "Aku ngirim lewat GoSend",
+          "example_ru": "Я отправлю через GoSend"
+        },
+        {
+          "form": "mengirimkan",
+          "affix": "meN- + -kan",
+          "pos": "v",
+          "ru": "отправить что-то кому-то",
+          "register": "baku",
+          "colloquial": "kirimin",
+          "example_id": "Kirimin fotonya ya",
+          "example_ru": "Скинь мне фотку, ладно?"
+        },
+        {
+          "form": "dikirim",
+          "affix": "di-",
+          "pos": "v",
+          "ru": "отправлен",
+          "register": "neutral",
+          "example_id": "Barangnya udah dikirim",
+          "example_ru": "Товар уже отправили"
+        },
+        {
+          "form": "pengirim",
+          "affix": "peN-",
+          "pos": "n",
+          "ru": "отправитель",
+          "register": "neutral",
+          "example_id": "Nama pengirimnya siapa?",
+          "example_ru": "Кто отправитель?"
+        },
+        {
+          "form": "kiriman",
+          "affix": "-an",
+          "pos": "n",
+          "ru": "посылка",
+          "register": "neutral",
+          "example_id": "Ada kiriman buat kamu",
+          "example_ru": "Тебе посылка"
+        },
+        {
+          "form": "pengiriman",
+          "affix": "peN- + -an",
+          "pos": "n",
+          "ru": "доставка",
+          "register": "baku",
+          "example_id": "Biaya pengiriman gratis",
+          "example_ru": "Доставка бесплатная"
+        }
+      ]
+    }
+  ],
+  "register_pairs": [
+    {
+      "baku": "mengambil",
+      "colloquial": "ngambil / ambil",
+      "ru": "брать"
+    },
+    {
+      "baku": "memberi",
+      "colloquial": "ngasih / kasih",
+      "ru": "давать"
+    },
+    {
+      "baku": "membeli",
+      "colloquial": "beli",
+      "ru": "покупать"
+    },
+    {
+      "baku": "membawa",
+      "colloquial": "bawa",
+      "ru": "нести, везти"
+    },
+    {
+      "baku": "mengerti",
+      "colloquial": "ngerti",
+      "ru": "понимать"
+    },
+    {
+      "baku": "berbicara",
+      "colloquial": "ngomong",
+      "ru": "говорить"
+    },
+    {
+      "baku": "melihat",
+      "colloquial": "liat",
+      "ru": "смотреть"
+    },
+    {
+      "baku": "membuat",
+      "colloquial": "bikin",
+      "ru": "делать"
+    },
+    {
+      "baku": "menunggu",
+      "colloquial": "nunggu",
+      "ru": "ждать"
+    },
+    {
+      "baku": "memperbaiki",
+      "colloquial": "benerin",
+      "ru": "чинить"
+    },
+    {
+      "baku": "menjelaskan",
+      "colloquial": "jelasin",
+      "ru": "объяснять"
+    },
+    {
+      "baku": "tidak",
+      "colloquial": "nggak",
+      "ru": "не"
+    },
+    {
+      "baku": "bagaimana",
+      "colloquial": "gimana",
+      "ru": "как"
+    }
+  ],
+  "in_pairs": [
+    {
+      "baku": "membelikan",
+      "colloquial": "beliin",
+      "ru": "купить кому-то"
+    },
+    {
+      "baku": "membuatkan",
+      "colloquial": "bikinin",
+      "ru": "сделать кому-то"
+    },
+    {
+      "baku": "mengambilkan",
+      "colloquial": "ambilin",
+      "ru": "подать"
+    },
+    {
+      "baku": "memperbaiki",
+      "colloquial": "benerin",
+      "ru": "починить"
+    },
+    {
+      "baku": "mematikan",
+      "colloquial": "matiin",
+      "ru": "выключить"
+    },
+    {
+      "baku": "menyalakan",
+      "colloquial": "nyalain",
+      "ru": "включить"
+    },
+    {
+      "baku": "menjelaskan",
+      "colloquial": "jelasin",
+      "ru": "объяснить"
+    },
+    {
+      "baku": "menanyakan",
+      "colloquial": "tanyain",
+      "ru": "спросить"
+    },
+    {
+      "baku": "membantu",
+      "colloquial": "bantuin",
+      "ru": "помочь"
+    },
+    {
+      "baku": "menceritakan",
+      "colloquial": "ceritain",
+      "ru": "рассказать"
+    }
+  ],
+  "men_rules": [
+    {
+      "start": "b, f, p, v",
+      "form": "mem-",
+      "example": "baca → membaca"
+    },
+    {
+      "start": "c, d, j, t, z",
+      "form": "men-",
+      "example": "dengar → mendengar"
+    },
+    {
+      "start": "g, h, kh и гласные",
+      "form": "meng-",
+      "example": "ambil → mengambil"
+    },
+    {
+      "start": "s, sy",
+      "form": "meny-",
+      "example": "sewa → menyewa"
+    },
+    {
+      "start": "l, m, n, ny, ng, r, w, y",
+      "form": "me-",
+      "example": "lihat → melihat"
+    },
+    {
+      "start": "односложный корень",
+      "form": "menge-",
+      "example": "cat → mengecat"
+    }
+  ],
+  "ktsp": [
+    {
+      "root": "kirim",
+      "result": "mengirim",
+      "note": "k выпадает"
+    },
+    {
+      "root": "tulis",
+      "result": "menulis",
+      "note": "t выпадает"
+    },
+    {
+      "root": "sewa",
+      "result": "menyewa",
+      "note": "s выпадает"
+    },
+    {
+      "root": "pukul",
+      "result": "memukul",
+      "note": "p выпадает"
+    }
+  ]
+}

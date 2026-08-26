@@ -1,0 +1,55 @@
+{
+  "id": "A2", "track": "affixes", "kind": "unit", "week": 4, "day": 3, "order": 22,
+  "title_ru": "ber- и его аллофоны",
+  "subtitle_ru": "Непереходное действие, состояние, «иметь»",
+  "items": ["ber-"],
+  "theory_ru": "`ber-` делает глагол **непереходным**: действие не переходит на объект, а происходит с самим подлежащим.\n\n| Форма | Значение | Что делает ber- |\n|---|---|---|\n| `bekerja` | работать | занятие |\n| `berjalan` | идти | процесс |\n| `bermain` | играть | занятие |\n| `berdua` | вдвоём | совместность |\n| `beristri` | быть женатым | обладание |\n| `bertanya` | спрашивать | действие без прямого объекта |\n\nТри аллофона, которые надо знать в лицо:\n\n**ber- → be-** перед корнем на `r` и перед корнями с `-er-` внутри: `kerja` → `bekerja`, `renang` → `berenang`.\n\n**ber- → bel-** — только с `ajar`: `belajar`. Больше почти нигде.\n\nВо всех прочих случаях — просто `ber-`: `bermain`, `berjalan`, `bertanya`, `berdua`.\n\nВажно на будущее: `ber-` и `meN-` — разные ветки. `bekerja` (работать вообще) против `mengerjakan` (выполнять что-то конкретное). Первое непереходно, второе требует объекта.",
+  "checklist": [
+    "Говорю bekerja, а не berkerja",
+    "Помню, что belajar — исключение с bel-",
+    "Отличаю bekerja (работать) от mengerjakan (выполнять что-то)"
+  ],
+  "drills": [
+    { "id": "d_A2_01", "type": "men_drill", "mode": "input",
+      "prompt": "kerja", "prompt_ru": "Добавь ber-", "answer": "bekerja",
+      "time_limit_sec": 6,
+      "explain_ru": "Перед r префикс теряет свою r: be- + kerja." },
+    { "id": "d_A2_02", "type": "men_drill", "mode": "input",
+      "prompt": "ajar", "prompt_ru": "Добавь ber-", "answer": "belajar",
+      "time_limit_sec": 6,
+      "explain_ru": "Единственный корень с bel-. Учить как исключение." },
+    { "id": "d_A2_03", "type": "men_drill", "mode": "input",
+      "prompt": "main", "prompt_ru": "Добавь ber-", "answer": "bermain",
+      "time_limit_sec": 6 },
+    { "id": "d_A2_04", "type": "men_drill", "mode": "input",
+      "prompt": "tanya", "prompt_ru": "Добавь ber-", "answer": "bertanya",
+      "time_limit_sec": 6,
+      "explain_ru": "«Спрашивать» вообще. Спросить о чём-то конкретном — уже menanyakan." },
+    { "id": "d_A2_05", "type": "word_strip", "mode": "choice",
+      "prompt": "berenang",
+      "prompt_ru": "Почему не «berrenang»?",
+      "options": [
+        "Перед корнем на r префикс теряет свою r: be- + renang",
+        "Потому что renang — исключение с bel-",
+        "Потому что это существительное",
+        "Потому что удвоенные согласные запрещены в конце слова"
+      ],
+      "answer": "Перед корнем на r префикс теряет свою r: be- + renang",
+      "explain_ru": "Тот же аллофон, что и в bekerja." },
+    { "id": "d_A2_06", "type": "register_swap", "mode": "choice",
+      "prompt": "Saya bekerja di kafe",
+      "prompt_ru": "Как это звучит в разговоре с друзьями?",
+      "options": ["Aku kerja di kafe", "Saya kerja di kafe ya", "Aku bekerja di kafe", "Aku pekerja di kafe"],
+      "answer": "Aku kerja di kafe",
+      "explain_ru": "В разговоре ber- отваливается вместе с saya → aku. Два регистровых сдвига сразу.",
+      "audio": "Aku kerja di kafe" },
+    { "id": "d_A2_07", "type": "root_expand", "mode": "fields",
+      "prompt": "main",
+      "prompt_ru": "Собери формы от корня main.",
+      "fields": [
+        { "label_ru": "играть", "answer": "bermain", "accept": ["main"] },
+        { "label_ru": "игрушка", "answer": "mainan" },
+        { "label_ru": "игрок", "answer": "pemain" }
+      ] }
+  ]
+}

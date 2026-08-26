@@ -1,0 +1,419 @@
+{
+  "id": "AX",
+  "track": "affixes",
+  "kind": "exam",
+  "week": 10,
+  "day": 5,
+  "order": 37,
+  "title_ru": "Зачёт части B",
+  "subtitle_ru": "Сорок заданий, порог — 32",
+  "items": [
+    "meN-",
+    "ber-",
+    "di-",
+    "ter-",
+    "-kan",
+    "-i",
+    "-in",
+    "-an",
+    "peN-",
+    "per-…-an",
+    "ke-…-an"
+  ],
+  "pass_score": 32,
+  "theory_ru": "Сорок заданий, две половины.\n\n**Первые двадцать — разбор.** Дано производное: восстанови корень или назови значение. Это проверка на чтение: сможешь ли ты найти незнакомое слово в словаре.\n\n**Вторые двадцать — сборка.** Дан корень и нужный аффикс: собери форму. Это проверка на производство.\n\nПорог — **32 из 40**. Ошибка возвращает задание в конец очереди, но в счёт идёт первый ответ.",
+  "checklist": [
+    "Набрал 32 из 40 с первого ответа",
+    "Восстанавливаю корень по форме с meN- не задумываясь",
+    "Собираю нужную форму, не подглядывая в таблицу"
+  ],
+  "drills": [
+    {
+      "id": "d_AX_01",
+      "type": "word_strip",
+      "mode": "input",
+      "prompt": "mengirim",
+      "prompt_ru": "Восстанови корень.",
+      "answer": "kirim",
+      "explain_ru": "k выпадает по KTSP"
+    },
+    {
+      "id": "d_AX_02",
+      "type": "word_strip",
+      "mode": "input",
+      "prompt": "menulis",
+      "prompt_ru": "Восстанови корень.",
+      "answer": "tulis",
+      "explain_ru": "t выпадает по KTSP"
+    },
+    {
+      "id": "d_AX_03",
+      "type": "word_strip",
+      "mode": "input",
+      "prompt": "menyewa",
+      "prompt_ru": "Восстанови корень.",
+      "answer": "sewa",
+      "explain_ru": "s выпадает по KTSP"
+    },
+    {
+      "id": "d_AX_04",
+      "type": "word_strip",
+      "mode": "input",
+      "prompt": "memukul",
+      "prompt_ru": "Восстанови корень.",
+      "answer": "pukul",
+      "explain_ru": "p выпадает по KTSP"
+    },
+    {
+      "id": "d_AX_05",
+      "type": "word_strip",
+      "mode": "input",
+      "prompt": "pembangunan",
+      "prompt_ru": "Восстанови корень.",
+      "answer": "bangun",
+      "explain_ru": "peN-…-an: строительство как процесс"
+    },
+    {
+      "id": "d_AX_06",
+      "type": "word_strip",
+      "mode": "input",
+      "prompt": "perjalanan",
+      "prompt_ru": "Восстанови корень.",
+      "answer": "jalan",
+      "explain_ru": "per-…-an от berjalan: поездка"
+    },
+    {
+      "id": "d_AX_07",
+      "type": "word_strip",
+      "mode": "input",
+      "prompt": "ketiduran",
+      "prompt_ru": "Восстанови корень.",
+      "answer": "tidur",
+      "explain_ru": "ke-…-an невольного состояния"
+    },
+    {
+      "id": "d_AX_08",
+      "type": "word_strip",
+      "mode": "input",
+      "prompt": "kehabisan",
+      "prompt_ru": "Восстанови корень.",
+      "answer": "habis",
+      "explain_ru": "у кого-то закончилось"
+    },
+    {
+      "id": "d_AX_09",
+      "type": "word_strip",
+      "mode": "input",
+      "prompt": "penghapus",
+      "prompt_ru": "Восстанови корень.",
+      "answer": "hapus",
+      "explain_ru": "peN- инструмента: ластик"
+    },
+    {
+      "id": "d_AX_10",
+      "type": "word_strip",
+      "mode": "input",
+      "prompt": "mengunci",
+      "prompt_ru": "Восстанови корень.",
+      "answer": "kunci",
+      "explain_ru": "meng- перед гласной часто прячет выпавшую k"
+    },
+    {
+      "id": "d_AX_11",
+      "type": "word_strip",
+      "mode": "input",
+      "prompt": "terpelajar",
+      "prompt_ru": "Восстанови корень.",
+      "answer": "ajar",
+      "explain_ru": "ter- поверх готового pelajar"
+    },
+    {
+      "id": "d_AX_12",
+      "type": "word_strip",
+      "mode": "input",
+      "prompt": "pemasukan",
+      "prompt_ru": "Восстанови корень.",
+      "answer": "masuk",
+      "explain_ru": "доход, от memasukkan"
+    },
+    {
+      "id": "d_AX_13",
+      "type": "word_strip",
+      "mode": "input",
+      "prompt": "pertanyaan",
+      "prompt_ru": "Восстанови корень.",
+      "answer": "tanya",
+      "explain_ru": "per-…-an от bertanya"
+    },
+    {
+      "id": "d_AX_14",
+      "type": "word_strip",
+      "mode": "input",
+      "prompt": "kebesaran",
+      "prompt_ru": "Восстанови корень.",
+      "answer": "besar",
+      "explain_ru": "велико по размеру"
+    },
+    {
+      "id": "d_AX_15",
+      "type": "word_strip",
+      "mode": "input",
+      "prompt": "penglihatan",
+      "prompt_ru": "Восстанови корень.",
+      "answer": "lihat",
+      "explain_ru": "зрение"
+    },
+    {
+      "id": "d_AX_16",
+      "type": "word_strip",
+      "mode": "choice",
+      "prompt": "kelihatan",
+      "prompt_ru": "Что означает форма?",
+      "options": [
+        "выглядит, виднеется",
+        "показывает",
+        "делает видимым",
+        "невидимый"
+      ],
+      "answer": "выглядит, виднеется"
+    },
+    {
+      "id": "d_AX_17",
+      "type": "word_strip",
+      "mode": "choice",
+      "prompt": "termakan",
+      "prompt_ru": "Что означает форма?",
+      "options": [
+        "съеден нечаянно, повёлся",
+        "накормлен",
+        "съедобный",
+        "едок"
+      ],
+      "answer": "съеден нечаянно, повёлся"
+    },
+    {
+      "id": "d_AX_18",
+      "type": "word_strip",
+      "mode": "choice",
+      "prompt": "masukan",
+      "prompt_ru": "Что означает форма?",
+      "options": [
+        "замечание, обратная связь",
+        "доход",
+        "вход",
+        "вложение"
+      ],
+      "answer": "замечание, обратная связь"
+    },
+    {
+      "id": "d_AX_19",
+      "type": "word_strip",
+      "mode": "choice",
+      "prompt": "sebaiknya",
+      "prompt_ru": "Что означает форма?",
+      "options": [
+        "лучше бы",
+        "самый лучший",
+        "доброта",
+        "улучшение"
+      ],
+      "answer": "лучше бы"
+    },
+    {
+      "id": "d_AX_20",
+      "type": "word_strip",
+      "mode": "choice",
+      "prompt": "kesiangan",
+      "prompt_ru": "Что означает форма?",
+      "options": [
+        "проспал до позднего утра",
+        "полдень",
+        "обед",
+        "дневной"
+      ],
+      "answer": "проспал до позднего утра"
+    },
+    {
+      "id": "d_AX_21",
+      "type": "root_expand",
+      "mode": "input",
+      "prompt": "kirim",
+      "prompt_ru": "Собери форму: meN-",
+      "answer": "mengirim",
+      "time_limit_sec": 8
+    },
+    {
+      "id": "d_AX_22",
+      "type": "root_expand",
+      "mode": "input",
+      "prompt": "tulis",
+      "prompt_ru": "Собери форму: meN-",
+      "answer": "menulis",
+      "time_limit_sec": 8
+    },
+    {
+      "id": "d_AX_23",
+      "type": "root_expand",
+      "mode": "input",
+      "prompt": "sapu",
+      "prompt_ru": "Собери форму: meN-",
+      "answer": "menyapu",
+      "time_limit_sec": 8
+    },
+    {
+      "id": "d_AX_24",
+      "type": "root_expand",
+      "mode": "input",
+      "prompt": "potong",
+      "prompt_ru": "Собери форму: meN-",
+      "answer": "memotong",
+      "time_limit_sec": 8
+    },
+    {
+      "id": "d_AX_25",
+      "type": "root_expand",
+      "mode": "input",
+      "prompt": "ambil",
+      "prompt_ru": "Собери форму: meN-",
+      "answer": "mengambil",
+      "time_limit_sec": 8
+    },
+    {
+      "id": "d_AX_26",
+      "type": "root_expand",
+      "mode": "input",
+      "prompt": "cat",
+      "prompt_ru": "Собери форму: meN-",
+      "answer": "mengecat",
+      "time_limit_sec": 8,
+      "explain_ru": "односложный корень → menge-"
+    },
+    {
+      "id": "d_AX_27",
+      "type": "root_expand",
+      "mode": "input",
+      "prompt": "kerja",
+      "prompt_ru": "Собери форму: ber-",
+      "answer": "bekerja",
+      "time_limit_sec": 8
+    },
+    {
+      "id": "d_AX_28",
+      "type": "root_expand",
+      "mode": "input",
+      "prompt": "ajar",
+      "prompt_ru": "Собери форму: ber-",
+      "answer": "belajar",
+      "time_limit_sec": 8,
+      "explain_ru": "единственный корень с bel-"
+    },
+    {
+      "id": "d_AX_29",
+      "type": "root_expand",
+      "mode": "input",
+      "prompt": "main",
+      "prompt_ru": "Собери форму: ber-",
+      "answer": "bermain",
+      "time_limit_sec": 8
+    },
+    {
+      "id": "d_AX_30",
+      "type": "root_expand",
+      "mode": "input",
+      "prompt": "baca",
+      "prompt_ru": "Собери форму: di-",
+      "answer": "dibaca",
+      "time_limit_sec": 8
+    },
+    {
+      "id": "d_AX_31",
+      "type": "root_expand",
+      "mode": "input",
+      "prompt": "baik",
+      "prompt_ru": "Собери форму: ter- (превосходная степень)",
+      "answer": "terbaik",
+      "time_limit_sec": 8
+    },
+    {
+      "id": "d_AX_32",
+      "type": "root_expand",
+      "mode": "input",
+      "prompt": "besar",
+      "prompt_ru": "Собери форму: ke-…-an (велико по размеру)",
+      "answer": "kebesaran",
+      "time_limit_sec": 8
+    },
+    {
+      "id": "d_AX_33",
+      "type": "root_expand",
+      "mode": "input",
+      "prompt": "sehat",
+      "prompt_ru": "Собери форму: ke-…-an",
+      "answer": "kesehatan",
+      "time_limit_sec": 8
+    },
+    {
+      "id": "d_AX_34",
+      "type": "root_expand",
+      "mode": "input",
+      "prompt": "hujan",
+      "prompt_ru": "Собери форму: ke-…-an (попасть под)",
+      "answer": "kehujanan",
+      "time_limit_sec": 8
+    },
+    {
+      "id": "d_AX_35",
+      "type": "root_expand",
+      "mode": "input",
+      "prompt": "makan",
+      "prompt_ru": "Собери форму: -an",
+      "answer": "makanan",
+      "time_limit_sec": 8
+    },
+    {
+      "id": "d_AX_36",
+      "type": "root_expand",
+      "mode": "input",
+      "prompt": "jual",
+      "prompt_ru": "Собери форму: peN-",
+      "answer": "penjual",
+      "time_limit_sec": 8
+    },
+    {
+      "id": "d_AX_37",
+      "type": "root_expand",
+      "mode": "input",
+      "prompt": "jual",
+      "prompt_ru": "Собери форму: peN-…-an",
+      "answer": "penjualan",
+      "time_limit_sec": 8
+    },
+    {
+      "id": "d_AX_38",
+      "type": "root_expand",
+      "mode": "input",
+      "prompt": "mati",
+      "prompt_ru": "Собери форму: meN-…-kan",
+      "answer": "mematikan",
+      "time_limit_sec": 8
+    },
+    {
+      "id": "d_AX_39",
+      "type": "root_expand",
+      "mode": "input",
+      "prompt": "beli",
+      "prompt_ru": "Собери форму: разговорный -in (купить кому-то)",
+      "answer": "beliin",
+      "time_limit_sec": 8
+    },
+    {
+      "id": "d_AX_40",
+      "type": "root_expand",
+      "mode": "input",
+      "prompt": "bantu",
+      "prompt_ru": "Собери форму: разговорный -in",
+      "answer": "bantuin",
+      "time_limit_sec": 8
+    }
+  ]
+}

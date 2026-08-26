@@ -1,0 +1,45 @@
+{
+  "id": "A11", "track": "affixes", "kind": "unit", "week": 8, "day": 1, "order": 31,
+  "title_ru": "-in — активная цель",
+  "subtitle_ru": "То, чем ты будешь пользоваться каждый день",
+  "items": ["-in"],
+  "theory_ru": "Вчерашнее различение `-kan` и `-i` — на понимание. А в жизни оба схлопываются в **`-in`**.\n\n| Книжно | Разговорно | Русский |\n|---|---|---|\n| membelikan | **beliin** | купить кому-то |\n| membuatkan | **bikinin** | сделать кому-то |\n| mengambilkan | **ambilin** | подать |\n| memperbaiki | **benerin** | починить |\n| mematikan | **matiin** | выключить |\n| menyalakan | **nyalain** | включить |\n| menjelaskan | **jelasin** | объяснить |\n| menanyakan | **tanyain** | спросить |\n| membantu | **bantuin** | помочь |\n| menceritakan | **ceritain** | рассказать |\n\nСхема простая: **корень (часто разговорный) + -in**. `benerin` — от `bener`, разговорного `benar`. `bikinin` — от `bikin`.\n\nЭто **активная цель ученика**. `-kan` и `-i` — пассивная: узнавать в тексте. Говорить надо на `-in`.\n\nПочти всегда `-in` идёт с частицей: `Bantuin dong`, `Jelasin lagi dong`, `Benerin ya`. Так и учи — блоками, а не голым глаголом.",
+  "checklist": [
+    "Прошу помощи через «Bantuin dong»",
+    "Прошу объяснить ещё раз через «Jelasin lagi dong»",
+    "Десять пар книжное → -in называю без подсказки"
+  ],
+  "drills": [
+    { "id": "d_A11_01", "type": "register_swap", "mode": "input", "prompt": "membelikan", "prompt_ru": "Разговорная форма на -in", "answer": "beliin" },
+    { "id": "d_A11_02", "type": "register_swap", "mode": "input", "prompt": "memperbaiki", "prompt_ru": "Разговорная форма на -in", "answer": "benerin", "explain_ru": "От разговорного bener, а не от baik." },
+    { "id": "d_A11_03", "type": "register_swap", "mode": "input", "prompt": "menjelaskan", "prompt_ru": "Разговорная форма на -in", "answer": "jelasin" },
+    { "id": "d_A11_04", "type": "register_swap", "mode": "input", "prompt": "menyalakan", "prompt_ru": "Разговорная форма на -in", "answer": "nyalain" },
+    { "id": "d_A11_05", "type": "register_swap", "mode": "input", "prompt": "membantu", "prompt_ru": "Разговорная форма на -in", "answer": "bantuin" },
+    { "id": "d_A11_06", "type": "particle_situation", "mode": "choice",
+      "prompt_ru": "Не понял объяснение коллеги и просишь повторить — по-дружески.",
+      "options": ["Jelasin lagi dong", "Jelaskan lagi", "Menjelaskan lagi dong", "Jelasin lagi kok"],
+      "answer": "Jelasin lagi dong",
+      "explain_ru": "-in плюс dong — стандартный блок бытовой просьбы.",
+      "audio": "Jelasin lagi dong" },
+    { "id": "d_A11_07", "type": "particle_situation", "mode": "choice",
+      "prompt_ru": "Мотоцикл сломался. Просишь соседа-механика починить.",
+      "options": ["Benerin motorku dong", "Memperbaiki motorku dong", "Bener motorku dong", "Motorku benerin kok"],
+      "answer": "Benerin motorku dong",
+      "audio": "Benerin motorku dong" },
+    { "id": "d_A11_08", "type": "error_hunt", "mode": "choice",
+      "prompt": "Tolong Anda memperbaiki sepeda motor saya.",
+      "prompt_ru": "Так просит русскоязычный соседа. Что не так?",
+      "options": [
+        "Регистр: с соседом так не говорят — «Benerin motorku dong»",
+        "Ошибка в слове memperbaiki",
+        "Надо поставить apakah",
+        "Всё верно, это вежливо"
+      ],
+      "answer": "Регистр: с соседом так не говорят — «Benerin motorku dong»",
+      "explain_ru": "Фраза грамматически безупречна и звучит как обращение в министерство." },
+    { "id": "d_A11_09", "type": "live_produce", "mode": "selfcheck", "speak_aloud": true,
+      "prompt_ru": "Одна реплика другу: помоги мне, включи свет и подай ключи.",
+      "answer": "Bantuin dong, nyalain lampunya sama ambilin kuncinya",
+      "explain_ru": "Три -in подряд — совершенно обычная бытовая фраза." }
+  ]
+}

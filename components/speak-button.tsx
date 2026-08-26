@@ -2,13 +2,13 @@
 
 import { Volume2 } from "lucide-react";
 import { cn } from "@/lib/utils";
-import { speakId } from "@/lib/speak-id";
+import { speak } from "@/lib/speak";
 
 export function SpeakButton({ text, className }: { text: string; className?: string }) {
   return (
     <button
       type="button"
-      onClick={() => speakId(text)}
+      onClick={() => speak(text)}
       title="Прослушать"
       aria-label={`Произнести: ${text}`}
       className={cn(

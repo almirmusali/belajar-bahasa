@@ -7,6 +7,7 @@ import {
   chapterSize,
   coverUrl,
   getBook,
+  hasStudioAudio,
   getTranslations,
   uniqueSentenceCount,
 } from "@/lib/reading";
@@ -26,6 +27,7 @@ export default function ReadingIndexPage() {
         words,
         sentences,
         translated: Object.keys(tr).length,
+        audio: hasStudioAudio(book),
         titleRu: tr[book.title] ?? null,
         subtitleRu: tr[book.subtitle] ?? null,
         cover: coverUrl(book.slug),
@@ -43,9 +45,9 @@ export default function ReadingIndexPage() {
           Библиотека
         </h1>
         <p className="mt-3 max-w-xl text-muted-foreground">
-          Книги на разговорном индонезийском и простом английском. Наведи на
-          слово — увидишь перевод, нажми кнопку у предложения — получишь
-          перевод целиком или озвучку.
+          Книги на разговорном индонезийском и на английском. Наведи на
+          слово — увидишь перевод, нажми кнопку у абзаца — получишь перевод
+          целиком или озвучку.
         </p>
 
         {books.length === 0 ? (
@@ -58,7 +60,7 @@ export default function ReadingIndexPage() {
           </p>
         ) : (
           <div className="mt-8 grid gap-5 sm:grid-cols-2">
-            {books.map(({ book, weights, words, sentences, translated, cover, titleRu, subtitleRu }) => (
+            {books.map(({ book, weights, words, sentences, translated, audio, cover, titleRu, subtitleRu }) => (
               <Link
                 key={book.slug}
                 href={`/reading/${book.slug}`}
@@ -100,7 +102,9 @@ export default function ReadingIndexPage() {
                           ? "перевод по предложениям"
                           : `перевод ${translated}/${sentences}`}
                       </Badge>
-                      <Badge icon={<Volume2 className="h-3 w-3" />}>озвучка</Badge>
+                      <Badge icon={<Volume2 className="h-3 w-3" />}>
+                        {audio ? "озвучка" : "голос браузера"}
+                      </Badge>
                     </div>
                     <BookCardProgress slug={book.slug} weights={weights} />
                   </div>

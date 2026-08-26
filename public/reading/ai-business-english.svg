@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 900" width="600" height="900" role="img" aria-label="Обложка книги «AI &amp; Business English»">
+  <title>AI &amp; Business English</title>
+  <defs>
+    <linearGradient id="deep" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0a1826"/>
+      <stop offset="52%" stop-color="#11293f"/>
+      <stop offset="100%" stop-color="#1b3d52"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#2e6f7e" stop-opacity=".35"/>
+      <stop offset="100%" stop-color="#5fd4c4" stop-opacity=".9"/>
+    </linearGradient>
+    <radialGradient id="node" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffd08a" stop-opacity=".9"/>
+      <stop offset="100%" stop-color="#ffd08a" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="haze" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+  </defs>
+
+  <rect width="600" height="900" fill="url(#deep)"/>
+
+  <!-- Сетка: разлинованный лист отчёта, на котором всё и происходит. -->
+  <g stroke="#7fd8ce" stroke-width="1" opacity=".07">
+    <path d="M60 0V900M150 0V900M240 0V900M330 0V900M420 0V900M510 0V900"/>
+    <path d="M0 380H600M0 470H600M0 560H600M0 650H600M0 740H600"/>
+  </g>
+
+  <!-- Столбцы роста: обычный бизнес-график, читается с любого расстояния. -->
+  <g fill="url(#bar)">
+    <rect x="96" y="640" width="52" height="140" rx="4"/>
+    <rect x="176" y="588" width="52" height="192" rx="4"/>
+    <rect x="256" y="524" width="52" height="256" rx="4"/>
+    <rect x="336" y="440" width="52" height="340" rx="4"/>
+    <rect x="416" y="336" width="52" height="444" rx="4"/>
+  </g>
+  <line x1="72" y1="780" x2="528" y2="780" stroke="#8fe3d6" stroke-width="2" opacity=".45"/>
+
+  <!-- Граф поверх столбцов: то самое «AI» — узлы и связи, а не робот. -->
+  <g stroke="#ffd08a" stroke-width="1.6" opacity=".62" fill="none">
+    <path d="M122 610 L202 556 L282 492 L362 408 L442 304"/>
+    <path d="M122 610 L282 492 M202 556 L362 408 M282 492 L442 304"/>
+  </g>
+  <g fill="#ffd9a1">
+    <circle cx="122" cy="610" r="7"/>
+    <circle cx="202" cy="556" r="7"/>
+    <circle cx="282" cy="492" r="7"/>
+    <circle cx="362" cy="408" r="7"/>
+    <circle cx="442" cy="304" r="10"/>
+  </g>
+  <circle cx="442" cy="304" r="70" fill="url(#node)" opacity=".55" filter="url(#haze)"/>
+
+  <!-- Титул -->
+  <g text-anchor="middle" font-family="Georgia, 'Iowan Old Style', 'Times New Roman', serif">
+    <text x="300" y="146" font-size="88" letter-spacing="10" fill="#f4fbf9" font-weight="bold">AI</text>
+    <text x="300" y="196" font-size="26" letter-spacing="14" fill="#9fd8ce" opacity=".75">&amp;</text>
+    <text x="300" y="262" font-size="47" letter-spacing="3" fill="#f4fbf9" font-weight="bold">BUSINESS</text>
+    <text x="300" y="316" font-size="47" letter-spacing="3" fill="#f4fbf9" font-weight="bold">ENGLISH</text>
+    <line x1="216" y1="350" x2="384" y2="350" stroke="#8fe3d6" stroke-width="1" opacity=".45"/>
+    <text x="300" y="846" font-size="14" letter-spacing="6" fill="#9fd8ce" opacity=".62">B1–B2 · 12 CHAPTERS</text>
+  </g>
+</svg>

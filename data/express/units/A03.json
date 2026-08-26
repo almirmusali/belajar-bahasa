@@ -1,0 +1,22 @@
+{
+  "id": "A3", "track": "affixes", "kind": "unit", "week": 5, "day": 1, "order": 23,
+  "title_ru": "meN- — механика, часть 1",
+  "subtitle_ru": "Форма префикса по первому звуку корня",
+  "items": ["meN-"],
+  "theory_ru": "`meN-` меняет форму под первый звук корня. Это чистая механика — тренируется списком и на скорость.\n\n| Начало корня | Форма | Пример |\n|---|---|---|\n| b, f, p, v | **mem-** | baca → membaca |\n| c, d, j, t, z | **men-** | dengar → mendengar |\n| g, h, kh и гласные | **meng-** | ambil → mengambil |\n| s, sy | **meny-** | sewa → menyewa |\n| l, m, n, ny, ng, r, w, y | **me-** | lihat → melihat |\n| односложный корень | **menge-** | cat → mengecat |\n\nСегодня — только те корни, где начальный согласный **остаётся на месте**: `baca`, `dengar`, `jual`, `beli`, `lihat`, `masak`, `ambil`, `gambar`.\n\nЗачем это, если в разговоре `meN-` отваливается? Затем, что **понимать нужно всё, а производить — короткую форму**. Вывески, договоры, титры, новости, письменная речь команды — везде полный `meN-`. Механика нужна для чтения.\n\nЗавтра — правило выпадения, где согласный исчезает. Сегодня закрепи базу: сначала должно стать автоматом то, где ничего не пропадает.",
+  "checklist": [
+    "Называю форму префикса по первой букве корня без пауз",
+    "Помню, что гласные идут с meng-",
+    "Односложный корень беру с menge-"
+  ],
+  "drills": [
+    { "id": "d_A3_01", "type": "men_drill", "mode": "input", "prompt": "baca", "answer": "membaca", "time_limit_sec": 5, "explain_ru": "b → mem-, согласная остаётся" },
+    { "id": "d_A3_02", "type": "men_drill", "mode": "input", "prompt": "dengar", "answer": "mendengar", "time_limit_sec": 5, "explain_ru": "d → men-" },
+    { "id": "d_A3_03", "type": "men_drill", "mode": "input", "prompt": "ambil", "answer": "mengambil", "time_limit_sec": 5, "explain_ru": "гласная → meng-" },
+    { "id": "d_A3_04", "type": "men_drill", "mode": "input", "prompt": "lihat", "answer": "melihat", "time_limit_sec": 5, "explain_ru": "l → me-, без носового" },
+    { "id": "d_A3_05", "type": "men_drill", "mode": "input", "prompt": "jual", "answer": "menjual", "time_limit_sec": 5, "explain_ru": "j → men-" },
+    { "id": "d_A3_06", "type": "men_drill", "mode": "input", "prompt": "gambar", "answer": "menggambar", "time_limit_sec": 5, "explain_ru": "g → meng-, двойная g на стыке" },
+    { "id": "d_A3_07", "type": "men_drill", "mode": "input", "prompt": "cat", "answer": "mengecat", "time_limit_sec": 5, "explain_ru": "односложный корень → menge-" },
+    { "id": "d_A3_08", "type": "men_drill", "mode": "input", "prompt": "masak", "answer": "memasak", "time_limit_sec": 5, "explain_ru": "m → me-, получается memasak" }
+  ]
+}
