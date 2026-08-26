@@ -1,0 +1,9248 @@
+{
+ "slug": "pukul-tujuh-lewat-lima",
+ "title": "PUKUL TUJUH LEWAT LIMA",
+ "subtitle": "Cerita detektif — bahasa Indonesia mudah",
+ "lang": "id",
+ "chapters": [
+  {
+   "id": 0,
+   "num": null,
+   "title": "Buat Pembaca",
+   "blocks": [
+    {
+     "kind": "p",
+     "sent": [
+      {
+       "id": "Ini cerita tentang waktu.",
+       "seg": [
+        {
+         "t": "Ini cerita tentang waktu.",
+         "tk": [
+          {
+           "w": "Ini"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "cerita"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "tentang"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "waktu"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "Siapa di mana jam berapa.",
+       "seg": [
+        {
+         "t": "Siapa di mana jam berapa.",
+         "tk": [
+          {
+           "w": "Siapa"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "di"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "mana"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "jam"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "berapa"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "p",
+     "sent": [
+      {
+       "id": "Semua fakta ada di dalam buku.",
+       "seg": [
+        {
+         "t": "Semua fakta ada di dalam buku.",
+         "tk": [
+          {
+           "w": "Semua"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "fakta"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "ada"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "di"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "dalam"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "buku"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "Nggak ada saksi rahasia dan nggak ada surat rahasia.",
+       "seg": [
+        {
+         "t": "Nggak ada saksi rahasia dan nggak ada surat rahasia.",
+         "tk": [
+          {
+           "w": "Nggak"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "ada"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "saksi"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "rahasia"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "dan"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "nggak"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "ada"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "surat"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "rahasia"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "Sebelum bab terakhir, ada satu halaman buat kamu.",
+       "seg": [
+        {
+         "t": "Sebelum bab terakhir, ada satu halaman buat kamu.",
+         "tk": [
+          {
+           "w": "Sebelum"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "bab"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "terakhir"
+          },
+          {
+           "s": ", "
+          },
+          {
+           "w": "ada"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "satu"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "halaman"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "buat"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "kamu"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "Di situ kamu berhenti dan coba jawab sendiri.",
+       "seg": [
+        {
+         "t": "Di situ kamu berhenti dan coba jawab sendiri.",
+         "tk": [
+          {
+           "w": "Di"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "situ"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "kamu"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "berhenti"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "dan"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "coba"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "jawab"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "sendiri"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "p",
+     "sent": [
+      {
+       "id": "Kalau kamu jawab betul, kamu lebih pintar dari polisi di cerita ini.",
+       "seg": [
+        {
+         "t": "Kalau kamu jawab betul, kamu lebih pintar dari polisi di cerita ini.",
+         "tk": [
+          {
+           "w": "Kalau"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "kamu"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "jawab"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "betul"
+          },
+          {
+           "s": ", "
+          },
+          {
+           "w": "kamu"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "lebih"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "pintar"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "dari"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "polisi"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "di"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "cerita"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "ini"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "p",
+     "sent": [
+      {
+       "id": "Habis tiap bab ada kotak Kata Baru.",
+       "seg": [
+        {
+         "t": "Habis tiap bab ada kotak ",
+         "tk": [
+          {
+           "w": "Habis"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "tiap"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "bab"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "ada"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "kotak"
+          },
+          {
+           "s": " "
+          }
+         ]
+        },
+        {
+         "t": "Kata Baru",
+         "em": "b",
+         "tk": [
+          {
+           "w": "Kata"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "Baru"
+          }
+         ]
+        },
+        {
+         "t": ".",
+         "tk": [
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "p",
+     "sent": [
+      {
+       "id": "Selamat membaca.",
+       "seg": [
+        {
+         "t": "Selamat membaca.",
+         "tk": [
+          {
+           "w": "Selamat"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "membaca"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 1,
+   "num": null,
+   "title": "Orang-orang di Cerita Ini",
+   "blocks": [
+    {
+     "kind": "p",
+     "sent": [
+      {
+       "id": "Pak Wibowo, 57 tahun.",
+       "seg": [
+        {
+         "t": "Pak Wibowo",
+         "em": "b",
+         "tk": [
+          {
+           "w": "Pak"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "Wibowo"
+          }
+         ]
+        },
+        {
+         "t": ", 57 tahun.",
+         "tk": [
+          {
+           "s": ", 57 "
+          },
+          {
+           "w": "tahun"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "Punya radio Suara Kita.",
+       "seg": [
+        {
+         "t": "Punya radio Suara Kita.",
+         "tk": [
+          {
+           "w": "Punya"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "radio"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "Suara"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "Kita"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "Dia yang mati.",
+       "seg": [
+        {
+         "t": "Dia yang mati.",
+         "tk": [
+          {
+           "w": "Dia"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "yang"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "mati"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "p",
+     "sent": [
+      {
+       "id": "Nadia, 34 tahun.",
+       "seg": [
+        {
+         "t": "Nadia",
+         "em": "b",
+         "tk": [
+          {
+           "w": "Nadia"
+          }
+         ]
+        },
+        {
+         "t": ", 34 tahun.",
+         "tk": [
+          {
+           "s": ", 34 "
+          },
+          {
+           "w": "tahun"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "Penyiar.",
+       "seg": [
+        {
+         "t": "Penyiar.",
+         "tk": [
+          {
+           "w": "Penyiar"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "p",
+     "sent": [
+      {
+       "id": "Pak Ical, 44 tahun.",
+       "seg": [
+        {
+         "t": "Pak Ical",
+         "em": "b",
+         "tk": [
+          {
+           "w": "Pak"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "Ical"
+          }
+         ]
+        },
+        {
+         "t": ", 44 tahun.",
+         "tk": [
+          {
+           "s": ", 44 "
+          },
+          {
+           "w": "tahun"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "Teknisi.",
+       "seg": [
+        {
+         "t": "Teknisi.",
+         "tk": [
+          {
+           "w": "Teknisi"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "p",
+     "sent": [
+      {
+       "id": "Mbak Fitri, 38 tahun.",
+       "seg": [
+        {
+         "t": "Mbak Fitri",
+         "em": "b",
+         "tk": [
+          {
+           "w": "Mbak"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "Fitri"
+          }
+         ]
+        },
+        {
+         "t": ", 38 tahun.",
+         "tk": [
+          {
+           "s": ", 38 "
+          },
+          {
+           "w": "tahun"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "Sekretaris Pak Wibowo.",
+       "seg": [
+        {
+         "t": "Sekretaris Pak Wibowo.",
+         "tk": [
+          {
+           "w": "Sekretaris"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "Pak"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "Wibowo"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "p",
+     "sent": [
+      {
+       "id": "Bagas, 40 tahun.",
+       "seg": [
+        {
+         "t": "Bagas",
+         "em": "b",
+         "tk": [
+          {
+           "w": "Bagas"
+          }
+         ]
+        },
+        {
+         "t": ", 40 tahun.",
+         "tk": [
+          {
+           "s": ", 40 "
+          },
+          {
+           "w": "tahun"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "Adik Pak Wibowo.",
+       "seg": [
+        {
+         "t": "Adik Pak Wibowo.",
+         "tk": [
+          {
+           "w": "Adik"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "Pak"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "Wibowo"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "p",
+     "sent": [
+      {
+       "id": "Inspektur Salim, 50 tahun.",
+       "seg": [
+        {
+         "t": "Inspektur Salim",
+         "em": "b",
+         "tk": [
+          {
+           "w": "Inspektur"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "Salim"
+          }
+         ]
+        },
+        {
+         "t": ", 50 tahun.",
+         "tk": [
+          {
+           "s": ", 50 "
+          },
+          {
+           "w": "tahun"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "Polisi.",
+       "seg": [
+        {
+         "t": "Polisi.",
+         "tk": [
+          {
+           "w": "Polisi"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "num": 1,
+   "title": "Radio Suara Kita",
+   "blocks": [
+    {
+     "kind": "p",
+     "sent": [
+      {
+       "id": "Radio Suara Kita kecil.",
+       "seg": [
+        {
+         "t": "Radio Suara Kita kecil.",
+         "tk": [
+          {
+           "w": "Radio"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "Suara"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "Kita"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "kecil"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "Kantornya di lantai tiga, di gedung tua di Jakarta Pusat.",
+       "seg": [
+        {
+         "t": "Kantornya di lantai tiga, di gedung tua di Jakarta Pusat.",
+         "tk": [
+          {
+           "w": "Kantornya"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "di"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "lantai"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "tiga"
+          },
+          {
+           "s": ", "
+          },
+          {
+           "w": "di"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "gedung"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "tua"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "di"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "Jakarta"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "Pusat"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "p",
+     "sent": [
+      {
+       "id": "Di lantai tiga ada empat ruangan.",
+       "seg": [
+        {
+         "t": "Di lantai tiga ada empat ruangan.",
+         "tk": [
+          {
+           "w": "Di"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "lantai"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "tiga"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "ada"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "empat"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "ruangan"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "Studio siaran, ruang teknisi, ruang Pak Wibowo, dan ruang tunggu.",
+       "seg": [
+        {
+         "t": "Studio siaran, ruang teknisi, ruang Pak Wibowo, dan ruang tunggu.",
+         "tk": [
+          {
+           "w": "Studio"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "siaran"
+          },
+          {
+           "s": ", "
+          },
+          {
+           "w": "ruang"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "teknisi"
+          },
+          {
+           "s": ", "
+          },
+          {
+           "w": "ruang"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "Pak"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "Wibowo"
+          },
+          {
+           "s": ", "
+          },
+          {
+           "w": "dan"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "ruang"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "tunggu"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "p",
+     "sent": [
+      {
+       "id": "Studio itu kedap suara.",
+       "seg": [
+        {
+         "t": "Studio itu kedap suara.",
+         "tk": [
+          {
+           "w": "Studio"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "itu"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "kedap"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "suara"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "Kalau pintunya tutup, kamu nggak dengar apa-apa dari luar.",
+       "seg": [
+        {
+         "t": "Kalau pintunya tutup, kamu nggak dengar apa-apa dari luar.",
+         "tk": [
+          {
+           "w": "Kalau"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "pintunya"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "tutup"
+          },
+          {
+           "s": ", "
+          },
+          {
+           "w": "kamu"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "nggak"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "dengar"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "apa-apa"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "dari"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "luar"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "p",
+     "sent": [
+      {
+       "id": "Di dinding ruang tunggu ada jam besar.",
+       "seg": [
+        {
+         "t": "Di dinding ruang tunggu ada jam besar.",
+         "tk": [
+          {
+           "w": "Di"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "dinding"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "ruang"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "tunggu"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "ada"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "jam"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "besar"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "Semua orang di kantor itu lihat jam itu tiap hari.",
+       "seg": [
+        {
+         "t": "Semua orang di kantor itu lihat jam itu tiap hari.",
+         "tk": [
+          {
+           "w": "Semua"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "orang"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "di"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "kantor"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "itu"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "lihat"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "jam"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "itu"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "tiap"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "hari"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "p",
+     "sent": [
+      {
+       "id": "Hari Kamis ada siaran langsung jam tujuh malam.",
+       "seg": [
+        {
+         "t": "Hari Kamis ada siaran langsung jam tujuh malam.",
+         "tk": [
+          {
+           "w": "Hari"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "Kamis"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "ada"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "siaran"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "langsung"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "jam"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "tujuh"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "malam"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "Acaranya \"Lagu dan Surat\", satu jam.",
+       "seg": [
+        {
+         "t": "Acaranya \"Lagu dan Surat\", satu jam.",
+         "tk": [
+          {
+           "w": "Acaranya"
+          },
+          {
+           "s": " \""
+          },
+          {
+           "w": "Lagu"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "dan"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "Surat"
+          },
+          {
+           "s": "\", "
+          },
+          {
+           "w": "satu"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "jam"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "Nadia yang siaran.",
+       "seg": [
+        {
+         "t": "Nadia yang siaran.",
+         "tk": [
+          {
+           "w": "Nadia"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "yang"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "siaran"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "p",
+     "sent": [
+      {
+       "id": "Jam tujuh lewat lima, Nadia putar lagu pertama.",
+       "seg": [
+        {
+         "t": "Jam tujuh lewat lima, Nadia putar lagu pertama.",
+         "tk": [
+          {
+           "w": "Jam"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "tujuh"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "lewat"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "lima"
+          },
+          {
+           "s": ", "
+          },
+          {
+           "w": "Nadia"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "putar"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "lagu"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "pertama"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "Lagunya panjang, empat menit.",
+       "seg": [
+        {
+         "t": "Lagunya panjang, empat menit.",
+         "tk": [
+          {
+           "w": "Lagunya"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "panjang"
+          },
+          {
+           "s": ", "
+          },
+          {
+           "w": "empat"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "menit"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "p",
+     "sent": [
+      {
+       "id": "Waktu lagu itu jalan, Nadia keluar sebentar buat ambil air.",
+       "seg": [
+        {
+         "t": "Waktu lagu itu jalan, Nadia keluar sebentar buat ambil air.",
+         "tk": [
+          {
+           "w": "Waktu"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "lagu"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "itu"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "jalan"
+          },
+          {
+           "s": ", "
+          },
+          {
+           "w": "Nadia"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "keluar"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "sebentar"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "buat"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "ambil"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "air"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "Dia lewat ruang tunggu.",
+       "seg": [
+        {
+         "t": "Dia lewat ruang tunggu.",
+         "tk": [
+          {
+           "w": "Dia"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "lewat"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "ruang"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "tunggu"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "Dia lihat jam dinding.",
+       "seg": [
+        {
+         "t": "Dia lihat jam dinding.",
+         "tk": [
+          {
+           "w": "Dia"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "lihat"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "jam"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "dinding"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "Jam tujuh lewat lima.",
+       "seg": [
+        {
+         "t": "Jam tujuh lewat lima.",
+         "tk": [
+          {
+           "w": "Jam"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "tujuh"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "lewat"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "lima"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "p",
+     "sent": [
+      {
+       "id": "Dan dia dengar Pak Wibowo teriak di ruangannya.",
+       "seg": [
+        {
+         "t": "Dan dia dengar Pak Wibowo teriak di ruangannya.",
+         "tk": [
+          {
+           "w": "Dan"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "dia"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "dengar"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "Pak"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "Wibowo"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "teriak"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "di"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "ruangannya"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "v",
+     "title": "Kata Baru",
+     "items": [
+      {
+       "id": "gedung",
+       "ru": "здание"
+      },
+      {
+       "id": "siaran",
+       "ru": "эфир, вещание"
+      },
+      {
+       "id": "kedap suara",
+       "ru": "звуконепроницаемый"
+      },
+      {
+       "id": "ruang tunggu",
+       "ru": "приёмная, зал ожидания"
+      },
+      {
+       "id": "jam dinding",
+       "ru": "настенные часы"
+      },
+      {
+       "id": "langsung",
+       "ru": "прямой, напрямую"
+      },
+      {
+       "id": "acara",
+       "ru": "программа, мероприятие"
+      },
+      {
+       "id": "putar",
+       "ru": "крутить, ставить (песню)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "num": 2,
+   "title": "Empat Orang, Satu Lantai",
+   "blocks": [
+    {
+     "kind": "p",
+     "sent": [
+      {
+       "id": "Nadia buka pintu ruang Pak Wibowo.",
+       "seg": [
+        {
+         "t": "Nadia buka pintu ruang Pak Wibowo.",
+         "tk": [
+          {
+           "w": "Nadia"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "buka"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "pintu"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "ruang"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "Pak"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "Wibowo"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "p",
+     "sent": [
+      {
+       "id": "Pak Wibowo terbaring di lantai.",
+       "seg": [
+        {
+         "t": "Pak Wibowo terbaring di lantai.",
+         "tk": [
+          {
+           "w": "Pak"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "Wibowo"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "terbaring"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "di"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "lantai"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "Kepalanya kena patung besi dari mejanya.",
+       "seg": [
+        {
+         "t": "Kepalanya kena patung besi dari mejanya.",
+         "tk": [
+          {
+           "w": "Kepalanya"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "kena"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "patung"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "besi"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "dari"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "mejanya"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "p",
+     "sent": [
+      {
+       "id": "Nadia teriak.",
+       "seg": [
+        {
+         "t": "Nadia teriak.",
+         "tk": [
+          {
+           "w": "Nadia"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "teriak"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "Pak Ical lari dari ruang teknisi.",
+       "seg": [
+        {
+         "t": "Pak Ical lari dari ruang teknisi.",
+         "tk": [
+          {
+           "w": "Pak"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "Ical"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "lari"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "dari"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "ruang"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "teknisi"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "Mbak Fitri lari dari tangga.",
+       "seg": [
+        {
+         "t": "Mbak Fitri lari dari tangga.",
+         "tk": [
+          {
+           "w": "Mbak"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "Fitri"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "lari"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "dari"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "tangga"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "p",
+     "sent": [
+      {
+       "id": "Lagu itu masih jalan di radio.",
+       "seg": [
+        {
+         "t": "Lagu itu masih jalan di radio.",
+         "tk": [
+          {
+           "w": "Lagu"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "itu"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "masih"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "jalan"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "di"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "radio"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "p",
+     "sent": [
+      {
+       "id": "Polisi datang jam setengah delapan.",
+       "seg": [
+        {
+         "t": "Polisi datang jam setengah delapan.",
+         "tk": [
+          {
+           "w": "Polisi"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "datang"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "jam"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "setengah"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "delapan"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "Inspektur Salim naik ke lantai tiga dan tulis semua di buku kecil.",
+       "seg": [
+        {
+         "t": "Inspektur Salim naik ke lantai tiga dan tulis semua di buku kecil.",
+         "tk": [
+          {
+           "w": "Inspektur"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "Salim"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "naik"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "ke"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "lantai"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "tiga"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "dan"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "tulis"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "semua"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "di"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "buku"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "kecil"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "p",
+     "sent": [
+      {
+       "id": "Di gedung itu ada satu lift dan satu tangga.",
+       "seg": [
+        {
+         "t": "Di gedung itu ada satu lift dan satu tangga.",
+         "tk": [
+          {
+           "w": "Di"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "gedung"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "itu"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "ada"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "satu"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "lift"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "dan"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "satu"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "tangga"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "Satpam di bawah catat semua tamu.",
+       "seg": [
+        {
+         "t": "Satpam di bawah catat semua tamu.",
+         "tk": [
+          {
+           "w": "Satpam"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "di"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "bawah"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "catat"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "semua"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "tamu"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "Malam itu nggak ada tamu sama sekali.",
+       "seg": [
+        {
+         "t": "Malam itu nggak ada tamu sama sekali.",
+         "tk": [
+          {
+           "w": "Malam"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "itu"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "nggak"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "ada"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "tamu"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "sama"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "sekali"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "p",
+     "sent": [
+      {
+       "id": "Jadi di lantai tiga cuma ada empat orang.",
+       "seg": [
+        {
+         "t": "Jadi di lantai tiga cuma ada empat orang.",
+         "tk": [
+          {
+           "w": "Jadi"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "di"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "lantai"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "tiga"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "cuma"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "ada"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "empat"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "orang"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "Nadia, Pak Ical, Mbak Fitri, dan Bagas.",
+       "seg": [
+        {
+         "t": "Nadia, Pak Ical, Mbak Fitri, dan Bagas.",
+         "tk": [
+          {
+           "w": "Nadia"
+          },
+          {
+           "s": ", "
+          },
+          {
+           "w": "Pak"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "Ical"
+          },
+          {
+           "s": ", "
+          },
+          {
+           "w": "Mbak"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "Fitri"
+          },
+          {
+           "s": ", "
+          },
+          {
+           "w": "dan"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "Bagas"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "p",
+     "sent": [
+      {
+       "id": "Bagas adik Pak Wibowo.",
+       "seg": [
+        {
+         "t": "Bagas adik Pak Wibowo.",
+         "tk": [
+          {
+           "w": "Bagas"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "adik"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "Pak"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "Wibowo"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "Dia datang jam enam dan berantem sama kakaknya.",
+       "seg": [
+        {
+         "t": "Dia datang jam enam dan berantem sama kakaknya.",
+         "tk": [
+          {
+           "w": "Dia"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "datang"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "jam"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "enam"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "dan"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "berantem"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "sama"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "kakaknya"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "Semua orang dengar mereka teriak-teriak.",
+       "seg": [
+        {
+         "t": "Semua orang dengar mereka teriak-teriak.",
+         "tk": [
+          {
+           "w": "Semua"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "orang"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "dengar"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "mereka"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "teriak-teriak"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "p",
+     "sent": [
+      {
+       "id": "Salim tanya satu-satu.",
+       "seg": [
+        {
+         "t": "Salim tanya satu-satu.",
+         "tk": [
+          {
+           "w": "Salim"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "tanya"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "satu-satu"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "v",
+     "title": "Kata Baru",
+     "items": [
+      {
+       "id": "patung",
+       "ru": "статуэтка, статуя"
+      },
+      {
+       "id": "lift",
+       "ru": "лифт"
+      },
+      {
+       "id": "satpam",
+       "ru": "охранник"
+      },
+      {
+       "id": "catat",
+       "ru": "записывать"
+      },
+      {
+       "id": "tamu",
+       "ru": "посетитель, гость"
+      },
+      {
+       "id": "adik",
+       "ru": "младший брат/сестра"
+      },
+      {
+       "id": "teriak-teriak",
+       "ru": "кричать (много раз)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "num": 3,
+   "title": "Empat Alibi",
+   "blocks": [
+    {
+     "kind": "p",
+     "sent": [
+      {
+       "id": "Nadia, penyiar.",
+       "seg": [
+        {
+         "t": "Nadia, penyiar.",
+         "em": "b",
+         "tk": [
+          {
+           "w": "Nadia"
+          },
+          {
+           "s": ", "
+          },
+          {
+           "w": "penyiar"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "Jam tujuh dia mulai siaran.",
+       "seg": [
+        {
+         "t": "Jam tujuh dia mulai siaran.",
+         "tk": [
+          {
+           "w": "Jam"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "tujuh"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "dia"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "mulai"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "siaran"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "Jam tujuh lewat lima dia putar lagu dan keluar.",
+       "seg": [
+        {
+         "t": "Jam tujuh lewat lima dia putar lagu dan keluar.",
+         "tk": [
+          {
+           "w": "Jam"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "tujuh"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "lewat"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "lima"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "dia"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "putar"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "lagu"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "dan"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "keluar"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "Dia lihat jam dinding: tujuh lewat lima.",
+       "seg": [
+        {
+         "t": "Dia lihat jam dinding: tujuh lewat lima.",
+         "tk": [
+          {
+           "w": "Dia"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "lihat"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "jam"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "dinding"
+          },
+          {
+           "s": ": "
+          },
+          {
+           "w": "tujuh"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "lewat"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "lima"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "Terus dia dengar teriakan dan buka pintu.",
+       "seg": [
+        {
+         "t": "Terus dia dengar teriakan dan buka pintu.",
+         "tk": [
+          {
+           "w": "Terus"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "dia"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "dengar"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "teriakan"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "dan"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "buka"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "pintu"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "p",
+     "sent": [
+      {
+       "id": "Pak Ical, teknisi.",
+       "seg": [
+        {
+         "t": "Pak Ical, teknisi.",
+         "em": "b",
+         "tk": [
+          {
+           "w": "Pak"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "Ical"
+          },
+          {
+           "s": ", "
+          },
+          {
+           "w": "teknisi"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "Dia di ruang teknisi dari jam enam.",
+       "seg": [
+        {
+         "t": "Dia di ruang teknisi dari jam enam.",
+         "tk": [
+          {
+           "w": "Dia"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "di"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "ruang"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "teknisi"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "dari"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "jam"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "enam"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "Ruang teknisi juga kedap suara.",
+       "seg": [
+        {
+         "t": "Ruang teknisi juga kedap suara.",
+         "tk": [
+          {
+           "w": "Ruang"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "teknisi"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "juga"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "kedap"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "suara"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "Dia nggak dengar teriakan Pak Wibowo, cuma dengar teriakan Nadia di lorong.",
+       "seg": [
+        {
+         "t": "Dia nggak dengar teriakan Pak Wibowo, cuma dengar teriakan Nadia di lorong.",
+         "tk": [
+          {
+           "w": "Dia"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "nggak"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "dengar"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "teriakan"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "Pak"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "Wibowo"
+          },
+          {
+           "s": ", "
+          },
+          {
+           "w": "cuma"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "dengar"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "teriakan"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "Nadia"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "di"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "lorong"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "p",
+     "sent": [
+      {
+       "id": "Mbak Fitri, sekretaris.",
+       "seg": [
+        {
+         "t": "Mbak Fitri, sekretaris.",
+         "em": "b",
+         "tk": [
+          {
+           "w": "Mbak"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "Fitri"
+          },
+          {
+           "s": ", "
+          },
+          {
+           "w": "sekretaris"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "Jam tujuh kurang dia turun ke warung beli nasi.",
+       "seg": [
+        {
+         "t": "Jam tujuh kurang dia turun ke warung beli nasi.",
+         "tk": [
+          {
+           "w": "Jam"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "tujuh"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "kurang"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "dia"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "turun"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "ke"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "warung"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "beli"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "nasi"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "Satpam lihat dia keluar.",
+       "seg": [
+        {
+         "t": "Satpam lihat dia keluar.",
+         "tk": [
+          {
+           "w": "Satpam"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "lihat"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "dia"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "keluar"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "Dia balik jam tujuh lewat tujuh.",
+       "seg": [
+        {
+         "t": "Dia balik jam tujuh lewat tujuh.",
+         "tk": [
+          {
+           "w": "Dia"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "balik"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "jam"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "tujuh"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "lewat"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "tujuh"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "Satpam lihat dia masuk lagi.",
+       "seg": [
+        {
+         "t": "Satpam lihat dia masuk lagi.",
+         "tk": [
+          {
+           "w": "Satpam"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "lihat"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "dia"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "masuk"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "lagi"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "p",
+     "sent": [
+      {
+       "id": "Bagas, adik.",
+       "seg": [
+        {
+         "t": "Bagas, adik.",
+         "em": "b",
+         "tk": [
+          {
+           "w": "Bagas"
+          },
+          {
+           "s": ", "
+          },
+          {
+           "w": "adik"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "Dia bilang dia pergi jam enam lewat empat puluh.",
+       "seg": [
+        {
+         "t": "Dia bilang dia pergi jam enam lewat empat puluh.",
+         "tk": [
+          {
+           "w": "Dia"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "bilang"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "dia"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "pergi"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "jam"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "enam"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "lewat"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "empat"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "puluh"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "Tapi satpam nggak lihat dia keluar.",
+       "seg": [
+        {
+         "t": "Tapi satpam nggak lihat dia keluar.",
+         "tk": [
+          {
+           "w": "Tapi"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "satpam"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "nggak"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "lihat"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "dia"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "keluar"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "Bagas bilang dia lewat tangga belakang.",
+       "seg": [
+        {
+         "t": "Bagas bilang dia lewat tangga belakang.",
+         "tk": [
+          {
+           "w": "Bagas"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "bilang"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "dia"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "lewat"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "tangga"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "belakang"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "Tangga belakang itu memang ada, tapi pintunya dikunci dari jam lima.",
+       "seg": [
+        {
+         "t": "Tangga belakang itu memang ada, tapi pintunya dikunci dari jam lima.",
+         "tk": [
+          {
+           "w": "Tangga"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "belakang"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "itu"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "memang"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "ada"
+          },
+          {
+           "s": ", "
+          },
+          {
+           "w": "tapi"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "pintunya"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "dikunci"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "dari"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "jam"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "lima"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "p",
+     "sent": [
+      {
+       "id": "Inspektur Salim lihat catatannya dan senang.",
+       "seg": [
+        {
+         "t": "Inspektur Salim lihat catatannya dan senang.",
+         "tk": [
+          {
+           "w": "Inspektur"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "Salim"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "lihat"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "catatannya"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "dan"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "senang"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "Gampang, katanya.",
+       "seg": [
+        {
+         "t": "Gampang, katanya.",
+         "tk": [
+          {
+           "w": "Gampang"
+          },
+          {
+           "s": ", "
+          },
+          {
+           "w": "katanya"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "Adiknya.",
+       "seg": [
+        {
+         "t": "Adiknya.",
+         "tk": [
+          {
+           "w": "Adiknya"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "v",
+     "title": "Kata Baru",
+     "items": [
+      {
+       "id": "penyiar",
+       "ru": "ведущий эфира"
+      },
+      {
+       "id": "teknisi",
+       "ru": "техник"
+      },
+      {
+       "id": "teriakan",
+       "ru": "крик"
+      },
+      {
+       "id": "sekretaris",
+       "ru": "секретарь"
+      },
+      {
+       "id": "turun",
+       "ru": "спускаться"
+      },
+      {
+       "id": "nasi",
+       "ru": "рис, еда"
+      },
+      {
+       "id": "sekali lagi",
+       "ru": "ещё раз"
+      },
+      {
+       "id": "gampang",
+       "ru": "легко"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "num": 4,
+   "title": "Jam Dinding",
+   "blocks": [
+    {
+     "kind": "p",
+     "sent": [
+      {
+       "id": "Bagas ditahan hari Jumat.",
+       "seg": [
+        {
+         "t": "Bagas ditahan hari Jumat.",
+         "tk": [
+          {
+           "w": "Bagas"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "ditahan"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "hari"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "Jumat"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "p",
+     "sent": [
+      {
+       "id": "Hari Sabtu saya datang ke kantor radio itu.",
+       "seg": [
+        {
+         "t": "Hari Sabtu saya datang ke kantor radio itu.",
+         "tk": [
+          {
+           "w": "Hari"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "Sabtu"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "saya"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "datang"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "ke"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "kantor"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "radio"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "itu"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "Nama saya Salim juga, tapi bukan inspektur.",
+       "seg": [
+        {
+         "t": "Nama saya Salim juga, tapi bukan inspektur.",
+         "tk": [
+          {
+           "w": "Nama"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "saya"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "Salim"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "juga"
+          },
+          {
+           "s": ", "
+          },
+          {
+           "w": "tapi"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "bukan"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "inspektur"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "Saya adiknya, dan saya kerja di bengkel jam.",
+       "seg": [
+        {
+         "t": "Saya adiknya, dan saya kerja di bengkel jam.",
+         "tk": [
+          {
+           "w": "Saya"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "adiknya"
+          },
+          {
+           "s": ", "
+          },
+          {
+           "w": "dan"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "saya"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "kerja"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "di"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "bengkel"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "jam"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "p",
+     "sent": [
+      {
+       "id": "Kakak saya minta saya lihat satu hal.",
+       "seg": [
+        {
+         "t": "Kakak saya minta saya lihat satu hal.",
+         "tk": [
+          {
+           "w": "Kakak"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "saya"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "minta"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "saya"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "lihat"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "satu"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "hal"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "p",
+     "sent": [
+      {
+       "id": "Kata dia: jam dinding di ruang tunggu itu bunyinya aneh.",
+       "seg": [
+        {
+         "t": "Kata dia: jam dinding di ruang tunggu itu bunyinya aneh.",
+         "tk": [
+          {
+           "w": "Kata"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "dia"
+          },
+          {
+           "s": ": "
+          },
+          {
+           "w": "jam"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "dinding"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "di"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "ruang"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "tunggu"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "itu"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "bunyinya"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "aneh"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "p",
+     "sent": [
+      {
+       "id": "Saya buka jam itu.",
+       "seg": [
+        {
+         "t": "Saya buka jam itu.",
+         "tk": [
+          {
+           "w": "Saya"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "buka"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "jam"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "itu"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "Jamnya tua, buatan tahun tujuh puluhan.",
+       "seg": [
+        {
+         "t": "Jamnya tua, buatan tahun tujuh puluhan.",
+         "tk": [
+          {
+           "w": "Jamnya"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "tua"
+          },
+          {
+           "s": ", "
+          },
+          {
+           "w": "buatan"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "tahun"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "tujuh"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "puluhan"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "Di dalamnya ada debu banyak.",
+       "seg": [
+        {
+         "t": "Di dalamnya ada debu banyak.",
+         "tk": [
+          {
+           "w": "Di"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "dalamnya"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "ada"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "debu"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "banyak"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "p",
+     "sent": [
+      {
+       "id": "Saya cocokkan jam itu sama jam tangan saya.",
+       "seg": [
+        {
+         "t": "Saya cocokkan jam itu sama jam tangan saya.",
+         "tk": [
+          {
+           "w": "Saya"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "cocokkan"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "jam"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "itu"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "sama"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "jam"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "tangan"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "saya"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "Jam dinding itu cepat sepuluh menit.",
+       "seg": [
+        {
+         "t": "Jam dinding itu cepat sepuluh menit.",
+         "tk": [
+          {
+           "w": "Jam"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "dinding"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "itu"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "cepat"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "sepuluh"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "menit"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "p",
+     "sent": [
+      {
+       "id": "Saya tanya Pak Ical.",
+       "seg": [
+        {
+         "t": "Saya tanya Pak Ical.",
+         "tk": [
+          {
+           "w": "Saya"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "tanya"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "Pak"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "Ical"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "p",
+     "sent": [
+      {
+       "id": "Oh, iya, katanya.",
+       "seg": [
+        {
+         "t": "Oh, iya, katanya.",
+         "tk": [
+          {
+           "w": "Oh"
+          },
+          {
+           "s": ", "
+          },
+          {
+           "w": "iya"
+          },
+          {
+           "s": ", "
+          },
+          {
+           "w": "katanya"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "Jam itu memang cepat.",
+       "seg": [
+        {
+         "t": "Jam itu memang cepat.",
+         "tk": [
+          {
+           "w": "Jam"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "itu"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "memang"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "cepat"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "Sudah dari dulu.",
+       "seg": [
+        {
+         "t": "Sudah dari dulu.",
+         "tk": [
+          {
+           "w": "Sudah"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "dari"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "dulu"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "Kami nggak pakai jam itu buat siaran.",
+       "seg": [
+        {
+         "t": "Kami nggak pakai jam itu buat siaran.",
+         "tk": [
+          {
+           "w": "Kami"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "nggak"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "pakai"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "jam"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "itu"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "buat"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "siaran"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "Buat siaran kami pakai jam studio, yang pakai listrik.",
+       "seg": [
+        {
+         "t": "Buat siaran kami pakai jam studio, yang pakai listrik.",
+         "tk": [
+          {
+           "w": "Buat"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "siaran"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "kami"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "pakai"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "jam"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "studio"
+          },
+          {
+           "s": ", "
+          },
+          {
+           "w": "yang"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "pakai"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "listrik"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "p",
+     "sent": [
+      {
+       "id": "Jadi orang di ruang tunggu lihat jam yang salah?",
+       "seg": [
+        {
+         "t": "Jadi orang di ruang tunggu lihat jam yang salah?",
+         "tk": [
+          {
+           "w": "Jadi"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "orang"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "di"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "ruang"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "tunggu"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "lihat"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "jam"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "yang"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "salah"
+          },
+          {
+           "s": "?"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "p",
+     "sent": [
+      {
+       "id": "Iya, kata Pak Ical.",
+       "seg": [
+        {
+         "t": "Iya, kata Pak Ical.",
+         "tk": [
+          {
+           "w": "Iya"
+          },
+          {
+           "s": ", "
+          },
+          {
+           "w": "kata"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "Pak"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "Ical"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "Tapi semua orang di sini tahu.",
+       "seg": [
+        {
+         "t": "Tapi semua orang di sini tahu.",
+         "tk": [
+          {
+           "w": "Tapi"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "semua"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "orang"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "di"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "sini"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "tahu"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "p",
+     "sent": [
+      {
+       "id": "Saya tulis satu kalimat di buku saya.",
+       "seg": [
+        {
+         "t": "Saya tulis satu kalimat di buku saya.",
+         "tk": [
+          {
+           "w": "Saya"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "tulis"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "satu"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "kalimat"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "di"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "buku"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "saya"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "Semua orang di sini tahu.",
+       "seg": [
+        {
+         "t": "Semua orang di sini tahu.",
+         "tk": [
+          {
+           "w": "Semua"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "orang"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "di"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "sini"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "tahu"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "v",
+     "title": "Kata Baru",
+     "items": [
+      {
+       "id": "ditahan",
+       "ru": "задержан, арестован"
+      },
+      {
+       "id": "bengkel",
+       "ru": "мастерская"
+      },
+      {
+       "id": "debu",
+       "ru": "пыль"
+      },
+      {
+       "id": "cocokkan",
+       "ru": "сверить, подогнать"
+      },
+      {
+       "id": "jam tangan",
+       "ru": "наручные часы"
+      },
+      {
+       "id": "cepat",
+       "ru": "быстрый; спешить (о часах)"
+      },
+      {
+       "id": "salah",
+       "ru": "неправильный"
+      },
+      {
+       "id": "buatan",
+       "ru": "производства, сделанный"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "num": 5,
+   "title": "Rekaman Siaran",
+   "blocks": [
+    {
+     "kind": "p",
+     "sent": [
+      {
+       "id": "Radio itu rekam semua siarannya.",
+       "seg": [
+        {
+         "t": "Radio itu rekam semua siarannya.",
+         "tk": [
+          {
+           "w": "Radio"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "itu"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "rekam"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "semua"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "siarannya"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "Rekamannya disimpan tiga bulan.",
+       "seg": [
+        {
+         "t": "Rekamannya disimpan tiga bulan.",
+         "tk": [
+          {
+           "w": "Rekamannya"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "disimpan"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "tiga"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "bulan"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "p",
+     "sent": [
+      {
+       "id": "Saya dengar rekaman hari Kamis.",
+       "seg": [
+        {
+         "t": "Saya dengar rekaman hari Kamis.",
+         "tk": [
+          {
+           "w": "Saya"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "dengar"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "rekaman"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "hari"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "Kamis"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "p",
+     "sent": [
+      {
+       "id": "Jam tujuh nol nol, Nadia mulai.",
+       "seg": [
+        {
+         "t": "Jam tujuh nol nol, Nadia mulai.",
+         "tk": [
+          {
+           "w": "Jam"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "tujuh"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "nol"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "nol"
+          },
+          {
+           "s": ", "
+          },
+          {
+           "w": "Nadia"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "mulai"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "Selamat malam, kata dia.",
+       "seg": [
+        {
+         "t": "Selamat malam, kata dia.",
+         "tk": [
+          {
+           "w": "Selamat"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "malam"
+          },
+          {
+           "s": ", "
+          },
+          {
+           "w": "kata"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "dia"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "Suaranya tenang.",
+       "seg": [
+        {
+         "t": "Suaranya tenang.",
+         "tk": [
+          {
+           "w": "Suaranya"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "tenang"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "p",
+     "sent": [
+      {
+       "id": "Dia baca dua surat pendengar.",
+       "seg": [
+        {
+         "t": "Dia baca dua surat pendengar.",
+         "tk": [
+          {
+           "w": "Dia"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "baca"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "dua"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "surat"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "pendengar"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "Terus dia bilang: sekarang lagu pertama.",
+       "seg": [
+        {
+         "t": "Terus dia bilang: sekarang lagu pertama.",
+         "tk": [
+          {
+           "w": "Terus"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "dia"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "bilang"
+          },
+          {
+           "s": ": "
+          },
+          {
+           "w": "sekarang"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "lagu"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "pertama"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "p",
+     "sent": [
+      {
+       "id": "Saya lihat jam di rekaman.",
+       "seg": [
+        {
+         "t": "Saya lihat jam di rekaman.",
+         "tk": [
+          {
+           "w": "Saya"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "lihat"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "jam"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "di"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "rekaman"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "Lagu pertama mulai jam tujuh lewat lima, betul.",
+       "seg": [
+        {
+         "t": "Lagu pertama mulai jam tujuh lewat lima, betul.",
+         "tk": [
+          {
+           "w": "Lagu"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "pertama"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "mulai"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "jam"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "tujuh"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "lewat"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "lima"
+          },
+          {
+           "s": ", "
+          },
+          {
+           "w": "betul"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "p",
+     "sent": [
+      {
+       "id": "Lagunya empat menit dua belas detik.",
+       "seg": [
+        {
+         "t": "Lagunya empat menit dua belas detik.",
+         "tk": [
+          {
+           "w": "Lagunya"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "empat"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "menit"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "dua"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "belas"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "detik"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "p",
+     "sent": [
+      {
+       "id": "Habis lagu itu, ada dua menit sepi.",
+       "seg": [
+        {
+         "t": "Habis lagu itu, ada dua menit sepi.",
+         "tk": [
+          {
+           "w": "Habis"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "lagu"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "itu"
+          },
+          {
+           "s": ", "
+          },
+          {
+           "w": "ada"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "dua"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "menit"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "sepi"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "Terus baru ada suara ribut di lorong.",
+       "seg": [
+        {
+         "t": "Terus baru ada suara ribut di lorong.",
+         "tk": [
+          {
+           "w": "Terus"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "baru"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "ada"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "suara"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "ribut"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "di"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "lorong"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "p",
+     "sent": [
+      {
+       "id": "Saya dengar bagian itu tiga kali.",
+       "seg": [
+        {
+         "t": "Saya dengar bagian itu tiga kali.",
+         "tk": [
+          {
+           "w": "Saya"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "dengar"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "bagian"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "itu"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "tiga"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "kali"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "p",
+     "sent": [
+      {
+       "id": "Kalau Nadia keluar waktu lagu jalan, dia balik sebelum lagu habis.",
+       "seg": [
+        {
+         "t": "Kalau Nadia keluar waktu lagu jalan, dia balik sebelum lagu habis.",
+         "tk": [
+          {
+           "w": "Kalau"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "Nadia"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "keluar"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "waktu"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "lagu"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "jalan"
+          },
+          {
+           "s": ", "
+          },
+          {
+           "w": "dia"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "balik"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "sebelum"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "lagu"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "habis"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "Penyiar nggak boleh kasih radio sepi.",
+       "seg": [
+        {
+         "t": "Penyiar nggak boleh kasih radio sepi.",
+         "tk": [
+          {
+           "w": "Penyiar"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "nggak"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "boleh"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "kasih"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "radio"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "sepi"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "Tapi radio itu sepi dua menit.",
+       "seg": [
+        {
+         "t": "Tapi radio itu sepi dua menit.",
+         "tk": [
+          {
+           "w": "Tapi"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "radio"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "itu"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "sepi"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "dua"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "menit"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "p",
+     "sent": [
+      {
+       "id": "Berarti waktu lagu habis, Nadia nggak ada di studio.",
+       "seg": [
+        {
+         "t": "Berarti waktu lagu habis, Nadia nggak ada di studio.",
+         "tk": [
+          {
+           "w": "Berarti"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "waktu"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "lagu"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "habis"
+          },
+          {
+           "s": ", "
+          },
+          {
+           "w": "Nadia"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "nggak"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "ada"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "di"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "studio"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "Dan waktu itu memang dia lagi teriak di lorong.",
+       "seg": [
+        {
+         "t": "Dan waktu itu memang dia lagi teriak di lorong.",
+         "tk": [
+          {
+           "w": "Dan"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "waktu"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "itu"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "memang"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "dia"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "lagi"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "teriak"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "di"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "lorong"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "p",
+     "sent": [
+      {
+       "id": "Saya hitung mundur dari situ.",
+       "seg": [
+        {
+         "t": "Saya hitung mundur dari situ.",
+         "tk": [
+          {
+           "w": "Saya"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "hitung"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "mundur"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "dari"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "situ"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "v",
+     "title": "Kata Baru",
+     "items": [
+      {
+       "id": "rekaman",
+       "ru": "запись"
+      },
+      {
+       "id": "rekam",
+       "ru": "записывать"
+      },
+      {
+       "id": "pendengar",
+       "ru": "слушатель"
+      },
+      {
+       "id": "sepi",
+       "ru": "тихо, пусто"
+      },
+      {
+       "id": "ribut",
+       "ru": "шумный, суматоха"
+      },
+      {
+       "id": "boleh",
+       "ru": "можно, разрешено"
+      },
+      {
+       "id": "hitung",
+       "ru": "считать"
+      },
+      {
+       "id": "mundur",
+       "ru": "назад"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "num": 6,
+   "title": "Tantangan Untuk Pembaca",
+   "blocks": [
+    {
+     "kind": "p",
+     "sent": [
+      {
+       "id": "Sekarang berhenti sebentar.",
+       "seg": [
+        {
+         "t": "Sekarang berhenti sebentar.",
+         "tk": [
+          {
+           "w": "Sekarang"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "berhenti"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "sebentar"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "p",
+     "sent": [
+      {
+       "id": "Semua yang saya tahu, kamu juga tahu.",
+       "seg": [
+        {
+         "t": "Semua yang saya tahu, kamu juga tahu.",
+         "tk": [
+          {
+           "w": "Semua"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "yang"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "saya"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "tahu"
+          },
+          {
+           "s": ", "
+          },
+          {
+           "w": "kamu"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "juga"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "tahu"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "p",
+     "sent": [
+      {
+       "id": "Kamu tahu ada empat orang di lantai tiga.",
+       "seg": [
+        {
+         "t": "Kamu tahu ada empat orang di lantai tiga.",
+         "tk": [
+          {
+           "w": "Kamu"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "tahu"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "ada"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "empat"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "orang"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "di"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "lantai"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "tiga"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "Kamu tahu studio dan ruang teknisi kedap suara.",
+       "seg": [
+        {
+         "t": "Kamu tahu studio dan ruang teknisi kedap suara.",
+         "tk": [
+          {
+           "w": "Kamu"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "tahu"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "studio"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "dan"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "ruang"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "teknisi"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "kedap"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "suara"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "Kamu tahu jam dinding di ruang tunggu cepat sepuluh menit.",
+       "seg": [
+        {
+         "t": "Kamu tahu jam dinding di ruang tunggu cepat sepuluh menit.",
+         "tk": [
+          {
+           "w": "Kamu"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "tahu"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "jam"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "dinding"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "di"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "ruang"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "tunggu"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "cepat"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "sepuluh"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "menit"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "Kamu tahu semua orang kantor tahu soal jam itu.",
+       "seg": [
+        {
+         "t": "Kamu tahu semua orang kantor tahu soal jam itu.",
+         "tk": [
+          {
+           "w": "Kamu"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "tahu"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "semua"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "orang"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "kantor"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "tahu"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "soal"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "jam"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "itu"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "Kamu tahu lagu pertama mulai jam tujuh lewat lima dan panjangnya empat menit.",
+       "seg": [
+        {
+         "t": "Kamu tahu lagu pertama mulai jam tujuh lewat lima dan panjangnya empat menit.",
+         "tk": [
+          {
+           "w": "Kamu"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "tahu"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "lagu"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "pertama"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "mulai"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "jam"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "tujuh"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "lewat"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "lima"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "dan"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "panjangnya"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "empat"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "menit"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "Kamu tahu satpam catat semua orang yang keluar masuk.",
+       "seg": [
+        {
+         "t": "Kamu tahu satpam catat semua orang yang keluar masuk.",
+         "tk": [
+          {
+           "w": "Kamu"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "tahu"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "satpam"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "catat"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "semua"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "orang"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "yang"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "keluar"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "masuk"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "p",
+     "sent": [
+      {
+       "id": "Satu orang bilang sesuatu yang cuma bisa dibilang sama orang yang nggak tahu jam itu cepat.",
+       "seg": [
+        {
+         "t": "Satu orang bilang sesuatu yang cuma bisa dibilang sama orang yang nggak tahu jam itu cepat.",
+         "tk": [
+          {
+           "w": "Satu"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "orang"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "bilang"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "sesuatu"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "yang"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "cuma"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "bisa"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "dibilang"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "sama"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "orang"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "yang"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "nggak"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "tahu"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "jam"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "itu"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "cepat"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "p",
+     "sent": [
+      {
+       "id": "Siapa?",
+       "seg": [
+        {
+         "t": "Siapa?",
+         "tk": [
+          {
+           "w": "Siapa"
+          },
+          {
+           "s": "?"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "p",
+     "sent": [
+      {
+       "id": "Dan kenapa orang itu bohong soal jam?",
+       "seg": [
+        {
+         "t": "Dan kenapa orang itu bohong soal jam?",
+         "tk": [
+          {
+           "w": "Dan"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "kenapa"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "orang"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "itu"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "bohong"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "soal"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "jam"
+          },
+          {
+           "s": "?"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "v",
+     "title": "Kata Baru",
+     "items": [
+      {
+       "id": "tantangan",
+       "ru": "вызов"
+      },
+      {
+       "id": "pembaca",
+       "ru": "читатель"
+      },
+      {
+       "id": "bohong",
+       "ru": "врать"
+      },
+      {
+       "id": "sesuatu",
+       "ru": "что-то"
+      },
+      {
+       "id": "keluar masuk",
+       "ru": "входить и выходить"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "num": 7,
+   "title": "Yang Lihat Jam Yang Salah",
+   "blocks": [
+    {
+     "kind": "p",
+     "sent": [
+      {
+       "id": "Hari Senin saya ketemu kakak saya di kantor polisi.",
+       "seg": [
+        {
+         "t": "Hari Senin saya ketemu kakak saya di kantor polisi.",
+         "tk": [
+          {
+           "w": "Hari"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "Senin"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "saya"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "ketemu"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "kakak"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "saya"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "di"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "kantor"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "polisi"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "p",
+     "sent": [
+      {
+       "id": "Lepasin Bagas, kata saya.",
+       "seg": [
+        {
+         "t": "Lepasin Bagas, kata saya.",
+         "tk": [
+          {
+           "w": "Lepasin"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "Bagas"
+          },
+          {
+           "s": ", "
+          },
+          {
+           "w": "kata"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "saya"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "p",
+     "sent": [
+      {
+       "id": "Kakak saya marah.",
+       "seg": [
+        {
+         "t": "Kakak saya marah.",
+         "tk": [
+          {
+           "w": "Kakak"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "saya"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "marah"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "Dia nggak punya alibi, katanya.",
+       "seg": [
+        {
+         "t": "Dia nggak punya alibi, katanya.",
+         "tk": [
+          {
+           "w": "Dia"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "nggak"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "punya"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "alibi"
+          },
+          {
+           "s": ", "
+          },
+          {
+           "w": "katanya"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "p",
+     "sent": [
+      {
+       "id": "Justru itu, jawab saya.",
+       "seg": [
+        {
+         "t": "Justru itu, jawab saya.",
+         "tk": [
+          {
+           "w": "Justru"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "itu"
+          },
+          {
+           "s": ", "
+          },
+          {
+           "w": "jawab"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "saya"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "Orang yang bunuh orang bikin alibi.",
+       "seg": [
+        {
+         "t": "Orang yang bunuh orang bikin alibi.",
+         "tk": [
+          {
+           "w": "Orang"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "yang"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "bunuh"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "orang"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "bikin"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "alibi"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "Bagas nggak bikin apa-apa, karena dia memang cuma pulang lewat tangga belakang.",
+       "seg": [
+        {
+         "t": "Bagas nggak bikin apa-apa, karena dia memang cuma pulang lewat tangga belakang.",
+         "tk": [
+          {
+           "w": "Bagas"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "nggak"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "bikin"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "apa-apa"
+          },
+          {
+           "s": ", "
+          },
+          {
+           "w": "karena"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "dia"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "memang"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "cuma"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "pulang"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "lewat"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "tangga"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "belakang"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "Pintu tangga itu dikunci dari jam lima, tapi kuncinya rusak dari bulan lalu.",
+       "seg": [
+        {
+         "t": "Pintu tangga itu dikunci dari jam lima, tapi kuncinya rusak dari bulan lalu.",
+         "tk": [
+          {
+           "w": "Pintu"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "tangga"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "itu"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "dikunci"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "dari"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "jam"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "lima"
+          },
+          {
+           "s": ", "
+          },
+          {
+           "w": "tapi"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "kuncinya"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "rusak"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "dari"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "bulan"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "lalu"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "Saya sudah coba sendiri hari Sabtu.",
+       "seg": [
+        {
+         "t": "Saya sudah coba sendiri hari Sabtu.",
+         "tk": [
+          {
+           "w": "Saya"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "sudah"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "coba"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "sendiri"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "hari"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "Sabtu"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "p",
+     "sent": [
+      {
+       "id": "Terus siapa?",
+       "seg": [
+        {
+         "t": "Terus siapa?",
+         "tk": [
+          {
+           "w": "Terus"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "siapa"
+          },
+          {
+           "s": "?"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "p",
+     "sent": [
+      {
+       "id": "Saya taruh catatan saya di meja.",
+       "seg": [
+        {
+         "t": "Saya taruh catatan saya di meja.",
+         "tk": [
+          {
+           "w": "Saya"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "taruh"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "catatan"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "saya"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "di"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "meja"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "p",
+     "sent": [
+      {
+       "id": "Nadia bilang dia keluar studio jam tujuh lewat lima.",
+       "seg": [
+        {
+         "t": "Nadia bilang dia keluar studio jam tujuh lewat lima.",
+         "tk": [
+          {
+           "w": "Nadia"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "bilang"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "dia"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "keluar"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "studio"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "jam"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "tujuh"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "lewat"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "lima"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "Dia bilang dia tahu itu karena dia lihat jam dinding di ruang tunggu.",
+       "seg": [
+        {
+         "t": "Dia bilang dia tahu itu karena dia lihat jam dinding di ruang tunggu.",
+         "tk": [
+          {
+           "w": "Dia"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "bilang"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "dia"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "tahu"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "itu"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "karena"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "dia"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "lihat"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "jam"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "dinding"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "di"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "ruang"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "tunggu"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "p",
+     "sent": [
+      {
+       "id": "Tapi jam dinding itu cepat sepuluh menit.",
+       "seg": [
+        {
+         "t": "Tapi jam dinding itu cepat sepuluh menit.",
+         "tk": [
+          {
+           "w": "Tapi"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "jam"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "dinding"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "itu"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "cepat"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "sepuluh"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "menit"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "Kalau dia betul-betul lihat jam itu, dia bakal bilang jam tujuh lewat lima belas.",
+       "seg": [
+        {
+         "t": "Kalau dia betul-betul lihat jam itu, dia bakal bilang jam tujuh lewat lima belas.",
+         "tk": [
+          {
+           "w": "Kalau"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "dia"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "betul-betul"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "lihat"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "jam"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "itu"
+          },
+          {
+           "s": ", "
+          },
+          {
+           "w": "dia"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "bakal"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "bilang"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "jam"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "tujuh"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "lewat"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "lima"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "belas"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "Dia nggak bilang begitu.",
+       "seg": [
+        {
+         "t": "Dia nggak bilang begitu.",
+         "tk": [
+          {
+           "w": "Dia"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "nggak"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "bilang"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "begitu"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "Dia bilang angka yang betul.",
+       "seg": [
+        {
+         "t": "Dia bilang angka yang betul.",
+         "tk": [
+          {
+           "w": "Dia"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "bilang"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "angka"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "yang"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "betul"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "p",
+     "sent": [
+      {
+       "id": "Kakak saya diam.",
+       "seg": [
+        {
+         "t": "Kakak saya diam.",
+         "tk": [
+          {
+           "w": "Kakak"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "saya"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "diam"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "p",
+     "sent": [
+      {
+       "id": "Dia bukan lihat jam dinding, kata saya.",
+       "seg": [
+        {
+         "t": "Dia bukan lihat jam dinding, kata saya.",
+         "tk": [
+          {
+           "w": "Dia"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "bukan"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "lihat"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "jam"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "dinding"
+          },
+          {
+           "s": ", "
+          },
+          {
+           "w": "kata"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "saya"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "Dia lihat jam studio, sebelum dia keluar.",
+       "seg": [
+        {
+         "t": "Dia lihat jam studio, sebelum dia keluar.",
+         "tk": [
+          {
+           "w": "Dia"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "lihat"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "jam"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "studio"
+          },
+          {
+           "s": ", "
+          },
+          {
+           "w": "sebelum"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "dia"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "keluar"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "Terus dia tambah cerita soal jam dinding, biar kelihatan alami.",
+       "seg": [
+        {
+         "t": "Terus dia tambah cerita soal jam dinding, biar kelihatan alami.",
+         "tk": [
+          {
+           "w": "Terus"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "dia"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "tambah"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "cerita"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "soal"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "jam"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "dinding"
+          },
+          {
+           "s": ", "
+          },
+          {
+           "w": "biar"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "kelihatan"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "alami"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "p",
+     "sent": [
+      {
+       "id": "Orang yang kerja di situ tiap hari nggak akan bikin salah kayak gitu.",
+       "seg": [
+        {
+         "t": "Orang yang kerja di situ tiap hari nggak akan bikin salah kayak gitu.",
+         "tk": [
+          {
+           "w": "Orang"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "yang"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "kerja"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "di"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "situ"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "tiap"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "hari"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "nggak"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "akan"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "bikin"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "salah"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "kayak"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "gitu"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "Kecuali dia lagi buru-buru bikin cerita.",
+       "seg": [
+        {
+         "t": "Kecuali dia lagi buru-buru bikin cerita.",
+         "tk": [
+          {
+           "w": "Kecuali"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "dia"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "lagi"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "buru-buru"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "bikin"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "cerita"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "p",
+     "sent": [
+      {
+       "id": "Tapi kenapa dia bohong?",
+       "seg": [
+        {
+         "t": "Tapi kenapa dia bohong?",
+         "tk": [
+          {
+           "w": "Tapi"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "kenapa"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "dia"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "bohong"
+          },
+          {
+           "s": "?"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "p",
+     "sent": [
+      {
+       "id": "Karena dia keluar lebih awal, jawab saya.",
+       "seg": [
+        {
+         "t": "Karena dia keluar lebih awal, jawab saya.",
+         "tk": [
+          {
+           "w": "Karena"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "dia"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "keluar"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "lebih"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "awal"
+          },
+          {
+           "s": ", "
+          },
+          {
+           "w": "jawab"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "saya"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "Rekaman siarannya sepi dua menit di akhir lagu.",
+       "seg": [
+        {
+         "t": "Rekaman siarannya sepi dua menit di akhir lagu.",
+         "tk": [
+          {
+           "w": "Rekaman"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "siarannya"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "sepi"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "dua"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "menit"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "di"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "akhir"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "lagu"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "Nadia keluar bukan waktu lagu jalan.",
+       "seg": [
+        {
+         "t": "Nadia keluar bukan waktu lagu jalan.",
+         "tk": [
+          {
+           "w": "Nadia"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "keluar"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "bukan"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "waktu"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "lagu"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "jalan"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "Dia keluar sebelum lagu dia putar.",
+       "seg": [
+        {
+         "t": "Dia keluar sebelum lagu dia putar.",
+         "tk": [
+          {
+           "w": "Dia"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "keluar"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "sebelum"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "lagu"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "dia"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "putar"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "Lagu itu dia siapkan biar radio nggak sepi selama dia di ruang Pak Wibowo.",
+       "seg": [
+        {
+         "t": "Lagu itu dia siapkan biar radio nggak sepi selama dia di ruang Pak Wibowo.",
+         "tk": [
+          {
+           "w": "Lagu"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "itu"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "dia"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "siapkan"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "biar"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "radio"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "nggak"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "sepi"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "selama"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "dia"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "di"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "ruang"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "Pak"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "Wibowo"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "p",
+     "sent": [
+      {
+       "id": "Kakak saya panggil orang dan minta rekaman itu lagi.",
+       "seg": [
+        {
+         "t": "Kakak saya panggil orang dan minta rekaman itu lagi.",
+         "tk": [
+          {
+           "w": "Kakak"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "saya"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "panggil"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "orang"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "dan"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "minta"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "rekaman"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "itu"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "lagi"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "p",
+     "sent": [
+      {
+       "id": "Nadia ngaku hari Rabu.",
+       "seg": [
+        {
+         "t": "Nadia ngaku hari Rabu.",
+         "tk": [
+          {
+           "w": "Nadia"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "ngaku"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "hari"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "Rabu"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "p",
+     "sent": [
+      {
+       "id": "Ceritanya biasa banget.",
+       "seg": [
+        {
+         "t": "Ceritanya biasa banget.",
+         "tk": [
+          {
+           "w": "Ceritanya"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "biasa"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "banget"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "Radio itu rugi tiga tahun.",
+       "seg": [
+        {
+         "t": "Radio itu rugi tiga tahun.",
+         "tk": [
+          {
+           "w": "Radio"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "itu"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "rugi"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "tiga"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "tahun"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "Pak Wibowo mau jual gedungnya dan tutup radionya.",
+       "seg": [
+        {
+         "t": "Pak Wibowo mau jual gedungnya dan tutup radionya.",
+         "tk": [
+          {
+           "w": "Pak"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "Wibowo"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "mau"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "jual"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "gedungnya"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "dan"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "tutup"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "radionya"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "Hari Kamis dia bilang ke Nadia: bulan depan kamu cari kerja lain.",
+       "seg": [
+        {
+         "t": "Hari Kamis dia bilang ke Nadia: bulan depan kamu cari kerja lain.",
+         "tk": [
+          {
+           "w": "Hari"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "Kamis"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "dia"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "bilang"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "ke"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "Nadia"
+          },
+          {
+           "s": ": "
+          },
+          {
+           "w": "bulan"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "depan"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "kamu"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "cari"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "kerja"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "lain"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "p",
+     "sent": [
+      {
+       "id": "Nadia siaran di radio itu dua belas tahun.",
+       "seg": [
+        {
+         "t": "Nadia siaran di radio itu dua belas tahun.",
+         "tk": [
+          {
+           "w": "Nadia"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "siaran"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "di"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "radio"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "itu"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "dua"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "belas"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "tahun"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "p",
+     "sent": [
+      {
+       "id": "Saya nggak rencanakan, kata dia ke polisi.",
+       "seg": [
+        {
+         "t": "Saya nggak rencanakan, kata dia ke polisi.",
+         "tk": [
+          {
+           "w": "Saya"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "nggak"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "rencanakan"
+          },
+          {
+           "s": ", "
+          },
+          {
+           "w": "kata"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "dia"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "ke"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "polisi"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "Patung itu ada di meja.",
+       "seg": [
+        {
+         "t": "Patung itu ada di meja.",
+         "tk": [
+          {
+           "w": "Patung"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "itu"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "ada"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "di"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "meja"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "Saya cuma mau dia dengar saya sekali aja.",
+       "seg": [
+        {
+         "t": "Saya cuma mau dia dengar saya sekali aja.",
+         "tk": [
+          {
+           "w": "Saya"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "cuma"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "mau"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "dia"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "dengar"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "saya"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "sekali"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "aja"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "p",
+     "sent": [
+      {
+       "id": "Kakak saya tanya saya di luar, waktu semua selesai.",
+       "seg": [
+        {
+         "t": "Kakak saya tanya saya di luar, waktu semua selesai.",
+         "tk": [
+          {
+           "w": "Kakak"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "saya"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "tanya"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "saya"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "di"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "luar"
+          },
+          {
+           "s": ", "
+          },
+          {
+           "w": "waktu"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "semua"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "selesai"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "Kamu tahu dari kapan?",
+       "seg": [
+        {
+         "t": "Kamu tahu dari kapan?",
+         "tk": [
+          {
+           "w": "Kamu"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "tahu"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "dari"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "kapan"
+          },
+          {
+           "s": "?"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "p",
+     "sent": [
+      {
+       "id": "Dari jam yang cepat, jawab saya.",
+       "seg": [
+        {
+         "t": "Dari jam yang cepat, jawab saya.",
+         "tk": [
+          {
+           "w": "Dari"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "jam"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "yang"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "cepat"
+          },
+          {
+           "s": ", "
+          },
+          {
+           "w": "jawab"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "saya"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "Saya kerja sama jam dua puluh tahun.",
+       "seg": [
+        {
+         "t": "Saya kerja sama jam dua puluh tahun.",
+         "tk": [
+          {
+           "w": "Saya"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "kerja"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "sama"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "jam"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "dua"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "puluh"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "tahun"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "Jam nggak pernah bohong.",
+       "seg": [
+        {
+         "t": "Jam nggak pernah bohong.",
+         "tk": [
+          {
+           "w": "Jam"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "nggak"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "pernah"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "bohong"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "Orang yang bohong soal jam yang bohong.",
+       "seg": [
+        {
+         "t": "Orang yang bohong soal jam yang bohong.",
+         "tk": [
+          {
+           "w": "Orang"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "yang"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "bohong"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "soal"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "jam"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "yang"
+          },
+          {
+           "s": " "
+          },
+          {
+           "w": "bohong"
+          },
+          {
+           "s": "."
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "kind": "v",
+     "title": "Kata Baru",
+     "items": [
+      {
+       "id": "lepasin",
+       "ru": "отпустить (разг.)"
+      },
+      {
+       "id": "rusak",
+       "ru": "сломанный"
+      },
+      {
+       "id": "angka",
+       "ru": "число, цифра"
+      },
+      {
+       "id": "alami",
+       "ru": "естественный"
+      },
+      {
+       "id": "awal",
+       "ru": "ранний, начало"
+      },
+      {
+       "id": "siapkan",
+       "ru": "подготовить"
+      },
+      {
+       "id": "ngaku",
+       "ru": "признаться"
+      },
+      {
+       "id": "rencanakan",
+       "ru": "планировать"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "appendix": "# BAGIAN BELAKANG / СПРАВОЧНАЯ ЧАСТЬ\n\n## О чём эта книга\n\n«Pukul Tujuh Lewat Lima» написана в манере **Эллери Куина** — это детектив-задача\nс честными правилами и с «вызовом читателю»: в шестой главе автор прямо\nостанавливается и говорит, что у тебя на руках ровно те же факты, что и у сыщика.\nУ Куина разгадка всегда логическая: не признание и не улика под микроскопом,\nа одна фраза подозреваемого, которая не могла быть сказана.\n\n## Честная игра\n\n| улика | глава | что значит |\n|---|---|---|\n| настенные часы спешат на 10 минут | 4 | и все сотрудники это знают |\n| Надия называет верное время «по настенным часам» | 3, 7 | значит, на них она не смотрела — фраза выдумана |\n| в эфире две минуты тишины | 5 | ведущей не было в студии дольше, чем она говорит |\n| задняя лестница: замок сломан | 7 | у Багаса нет алиби именно потому, что он ничего не готовил |\n| станция в убытке, Вибово закрывает радио | 7 | мотив: двенадцать лет работы |\n\nКлюч к задаче — не «кто мог», а «кто сказал невозможное». Все четверо могли\nподняться в кабинет; соврал один.\n\n## Грамматика, которая тут повторяется\n\n**Время.** `pukul` — книжное «час» (в заголовке), `jam` — разговорное.\n`jam tujuh lewat lima` — 19:05, `jam tujuh kurang` — около семи, чуть раньше.\n\n**`biar`** в значении цели — «чтобы»: `biar kelihatan alami` — «чтобы выглядело\nестественно». Это разговорная замена `supaya`/`agar`.\n\n**`justru itu`** — «вот именно», «в том-то и дело».\n\n**`-in` вместо `-kan`** — разговорный суффикс: `lepasin` вместо `lepaskan`,\n`siapin` вместо `siapkan`. Так говорят в Джакарте.\n\n**`kecuali`** после отрицания — «разве что»: `Kecuali dia lagi buru-buru bikin cerita`."
+}

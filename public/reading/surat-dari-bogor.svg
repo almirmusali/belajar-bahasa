@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 900" width="600" height="900" role="img" aria-label="Обложка книги «Surat dari Bogor»">
+  <title>SURAT DARI BOGOR</title>
+  <defs>
+    <linearGradient id="rain" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0f2a2a"/>
+      <stop offset="55%" stop-color="#1d4340"/>
+      <stop offset="100%" stop-color="#33645a"/>
+    </linearGradient>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f6efe0"/>
+      <stop offset="100%" stop-color="#dccfb4"/>
+    </linearGradient>
+    <filter id="soft" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="14"/>
+    </filter>
+  </defs>
+
+  <rect width="600" height="900" fill="url(#rain)"/>
+
+  <!-- Дождь Богора: он идёт в книге почти на каждой странице. -->
+  <g stroke="#bfe0d4" stroke-width="1.4" opacity=".33">
+    <line x1="40" y1="90" x2="16" y2="210"/><line x1="118" y1="40" x2="94" y2="176"/>
+    <line x1="196" y1="120" x2="172" y2="252"/><line x1="262" y1="30" x2="238" y2="150"/>
+    <line x1="348" y1="96" x2="324" y2="228"/><line x1="424" y1="46" x2="400" y2="172"/>
+    <line x1="502" y1="128" x2="478" y2="256"/><line x1="566" y1="60" x2="542" y2="188"/>
+    <line x1="76" y1="640" x2="52" y2="768"/><line x1="196" y1="700" x2="172" y2="826"/>
+    <line x1="330" y1="660" x2="306" y2="790"/><line x1="470" y1="712" x2="446" y2="840"/>
+    <line x1="556" y1="648" x2="532" y2="776"/>
+  </g>
+
+  <!-- Тёплое окно дома вдалеке. -->
+  <ellipse cx="300" cy="500" rx="200" ry="150" fill="#7fb89a" opacity=".16" filter="url(#soft)"/>
+
+  <!-- Письмо: единственная улика, с которой начинается книга. -->
+  <g transform="translate(300 500) rotate(-6)">
+    <rect x="-150" y="-100" width="300" height="200" rx="6" fill="url(#paper)"/>
+    <path d="M-150 -100 L0 22 L150 -100" fill="none" stroke="#b9a887" stroke-width="3"/>
+    <g stroke="#4c4536" stroke-width="7" stroke-linecap="round" opacity=".85">
+      <line x1="-96" y1="52" x2="30" y2="52"/>
+      <line x1="-96" y1="76" x2="-8" y2="76"/>
+    </g>
+    <!-- Гвоздика: тот самый запах на бумаге. -->
+    <g transform="translate(104 62)" fill="#7a4a2c" opacity=".75">
+      <path d="M0 -14 L3 -3 L14 0 L3 3 L0 14 L-3 3 L-14 0 L-3 -3 Z"/>
+    </g>
+  </g>
+
+  <g text-anchor="middle" font-family="Georgia, 'Iowan Old Style', 'Times New Roman', serif">
+    <text x="300" y="150" font-size="25" letter-spacing="15" fill="#dff0e4" opacity=".6">SURAT DARI</text>
+    <text x="300" y="226" font-size="66" letter-spacing="6" fill="#f4fbf3" font-weight="bold">BOGOR</text>
+    <line x1="216" y1="262" x2="384" y2="262" stroke="#f4fbf3" stroke-width="1" opacity=".45"/>
+    <text x="300" y="296" font-size="18" letter-spacing="2" fill="#e6f4e9" opacity=".8" font-style="italic">Cerita detektif</text>
+    <text x="300" y="846" font-size="14" letter-spacing="6" fill="#cbe7d6" opacity=".5">BAHASA INDONESIA MUDAH</text>
+  </g>
+</svg>

@@ -121,8 +121,40 @@ ZIP из отдельных MP3 — по одному на абзац. Скри�
 ```bash
 npm run reading:build -- <slug>       # .md → <slug>.json: главы, предложения, токены
 npm run reading:translate -- <slug>   # переводы предложений и словарь всех словоформ
+npm run reading:check -- <slug>       # у всех ли предложений есть перевод
 npm run audio:reading=<slug>          # MP3 на каждое предложение
 ```
+
+### Второй маршрут: книга из двуязычного исходника
+
+Когда перевод пишется руками, а не скриптом, книгу удобнее держать сразу на
+двух языках: `data/reading/duo/<slug>.duo.md`, где на каждой строке
+`Kalimat asli. | Перевод.`. [`scripts/build-duo.mjs`](scripts/build-duo.mjs)
+разворачивает такой файл в обычный `<slug>.md` и в `<slug>.translations.json`.
+
+Так сделаны пять детективов: `surat-dari-bogor`, `hujan-di-stasiun-tugu`,
+`pintu-yang-terkunci`, `lonceng-di-kampus`, `pukul-tujuh-lewat-lima`.
+
+Смысл формата — в ключах. Ключ перевода это точный текст предложения после
+разбора `build-reading.mjs`; разойдись он на один символ, абзац молча
+останется без кнопки ⇄. Здесь оригинал и перевод стоят на одной строке и
+ключи генерируются из того же источника, так что разойтись им негде. Скрипт
+заодно ругается на строки, которые склеятся при разборе (предложение со
+строчной буквы) или не кончаются знаком препинания.
+
+```bash
+npm run reading:duo -- <slug>         # duo/<slug>.duo.md → <slug>.md + translations.json
+npm run reading:build -- <slug>
+npm run reading:glossary -- <slug>    # глоссарий из соседних книг и врезок «Kata Baru»
+npm run reading:check -- <slug>
+```
+
+[`scripts/seed-glossary.mjs`](scripts/seed-glossary.mjs) не переводит слова, а
+берёт готовые: словоформы у книг на одном языке общие, и новая книга получает
+перевод по наведению из уже переведённых. Что не нашлось нигде — имена,
+топонимы, редкие формы — лежит в общем `data/reading/<lang>-extra.glossary.json`,
+он идёт первым в пуле. Непокрытый остаток скрипт выписывает в
+`<slug>.glossary-todo.json`.
 
 Без `<slug>` скрипты берут `kabut-di-lembang`. Голос озвучки привязан к книге
 в `READING_VOICES` (`scripts/generate-audio-voicer.mjs`) — у каждой книги свой
