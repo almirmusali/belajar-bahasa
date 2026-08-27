@@ -12,6 +12,7 @@
 //
 // Флаги:
 //   --lang=id,ru,en   какие языки озвучивать (по умолчанию все настроенные)
+//   --chapters=1-5    только эти главы книги (только вместе с --reading)
 //   --voice=<id>      переопределить голос (только вместе с одним --lang)
 //   --force           перезаписать уже озвученное (нужно при смене голоса)
 //   --examples        озвучить ещё и фразы-примеры
@@ -133,6 +134,27 @@ const READING_VOICES = {
 // озвучиваются предложения из data/reading/<slug>.json. Всё остальное —
 // батчи, ZIP, имена файлов по хэшу — работает ровно так же.
 const READING = flag("reading", has("reading") ? "kabut-di-lembang" : null);
+
+// --chapters=1-5 (или =3, или =7-) озвучивает только часть книги. Нужно, чтобы
+// не жечь квоту на весь роман сразу: сначала первые главы — послушать голос и
+// решить, катить ли дальше. Фильтр идёт по номеру главы (`## 5. My Secret`),
+// а не по её порядковому месту в файле: вступление и врезки частей номера не
+// имеют и в диапазон не попадают никогда.
+const CHAPTERS = (() => {
+  const raw = flag("chapters", null);
+  if (!raw) return null;
+  const m = raw.match(/^(\d+)?\s*-\s*(\d+)?$|^(\d+)$/);
+  if (!m) {
+    console.error(`Не понимаю --chapters=${raw} (можно: 5, 1-5, 7-)`);
+    process.exit(1);
+  }
+  if (m[3]) return { from: Number(m[3]), to: Number(m[3]) };
+  return { from: m[1] ? Number(m[1]) : 1, to: m[2] ? Number(m[2]) : Infinity };
+})();
+if (CHAPTERS && !READING) {
+  console.error("--chapters можно только вместе с --reading=<книга>");
+  process.exit(1);
+}
 
 // --express переключает источник на модуль «Экспресс»: озвучиваются все
 // индонезийские строки из data/express — примеры частиц, формы и примеры
@@ -328,11 +350,16 @@ function collectReadingTexts(slug) {
   const seen = new Set();
   const out = [];
   for (const ch of book.chapters ?? []) {
+    if (CHAPTERS && !(ch.num >= CHAPTERS.from && ch.num <= CHAPTERS.to)) continue;
     for (const b of ch.blocks ?? []) {
+      // Язык берём у блока, а не у книги: русское вступление внутри английской
+      // книги читается русским голосом и лежит в public/audio/ru. Иначе оно
+      // уедет в public/audio/en, куда читалка за ним не придёт, — квота в никуда.
+      const lang = b.lang ?? book.lang ?? "id";
       for (const s of b.sent ?? []) {
         if (!s.id || seen.has(s.id)) continue;
         seen.add(s.id);
-        out.push({ text: s.id, lang: book.lang ?? "id", kind: "sentence" });
+        out.push({ text: s.id, lang, kind: "sentence" });
       }
     }
   }

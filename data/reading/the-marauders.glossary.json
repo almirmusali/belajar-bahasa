@@ -9115,5 +9115,1232 @@
  },
  "whoever": {
   "ru": "кто бы ни"
+ },
+ "wear": {
+  "ru": "надевать, носить"
+ },
+ "second-hand": {
+  "ru": "из вторых рук"
+ },
+ "half-second": {
+  "ru": "полсекунды"
+ },
+ "mourning": {
+  "ru": "оплакивая",
+  "lemma": "mourn"
+ },
+ "facing": {
+  "ru": "за то, что противостоял",
+  "lemma": "face"
+ },
+ "term": {
+  "ru": "четверть, семестр"
+ },
+ "bookshop": {
+  "ru": "книжный магазин"
+ },
+ "sack": {
+  "ru": "увольнять"
+ },
+ "cheap": {
+  "ru": "дешёвый"
+ },
+ "landlord": {
+  "ru": "хозяин квартиры"
+ },
+ "nervous": {
+  "ru": "нервный"
+ },
+ "arguing": {
+  "ru": "спорить",
+  "lemma": "argue"
+ },
+ "chessboard": {
+  "ru": "шахматная доска"
+ },
+ "guardian": {
+  "ru": "хранитель, защитный"
+ },
+ "packing": {
+  "ru": "собирая вещи",
+  "lemma": "pack"
+ },
+ "destroy": {
+  "ru": "уничтожить"
+ },
+ "habit": {
+  "ru": "привычка"
+ },
+ "weasley": {
+  "ru": "Уизли"
+ },
+ "hermione": {
+  "ru": "Гермиона"
+ },
+ "granger": {
+  "ru": "Грейнджер"
+ },
+ "neat": {
+  "ru": "аккуратный"
+ },
+ "sixteen-year-old": {
+  "ru": "шестнадцатилетний"
+ },
+ "dare": {
+  "ru": "сметь"
+ },
+ "reaching": {
+  "ru": "потянувшись",
+  "lemma": "reach"
+ },
+ "available": {
+  "ru": "доступный, под рукой"
+ },
+ "forgiveness": {
+  "ru": "прощение"
+ },
+ "shelter": {
+  "ru": "укрытие, защита"
+ },
+ "pity": {
+  "ru": "жалость"
+ },
+ "pettigrew's": {
+  "ru": "Петтигрю"
+ },
+ "procession": {
+  "ru": "процессия"
+ },
+ "tied": {
+  "ru": "связанный",
+  "lemma": "tie"
+ },
+ "tomorrow": {
+  "ru": "завтра"
+ },
+ "potion": {
+  "ru": "зелье"
+ },
+ "harm": {
+  "ru": "вред"
+ },
+ "breakfast": {
+  "ru": "завтрак"
+ },
+ "executing": {
+  "ru": "казня",
+  "lemma": "execute"
+ },
+ "gives": {
+  "ru": "уступает",
+  "lemma": "give"
+ },
+ "crime": {
+  "ru": "преступление"
+ },
+ "weaknesses": {
+  "ru": "слабости",
+  "lemma": "weakness"
+ },
+ "towards": {
+  "ru": "к"
+ },
+ "afterwards": {
+  "ru": "впоследствии"
+ },
+ "although": {
+  "ru": "хотя"
+ },
+ "bottom": {
+  "ru": "у основания"
+ },
+ "quite": {
+  "ru": "довольно"
+ },
+ "there's": {
+  "ru": "здесь есть",
+  "lemma": "there is"
+ },
+ "bit": {
+  "ru": "часть"
+ },
+ "we're": {
+  "ru": "мы не",
+  "lemma": "we are"
+ },
+ "ridiculous": {
+  "ru": "нелепо"
+ },
+ "lying": {
+  "ru": "лежит",
+  "lemma": "lie"
+ },
+ "accounts": {
+  "ru": "в хрониках",
+  "lemma": "account"
+ },
+ "missed": {
+  "ru": "упускали",
+  "lemma": "miss"
+ },
+ "cousin": {
+  "ru": "кузен"
+ },
+ "test": {
+  "ru": "испытание"
+ },
+ "list": {
+  "ru": "список"
+ },
+ "complete": {
+  "ru": "полная"
+ },
+ "sounds": {
+  "ru": "звучит",
+  "lemma": "sound"
+ },
+ "note": {
+  "ru": "записка"
+ },
+ "learns": {
+  "ru": "узнаёт",
+  "lemma": "learn"
+ },
+ "famous": {
+  "ru": "известны"
+ },
+ "below": {
+  "ru": "внизу"
+ },
+ "horrible": {
+  "ru": "ужасное"
+ },
+ "yourself": {
+  "ru": "себе"
+ },
+ "shadow": {
+  "ru": "тень"
+ },
+ "otherwise": {
+  "ru": "иначе"
+ },
+ "lifted": {
+  "ru": "поднял",
+  "lemma": "lift"
+ },
+ "follow": {
+  "ru": "следовать"
+ },
+ "showing-off": {
+  "ru": "хвастовство",
+  "lemma": "show off"
+ },
+ "throw": {
+  "ru": "бросай"
+ },
+ "leading": {
+  "ru": "вести, лидировать",
+  "lemma": "lead"
+ },
+ "information": {
+  "ru": "информацию"
+ },
+ "modest": {
+  "ru": "скромная"
+ },
+ "likely": {
+  "ru": "вряд ли"
+ },
+ "staying": {
+  "ru": "оставаться",
+  "lemma": "stay"
+ },
+ "fitted": {
+  "ru": "соответствовала",
+  "lemma": "fit"
+ },
+ "narrow": {
+  "ru": "узкой"
+ },
+ "hill": {
+  "ru": "холм"
+ },
+ "plants": {
+  "ru": "растения",
+  "lemma": "plant"
+ },
+ "wait": {
+  "ru": "жди"
+ },
+ "song": {
+  "ru": "песню"
+ },
+ "sides": {
+  "ru": "края",
+  "lemma": "side"
+ },
+ "breathing": {
+  "ru": "дышат",
+  "lemma": "breathe"
+ },
+ "care": {
+  "ru": "не заботится"
+ },
+ "copy": {
+  "ru": "копию"
+ },
+ "bread": {
+  "ru": "хлеба"
+ },
+ "greyback": {
+  "ru": "Грейбек"
+ },
+ "march": {
+  "ru": "март"
+ },
+ "collect": {
+  "ru": "забрать"
+ },
+ "noise": {
+  "ru": "звук"
+ },
+ "feeding": {
+  "ru": "подпитка",
+  "lemma": "feed"
+ },
+ "excited": {
+  "ru": "взволнован"
+ },
+ "they'll": {
+  "ru": "они будут",
+  "lemma": "they will"
+ },
+ "rude": {
+  "ru": "грубое"
+ },
+ "thinks": {
+  "ru": "думает",
+  "lemma": "think"
+ },
+ "leaf": {
+  "ru": "лист"
+ },
+ "downstairs": {
+  "ru": "вниз"
+ },
+ "fireplace": {
+  "ru": "камин"
+ },
+ "teaspoon": {
+  "ru": "чайная ложка"
+ },
+ "worm": {
+  "ru": "червяк"
+ },
+ "complained": {
+  "ru": "жаловался",
+  "lemma": "complain"
+ },
+ "forwards": {
+  "ru": "вперёд"
+ },
+ "blanket": {
+  "ru": "одеяло"
+ },
+ "speeches": {
+  "ru": "речи",
+  "lemma": "speech"
+ },
+ "punishment": {
+  "ru": "наказание"
+ },
+ "staircase": {
+  "ru": "лестница"
+ },
+ "backwards": {
+  "ru": "назад"
+ },
+ "watchfulness": {
+  "ru": "бдительность"
+ },
+ "filthy": {
+  "ru": "грязный"
+ },
+ "plainest": {
+  "ru": "простейший",
+  "lemma": "plain"
+ },
+ "opposite": {
+  "ru": "противоположность"
+ },
+ "exam": {
+  "ru": "экзамен"
+ },
+ "fighters": {
+  "ru": "бойцов",
+  "lemma": "fighter"
+ },
+ "easier": {
+  "ru": "легче",
+  "lemma": "easy"
+ },
+ "minds": {
+  "ru": "мнения",
+  "lemma": "mind"
+ },
+ "joined": {
+  "ru": "присоединился",
+  "lemma": "join"
+ },
+ "offering": {
+  "ru": "предлагает",
+  "lemma": "offer"
+ },
+ "watchful": {
+  "ru": "бдительный"
+ },
+ "eats": {
+  "ru": "поедает",
+  "lemma": "eat"
+ },
+ "squinting": {
+  "ru": "щурясь",
+  "lemma": "squint"
+ },
+ "endless": {
+  "ru": "бесконечная"
+ },
+ "comfortable": {
+  "ru": "комфортно"
+ },
+ "washed": {
+  "ru": "стираная",
+  "lemma": "wash"
+ },
+ "obeys": {
+  "ru": "подчиняется",
+  "lemma": "obey"
+ },
+ "cared": {
+  "ru": "заботился",
+  "lemma": "care"
+ },
+ "witches": {
+  "ru": "волшебницы",
+  "lemma": "witch"
+ },
+ "badge": {
+  "ru": "значок"
+ },
+ "dignity": {
+  "ru": "достоинство"
+ },
+ "easily": {
+  "ru": "легко"
+ },
+ "violent": {
+  "ru": "жестокое"
+ },
+ "worn": {
+  "ru": "изношен",
+  "lemma": "wear"
+ },
+ "circling": {
+  "ru": "кружил, выслеживал",
+  "lemma": "circle"
+ },
+ "full-grown": {
+  "ru": "взрослый"
+ },
+ "agreeing": {
+  "ru": "соглашаясь",
+  "lemma": "agree"
+ },
+ "schoolboys": {
+  "ru": "школьников",
+  "lemma": "schoolboy"
+ },
+ "headmaster": {
+  "ru": "директор"
+ },
+ "classes": {
+  "ru": "занятия",
+  "lemma": "class"
+ },
+ "salt": {
+  "ru": "соль"
+ },
+ "lesson": {
+  "ru": "урок"
+ },
+ "flitwick": {
+  "ru": "Флитвик"
+ },
+ "snape's": {
+  "ru": "Снейп"
+ },
+ "fastest": {
+  "ru": "быстрее всех",
+  "lemma": "fast"
+ },
+ "greatest": {
+  "ru": "величайшее",
+  "lemma": "great"
+ },
+ "quality": {
+  "ru": "качество"
+ },
+ "dog's": {
+  "ru": "собаки",
+  "lemma": "dog"
+ },
+ "load": {
+  "ru": "груз, тяжесть"
+ },
+ "rests": {
+  "ru": "держится, покоится",
+  "lemma": "rest"
+ },
+ "selling": {
+  "ru": "продаёт",
+  "lemma": "sell"
+ },
+ "besides": {
+  "ru": "к тому же"
+ },
+ "dream": {
+  "ru": "сон, мечта"
+ },
+ "threw": {
+  "ru": "бросал",
+  "lemma": "throw"
+ },
+ "pointing": {
+  "ru": "направляя",
+  "lemma": "point"
+ },
+ "happening": {
+  "ru": "происходящее",
+  "lemma": "happen"
+ },
+ "red-haired": {
+  "ru": "рыжеволосая"
+ },
+ "hot": {
+  "ru": "жаркий"
+ },
+ "certainly": {
+  "ru": "конечно"
+ },
+ "lady": {
+  "ru": "дама"
+ },
+ "gown": {
+  "ru": "халат"
+ },
+ "i've": {
+  "ru": "я видела",
+  "lemma": "i have"
+ },
+ "snake-shaped": {
+  "ru": "в форме змеи"
+ },
+ "handles": {
+  "ru": "ручки",
+  "lemma": "handle"
+ },
+ "covered": {
+  "ru": "обклеил, покрыл",
+  "lemma": "cover"
+ },
+ "describe": {
+  "ru": "описывать"
+ },
+ "bowl": {
+  "ru": "миска"
+ },
+ "starting": {
+  "ru": "начинающая",
+  "lemma": "start"
+ },
+ "skull": {
+  "ru": "череп"
+ },
+ "snake": {
+  "ru": "змея"
+ },
+ "maker": {
+  "ru": "создатель"
+ },
+ "attacking": {
+  "ru": "не нападал",
+  "lemma": "attack"
+ },
+ "tablecloth": {
+  "ru": "скатерть"
+ },
+ "bottle": {
+  "ru": "бутылка"
+ },
+ "threatened": {
+  "ru": "угрожал",
+  "lemma": "threaten"
+ },
+ "holes": {
+  "ru": "дыры, пробелы",
+  "lemma": "hole"
+ },
+ "separate": {
+  "ru": "отдельные"
+ },
+ "events": {
+  "ru": "события",
+  "lemma": "event"
+ },
+ "promising": {
+  "ru": "обещал",
+  "lemma": "promise"
+ },
+ "attached": {
+  "ru": "прикреплено",
+  "lemma": "attach"
+ },
+ "starts": {
+  "ru": "начинается",
+  "lemma": "start"
+ },
+ "files": {
+  "ru": "документы, папки",
+  "lemma": "file"
+ },
+ "departments": {
+  "ru": "отделами",
+  "lemma": "department"
+ },
+ "stupidest": {
+  "ru": "самое глупое",
+  "lemma": "stupid"
+ },
+ "supported": {
+  "ru": "поддерживал",
+  "lemma": "support"
+ },
+ "bellatrix": {
+  "ru": "Беллатриса"
+ },
+ "enjoyed": {
+  "ru": "наслаждалась",
+  "lemma": "enjoy"
+ },
+ "uncles": {
+  "ru": "дяди",
+  "lemma": "uncle"
+ },
+ "field": {
+  "ru": "поле"
+ },
+ "wasn't": {
+  "ru": "не был",
+  "lemma": "was not"
+ },
+ "angle": {
+  "ru": "угол"
+ },
+ "replacement": {
+  "ru": "замена"
+ },
+ "schoolteacher": {
+  "ru": "школьный учитель"
+ },
+ "duel": {
+  "ru": "дуэль"
+ },
+ "study": {
+  "ru": "кабинет"
+ },
+ "pint": {
+  "ru": "пинта"
+ },
+ "aim": {
+  "ru": "направляешь, целишься"
+ },
+ "farm": {
+  "ru": "ферма"
+ },
+ "buildings": {
+  "ru": "постройки",
+  "lemma": "building"
+ },
+ "forgetting": {
+  "ru": "забывая",
+  "lemma": "forget"
+ },
+ "nowhere": {
+  "ru": "нигде"
+ },
+ "registry": {
+  "ru": "реестр"
+ },
+ "forms": {
+  "ru": "бланки, формы",
+  "lemma": "form"
+ },
+ "fill": {
+  "ru": "заполнить"
+ },
+ "begged": {
+  "ru": "просил",
+  "lemma": "beg"
+ },
+ "safer": {
+  "ru": "безопаснее",
+  "lemma": "safe"
+ },
+ "trail": {
+  "ru": "след"
+ },
+ "excellent": {
+  "ru": "отличные"
+ },
+ "sad": {
+  "ru": "грустно"
+ },
+ "bristol": {
+  "ru": "Бристоль (город)"
+ },
+ "save": {
+  "ru": "спас"
+ },
+ "ron": {
+  "ru": "Рон"
+ },
+ "knees": {
+  "ru": "колени",
+  "lemma": "knee"
+ },
+ "softest": {
+  "ru": "самое мягкое",
+  "lemma": "soft"
+ },
+ "breathe": {
+  "ru": "дышать"
+ },
+ "kindest": {
+  "ru": "добрейший",
+  "lemma": "kind"
+ },
+ "beard": {
+  "ru": "борода"
+ },
+ "path": {
+  "ru": "тропа"
+ },
+ "lad": {
+  "ru": "парень"
+ },
+ "rowed": {
+  "ru": "грёб",
+  "lemma": "row"
+ },
+ "win": {
+  "ru": "принесёт"
+ },
+ "rubbish": {
+  "ru": "чушь"
+ },
+ "crossed": {
+  "ru": "скрещены",
+  "lemma": "cross"
+ },
+ "church": {
+  "ru": "церковь"
+ },
+ "bench": {
+  "ru": "скамья"
+ },
+ "hardly": {
+  "ru": "едва"
+ },
+ "sends": {
+  "ru": "присылает",
+  "lemma": "send"
+ },
+ "twenty-seven": {
+  "ru": "двадцать семь"
+ },
+ "twenty-eight": {
+  "ru": "двадцать восемь"
+ },
+ "buys": {
+  "ru": "покупает",
+  "lemma": "buy"
+ },
+ "forgets": {
+  "ru": "забывает",
+  "lemma": "forget"
+ },
+ "dentist": {
+  "ru": "зубной врач"
+ },
+ "fenrir": {
+  "ru": "Фенрир"
+ },
+ "neighbours": {
+  "ru": "соседей",
+  "lemma": "neighbour"
+ },
+ "roots": {
+  "ru": "корни",
+  "lemma": "root"
+ },
+ "meal": {
+  "ru": "приём пищи"
+ },
+ "match": {
+  "ru": "спичка"
+ },
+ "needle": {
+  "ru": "иголка"
+ },
+ "frozen": {
+  "ru": "замёрзшем"
+ },
+ "january": {
+  "ru": "январь"
+ },
+ "cards": {
+  "ru": "карточки",
+  "lemma": "card"
+ },
+ "liking": {
+  "ru": "любить",
+  "lemma": "like"
+ },
+ "meals": {
+  "ru": "трапезы",
+  "lemma": "meal"
+ },
+ "dear": {
+  "ru": "дорогая"
+ },
+ "eleven-year-old": {
+  "ru": "одиннадцатилетние"
+ },
+ "cleverest": {
+  "ru": "самый умный",
+  "lemma": "clever"
+ },
+ "brass": {
+  "ru": "латунная"
+ },
+ "shade": {
+  "ru": "абажур"
+ },
+ "magazine": {
+  "ru": "журнал"
+ },
+ "fingers": {
+  "ru": "пальцы",
+  "lemma": "finger"
+ },
+ "beach": {
+  "ru": "пляж"
+ },
+ "socks": {
+  "ru": "носки",
+  "lemma": "sock"
+ },
+ "breathes": {
+  "ru": "дышит",
+  "lemma": "breathe"
+ },
+ "potions": {
+  "ru": "зельеварение",
+  "lemma": "potion"
+ },
+ "owns": {
+  "ru": "владеет",
+  "lemma": "own"
+ },
+ "borrows": {
+  "ru": "берёт взаймы",
+  "lemma": "borrow"
+ },
+ "lent": {
+  "ru": "одолжил",
+  "lemma": "lend"
+ },
+ "stole": {
+  "ru": "украл",
+  "lemma": "steal"
+ },
+ "slughorn's": {
+  "ru": "Слизнорта",
+  "lemma": "slughorn"
+ },
+ "library's": {
+  "ru": "библиотеки",
+  "lemma": "library"
+ },
+ "finishing": {
+  "ru": "заканчивание",
+  "lemma": "finish"
+ },
+ "fourteen": {
+  "ru": "четырнадцать"
+ },
+ "forgiven": {
+  "ru": "простил бы",
+  "lemma": "forgive"
+ },
+ "tear": {
+  "ru": "слеза"
+ },
+ "chased": {
+  "ru": "гонялся",
+  "lemma": "chase"
+ },
+ "cushions": {
+  "ru": "подушки",
+  "lemma": "cushion"
+ },
+ "drunk": {
+  "ru": "выпили",
+  "lemma": "drink"
+ },
+ "twenty-nine": {
+  "ru": "двадцать девять"
+ },
+ "example": {
+  "ru": "пример"
+ },
+ "student": {
+  "ru": "ученик"
+ },
+ "slates": {
+  "ru": "черепица",
+  "lemma": "slate"
+ },
+ "what's": {
+  "ru": "что",
+  "lemma": "what is"
+ },
+ "joking": {
+  "ru": "шутишь",
+  "lemma": "joke"
+ },
+ "fewer": {
+  "ru": "меньше",
+  "lemma": "few"
+ },
+ "lazy": {
+  "ru": "ленивый"
+ },
+ "folds": {
+  "ru": "складывается",
+  "lemma": "fold"
+ },
+ "tries": {
+  "ru": "пытается",
+  "lemma": "try"
+ },
+ "character": {
+  "ru": "характер"
+ },
+ "argues": {
+  "ru": "спорит",
+  "lemma": "argue"
+ },
+ "manners": {
+  "ru": "манеры",
+  "lemma": "manner"
+ },
+ "robbers": {
+  "ru": "грабители",
+  "lemma": "robber"
+ },
+ "gentlemen": {
+  "ru": "джентльмены",
+  "lemma": "gentleman"
+ },
+ "stealing": {
+  "ru": "воровство",
+  "lemma": "steal"
+ },
+ "bring": {
+  "ru": "привести"
+ },
+ "landlord's": {
+  "ru": "хозяина квартиры",
+  "lemma": "landlord"
+ },
+ "existing": {
+  "ru": "существование",
+  "lemma": "exist"
+ },
+ "arguments": {
+  "ru": "споры",
+  "lemma": "argument"
+ },
+ "least": {
+  "ru": "по крайней мере"
+ },
+ "evil": {
+  "ru": "злой"
+ },
+ "northern": {
+  "ru": "северный"
+ },
+ "aled": {
+  "ru": "имя"
+ },
+ "fifty": {
+  "ru": "пятьдесят"
+ },
+ "daughters": {
+  "ru": "дочери",
+  "lemma": "daughter"
+ },
+ "greyback's": {
+  "ru": "имя"
+ },
+ "groups": {
+  "ru": "группы",
+  "lemma": "group"
+ },
+ "children's": {
+  "ru": "детский",
+  "lemma": "child"
+ },
+ "party": {
+  "ru": "вечеринка"
+ },
+ "growing": {
+  "ru": "росли",
+  "lemma": "grow"
+ },
+ "trials": {
+  "ru": "суды",
+  "lemma": "trial"
+ },
+ "depends": {
+  "ru": "зависит",
+  "lemma": "depend"
+ },
+ "kindnesses": {
+  "ru": "добрые дела",
+  "lemma": "kindness"
+ },
+ "loneliest": {
+  "ru": "самый одинокий",
+  "lemma": "lonely"
+ },
+ "choices": {
+  "ru": "решения",
+  "lemma": "choice"
+ },
+ "stake": {
+  "ru": "на кону"
+ },
+ "numbers": {
+  "ru": "цифры",
+  "lemma": "number"
+ },
+ "smoothed": {
+  "ru": "разгладила",
+  "lemma": "smooth"
+ },
+ "piles": {
+  "ru": "стопки",
+  "lemma": "pile"
+ },
+ "snake-handled": {
+  "ru": "змеиный"
+ },
+ "amount": {
+  "ru": "количество"
+ },
+ "coat": {
+  "ru": "пальто"
+ },
+ "hook": {
+  "ru": "крючок"
+ },
+ "swinging": {
+  "ru": "распахивающийся",
+  "lemma": "swing"
+ },
+ "happiest": {
+  "ru": "самый счастливый",
+  "lemma": "happy"
+ },
+ "broomstick": {
+  "ru": "метла"
+ },
+ "vase": {
+  "ru": "ваза"
+ },
+ "shaped": {
+  "ru": "в форме",
+  "lemma": "shape"
+ },
+ "lips": {
+  "ru": "губы",
+  "lemma": "lip"
+ },
+ "belong": {
+  "ru": "принадлежат"
+ },
+ "album": {
+  "ru": "альбом"
+ },
+ "camera": {
+  "ru": "фотоаппарат"
+ },
+ "behaved": {
+  "ru": "вёл себя",
+  "lemma": "behave"
+ },
+ "explaining": {
+  "ru": "объяснения",
+  "lemma": "explain"
+ },
+ "guess": {
+  "ru": "угадать"
+ },
+ "fragile": {
+  "ru": "хрупкий"
+ },
+ "strongest": {
+  "ru": "самый крепкий",
+  "lemma": "strong"
+ },
+ "madness": {
+  "ru": "безумие"
+ },
+ "gringotts": {
+  "ru": "Гринготтс (банк)"
+ },
+ "decides": {
+  "ru": "решает",
+  "lemma": "decide"
+ },
+ "beauty": {
+  "ru": "красота"
+ },
+ "forward": {
+  "ru": "вперёд"
+ },
+ "relieved": {
+  "ru": "облегчённый"
+ },
+ "trusting": {
+  "ru": "доверчивый"
+ },
+ "hunter": {
+  "ru": "охотник"
+ },
+ "mirrors": {
+  "ru": "зеркала",
+  "lemma": "mirror"
+ },
+ "detentions": {
+  "ru": "отработки",
+  "lemma": "detention"
+ },
+ "talent": {
+  "ru": "талант"
+ },
+ "polite": {
+  "ru": "вежливые"
+ },
+ "ninth": {
+  "ru": "девятое"
+ },
+ "arrange": {
+  "ru": "устроить"
+ },
+ "arrangements": {
+  "ru": "договорённости",
+  "lemma": "arrangement"
+ },
+ "depended": {
+  "ru": "зависело",
+  "lemma": "depend"
+ },
+ "twenty-eighth": {
+  "ru": "двадцать восьмое"
+ },
+ "proper": {
+  "ru": "настоящую"
+ },
+ "refuse": {
+  "ru": "отказываюсь"
+ },
+ "unfair": {
+  "ru": "несправедливо"
+ },
+ "thirtieth": {
+  "ru": "тридцатое"
+ },
+ "angrily": {
+  "ru": "сердито"
+ },
+ "one-year-old": {
+  "ru": "годовалый"
+ },
+ "needles": {
+  "ru": "иголки",
+  "lemma": "needle"
+ },
+ "orphan": {
+  "ru": "сирота"
+ },
+ "south": {
+  "ru": "на юг"
+ },
+ "godson": {
+  "ru": "крестник"
+ },
+ "deciding": {
+  "ru": "решающий",
+  "lemma": "decide"
+ },
+ "clearly": {
+  "ru": "ясно"
+ },
+ "revenge": {
+  "ru": "месть"
+ },
+ "having": {
+  "ru": "проводил",
+  "lemma": "have"
+ },
+ "pipe": {
+  "ru": "труба"
+ },
+ "allowed": {
+  "ru": "разрешено",
+  "lemma": "allow"
+ },
+ "shopkeepers": {
+  "ru": "лавочники",
+  "lemma": "shopkeeper"
+ },
+ "blame": {
+  "ru": "вина"
+ },
+ "killer": {
+  "ru": "убийца"
+ },
+ "nailed": {
+  "ru": "приколочено",
+  "lemma": "nail"
+ },
+ "decoration": {
+  "ru": "украшение"
+ },
+ "wood": {
+  "ru": "древесина"
  }
 }

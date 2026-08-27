@@ -1,790 +1,1154 @@
 [
  {
   "w": "the",
-  "n": 1580
+  "n": 2023
  },
  {
   "w": "and",
-  "n": 708
+  "n": 1121
  },
  {
   "w": "a",
-  "n": 572
- },
- {
-  "w": "of",
-  "n": 461
- },
- {
-  "w": "in",
-  "n": 421
+  "n": 900
  },
  {
   "w": "it",
-  "n": 407
+  "n": 705
  },
  {
-  "w": "i",
-  "n": 383
+  "w": "in",
+  "n": 683
  },
  {
   "w": "was",
-  "n": 380
+  "n": 674
  },
  {
   "w": "that",
-  "n": 326
+  "n": 673
  },
  {
-  "w": "to",
-  "n": 287
+  "w": "of",
+  "n": 667
+ },
+ {
+  "w": "i",
+  "n": 665
  },
  {
   "w": "he",
-  "n": 256
+  "n": 526
  },
  {
-  "w": "his",
-  "n": 224
- },
- {
-  "w": "is",
-  "n": 218
+  "w": "to",
+  "n": 497
  },
  {
   "w": "not",
-  "n": 212
+  "n": 363
  },
  {
-  "w": "you",
-  "n": 181
+  "w": "is",
+  "n": 348
  },
  {
   "w": "at",
-  "n": 177
- },
- {
-  "w": "on",
-  "n": 176
- },
- {
-  "w": "for",
-  "n": 174
+  "n": 322
  },
  {
   "w": "had",
-  "n": 171
+  "n": 315
  },
  {
-  "w": "with",
-  "n": 159
+  "w": "his",
+  "n": 302
+ },
+ {
+  "w": "you",
+  "n": 295
+ },
+ {
+  "w": "on",
+  "n": 281
+ },
+ {
+  "w": "for",
+  "n": 261
  },
  {
   "w": "one",
-  "n": 147
+  "n": 227
  },
  {
-  "w": "my",
-  "n": 127
- },
- {
-  "w": "me",
-  "n": 123
- },
- {
-  "w": "james",
-  "n": 116
- },
- {
-  "w": "sirius",
-  "n": 115
- },
- {
-  "w": "we",
-  "n": 109
+  "w": "with",
+  "n": 212
  },
  {
   "w": "said",
-  "n": 105
+  "n": 211
  },
  {
-  "w": "no",
-  "n": 100
+  "w": "my",
+  "n": 169
  },
  {
-  "w": "peter",
-  "n": 98
+  "w": "me",
+  "n": 169
  },
  {
-  "w": "what",
-  "n": 97
+  "w": "james",
+  "n": 164
  },
  {
   "w": "him",
-  "n": 95
+  "n": 162
  },
  {
-  "w": "years",
-  "n": 85
- },
- {
-  "w": "who",
-  "n": 83
- },
- {
-  "w": "from",
-  "n": 83
- },
- {
-  "w": "they",
-  "n": 83
- },
- {
-  "w": "have",
-  "n": 82
- },
- {
-  "w": "this",
-  "n": 80
- },
- {
-  "w": "us",
-  "n": 77
- },
- {
-  "w": "all",
-  "n": 75
- },
- {
-  "w": "them",
-  "n": 72
+  "w": "we",
+  "n": 161
  },
  {
   "w": "there",
-  "n": 72
+  "n": 158
  },
  {
-  "w": "could",
-  "n": 70
+  "w": "have",
+  "n": 156
  },
  {
-  "w": "because",
-  "n": 69
- },
- {
-  "w": "did",
-  "n": 69
- },
- {
-  "w": "like",
-  "n": 65
- },
- {
-  "w": "were",
-  "n": 65
- },
- {
-  "w": "every",
-  "n": 63
- },
- {
-  "w": "by",
-  "n": 63
- },
- {
-  "w": "boy",
-  "n": 60
- },
- {
-  "w": "our",
-  "n": 60
- },
- {
-  "w": "whole",
-  "n": 59
- },
- {
-  "w": "but",
-  "n": 57
- },
- {
-  "w": "four",
-  "n": 57
- },
- {
-  "w": "so",
-  "n": 55
- },
- {
-  "w": "out",
-  "n": 55
- },
- {
-  "w": "three",
-  "n": 54
- },
- {
-  "w": "as",
-  "n": 52
+  "w": "sirius",
+  "n": 150
  },
  {
   "w": "about",
-  "n": 51
+  "n": 149
  },
  {
-  "w": "be",
-  "n": 50
+  "w": "did",
+  "n": 147
  },
  {
-  "w": "old",
-  "n": 49
+  "w": "they",
+  "n": 145
  },
  {
-  "w": "last",
-  "n": 49
+  "w": "what",
+  "n": 138
  },
  {
-  "w": "year",
-  "n": 48
+  "w": "who",
+  "n": 137
  },
  {
-  "w": "into",
-  "n": 48
+  "w": "years",
+  "n": 135
  },
  {
-  "w": "never",
-  "n": 48
+  "w": "peter",
+  "n": 134
  },
  {
-  "w": "two",
-  "n": 47
+  "w": "because",
+  "n": 130
+ },
+ {
+  "w": "them",
+  "n": 121
+ },
+ {
+  "w": "all",
+  "n": 121
+ },
+ {
+  "w": "were",
+  "n": 120
+ },
+ {
+  "w": "no",
+  "n": 116
+ },
+ {
+  "w": "us",
+  "n": 116
  },
  {
   "w": "then",
-  "n": 46
+  "n": 115
  },
  {
-  "w": "when",
-  "n": 46
+  "w": "this",
+  "n": 112
  },
  {
-  "w": "own",
-  "n": 46
+  "w": "out",
+  "n": 109
  },
  {
-  "w": "people",
-  "n": 46
+  "w": "from",
+  "n": 107
  },
  {
-  "w": "small",
-  "n": 45
+  "w": "every",
+  "n": 106
  },
  {
-  "w": "lily",
-  "n": 45
+  "w": "could",
+  "n": 99
  },
  {
-  "w": "are",
-  "n": 45
+  "w": "our",
+  "n": 96
  },
  {
-  "w": "house",
-  "n": 45
+  "w": "four",
+  "n": 94
  },
  {
   "w": "thing",
-  "n": 44
+  "n": 93
  },
  {
-  "w": "will",
-  "n": 44
- },
- {
-  "w": "would",
-  "n": 44
- },
- {
-  "w": "her",
-  "n": 43
- },
- {
-  "w": "do",
-  "n": 43
- },
- {
-  "w": "man",
-  "n": 43
- },
- {
-  "w": "night",
-  "n": 43
- },
- {
-  "w": "way",
-  "n": 42
- },
- {
-  "w": "been",
-  "n": 41
- },
- {
-  "w": "now",
-  "n": 41
- },
- {
-  "w": "world",
-  "n": 41
- },
- {
-  "w": "where",
-  "n": 41
+  "w": "like",
+  "n": 92
  },
  {
   "w": "came",
-  "n": 39
- },
- {
-  "w": "only",
-  "n": 38
- },
- {
-  "w": "know",
-  "n": 38
- },
- {
-  "w": "first",
-  "n": 38
- },
- {
-  "w": "door",
-  "n": 38
+  "n": 86
  },
  {
   "w": "nobody",
-  "n": 36
+  "n": 84
  },
  {
-  "w": "nothing",
-  "n": 36
+  "w": "people",
+  "n": 84
  },
  {
-  "w": "knew",
-  "n": 36
- },
- {
-  "w": "war",
-  "n": 35
- },
- {
-  "w": "an",
-  "n": 35
- },
- {
-  "w": "ever",
-  "n": 35
+  "w": "would",
+  "n": 83
  },
  {
   "w": "down",
-  "n": 35
+  "n": 83
  },
  {
-  "w": "your",
-  "n": 35
+  "w": "as",
+  "n": 82
  },
  {
-  "w": "dark",
-  "n": 34
+  "w": "so",
+  "n": 80
  },
  {
-  "w": "room",
-  "n": 34
+  "w": "been",
+  "n": 80
  },
  {
-  "w": "back",
-  "n": 34
+  "w": "two",
+  "n": 79
  },
  {
-  "w": "school",
-  "n": 33
+  "w": "never",
+  "n": 79
  },
  {
-  "w": "black",
-  "n": 33
+  "w": "do",
+  "n": 78
  },
  {
-  "w": "over",
-  "n": 33
- },
- {
-  "w": "before",
-  "n": 33
- },
- {
-  "w": "always",
-  "n": 32
+  "w": "be",
+  "n": 76
  },
  {
   "w": "up",
-  "n": 32
+  "n": 76
  },
  {
-  "w": "still",
-  "n": 32
+  "w": "whole",
+  "n": 76
  },
  {
-  "w": "everything",
-  "n": 31
+  "w": "night",
+  "n": 75
  },
  {
   "w": "she",
-  "n": 30
+  "n": 74
+ },
+ {
+  "w": "but",
+  "n": 72
+ },
+ {
+  "w": "boy",
+  "n": 72
+ },
+ {
+  "w": "three",
+  "n": 72
+ },
+ {
+  "w": "by",
+  "n": 72
+ },
+ {
+  "w": "year",
+  "n": 71
+ },
+ {
+  "w": "old",
+  "n": 70
+ },
+ {
+  "w": "into",
+  "n": 70
+ },
+ {
+  "w": "are",
+  "n": 69
+ },
+ {
+  "w": "when",
+  "n": 69
+ },
+ {
+  "w": "know",
+  "n": 68
+ },
+ {
+  "w": "man",
+  "n": 66
  },
  {
   "w": "if",
-  "n": 30
+  "n": 64
+ },
+ {
+  "w": "nothing",
+  "n": 64
+ },
+ {
+  "w": "back",
+  "n": 64
+ },
+ {
+  "w": "own",
+  "n": 63
+ },
+ {
+  "w": "room",
+  "n": 62
  },
  {
   "w": "went",
-  "n": 30
+  "n": 62
+ },
+ {
+  "w": "will",
+  "n": 61
+ },
+ {
+  "w": "ever",
+  "n": 61
+ },
+ {
+  "w": "house",
+  "n": 61
+ },
+ {
+  "w": "way",
+  "n": 60
+ },
+ {
+  "w": "small",
+  "n": 59
+ },
+ {
+  "w": "her",
+  "n": 59
+ },
+ {
+  "w": "now",
+  "n": 59
  },
  {
   "w": "once",
-  "n": 30
+  "n": 59
  },
  {
-  "w": "has",
-  "n": 29
+  "w": "first",
+  "n": 58
  },
  {
-  "w": "friend",
-  "n": 29
+  "w": "where",
+  "n": 57
  },
  {
-  "w": "life",
-  "n": 29
+  "w": "world",
+  "n": 56
  },
  {
-  "w": "too",
-  "n": 29
+  "w": "your",
+  "n": 56
  },
  {
-  "w": "tell",
-  "n": 29
+  "w": "last",
+  "n": 56
  },
  {
-  "w": "told",
-  "n": 29
+  "w": "door",
+  "n": 55
  },
  {
-  "w": "say",
-  "n": 28
+  "w": "lily",
+  "n": 54
  },
  {
-  "w": "book",
-  "n": 28
+  "w": "over",
+  "n": 54
  },
  {
-  "w": "stood",
-  "n": 28
+  "w": "school",
+  "n": 53
  },
  {
-  "w": "other",
-  "n": 28
+  "w": "only",
+  "n": 53
  },
  {
-  "w": "here",
-  "n": 28
- },
- {
-  "w": "looked",
-  "n": 26
- },
- {
-  "w": "end",
-  "n": 26
- },
- {
-  "w": "each",
-  "n": 26
- },
- {
-  "w": "voldemort",
-  "n": 25
- },
- {
-  "w": "sat",
-  "n": 25
- },
- {
-  "w": "friends",
-  "n": 25
- },
- {
-  "w": "time",
-  "n": 25
- },
- {
-  "w": "its",
-  "n": 25
- },
- {
-  "w": "being",
-  "n": 25
- },
- {
-  "w": "map",
-  "n": 25
- },
- {
-  "w": "secret",
-  "n": 24
- },
- {
-  "w": "family",
-  "n": 24
- },
- {
-  "w": "between",
-  "n": 24
- },
- {
-  "w": "how",
-  "n": 24
+  "w": "an",
+  "n": 53
  },
  {
   "w": "put",
-  "n": 24
+  "n": 53
  },
  {
-  "w": "even",
-  "n": 24
+  "w": "knew",
+  "n": 52
  },
  {
-  "w": "through",
-  "n": 24
+  "w": "other",
+  "n": 51
  },
  {
-  "w": "rat",
-  "n": 24
+  "w": "still",
+  "n": 51
  },
  {
-  "w": "harry",
-  "n": 24
+  "w": "looked",
+  "n": 49
  },
  {
-  "w": "story",
-  "n": 23
+  "w": "book",
+  "n": 48
  },
  {
-  "w": "does",
-  "n": 23
+  "w": "life",
+  "n": 47
  },
  {
-  "w": "after",
-  "n": 23
+  "w": "say",
+  "n": 47
  },
  {
-  "w": "their",
-  "n": 23
+  "w": "here",
+  "n": 47
  },
  {
-  "w": "name",
-  "n": 23
+  "w": "time",
+  "n": 46
  },
  {
-  "w": "same",
-  "n": 23
+  "w": "dark",
+  "n": 45
  },
  {
-  "w": "kept",
-  "n": 23
+  "w": "before",
+  "n": 45
  },
  {
-  "w": "anyone",
-  "n": 23
+  "w": "can",
+  "n": 45
  },
  {
   "w": "exactly",
-  "n": 23
+  "n": 45
  },
  {
-  "w": "twelve",
-  "n": 23
+  "w": "always",
+  "n": 44
  },
  {
-  "w": "everyone",
-  "n": 23
+  "w": "black",
+  "n": 44
  },
  {
-  "w": "remus",
-  "n": 22
+  "w": "after",
+  "n": 43
  },
  {
-  "w": "eyes",
-  "n": 22
+  "w": "same",
+  "n": 43
  },
  {
-  "w": "dumbledore",
-  "n": 22
+  "w": "told",
+  "n": 43
  },
  {
-  "w": "made",
-  "n": 22
+  "w": "war",
+  "n": 42
+ },
+ {
+  "w": "tell",
+  "n": 42
+ },
+ {
+  "w": "end",
+  "n": 42
+ },
+ {
+  "w": "harry",
+  "n": 42
  },
  {
   "w": "face",
-  "n": 22
+  "n": 41
  },
  {
-  "w": "words",
-  "n": 22
+  "w": "everything",
+  "n": 41
+ },
+ {
+  "w": "month",
+  "n": 41
+ },
+ {
+  "w": "how",
+  "n": 40
+ },
+ {
+  "w": "too",
+  "n": 39
+ },
+ {
+  "w": "am",
+  "n": 39
+ },
+ {
+  "w": "name",
+  "n": 39
+ },
+ {
+  "w": "everybody",
+  "n": 39
+ },
+ {
+  "w": "their",
+  "n": 37
+ },
+ {
+  "w": "more",
+  "n": 37
+ },
+ {
+  "w": "somebody",
+  "n": 37
+ },
+ {
+  "w": "has",
+  "n": 36
+ },
+ {
+  "w": "does",
+  "n": 36
+ },
+ {
+  "w": "friend",
+  "n": 36
+ },
+ {
+  "w": "made",
+  "n": 36
+ },
+ {
+  "w": "very",
+  "n": 36
+ },
+ {
+  "w": "sat",
+  "n": 36
+ },
+ {
+  "w": "standing",
+  "n": 36
+ },
+ {
+  "w": "something",
+  "n": 36
+ },
+ {
+  "w": "those",
+  "n": 36
+ },
+ {
+  "w": "than",
+  "n": 36
+ },
+ {
+  "w": "things",
+  "n": 36
+ },
+ {
+  "w": "anybody",
+  "n": 36
+ },
+ {
+  "w": "stood",
+  "n": 35
  },
  {
   "w": "took",
-  "n": 22
- },
- {
-  "w": "which",
-  "n": 22
+  "n": 35
  },
  {
   "w": "hands",
-  "n": 22
+  "n": 34
  },
  {
-  "w": "himself",
-  "n": 22
+  "w": "inside",
+  "n": 34
  },
  {
-  "w": "without",
-  "n": 22
+  "w": "again",
+  "n": 33
  },
  {
-  "w": "under",
-  "n": 22
+  "w": "which",
+  "n": 33
  },
  {
-  "w": "sentence",
-  "n": 22
+  "w": "later",
+  "n": 33
+ },
+ {
+  "w": "go",
+  "n": 33
+ },
+ {
+  "w": "front",
+  "n": 33
+ },
+ {
+  "w": "each",
+  "n": 33
+ },
+ {
+  "w": "asked",
+  "n": 33
+ },
+ {
+  "w": "friends",
+  "n": 32
+ },
+ {
+  "w": "else",
+  "n": 32
+ },
+ {
+  "w": "being",
+  "n": 32
+ },
+ {
+  "w": "long",
+  "n": 31
+ },
+ {
+  "w": "between",
+  "n": 31
+ },
+ {
+  "w": "come",
+  "n": 31
+ },
+ {
+  "w": "words",
+  "n": 31
+ },
+ {
+  "w": "left",
+  "n": 31
  },
  {
   "w": "moon",
+  "n": 30
+ },
+ {
+  "w": "potter",
+  "n": 30
+ },
+ {
+  "w": "thought",
+  "n": 30
+ },
+ {
+  "w": "want",
+  "n": 30
+ },
+ {
+  "w": "work",
+  "n": 30
+ },
+ {
+  "w": "himself",
+  "n": 30
+ },
+ {
+  "w": "family",
+  "n": 29
+ },
+ {
+  "w": "or",
+  "n": 29
+ },
+ {
+  "w": "morning",
+  "n": 29
+ },
+ {
+  "w": "eyes",
+  "n": 28
+ },
+ {
+  "w": "read",
+  "n": 28
+ },
+ {
+  "w": "away",
+  "n": 28
+ },
+ {
+  "w": "little",
+  "n": 28
+ },
+ {
+  "w": "why",
+  "n": 28
+ },
+ {
+  "w": "under",
+  "n": 28
+ },
+ {
+  "w": "moment",
+  "n": 28
+ },
+ {
+  "w": "table",
+  "n": 28
+ },
+ {
+  "w": "its",
+  "n": 28
+ },
+ {
+  "w": "think",
+  "n": 28
+ },
+ {
+  "w": "kept",
+  "n": 28
+ },
+ {
+  "w": "twelve",
+  "n": 28
+ },
+ {
+  "w": "against",
+  "n": 28
+ },
+ {
+  "w": "story",
+  "n": 27
+ },
+ {
+  "w": "boys",
+  "n": 27
+ },
+ {
+  "w": "part",
+  "n": 27
+ },
+ {
+  "w": "good",
+  "n": 27
+ },
+ {
+  "w": "look",
+  "n": 27
+ },
+ {
+  "w": "laughed",
+  "n": 27
+ },
+ {
+  "w": "off",
+  "n": 27
+ },
+ {
+  "w": "real",
+  "n": 27
+ },
+ {
+  "w": "going",
+  "n": 27
+ },
+ {
+  "w": "voldemort",
+  "n": 26
+ },
+ {
+  "w": "person",
+  "n": 26
+ },
+ {
+  "w": "see",
+  "n": 26
+ },
+ {
+  "w": "just",
+  "n": 26
+ },
+ {
+  "w": "through",
+  "n": 26
+ },
+ {
+  "w": "anything",
+  "n": 26
+ },
+ {
+  "w": "already",
+  "n": 26
+ },
+ {
+  "w": "day",
+  "n": 26
+ },
+ {
+  "w": "sentence",
+  "n": 26
+ },
+ {
+  "w": "map",
+  "n": 26
+ },
+ {
+  "w": "secret",
+  "n": 25
+ },
+ {
+  "w": "kind",
+  "n": 25
+ },
+ {
+  "w": "dumbledore",
+  "n": 25
+ },
+ {
+  "w": "found",
+  "n": 25
+ },
+ {
+  "w": "looking",
+  "n": 25
+ },
+ {
+  "w": "most",
+  "n": 25
+ },
+ {
+  "w": "men",
+  "n": 25
+ },
+ {
+  "w": "dead",
+  "n": 25
+ },
+ {
+  "w": "remus",
+  "n": 24
+ },
+ {
+  "w": "afraid",
+  "n": 24
+ },
+ {
+  "w": "alone",
+  "n": 24
+ },
+ {
+  "w": "round",
+  "n": 24
+ },
+ {
+  "w": "voice",
+  "n": 24
+ },
+ {
+  "w": "word",
+  "n": 24
+ },
+ {
+  "w": "let",
+  "n": 24
+ },
+ {
+  "w": "both",
+  "n": 24
+ },
+ {
+  "w": "mother",
+  "n": 24
+ },
+ {
+  "w": "behind",
+  "n": 24
+ },
+ {
+  "w": "without",
+  "n": 24
+ },
+ {
+  "w": "half",
+  "n": 24
+ },
+ {
+  "w": "quiet",
+  "n": 23
+ },
+ {
+  "w": "days",
+  "n": 23
+ },
+ {
+  "w": "walked",
+  "n": 23
+ },
+ {
+  "w": "got",
+  "n": 23
+ },
+ {
+  "w": "any",
+  "n": 23
+ },
+ {
+  "w": "until",
+  "n": 23
+ },
+ {
+  "w": "while",
+  "n": 23
+ },
+ {
+  "w": "rat",
+  "n": 23
+ },
+ {
+  "w": "hour",
+  "n": 23
+ },
+ {
+  "w": "wand",
+  "n": 22
+ },
+ {
+  "w": "gone",
+  "n": 22
+ },
+ {
+  "w": "cold",
+  "n": 22
+ },
+ {
+  "w": "better",
+  "n": 22
+ },
+ {
+  "w": "well",
+  "n": 22
+ },
+ {
+  "w": "stopped",
+  "n": 22
+ },
+ {
+  "w": "much",
+  "n": 22
+ },
+ {
+  "w": "quietly",
+  "n": 22
+ },
+ {
+  "w": "magic",
+  "n": 22
+ },
+ {
+  "w": "watched",
+  "n": 22
+ },
+ {
+  "w": "plan",
+  "n": 22
+ },
+ {
+  "w": "wrong",
+  "n": 22
+ },
+ {
+  "w": "understand",
+  "n": 22
+ },
+ {
+  "w": "done",
+  "n": 22
+ },
+ {
+  "w": "werewolf",
+  "n": 21
+ },
+ {
+  "w": "love",
+  "n": 21
+ },
+ {
+  "w": "true",
+  "n": 21
+ },
+ {
+  "w": "second",
+  "n": 21
+ },
+ {
+  "w": "heard",
+  "n": 21
+ },
+ {
+  "w": "james's",
+  "n": 21
+ },
+ {
+  "w": "bed",
+  "n": 21
+ },
+ {
+  "w": "dog",
+  "n": 21
+ },
+ {
+  "w": "wolf",
+  "n": 21
+ },
+ {
+  "w": "meant",
+  "n": 21
+ },
+ {
+  "w": "gave",
   "n": 21
  },
  {
   "w": "best",
-  "n": 21
- },
- {
-  "w": "found",
-  "n": 21
- },
- {
-  "w": "voice",
-  "n": 21
- },
- {
-  "w": "can",
-  "n": 21
- },
- {
-  "w": "see",
-  "n": 21
- },
- {
-  "w": "inside",
-  "n": 21
- },
- {
-  "w": "fire",
-  "n": 21
- },
- {
-  "w": "moment",
-  "n": 21
- },
- {
-  "w": "against",
-  "n": 21
- },
- {
-  "w": "boys",
   "n": 20
  },
  {
-  "w": "behind",
+  "w": "snape",
   "n": 20
  },
  {
-  "w": "month",
+  "w": "head",
   "n": 20
  },
  {
-  "w": "go",
+  "w": "around",
   "n": 20
  },
  {
-  "w": "wolf",
+  "w": "opened",
   "n": 20
  },
  {
-  "w": "than",
+  "w": "turned",
   "n": 20
  },
  {
-  "w": "day",
+  "w": "place",
   "n": 20
  },
  {
-  "w": "dead",
+  "w": "castle",
   "n": 20
  },
  {
-  "w": "quiet",
+  "w": "floor",
+  "n": 20
+ },
+ {
+  "w": "next",
+  "n": 20
+ },
+ {
+  "w": "cannot",
+  "n": 20
+ },
+ {
+  "w": "chapter",
+  "n": 20
+ },
+ {
+  "w": "loud",
   "n": 19
  },
  {
-  "w": "potter",
+  "w": "remember",
   "n": 19
  },
  {
-  "w": "love",
+  "w": "wanted",
   "n": 19
  },
  {
-  "w": "very",
+  "w": "laughing",
   "n": 19
  },
  {
-  "w": "later",
+  "w": "take",
   "n": 19
  },
  {
-  "w": "laughed",
+  "w": "side",
   "n": 19
  },
  {
-  "w": "standing",
+  "w": "times",
   "n": 19
  },
  {
-  "w": "just",
+  "w": "lost",
   "n": 19
  },
  {
-  "w": "off",
+  "w": "completely",
   "n": 19
  },
  {
-  "w": "meant",
+  "w": "order",
   "n": 19
  },
  {
-  "w": "things",
-  "n": 19
- },
- {
-  "w": "thought",
+  "w": "pettigrew",
   "n": 18
  },
  {
@@ -792,83 +1156,79 @@
   "n": 18
  },
  {
-  "w": "around",
+  "w": "big",
   "n": 18
  },
  {
-  "w": "else",
+  "w": "glasses",
   "n": 18
- },
- {
-  "w": "more",
-  "n": 18
- },
- {
-  "w": "let",
-  "n": 18
- },
- {
-  "w": "already",
-  "n": 18
- },
- {
-  "w": "somebody",
-  "n": 18
- },
- {
-  "w": "plan",
-  "n": 18
- },
- {
-  "w": "dog",
-  "n": 18
- },
- {
-  "w": "or",
-  "n": 18
- },
- {
-  "w": "truth",
-  "n": 18
- },
- {
-  "w": "men",
-  "n": 18
- },
- {
-  "w": "read",
-  "n": 17
- },
- {
-  "w": "long",
-  "n": 17
- },
- {
-  "w": "cold",
-  "n": 17
  },
  {
   "w": "some",
+  "n": 18
+ },
+ {
+  "w": "week",
+  "n": 18
+ },
+ {
+  "w": "happened",
+  "n": 18
+ },
+ {
+  "w": "corridor",
+  "n": 18
+ },
+ {
+  "w": "names",
+  "n": 18
+ },
+ {
+  "w": "ran",
   "n": 17
  },
  {
-  "w": "why",
+  "w": "ten",
   "n": 17
  },
  {
-  "w": "table",
+  "w": "outside",
   "n": 17
  },
  {
-  "w": "left",
+  "w": "hand",
   "n": 17
  },
  {
-  "w": "am",
+  "w": "saw",
   "n": 17
  },
  {
-  "w": "order",
+  "w": "wall",
+  "n": 17
+ },
+ {
+  "w": "even",
+  "n": 17
+ },
+ {
+  "w": "ministry",
+  "n": 17
+ },
+ {
+  "w": "kitchen",
+  "n": 17
+ },
+ {
+  "w": "stop",
+  "n": 17
+ },
+ {
+  "w": "alive",
+  "n": 17
+ },
+ {
+  "w": "truth",
   "n": 17
  },
  {
@@ -876,63 +1236,119 @@
   "n": 17
  },
  {
-  "w": "remember",
+  "w": "children",
   "n": 16
  },
  {
-  "w": "snape",
+  "w": "doing",
   "n": 16
  },
  {
-  "w": "ran",
+  "w": "hair",
   "n": 16
  },
  {
-  "w": "mother",
+  "w": "yes",
   "n": 16
  },
  {
-  "w": "place",
+  "w": "ask",
   "n": 16
  },
  {
-  "w": "those",
+  "w": "mine",
   "n": 16
  },
  {
-  "w": "front",
+  "w": "lie",
   "n": 16
  },
  {
-  "w": "head",
+  "w": "hat",
+  "n": 16
+ },
+ {
+  "w": "course",
+  "n": 16
+ },
+ {
+  "w": "fire",
+  "n": 16
+ },
+ {
+  "w": "garden",
+  "n": 16
+ },
+ {
+  "w": "stairs",
+  "n": 16
+ },
+ {
+  "w": "tree",
+  "n": 16
+ },
+ {
+  "w": "together",
+  "n": 16
+ },
+ {
+  "w": "watching",
+  "n": 16
+ },
+ {
+  "w": "single",
+  "n": 16
+ },
+ {
+  "w": "street",
+  "n": 16
+ },
+ {
+  "w": "brave",
   "n": 15
  },
  {
-  "w": "held",
+  "w": "father",
   "n": 15
  },
  {
-  "w": "alone",
+  "w": "near",
   "n": 15
  },
  {
-  "w": "want",
+  "w": "right",
   "n": 15
  },
  {
-  "w": "better",
+  "w": "keep",
   "n": 15
  },
  {
-  "w": "watched",
+  "w": "past",
   "n": 15
  },
  {
-  "w": "nights",
+  "w": "roof",
   "n": 15
  },
  {
-  "w": "most",
+  "w": "hagrid",
+  "n": 15
+ },
+ {
+  "w": "since",
+  "n": 15
+ },
+ {
+  "w": "weeks",
+  "n": 15
+ },
+ {
+  "w": "memory",
+  "n": 15
+ },
+ {
+  "w": "summer",
   "n": 15
  },
  {
@@ -940,43 +1356,39 @@
   "n": 15
  },
  {
-  "w": "asked",
+  "w": "brother",
   "n": 15
  },
  {
-  "w": "little",
+  "w": "need",
   "n": 15
  },
  {
-  "w": "work",
+  "w": "answer",
   "n": 15
  },
  {
-  "w": "week",
+  "w": "died",
   "n": 15
  },
  {
-  "w": "real",
+  "w": "sixteen",
   "n": 15
  },
  {
-  "w": "hour",
-  "n": 15
- },
- {
-  "w": "brave",
+  "w": "letter",
   "n": 14
  },
  {
-  "w": "part",
+  "w": "cried",
   "n": 14
  },
  {
-  "w": "come",
+  "w": "sorry",
   "n": 14
  },
  {
-  "w": "opened",
+  "w": "fell",
   "n": 14
  },
  {
@@ -984,31 +1396,27 @@
   "n": 14
  },
  {
-  "w": "days",
+  "w": "seen",
   "n": 14
  },
  {
-  "w": "again",
+  "w": "grey",
   "n": 14
  },
  {
-  "w": "something",
+  "w": "mouth",
   "n": 14
  },
  {
-  "w": "james's",
+  "w": "water",
   "n": 14
  },
  {
-  "w": "evening",
+  "w": "hundred",
   "n": 14
  },
  {
-  "w": "magic",
-  "n": 14
- },
- {
-  "w": "werewolf",
+  "w": "twice",
   "n": 14
  },
  {
@@ -1016,47 +1424,75 @@
   "n": 14
  },
  {
-  "w": "must",
+  "w": "tower",
   "n": 14
  },
  {
-  "w": "until",
+  "w": "hear",
   "n": 14
  },
  {
-  "w": "built",
+  "w": "peter's",
   "n": 14
  },
  {
-  "w": "gave",
+  "w": "should",
   "n": 14
  },
  {
-  "w": "names",
+  "w": "son",
   "n": 14
  },
  {
-  "w": "anything",
+  "w": "killed",
   "n": 14
  },
  {
-  "w": "wanted",
+  "w": "these",
+  "n": 14
+ },
+ {
+  "w": "tunnel",
+  "n": 14
+ },
+ {
+  "w": "believed",
+  "n": 14
+ },
+ {
+  "w": "hold",
+  "n": 14
+ },
+ {
+  "w": "give",
+  "n": 14
+ },
+ {
+  "w": "fact",
+  "n": 14
+ },
+ {
+  "w": "green",
   "n": 13
  },
  {
-  "w": "rain",
+  "w": "clothes",
   "n": 13
  },
  {
-  "w": "laughing",
+  "w": "lily's",
   "n": 13
  },
  {
-  "w": "glasses",
+  "w": "open",
   "n": 13
  },
  {
-  "w": "saw",
+  "w": "saying",
+  "n": 13
+ },
+ {
+  "w": "parents",
   "n": 13
  },
  {
@@ -1064,115 +1500,159 @@
   "n": 13
  },
  {
-  "w": "stopped",
+  "w": "bad",
   "n": 13
  },
  {
-  "w": "hat",
+  "w": "beside",
   "n": 13
  },
  {
-  "w": "learned",
+  "w": "seven",
   "n": 13
  },
  {
-  "w": "cannot",
+  "w": "gryffindor",
   "n": 13
  },
  {
-  "w": "blood",
+  "w": "closed",
   "n": 13
  },
  {
-  "w": "ministry",
+  "w": "lived",
   "n": 13
  },
  {
-  "w": "hand",
+  "w": "noticed",
   "n": 13
  },
  {
-  "w": "done",
+  "w": "evening",
   "n": 13
  },
  {
-  "w": "both",
+  "w": "nights",
   "n": 13
  },
  {
-  "w": "morning",
+  "w": "written",
   "n": 13
  },
  {
-  "w": "kind",
-  "n": 12
+  "w": "believe",
+  "n": 13
  },
  {
-  "w": "loud",
-  "n": 12
+  "w": "frightened",
+  "n": 13
  },
  {
-  "w": "pettigrew",
-  "n": 12
+  "w": "piece",
+  "n": 13
  },
  {
-  "w": "near",
-  "n": 12
+  "w": "question",
+  "n": 13
  },
  {
-  "w": "open",
-  "n": 12
+  "w": "hallway",
+  "n": 13
  },
  {
-  "w": "parents",
-  "n": 12
+  "w": "worst",
+  "n": 13
  },
  {
-  "w": "good",
-  "n": 12
- },
- {
-  "w": "fell",
-  "n": 12
- },
- {
-  "w": "yes",
-  "n": 12
- },
- {
-  "w": "called",
-  "n": 12
- },
- {
-  "w": "think",
-  "n": 12
- },
- {
-  "w": "peter's",
-  "n": 12
- },
- {
-  "w": "tree",
-  "n": 12
- },
- {
-  "w": "quietly",
-  "n": 12
- },
- {
-  "w": "reader",
-  "n": 12
- },
- {
-  "w": "got",
-  "n": 12
+  "w": "moony",
+  "n": 13
  },
  {
   "w": "loved",
+  "n": 13
+ },
+ {
+  "w": "taught",
+  "n": 13
+ },
+ {
+  "w": "machine",
+  "n": 13
+ },
+ {
+  "w": "five",
+  "n": 13
+ },
+ {
+  "w": "warm",
   "n": 12
  },
  {
-  "w": "going",
+  "w": "happy",
+  "n": 12
+ },
+ {
+  "w": "stay",
+  "n": 12
+ },
+ {
+  "w": "rain",
+  "n": 12
+ },
+ {
+  "w": "red",
+  "n": 12
+ },
+ {
+  "w": "dangerous",
+  "n": 12
+ },
+ {
+  "w": "make",
+  "n": 12
+ },
+ {
+  "w": "i'm",
+  "n": 12
+ },
+ {
+  "w": "ones",
+  "n": 12
+ },
+ {
+  "w": "rest",
+  "n": 12
+ },
+ {
+  "w": "whatever",
+  "n": 12
+ },
+ {
+  "w": "chair",
+  "n": 12
+ },
+ {
+  "w": "myself",
+  "n": 12
+ },
+ {
+  "w": "spent",
+  "n": 12
+ },
+ {
+  "w": "blood",
+  "n": 12
+ },
+ {
+  "w": "changed",
+  "n": 12
+ },
+ {
+  "w": "asleep",
+  "n": 12
+ },
+ {
+  "w": "must",
   "n": 12
  },
  {
@@ -1180,131 +1660,143 @@
   "n": 12
  },
  {
-  "w": "wand",
+  "w": "families",
   "n": 12
  },
  {
-  "w": "gone",
+  "w": "charm",
   "n": 12
  },
  {
-  "w": "lily's",
+  "w": "coming",
   "n": 11
  },
  {
-  "w": "true",
+  "w": "held",
   "n": 11
- },
- {
-  "w": "cried",
-  "n": 11
- },
- {
-  "w": "big",
-  "n": 11
- },
- {
-  "w": "second",
-  "n": 11
- },
- {
-  "w": "hagrid",
-  "n": 11
- },
- {
-  "w": "castle",
-  "n": 11
- },
- {
-  "w": "word",
-  "n": 11
- },
- {
-  "w": "gryffindor",
-  "n": 11
- },
- {
-  "w": "silence",
-  "n": 11
- },
- {
-  "w": "course",
-  "n": 11
- },
- {
-  "w": "times",
-  "n": 11
- },
- {
-  "w": "keep",
-  "n": 11
- },
- {
-  "w": "together",
-  "n": 11
- },
- {
-  "w": "believed",
-  "n": 11
- },
- {
-  "w": "stop",
-  "n": 11
- },
- {
-  "w": "heard",
-  "n": 11
- },
- {
-  "w": "while",
-  "n": 11
- },
- {
-  "w": "memory",
-  "n": 11
- },
- {
-  "w": "alive",
-  "n": 11
- },
- {
-  "w": "chapter",
-  "n": 11
- },
- {
-  "w": "any",
-  "n": 11
- },
- {
-  "w": "summer",
-  "n": 11
- },
- {
-  "w": "fact",
-  "n": 11
- },
- {
-  "w": "garden",
-  "n": 11
- },
- {
-  "w": "soft",
-  "n": 10
- },
- {
-  "w": "afraid",
-  "n": 10
- },
- {
-  "w": "letter",
-  "n": 10
- },
- {
-  "w": "children",
-  "n": 10
  },
  {
   "w": "shoulder",
+  "n": 11
+ },
+ {
+  "w": "sit",
+  "n": 11
+ },
+ {
+  "w": "far",
+  "n": 11
+ },
+ {
+  "w": "lamp",
+  "n": 11
+ },
+ {
+  "w": "get",
+  "n": 11
+ },
+ {
+  "w": "fear",
+  "n": 11
+ },
+ {
+  "w": "learned",
+  "n": 11
+ },
+ {
+  "w": "started",
+  "n": 11
+ },
+ {
+  "w": "crying",
+  "n": 11
+ },
+ {
+  "w": "close",
+  "n": 11
+ },
+ {
+  "w": "village",
+  "n": 11
+ },
+ {
+  "w": "lies",
+  "n": 11
+ },
+ {
+  "w": "months",
+  "n": 11
+ },
+ {
+  "w": "find",
+  "n": 11
+ },
+ {
+  "w": "locked",
+  "n": 11
+ },
+ {
+  "w": "decided",
+  "n": 11
+ },
+ {
+  "w": "honest",
+  "n": 11
+ },
+ {
+  "w": "enough",
+  "n": 11
+ },
+ {
+  "w": "fifteen",
+  "n": 11
+ },
+ {
+  "w": "watch",
+  "n": 11
+ },
+ {
+  "w": "towards",
+  "n": 11
+ },
+ {
+  "w": "goes",
+  "n": 11
+ },
+ {
+  "w": "grass",
+  "n": 11
+ },
+ {
+  "w": "called",
+  "n": 11
+ },
+ {
+  "w": "agreed",
+  "n": 11
+ },
+ {
+  "w": "baby",
+  "n": 11
+ },
+ {
+  "w": "keeper",
+  "n": 11
+ },
+ {
+  "w": "joke",
+  "n": 10
+ },
+ {
+  "w": "wizard",
+  "n": 10
+ },
+ {
+  "w": "white",
+  "n": 10
+ },
+ {
+  "w": "hard",
   "n": 10
  },
  {
@@ -1312,67 +1804,87 @@
   "n": 10
  },
  {
-  "w": "dangerous",
+  "w": "window",
   "n": 10
  },
  {
-  "w": "hair",
+  "w": "friendship",
   "n": 10
  },
  {
-  "w": "round",
+  "w": "picture",
   "n": 10
  },
  {
-  "w": "i'm",
+  "w": "houses",
   "n": 10
  },
  {
-  "w": "look",
+  "w": "somewhere",
   "n": 10
  },
  {
-  "w": "ten",
+  "w": "terrible",
   "n": 10
  },
  {
-  "w": "water",
+  "w": "please",
   "n": 10
  },
  {
-  "w": "bad",
+  "w": "needed",
   "n": 10
  },
  {
-  "w": "walked",
+  "w": "books",
   "n": 10
  },
  {
-  "w": "next",
+  "w": "finished",
   "n": 10
  },
  {
-  "w": "locked",
+  "w": "pulled",
   "n": 10
  },
  {
-  "w": "floor",
+  "w": "walking",
   "n": 10
  },
  {
-  "w": "single",
+  "w": "almost",
   "n": 10
  },
  {
-  "w": "understand",
+  "w": "walk",
   "n": 10
  },
  {
-  "w": "well",
+  "w": "lives",
   "n": 10
  },
  {
-  "w": "frightened",
+  "w": "sleeping",
+  "n": 10
+ },
+ {
+  "w": "leave",
+  "n": 10
+ },
+ {
+  "w": "move",
+  "n": 10
+ },
+ {
+  "w": "tea",
+  "n": 10
+ },
+ {
+  "w": "carried",
+  "n": 10
+ },
+ {
+  "w": "shape",
   "n": 10
  },
  {
@@ -1380,7 +1892,27 @@
   "n": 10
  },
  {
-  "w": "wrong",
+  "w": "used",
+  "n": 10
+ },
+ {
+  "w": "paper",
+  "n": 10
+ },
+ {
+  "w": "middle",
+  "n": 10
+ },
+ {
+  "w": "feel",
+  "n": 10
+ },
+ {
+  "w": "thirteen",
+  "n": 10
+ },
+ {
+  "w": "third",
   "n": 10
  },
  {
@@ -1388,151 +1920,203 @@
   "n": 10
  },
  {
-  "w": "stag",
+  "w": "built",
   "n": 10
  },
  {
-  "w": "moony",
+  "w": "don't",
   "n": 10
  },
  {
-  "w": "need",
+  "w": "laugh",
   "n": 10
- },
- {
-  "w": "street",
-  "n": 10
- },
- {
-  "w": "toward",
-  "n": 10
- },
- {
-  "w": "families",
-  "n": 10
- },
- {
-  "w": "agreed",
-  "n": 10
- },
- {
-  "w": "cottage",
-  "n": 10
- },
- {
-  "w": "keeper",
-  "n": 10
- },
- {
-  "w": "hallway",
-  "n": 10
- },
- {
-  "w": "father",
-  "n": 9
- },
- {
-  "w": "warm",
-  "n": 9
- },
- {
-  "w": "clothes",
-  "n": 9
- },
- {
-  "w": "wizard",
-  "n": 9
- },
- {
-  "w": "stay",
-  "n": 9
- },
- {
-  "w": "red",
-  "n": 9
- },
- {
-  "w": "window",
-  "n": 9
- },
- {
-  "w": "mouth",
-  "n": 9
- },
- {
-  "w": "ask",
-  "n": 9
- },
- {
-  "w": "looking",
-  "n": 9
- },
- {
-  "w": "mine",
-  "n": 9
- },
- {
-  "w": "outside",
-  "n": 9
- },
- {
-  "w": "away",
-  "n": 9
- },
- {
-  "w": "take",
-  "n": 9
- },
- {
-  "w": "fear",
-  "n": 9
- },
- {
-  "w": "son",
-  "n": 9
- },
- {
-  "w": "village",
-  "n": 9
- },
- {
-  "w": "exact",
-  "n": 9
- },
- {
-  "w": "feel",
-  "n": 9
- },
- {
-  "w": "lived",
-  "n": 9
- },
- {
-  "w": "question",
-  "n": 9
- },
- {
-  "w": "watching",
-  "n": 9
- },
- {
-  "w": "stairs",
-  "n": 9
  },
  {
   "w": "padfoot",
+  "n": 10
+ },
+ {
+  "w": "cake",
+  "n": 10
+ },
+ {
+  "w": "job",
+  "n": 10
+ },
+ {
+  "w": "road",
+  "n": 10
+ },
+ {
+  "w": "innocent",
+  "n": 10
+ },
+ {
+  "w": "traitor",
   "n": 9
  },
  {
-  "w": "hold",
+  "w": "angry",
   "n": 9
  },
  {
-  "w": "half",
+  "w": "soft",
   "n": 9
  },
  {
-  "w": "cost",
+  "w": "thin",
+  "n": 9
+ },
+ {
+  "w": "eleven",
+  "n": 9
+ },
+ {
+  "w": "strange",
+  "n": 9
+ },
+ {
+  "w": "slowly",
+  "n": 9
+ },
+ {
+  "w": "smoke",
+  "n": 9
+ },
+ {
+  "w": "empty",
+  "n": 9
+ },
+ {
+  "w": "really",
+  "n": 9
+ },
+ {
+  "w": "began",
+  "n": 9
+ },
+ {
+  "w": "ill",
+  "n": 9
+ },
+ {
+  "w": "lake",
+  "n": 9
+ },
+ {
+  "w": "careful",
+  "n": 9
+ },
+ {
+  "w": "thousand",
+  "n": 9
+ },
+ {
+  "w": "above",
+  "n": 9
+ },
+ {
+  "w": "live",
+  "n": 9
+ },
+ {
+  "w": "monster",
+  "n": 9
+ },
+ {
+  "w": "beginning",
+  "n": 9
+ },
+ {
+  "w": "worked",
+  "n": 9
+ },
+ {
+  "w": "help",
+  "n": 9
+ },
+ {
+  "w": "another",
+  "n": 9
+ },
+ {
+  "w": "new",
+  "n": 9
+ },
+ {
+  "w": "known",
+  "n": 9
+ },
+ {
+  "w": "caught",
+  "n": 9
+ },
+ {
+  "w": "sitting",
+  "n": 9
+ },
+ {
+  "w": "hurt",
+  "n": 9
+ },
+ {
+  "w": "wrote",
+  "n": 9
+ },
+ {
+  "w": "arm",
+  "n": 9
+ },
+ {
+  "w": "shut",
+  "n": 9
+ },
+ {
+  "w": "instead",
+  "n": 9
+ },
+ {
+  "w": "across",
+  "n": 9
+ },
+ {
+  "w": "finger",
+  "n": 9
+ },
+ {
+  "w": "fifth",
+  "n": 9
+ },
+ {
+  "w": "stag",
+  "n": 9
+ },
+ {
+  "w": "reason",
+  "n": 9
+ },
+ {
+  "w": "page",
+  "n": 9
+ },
+ {
+  "w": "seconds",
+  "n": 9
+ },
+ {
+  "w": "whose",
+  "n": 9
+ },
+ {
+  "w": "halloween",
+  "n": 9
+ },
+ {
+  "w": "mind",
+  "n": 9
+ },
+ {
+  "w": "choice",
   "n": 9
  },
  {
@@ -1540,59 +2124,87 @@
   "n": 9
  },
  {
-  "w": "brother",
+  "w": "horror",
   "n": 9
  },
  {
-  "w": "taught",
+  "w": "actually",
   "n": 9
  },
  {
-  "w": "fight",
+  "w": "afterwards",
   "n": 9
  },
  {
-  "w": "machine",
+  "w": "cottage",
   "n": 9
  },
  {
-  "w": "charm",
-  "n": 9
- },
- {
-  "w": "coming",
+  "w": "lupin",
   "n": 8
  },
  {
-  "w": "slowly",
+  "w": "child",
   "n": 8
  },
  {
-  "w": "person",
+  "w": "mean",
   "n": 8
  },
  {
-  "w": "ones",
+  "w": "minutes",
   "n": 8
  },
  {
-  "w": "became",
+  "w": "forty",
   "n": 8
  },
  {
-  "w": "turned",
+  "w": "moved",
   "n": 8
  },
  {
-  "w": "somewhere",
+  "w": "windows",
   "n": 8
  },
  {
-  "w": "far",
+  "w": "sound",
   "n": 8
  },
  {
-  "w": "terrible",
+  "w": "professor",
+  "n": 8
+ },
+ {
+  "w": "doors",
+  "n": 8
+ },
+ {
+  "w": "talk",
+  "n": 8
+ },
+ {
+  "w": "heads",
+  "n": 8
+ },
+ {
+  "w": "sky",
+  "n": 8
+ },
+ {
+  "w": "silence",
+  "n": 8
+ },
+ {
+  "w": "prison",
+  "n": 8
+ },
+ {
+  "w": "taken",
+  "n": 8
+ },
+ {
+  "w": "late",
   "n": 8
  },
  {
@@ -1600,87 +2212,43 @@
   "n": 8
  },
  {
-  "w": "bed",
+  "w": "safe",
   "n": 8
  },
  {
-  "w": "hear",
+  "w": "step",
   "n": 8
  },
  {
-  "w": "started",
+  "w": "asking",
   "n": 8
  },
  {
-  "w": "noticed",
+  "w": "letters",
   "n": 8
  },
  {
-  "w": "killed",
+  "w": "stayed",
   "n": 8
  },
  {
-  "w": "close",
+  "w": "broken",
   "n": 8
  },
  {
-  "w": "it's",
+  "w": "problem",
   "n": 8
  },
  {
-  "w": "completely",
+  "w": "glass",
   "n": 8
  },
  {
-  "w": "also",
+  "w": "impossible",
   "n": 8
  },
  {
-  "w": "animal",
-  "n": 8
- },
- {
-  "w": "died",
-  "n": 8
- },
- {
-  "w": "wearing",
-  "n": 8
- },
- {
-  "w": "crying",
-  "n": 8
- },
- {
-  "w": "fifteen",
-  "n": 8
- },
- {
-  "w": "watch",
-  "n": 8
- },
- {
-  "w": "simply",
-  "n": 8
- },
- {
-  "w": "wormtail",
-  "n": 8
- },
- {
-  "w": "finger",
-  "n": 8
- },
- {
-  "w": "cake",
-  "n": 8
- },
- {
-  "w": "sixteen",
-  "n": 8
- },
- {
-  "w": "though",
+  "w": "britain",
   "n": 8
  },
  {
@@ -1688,23 +2256,91 @@
   "n": 8
  },
  {
+  "w": "stupid",
+  "n": 8
+ },
+ {
+  "w": "write",
+  "n": 8
+ },
+ {
+  "w": "fourth",
+  "n": 8
+ },
+ {
+  "w": "it's",
+  "n": 8
+ },
+ {
+  "w": "ending",
+  "n": 8
+ },
+ {
+  "w": "also",
+  "n": 8
+ },
+ {
+  "w": "hours",
+  "n": 8
+ },
+ {
+  "w": "putting",
+  "n": 8
+ },
+ {
+  "w": "you're",
+  "n": 8
+ },
+ {
+  "w": "animal",
+  "n": 8
+ },
+ {
+  "w": "try",
+  "n": 8
+ },
+ {
+  "w": "borrowed",
+  "n": 8
+ },
+ {
+  "w": "prongs",
+  "n": 8
+ },
+ {
+  "w": "comes",
+  "n": 8
+ },
+ {
+  "w": "itself",
+  "n": 8
+ },
+ {
+  "w": "certain",
+  "n": 8
+ },
+ {
+  "w": "heart",
+  "n": 8
+ },
+ {
+  "w": "carrying",
+  "n": 8
+ },
+ {
   "w": "potters",
   "n": 8
  },
  {
-  "w": "shape",
+  "w": "eaters",
   "n": 8
  },
  {
-  "w": "give",
+  "w": "fight",
   "n": 8
  },
  {
-  "w": "side",
-  "n": 8
- },
- {
-  "w": "halloween",
+  "w": "sea",
   "n": 8
  },
  {
@@ -1712,47 +2348,71 @@
   "n": 8
  },
  {
-  "w": "mind",
+  "w": "evidence",
   "n": 8
  },
  {
-  "w": "trust",
+  "w": "tells",
   "n": 7
  },
  {
-  "w": "lupin",
+  "w": "tired",
   "n": 7
  },
  {
-  "w": "joke",
+  "w": "funny",
   "n": 7
  },
  {
-  "w": "green",
+  "w": "harry's",
   "n": 7
  },
  {
-  "w": "eleven",
+  "w": "clever",
   "n": 7
  },
  {
-  "w": "doing",
+  "w": "severus",
   "n": 7
  },
  {
-  "w": "friendship",
+  "w": "hogwarts",
   "n": 7
  },
  {
-  "w": "grey",
+  "w": "september",
   "n": 7
  },
  {
-  "w": "hundred",
+  "w": "rules",
   "n": 7
  },
  {
-  "w": "windows",
+  "w": "top",
+  "n": 7
+ },
+ {
+  "w": "sirius's",
+  "n": 7
+ },
+ {
+  "w": "fine",
+  "n": 7
+ },
+ {
+  "w": "hate",
+  "n": 7
+ },
+ {
+  "w": "wet",
+  "n": 7
+ },
+ {
+  "w": "met",
+  "n": 7
+ },
+ {
+  "w": "waiting",
   "n": 7
  },
  {
@@ -1760,15 +2420,11 @@
   "n": 7
  },
  {
-  "w": "please",
+  "w": "thank",
   "n": 7
  },
  {
-  "w": "careful",
-  "n": 7
- },
- {
-  "w": "instead",
+  "w": "straight",
   "n": 7
  },
  {
@@ -1776,55 +2432,127 @@
   "n": 7
  },
  {
+  "w": "that's",
+  "n": 7
+ },
+ {
+  "w": "ceiling",
+  "n": 7
+ },
+ {
+  "w": "air",
+  "n": 7
+ },
+ {
   "w": "moving",
   "n": 7
  },
  {
-  "w": "walking",
+  "w": "older",
   "n": 7
  },
  {
-  "w": "monster",
+  "w": "line",
   "n": 7
  },
  {
-  "w": "maybe",
+  "w": "many",
   "n": 7
  },
  {
-  "w": "late",
+  "w": "class",
   "n": 7
  },
  {
-  "w": "tower",
+  "w": "questions",
   "n": 7
  },
  {
-  "w": "safe",
+  "w": "working",
   "n": 7
  },
  {
-  "w": "weeks",
+  "w": "turn",
   "n": 7
  },
  {
-  "w": "seven",
+  "w": "sun",
   "n": 7
  },
  {
-  "w": "books",
+  "w": "building",
   "n": 7
  },
  {
-  "w": "step",
+  "w": "arrived",
   "n": 7
  },
  {
-  "w": "happened",
+  "w": "holding",
   "n": 7
  },
  {
-  "w": "another",
+  "w": "common",
+  "n": 7
+ },
+ {
+  "w": "felt",
+  "n": 7
+ },
+ {
+  "w": "teacher",
+  "n": 7
+ },
+ {
+  "w": "feeling",
+  "n": 7
+ },
+ {
+  "w": "law",
+  "n": 7
+ },
+ {
+  "w": "reader",
+  "n": 7
+ },
+ {
+  "w": "simply",
+  "n": 7
+ },
+ {
+  "w": "antlers",
+  "n": 7
+ },
+ {
+  "w": "worse",
+  "n": 7
+ },
+ {
+  "w": "root",
+  "n": 7
+ },
+ {
+  "w": "rooms",
+  "n": 7
+ },
+ {
+  "w": "whether",
+  "n": 7
+ },
+ {
+  "w": "corridors",
+  "n": 7
+ },
+ {
+  "w": "able",
+  "n": 7
+ },
+ {
+  "w": "nearly",
+  "n": 7
+ },
+ {
+  "w": "mark",
   "n": 7
  },
  {
@@ -1832,147 +2560,59 @@
   "n": 7
  },
  {
-  "w": "broken",
-  "n": 7
- },
- {
-  "w": "new",
-  "n": 7
- },
- {
-  "w": "tunnel",
-  "n": 7
- },
- {
-  "w": "paper",
-  "n": 7
- },
- {
-  "w": "hurt",
-  "n": 7
- },
- {
-  "w": "ending",
-  "n": 7
- },
- {
-  "w": "lie",
-  "n": 7
- },
- {
-  "w": "middle",
-  "n": 7
- },
- {
-  "w": "believe",
-  "n": 7
- },
- {
-  "w": "began",
-  "n": 7
- },
- {
-  "w": "seen",
-  "n": 7
- },
- {
-  "w": "plain",
-  "n": 7
- },
- {
-  "w": "write",
-  "n": 7
- },
- {
-  "w": "honestly",
-  "n": 7
- },
- {
-  "w": "closed",
-  "n": 7
- },
- {
-  "w": "try",
-  "n": 7
- },
- {
-  "w": "worst",
-  "n": 7
- },
- {
-  "w": "traitor",
-  "n": 7
- },
- {
-  "w": "corridor",
-  "n": 7
- },
- {
-  "w": "eaters",
-  "n": 7
- },
- {
-  "w": "pulled",
-  "n": 7
- },
- {
-  "w": "someone",
-  "n": 7
- },
- {
-  "w": "choice",
-  "n": 7
- },
- {
-  "w": "asleep",
-  "n": 7
- },
- {
-  "w": "horror",
-  "n": 7
- },
- {
   "w": "listening",
   "n": 7
  },
  {
-  "w": "roof",
+  "w": "fought",
   "n": 7
  },
  {
-  "w": "none",
+  "w": "wedding",
   "n": 7
  },
  {
-  "w": "itself",
+  "w": "master",
   "n": 7
  },
  {
-  "w": "twice",
+  "w": "cost",
   "n": 7
  },
  {
-  "w": "tea",
+  "w": "hunted",
   "n": 7
  },
  {
-  "w": "dumbledore's",
+  "w": "false",
   "n": 7
  },
  {
-  "w": "seconds",
+  "w": "photograph",
   "n": 7
  },
  {
-  "w": "innocent",
+  "w": "reasons",
   "n": 7
  },
  {
-  "w": "future",
+  "w": "arithmetic",
+  "n": 7
+ },
+ {
+  "w": "sealed",
+  "n": 7
+ },
+ {
+  "w": "drawer",
+  "n": 7
+ },
+ {
+  "w": "spell",
   "n": 6
  },
  {
-  "w": "angry",
+  "w": "future",
   "n": 6
  },
  {
@@ -1980,15 +2620,11 @@
   "n": 6
  },
  {
-  "w": "clever",
+  "w": "happiness",
   "n": 6
  },
  {
-  "w": "thin",
-  "n": 6
- },
- {
-  "w": "strange",
+  "w": "london",
   "n": 6
  },
  {
@@ -1996,267 +2632,7 @@
   "n": 6
  },
  {
-  "w": "smoke",
-  "n": 6
- },
- {
-  "w": "hard",
-  "n": 6
- },
- {
-  "w": "empty",
-  "n": 6
- },
- {
-  "w": "picture",
-  "n": 6
- },
- {
-  "w": "shut",
-  "n": 6
- },
- {
-  "w": "born",
-  "n": 6
- },
- {
-  "w": "sit",
-  "n": 6
- },
- {
-  "w": "right",
-  "n": 6
- },
- {
-  "w": "past",
-  "n": 6
- },
- {
-  "w": "houses",
-  "n": 6
- },
- {
-  "w": "lamp",
-  "n": 6
- },
- {
-  "w": "across",
-  "n": 6
- },
- {
-  "w": "thousand",
-  "n": 6
- },
- {
-  "w": "sound",
-  "n": 6
- },
- {
-  "w": "ceiling",
-  "n": 6
- },
- {
-  "w": "chair",
-  "n": 6
- },
- {
-  "w": "prison",
-  "n": 6
- },
- {
-  "w": "almost",
-  "n": 6
- },
- {
-  "w": "much",
-  "n": 6
- },
- {
-  "w": "beginning",
-  "n": 6
- },
- {
-  "w": "sleeping",
-  "n": 6
- },
- {
-  "w": "students",
-  "n": 6
- },
- {
-  "w": "doors",
-  "n": 6
- },
- {
-  "w": "comes",
-  "n": 6
- },
- {
-  "w": "problem",
-  "n": 6
- },
- {
-  "w": "themselves",
-  "n": 6
- },
- {
-  "w": "woke",
-  "n": 6
- },
- {
-  "w": "britain",
-  "n": 6
- },
- {
-  "w": "piece",
-  "n": 6
- },
- {
-  "w": "common",
-  "n": 6
- },
- {
-  "w": "get",
-  "n": 6
- },
- {
-  "w": "felt",
-  "n": 6
- },
- {
-  "w": "die",
-  "n": 6
- },
- {
-  "w": "lies",
-  "n": 6
- },
- {
-  "w": "known",
-  "n": 6
- },
- {
-  "w": "since",
-  "n": 6
- },
- {
-  "w": "stories",
-  "n": 6
- },
- {
-  "w": "caught",
-  "n": 6
- },
- {
-  "w": "telling",
-  "n": 6
- },
- {
-  "w": "saying",
-  "n": 6
- },
- {
-  "w": "borrowed",
-  "n": 6
- },
- {
-  "w": "teachers",
-  "n": 6
- },
- {
-  "w": "third",
-  "n": 6
- },
- {
-  "w": "should",
-  "n": 6
- },
- {
-  "w": "don't",
-  "n": 6
- },
- {
-  "w": "stupid",
-  "n": 6
- },
- {
-  "w": "antlers",
-  "n": 6
- },
- {
-  "w": "prongs",
-  "n": 6
- },
- {
-  "w": "smell",
-  "n": 6
- },
- {
-  "w": "goes",
-  "n": 6
- },
- {
-  "w": "knows",
-  "n": 6
- },
- {
-  "w": "these",
-  "n": 6
- },
- {
-  "w": "carry",
-  "n": 6
- },
- {
-  "w": "root",
-  "n": 6
- },
- {
-  "w": "lives",
-  "n": 6
- },
- {
-  "w": "page",
-  "n": 6
- },
- {
-  "w": "wall",
-  "n": 6
- },
- {
-  "w": "history",
-  "n": 6
- },
- {
-  "w": "seventh",
-  "n": 6
- },
- {
-  "w": "honest",
-  "n": 6
- },
- {
-  "w": "cruel",
-  "n": 6
- },
- {
-  "w": "spend",
-  "n": 6
- },
- {
-  "w": "reason",
-  "n": 6
- },
- {
-  "w": "public",
-  "n": 6
- },
- {
-  "w": "set",
-  "n": 6
- },
- {
-  "w": "autumn",
+  "w": "send",
   "n": 6
  },
  {
@@ -2264,7 +2640,263 @@
   "n": 6
  },
  {
-  "w": "possible",
+  "w": "cut",
+  "n": 6
+ },
+ {
+  "w": "gold",
+  "n": 6
+ },
+ {
+  "w": "themselves",
+  "n": 6
+ },
+ {
+  "w": "onto",
+  "n": 6
+ },
+ {
+  "w": "huge",
+  "n": 6
+ },
+ {
+  "w": "longer",
+  "n": 6
+ },
+ {
+  "w": "says",
+  "n": 6
+ },
+ {
+  "w": "shouted",
+  "n": 6
+ },
+ {
+  "w": "girl",
+  "n": 6
+ },
+ {
+  "w": "maybe",
+  "n": 6
+ },
+ {
+  "w": "difference",
+  "n": 6
+ },
+ {
+  "w": "sleep",
+  "n": 6
+ },
+ {
+  "w": "ink",
+  "n": 6
+ },
+ {
+  "w": "money",
+  "n": 6
+ },
+ {
+  "w": "talked",
+  "n": 6
+ },
+ {
+  "w": "became",
+  "n": 6
+ },
+ {
+  "w": "star",
+  "n": 6
+ },
+ {
+  "w": "hated",
+  "n": 6
+ },
+ {
+  "w": "although",
+  "n": 6
+ },
+ {
+  "w": "build",
+  "n": 6
+ },
+ {
+  "w": "age",
+  "n": 6
+ },
+ {
+  "w": "woke",
+  "n": 6
+ },
+ {
+  "w": "madam",
+  "n": 6
+ },
+ {
+  "w": "living",
+  "n": 6
+ },
+ {
+  "w": "chapters",
+  "n": 6
+ },
+ {
+  "w": "students",
+  "n": 6
+ },
+ {
+  "w": "imagine",
+  "n": 6
+ },
+ {
+  "w": "explain",
+  "n": 6
+ },
+ {
+  "w": "making",
+  "n": 6
+ },
+ {
+  "w": "upstairs",
+  "n": 6
+ },
+ {
+  "w": "neither",
+  "n": 6
+ },
+ {
+  "w": "dates",
+  "n": 6
+ },
+ {
+  "w": "mother's",
+  "n": 6
+ },
+ {
+  "w": "die",
+  "n": 6
+ },
+ {
+  "w": "spend",
+  "n": 6
+ },
+ {
+  "w": "size",
+  "n": 6
+ },
+ {
+  "w": "grown",
+  "n": 6
+ },
+ {
+  "w": "thirty",
+  "n": 6
+ },
+ {
+  "w": "hidden",
+  "n": 6
+ },
+ {
+  "w": "change",
+  "n": 6
+ },
+ {
+  "w": "teachers",
+  "n": 6
+ },
+ {
+  "w": "broke",
+  "n": 6
+ },
+ {
+  "w": "fast",
+  "n": 6
+ },
+ {
+  "w": "easy",
+  "n": 6
+ },
+ {
+  "w": "run",
+  "n": 6
+ },
+ {
+  "w": "pointed",
+  "n": 6
+ },
+ {
+  "w": "wormtail",
+  "n": 6
+ },
+ {
+  "w": "inch",
+  "n": 6
+ },
+ {
+  "w": "boy's",
+  "n": 6
+ },
+ {
+  "w": "among",
+  "n": 6
+ },
+ {
+  "w": "carry",
+  "n": 6
+ },
+ {
+  "w": "exact",
+  "n": 6
+ },
+ {
+  "w": "sent",
+  "n": 6
+ },
+ {
+  "w": "places",
+  "n": 6
+ },
+ {
+  "w": "sixth",
+  "n": 6
+ },
+ {
+  "w": "country",
+  "n": 6
+ },
+ {
+  "w": "seventh",
+  "n": 6
+ },
+ {
+  "w": "knowing",
+  "n": 6
+ },
+ {
+  "w": "cruel",
+  "n": 6
+ },
+ {
+  "w": "probably",
+  "n": 6
+ },
+ {
+  "w": "hiding",
+  "n": 6
+ },
+ {
+  "w": "except",
+  "n": 6
+ },
+ {
+  "w": "stand",
+  "n": 6
+ },
+ {
+  "w": "either",
+  "n": 6
+ },
+ {
+  "w": "afternoon",
   "n": 6
  },
  {
@@ -2272,55 +2904,47 @@
   "n": 6
  },
  {
-  "w": "actually",
+  "w": "makes",
   "n": 6
  },
  {
-  "w": "five",
+  "w": "eighteen",
   "n": 6
  },
  {
-  "w": "rooms",
+  "w": "autumn",
   "n": 6
  },
  {
-  "w": "answer",
+  "w": "possible",
   "n": 6
  },
  {
-  "w": "twenty-one",
+  "w": "might",
   "n": 6
  },
  {
-  "w": "perfect",
+  "w": "married",
   "n": 6
  },
  {
-  "w": "promised",
+  "w": "paid",
   "n": 6
  },
  {
-  "w": "wedding",
+  "w": "motorbike",
   "n": 6
  },
  {
-  "w": "heart",
+  "w": "believing",
   "n": 6
  },
  {
-  "w": "hunted",
+  "w": "moody",
   "n": 6
  },
  {
-  "w": "spy",
-  "n": 6
- },
- {
-  "w": "kitchen",
-  "n": 6
- },
- {
-  "w": "arrived",
+  "w": "offer",
   "n": 6
  },
  {
@@ -2328,23 +2952,7 @@
   "n": 6
  },
  {
-  "w": "baby",
-  "n": 6
- },
- {
-  "w": "drawer",
-  "n": 6
- },
- {
-  "w": "godric's",
-  "n": 6
- },
- {
-  "w": "hollow",
-  "n": 6
- },
- {
-  "w": "master",
+  "w": "deaths",
   "n": 6
  },
  {
@@ -2352,11 +2960,11 @@
   "n": 6
  },
  {
-  "w": "entire",
+  "w": "decision",
   "n": 6
  },
  {
-  "w": "circle",
+  "w": "cleverness",
   "n": 6
  },
  {
@@ -2364,15 +2972,7 @@
   "n": 6
  },
  {
-  "w": "tells",
-  "n": 5
- },
- {
-  "w": "tired",
-  "n": 5
- },
- {
-  "w": "funny",
+  "w": "trust",
   "n": 5
  },
  {
@@ -2380,23 +2980,75 @@
   "n": 5
  },
  {
-  "w": "hogwarts",
+  "w": "learn",
   "n": 5
  },
  {
-  "w": "child",
+  "w": "faces",
   "n": 5
  },
  {
-  "w": "happy",
+  "w": "speak",
   "n": 5
  },
  {
-  "w": "september",
+  "w": "corner",
   "n": 5
  },
  {
-  "w": "rules",
+  "w": "wooden",
+  "n": 5
+ },
+ {
+  "w": "giant",
+  "n": 5
+ },
+ {
+  "w": "forest",
+  "n": 5
+ },
+ {
+  "w": "fall",
+  "n": 5
+ },
+ {
+  "w": "witch",
+  "n": 5
+ },
+ {
+  "w": "mcgonagall",
+  "n": 5
+ },
+ {
+  "w": "arms",
+  "n": 5
+ },
+ {
+  "w": "reading",
+  "n": 5
+ },
+ {
+  "w": "anyway",
+  "n": 5
+ },
+ {
+  "w": "burning",
+  "n": 5
+ },
+ {
+  "w": "bottom",
+  "n": 5
+ },
+ {
+  "w": "smiling",
+  "n": 5
+ },
+ {
+  "w": "six",
+  "n": 5
+ },
+ {
+  "w": "curtains",
   "n": 5
  },
  {
@@ -2404,47 +3056,19 @@
   "n": 5
  },
  {
-  "w": "talk",
+  "w": "needs",
   "n": 5
  },
  {
-  "w": "sky",
+  "w": "public",
   "n": 5
  },
  {
-  "w": "looks",
+  "w": "sold",
   "n": 5
  },
  {
-  "w": "power",
-  "n": 5
- },
- {
-  "w": "shouted",
-  "n": 5
- },
- {
-  "w": "total",
-  "n": 5
- },
- {
-  "w": "girl",
-  "n": 5
- },
- {
-  "w": "help",
-  "n": 5
- },
- {
-  "w": "class",
-  "n": 5
- },
- {
-  "w": "turns",
-  "n": 5
- },
- {
-  "w": "huge",
+  "w": "illness",
   "n": 5
  },
  {
@@ -2452,15 +3076,15 @@
   "n": 5
  },
  {
-  "w": "living",
+  "w": "talking",
   "n": 5
  },
  {
-  "w": "air",
+  "w": "grounds",
   "n": 5
  },
  {
-  "w": "laws",
+  "w": "waited",
   "n": 5
  },
  {
@@ -2468,15 +3092,39 @@
   "n": 5
  },
  {
+  "w": "quickly",
+  "n": 5
+ },
+ {
+  "w": "calendar",
+  "n": 5
+ },
+ {
+  "w": "laws",
+  "n": 5
+ },
+ {
   "w": "hardest",
   "n": 5
  },
  {
-  "w": "truly",
+  "w": "cry",
   "n": 5
  },
  {
-  "w": "explain",
+  "w": "hears",
+  "n": 5
+ },
+ {
+  "w": "asks",
+  "n": 5
+ },
+ {
+  "w": "further",
+  "n": 5
+ },
+ {
+  "w": "turns",
   "n": 5
  },
  {
@@ -2484,155 +3132,31 @@
   "n": 5
  },
  {
-  "w": "forever",
+  "w": "catch",
   "n": 5
  },
  {
-  "w": "thirteen",
+  "w": "quite",
   "n": 5
  },
  {
-  "w": "enough",
+  "w": "twenty",
   "n": 5
  },
  {
-  "w": "detail",
+  "w": "stranger",
   "n": 5
  },
  {
-  "w": "stayed",
+  "w": "helped",
   "n": 5
  },
  {
-  "w": "leave",
+  "w": "telling",
   "n": 5
  },
  {
-  "w": "showed",
-  "n": 5
- },
- {
-  "w": "lights",
-  "n": 5
- },
- {
-  "w": "raised",
-  "n": 5
- },
- {
-  "w": "plainly",
-  "n": 5
- },
- {
-  "w": "except",
-  "n": 5
- },
- {
-  "w": "worse",
-  "n": 5
- },
- {
-  "w": "heads",
-  "n": 5
- },
- {
-  "w": "marauders",
-  "n": 5
- },
- {
-  "w": "country",
-  "n": 5
- },
- {
-  "w": "god",
-  "n": 5
- },
- {
-  "w": "man's",
-  "n": 5
- },
- {
-  "w": "corridors",
-  "n": 5
- },
- {
-  "w": "hiding",
-  "n": 5
- },
- {
-  "w": "carried",
-  "n": 5
- },
- {
-  "w": "sentences",
-  "n": 5
- },
- {
-  "w": "apologised",
-  "n": 5
- },
- {
-  "w": "stand",
-  "n": 5
- },
- {
-  "w": "ours",
-  "n": 5
- },
- {
-  "w": "false",
-  "n": 5
- },
- {
-  "w": "among",
-  "n": 5
- },
- {
-  "w": "privately",
-  "n": 5
- },
- {
-  "w": "moved",
-  "n": 5
- },
- {
-  "w": "fed",
-  "n": 5
- },
- {
-  "w": "asking",
-  "n": 5
- },
- {
-  "w": "such",
-  "n": 5
- },
- {
-  "w": "older",
-  "n": 5
- },
- {
-  "w": "road",
-  "n": 5
- },
- {
-  "w": "account",
-  "n": 5
- },
- {
-  "w": "mother's",
-  "n": 5
- },
- {
-  "w": "eighteen",
-  "n": 5
- },
- {
-  "w": "beside",
-  "n": 5
- },
- {
-  "w": "jumper",
+  "w": "leaves",
   "n": 5
  },
  {
@@ -2640,55 +3164,183 @@
   "n": 5
  },
  {
+  "w": "anywhere",
+  "n": 5
+ },
+ {
+  "w": "given",
+  "n": 5
+ },
+ {
+  "w": "born",
+  "n": 5
+ },
+ {
+  "w": "named",
+  "n": 5
+ },
+ {
+  "w": "loving",
+  "n": 5
+ },
+ {
+  "w": "badly",
+  "n": 5
+ },
+ {
+  "w": "smell",
+  "n": 5
+ },
+ {
+  "w": "mad",
+  "n": 5
+ },
+ {
+  "w": "visits",
+  "n": 5
+ },
+ {
+  "w": "plainly",
+  "n": 5
+ },
+ {
+  "w": "mirror",
+  "n": 5
+ },
+ {
+  "w": "fed",
+  "n": 5
+ },
+ {
+  "w": "brought",
+  "n": 5
+ },
+ {
+  "w": "finding",
+  "n": 5
+ },
+ {
+  "w": "finest",
+  "n": 5
+ },
+ {
+  "w": "including",
+  "n": 5
+ },
+ {
+  "w": "eight",
+  "n": 5
+ },
+ {
+  "w": "honestly",
+  "n": 5
+ },
+ {
+  "w": "history",
+  "n": 5
+ },
+ {
+  "w": "counted",
+  "n": 5
+ },
+ {
+  "w": "happens",
+  "n": 5
+ },
+ {
+  "w": "fighting",
+  "n": 5
+ },
+ {
+  "w": "kill",
+  "n": 5
+ },
+ {
+  "w": "argued",
+  "n": 5
+ },
+ {
+  "w": "ours",
+  "n": 5
+ },
+ {
+  "w": "account",
+  "n": 5
+ },
+ {
+  "w": "christmas",
+  "n": 5
+ },
+ {
+  "w": "jumper",
+  "n": 5
+ },
+ {
   "w": "guards",
   "n": 5
  },
  {
-  "w": "mark",
+  "w": "newspaper",
   "n": 5
  },
  {
-  "w": "whose",
+  "w": "listened",
   "n": 5
  },
  {
-  "w": "might",
+  "w": "none",
   "n": 5
  },
  {
-  "w": "fought",
+  "w": "army",
   "n": 5
  },
  {
-  "w": "making",
+  "w": "gets",
   "n": 5
  },
  {
-  "w": "certain",
+  "w": "different",
   "n": 5
  },
  {
-  "w": "size",
+  "w": "belongs",
   "n": 5
  },
  {
-  "w": "masks",
+  "w": "stories",
   "n": 5
  },
  {
-  "w": "married",
+  "w": "danger",
   "n": 5
  },
  {
-  "w": "paid",
+  "w": "twenty-one",
   "n": 5
  },
  {
-  "w": "motorbike",
+  "w": "perfect",
   "n": 5
  },
  {
-  "w": "holding",
+  "w": "witnesses",
+  "n": 5
+ },
+ {
+  "w": "desk",
+  "n": 5
+ },
+ {
+  "w": "looks",
+  "n": 5
+ },
+ {
+  "w": "bought",
+  "n": 5
+ },
+ {
+  "w": "meeting",
   "n": 5
  },
  {
@@ -2696,43 +3348,35 @@
   "n": 5
  },
  {
+  "w": "dumbledore's",
+  "n": 5
+ },
+ {
   "w": "orders",
   "n": 5
  },
  {
-  "w": "hidden",
+  "w": "promised",
   "n": 5
  },
  {
-  "w": "reasons",
+  "w": "edge",
   "n": 5
  },
  {
-  "w": "deaths",
+  "w": "sentences",
   "n": 5
  },
  {
-  "w": "yet",
+  "w": "power",
   "n": 5
  },
  {
-  "w": "arithmetic",
+  "w": "such",
   "n": 5
  },
  {
-  "w": "sealed",
-  "n": 5
- },
- {
-  "w": "betrayed",
-  "n": 5
- },
- {
-  "w": "fidelius",
-  "n": 5
- },
- {
-  "w": "daily",
+  "w": "spy",
   "n": 5
  },
  {
@@ -2740,11 +3384,7 @@
   "n": 5
  },
  {
-  "w": "scene",
-  "n": 5
- },
- {
-  "w": "precisely",
+  "w": "circle",
   "n": 5
  },
  {
@@ -2752,47 +3392,31 @@
   "n": 5
  },
  {
-  "w": "holds",
+  "w": "doorway",
   "n": 5
  },
  {
-  "w": "harry's",
+  "w": "wands",
+  "n": 5
+ },
+ {
+  "w": "rich",
   "n": 4
  },
  {
-  "w": "london",
+  "w": "albus",
+  "n": 4
+ },
+ {
+  "w": "heavy",
+  "n": 4
+ },
+ {
+  "w": "platform",
   "n": 4
  },
  {
   "w": "legs",
-  "n": 4
- },
- {
-  "w": "white",
-  "n": 4
- },
- {
-  "w": "learn",
-  "n": 4
- },
- {
-  "w": "send",
-  "n": 4
- },
- {
-  "w": "make",
-  "n": 4
- },
- {
-  "w": "sorry",
-  "n": 4
- },
- {
-  "w": "hope",
-  "n": 4
- },
- {
-  "w": "top",
   "n": 4
  },
  {
@@ -2804,55 +3428,67 @@
   "n": 4
  },
  {
-  "w": "sick",
+  "w": "boat",
   "n": 4
  },
  {
-  "w": "cut",
+  "w": "cave",
   "n": 4
  },
  {
-  "w": "ill",
+  "w": "few",
   "n": 4
  },
  {
-  "w": "faces",
+  "w": "there's",
   "n": 4
  },
  {
-  "w": "gold",
+  "w": "leaning",
   "n": 4
  },
  {
-  "w": "feet",
+  "w": "shaking",
   "n": 4
  },
  {
-  "w": "corner",
+  "w": "stars",
   "n": 4
  },
  {
-  "w": "giant",
+  "w": "tables",
   "n": 4
  },
  {
-  "w": "line",
+  "w": "along",
   "n": 4
  },
  {
-  "w": "walk",
+  "w": "disappeared",
   "n": 4
  },
  {
-  "w": "ear",
+  "w": "difficult",
   "n": 4
  },
  {
-  "w": "politely",
+  "w": "properly",
   "n": 4
  },
  {
-  "w": "sirius's",
+  "w": "birthday",
+  "n": 4
+ },
+ {
+  "w": "shook",
+  "n": 4
+ },
+ {
+  "w": "mountains",
+  "n": 4
+ },
+ {
+  "w": "papers",
   "n": 4
  },
  {
@@ -2860,27 +3496,59 @@
   "n": 4
  },
  {
-  "w": "money",
+  "w": "winter",
   "n": 4
  },
  {
-  "w": "kindness",
+  "w": "eat",
   "n": 4
  },
  {
-  "w": "letters",
+  "w": "o'clock",
   "n": 4
  },
  {
-  "w": "madam",
+  "w": "followed",
   "n": 4
  },
  {
-  "w": "grounds",
+  "w": "owned",
   "n": 4
  },
  {
-  "w": "glass",
+  "w": "bit",
+  "n": 4
+ },
+ {
+  "w": "keys",
+  "n": 4
+ },
+ {
+  "w": "man's",
+  "n": 4
+ },
+ {
+  "w": "lock",
+  "n": 4
+ },
+ {
+  "w": "cuts",
+  "n": 4
+ },
+ {
+  "w": "chest",
+  "n": 4
+ },
+ {
+  "w": "drank",
+  "n": 4
+ },
+ {
+  "w": "boards",
+  "n": 4
+ },
+ {
+  "w": "pomfrey",
   "n": 4
  },
  {
@@ -2888,351 +3556,7 @@
   "n": 4
  },
  {
-  "w": "working",
-  "n": 4
- },
- {
-  "w": "fourth",
-  "n": 4
- },
- {
-  "w": "dates",
-  "n": 4
- },
- {
-  "w": "wrote",
-  "n": 4
- },
- {
-  "w": "calendar",
-  "n": 4
- },
- {
-  "w": "actual",
-  "n": 4
- },
- {
-  "w": "written",
-  "n": 4
- },
- {
-  "w": "finished",
-  "n": 4
- },
- {
-  "w": "learning",
-  "n": 4
- },
- {
-  "w": "thirty",
-  "n": 4
- },
- {
-  "w": "law",
-  "n": 4
- },
- {
-  "w": "helped",
-  "n": 4
- },
- {
-  "w": "change",
-  "n": 4
- },
- {
-  "w": "pictures",
-  "n": 4
- },
- {
-  "w": "run",
-  "n": 4
- },
- {
-  "w": "less",
-  "n": 4
- },
- {
-  "w": "folded",
-  "n": 4
- },
- {
-  "w": "impossible",
-  "n": 4
- },
- {
-  "w": "fast",
-  "n": 4
- },
- {
-  "w": "rats",
-  "n": 4
- },
- {
-  "w": "named",
-  "n": 4
- },
- {
-  "w": "loving",
-  "n": 4
- },
- {
-  "w": "signed",
-  "n": 4
- },
- {
-  "w": "waiting",
-  "n": 4
- },
- {
-  "w": "feeling",
-  "n": 4
- },
- {
-  "w": "reach",
-  "n": 4
- },
- {
-  "w": "grass",
-  "n": 4
- },
- {
-  "w": "sent",
-  "n": 4
- },
- {
-  "w": "visits",
-  "n": 4
- },
- {
-  "w": "either",
-  "n": 4
- },
- {
-  "w": "whatever",
-  "n": 4
- },
- {
-  "w": "sixth",
-  "n": 4
- },
- {
-  "w": "knowledge",
-  "n": 4
- },
- {
-  "w": "facts",
-  "n": 4
- },
- {
-  "w": "spent",
-  "n": 4
- },
- {
-  "w": "building",
-  "n": 4
- },
- {
-  "w": "finest",
-  "n": 4
- },
- {
-  "w": "eight",
-  "n": 4
- },
- {
-  "w": "checking",
-  "n": 4
- },
- {
-  "w": "ink",
-  "n": 4
- },
- {
-  "w": "nearly",
-  "n": 4
- },
- {
-  "w": "met",
-  "n": 4
- },
- {
-  "w": "point",
-  "n": 4
- },
- {
-  "w": "crowd",
-  "n": 4
- },
- {
-  "w": "counted",
-  "n": 4
- },
- {
-  "w": "usual",
-  "n": 4
- },
- {
-  "w": "dress",
-  "n": 4
- },
- {
-  "w": "friend's",
-  "n": 4
- },
- {
-  "w": "hearing",
-  "n": 4
- },
- {
-  "w": "argued",
-  "n": 4
- },
- {
-  "w": "version",
-  "n": 4
- },
- {
-  "w": "final",
-  "n": 4
- },
- {
-  "w": "rising",
-  "n": 4
- },
- {
-  "w": "armour",
-  "n": 4
- },
- {
-  "w": "laugh",
-  "n": 4
- },
- {
-  "w": "gets",
-  "n": 4
- },
- {
-  "w": "chapters",
-  "n": 4
- },
- {
-  "w": "sold",
-  "n": 4
- },
- {
-  "w": "missing",
-  "n": 4
- },
- {
-  "w": "burning",
-  "n": 4
- },
- {
-  "w": "lost",
-  "n": 4
- },
- {
-  "w": "fall",
-  "n": 4
- },
- {
-  "w": "short",
-  "n": 4
- },
- {
-  "w": "whether",
-  "n": 4
- },
- {
-  "w": "wet",
-  "n": 4
- },
- {
-  "w": "needed",
-  "n": 4
- },
- {
-  "w": "wondered",
-  "n": 4
- },
- {
-  "w": "army",
-  "n": 4
- },
- {
-  "w": "above",
-  "n": 4
- },
- {
-  "w": "grief",
-  "n": 4
- },
- {
-  "w": "news",
-  "n": 4
- },
- {
-  "w": "mathematics",
-  "n": 4
- },
- {
-  "w": "witnesses",
-  "n": 4
- },
- {
-  "w": "escaped",
-  "n": 4
- },
- {
-  "w": "cell",
-  "n": 4
- },
- {
-  "w": "sea",
-  "n": 4
- },
- {
-  "w": "desk",
-  "n": 4
- },
- {
-  "w": "post",
-  "n": 4
- },
- {
-  "w": "brothers",
-  "n": 4
- },
- {
-  "w": "marlene",
-  "n": 4
- },
- {
-  "w": "vigilance",
-  "n": 4
- },
- {
-  "w": "knowing",
-  "n": 4
- },
- {
-  "w": "rest",
-  "n": 4
- },
- {
-  "w": "aimed",
-  "n": 4
- },
- {
-  "w": "afternoon",
-  "n": 4
- },
- {
-  "w": "address",
-  "n": 4
- },
- {
-  "w": "edge",
+  "w": "homework",
   "n": 4
  },
  {
@@ -3240,7 +3564,199 @@
   "n": 4
  },
  {
-  "w": "carrying",
+  "w": "november",
+  "n": 4
+ },
+ {
+  "w": "quidditch",
+  "n": 4
+ },
+ {
+  "w": "writing",
+  "n": 4
+ },
+ {
+  "w": "woman",
+  "n": 4
+ },
+ {
+  "w": "dinner",
+  "n": 4
+ },
+ {
+  "w": "obviously",
+  "n": 4
+ },
+ {
+  "w": "bag",
+  "n": 4
+ },
+ {
+  "w": "idea",
+  "n": 4
+ },
+ {
+  "w": "library",
+  "n": 4
+ },
+ {
+  "w": "weight",
+  "n": 4
+ },
+ {
+  "w": "wizards",
+  "n": 4
+ },
+ {
+  "w": "we're",
+  "n": 4
+ },
+ {
+  "w": "i'll",
+  "n": 4
+ },
+ {
+  "w": "worth",
+  "n": 4
+ },
+ {
+  "w": "particular",
+  "n": 4
+ },
+ {
+  "w": "pictures",
+  "n": 4
+ },
+ {
+  "w": "matters",
+  "n": 4
+ },
+ {
+  "w": "godric's",
+  "n": 4
+ },
+ {
+  "w": "hollow",
+  "n": 4
+ },
+ {
+  "w": "running",
+  "n": 4
+ },
+ {
+  "w": "stolen",
+  "n": 4
+ },
+ {
+  "w": "kindly",
+  "n": 4
+ },
+ {
+  "w": "isn't",
+  "n": 4
+ },
+ {
+  "w": "less",
+  "n": 4
+ },
+ {
+  "w": "checked",
+  "n": 4
+ },
+ {
+  "w": "office",
+  "n": 4
+ },
+ {
+  "w": "promise",
+  "n": 4
+ },
+ {
+  "w": "wake",
+  "n": 4
+ },
+ {
+  "w": "rats",
+  "n": 4
+ },
+ {
+  "w": "hero",
+  "n": 4
+ },
+ {
+  "w": "purpose",
+  "n": 4
+ },
+ {
+  "w": "drinking",
+  "n": 4
+ },
+ {
+  "w": "cups",
+  "n": 4
+ },
+ {
+  "w": "signed",
+  "n": 4
+ },
+ {
+  "w": "reached",
+  "n": 4
+ },
+ {
+  "w": "works",
+  "n": 4
+ },
+ {
+  "w": "grief",
+  "n": 4
+ },
+ {
+  "w": "food",
+  "n": 4
+ },
+ {
+  "w": "lights",
+  "n": 4
+ },
+ {
+  "w": "creatures",
+  "n": 4
+ },
+ {
+  "w": "roofs",
+  "n": 4
+ },
+ {
+  "w": "bright",
+  "n": 4
+ },
+ {
+  "w": "facts",
+  "n": 4
+ },
+ {
+  "w": "parchment",
+  "n": 4
+ },
+ {
+  "w": "message",
+  "n": 4
+ },
+ {
+  "w": "marauders",
+  "n": 4
+ },
+ {
+  "w": "use",
+  "n": 4
+ },
+ {
+  "w": "cowardice",
+  "n": 4
+ },
+ {
+  "w": "costs",
   "n": 4
  },
  {
@@ -3248,51 +3764,111 @@
   "n": 4
  },
  {
-  "w": "trial",
+  "w": "earlier",
   "n": 4
  },
  {
-  "w": "testimony",
+  "w": "dress",
   "n": 4
  },
  {
-  "w": "hatred",
+  "w": "version",
   "n": 4
  },
  {
-  "w": "shack",
+  "w": "slept",
   "n": 4
  },
  {
-  "w": "july",
+  "w": "carefully",
   "n": 4
  },
  {
-  "w": "concluded",
+  "w": "sofa",
   "n": 4
  },
  {
-  "w": "passed",
+  "w": "curse",
   "n": 4
  },
  {
-  "w": "months",
+  "w": "crowd",
   "n": 4
  },
  {
-  "w": "spoken",
+  "w": "shouting",
   "n": 4
  },
  {
-  "w": "fit",
+  "w": "ground",
   "n": 4
  },
  {
-  "w": "drawn",
+  "w": "spoke",
   "n": 4
  },
  {
-  "w": "remains",
+  "w": "noble",
+  "n": 4
+ },
+ {
+  "w": "regulus",
+  "n": 4
+ },
+ {
+  "w": "armour",
+  "n": 4
+ },
+ {
+  "w": "pieces",
+  "n": 4
+ },
+ {
+  "w": "gate",
+  "n": 4
+ },
+ {
+  "w": "missing",
+  "n": 4
+ },
+ {
+  "w": "wearing",
+  "n": 4
+ },
+ {
+  "w": "ridiculous",
+  "n": 4
+ },
+ {
+  "w": "may",
+  "n": 4
+ },
+ {
+  "w": "decide",
+  "n": 4
+ },
+ {
+  "w": "lying",
+  "n": 4
+ },
+ {
+  "w": "shirt",
+  "n": 4
+ },
+ {
+  "w": "start",
+  "n": 4
+ },
+ {
+  "w": "mask",
+  "n": 4
+ },
+ {
+  "w": "news",
+  "n": 4
+ },
+ {
+  "w": "cell",
   "n": 4
  },
  {
@@ -3300,19 +3876,79 @@
   "n": 4
  },
  {
-  "w": "move",
+  "w": "great",
   "n": 4
  },
  {
-  "w": "decoy",
+  "w": "brothers",
   "n": 4
  },
  {
-  "w": "cleverness",
+  "w": "bill",
   "n": 4
  },
  {
-  "w": "th",
+  "w": "marlene",
+  "n": 4
+ },
+ {
+  "w": "camps",
+  "n": 4
+ },
+ {
+  "w": "refused",
+  "n": 4
+ },
+ {
+  "w": "address",
+  "n": 4
+ },
+ {
+  "w": "protection",
+  "n": 4
+ },
+ {
+  "w": "finish",
+  "n": 4
+ },
+ {
+  "w": "keeping",
+  "n": 4
+ },
+ {
+  "w": "yet",
+  "n": 4
+ },
+ {
+  "w": "hunting",
+  "n": 4
+ },
+ {
+  "w": "suspicion",
+  "n": 4
+ },
+ {
+  "w": "friend's",
+  "n": 4
+ },
+ {
+  "w": "check",
+  "n": 4
+ },
+ {
+  "w": "betrayed",
+  "n": 4
+ },
+ {
+  "w": "pause",
+  "n": 4
+ },
+ {
+  "w": "spoken",
+  "n": 4
+ },
+ {
+  "w": "fidelius",
   "n": 4
  },
  {
@@ -3320,15 +3956,11 @@
   "n": 4
  },
  {
-  "w": "evidence",
+  "w": "accounts",
   "n": 4
  },
  {
-  "w": "believing",
-  "n": 4
- },
- {
-  "w": "design",
+  "w": "holds",
   "n": 4
  },
  {
@@ -3348,23 +3980,7 @@
   "n": 4
  },
  {
-  "w": "rich",
-  "n": 3
- },
- {
-  "w": "severus",
-  "n": 3
- },
- {
-  "w": "heavy",
-  "n": 3
- },
- {
-  "w": "happiness",
-  "n": 3
- },
- {
-  "w": "platform",
+  "w": "loves",
   "n": 3
  },
  {
@@ -3372,15 +3988,19 @@
   "n": 3
  },
  {
-  "w": "really",
+  "w": "people's",
   "n": 3
  },
  {
-  "w": "closing",
+  "w": "taking",
   "n": 3
  },
  {
-  "w": "fine",
+  "w": "nodded",
+  "n": 3
+ },
+ {
+  "w": "hope",
   "n": 3
  },
  {
@@ -3388,15 +4008,11 @@
   "n": 3
  },
  {
-  "w": "ago",
+  "w": "burn",
   "n": 3
  },
  {
-  "w": "skin",
-  "n": 3
- },
- {
-  "w": "breath",
+  "w": "feet",
   "n": 3
  },
  {
@@ -3404,19 +4020,59 @@
   "n": 3
  },
  {
-  "w": "places",
+  "w": "sure",
   "n": 3
  },
  {
-  "w": "hall",
+  "w": "fields",
   "n": 3
  },
  {
-  "w": "everybody",
+  "w": "ate",
   "n": 3
  },
  {
-  "w": "cousins",
+  "w": "upside",
+  "n": 3
+ },
+ {
+  "w": "robes",
+  "n": 3
+ },
+ {
+  "w": "missed",
+  "n": 3
+ },
+ {
+  "w": "points",
+  "n": 3
+ },
+ {
+  "w": "break",
+  "n": 3
+ },
+ {
+  "w": "sort",
+  "n": 3
+ },
+ {
+  "w": "cousin",
+  "n": 3
+ },
+ {
+  "w": "test",
+  "n": 3
+ },
+ {
+  "w": "bored",
+  "n": 3
+ },
+ {
+  "w": "turning",
+  "n": 3
+ },
+ {
+  "w": "hole",
   "n": 3
  },
  {
@@ -3424,23 +4080,43 @@
   "n": 3
  },
  {
-  "w": "barely",
+  "w": "call",
   "n": 3
  },
  {
-  "w": "difficult",
+  "w": "list",
   "n": 3
  },
  {
-  "w": "myself",
+  "w": "hall",
   "n": 3
  },
  {
-  "w": "tables",
+  "w": "cousins",
   "n": 3
  },
  {
-  "w": "sleep",
+  "w": "complete",
+  "n": 3
+ },
+ {
+  "w": "touched",
+  "n": 3
+ },
+ {
+  "w": "politely",
+  "n": 3
+ },
+ {
+  "w": "bridge",
+  "n": 3
+ },
+ {
+  "w": "sadness",
+  "n": 3
+ },
+ {
+  "w": "takes",
   "n": 3
  },
  {
@@ -3448,23 +4124,7 @@
   "n": 3
  },
  {
-  "w": "curtains",
-  "n": 3
- },
- {
-  "w": "papers",
-  "n": 3
- },
- {
-  "w": "winter",
-  "n": 3
- },
- {
-  "w": "grew",
-  "n": 3
- },
- {
-  "w": "pushed",
+  "w": "shoes",
   "n": 3
  },
  {
@@ -3472,15 +4132,7 @@
   "n": 3
  },
  {
-  "w": "eat",
-  "n": 3
- },
- {
-  "w": "talked",
-  "n": 3
- },
- {
-  "w": "needs",
+  "w": "jokes",
   "n": 3
  },
  {
@@ -3488,15 +4140,43 @@
   "n": 3
  },
  {
-  "w": "star",
+  "w": "somebody's",
   "n": 3
  },
  {
-  "w": "illness",
+  "w": "becomes",
   "n": 3
  },
  {
-  "w": "arms",
+  "w": "strong",
+  "n": 3
+ },
+ {
+  "w": "remembers",
+  "n": 3
+ },
+ {
+  "w": "parent",
+  "n": 3
+ },
+ {
+  "w": "subject",
+  "n": 3
+ },
+ {
+  "w": "sometimes",
+  "n": 3
+ },
+ {
+  "w": "hit",
+  "n": 3
+ },
+ {
+  "w": "hospital",
+  "n": 3
+ },
+ {
+  "w": "wing",
   "n": 3
  },
  {
@@ -3504,7 +4184,23 @@
   "n": 3
  },
  {
-  "w": "that's",
+  "w": "won",
+  "n": 3
+ },
+ {
+  "w": "shared",
+  "n": 3
+ },
+ {
+  "w": "worried",
+  "n": 3
+ },
+ {
+  "w": "sounds",
+  "n": 3
+ },
+ {
+  "w": "note",
   "n": 3
  },
  {
@@ -3516,7 +4212,11 @@
   "n": 3
  },
  {
-  "w": "reading",
+  "w": "lied",
+  "n": 3
+ },
+ {
+  "w": "learns",
   "n": 3
  },
  {
@@ -3524,19 +4224,35 @@
   "n": 3
  },
  {
-  "w": "turn",
+  "w": "anyone",
   "n": 3
  },
  {
-  "w": "cry",
+  "w": "truly",
   "n": 3
  },
  {
-  "w": "forty",
+  "w": "buy",
+  "n": 3
+ },
+ {
+  "w": "lot",
+  "n": 3
+ },
+ {
+  "w": "thinking",
+  "n": 3
+ },
+ {
+  "w": "low",
   "n": 3
  },
  {
   "w": "normal",
+  "n": 3
+ },
+ {
+  "w": "stands",
   "n": 3
  },
  {
@@ -3548,23 +4264,15 @@
   "n": 3
  },
  {
-  "w": "homework",
+  "w": "leaned",
   "n": 3
  },
  {
-  "w": "weight",
+  "w": "shining",
   "n": 3
  },
  {
-  "w": "idea",
-  "n": 3
- },
- {
-  "w": "becoming",
-  "n": 3
- },
- {
-  "w": "grown",
+  "w": "plain",
   "n": 3
  },
  {
@@ -3572,15 +4280,35 @@
   "n": 3
  },
  {
-  "w": "teacher",
+  "w": "famous",
   "n": 3
  },
  {
-  "w": "deep",
+  "w": "tail",
   "n": 3
  },
  {
-  "w": "trying",
+  "w": "perhaps",
+  "n": 3
+ },
+ {
+  "w": "younger",
+  "n": 3
+ },
+ {
+  "w": "below",
+  "n": 3
+ },
+ {
+  "w": "whisper",
+  "n": 3
+ },
+ {
+  "w": "wasted",
+  "n": 3
+ },
+ {
+  "w": "show",
   "n": 3
  },
  {
@@ -3588,15 +4316,7 @@
   "n": 3
  },
  {
-  "w": "ahead",
-  "n": 3
- },
- {
-  "w": "forgive",
-  "n": 3
- },
- {
-  "w": "leaves",
+  "w": "business",
   "n": 3
  },
  {
@@ -3604,7 +4324,31 @@
   "n": 3
  },
  {
-  "w": "fifth",
+  "w": "june",
+  "n": 3
+ },
+ {
+  "w": "wondered",
+  "n": 3
+ },
+ {
+  "w": "bathroom",
+  "n": 3
+ },
+ {
+  "w": "proud",
+  "n": 3
+ },
+ {
+  "w": "harder",
+  "n": 3
+ },
+ {
+  "w": "ceremony",
+  "n": 3
+ },
+ {
+  "w": "conversation",
   "n": 3
  },
  {
@@ -3612,7 +4356,11 @@
   "n": 3
  },
  {
-  "w": "changed",
+  "w": "folded",
+  "n": 3
+ },
+ {
+  "w": "smaller",
   "n": 3
  },
  {
@@ -3620,23 +4368,47 @@
   "n": 3
  },
  {
+  "w": "knocked",
+  "n": 3
+ },
+ {
   "w": "traitors",
   "n": 3
  },
  {
-  "w": "hero",
+  "w": "grave",
   "n": 3
  },
  {
-  "w": "says",
+  "w": "shout",
+  "n": 3
+ },
+ {
+  "w": "horrible",
+  "n": 3
+ },
+ {
+  "w": "large",
+  "n": 3
+ },
+ {
+  "w": "yourself",
+  "n": 3
+ },
+ {
+  "w": "scene",
+  "n": 3
+ },
+ {
+  "w": "shadow",
+  "n": 3
+ },
+ {
+  "w": "otherwise",
   "n": 3
  },
  {
   "w": "push",
-  "n": 3
- },
- {
-  "w": "forest",
   "n": 3
  },
  {
@@ -3656,7 +4428,7 @@
   "n": 3
  },
  {
-  "w": "mad",
+  "w": "lifted",
   "n": 3
  },
  {
@@ -3668,31 +4440,59 @@
   "n": 3
  },
  {
-  "w": "running",
+  "w": "passage",
   "n": 3
  },
  {
-  "w": "hides",
+  "w": "shop",
   "n": 3
  },
  {
-  "w": "charms",
+  "w": "kitchens",
   "n": 3
  },
  {
-  "w": "onto",
+  "w": "yours",
   "n": 3
  },
  {
-  "w": "strangers",
+  "w": "brightest",
   "n": 3
  },
  {
-  "w": "hours",
+  "w": "caretaker",
   "n": 3
  },
  {
-  "w": "finding",
+  "w": "falling",
+  "n": 3
+ },
+ {
+  "w": "footprints",
+  "n": 3
+ },
+ {
+  "w": "drew",
+  "n": 3
+ },
+ {
+  "w": "means",
+  "n": 3
+ },
+ {
+  "w": "ourselves",
+  "n": 3
+ },
+ {
+  "w": "important",
+  "n": 3
+ },
+ {
+  "w": "mostly",
+  "n": 3
+ },
+ {
+  "w": "god",
   "n": 3
  },
  {
@@ -3700,19 +4500,87 @@
   "n": 3
  },
  {
-  "w": "hated",
+  "w": "showed",
   "n": 3
  },
  {
-  "w": "vanished",
+  "w": "fair",
   "n": 3
  },
  {
-  "w": "following",
+  "w": "nine",
   "n": 3
  },
  {
-  "w": "trick",
+  "w": "point",
+  "n": 3
+ },
+ {
+  "w": "inventing",
+  "n": 3
+ },
+ {
+  "w": "curses",
+  "n": 3
+ },
+ {
+  "w": "group",
+  "n": 3
+ },
+ {
+  "w": "early",
+  "n": 3
+ },
+ {
+  "w": "follow",
+  "n": 3
+ },
+ {
+  "w": "ends",
+  "n": 3
+ },
+ {
+  "w": "showing-off",
+  "n": 3
+ },
+ {
+  "w": "bitten",
+  "n": 3
+ },
+ {
+  "w": "careless",
+  "n": 3
+ },
+ {
+  "w": "passed",
+  "n": 3
+ },
+ {
+  "w": "apologised",
+  "n": 3
+ },
+ {
+  "w": "murderer",
+  "n": 3
+ },
+ {
+  "w": "playing",
+  "n": 3
+ },
+ {
+  "w": "forgave",
+  "n": 3
+ },
+ {
+  "w": "locks",
+  "n": 3
+ },
+ {
+  "w": "messages",
+  "n": 3
+ },
+ {
+  "w": "warmth",
   "n": 3
  },
  {
@@ -3720,15 +4588,11 @@
   "n": 3
  },
  {
-  "w": "kill",
-  "n": 3
- },
- {
   "w": "muggle-born",
   "n": 3
  },
  {
-  "w": "quidditch",
+  "w": "loudly",
   "n": 3
  },
  {
@@ -3740,27 +4604,43 @@
   "n": 3
  },
  {
-  "w": "shame",
+  "w": "throwing",
   "n": 3
  },
  {
-  "w": "mean",
+  "w": "throw",
   "n": 3
  },
  {
-  "w": "anywhere",
+  "w": "set",
   "n": 3
  },
  {
-  "w": "keys",
+  "w": "leading",
   "n": 3
  },
  {
-  "w": "specifically",
+  "w": "defended",
   "n": 3
  },
  {
-  "w": "laughter",
+  "w": "bear",
+  "n": 3
+ },
+ {
+  "w": "won't",
+  "n": 3
+ },
+ {
+  "w": "fat",
+  "n": 3
+ },
+ {
+  "w": "ancient",
+  "n": 3
+ },
+ {
+  "w": "rising",
   "n": 3
  },
  {
@@ -3768,15 +4648,7 @@
   "n": 3
  },
  {
-  "w": "absolutely",
-  "n": 3
- },
- {
-  "w": "gate",
-  "n": 3
- },
- {
-  "w": "newspaper",
+  "w": "guarded",
   "n": 3
  },
  {
@@ -3784,15 +4656,11 @@
   "n": 3
  },
  {
-  "w": "longer",
+  "w": "constant",
   "n": 3
  },
  {
-  "w": "message",
-  "n": 3
- },
- {
-  "w": "soon",
+  "w": "murder",
   "n": 3
  },
  {
@@ -3800,7 +4668,15 @@
   "n": 3
  },
  {
-  "w": "reached",
+  "w": "privately",
+  "n": 3
+ },
+ {
+  "w": "information",
+  "n": 3
+ },
+ {
+  "w": "modest",
   "n": 3
  },
  {
@@ -3808,15 +4684,19 @@
   "n": 3
  },
  {
-  "w": "broke",
+  "w": "sunrise",
   "n": 3
  },
  {
-  "w": "sun",
+  "w": "knows",
   "n": 3
  },
  {
-  "w": "happens",
+  "w": "chose",
+  "n": 3
+ },
+ {
+  "w": "breath",
   "n": 3
  },
  {
@@ -3828,15 +4708,15 @@
   "n": 3
  },
  {
-  "w": "bought",
+  "w": "masks",
   "n": 3
  },
  {
-  "w": "jobs",
+  "w": "saved",
   "n": 3
  },
  {
-  "w": "harmless",
+  "w": "short",
   "n": 3
  },
  {
@@ -3844,23 +4724,31 @@
   "n": 3
  },
  {
-  "w": "great",
+  "w": "pub",
   "n": 3
  },
  {
-  "w": "paragraph",
+  "w": "object",
   "n": 3
  },
  {
-  "w": "performance",
+  "w": "ride",
   "n": 3
  },
  {
-  "w": "moody",
+  "w": "voldemort's",
   "n": 3
  },
  {
-  "w": "guarding",
+  "w": "chosen",
+  "n": 3
+ },
+ {
+  "w": "faster",
+  "n": 3
+ },
+ {
+  "w": "paying",
   "n": 3
  },
  {
@@ -3868,39 +4756,15 @@
   "n": 3
  },
  {
-  "w": "packs",
-  "n": 3
- },
- {
-  "w": "promises",
-  "n": 3
- },
- {
-  "w": "secrecy",
-  "n": 3
- },
- {
-  "w": "pieces",
-  "n": 3
- },
- {
   "w": "useful",
   "n": 3
  },
  {
-  "w": "meeting",
+  "w": "hearing",
   "n": 3
  },
  {
-  "w": "fairy",
-  "n": 3
- },
- {
-  "w": "human",
-  "n": 3
- },
- {
-  "w": "service",
+  "w": "packs",
   "n": 3
  },
  {
@@ -3908,19 +4772,31 @@
   "n": 3
  },
  {
-  "w": "rings",
+  "w": "twenty-two",
   "n": 3
  },
  {
-  "w": "speech",
+  "w": "checking",
   "n": 3
  },
  {
-  "w": "inch",
+  "w": "protective",
   "n": 3
  },
  {
-  "w": "shirt",
+  "w": "human",
+  "n": 3
+ },
+ {
+  "w": "teeth",
+  "n": 3
+ },
+ {
+  "w": "service",
+  "n": 3
+ },
+ {
+  "w": "teaching",
   "n": 3
  },
  {
@@ -3928,35 +4804,31 @@
   "n": 3
  },
  {
+  "w": "knowledge",
+  "n": 3
+ },
+ {
   "w": "confessed",
   "n": 3
  },
  {
-  "w": "bright",
+  "w": "runs",
   "n": 3
  },
  {
-  "w": "costs",
+  "w": "touch",
   "n": 3
  },
  {
-  "w": "bill",
+  "w": "dying",
   "n": 3
  },
  {
-  "w": "live",
+  "w": "design",
   "n": 3
  },
  {
-  "w": "remained",
-  "n": 3
- },
- {
-  "w": "confession",
-  "n": 3
- },
- {
-  "w": "price",
+  "w": "july",
   "n": 3
  },
  {
@@ -3964,19 +4836,11 @@
   "n": 3
  },
  {
-  "w": "hunting",
-  "n": 3
- },
- {
   "w": "meetings",
   "n": 3
  },
  {
-  "w": "suspicion",
-  "n": 3
- },
- {
-  "w": "grieving",
+  "w": "likely",
   "n": 3
  },
  {
@@ -3988,15 +4852,15 @@
   "n": 3
  },
  {
-  "w": "may",
+  "w": "entire",
   "n": 3
  },
  {
-  "w": "stranger",
+  "w": "distrust",
   "n": 3
  },
  {
-  "w": "lock",
+  "w": "staying",
   "n": 3
  },
  {
@@ -4004,79 +4868,31 @@
   "n": 3
  },
  {
-  "w": "twenty",
+  "w": "toy",
   "n": 3
  },
  {
-  "w": "danger",
+  "w": "spring",
   "n": 3
  },
  {
-  "w": "cast",
+  "w": "pocket",
   "n": 3
  },
  {
-  "w": "entirely",
+  "w": "prophecy",
   "n": 3
  },
  {
-  "w": "drawers",
+  "w": "fitted",
   "n": 3
  },
  {
-  "w": "offer",
+  "w": "failed",
   "n": 3
  },
  {
-  "w": "use",
-  "n": 3
- },
- {
-  "w": "voldemort's",
-  "n": 3
- },
- {
-  "w": "starved",
-  "n": 3
- },
- {
-  "w": "along",
-  "n": 3
- },
- {
-  "w": "arranged",
-  "n": 3
- },
- {
-  "w": "refused",
-  "n": 3
- },
- {
-  "w": "curse",
-  "n": 3
- },
- {
-  "w": "murder",
-  "n": 3
- },
- {
-  "w": "ledger",
-  "n": 3
- },
- {
-  "w": "sulk",
-  "n": 3
- },
- {
-  "w": "pumpkin",
-  "n": 3
- },
- {
-  "w": "november",
-  "n": 3
- },
- {
-  "w": "rose",
+  "w": "total",
   "n": 3
  },
  {
@@ -4084,7 +4900,7 @@
   "n": 3
  },
  {
-  "w": "build",
+  "w": "aside",
   "n": 3
  },
  {
@@ -4096,14 +4912,6 @@
   "n": 3
  },
  {
-  "w": "mercy",
-  "n": 3
- },
- {
-  "w": "nursery",
-  "n": 3
- },
- {
   "w": "miracle",
   "n": 3
  },
@@ -4112,7 +4920,11 @@
   "n": 3
  },
  {
-  "w": "genius",
+  "w": "wreck",
+  "n": 3
+ },
+ {
+  "w": "childhood",
   "n": 3
  },
  {
@@ -4124,15 +4936,7 @@
   "n": 3
  },
  {
-  "w": "doorway",
-  "n": 3
- },
- {
-  "w": "boy's",
-  "n": 3
- },
- {
-  "w": "find",
+  "w": "daily",
   "n": 3
  },
  {
@@ -4140,23 +4944,19 @@
   "n": 3
  },
  {
-  "w": "wands",
+  "w": "trial",
   "n": 3
  },
  {
-  "w": "prophet",
+  "w": "escaped",
   "n": 3
  },
  {
-  "w": "photograph",
+  "w": "azkaban",
   "n": 3
  },
  {
-  "w": "cowardice",
-  "n": 3
- },
- {
-  "w": "accounting",
+  "w": "north",
   "n": 3
  },
  {
@@ -4172,27 +4972,19 @@
   "n": 2
  },
  {
-  "w": "loves",
+  "w": "station",
   "n": 2
  },
  {
-  "w": "albus",
+  "w": "hundreds",
   "n": 2
  },
  {
-  "w": "cages",
+  "w": "cats",
   "n": 2
  },
  {
   "w": "dad",
-  "n": 2
- },
- {
-  "w": "taking",
-  "n": 2
- },
- {
-  "w": "nodded",
   "n": 2
  },
  {
@@ -4208,7 +5000,15 @@
   "n": 2
  },
  {
+  "w": "biggest",
+  "n": 2
+ },
+ {
   "w": "blacks",
+  "n": 2
+ },
+ {
+  "w": "closing",
   "n": 2
  },
  {
@@ -4216,15 +5016,11 @@
   "n": 2
  },
  {
-  "w": "hate",
+  "w": "neck",
   "n": 2
  },
  {
-  "w": "burn",
-  "n": 2
- },
- {
-  "w": "minutes",
+  "w": "father's",
   "n": 2
  },
  {
@@ -4244,19 +5040,27 @@
   "n": 2
  },
  {
-  "w": "secrets",
-  "n": 2
- },
- {
   "w": "england",
   "n": 2
  },
  {
-  "w": "fields",
+  "w": "getting",
   "n": 2
  },
  {
-  "w": "ate",
+  "w": "stronger",
+  "n": 2
+ },
+ {
+  "w": "narrow",
+  "n": 2
+ },
+ {
+  "w": "boats",
+  "n": 2
+ },
+ {
+  "w": "hill",
   "n": 2
  },
  {
@@ -4264,7 +5068,11 @@
   "n": 2
  },
  {
-  "w": "lake",
+  "w": "mountain",
+  "n": 2
+ },
+ {
+  "w": "reflection",
   "n": 2
  },
  {
@@ -4272,15 +5080,75 @@
   "n": 2
  },
  {
+  "w": "notice",
+  "n": 2
+ },
+ {
+  "w": "curtain",
+  "n": 2
+ },
+ {
+  "w": "plants",
+  "n": 2
+ },
+ {
+  "w": "steps",
+  "n": 2
+ },
+ {
+  "w": "tall",
+  "n": 2
+ },
+ {
+  "w": "tried",
+  "n": 2
+ },
+ {
+  "w": "sorted",
+  "n": 2
+ },
+ {
+  "w": "rule",
+  "n": 2
+ },
+ {
+  "w": "lose",
+  "n": 2
+ },
+ {
+  "w": "wait",
+  "n": 2
+ },
+ {
+  "w": "sounded",
+  "n": 2
+ },
+ {
+  "w": "candles",
+  "n": 2
+ },
+ {
+  "w": "dirty",
+  "n": 2
+ },
+ {
+  "w": "sang",
+  "n": 2
+ },
+ {
+  "w": "song",
+  "n": 2
+ },
+ {
+  "w": "sides",
+  "n": 2
+ },
+ {
+  "w": "forget",
+  "n": 2
+ },
+ {
   "w": "oily",
-  "n": 2
- },
- {
-  "w": "taken",
-  "n": 2
- },
- {
-  "w": "longest",
   "n": 2
  },
  {
@@ -4288,59 +5156,59 @@
   "n": 2
  },
  {
-  "w": "sees",
+  "w": "ear",
   "n": 2
  },
  {
-  "w": "properly",
+  "w": "didn't",
   "n": 2
  },
  {
-  "w": "shook",
+  "w": "falls",
   "n": 2
  },
  {
-  "w": "bridge",
+  "w": "several",
   "n": 2
  },
  {
-  "w": "sadness",
+  "w": "breathing",
   "n": 2
  },
  {
-  "w": "mountains",
+  "w": "beds",
   "n": 2
  },
  {
-  "w": "mess",
+  "w": "music",
   "n": 2
  },
  {
-  "w": "studied",
+  "w": "ice",
   "n": 2
  },
  {
-  "w": "thank",
+  "w": "grew",
   "n": 2
  },
  {
-  "w": "many",
+  "w": "singing",
   "n": 2
  },
  {
-  "w": "jokes",
+  "w": "pushed",
   "n": 2
  },
  {
-  "w": "professor",
+  "w": "kindness",
   "n": 2
  },
  {
-  "w": "mcgonagall",
+  "w": "care",
   "n": 2
  },
  {
-  "w": "followed",
+  "w": "copy",
   "n": 2
  },
  {
@@ -4348,27 +5216,27 @@
   "n": 2
  },
  {
-  "w": "loses",
+  "w": "evenings",
   "n": 2
  },
  {
-  "w": "stone",
+  "w": "arm's",
   "n": 2
  },
  {
-  "w": "somebody's",
+  "w": "length",
   "n": 2
  },
  {
-  "w": "disappeared",
+  "w": "ash",
   "n": 2
  },
  {
-  "w": "pomfrey",
+  "w": "bread",
   "n": 2
  },
  {
-  "w": "hit",
+  "w": "greyback",
   "n": 2
  },
  {
@@ -4376,15 +5244,23 @@
   "n": 2
  },
  {
-  "w": "cuts",
+  "w": "hurts",
   "n": 2
  },
  {
-  "w": "pomfrey's",
+  "w": "simpler",
   "n": 2
  },
  {
-  "w": "attacks",
+  "w": "risk",
+  "n": 2
+ },
+ {
+  "w": "liked",
+  "n": 2
+ },
+ {
+  "w": "ready",
   "n": 2
  },
  {
@@ -4392,19 +5268,47 @@
   "n": 2
  },
  {
-  "w": "counting",
+  "w": "march",
   "n": 2
  },
  {
-  "w": "sitting",
+  "w": "game",
   "n": 2
  },
  {
-  "w": "enter",
+  "w": "collected",
   "n": 2
  },
  {
-  "w": "thanks",
+  "w": "collect",
+  "n": 2
+ },
+ {
+  "w": "anybody's",
+  "n": 2
+ },
+ {
+  "w": "punished",
+  "n": 2
+ },
+ {
+  "w": "noise",
+  "n": 2
+ },
+ {
+  "w": "sand",
+  "n": 2
+ },
+ {
+  "w": "feeding",
+  "n": 2
+ },
+ {
+  "w": "fit",
+  "n": 2
+ },
+ {
+  "w": "bigger",
   "n": 2
  },
  {
@@ -4412,19 +5316,7 @@
   "n": 2
  },
  {
-  "w": "woman",
-  "n": 2
- },
- {
-  "w": "sometimes",
-  "n": 2
- },
- {
-  "w": "quickly",
-  "n": 2
- },
- {
-  "w": "eye",
+  "w": "hurting",
   "n": 2
  },
  {
@@ -4440,19 +5332,11 @@
   "n": 2
  },
  {
-  "w": "lied",
+  "w": "excited",
   "n": 2
  },
  {
-  "w": "dinner",
-  "n": 2
- },
- {
-  "w": "anymore",
-  "n": 2
- },
- {
-  "w": "obviously",
+  "w": "explains",
   "n": 2
  },
  {
@@ -4460,19 +5344,35 @@
   "n": 2
  },
  {
-  "w": "imagine",
+  "w": "box",
   "n": 2
  },
  {
-  "w": "buy",
+  "w": "can't",
   "n": 2
  },
  {
-  "w": "stands",
+  "w": "they'll",
   "n": 2
  },
  {
-  "w": "further",
+  "w": "insulted",
+  "n": 2
+ },
+ {
+  "w": "stone",
+  "n": 2
+ },
+ {
+  "w": "answered",
+  "n": 2
+ },
+ {
+  "w": "rude",
+  "n": 2
+ },
+ {
+  "w": "awake",
   "n": 2
  },
  {
@@ -4484,14 +5384,6 @@
   "n": 2
  },
  {
-  "w": "few",
-  "n": 2
- },
- {
-  "w": "library",
-  "n": 2
- },
- {
   "w": "dropped",
   "n": 2
  },
@@ -4500,39 +5392,39 @@
   "n": 2
  },
  {
-  "w": "leaned",
+  "w": "librarian",
   "n": 2
  },
  {
-  "w": "wizards",
+  "w": "cat",
   "n": 2
  },
  {
-  "w": "cat's",
+  "w": "becoming",
   "n": 2
  },
  {
-  "w": "tail",
+  "w": "practice",
   "n": 2
  },
  {
-  "w": "takes",
+  "w": "thinks",
   "n": 2
  },
  {
-  "w": "catch",
+  "w": "trying",
   "n": 2
  },
  {
-  "w": "decided",
+  "w": "deep",
   "n": 2
  },
  {
-  "w": "process",
+  "w": "leaf",
   "n": 2
  },
  {
-  "w": "show",
+  "w": "mistake",
   "n": 2
  },
  {
@@ -4540,15 +5432,11 @@
   "n": 2
  },
  {
-  "w": "stolen",
+  "w": "ahead",
   "n": 2
  },
  {
-  "w": "june",
-  "n": 2
- },
- {
-  "w": "turning",
+  "w": "forgive",
   "n": 2
  },
  {
@@ -4556,15 +5444,11 @@
   "n": 2
  },
  {
-  "w": "wanting",
-  "n": 2
- },
- {
-  "w": "finally",
-  "n": 2
- },
- {
   "w": "wish",
+  "n": 2
+ },
+ {
+  "w": "downstairs",
   "n": 2
  },
  {
@@ -4576,15 +5460,7 @@
   "n": 2
  },
  {
-  "w": "knocked",
-  "n": 2
- },
- {
-  "w": "space",
-  "n": 2
- },
- {
-  "w": "important",
+  "w": "listen",
   "n": 2
  },
  {
@@ -4592,15 +5468,11 @@
   "n": 2
  },
  {
-  "w": "self",
-  "n": 2
- },
- {
-  "w": "easy",
-  "n": 2
- },
- {
   "w": "terribly",
+  "n": 2
+ },
+ {
+  "w": "hide",
   "n": 2
  },
  {
@@ -4620,15 +5492,47 @@
   "n": 2
  },
  {
-  "w": "grave",
+  "w": "fireplace",
   "n": 2
  },
  {
-  "w": "wake",
+  "w": "teaspoon",
+  "n": 2
+ },
+ {
+  "w": "criminal",
+  "n": 2
+ },
+ {
+  "w": "worm",
+  "n": 2
+ },
+ {
+  "w": "cover",
+  "n": 2
+ },
+ {
+  "w": "complained",
+  "n": 2
+ },
+ {
+  "w": "accurate",
+  "n": 2
+ },
+ {
+  "w": "invented",
   "n": 2
  },
  {
   "w": "marauder's",
+  "n": 2
+ },
+ {
+  "w": "forwards",
+  "n": 2
+ },
+ {
+  "w": "pomfrey's",
   "n": 2
  },
  {
@@ -4644,23 +5548,27 @@
   "n": 2
  },
  {
-  "w": "food",
-  "n": 2
- },
- {
   "w": "pack",
   "n": 2
  },
  {
-  "w": "language",
-  "n": 2
- },
- {
-  "w": "base",
+  "w": "speaks",
   "n": 2
  },
  {
   "w": "pressed",
+  "n": 2
+ },
+ {
+  "w": "reach",
+  "n": 2
+ },
+ {
+  "w": "shine",
+  "n": 2
+ },
+ {
+  "w": "hills",
   "n": 2
  },
  {
@@ -4676,31 +5584,11 @@
   "n": 2
  },
  {
-  "w": "walks",
+  "w": "luck",
   "n": 2
  },
  {
-  "w": "mirror",
-  "n": 2
- },
- {
-  "w": "passage",
-  "n": 2
- },
- {
-  "w": "shop",
-  "n": 2
- },
- {
-  "w": "becomes",
-  "n": 2
- },
- {
-  "w": "kitchens",
-  "n": 2
- },
- {
-  "w": "roofs",
+  "w": "especially",
   "n": 2
  },
  {
@@ -4708,15 +5596,63 @@
   "n": 2
  },
  {
-  "w": "produced",
+  "w": "astronomy",
   "n": 2
  },
  {
-  "w": "parchment",
+  "w": "highest",
   "n": 2
  },
  {
-  "w": "insult",
+  "w": "blanket",
+  "n": 2
+ },
+ {
+  "w": "lightly",
+  "n": 2
+ },
+ {
+  "w": "speeches",
+  "n": 2
+ },
+ {
+  "w": "mr",
+  "n": 2
+ },
+ {
+  "w": "filch",
+  "n": 2
+ },
+ {
+  "w": "punishment",
+  "n": 2
+ },
+ {
+  "w": "hatred",
+  "n": 2
+ },
+ {
+  "w": "disappear",
+  "n": 2
+ },
+ {
+  "w": "staircase",
+  "n": 2
+ },
+ {
+  "w": "hides",
+  "n": 2
+ },
+ {
+  "w": "floors",
+  "n": 2
+ },
+ {
+  "w": "opens",
+  "n": 2
+ },
+ {
+  "w": "closes",
   "n": 2
  },
  {
@@ -4724,47 +5660,23 @@
   "n": 2
  },
  {
-  "w": "patient",
+  "w": "avoiding",
   "n": 2
  },
  {
-  "w": "complaining",
+  "w": "fix",
   "n": 2
  },
  {
-  "w": "ourselves",
+  "w": "backwards",
   "n": 2
  },
  {
-  "w": "used",
+  "w": "quarrel",
   "n": 2
  },
  {
-  "w": "mostly",
-  "n": 2
- },
- {
-  "w": "halls",
-  "n": 2
- },
- {
-  "w": "caretaker",
-  "n": 2
- },
- {
-  "w": "occurred",
-  "n": 2
- },
- {
-  "w": "putting",
-  "n": 2
- },
- {
-  "w": "probably",
-  "n": 2
- },
- {
-  "w": "breaks",
+  "w": "ugly",
   "n": 2
  },
  {
@@ -4776,23 +5688,27 @@
   "n": 2
  },
  {
+  "w": "actual",
+  "n": 2
+ },
+ {
   "w": "nearby",
   "n": 2
  },
  {
-  "w": "sneering",
+  "w": "studied",
   "n": 2
  },
  {
-  "w": "honesty",
+  "w": "watchfulness",
   "n": 2
  },
  {
-  "w": "furious",
+  "w": "practised",
   "n": 2
  },
  {
-  "w": "ends",
+  "w": "breaks",
   "n": 2
  },
  {
@@ -4800,19 +5716,11 @@
   "n": 2
  },
  {
-  "w": "shout",
+  "w": "stays",
   "n": 2
  },
  {
-  "w": "sight",
-  "n": 2
- },
- {
-  "w": "feared",
-  "n": 2
- },
- {
-  "w": "carelessness",
+  "w": "filthy",
   "n": 2
  },
  {
@@ -4820,55 +5728,19 @@
   "n": 2
  },
  {
-  "w": "speak",
-  "n": 2
- },
- {
-  "w": "murderer",
-  "n": 2
- },
- {
-  "w": "playing",
-  "n": 2
- },
- {
-  "w": "occur",
-  "n": 2
- },
- {
-  "w": "pull",
-  "n": 2
- },
- {
   "w": "ordered",
   "n": 2
  },
  {
-  "w": "silent",
+  "w": "accident",
   "n": 2
  },
  {
-  "w": "waited",
+  "w": "slightly",
   "n": 2
  },
  {
-  "w": "capable",
-  "n": 2
- },
- {
-  "w": "careless",
-  "n": 2
- },
- {
-  "w": "whispers",
-  "n": 2
- },
- {
-  "w": "weighing",
-  "n": 2
- },
- {
-  "w": "scales",
+  "w": "plainest",
   "n": 2
  },
  {
@@ -4876,7 +5748,23 @@
   "n": 2
  },
  {
-  "w": "loudly",
+  "w": "scales",
+  "n": 2
+ },
+ {
+  "w": "barely",
+  "n": 2
+ },
+ {
+  "w": "dentists",
+  "n": 2
+ },
+ {
+  "w": "else's",
+  "n": 2
+ },
+ {
+  "w": "charms",
   "n": 2
  },
  {
@@ -4884,43 +5772,11 @@
   "n": 2
  },
  {
-  "w": "collected",
-  "n": 2
- },
- {
-  "w": "strays",
-  "n": 2
- },
- {
-  "w": "odd",
-  "n": 2
- },
- {
-  "w": "defended",
-  "n": 2
- },
- {
-  "w": "shared",
-  "n": 2
- },
- {
-  "w": "monstrous",
-  "n": 2
- },
- {
   "w": "colour",
   "n": 2
  },
  {
-  "w": "flying",
-  "n": 2
- },
- {
-  "w": "straight",
-  "n": 2
- },
- {
-  "w": "cruelty",
+  "w": "underneath",
   "n": 2
  },
  {
@@ -4928,23 +5784,7 @@
   "n": 2
  },
  {
-  "w": "strutting",
-  "n": 2
- },
- {
   "w": "squid",
-  "n": 2
- },
- {
-  "w": "courtyard",
-  "n": 2
- },
- {
-  "w": "dormitory",
-  "n": 2
- },
- {
-  "w": "throwing",
   "n": 2
  },
  {
@@ -4952,19 +5792,15 @@
   "n": 2
  },
  {
+  "w": "audience",
+  "n": 2
+ },
+ {
   "w": "miss",
   "n": 2
  },
  {
-  "w": "spell",
-  "n": 2
- },
- {
   "w": "gift",
-  "n": 2
- },
- {
-  "w": "led",
   "n": 2
  },
  {
@@ -4976,15 +5812,19 @@
   "n": 2
  },
  {
-  "w": "arts",
+  "w": "opposite",
   "n": 2
  },
  {
-  "w": "listened",
+  "w": "exam",
   "n": 2
  },
  {
-  "w": "fallen",
+  "w": "sick",
+  "n": 2
+ },
+ {
+  "w": "enemy",
   "n": 2
  },
  {
@@ -4992,15 +5832,7 @@
   "n": 2
  },
  {
-  "w": "sort",
-  "n": 2
- },
- {
   "w": "bleeding",
-  "n": 2
- },
- {
-  "w": "didn't",
   "n": 2
  },
  {
@@ -5008,35 +5840,7 @@
   "n": 2
  },
  {
-  "w": "fully",
-  "n": 2
- },
- {
-  "w": "christmas",
-  "n": 2
- },
- {
-  "w": "noble",
-  "n": 2
- },
- {
-  "w": "ancient",
-  "n": 2
- },
- {
   "w": "muggle-borns",
-  "n": 2
- },
- {
-  "w": "motto",
-  "n": 2
- },
- {
-  "w": "inventing",
-  "n": 2
- },
- {
-  "w": "girls",
   "n": 2
  },
  {
@@ -5044,15 +5848,11 @@
   "n": 2
  },
  {
-  "w": "makes",
-  "n": 2
- },
- {
-  "w": "regulus",
-  "n": 2
- },
- {
   "w": "drifted",
+  "n": 2
+ },
+ {
+  "w": "laughter",
   "n": 2
  },
  {
@@ -5060,19 +5860,11 @@
   "n": 2
  },
  {
-  "w": "vengeance",
+  "w": "however",
   "n": 2
  },
  {
-  "w": "truest",
-  "n": 2
- },
- {
-  "w": "guarded",
-  "n": 2
- },
- {
-  "w": "notice",
+  "w": "learning",
   "n": 2
  },
  {
@@ -5084,39 +5876,11 @@
   "n": 2
  },
  {
-  "w": "whisper",
+  "w": "pretending",
   "n": 2
  },
  {
-  "w": "sign",
-  "n": 2
- },
- {
-  "w": "low",
-  "n": 2
- },
- {
-  "w": "constant",
-  "n": 2
- },
- {
-  "w": "forearm",
-  "n": 2
- },
- {
-  "w": "convicted",
-  "n": 2
- },
- {
-  "w": "within",
-  "n": 2
- },
- {
-  "w": "absurd",
-  "n": 2
- },
- {
-  "w": "captaining",
+  "w": "soon",
   "n": 2
  },
  {
@@ -5124,19 +5888,23 @@
   "n": 2
  },
  {
-  "w": "storm",
+  "w": "puzzled",
   "n": 2
  },
  {
-  "w": "glad",
+  "w": "passing",
   "n": 2
  },
  {
-  "w": "forth",
+  "w": "fighters",
   "n": 2
  },
  {
-  "w": "filed",
+  "w": "though",
+  "n": 2
+ },
+ {
+  "w": "cracked",
   "n": 2
  },
  {
@@ -5144,11 +5912,19 @@
   "n": 2
  },
  {
-  "w": "sunrise",
+  "w": "absolutely",
   "n": 2
  },
  {
-  "w": "different",
+  "w": "easier",
+  "n": 2
+ },
+ {
+  "w": "slope",
+  "n": 2
+ },
+ {
+  "w": "gentle",
   "n": 2
  },
  {
@@ -5160,14 +5936,6 @@
   "n": 2
  },
  {
-  "w": "ground",
-  "n": 2
- },
- {
-  "w": "mask",
-  "n": 2
- },
- {
   "w": "begins",
   "n": 2
  },
@@ -5176,7 +5944,7 @@
   "n": 2
  },
  {
-  "w": "begun",
+  "w": "radio",
   "n": 2
  },
  {
@@ -5188,47 +5956,7 @@
   "n": 2
  },
  {
-  "w": "cause",
-  "n": 2
- },
- {
-  "w": "giants",
-  "n": 2
- },
- {
-  "w": "creatures",
-  "n": 2
- },
- {
-  "w": "yours",
-  "n": 2
- },
- {
-  "w": "column",
-  "n": 2
- },
- {
-  "w": "marked",
-  "n": 2
- },
- {
-  "w": "kills",
-  "n": 2
- },
- {
-  "w": "shops",
-  "n": 2
- },
- {
-  "w": "joy",
-  "n": 2
- },
- {
-  "w": "earns",
-  "n": 2
- },
- {
-  "w": "poured",
+  "w": "minds",
   "n": 2
  },
  {
@@ -5236,39 +5964,31 @@
   "n": 2
  },
  {
-  "w": "saved",
+  "w": "jobs",
   "n": 2
  },
  {
-  "w": "object",
+  "w": "glad",
   "n": 2
  },
  {
-  "w": "arm",
+  "w": "youngest",
   "n": 2
  },
  {
-  "w": "ride",
+  "w": "kent",
   "n": 2
  },
  {
-  "w": "cups",
+  "w": "whoever",
   "n": 2
  },
  {
-  "w": "cave",
+  "w": "count",
   "n": 2
  },
  {
-  "w": "shoes",
-  "n": 2
- },
- {
-  "w": "movement",
-  "n": 2
- },
- {
-  "w": "prewett",
+  "w": "twenty-five",
   "n": 2
  },
  {
@@ -5277,6 +5997,10 @@
  },
  {
   "w": "fabian",
+  "n": 2
+ },
+ {
+  "w": "prewett",
   "n": 2
  },
  {
@@ -5300,6 +6024,10 @@
   "n": 2
  },
  {
+  "w": "closest",
+  "n": 2
+ },
+ {
   "w": "frank",
   "n": 2
  },
@@ -5308,35 +6036,27 @@
   "n": 2
  },
  {
+  "w": "performance",
+  "n": 2
+ },
+ {
   "w": "mad-eye",
   "n": 2
  },
  {
-  "w": "duelling",
+  "w": "vigilance",
   "n": 2
  },
  {
-  "w": "office",
+  "w": "half-moon",
   "n": 2
  },
  {
-  "w": "target",
+  "w": "pretend",
   "n": 2
  },
  {
-  "w": "camps",
-  "n": 2
- },
- {
-  "w": "order's",
-  "n": 2
- },
- {
-  "w": "permitted",
-  "n": 2
- },
- {
-  "w": "genuinely",
+  "w": "ways",
   "n": 2
  },
  {
@@ -5348,15 +6068,19 @@
   "n": 2
  },
  {
-  "w": "anyway",
+  "w": "finds",
   "n": 2
  },
  {
-  "w": "print",
+  "w": "argue",
   "n": 2
  },
  {
-  "w": "perhaps",
+  "w": "camp",
+  "n": 2
+ },
+ {
+  "w": "joined",
   "n": 2
  },
  {
@@ -5364,11 +6088,11 @@
   "n": 2
  },
  {
-  "w": "bewildered",
+  "w": "clear",
   "n": 2
  },
  {
-  "w": "teeth",
+  "w": "fixed",
   "n": 2
  },
  {
@@ -5376,7 +6100,15 @@
   "n": 2
  },
  {
-  "w": "ceremony",
+  "w": "wrongly",
+  "n": 2
+ },
+ {
+  "w": "rings",
+  "n": 2
+ },
+ {
+  "w": "speech",
   "n": 2
  },
  {
@@ -5388,35 +6120,7 @@
   "n": 2
  },
  {
-  "w": "toasts",
-  "n": 2
- },
- {
-  "w": "drank",
-  "n": 2
- },
- {
-  "w": "elsewhere",
-  "n": 2
- },
- {
-  "w": "teaching",
-  "n": 2
- },
- {
-  "w": "laid",
-  "n": 2
- },
- {
-  "w": "chest",
-  "n": 2
- },
- {
   "w": "betrayal",
-  "n": 2
- },
- {
-  "w": "begin",
   "n": 2
  },
  {
@@ -5424,15 +6128,11 @@
   "n": 2
  },
  {
-  "w": "devotion",
+  "w": "survive",
   "n": 2
  },
  {
-  "w": "defied",
-  "n": 2
- },
- {
-  "w": "wrongly",
+  "w": "sums",
   "n": 2
  },
  {
@@ -5440,51 +6140,19 @@
   "n": 2
  },
  {
-  "w": "runs",
-  "n": 2
- },
- {
-  "w": "protection",
-  "n": 2
- },
- {
   "w": "saving",
   "n": 2
  },
  {
-  "w": "assembled",
+  "w": "waste",
   "n": 2
  },
  {
-  "w": "terror",
+  "w": "offering",
   "n": 2
  },
  {
-  "w": "wasted",
-  "n": 2
- },
- {
-  "w": "given",
-  "n": 2
- },
- {
-  "w": "touch",
-  "n": 2
- },
- {
-  "w": "wet-eyed",
-  "n": 2
- },
- {
-  "w": "leaning",
-  "n": 2
- },
- {
-  "w": "worth",
-  "n": 2
- },
- {
-  "w": "guard",
+  "w": "tiny",
   "n": 2
  },
  {
@@ -5492,7 +6160,15 @@
   "n": 2
  },
  {
-  "w": "shrieking",
+  "w": "shack",
+  "n": 2
+ },
+ {
+  "w": "confession",
+  "n": 2
+ },
+ {
+  "w": "price",
   "n": 2
  },
  {
@@ -5500,11 +6176,19 @@
   "n": 2
  },
  {
-  "w": "coldly",
+  "w": "strangers",
   "n": 2
  },
  {
-  "w": "refuses",
+  "w": "shops",
+  "n": 2
+ },
+ {
+  "w": "fails",
+  "n": 2
+ },
+ {
+  "w": "coldly",
   "n": 2
  },
  {
@@ -5512,7 +6196,7 @@
   "n": 2
  },
  {
-  "w": "including",
+  "w": "received",
   "n": 2
  },
  {
@@ -5520,7 +6204,11 @@
   "n": 2
  },
  {
-  "w": "upstairs",
+  "w": "attacked",
+  "n": 2
+ },
+ {
+  "w": "guarding",
   "n": 2
  },
  {
@@ -5528,27 +6216,11 @@
   "n": 2
  },
  {
-  "w": "location",
-  "n": 2
- },
- {
   "w": "handful",
   "n": 2
  },
  {
-  "w": "shrinking",
-  "n": 2
- },
- {
-  "w": "fighting",
-  "n": 2
- },
- {
-  "w": "sufficient",
-  "n": 2
- },
- {
-  "w": "pool",
+  "w": "specifically",
   "n": 2
  },
  {
@@ -5556,11 +6228,15 @@
   "n": 2
  },
  {
-  "w": "dearest",
+  "w": "grieving",
   "n": 2
  },
  {
-  "w": "probable",
+  "w": "sorting",
+  "n": 2
+ },
+ {
+  "w": "dearest",
   "n": 2
  },
  {
@@ -5568,15 +6244,7 @@
   "n": 2
  },
  {
-  "w": "thinking",
-  "n": 2
- },
- {
-  "w": "whom",
-  "n": 2
- },
- {
-  "w": "pause",
+  "w": "disappears",
   "n": 2
  },
  {
@@ -5584,35 +6252,35 @@
   "n": 2
  },
  {
-  "w": "meanwhile",
+  "w": "date",
   "n": 2
  },
  {
-  "w": "prophecy",
+  "w": "watchful",
   "n": 2
  },
  {
-  "w": "longbottoms",
+  "w": "wound",
   "n": 2
  },
  {
-  "w": "limitless",
+  "w": "drawers",
   "n": 2
  },
  {
-  "w": "riddle",
+  "w": "protect",
   "n": 2
  },
  {
-  "w": "chose",
+  "w": "eats",
   "n": 2
  },
  {
-  "w": "wizarding",
+  "w": "stops",
   "n": 2
  },
  {
-  "w": "pointed",
+  "w": "rat's",
   "n": 2
  },
  {
@@ -5620,15 +6288,55 @@
   "n": 2
  },
  {
-  "w": "chosen",
+  "w": "foot",
   "n": 2
  },
  {
-  "w": "soul",
+  "w": "knock",
   "n": 2
  },
  {
-  "w": "placing",
+  "w": "coloured",
+  "n": 2
+ },
+ {
+  "w": "detail",
+  "n": 2
+ },
+ {
+  "w": "feed",
+  "n": 2
+ },
+ {
+  "w": "complaining",
+  "n": 2
+ },
+ {
+  "w": "squinting",
+  "n": 2
+ },
+ {
+  "w": "longbottoms",
+  "n": 2
+ },
+ {
+  "w": "overheard",
+  "n": 2
+ },
+ {
+  "w": "endless",
+  "n": 2
+ },
+ {
+  "w": "riddle",
+  "n": 2
+ },
+ {
+  "w": "begged",
+  "n": 2
+ },
+ {
+  "w": "pages",
   "n": 2
  },
  {
@@ -5636,15 +6344,11 @@
   "n": 2
  },
  {
+  "w": "force",
+  "n": 2
+ },
+ {
   "w": "chooses",
-  "n": 2
- },
- {
-  "w": "century",
-  "n": 2
- },
- {
-  "w": "findable",
   "n": 2
  },
  {
@@ -5652,7 +6356,7 @@
   "n": 2
  },
  {
-  "w": "survival",
+  "w": "wife",
   "n": 2
  },
  {
@@ -5660,7 +6364,23 @@
   "n": 2
  },
  {
-  "w": "choose",
+  "w": "safer",
+  "n": 2
+ },
+ {
+  "w": "safest",
+  "n": 2
+ },
+ {
+  "w": "vault",
+  "n": 2
+ },
+ {
+  "w": "choosing",
+  "n": 2
+ },
+ {
+  "w": "cast",
   "n": 2
  },
  {
@@ -5668,23 +6388,15 @@
   "n": 2
  },
  {
-  "w": "unmade",
+  "w": "sign",
   "n": 2
  },
  {
-  "w": "won't",
+  "w": "carelessness",
   "n": 2
  },
  {
-  "w": "i'll",
-  "n": 2
- },
- {
-  "w": "pocket",
-  "n": 2
- },
- {
-  "w": "load-bearing",
+  "w": "trail",
   "n": 2
  },
  {
@@ -5692,35 +6404,11 @@
   "n": 2
  },
  {
-  "w": "invent",
-  "n": 2
- },
- {
-  "w": "beg",
-  "n": 2
- },
- {
-  "w": "chances",
-  "n": 2
- },
- {
   "w": "draws",
   "n": 2
  },
  {
-  "w": "believes",
-  "n": 2
- },
- {
-  "w": "unspoken",
-  "n": 2
- },
- {
-  "w": "drew",
-  "n": 2
- },
- {
-  "w": "conclusion",
+  "w": "drawn",
   "n": 2
  },
  {
@@ -5728,39 +6416,11 @@
   "n": 2
  },
  {
-  "w": "maybe-fallen",
-  "n": 2
- },
- {
   "w": "tuesday",
   "n": 2
  },
  {
-  "w": "business",
-  "n": 2
- },
- {
-  "w": "eating",
-  "n": 2
- },
- {
-  "w": "call",
-  "n": 2
- },
- {
-  "w": "saturday",
-  "n": 2
- },
- {
-  "w": "requests",
-  "n": 2
- },
- {
-  "w": "deferred",
-  "n": 2
- },
- {
-  "w": "killing",
+  "w": "regret",
   "n": 2
  },
  {
@@ -5780,23 +6440,7 @@
   "n": 2
  },
  {
-  "w": "continued",
-  "n": 2
- },
- {
   "w": "heartbeat",
-  "n": 2
- },
- {
-  "w": "nursing",
-  "n": 2
- },
- {
-  "w": "mirror-calls",
-  "n": 2
- },
- {
-  "w": "carved",
   "n": 2
  },
  {
@@ -5804,23 +6448,7 @@
   "n": 2
  },
  {
-  "w": "beyond",
-  "n": 2
- },
- {
-  "w": "falling",
-  "n": 2
- },
- {
   "w": "lane",
-  "n": 2
- },
- {
-  "w": "aside",
-  "n": 2
- },
- {
-  "w": "follows",
   "n": 2
  },
  {
@@ -5828,19 +6456,11 @@
   "n": 2
  },
  {
-  "w": "coloured",
-  "n": 2
- },
- {
   "w": "buying",
   "n": 2
  },
  {
-  "w": "annoyed",
-  "n": 2
- },
- {
-  "w": "failed",
+  "w": "mercy",
   "n": 2
  },
  {
@@ -5848,19 +6468,7 @@
   "n": 2
  },
  {
-  "w": "wreck",
-  "n": 2
- },
- {
-  "w": "childhood",
-  "n": 2
- },
- {
-  "w": "check",
-  "n": 2
- },
- {
-  "w": "instant",
+  "w": "arranged",
   "n": 2
  },
  {
@@ -5868,23 +6476,7 @@
   "n": 2
  },
  {
-  "w": "kneeling",
-  "n": 2
- },
- {
   "w": "pram",
-  "n": 2
- },
- {
-  "w": "state",
-  "n": 2
- },
- {
-  "w": "wards",
-  "n": 2
- },
- {
-  "w": "protections",
   "n": 2
  },
  {
@@ -5892,7 +6484,7 @@
   "n": 2
  },
  {
-  "w": "shedding",
+  "w": "flying",
   "n": 2
  },
  {
@@ -5900,7 +6492,7 @@
   "n": 2
  },
  {
-  "w": "faster",
+  "w": "cupboard",
   "n": 2
  },
  {
@@ -5908,19 +6500,11 @@
   "n": 2
  },
  {
-  "w": "belongs",
-  "n": 2
- },
- {
   "w": "pavement",
   "n": 2
  },
  {
-  "w": "finish",
-  "n": 2
- },
- {
-  "w": "youth",
+  "w": "muggles",
   "n": 2
  },
  {
@@ -5928,15 +6512,7 @@
   "n": 2
  },
  {
-  "w": "wreckage",
-  "n": 2
- },
- {
-  "w": "correct",
-  "n": 2
- },
- {
-  "w": "warmth",
+  "w": "figure",
   "n": 2
  },
  {
@@ -5944,11 +6520,15 @@
   "n": 2
  },
  {
-  "w": "unlooked-for",
+  "w": "fortress",
   "n": 2
  },
  {
-  "w": "azkaban",
+  "w": "crater",
+  "n": 2
+ },
+ {
+  "w": "printed",
   "n": 2
  },
  {
@@ -5956,19 +6536,31 @@
   "n": 2
  },
  {
-  "w": "slept",
-  "n": 2
- },
- {
   "w": "ninety",
   "n": 2
  },
  {
-  "w": "executed",
+  "w": "tops",
   "n": 2
  },
  {
-  "w": "unimpeachable",
+  "w": "excellent",
+  "n": 2
+ },
+ {
+  "w": "arrive",
+  "n": 2
+ },
+ {
+  "w": "sad",
+  "n": 2
+ },
+ {
+  "w": "bristol",
+  "n": 2
+ },
+ {
+  "w": "save",
   "n": 2
  },
  {
@@ -5980,15 +6572,7 @@
   "n": 2
  },
  {
-  "w": "north",
-  "n": 2
- },
- {
   "w": "toe",
-  "n": 2
- },
- {
-  "w": "thread",
   "n": 2
  },
  {
@@ -5996,19 +6580,27 @@
   "n": 2
  },
  {
+  "w": "ron",
+  "n": 2
+ },
+ {
+  "w": "handwriting",
+  "n": 2
+ },
+ {
+  "w": "knees",
+  "n": 2
+ },
+ {
+  "w": "softest",
+  "n": 2
+ },
+ {
   "w": "free",
   "n": 2
  },
  {
-  "w": "paying",
-  "n": 2
- },
- {
-  "w": "locks",
-  "n": 2
- },
- {
-  "w": "distrust",
+  "w": "accounting",
   "n": 2
  },
  {
@@ -6024,35 +6616,15 @@
   "n": 1
  },
  {
-  "w": "station",
+  "w": "cages",
   "n": 1
  },
  {
-  "w": "hundreds",
+  "w": "skin",
   "n": 1
  },
  {
-  "w": "cats",
-  "n": 1
- },
- {
-  "w": "biggest",
-  "n": 1
- },
- {
-  "w": "directions",
-  "n": 1
- },
- {
-  "w": "neck",
-  "n": 1
- },
- {
-  "w": "father's",
-  "n": 1
- },
- {
-  "w": "kings",
+  "w": "breathe",
   "n": 1
  },
  {
@@ -6060,15 +6632,7 @@
   "n": 1
  },
  {
-  "w": "sure",
-  "n": 1
- },
- {
-  "w": "getting",
-  "n": 1
- },
- {
-  "w": "stronger",
+  "w": "secrets",
   "n": 1
  },
  {
@@ -6080,11 +6644,23 @@
   "n": 1
  },
  {
-  "w": "nicest",
+  "w": "kindest",
   "n": 1
  },
  {
-  "w": "boats",
+  "w": "beard",
+  "n": 1
+ },
+ {
+  "w": "path",
+  "n": 1
+ },
+ {
+  "w": "lad",
+  "n": 1
+ },
+ {
+  "w": "rowed",
   "n": 1
  },
  {
@@ -6092,23 +6668,11 @@
   "n": 1
  },
  {
-  "w": "mountain",
-  "n": 1
- },
- {
   "w": "supposed",
   "n": 1
  },
  {
-  "w": "rule",
-  "n": 1
- },
- {
-  "w": "calls",
-  "n": 1
- },
- {
-  "w": "ravenclaw",
+  "w": "hanging",
   "n": 1
  },
  {
@@ -6116,23 +6680,39 @@
   "n": 1
  },
  {
-  "w": "smiling",
+  "w": "ravenclaw",
   "n": 1
  },
  {
-  "w": "forget",
+  "w": "win",
   "n": 1
  },
  {
-  "w": "touched",
+  "w": "rubbish",
   "n": 1
  },
  {
-  "w": "birthday",
+  "w": "crossed",
   "n": 1
  },
  {
-  "w": "everybody's",
+  "w": "church",
+  "n": 1
+ },
+ {
+  "w": "bench",
+  "n": 1
+ },
+ {
+  "w": "hardly",
+  "n": 1
+ },
+ {
+  "w": "longest",
+  "n": 1
+ },
+ {
+  "w": "sees",
   "n": 1
  },
  {
@@ -6140,19 +6720,7 @@
   "n": 1
  },
  {
-  "w": "six",
-  "n": 1
- },
- {
-  "w": "beds",
-  "n": 1
- },
- {
-  "w": "music",
-  "n": 1
- },
- {
-  "w": "ice",
+  "w": "mess",
   "n": 1
  },
  {
@@ -6164,10 +6732,6 @@
   "n": 1
  },
  {
-  "w": "sing",
-  "n": 1
- },
- {
   "w": "calling",
   "n": 1
  },
@@ -6176,15 +6740,15 @@
   "n": 1
  },
  {
+  "w": "chess",
+  "n": 1
+ },
+ {
   "w": "extra",
   "n": 1
  },
  {
-  "w": "appeared",
-  "n": 1
- },
- {
-  "w": "sang",
+  "w": "sends",
   "n": 1
  },
  {
@@ -6192,19 +6756,7 @@
   "n": 1
  },
  {
-  "w": "o'clock",
-  "n": 1
- },
- {
   "w": "often",
-  "n": 1
- },
- {
-  "w": "first-year",
-  "n": 1
- },
- {
-  "w": "boat",
   "n": 1
  },
  {
@@ -6232,31 +6784,31 @@
   "n": 1
  },
  {
-  "w": "people's",
+  "w": "twenty-seven",
   "n": 1
  },
  {
-  "w": "nurse",
+  "w": "twenty-eight",
   "n": 1
  },
  {
-  "w": "gates",
+  "w": "buys",
   "n": 1
  },
  {
-  "w": "planted",
+  "w": "forgets",
   "n": 1
  },
  {
-  "w": "remembers",
+  "w": "dentist",
   "n": 1
  },
  {
-  "w": "wooden",
+  "w": "fenrir",
   "n": 1
  },
  {
-  "w": "steps",
+  "w": "neighbours",
   "n": 1
  },
  {
@@ -6264,15 +6816,95 @@
   "n": 1
  },
  {
-  "w": "hospital",
+  "w": "planted",
   "n": 1
  },
  {
-  "w": "wing",
+  "w": "roots",
   "n": 1
  },
  {
-  "w": "ready",
+  "w": "nurse",
+  "n": 1
+ },
+ {
+  "w": "meal",
+  "n": 1
+ },
+ {
+  "w": "match",
+  "n": 1
+ },
+ {
+  "w": "needle",
+  "n": 1
+ },
+ {
+  "w": "frozen",
+  "n": 1
+ },
+ {
+  "w": "january",
+  "n": 1
+ },
+ {
+  "w": "played",
+  "n": 1
+ },
+ {
+  "w": "opinion",
+  "n": 1
+ },
+ {
+  "w": "cards",
+  "n": 1
+ },
+ {
+  "w": "shy",
+  "n": 1
+ },
+ {
+  "w": "homesick",
+  "n": 1
+ },
+ {
+  "w": "strays",
+  "n": 1
+ },
+ {
+  "w": "liking",
+  "n": 1
+ },
+ {
+  "w": "meals",
+  "n": 1
+ },
+ {
+  "w": "dear",
+  "n": 1
+ },
+ {
+  "w": "eleven-year-old",
+  "n": 1
+ },
+ {
+  "w": "cleverest",
+  "n": 1
+ },
+ {
+  "w": "brass",
+  "n": 1
+ },
+ {
+  "w": "shade",
+  "n": 1
+ },
+ {
+  "w": "magazine",
+  "n": 1
+ },
+ {
+  "w": "counting",
   "n": 1
  },
  {
@@ -6284,10 +6916,6 @@
   "n": 1
  },
  {
-  "w": "talking",
-  "n": 1
- },
- {
   "w": "grandmother",
   "n": 1
  },
@@ -6296,15 +6924,11 @@
   "n": 1
  },
  {
+  "w": "fingers",
+  "n": 1
+ },
+ {
   "w": "drawings",
-  "n": 1
- },
- {
-  "w": "worried",
-  "n": 1
- },
- {
-  "w": "hurting",
   "n": 1
  },
  {
@@ -6324,10 +6948,6 @@
   "n": 1
  },
  {
-  "w": "sounded",
-  "n": 1
- },
- {
   "w": "cough",
   "n": 1
  },
@@ -6336,31 +6956,19 @@
   "n": 1
  },
  {
-  "w": "added",
-  "n": 1
- },
- {
-  "w": "explains",
-  "n": 1
- },
- {
   "w": "sausages",
   "n": 1
  },
  {
-  "w": "fun",
+  "w": "beach",
   "n": 1
  },
  {
-  "w": "can't",
+  "w": "socks",
   "n": 1
  },
  {
-  "w": "insulted",
-  "n": 1
- },
- {
-  "w": "asks",
+  "w": "breathes",
   "n": 1
  },
  {
@@ -6376,27 +6984,11 @@
   "n": 1
  },
  {
-  "w": "cat",
-  "n": 1
- },
- {
-  "w": "shone",
-  "n": 1
- },
- {
   "w": "surrounded",
   "n": 1
  },
  {
-  "w": "werewolves",
-  "n": 1
- },
- {
-  "w": "witch",
-  "n": 1
- },
- {
-  "w": "thirteen-year-old",
+  "w": "cat's",
   "n": 1
  },
  {
@@ -6412,23 +7004,23 @@
   "n": 1
  },
  {
-  "w": "librarian",
+  "w": "potions",
   "n": 1
  },
  {
-  "w": "hurts",
+  "w": "owns",
   "n": 1
  },
  {
-  "w": "break",
-  "n": 1
- },
- {
-  "w": "mistake",
+  "w": "borrows",
   "n": 1
  },
  {
   "w": "lender",
+  "n": 1
+ },
+ {
+  "w": "lent",
   "n": 1
  },
  {
@@ -6460,23 +7052,43 @@
   "n": 1
  },
  {
-  "w": "bathroom",
-  "n": 1
- },
- {
-  "w": "strong",
-  "n": 1
- },
- {
-  "w": "kindly",
-  "n": 1
- },
- {
   "w": "strength",
   "n": 1
  },
  {
+  "w": "wanting",
+  "n": 1
+ },
+ {
   "w": "wishes",
+  "n": 1
+ },
+ {
+  "w": "stole",
+  "n": 1
+ },
+ {
+  "w": "slughorn's",
+  "n": 1
+ },
+ {
+  "w": "process",
+  "n": 1
+ },
+ {
+  "w": "library's",
+  "n": 1
+ },
+ {
+  "w": "finishing",
+  "n": 1
+ },
+ {
+  "w": "fourteen",
+  "n": 1
+ },
+ {
+  "w": "forgiven",
   "n": 1
  },
  {
@@ -6488,23 +7100,11 @@
   "n": 1
  },
  {
-  "w": "smaller",
-  "n": 1
- },
- {
-  "w": "bigger",
-  "n": 1
- },
- {
-  "w": "tall",
-  "n": 1
- },
- {
-  "w": "glasses-shaped",
-  "n": 1
- },
- {
   "w": "patches",
+  "n": 1
+ },
+ {
+  "w": "silent",
   "n": 1
  },
  {
@@ -6516,19 +7116,15 @@
   "n": 1
  },
  {
-  "w": "anybody's",
-  "n": 1
- },
- {
   "w": "personal",
   "n": 1
  },
  {
-  "w": "listen",
+  "w": "space",
   "n": 1
  },
  {
-  "w": "hide",
+  "w": "self",
   "n": 1
  },
  {
@@ -6548,23 +7144,27 @@
   "n": 1
  },
  {
+  "w": "tear",
+  "n": 1
+ },
+ {
+  "w": "chased",
+  "n": 1
+ },
+ {
   "w": "dawn",
   "n": 1
  },
  {
-  "w": "black-grey",
+  "w": "usual",
   "n": 1
  },
  {
-  "w": "worm-like",
+  "w": "cushions",
   "n": 1
  },
  {
-  "w": "invented",
-  "n": 1
- },
- {
-  "w": "boards",
+  "w": "drunk",
   "n": 1
  },
  {
@@ -6572,31 +7172,15 @@
   "n": 1
  },
  {
-  "w": "sand",
-  "n": 1
- },
- {
   "w": "blackness",
   "n": 1
  },
  {
-  "w": "repeat",
+  "w": "twenty-nine",
   "n": 1
  },
  {
-  "w": "rises",
-  "n": 1
- },
- {
-  "w": "prey",
-  "n": 1
- },
- {
-  "w": "opens",
-  "n": 1
- },
- {
-  "w": "speaks",
+  "w": "language",
   "n": 1
  },
  {
@@ -6604,19 +7188,7 @@
   "n": 1
  },
  {
-  "w": "tree-tunnel",
-  "n": 1
- },
- {
-  "w": "slipping",
-  "n": 1
- },
- {
   "w": "pressing",
-  "n": 1
- },
- {
-  "w": "spot",
   "n": 1
  },
  {
@@ -6624,23 +7196,7 @@
   "n": 1
  },
  {
-  "w": "glow",
-  "n": 1
- },
- {
-  "w": "hills",
-  "n": 1
- },
- {
-  "w": "wonderful",
-  "n": 1
- },
- {
   "w": "wolf's",
-  "n": 1
- },
- {
-  "w": "luck",
   "n": 1
  },
  {
@@ -6652,19 +7208,7 @@
   "n": 1
  },
  {
-  "w": "immortal",
-  "n": 1
- },
- {
-  "w": "steal",
-  "n": 1
- },
- {
   "w": "thursdays",
-  "n": 1
- },
- {
-  "w": "one-eyed",
   "n": 1
  },
  {
@@ -6672,15 +7216,35 @@
   "n": 1
  },
  {
-  "w": "especially",
+  "w": "one-eyed",
   "n": 1
  },
  {
-  "w": "liked",
+  "w": "appeared",
   "n": 1
  },
  {
-  "w": "anybody",
+  "w": "example",
+  "n": 1
+ },
+ {
+  "w": "student",
+  "n": 1
+ },
+ {
+  "w": "slates",
+  "n": 1
+ },
+ {
+  "w": "what's",
+  "n": 1
+ },
+ {
+  "w": "joking",
+  "n": 1
+ },
+ {
+  "w": "fewer",
   "n": 1
  },
  {
@@ -6688,11 +7252,11 @@
   "n": 1
  },
  {
-  "w": "stuck",
+  "w": "calmly",
   "n": 1
  },
  {
-  "w": "calmly",
+  "w": "produced",
   "n": 1
  },
  {
@@ -6700,11 +7264,15 @@
   "n": 1
  },
  {
-  "w": "headmasters",
+  "w": "engine",
   "n": 1
  },
  {
-  "w": "engine",
+  "w": "lazy",
+  "n": 1
+ },
+ {
+  "w": "folds",
   "n": 1
  },
  {
@@ -6712,15 +7280,15 @@
   "n": 1
  },
  {
+  "w": "tries",
+  "n": 1
+ },
+ {
   "w": "insults",
   "n": 1
  },
  {
-  "w": "personality",
-  "n": 1
- },
- {
-  "w": "cheek",
+  "w": "character",
   "n": 1
  },
  {
@@ -6728,19 +7296,11 @@
   "n": 1
  },
  {
-  "w": "grabs",
+  "w": "argues",
   "n": 1
  },
  {
-  "w": "drawing",
-  "n": 1
- },
- {
-  "w": "re-drawing",
-  "n": 1
- },
- {
-  "w": "stair",
+  "w": "manners",
   "n": 1
  },
  {
@@ -6752,31 +7312,15 @@
   "n": 1
  },
  {
-  "w": "purveyors",
-  "n": 1
- },
- {
-  "w": "aids",
-  "n": 1
- },
- {
-  "w": "magical",
-  "n": 1
- },
- {
-  "w": "mischief-makers",
-  "n": 1
- },
- {
-  "w": "proud",
-  "n": 1
- },
- {
   "w": "present",
   "n": 1
  },
  {
-  "w": "gentleman",
+  "w": "robbers",
+  "n": 1
+ },
+ {
+  "w": "gentlemen",
   "n": 1
  },
  {
@@ -6784,23 +7328,7 @@
   "n": 1
  },
  {
-  "w": "private",
-  "n": 1
- },
- {
   "w": "citizens",
-  "n": 1
- },
- {
-  "w": "sneaking",
-  "n": 1
- },
- {
-  "w": "avoiding",
-  "n": 1
- },
- {
-  "w": "tracking",
   "n": 1
  },
  {
@@ -6808,19 +7336,11 @@
   "n": 1
  },
  {
-  "w": "watching-tool",
-  "n": 1
- },
- {
   "w": "school's",
   "n": 1
  },
  {
-  "w": "avoid",
-  "n": 1
- },
- {
-  "w": "cakes",
+  "w": "stealing",
   "n": 1
  },
  {
@@ -6828,27 +7348,27 @@
   "n": 1
  },
  {
-  "w": "makers",
-  "n": 1
- },
- {
-  "w": "filch",
-  "n": 1
- },
- {
   "w": "possibly",
   "n": 1
  },
  {
-  "w": "crack",
+  "w": "bring",
   "n": 1
  },
  {
-  "w": "silliness",
+  "w": "comfortable",
   "n": 1
  },
  {
-  "w": "ugly",
+  "w": "washed",
+  "n": 1
+ },
+ {
+  "w": "seemed",
+  "n": 1
+ },
+ {
+  "w": "obeys",
   "n": 1
  },
  {
@@ -6860,31 +7380,23 @@
   "n": 1
  },
  {
-  "w": "filthiest",
+  "w": "cared",
   "n": 1
  },
  {
-  "w": "means",
+  "w": "witches",
   "n": 1
  },
  {
-  "w": "dirty",
+  "w": "badge",
   "n": 1
  },
  {
-  "w": "non-magic",
+  "w": "dignity",
   "n": 1
  },
  {
-  "w": "particular",
-  "n": 1
- },
- {
-  "w": "coward",
-  "n": 1
- },
- {
-  "w": "smoothly",
+  "w": "easily",
   "n": 1
  },
  {
@@ -6896,6 +7408,26 @@
   "n": 1
  },
  {
+  "w": "violent",
+  "n": 1
+ },
+ {
+  "w": "worn",
+  "n": 1
+ },
+ {
+  "w": "others",
+  "n": 1
+ },
+ {
+  "w": "circling",
+  "n": 1
+ },
+ {
+  "w": "crack",
+  "n": 1
+ },
+ {
   "w": "anger",
   "n": 1
  },
@@ -6904,19 +7436,11 @@
   "n": 1
  },
  {
-  "w": "show-off",
+  "w": "walks",
   "n": 1
  },
  {
-  "w": "bitten",
-  "n": 1
- },
- {
-  "w": "condemned",
-  "n": 1
- },
- {
-  "w": "closes",
+  "w": "full-grown",
   "n": 1
  },
  {
@@ -6924,7 +7448,7 @@
   "n": 1
  },
  {
-  "w": "consent",
+  "w": "agreeing",
   "n": 1
  },
  {
@@ -6936,31 +7460,75 @@
   "n": 1
  },
  {
-  "w": "schoolboy's",
+  "w": "schoolboys",
   "n": 1
  },
  {
-  "w": "quarrel",
+  "w": "unkindly",
   "n": 1
  },
  {
-  "w": "white-faced",
+  "w": "headmaster",
   "n": 1
  },
  {
-  "w": "believable",
+  "w": "classes",
   "n": 1
  },
  {
-  "w": "unlearn",
+  "w": "salt",
   "n": 1
  },
  {
-  "w": "passing",
+  "w": "lesson",
   "n": 1
  },
  {
-  "w": "awake",
+  "w": "flitwick",
+  "n": 1
+ },
+ {
+  "w": "trick",
+  "n": 1
+ },
+ {
+  "w": "snape's",
+  "n": 1
+ },
+ {
+  "w": "fastest",
+  "n": 1
+ },
+ {
+  "w": "greatest",
+  "n": 1
+ },
+ {
+  "w": "quality",
+  "n": 1
+ },
+ {
+  "w": "dog's",
+  "n": 1
+ },
+ {
+  "w": "load",
+  "n": 1
+ },
+ {
+  "w": "rests",
+  "n": 1
+ },
+ {
+  "w": "whispers",
+  "n": 1
+ },
+ {
+  "w": "selling",
+  "n": 1
+ },
+ {
+  "w": "weighing",
   "n": 1
  },
  {
@@ -6972,6 +7540,10 @@
   "n": 1
  },
  {
+  "w": "besides",
+  "n": 1
+ },
+ {
   "w": "remembering",
   "n": 1
  },
@@ -6980,27 +7552,7 @@
   "n": 1
  },
  {
-  "w": "works",
-  "n": 1
- },
- {
-  "w": "shy",
-  "n": 1
- },
- {
-  "w": "first-years",
-  "n": 1
- },
- {
-  "w": "homesick",
-  "n": 1
- },
- {
-  "w": "anyone's",
-  "n": 1
- },
- {
-  "w": "opinion",
+  "w": "dream",
   "n": 1
  },
  {
@@ -7008,11 +7560,7 @@
   "n": 1
  },
  {
-  "w": "hexed",
-  "n": 1
- },
- {
-  "w": "bored",
+  "w": "threw",
   "n": 1
  },
  {
@@ -7020,23 +7568,7 @@
   "n": 1
  },
  {
-  "w": "game",
-  "n": 1
- },
- {
-  "w": "played",
-  "n": 1
- },
- {
-  "w": "brooms",
-  "n": 1
- },
- {
-  "w": "shine",
-  "n": 1
- },
- {
-  "w": "you're",
+  "w": "treated",
   "n": 1
  },
  {
@@ -7044,15 +7576,15 @@
   "n": 1
  },
  {
+  "w": "courtyard",
+  "n": 1
+ },
+ {
+  "w": "dormitory",
+  "n": 1
+ },
+ {
   "w": "catching",
-  "n": 1
- },
- {
-  "w": "she's",
-  "n": 1
- },
- {
-  "w": "audience",
   "n": 1
  },
  {
@@ -7064,19 +7596,51 @@
   "n": 1
  },
  {
-  "w": "hexings",
-  "n": 1
- },
- {
-  "w": "quieted",
-  "n": 1
- },
- {
   "w": "noticing",
   "n": 1
  },
  {
-  "w": "younger",
+  "w": "pointing",
+  "n": 1
+ },
+ {
+  "w": "directions",
+  "n": 1
+ },
+ {
+  "w": "happening",
+  "n": 1
+ },
+ {
+  "w": "red-haired",
+  "n": 1
+ },
+ {
+  "w": "moments",
+  "n": 1
+ },
+ {
+  "w": "hot",
+  "n": 1
+ },
+ {
+  "w": "elsewhere",
+  "n": 1
+ },
+ {
+  "w": "certainly",
+  "n": 1
+ },
+ {
+  "w": "lady",
+  "n": 1
+ },
+ {
+  "w": "dressing",
+  "n": 1
+ },
+ {
+  "w": "gown",
   "n": 1
  },
  {
@@ -7084,83 +7648,11 @@
   "n": 1
  },
  {
-  "w": "retell",
+  "w": "i've",
   "n": 1
  },
  {
-  "w": "hanging",
-  "n": 1
- },
- {
-  "w": "upside",
-  "n": 1
- },
- {
-  "w": "needing",
-  "n": 1
- },
- {
-  "w": "bleed",
-  "n": 1
- },
- {
-  "w": "forgave",
-  "n": 1
- },
- {
-  "w": "curses",
-  "n": 1
- },
- {
-  "w": "enemy",
-  "n": 1
- },
- {
-  "w": "puzzled",
-  "n": 1
- },
- {
-  "w": "interested",
-  "n": 1
- },
- {
-  "w": "direct",
-  "n": 1
- },
- {
-  "w": "quotation",
-  "n": 1
- },
- {
-  "w": "preserved",
-  "n": 1
- },
- {
-  "w": "seventeen",
-  "n": 1
- },
- {
-  "w": "amber",
-  "n": 1
- },
- {
-  "w": "map-maker",
-  "n": 1
- },
- {
-  "w": "plainness",
-  "n": 1
- },
- {
-  "w": "frightens",
-  "n": 1
- },
- {
-  "w": "endlessly",
-  "n": 1
- },
- {
-  "w": "bag",
+  "w": "insult",
   "n": 1
  },
  {
@@ -7168,23 +7660,7 @@
   "n": 1
  },
  {
-  "w": "undoes",
-  "n": 1
- },
- {
-  "w": "muggle-style",
-  "n": 1
- },
- {
   "w": "metal",
-  "n": 1
- },
- {
-  "w": "mr",
-  "n": 1
- },
- {
-  "w": "dig",
   "n": 1
  },
  {
@@ -7204,19 +7680,15 @@
   "n": 1
  },
  {
-  "w": "french",
-  "n": 1
- },
- {
   "w": "pure",
   "n": 1
  },
  {
-  "w": "serpent",
+  "w": "snake-shaped",
   "n": 1
  },
  {
-  "w": "door-handles",
+  "w": "handles",
   "n": 1
  },
  {
@@ -7224,15 +7696,11 @@
   "n": 1
  },
  {
-  "w": "convictions",
-  "n": 1
- },
- {
   "w": "eldest",
   "n": 1
  },
  {
-  "w": "papered",
+  "w": "covered",
   "n": 1
  },
  {
@@ -7240,15 +7708,15 @@
   "n": 1
  },
  {
+  "w": "girls",
+  "n": 1
+ },
+ {
   "w": "motorbikes",
   "n": 1
  },
  {
-  "w": "removed",
-  "n": 1
- },
- {
-  "w": "harder",
+  "w": "describe",
   "n": 1
  },
  {
@@ -7264,27 +7732,11 @@
   "n": 1
  },
  {
-  "w": "rather",
-  "n": 1
- },
- {
-  "w": "eventually",
-  "n": 1
- },
- {
-  "w": "sleeve",
-  "n": 1
- },
- {
-  "w": "spare",
+  "w": "motto",
   "n": 1
  },
  {
   "w": "painted",
-  "n": 1
- },
- {
-  "w": "hole",
   "n": 1
  },
  {
@@ -7316,23 +7768,7 @@
   "n": 1
  },
  {
-  "w": "apart",
-  "n": 1
- },
- {
-  "w": "horrors",
-  "n": 1
- },
- {
-  "w": "however",
-  "n": 1
- },
- {
-  "w": "underneath",
-  "n": 1
- },
- {
-  "w": "else's",
+  "w": "bowl",
   "n": 1
  },
  {
@@ -7344,15 +7780,15 @@
   "n": 1
  },
  {
-  "w": "urges",
-  "n": 1
- },
- {
   "w": "seventh-year",
   "n": 1
  },
  {
-  "w": "urge",
+  "w": "starting",
+  "n": 1
+ },
+ {
+  "w": "attacks",
   "n": 1
  },
  {
@@ -7360,15 +7796,15 @@
   "n": 1
  },
  {
-  "w": "fathers",
+  "w": "skull",
+  "n": 1
+ },
+ {
+  "w": "snake",
   "n": 1
  },
  {
   "w": "questioned",
-  "n": 1
- },
- {
-  "w": "slytherins",
   "n": 1
  },
  {
@@ -7380,27 +7816,11 @@
   "n": 1
  },
  {
-  "w": "cover",
-  "n": 1
- },
- {
   "w": "prove",
   "n": 1
  },
  {
-  "w": "pretending",
-  "n": 1
- },
- {
-  "w": "murderers",
-  "n": 1
- },
- {
-  "w": "group",
-  "n": 1
- },
- {
-  "w": "darkening",
+  "w": "within",
   "n": 1
  },
  {
@@ -7412,10 +7832,6 @@
   "n": 1
  },
  {
-  "w": "physically",
-  "n": 1
- },
- {
   "w": "team",
   "n": 1
  },
@@ -7424,31 +7840,15 @@
   "n": 1
  },
  {
-  "w": "anxious",
+  "w": "interested",
   "n": 1
  },
  {
-  "w": "lightly",
+  "w": "maker",
   "n": 1
  },
  {
-  "w": "included",
-  "n": 1
- },
- {
-  "w": "dressing",
-  "n": 1
- },
- {
-  "w": "valley",
-  "n": 1
- },
- {
-  "w": "constantly",
-  "n": 1
- },
- {
-  "w": "plus",
+  "w": "frightens",
   "n": 1
  },
  {
@@ -7464,35 +7864,19 @@
   "n": 1
  },
  {
+  "w": "truest",
+  "n": 1
+ },
+ {
+  "w": "filed",
+  "n": 1
+ },
+ {
   "w": "guesses",
   "n": 1
  },
  {
-  "w": "staring",
-  "n": 1
- },
- {
-  "w": "decide",
-  "n": 1
- },
- {
-  "w": "it'll",
-  "n": 1
- },
- {
-  "w": "unkindly",
-  "n": 1
- },
- {
-  "w": "isn't",
-  "n": 1
- },
- {
-  "w": "cracked",
-  "n": 1
- },
- {
-  "w": "treated",
+  "w": "attacking",
   "n": 1
  },
  {
@@ -7500,19 +7884,15 @@
   "n": 1
  },
  {
-  "w": "signatures",
-  "n": 1
- },
- {
-  "w": "yearbooks",
-  "n": 1
- },
- {
-  "w": "tablecloth-sized",
-  "n": 1
- },
- {
   "w": "handkerchief",
+  "n": 1
+ },
+ {
+  "w": "tablecloth",
+  "n": 1
+ },
+ {
+  "w": "final",
   "n": 1
  },
  {
@@ -7520,7 +7900,7 @@
   "n": 1
  },
  {
-  "w": "astronomy",
+  "w": "bottle",
   "n": 1
  },
  {
@@ -7532,15 +7912,15 @@
   "n": 1
  },
  {
-  "w": "swore",
+  "w": "dramatic",
+  "n": 1
+ },
+ {
+  "w": "threatened",
   "n": 1
  },
  {
   "w": "warned",
-  "n": 1
- },
- {
-  "w": "dangers",
   "n": 1
  },
  {
@@ -7552,19 +7932,11 @@
   "n": 1
  },
  {
-  "w": "radio",
+  "w": "begun",
   "n": 1
  },
  {
-  "w": "rise",
-  "n": 1
- },
- {
-  "w": "items",
-  "n": 1
- },
- {
-  "w": "spaces",
+  "w": "holes",
   "n": 1
  },
  {
@@ -7572,19 +7944,11 @@
   "n": 1
  },
  {
-  "w": "falls",
+  "w": "separate",
   "n": 1
  },
  {
-  "w": "isolated",
-  "n": 1
- },
- {
-  "w": "incidents",
-  "n": 1
- },
- {
-  "w": "alarm",
+  "w": "events",
   "n": 1
  },
  {
@@ -7592,7 +7956,15 @@
   "n": 1
  },
  {
+  "w": "giants",
+  "n": 1
+ },
+ {
   "w": "pure-blood",
+  "n": 1
+ },
+ {
+  "w": "promising",
   "n": 1
  },
  {
@@ -7616,10 +7988,6 @@
   "n": 1
  },
  {
-  "w": "rulings",
-  "n": 1
- },
- {
   "w": "prisoners",
   "n": 1
  },
@@ -7640,7 +8008,47 @@
   "n": 1
  },
  {
-  "w": "charmed",
+  "w": "attached",
+  "n": 1
+ },
+ {
+  "w": "starts",
+  "n": 1
+ },
+ {
+  "w": "junior",
+  "n": 1
+ },
+ {
+  "w": "files",
+  "n": 1
+ },
+ {
+  "w": "departments",
+  "n": 1
+ },
+ {
+  "w": "wage",
+  "n": 1
+ },
+ {
+  "w": "sensible",
+  "n": 1
+ },
+ {
+  "w": "deal",
+  "n": 1
+ },
+ {
+  "w": "gathering",
+  "n": 1
+ },
+ {
+  "w": "reckless",
+  "n": 1
+ },
+ {
+  "w": "teacup",
   "n": 1
  },
  {
@@ -7660,11 +8068,27 @@
   "n": 1
  },
  {
-  "w": "politics",
+  "w": "stupidest",
   "n": 1
  },
  {
-  "w": "surname",
+  "w": "supported",
+  "n": 1
+ },
+ {
+  "w": "bellatrix",
+  "n": 1
+ },
+ {
+  "w": "enjoyed",
+  "n": 1
+ },
+ {
+  "w": "uncles",
+  "n": 1
+ },
+ {
+  "w": "politics",
   "n": 1
  },
  {
@@ -7672,63 +8096,23 @@
   "n": 1
  },
  {
-  "w": "condition",
+  "w": "field",
   "n": 1
  },
  {
-  "w": "employment",
+  "w": "furious",
   "n": 1
  },
  {
-  "w": "job",
+  "w": "wasn't",
   "n": 1
  },
  {
-  "w": "junior",
+  "w": "angle",
   "n": 1
  },
  {
-  "w": "sensible",
-  "n": 1
- },
- {
-  "w": "wage",
-  "n": 1
- },
- {
-  "w": "murmur",
-  "n": 1
- },
- {
-  "w": "hears",
-  "n": 1
- },
- {
-  "w": "deal",
-  "n": 1
- },
- {
-  "w": "tired-looking",
-  "n": 1
- },
- {
-  "w": "gathering",
-  "n": 1
- },
- {
-  "w": "intended",
-  "n": 1
- },
- {
-  "w": "reckless",
-  "n": 1
- },
- {
-  "w": "teacup",
-  "n": 1
- },
- {
-  "w": "roof-at-sunrise",
+  "w": "replacement",
   "n": 1
  },
  {
@@ -7744,15 +8128,7 @@
   "n": 1
  },
  {
-  "w": "count",
-  "n": 1
- },
- {
-  "w": "twenty-some",
-  "n": 1
- },
- {
-  "w": "schoolteacher's",
+  "w": "movement",
   "n": 1
  },
  {
@@ -7760,19 +8136,11 @@
   "n": 1
  },
  {
-  "w": "funded",
+  "w": "schoolteacher",
   "n": 1
  },
  {
-  "w": "candles",
-  "n": 1
- },
- {
-  "w": "gentle",
-  "n": 1
- },
- {
-  "w": "effective",
+  "w": "led",
   "n": 1
  },
  {
@@ -7784,15 +8152,11 @@
   "n": 1
  },
  {
-  "w": "scarred",
-  "n": 1
- },
- {
   "w": "chopping",
   "n": 1
  },
  {
-  "w": "half-giant",
+  "w": "duel",
   "n": 1
  },
  {
@@ -7800,11 +8164,7 @@
   "n": 1
  },
  {
-  "w": "half-moon",
-  "n": 1
- },
- {
-  "w": "pretend",
+  "w": "study",
   "n": 1
  },
  {
@@ -7812,75 +8172,11 @@
   "n": 1
  },
  {
-  "w": "pulling",
-  "n": 1
- },
- {
-  "w": "nine",
-  "n": 1
- },
- {
-  "w": "bitter",
-  "n": 1
- },
- {
-  "w": "thrown",
-  "n": 1
- },
- {
-  "w": "courted",
-  "n": 1
- },
- {
-  "w": "registries",
-  "n": 1
- },
- {
-  "w": "argue",
-  "n": 1
- },
- {
-  "w": "several",
-  "n": 1
- },
- {
-  "w": "wheel",
-  "n": 1
- },
- {
-  "w": "worked",
-  "n": 1
- },
- {
-  "w": "cells",
-  "n": 1
- },
- {
-  "w": "captured",
-  "n": 1
- },
- {
-  "w": "spill",
-  "n": 1
- },
- {
-  "w": "wise",
-  "n": 1
- },
- {
-  "w": "standard",
-  "n": 1
- },
- {
-  "w": "disappearing",
-  "n": 1
- },
- {
   "w": "wandered",
   "n": 1
  },
  {
-  "w": "accident",
+  "w": "genuinely",
   "n": 1
  },
  {
@@ -7896,27 +8192,7 @@
   "n": 1
  },
  {
-  "w": "messages",
-  "n": 1
- },
- {
-  "w": "corners",
-  "n": 1
- },
- {
-  "w": "pubs",
-  "n": 1
- },
- {
-  "w": "half-pint",
-  "n": 1
- },
- {
-  "w": "invisible",
-  "n": 1
- },
- {
-  "w": "slips",
+  "w": "pint",
   "n": 1
  },
  {
@@ -7924,11 +8200,115 @@
   "n": 1
  },
  {
-  "w": "points",
+  "w": "aim",
   "n": 1
  },
  {
-  "w": "ash",
+  "w": "farm",
+  "n": 1
+ },
+ {
+  "w": "buildings",
+  "n": 1
+ },
+ {
+  "w": "forgetting",
+  "n": 1
+ },
+ {
+  "w": "nowhere",
+  "n": 1
+ },
+ {
+  "w": "promises",
+  "n": 1
+ },
+ {
+  "w": "registry",
+  "n": 1
+ },
+ {
+  "w": "forms",
+  "n": 1
+ },
+ {
+  "w": "fill",
+  "n": 1
+ },
+ {
+  "w": "landlord's",
+  "n": 1
+ },
+ {
+  "w": "existing",
+  "n": 1
+ },
+ {
+  "w": "arguments",
+  "n": 1
+ },
+ {
+  "w": "least",
+  "n": 1
+ },
+ {
+  "w": "evil",
+  "n": 1
+ },
+ {
+  "w": "northern",
+  "n": 1
+ },
+ {
+  "w": "aled",
+  "n": 1
+ },
+ {
+  "w": "fifty",
+  "n": 1
+ },
+ {
+  "w": "daughters",
+  "n": 1
+ },
+ {
+  "w": "greyback's",
+  "n": 1
+ },
+ {
+  "w": "wheel",
+  "n": 1
+ },
+ {
+  "w": "kills",
+  "n": 1
+ },
+ {
+  "w": "secrecy",
+  "n": 1
+ },
+ {
+  "w": "order's",
+  "n": 1
+ },
+ {
+  "w": "groups",
+  "n": 1
+ },
+ {
+  "w": "captured",
+  "n": 1
+ },
+ {
+  "w": "wise",
+  "n": 1
+ },
+ {
+  "w": "disappearing",
+  "n": 1
+ },
+ {
+  "w": "permitted",
   "n": 1
  },
  {
@@ -7937,10 +8317,6 @@
  },
  {
   "w": "keeps",
-  "n": 1
- },
- {
-  "w": "war-small",
   "n": 1
  },
  {
@@ -7960,18 +8336,6 @@
   "n": 1
  },
  {
-  "w": "stumping",
-  "n": 1
- },
- {
-  "w": "intervals",
-  "n": 1
- },
- {
-  "w": "protective",
-  "n": 1
- },
- {
   "w": "spells",
   "n": 1
  },
@@ -7984,27 +8348,11 @@
   "n": 1
  },
  {
-  "w": "risk",
-  "n": 1
- },
- {
-  "w": "clear",
-  "n": 1
- },
- {
-  "w": "petunia",
-  "n": 1
- },
- {
-  "w": "fixed",
-  "n": 1
- },
- {
-  "w": "dentists",
-  "n": 1
- },
- {
   "w": "teapot",
+  "n": 1
+ },
+ {
+  "w": "poured",
   "n": 1
  },
  {
@@ -8016,11 +8364,11 @@
   "n": 1
  },
  {
-  "w": "tale",
+  "w": "fairy",
   "n": 1
  },
  {
-  "w": "vibrated",
+  "w": "tale",
   "n": 1
  },
  {
@@ -8029,22 +8377,6 @@
  },
  {
   "w": "hugged",
-  "n": 1
- },
- {
-  "w": "moments",
-  "n": 1
- },
- {
-  "w": "large",
-  "n": 1
- },
- {
-  "w": "robes",
-  "n": 1
- },
- {
-  "w": "incorrectly",
   "n": 1
  },
  {
@@ -8064,11 +8396,15 @@
   "n": 1
  },
  {
-  "w": "wine",
+  "w": "children's",
   "n": 1
  },
  {
-  "w": "weeping",
+  "w": "party",
+  "n": 1
+ },
+ {
+  "w": "wine",
   "n": 1
  },
  {
@@ -8076,31 +8412,19 @@
   "n": 1
  },
  {
-  "w": "binding",
-  "n": 1
- },
- {
-  "w": "vow",
-  "n": 1
- },
- {
-  "w": "purpose",
-  "n": 1
- },
- {
   "w": "measure",
   "n": 1
  },
  {
-  "w": "neither",
+  "w": "toasts",
+  "n": 1
+ },
+ {
+  "w": "growing",
   "n": 1
  },
  {
   "w": "court",
-  "n": 1
- },
- {
-  "w": "sets",
   "n": 1
  },
  {
@@ -8116,10 +8440,6 @@
   "n": 1
  },
  {
-  "w": "sunset",
-  "n": 1
- },
- {
   "w": "oath",
   "n": 1
  },
@@ -8128,7 +8448,7 @@
   "n": 1
  },
  {
-  "w": "survivors",
+  "w": "laid",
   "n": 1
  },
  {
@@ -8140,23 +8460,11 @@
   "n": 1
  },
  {
-  "w": "answered",
-  "n": 1
- },
- {
   "w": "fetch",
   "n": 1
  },
  {
-  "w": "flatter",
-  "n": 1
- },
- {
   "w": "exhausting",
-  "n": 1
- },
- {
-  "w": "survive",
   "n": 1
  },
  {
@@ -8176,35 +8484,11 @@
   "n": 1
  },
  {
-  "w": "calculate",
-  "n": 1
- },
- {
-  "w": "accurate",
-  "n": 1
- },
- {
-  "w": "lose",
-  "n": 1
- },
- {
-  "w": "records",
+  "w": "trials",
   "n": 1
  },
  {
   "w": "attention",
-  "n": 1
- },
- {
-  "w": "waste",
-  "n": 1
- },
- {
-  "w": "recruiters",
-  "n": 1
- },
- {
-  "w": "seam",
   "n": 1
  },
  {
@@ -8216,15 +8500,7 @@
   "n": 1
  },
  {
-  "w": "pub",
-  "n": 1
- },
- {
-  "w": "smooth-voiced",
-  "n": 1
- },
- {
-  "w": "weightless",
+  "w": "smooth",
   "n": 1
  },
  {
@@ -8256,11 +8532,11 @@
   "n": 1
  },
  {
-  "w": "treasonous",
+  "w": "warming",
   "n": 1
  },
  {
-  "w": "warming",
+  "w": "depends",
   "n": 1
  },
  {
@@ -8276,31 +8552,7 @@
   "n": 1
  },
  {
-  "w": "cowards",
-  "n": 1
- },
- {
   "w": "planning",
-  "n": 1
- },
- {
-  "w": "hell",
-  "n": 1
- },
- {
-  "w": "slope",
-  "n": 1
- },
- {
-  "w": "dying",
-  "n": 1
- },
- {
-  "w": "engineering",
-  "n": 1
- },
- {
-  "w": "dramatic",
   "n": 1
  },
  {
@@ -8312,19 +8564,7 @@
   "n": 1
  },
  {
-  "w": "tiny",
-  "n": 1
- },
- {
-  "w": "mercies",
-  "n": 1
- },
- {
-  "w": "extended",
-  "n": 1
- },
- {
-  "w": "oneself",
+  "w": "kindnesses",
   "n": 1
  },
  {
@@ -8332,15 +8572,7 @@
   "n": 1
  },
  {
-  "w": "hinges",
-  "n": 1
- },
- {
-  "w": "caused",
-  "n": 1
- },
- {
-  "w": "squealing",
+  "w": "shrieking",
   "n": 1
  },
  {
@@ -8348,15 +8580,23 @@
   "n": 1
  },
  {
-  "w": "numbered",
+  "w": "loneliest",
   "n": 1
  },
  {
-  "w": "twenty-five",
+  "w": "choices",
   "n": 1
  },
  {
-  "w": "personally",
+  "w": "stake",
+  "n": 1
+ },
+ {
+  "w": "numbers",
+  "n": 1
+ },
+ {
+  "w": "refuses",
   "n": 1
  },
  {
@@ -8364,23 +8604,7 @@
   "n": 1
  },
  {
-  "w": "received",
-  "n": 1
- },
- {
   "w": "generous",
-  "n": 1
- },
- {
-  "w": "utterly",
-  "n": 1
- },
- {
-  "w": "closest",
-  "n": 1
- },
- {
-  "w": "awful",
   "n": 1
  },
  {
@@ -8388,31 +8612,15 @@
   "n": 1
  },
  {
-  "w": "attacked",
-  "n": 1
- },
- {
   "w": "fold",
   "n": 1
  },
  {
-  "w": "carefully",
-  "n": 1
- },
- {
-  "w": "quarters",
-  "n": 1
- },
- {
-  "w": "smooth",
+  "w": "smoothed",
   "n": 1
  },
  {
   "w": "smoothing",
-  "n": 1
- },
- {
-  "w": "singing",
   "n": 1
  },
  {
@@ -8432,15 +8640,7 @@
   "n": 1
  },
  {
-  "w": "operations",
-  "n": 1
- },
- {
   "w": "failing",
-  "n": 1
- },
- {
-  "w": "ambushed",
   "n": 1
  },
  {
@@ -8452,19 +8652,7 @@
   "n": 1
  },
  {
-  "w": "simpler",
-  "n": 1
- },
- {
-  "w": "tracked",
-  "n": 1
- },
- {
-  "w": "candidate",
-  "n": 1
- },
- {
-  "w": "start",
+  "w": "location",
   "n": 1
  },
  {
@@ -8472,15 +8660,11 @@
   "n": 1
  },
  {
-  "w": "writing",
-  "n": 1
- },
- {
   "w": "loyal",
   "n": 1
  },
  {
-  "w": "exhausted",
+  "w": "piles",
   "n": 1
  },
  {
@@ -8488,39 +8672,15 @@
   "n": 1
  },
  {
-  "w": "sins",
-  "n": 1
- },
- {
   "w": "standards",
   "n": 1
  },
  {
-  "w": "serpent-handled",
+  "w": "snake-handled",
   "n": 1
  },
  {
   "w": "infection",
-  "n": 1
- },
- {
-  "w": "disappears",
-  "n": 1
- },
- {
-  "w": "claims",
-  "n": 1
- },
- {
-  "w": "courts",
-  "n": 1
- },
- {
-  "w": "cross-check",
-  "n": 1
- },
- {
-  "w": "sorted",
   "n": 1
  },
  {
@@ -8540,79 +8700,23 @@
   "n": 1
  },
  {
-  "w": "amounts",
+  "w": "amount",
   "n": 1
  },
  {
-  "w": "slightly",
+  "w": "harmless",
   "n": 1
  },
  {
-  "w": "questions",
+  "w": "coat",
   "n": 1
  },
  {
-  "w": "narrowed",
+  "w": "hook",
   "n": 1
  },
  {
-  "w": "rare",
-  "n": 1
- },
- {
-  "w": "fairground",
-  "n": 1
- },
- {
-  "w": "sideways",
-  "n": 1
- },
- {
-  "w": "lord",
-  "n": 1
- },
- {
-  "w": "thrice-defiant",
-  "n": 1
- },
- {
-  "w": "expecting",
-  "n": 1
- },
- {
-  "w": "syllable",
-  "n": 1
- },
- {
-  "w": "overheard",
-  "n": 1
- },
- {
-  "w": "eager",
-  "n": 1
- },
- {
-  "w": "servant",
-  "n": 1
- },
- {
-  "w": "stock",
-  "n": 1
- },
- {
-  "w": "half-blood",
-  "n": 1
- },
- {
-  "w": "murdered",
-  "n": 1
- },
- {
-  "w": "reflection",
-  "n": 1
- },
- {
-  "w": "knitted",
+  "w": "disaster",
   "n": 1
  },
  {
@@ -8624,19 +8728,75 @@
   "n": 1
  },
  {
-  "w": "gate-swinging-open",
+  "w": "swinging",
   "n": 1
  },
  {
-  "w": "brought",
+  "w": "happiest",
   "n": 1
  },
  {
-  "w": "parent",
+  "w": "broomstick",
   "n": 1
  },
  {
-  "w": "disappear",
+  "w": "vase",
+  "n": 1
+ },
+ {
+  "w": "shaped",
+  "n": 1
+ },
+ {
+  "w": "lips",
+  "n": 1
+ },
+ {
+  "w": "belong",
+  "n": 1
+ },
+ {
+  "w": "album",
+  "n": 1
+ },
+ {
+  "w": "camera",
+  "n": 1
+ },
+ {
+  "w": "rare",
+  "n": 1
+ },
+ {
+  "w": "lord",
+  "n": 1
+ },
+ {
+  "w": "expecting",
+  "n": 1
+ },
+ {
+  "w": "servant",
+  "n": 1
+ },
+ {
+  "w": "wizarding",
+  "n": 1
+ },
+ {
+  "w": "half-blood",
+  "n": 1
+ },
+ {
+  "w": "knitted",
+  "n": 1
+ },
+ {
+  "w": "book's",
+  "n": 1
+ },
+ {
+  "w": "behaved",
   "n": 1
  },
  {
@@ -8652,11 +8812,7 @@
   "n": 1
  },
  {
-  "w": "reversed",
-  "n": 1
- },
- {
-  "w": "geometry",
+  "w": "soul",
   "n": 1
  },
  {
@@ -8664,11 +8820,7 @@
   "n": 1
  },
  {
-  "w": "briefly",
-  "n": 1
- },
- {
-  "w": "footnotes",
+  "w": "explaining",
   "n": 1
  },
  {
@@ -8676,31 +8828,7 @@
   "n": 1
  },
  {
-  "w": "unless",
-  "n": 1
- },
- {
-  "w": "armies",
-  "n": 1
- },
- {
-  "w": "blind",
-  "n": 1
- },
- {
-  "w": "exists",
-  "n": 1
- },
- {
-  "w": "faithfulness",
-  "n": 1
- },
- {
-  "w": "weakness",
-  "n": 1
- },
- {
-  "w": "losing",
+  "w": "guess",
   "n": 1
  },
  {
@@ -8708,15 +8836,31 @@
   "n": 1
  },
  {
-  "w": "vessel",
+  "w": "fragile",
   "n": 1
  },
  {
-  "w": "nakedly",
+  "w": "losing",
   "n": 1
  },
  {
-  "w": "spy-season",
+  "w": "strongest",
+  "n": 1
+ },
+ {
+  "w": "madness",
+  "n": 1
+ },
+ {
+  "w": "gringotts",
+  "n": 1
+ },
+ {
+  "w": "decides",
+  "n": 1
+ },
+ {
+  "w": "beauty",
   "n": 1
  },
  {
@@ -8728,7 +8872,11 @@
   "n": 1
  },
  {
-  "w": "locking",
+  "w": "pull",
+  "n": 1
+ },
+ {
+  "w": "thanks",
   "n": 1
  },
  {
@@ -8772,19 +8920,19 @@
   "n": 1
  },
  {
-  "w": "he'll",
-  "n": 1
- },
- {
   "w": "tragedy",
   "n": 1
  },
  {
-  "w": "lot",
+  "w": "honesty",
   "n": 1
  },
  {
   "w": "fatal",
+  "n": 1
+ },
+ {
+  "w": "forward",
   "n": 1
  },
  {
@@ -8796,31 +8944,15 @@
   "n": 1
  },
  {
-  "w": "he'd",
-  "n": 1
- },
- {
-  "w": "draw",
-  "n": 1
- },
- {
-  "w": "technically",
-  "n": 1
- },
- {
-  "w": "observations",
-  "n": 1
- },
- {
   "w": "overlook",
   "n": 1
  },
  {
-  "w": "add",
+  "w": "target",
   "n": 1
  },
  {
-  "w": "layer",
+  "w": "add",
   "n": 1
  },
  {
@@ -8832,7 +8964,7 @@
   "n": 1
  },
  {
-  "w": "simplify",
+  "w": "aimed",
   "n": 1
  },
  {
@@ -8848,51 +8980,15 @@
   "n": 1
  },
  {
-  "w": "imagination",
+  "w": "relieved",
   "n": 1
  },
  {
-  "w": "stops",
-  "n": 1
- },
- {
-  "w": "obeying",
-  "n": 1
- },
- {
-  "w": "stuffed",
-  "n": 1
- },
- {
-  "w": "toy",
-  "n": 1
- },
- {
-  "w": "relief",
-  "n": 1
- },
- {
-  "w": "removes",
-  "n": 1
- },
- {
-  "w": "obstacle",
+  "w": "trusting",
   "n": 1
  },
  {
   "w": "accept",
-  "n": 1
- },
- {
-  "w": "position",
-  "n": 1
- },
- {
-  "w": "continent",
-  "n": 1
- },
- {
-  "w": "embraced",
   "n": 1
  },
  {
@@ -8901,38 +8997,6 @@
  },
  {
   "w": "favour",
-  "n": 1
- },
- {
-  "w": "skipped",
-  "n": 1
- },
- {
-  "w": "merciful",
-  "n": 1
- },
- {
-  "w": "hoping",
-  "n": 1
- },
- {
-  "w": "screamed",
-  "n": 1
- },
- {
-  "w": "compromised",
-  "n": 1
- },
- {
-  "w": "deniable",
-  "n": 1
- },
- {
-  "w": "nor",
-  "n": 1
- },
- {
-  "w": "decision",
   "n": 1
  },
  {
@@ -8948,39 +9012,27 @@
   "n": 1
  },
  {
+  "w": "hunter",
+  "n": 1
+ },
+ {
+  "w": "believes",
+  "n": 1
+ },
+ {
   "w": "timing",
   "n": 1
  },
  {
-  "w": "loose",
-  "n": 1
- },
- {
-  "w": "sealed-kitchen",
-  "n": 1
- },
- {
-  "w": "sorting",
-  "n": 1
- },
- {
-  "w": "vanishes",
-  "n": 1
- },
- {
-  "w": "triage",
-  "n": 1
- },
- {
-  "w": "forgivable",
-  "n": 1
- },
- {
-  "w": "form",
+  "w": "unspoken",
   "n": 1
  },
  {
   "w": "unforgivable",
+  "n": 1
+ },
+ {
+  "w": "conclusion",
   "n": 1
  },
  {
@@ -8992,7 +9044,27 @@
   "n": 1
  },
  {
-  "w": "filled",
+  "w": "pair",
+  "n": 1
+ },
+ {
+  "w": "mirrors",
+  "n": 1
+ },
+ {
+  "w": "detentions",
+  "n": 1
+ },
+ {
+  "w": "talent",
+  "n": 1
+ },
+ {
+  "w": "polite",
+  "n": 1
+ },
+ {
+  "w": "hung",
   "n": 1
  },
  {
@@ -9000,7 +9072,15 @@
   "n": 1
  },
  {
+  "w": "terror",
+  "n": 1
+ },
+ {
   "w": "memorial",
+  "n": 1
+ },
+ {
+  "w": "ninth",
   "n": 1
  },
  {
@@ -9008,11 +9088,7 @@
   "n": 1
  },
  {
-  "w": "camp",
-  "n": 1
- },
- {
-  "w": "badly",
+  "w": "eating",
   "n": 1
  },
  {
@@ -9020,7 +9096,11 @@
   "n": 1
  },
  {
-  "w": "tried",
+  "w": "arrange",
+  "n": 1
+ },
+ {
+  "w": "visit",
   "n": 1
  },
  {
@@ -9032,15 +9112,11 @@
   "n": 1
  },
  {
-  "w": "via",
-  "n": 1
- },
- {
-  "w": "arrangement",
-  "n": 1
- },
- {
   "w": "friday",
+  "n": 1
+ },
+ {
+  "w": "saturday",
   "n": 1
  },
  {
@@ -9048,27 +9124,15 @@
   "n": 1
  },
  {
-  "w": "life's",
-  "n": 1
- },
- {
-  "w": "regret",
-  "n": 1
- },
- {
   "w": "stamps",
   "n": 1
  },
  {
-  "w": "channels",
+  "w": "arrangements",
   "n": 1
  },
  {
   "w": "sliding",
-  "n": 1
- },
- {
-  "w": "rescheduled",
   "n": 1
  },
  {
@@ -9080,51 +9144,7 @@
   "n": 1
  },
  {
-  "w": "tight",
-  "n": 1
- },
- {
-  "w": "construct",
-  "n": 1
- },
- {
-  "w": "guilt",
-  "n": 1
- },
- {
-  "w": "innocences",
-  "n": 1
- },
- {
-  "w": "cruelest",
-  "n": 1
- },
- {
-  "w": "weapon",
-  "n": 1
- },
- {
-  "w": "inference",
-  "n": 1
- },
- {
-  "w": "attend",
-  "n": 1
- },
- {
-  "w": "geography",
-  "n": 1
- },
- {
-  "w": "absolute",
-  "n": 1
- },
- {
-  "w": "conditional",
-  "n": 1
- },
- {
-  "w": "chafed",
+  "w": "depended",
   "n": 1
  },
  {
@@ -9136,19 +9156,15 @@
   "n": 1
  },
  {
+  "w": "twenty-eighth",
+  "n": 1
+ },
+ {
   "w": "we'll",
   "n": 1
  },
  {
-  "w": "fix",
-  "n": 1
- },
- {
-  "w": "date",
-  "n": 1
- },
- {
-  "w": "scrap",
+  "w": "proper",
   "n": 1
  },
  {
@@ -9164,26 +9180,6 @@
   "n": 1
  },
  {
-  "w": "required",
-  "n": 1
- },
- {
-  "w": "arm's",
-  "n": 1
- },
- {
-  "w": "length",
-  "n": 1
- },
- {
-  "w": "war's",
-  "n": 1
- },
- {
-  "w": "role",
-  "n": 1
- },
- {
   "w": "mile",
   "n": 1
  },
@@ -9192,23 +9188,11 @@
   "n": 1
  },
  {
-  "w": "execution",
+  "w": "refuse",
   "n": 1
  },
  {
-  "w": "throne",
-  "n": 1
- },
- {
-  "w": "record",
-  "n": 1
- },
- {
-  "w": "visit",
-  "n": 1
- },
- {
-  "w": "scheduled",
+  "w": "continued",
   "n": 1
  },
  {
@@ -9216,15 +9200,11 @@
   "n": 1
  },
  {
-  "w": "grievance",
+  "w": "unfair",
   "n": 1
  },
  {
-  "w": "coherent",
-  "n": 1
- },
- {
-  "w": "others",
+  "w": "thirtieth",
   "n": 1
  },
  {
@@ -9232,43 +9212,7 @@
   "n": 1
  },
  {
-  "w": "half-angrily",
-  "n": 1
- },
- {
-  "w": "st",
-  "n": 1
- },
- {
-  "w": "neighbour",
-  "n": 1
- },
- {
-  "w": "ruin's",
-  "n": 1
- },
- {
-  "w": "stamp",
-  "n": 1
- },
- {
-  "w": "lets",
-  "n": 1
- },
- {
-  "w": "rescheduling",
-  "n": 1
- },
- {
-  "w": "description",
-  "n": 1
- },
- {
-  "w": "foot",
-  "n": 1
- },
- {
-  "w": "taste",
+  "w": "angrily",
   "n": 1
  },
  {
@@ -9276,11 +9220,19 @@
   "n": 1
  },
  {
-  "w": "curtain",
+  "w": "enter",
   "n": 1
  },
  {
-  "w": "aftermath",
+  "w": "eye",
+  "n": 1
+ },
+ {
+  "w": "pumpkin",
+  "n": 1
+ },
+ {
+  "w": "follows",
   "n": 1
  },
  {
@@ -9288,39 +9240,19 @@
   "n": 1
  },
  {
-  "w": "force",
-  "n": 1
- },
- {
-  "w": "highest",
-  "n": 1
- },
- {
-  "w": "sofa",
-  "n": 1
- },
- {
-  "w": "rush",
-  "n": 1
- },
- {
   "w": "prayers",
   "n": 1
  },
  {
-  "w": "earlier",
+  "w": "one-year-old",
+  "n": 1
+ },
+ {
+  "w": "exists",
   "n": 1
  },
  {
   "w": "duellist",
-  "n": 1
- },
- {
-  "w": "stays",
-  "n": 1
- },
- {
-  "w": "wife",
   "n": 1
  },
  {
@@ -9332,27 +9264,11 @@
   "n": 1
  },
  {
+  "w": "testimony",
+  "n": 1
+ },
+ {
   "w": "specific",
-  "n": 1
- },
- {
-  "w": "misread",
-  "n": 1
- },
- {
-  "w": "redrew",
-  "n": 1
- },
- {
-  "w": "matters",
-  "n": 1
- },
- {
-  "w": "refusal",
-  "n": 1
- },
- {
-  "w": "vertical",
   "n": 1
  },
  {
@@ -9360,15 +9276,11 @@
   "n": 1
  },
  {
-  "w": "spoke",
+  "w": "annoyed",
   "n": 1
  },
  {
-  "w": "struck",
-  "n": 1
- },
- {
-  "w": "rebounded",
+  "w": "killing",
   "n": 1
  },
  {
@@ -9384,6 +9296,10 @@
   "n": 1
  },
  {
+  "w": "fallen",
+  "n": 1
+ },
+ {
   "w": "lightning",
   "n": 1
  },
@@ -9392,11 +9308,11 @@
   "n": 1
  },
  {
-  "w": "darkest",
+  "w": "begin",
   "n": 1
  },
  {
-  "w": "age",
+  "w": "darkest",
   "n": 1
  },
  {
@@ -9404,27 +9320,7 @@
   "n": 1
  },
  {
-  "w": "safest",
-  "n": 1
- },
- {
   "w": "tin",
-  "n": 1
- },
- {
-  "w": "brightest",
-  "n": 1
- },
- {
-  "w": "floors",
-  "n": 1
- },
- {
-  "w": "wandless",
-  "n": 1
- },
- {
-  "w": "purchased",
   "n": 1
  },
  {
@@ -9440,10 +9336,6 @@
   "n": 1
  },
  {
-  "w": "grant",
-  "n": 1
- },
- {
   "w": "survivor's",
   "n": 1
  },
@@ -9452,7 +9344,7 @@
   "n": 1
  },
  {
-  "w": "vault",
+  "w": "guard",
   "n": 1
  },
  {
@@ -9476,11 +9368,11 @@
   "n": 1
  },
  {
-  "w": "bear",
+  "w": "needles",
   "n": 1
  },
  {
-  "w": "needling",
+  "w": "paragraph",
   "n": 1
  },
  {
@@ -9492,6 +9384,10 @@
   "n": 1
  },
  {
+  "w": "kneeling",
+  "n": 1
+ },
+ {
   "w": "unbroken",
   "n": 1
  },
@@ -9500,7 +9396,7 @@
   "n": 1
  },
  {
-  "w": "war-orphan",
+  "w": "orphan",
   "n": 1
  },
  {
@@ -9509,6 +9405,10 @@
  },
  {
   "w": "wages",
+  "n": 1
+ },
+ {
+  "w": "protections",
   "n": 1
  },
  {
@@ -9528,15 +9428,7 @@
   "n": 1
  },
  {
-  "w": "firm",
-  "n": 1
- },
- {
   "w": "hagrid's",
-  "n": 1
- },
- {
-  "w": "mistook",
   "n": 1
  },
  {
@@ -9548,15 +9440,7 @@
   "n": 1
  },
  {
-  "w": "possession",
-  "n": 1
- },
- {
   "w": "giant's",
-  "n": 1
- },
- {
-  "w": "sums",
   "n": 1
  },
  {
@@ -9564,11 +9448,15 @@
   "n": 1
  },
  {
-  "w": "dying-for",
+  "w": "belonged",
   "n": 1
  },
  {
-  "w": "belonged",
+  "w": "rose",
+  "n": 1
+ },
+ {
+  "w": "south",
   "n": 1
  },
  {
@@ -9580,6 +9468,22 @@
   "n": 1
  },
  {
+  "w": "godson",
+  "n": 1
+ },
+ {
+  "w": "weapon",
+  "n": 1
+ },
+ {
+  "w": "deciding",
+  "n": 1
+ },
+ {
+  "w": "clearly",
+  "n": 1
+ },
+ {
   "w": "rat-catcher",
   "n": 1
  },
@@ -9588,11 +9492,11 @@
   "n": 1
  },
  {
-  "w": "boltholes",
+  "w": "serves",
   "n": 1
  },
  {
-  "w": "serves",
+  "w": "revenge",
   "n": 1
  },
  {
@@ -9620,11 +9524,11 @@
   "n": 1
  },
  {
-  "w": "drinking",
+  "w": "having",
   "n": 1
  },
  {
-  "w": "erupting",
+  "w": "joy",
   "n": 1
  },
  {
@@ -9636,23 +9540,7 @@
   "n": 1
  },
  {
-  "w": "toasting",
-  "n": 1
- },
- {
-  "w": "streets",
-  "n": 1
- },
- {
   "w": "shooting",
-  "n": 1
- },
- {
-  "w": "stars",
-  "n": 1
- },
- {
-  "w": "kent",
   "n": 1
  },
  {
@@ -9668,7 +9556,7 @@
   "n": 1
  },
  {
-  "w": "difference",
+  "w": "choose",
   "n": 1
  },
  {
@@ -9684,23 +9572,7 @@
   "n": 1
  },
  {
-  "w": "cracking",
-  "n": 1
- },
- {
-  "w": "pitched",
-  "n": 1
- },
- {
-  "w": "remembered",
-  "n": 1
- },
- {
   "w": "placed",
-  "n": 1
- },
- {
-  "w": "statement",
   "n": 1
  },
  {
@@ -9712,11 +9584,7 @@
   "n": 1
  },
  {
-  "w": "main",
-  "n": 1
- },
- {
-  "w": "beneath",
+  "w": "pipe",
   "n": 1
  },
  {
@@ -9724,19 +9592,11 @@
   "n": 1
  },
  {
-  "w": "insofar",
+  "w": "allowed",
   "n": 1
  },
  {
-  "w": "conclude",
-  "n": 1
- },
- {
-  "w": "muggles",
-  "n": 1
- },
- {
-  "w": "shop-men",
+  "w": "shopkeepers",
   "n": 1
  },
  {
@@ -9752,7 +9612,11 @@
   "n": 1
  },
  {
-  "w": "framing",
+  "w": "blame",
+  "n": 1
+ },
+ {
+  "w": "wreckage",
   "n": 1
  },
  {
@@ -9760,11 +9624,11 @@
   "n": 1
  },
  {
-  "w": "consider",
+  "w": "craft",
   "n": 1
  },
  {
-  "w": "craft",
+  "w": "instant",
   "n": 1
  },
  {
@@ -9772,19 +9636,7 @@
   "n": 1
  },
  {
-  "w": "decimal",
-  "n": 1
- },
- {
   "w": "accusation",
-  "n": 1
- },
- {
-  "w": "pre-stolen",
-  "n": 1
- },
- {
-  "w": "fled",
   "n": 1
  },
  {
@@ -9792,39 +9644,11 @@
   "n": 1
  },
  {
-  "w": "fortress",
-  "n": 1
- },
- {
-  "w": "awarded",
-  "n": 1
- },
- {
   "w": "merlin",
   "n": 1
  },
  {
-  "w": "box",
-  "n": 1
- },
- {
-  "w": "crater's",
-  "n": 1
- },
- {
-  "w": "testified",
-  "n": 1
- },
- {
-  "w": "retelling",
-  "n": 1
- },
- {
-  "w": "heir",
-  "n": 1
- },
- {
-  "w": "mass-murderer",
+  "w": "killer",
   "n": 1
  },
  {
@@ -9836,15 +9660,7 @@
   "n": 1
  },
  {
-  "w": "owned",
-  "n": 1
- },
- {
-  "w": "riveted",
-  "n": 1
- },
- {
-  "w": "wall-mounted",
+  "w": "nailed",
   "n": 1
  },
  {
@@ -9852,31 +9668,11 @@
   "n": 1
  },
  {
-  "w": "plank",
+  "w": "decoration",
   "n": 1
  },
  {
-  "w": "framed",
-  "n": 1
- },
- {
-  "w": "murders",
-  "n": 1
- },
- {
-  "w": "flourish",
-  "n": 1
- },
- {
-  "w": "loyalty",
-  "n": 1
- },
- {
-  "w": "timber",
-  "n": 1
- },
- {
-  "w": "centre",
+  "w": "wood",
   "n": 1
  },
  {
@@ -9884,39 +9680,15 @@
   "n": 1
  },
  {
-  "w": "crater",
+  "w": "wear",
   "n": 1
  },
  {
-  "w": "printed",
+  "w": "print",
   "n": 1
  },
  {
-  "w": "cackle",
-  "n": 1
- },
- {
-  "w": "fiend",
-  "n": 1
- },
- {
-  "w": "shipped",
-  "n": 1
- },
- {
-  "w": "sea-fortress",
-  "n": 1
- },
- {
-  "w": "soul-eating",
-  "n": 1
- },
- {
-  "w": "barty",
-  "n": 1
- },
- {
-  "w": "crouch's",
+  "w": "prisoner",
   "n": 1
  },
  {
@@ -9932,15 +9704,7 @@
   "n": 1
  },
  {
-  "w": "twenty-two-year-old",
-  "n": 1
- },
- {
   "w": "knelt",
-  "n": 1
- },
- {
-  "w": "toasted",
   "n": 1
  },
  {
@@ -9948,19 +9712,7 @@
   "n": 1
  },
  {
-  "w": "martyr",
-  "n": 1
- },
- {
   "w": "rang",
-  "n": 1
- },
- {
-  "w": "avoided",
-  "n": 1
- },
- {
-  "w": "figure",
   "n": 1
  },
  {
@@ -9968,11 +9720,7 @@
   "n": 1
  },
  {
-  "w": "secondhand",
-  "n": 1
- },
- {
-  "w": "shaking",
+  "w": "second-hand",
   "n": 1
  },
  {
@@ -9988,11 +9736,19 @@
   "n": 1
  },
  {
+  "w": "following",
+  "n": 1
+ },
+ {
   "w": "population",
   "n": 1
  },
  {
-  "w": "admitting",
+  "w": "shame",
+  "n": 1
+ },
+ {
+  "w": "half-second",
   "n": 1
  },
  {
@@ -10008,19 +9764,11 @@
   "n": 1
  },
  {
-  "w": "precision",
+  "w": "forth",
   "n": 1
  },
  {
-  "w": "demands",
-  "n": 1
- },
- {
-  "w": "choosing",
-  "n": 1
- },
- {
-  "w": "hung",
+  "w": "mourning",
   "n": 1
  },
  {
@@ -10044,19 +9792,11 @@
   "n": 1
  },
  {
-  "w": "heroically",
+  "w": "facing",
   "n": 1
  },
  {
-  "w": "confronting",
-  "n": 1
- },
- {
-  "w": "transformed",
-  "n": 1
- },
- {
-  "w": "retroactively",
+  "w": "youth",
   "n": 1
  },
  {
@@ -10064,27 +9804,15 @@
   "n": 1
  },
  {
-  "w": "surfaced",
-  "n": 1
- },
- {
   "w": "arrival",
   "n": 1
  },
  {
-  "w": "sea-cage",
-  "n": 1
- },
- {
-  "w": "keeping",
+  "w": "executed",
   "n": 1
  },
  {
   "w": "sane",
-  "n": 1
- },
- {
-  "w": "afterward",
   "n": 1
  },
  {
@@ -10096,23 +9824,15 @@
   "n": 1
  },
  {
-  "w": "masterpiece",
-  "n": 1
- },
- {
-  "w": "matching",
-  "n": 1
- },
- {
-  "w": "pair",
-  "n": 1
- },
- {
-  "w": "vouched",
-  "n": 1
- },
- {
   "w": "classroom",
+  "n": 1
+ },
+ {
+  "w": "private",
+  "n": 1
+ },
+ {
+  "w": "term",
   "n": 1
  },
  {
@@ -10120,11 +9840,19 @@
   "n": 1
  },
  {
+  "w": "bookshop",
+  "n": 1
+ },
+ {
+  "w": "sack",
+  "n": 1
+ },
+ {
   "w": "rented",
   "n": 1
  },
  {
-  "w": "tops",
+  "w": "cheap",
   "n": 1
  },
  {
@@ -10136,7 +9864,11 @@
   "n": 1
  },
  {
-  "w": "twenty-two",
+  "w": "landlord",
+  "n": 1
+ },
+ {
+  "w": "nervous",
   "n": 1
  },
  {
@@ -10152,15 +9884,11 @@
   "n": 1
  },
  {
-  "w": "blood-wards",
+  "w": "arguing",
   "n": 1
  },
  {
-  "w": "cupboard",
-  "n": 1
- },
- {
-  "w": "inspected",
+  "w": "column",
   "n": 1
  },
  {
@@ -10176,11 +9904,11 @@
   "n": 1
  },
  {
-  "w": "knock",
+  "w": "entirely",
   "n": 1
  },
  {
-  "w": "subject",
+  "w": "suspect",
   "n": 1
  },
  {
@@ -10196,30 +9924,6 @@
   "n": 1
  },
  {
-  "w": "touches",
-  "n": 1
- },
- {
-  "w": "brief",
-  "n": 1
- },
- {
-  "w": "tellings",
-  "n": 1
- },
- {
-  "w": "feed",
-  "n": 1
- },
- {
-  "w": "prisoner",
-  "n": 1
- },
- {
-  "w": "loop",
-  "n": 1
- },
- {
   "w": "sustaining",
   "n": 1
  },
@@ -10228,19 +9932,15 @@
   "n": 1
  },
  {
-  "w": "youngest",
-  "n": 1
- },
- {
   "w": "compass",
   "n": 1
  },
  {
-  "w": "slipped",
+  "w": "bars",
   "n": 1
  },
  {
-  "w": "bars",
+  "w": "starved",
   "n": 1
  },
  {
@@ -10252,7 +9952,11 @@
   "n": 1
  },
  {
-  "w": "chess",
+  "w": "arts",
+  "n": 1
+ },
+ {
+  "w": "chessboard",
   "n": 1
  },
  {
@@ -10276,31 +9980,19 @@
   "n": 1
  },
  {
-  "w": "punished",
-  "n": 1
- },
- {
-  "w": "conversation",
-  "n": 1
- },
- {
   "w": "gaze",
   "n": 1
  },
  {
-  "w": "practice",
+  "w": "correct",
   "n": 1
  },
  {
-  "w": "guardian-charm",
+  "w": "guardian",
   "n": 1
  },
  {
   "w": "soul-eaters",
-  "n": 1
- },
- {
-  "w": "able",
   "n": 1
  },
  {
@@ -10312,19 +10004,35 @@
   "n": 1
  },
  {
-  "w": "transformations",
+  "w": "packing",
   "n": 1
  },
  {
-  "w": "temperature",
+  "w": "destroy",
   "n": 1
  },
  {
-  "w": "reaches",
+  "w": "habit",
   "n": 1
  },
  {
-  "w": "liar",
+  "w": "weasley",
+  "n": 1
+ },
+ {
+  "w": "hermione",
+  "n": 1
+ },
+ {
+  "w": "granger",
+  "n": 1
+ },
+ {
+  "w": "neat",
+  "n": 1
+ },
+ {
+  "w": "sixteen-year-old",
   "n": 1
  },
  {
@@ -10336,15 +10044,11 @@
   "n": 1
  },
  {
-  "w": "dragged",
-  "n": 1
- },
- {
-  "w": "terrified",
-  "n": 1
- },
- {
   "w": "pet",
+  "n": 1
+ },
+ {
+  "w": "dragged",
   "n": 1
  },
  {
@@ -10352,23 +10056,27 @@
   "n": 1
  },
  {
-  "w": "fat",
-  "n": 1
- },
- {
   "w": "pleading",
   "n": 1
  },
  {
-  "w": "wandpoint",
+  "w": "dare",
   "n": 1
  },
  {
-  "w": "architecture",
+  "w": "reaching",
   "n": 1
  },
  {
-  "w": "prepared",
+  "w": "available",
+  "n": 1
+ },
+ {
+  "w": "forgiveness",
+  "n": 1
+ },
+ {
+  "w": "shelter",
   "n": 1
  },
  {
@@ -10384,6 +10092,10 @@
   "n": 1
  },
  {
+  "w": "pity",
+  "n": 1
+ },
+ {
   "w": "reckon",
   "n": 1
  },
@@ -10396,35 +10108,47 @@
   "n": 1
  },
  {
-  "w": "commanded",
-  "n": 1
- },
- {
   "w": "mattered",
   "n": 1
  },
  {
-  "w": "chaos",
+  "w": "thirteen-year-old",
   "n": 1
  },
  {
-  "w": "rebuild",
+  "w": "pettigrew's",
   "n": 1
  },
  {
-  "w": "harms",
+  "w": "procession",
   "n": 1
  },
  {
-  "w": "book's",
+  "w": "tied",
   "n": 1
  },
  {
-  "w": "won",
+  "w": "tomorrow",
+  "n": 1
+ },
+ {
+  "w": "potion",
+  "n": 1
+ },
+ {
+  "w": "harm",
   "n": 1
  },
  {
   "w": "resigned",
+  "n": 1
+ },
+ {
+  "w": "post",
+  "n": 1
+ },
+ {
+  "w": "breakfast",
   "n": 1
  },
  {
@@ -10444,11 +10168,11 @@
   "n": 1
  },
  {
-  "w": "dismissed",
+  "w": "executing",
   "n": 1
  },
  {
-  "w": "shining",
+  "w": "thrown",
   "n": 1
  },
  {
@@ -10456,35 +10180,11 @@
   "n": 1
  },
  {
-  "w": "early",
-  "n": 1
- },
- {
   "w": "experience",
   "n": 1
  },
  {
-  "w": "fails",
-  "n": 1
- },
- {
-  "w": "arrive",
-  "n": 1
- },
- {
-  "w": "promise",
-  "n": 1
- },
- {
-  "w": "checked",
-  "n": 1
- },
- {
   "w": "knot",
-  "n": 1
- },
- {
-  "w": "seemed",
   "n": 1
  },
  {
@@ -10500,14 +10200,6 @@
   "n": 1
  },
  {
-  "w": "practised",
-  "n": 1
- },
- {
-  "w": "therefore",
-  "n": 1
- },
- {
   "w": "advice",
   "n": 1
  },
@@ -10516,15 +10208,11 @@
   "n": 1
  },
  {
-  "w": "fair",
-  "n": 1
- },
- {
-  "w": "ways",
-  "n": 1
- },
- {
   "w": "opening",
+  "n": 1
+ },
+ {
+  "w": "gives",
   "n": 1
  },
  {
@@ -10532,15 +10220,7 @@
   "n": 1
  },
  {
-  "w": "shouting",
-  "n": 1
- },
- {
-  "w": "criminal",
-  "n": 1
- },
- {
-  "w": "proportion",
+  "w": "crime",
   "n": 1
  },
  {
@@ -10548,11 +10228,7 @@
   "n": 1
  },
  {
-  "w": "resting",
-  "n": 1
- },
- {
-  "w": "insufficiencies",
+  "w": "weaknesses",
   "n": 1
  },
  {
@@ -10564,131 +10240,7 @@
   "n": 1
  },
  {
-  "w": "evenings",
-  "n": 1
- },
- {
-  "w": "toppled",
-  "n": 1
- },
- {
-  "w": "vigilant",
-  "n": 1
- },
- {
-  "w": "moody-vigilant",
-  "n": 1
- },
- {
-  "w": "constant-vigilant",
-  "n": 1
- },
- {
-  "w": "wound",
-  "n": 1
- },
- {
-  "w": "bloodlines",
-  "n": 1
- },
- {
-  "w": "protect",
-  "n": 1
- },
- {
-  "w": "mechanism",
-  "n": 1
- },
- {
-  "w": "disaster",
-  "n": 1
- },
- {
-  "w": "manufactures",
-  "n": 1
- },
- {
-  "w": "dissolves",
-  "n": 1
- },
- {
-  "w": "connective",
-  "n": 1
- },
- {
-  "w": "tissue",
-  "n": 1
- },
- {
-  "w": "aloud",
-  "n": 1
- },
- {
-  "w": "unsayable",
-  "n": 1
- },
- {
-  "w": "jams",
-  "n": 1
- },
- {
-  "w": "survives",
-  "n": 1
- },
- {
-  "w": "suspect",
-  "n": 1
- },
- {
-  "w": "everyone-but-him",
-  "n": 1
- },
- {
-  "w": "rat's",
-  "n": 1
- },
- {
-  "w": "species",
-  "n": 1
- },
- {
-  "w": "unasked",
-  "n": 1
- },
- {
-  "w": "spring",
-  "n": 1
- },
- {
-  "w": "pages",
-  "n": 1
- },
- {
-  "w": "confiscated",
-  "n": 1
- },
- {
-  "w": "returned",
-  "n": 1
- },
- {
-  "w": "circulation",
-  "n": 1
- },
- {
-  "w": "objects",
-  "n": 1
- },
- {
   "w": "solemnly",
-  "n": 1
- },
- {
-  "w": "bloom",
-  "n": 1
- },
- {
-  "w": "handwriting",
   "n": 1
  },
  {
@@ -10700,7 +10252,7 @@
   "n": 1
  },
  {
-  "w": "error",
+  "w": "century",
   "n": 1
  },
  {
@@ -10712,15 +10264,7 @@
   "n": 1
  },
  {
-  "w": "finds",
-  "n": 1
- },
- {
   "w": "spread",
-  "n": 1
- },
- {
-  "w": "footprints",
   "n": 1
  },
  {
@@ -10729,10 +10273,6 @@
  },
  {
   "w": "explanation",
-  "n": 1
- },
- {
-  "w": "renounce",
   "n": 1
  },
  {
@@ -10749,10 +10289,6 @@
  },
  {
   "w": "gently",
-  "n": 1
- },
- {
-  "w": "whoever",
   "n": 1
  }
 ]
