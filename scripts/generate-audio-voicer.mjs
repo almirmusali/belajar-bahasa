@@ -13,6 +13,7 @@
 // Флаги:
 //   --lang=id,ru,en   какие языки озвучивать (по умолчанию все настроенные)
 //   --chapters=1-5    только эти главы книги (только вместе с --reading)
+//   --lanes=N         сколько задач параллельно (1 — для холодного голоса)
 //   --voice=<id>      переопределить голос (только вместе с одним --lang)
 //   --force           перезаписать уже озвученное (нужно при смене голоса)
 //   --examples        озвучить ещё и фразы-примеры
@@ -420,13 +421,49 @@ async function createTask(texts, voiceId, lang) {
   return res.json();
 }
 
+// Опрос статуса задачи. Терминальные статусы приходят не всегда: Voicer умеет
+// зависнуть в "processing" навсегда — квота при этом уже списана, а скрипт без
+// таймаута ждёт вечно и не пишет ни одного файла. Поэтому два предохранителя:
+// STALL_MS без единого сдвига прогресса и TASK_MS на задачу целиком. По любому
+// из них задача считается провалившейся, id пишется в лог — по нему архив можно
+// докачать вручную командой `download <taskId>`, не тратя символы заново.
+const STALL_MS = 5 * 60_000;
+const TASK_MS = 20 * 60_000;
+
 async function waitTask(taskId, onProgress) {
+  const started = Date.now();
+  let lastMove = Date.now();
+  let lastProgress = -1;
   for (;;) {
     const st = await api(`/api/v1/voice/status/${taskId}`).then((r) => r.json());
     onProgress?.(st);
     if (["completed", "failed", "censored"].includes(st.status)) return st;
+    const p = Math.round(st.progress ?? 0);
+    if (p !== lastProgress) {
+      lastProgress = p;
+      lastMove = Date.now();
+    }
+    if (Date.now() - lastMove > STALL_MS) {
+      throw new Error(`задача ${taskId} стоит на ${p}% дольше ${STALL_MS / 60_000} мин`);
+    }
+    if (Date.now() - started > TASK_MS) {
+      throw new Error(`задача ${taskId} не закончилась за ${TASK_MS / 60_000} мин`);
+    }
     await sleep(5000);
   }
+}
+
+// Журнал созданных задач: task_id и тексты батча по порядку чанков. Нужен
+// ровно для одного случая — задача повисла или скрипт убили, а символы уже
+// списаны: по журналу `download <taskId>` разложит архив по тем же именам.
+const TASK_LOG = path.join(ROOT, "data", "audio-tasks.jsonl");
+function logTask(taskId, lang, batch) {
+  try {
+    fs.appendFileSync(
+      TASK_LOG,
+      JSON.stringify({ taskId, lang, texts: batch.map((i) => i.text) }) + "\n",
+    );
+  } catch {}
 }
 
 // ZIP распаковываем системным unzip: тянуть зависимость ради одного архива
@@ -447,7 +484,14 @@ async function downloadChunks(taskId) {
   };
 }
 
+// Сколько задач держать в работе одновременно. По умолчанию столько, сколько
+// разрешает тариф. Флаг --lanes=1 нужен для холодного голоса: клон ElevenLabs
+// прогревается первым запросом, и батчи, ушедшие параллельно с ним, зависают
+// на 0% навсегда — символы при этом уже списаны. Первый прогон новым голосом
+// делать в одну полосу, дальше можно параллелить.
 async function parallelLanes() {
+  const forced = Number(flag("lanes", "0"));
+  if (forced > 0) return forced;
   try {
     const s = await stats();
     return Math.max(1, s.tariff?.max_parallel_tasks ?? 5);
@@ -563,7 +607,7 @@ async function cmdGenerate() {
     try {
       const s = await stats();
       console.log(
-        `Квота: ${s.remaining_characters.toLocaleString("ru")} из ${s.total_characters.toLocaleString("ru")}, тариф ${s.tariff_code}, до ${s.subscription_expires_at?.slice(0, 10)}`,
+        `Квота: осталось ${s.remaining_characters.toLocaleString("ru")} символов (истрачено ${s.used_characters.toLocaleString("ru")} из ${s.total_characters.toLocaleString("ru")}), тариф ${s.tariff_code}, до ${s.subscription_expires_at?.slice(0, 10)}`,
       );
       if (chars > s.remaining_characters) {
         console.error("\nНе хватает квоты — прерываю.");
@@ -625,6 +669,8 @@ async function cmdGenerate() {
           await sleep(30_000);
         }
       }
+
+      logTask(task.task_id, lang, batch);
 
       // Расхождение числа чанков и числа фраз ломает привязку «индекс → фраза».
       // Лучше пропустить батч, чем разложить озвучку по чужим именам.
@@ -695,7 +741,52 @@ async function cmdGenerate() {
   if (failed) console.log("Перезапусти скрипт — недостающее доберётся.");
 }
 
-const commands = { voices: cmdVoices, sample: cmdSample, generate: cmdGenerate };
+// node scripts/generate-audio-voicer.mjs download <taskId>
+// Докачивает уже оплаченную задачу и раскладывает чанки по именам из журнала.
+async function cmdDownload() {
+  requireKey();
+  const taskId = argv.find((a) => !a.startsWith("-") && a !== "download");
+  if (!taskId) {
+    console.error("Нужен id задачи: download <taskId>");
+    process.exit(1);
+  }
+  if (!fs.existsSync(TASK_LOG)) {
+    console.error(`Нет журнала ${path.relative(ROOT, TASK_LOG)}`);
+    process.exit(1);
+  }
+  const row = fs
+    .readFileSync(TASK_LOG, "utf8")
+    .split("\n")
+    .filter(Boolean)
+    .map((l) => JSON.parse(l))
+    .find((r) => r.taskId === taskId);
+  if (!row) {
+    console.error(`Задачи ${taskId} нет в журнале`);
+    process.exit(1);
+  }
+  const st = await api(`/api/v1/voice/status/${taskId}`).then((r) => r.json());
+  console.log(`Статус: ${st.status}, чанков ${st.chunks_completed}/${row.texts.length}`);
+  if (st.status !== "completed") {
+    console.error("Задача не готова — качать нечего.");
+    process.exit(1);
+  }
+  const { dir, files } = await downloadChunks(taskId);
+  if (files.length !== row.texts.length) {
+    console.error(`В архиве ${files.length} файлов, а фраз ${row.texts.length} — не раскладываю.`);
+    fs.rmSync(dir, { recursive: true, force: true });
+    process.exit(1);
+  }
+  files.forEach((f, i) => {
+    const dest = fileFor(row.texts[i], row.lang);
+    fs.mkdirSync(path.dirname(dest), { recursive: true });
+    fs.rmSync(dest, { force: true });
+    fs.renameSync(path.join(dir, f), dest);
+  });
+  fs.rmSync(dir, { recursive: true, force: true });
+  console.log(`Разложено ${files.length} файлов.`);
+}
+
+const commands = { voices: cmdVoices, sample: cmdSample, generate: cmdGenerate, download: cmdDownload };
 const run = commands[command];
 if (!run) {
   console.error(`Неизвестная команда: ${command}`);
