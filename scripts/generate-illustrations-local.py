@@ -28,6 +28,17 @@ MODEL_DIR = Path.home() / "models" / ("mflux-" + MODEL_NAME + "-8bit")
 STEPS = int(os.environ.get("MFLUX_STEPS", "4" if MODEL_NAME == "schnell" else "8"))
 QUANT = 8          # 8 бит: влезает в 32 ГБ без свопа
 
+# У каждого семейства моделей свой генератор: mflux-generate умеет только FLUX
+# и на Z-Image падает, требуя text_encoder_2, которого у той просто нет.
+GENERATOR = {
+    "schnell": "mflux-generate",
+    "dev": "mflux-generate",
+    "krea-dev": "mflux-generate",
+    "z-image-turbo": "mflux-generate-z-image-turbo",
+    "z-image": "mflux-generate-z-image",
+    "qwen-image": "mflux-generate-qwen",
+}.get(MODEL_NAME, "mflux-generate")
+
 
 def dims(aspect):
     """Длинная сторона 1024, короткая по пропорции, кратно 16 (требование VAE)."""
@@ -59,11 +70,16 @@ def generate(scene, out):
     w, h = dims(scene.get("aspect", "3:2"))
     seed = scene.get("seed", 1000 + scene["id"])
     out.parent.mkdir(parents=True, exist_ok=True)
+    # mflux не перезаписывает: при совпадении имени он молча пишет рядом
+    # <имя>_1.png. Поэтому цель убираем сами, иначе --redo не заменяет картинку,
+    # а плодит копии, и в читалке остаётся старая.
+    if out.exists():
+        out.unlink()
     with tempfile.NamedTemporaryFile("w", suffix=".txt", delete=False) as f:
         f.write(scene["prompt"])
         prompt_file = f.name
     cmd = [
-        str(BIN / "mflux-generate"),
+        str(BIN / GENERATOR),
         "--model", str(MODEL_DIR), "--base-model", MODEL_NAME,
         "--prompt-file", prompt_file,
         "--steps", str(STEPS), "--seed", str(seed),

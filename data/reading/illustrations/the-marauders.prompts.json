@@ -1,154 +1,395 @@
 [
-  {
-    "id": 0,
-    "file": "cover",
-    "cover": true,
-    "aspect": "3:4",
-    "prompt": "Book cover illustration, no text or lettering anywhere. Four teenage boys in dark school robes seen from behind, small against an enormous castle of a hundred towers standing on a mountain above a black lake, a huge full moon low behind the towers. Muted watercolor and ink in the tradition of classic British storybooks: loose expressive linework, soft translucent washes, visible paper texture. Warm amber lights in a thousand castle windows against deep blue-grey night. Nostalgic and melancholic, a memory recalled decades later. Cinematic composition, strong single light source. No text, no captions, no borders, no watermark."
-  },
-  {
-    "id": 2,
-    "file": "ch-2",
-    "prompt": "Muted watercolor and ink book illustration in the tradition of classic British storybooks; loose expressive linework, soft translucent washes, visible paper texture; cinematic composition, strong single light source; nostalgic and melancholic. Late summer 1971, warm palette of amber and deep blue-grey. A small, pale eleven-year-old boy with light-brown hair stands alone in a dim front room of a modest house, holding an opened letter that catches the only shaft of daylight. His father's shadow falls across the doorway behind him. His face is guarded hope: a child who believed his life was over and has just learned there is a train. No text, no captions, no borders, no watermark."
-  },
-  {
-    "id": 3,
-    "file": "ch-3",
-    "prompt": "Muted watercolor and ink book illustration in the tradition of classic British storybooks; loose expressive linework, soft translucent washes, visible paper texture; cinematic composition, strong single light source; nostalgic and melancholic. 1 September 1971, warm amber compartment light against grey rain. Inside a small train compartment: a boy of eleven with messy jet-black hair sticking up in all directions and round glasses hands a paper bag of sweets back to a small round boy with mousy blond hair and eager watery eyes, like a king giving gold; a strikingly handsome boy with long dark hair sprawls with his feet on the seat, laughing; a pale, grey-skinned boy with light-brown hair sits apart in the corner by the window. Chocolate frogs on the seat, an owl cage, green English fields streaming past in the rain. Warm, fateful. No text, no captions, no borders, no watermark."
-  },
-  {
-    "id": 4,
-    "file": "ch-4",
-    "prompt": "Muted watercolor and ink book illustration in the tradition of classic British storybooks; loose expressive linework, soft translucent washes, visible paper texture; cinematic composition, strong single light source; nostalgic and melancholic. Autumn night 1971, deep blue-black water and a thousand warm yellow windows. Small boats cross a black lake, first-year children of eleven huddled together, a giant man holding a lamp at the front. Above them a castle of a hundred towers stands on a mountain, its yellow windows trembling in reflection on the water. Four small faces look up, each seeing a different salvation. Awed, yearning. No text, no captions, no borders, no watermark."
-  },
-  {
-    "id": 5,
-    "file": "ch-5",
-    "prompt": "Muted watercolor and ink book illustration in the tradition of classic British storybooks; loose expressive linework, soft translucent washes, visible paper texture; cinematic composition, strong single light source; nostalgic and melancholic. Winter evening, first year 1971-72, warm firelight against blue window-frost. A round dormitory at the top of a tower: four beds with dark red curtains, ice flowers on the window, clothes and books and sweet wrappers everywhere. A boy with light-brown hair reads by a small lamp at his bedside. By the fire, a boy of eleven with long dark hair watches a black-and-green letter burn; two other boys sit beside him saying nothing. Cozy, tender. No text, no captions, no borders, no watermark."
-  },
-  {
-    "id": 6,
-    "file": "ch-6",
-    "prompt": "Muted watercolor and ink book illustration in the tradition of classic British storybooks; loose expressive linework, soft translucent washes, visible paper texture; cinematic composition, strong single light source; nostalgic and melancholic. October evening 1972, candlelight and cold blue dusk at the window. A tower dormitory: three twelve-year-old boys sit on a bed around a sheet of paper covered with dates and small drawn circles like phases of the moon. In the doorway stands a grey-faced, hollow-eyed boy with light-brown hair, frozen, just returned. One boy with round glasses looks up; a boy with long dark hair has eyes a hundred years old; a small round boy stares at his own hands. Tense and tender. No text, no captions, no borders, no watermark."
-  },
-  {
-    "id": 7,
-    "file": "ch-7",
-    "prompt": "Muted watercolor and ink book illustration in the tradition of classic British storybooks; loose expressive linework, soft translucent washes, visible paper texture; cinematic composition, strong single light source; nostalgic and melancholic. School library by candlelight, 1973, warm gold against deep brown shadow. A thirteen-year-old boy with messy black hair and round glasses slams a huge old book onto the table and dust flies up like smoke, his glasses catching the light. A boy with long dark hair sits on one side of a pale boy with light-brown hair, a small round boy on the other, all three leaning in around him. Towers of old books, candle stubs, conspiratorial closeness. Devoted, conspiratorial. No text, no captions, no borders, no watermark."
-  },
-  {
-    "id": 8,
-    "file": "ch-8",
-    "prompt": "Muted watercolor and ink book illustration in the tradition of classic British storybooks; loose expressive linework, soft translucent washes, visible paper texture; cinematic composition, strong single light source; nostalgic and melancholic. October 1975, after midnight, lit only by dark-red coals in a fireplace. A round common room: where three boys in nightclothes stood there now stand a tall young stag with new antlers, a big shaggy grey dog, and a small rat with trembling whiskers by the fire. A fifteen-year-old boy with light-brown hair has collapsed onto the stone stairs, legs gone from under him; the grey dog has knocked him flat and licks his face. Joyful, miraculous, the warmest image in the book. No text, no captions, no borders, no watermark."
-  },
-  {
-    "id": 9,
-    "file": "ch-9",
-    "prompt": "Muted watercolor and ink book illustration in the tradition of classic British storybooks; loose expressive linework, soft translucent washes, visible paper texture; cinematic composition, strong single light source; nostalgic and melancholic. Three in the morning, 1975, silver moonlight and distant warm village lights. On a hilltop under an enormous full moon: a wolf and a big grey dog run shoulder to shoulder, a tall stag leading ahead like a king, a small rat riding between the stag's antlers like a mad little captain. Below, the scattered warm lights of a sleeping village. The wolf's head is raised in a long cry that is not pain. Wild, exultant. No text, no captions, no borders, no watermark."
-  },
-  {
-    "id": 10,
-    "file": "ch-10",
-    "prompt": "Muted watercolor and ink book illustration in the tradition of classic British storybooks; loose expressive linework, soft translucent washes, visible paper texture; cinematic composition, strong single light source; nostalgic and melancholic. Late night 1976, candlelight pooled on a large parchment. Four sixteen-year-old boys bend over a great unfolded map spread across a dormitory floor: inked corridors with tiny labelled footprints moving through them, drawn in green ink. One with messy black hair and round glasses holds a wand over it; a small round boy patiently redraws a doorway; a boy with long dark hair grins; a pale boy with light-brown hair watches. Ink pots, quills, spilled wax. Clever, mischievous. No text, no captions, no borders, no watermark."
-  },
-  {
-    "id": 11,
-    "file": "ch-11",
-    "prompt": "Muted watercolor and ink book illustration in the tradition of classic British storybooks; loose expressive linework, soft translucent washes, visible paper texture; cinematic composition, strong single light source; nostalgic and melancholic. Full-moon night 1977, cold moonlight at the tunnel mouth, near-black earth around it. A cramped earthen tunnel beneath the roots of a great tree: a sixteen-year-old boy with messy black hair and round glasses hauls a thin, terrified black-haired boy in old clothes back up the passage toward the pale opening. Behind them, at the far dark end of the tunnel, two burning eyes. Roots overhead, raw panic. Ominous, fractured. No text, no captions, no borders, no watermark."
-  },
-  {
-    "id": 12,
-    "file": "ch-12",
-    "prompt": "Muted watercolor and ink book illustration in the tradition of classic British storybooks; loose expressive linework, soft translucent washes, visible paper texture; cinematic composition, strong single light source; nostalgic and melancholic. Sunlit stone courtyard, spring 1976, bright warm gold with cool stone shadow. A girl of sixteen with dark red hair to her shoulders and bright green eyes stands furious and magnificent, telling off a strutting boy with messy black hair and round glasses; a crowd of students watches, a boy with long dark hair doubled over laughing; at the edge, a thin black-haired boy in old clothes watches alone. Bright and bittersweet. No text, no captions, no borders, no watermark."
-  },
-  {
-    "id": 13,
-    "file": "ch-13",
-    "prompt": "Muted watercolor and ink book illustration in the tradition of classic British storybooks; loose expressive linework, soft translucent washes, visible paper texture; cinematic composition, strong single light source; nostalgic and melancholic. Two in the morning, summer 1977, warm gold spilling from an open door into blue rain. On the front step of a country house stands a boy of sixteen with long dark hair, one bag at his feet, a bleeding lip, and a face like a closed door, soaked through. In the lit doorway two kind elderly people stand aside to let him in. Wounded, sheltering. No text, no captions, no borders, no watermark."
-  },
-  {
-    "id": 14,
-    "file": "ch-14",
-    "prompt": "Muted watercolor and ink book illustration in the tradition of classic British storybooks; loose expressive linework, soft translucent washes, visible paper texture; cinematic composition, strong single light source; nostalgic and melancholic. Sunrise, June 1978, pink and gold light over water. Four eighteen-year-old boys sit on a high stone roof above a tower, watching the sun rise over a lake where a giant squid makes slow circles in pink water. One with messy black hair and round glasses is speaking, his glasses flashing in the sunrise; a boy with long dark hair beside him; a pale boy with light-brown hair; a small round boy. Trunks wait below, unseen. Solemn, golden. No text, no captions, no borders, no watermark."
-  },
-  {
-    "id": 15,
-    "file": "ch-15",
-    "prompt": "Muted watercolor and ink book illustration in the tradition of classic British storybooks; loose expressive linework, soft translucent washes, visible paper texture; cinematic composition, strong single light source; nostalgic and melancholic. End of summer 1978, warm castle gold behind, horizon ahead darkening at the edges like burning paper. Four eighteen-year-olds seen from behind walk out through great castle gates, wind pulling at their robes, the road ahead running into a dark and unsettled sky. The smallest of the four trails half a step behind the others. Ominous, foreboding. No text, no captions, no borders, no watermark."
-  },
-  {
-    "id": 16,
-    "file": "ch-16",
-    "prompt": "Muted watercolor and ink book illustration in the tradition of classic British storybooks; loose expressive linework, soft translucent washes, visible paper texture; cinematic composition, strong single light source; nostalgic and melancholic. Evening 1979, palette cooling to grey-blue with one warm lamp. A dim back room with drawn curtains: an old teacher sets cups of tea in front of four young men of nineteen around a small table. Nobody's hand is steady on the cup. Through a gap in the curtain, far off in the night sky, a faint green mark burns over a broken roof. Dread, resolve. No text, no captions, no borders, no watermark."
-  },
-  {
-    "id": 17,
-    "file": "ch-17",
-    "prompt": "Muted watercolor and ink book illustration in the tradition of classic British storybooks; loose expressive linework, soft translucent washes, visible paper texture; cinematic composition, strong single light source; nostalgic and melancholic. 1979, candlelight in a sealed stone kitchen, cool shadows crowding the edges. Twenty-odd fighters crowd around a rough wooden table: a heavily scarred grizzled man, a young half-giant, two laughing red-haired brothers, a young married couple. At the head an old wizard with a long white beard and half-moon glasses presides, making even a cellar feel like a headmaster's study. In a corner, a small soft-faced young man sits unnoticed, listening. Defiant, doomed. No text, no captions, no borders, no watermark."
-  },
-  {
-    "id": 18,
-    "file": "ch-18",
-    "prompt": "Muted watercolor and ink book illustration in the tradition of classic British storybooks; loose expressive linework, soft translucent washes, visible paper texture; cinematic composition, strong single light source; nostalgic and melancholic. Sunset, autumn 1978, gold fairy lights against a deepening blue garden. A wedding party in an orchard garden: kitchen tables carried out onto the grass, small lights coming on in the apple trees. A young woman with dark red hair, barefoot in her mother's dress, teaches a bewildered middle-aged Muggle man to wave a wand. A small round young man sleeps in a chair with cake on his shirt. Two young men stand shoulder to shoulder at the far fence, looking out at darkening fields. A scarred old man limps the perimeter. Joyful, elegiac. No text, no captions, no borders, no watermark."
-  },
-  {
-    "id": 19,
-    "file": "ch-19",
-    "prompt": "Muted watercolor and ink book illustration in the tradition of classic British storybooks; loose expressive linework, soft translucent washes, visible paper texture; cinematic composition, strong single light source; nostalgic and melancholic. Evening 1980, one warm hearth-light on half a face, the rest cold shadow. A dark pub corner: a soft, round, tired-eyed young man of twenty sits at a table with a half-pint, leaning slightly toward a smooth stranger whose face stays entirely in shadow. Firelight warms one side of the young man's face. He is only listening. Insidious, pitiable. No text, no captions, no borders, no watermark."
-  },
-  {
-    "id": 20,
-    "file": "ch-20",
-    "prompt": "Muted watercolor and ink book illustration in the tradition of classic British storybooks; loose expressive linework, soft translucent washes, visible paper texture; cinematic composition, strong single light source; nostalgic and melancholic. July morning 1981, flat grey daylight through a kitchen window. A young woman with dark red hair stands at a kitchen table folding a letter into quarters and smoothing it flat with her palm, over and over, long after it is flat. A young man with messy black hair sits motionless with his round glasses in his hands. Another young man with long dark hair stands at the window like a man guarding a house that has already been robbed. Numb, grieving. No text, no captions, no borders, no watermark."
-  },
-  {
-    "id": 21,
-    "file": "ch-21",
-    "prompt": "Muted watercolor and ink book illustration in the tradition of classic British storybooks; loose expressive linework, soft translucent washes, visible paper texture; cinematic composition, strong single light source; nostalgic and melancholic. August 1980, warm lamplight in a small bedroom, blue night at the window. A young man with long dark hair holds a three-day-old baby with impossible black hair and open green eyes, his careless armour completely fallen away. A young man with messy black hair and round glasses has an arm around his shoulders. A pale young man with light-brown hair watches from close by. Tender, shadowed. No text, no captions, no borders, no watermark."
-  },
-  {
-    "id": 22,
-    "file": "ch-22",
-    "prompt": "Muted watercolor and ink book illustration in the tradition of classic British storybooks; loose expressive linework, soft translucent washes, visible paper texture; cinematic composition, strong single light source; nostalgic and melancholic. Late October 1981, firelight warm on three faces, a clock ticking on the shelf. A cottage kitchen at night: a young man with messy black hair and round glasses and a young woman with dark red hair lean toward a soft, wet-eyed young man across the table, faces bright with relief and trust, asking him something enormous. A child's stuffed toy lies on the floor. Behind the soft young man's eyes, a door swings silently open. Intimate, horrifying. No text, no captions, no borders, no watermark."
-  },
-  {
-    "id": 23,
-    "file": "ch-23",
-    "prompt": "Muted watercolor and ink book illustration in the tradition of classic British storybooks; loose expressive linework, soft translucent washes, visible paper texture; cinematic composition, strong single light source; nostalgic and melancholic. Saturday 31 October 1981, rain, cottage windows lit gold in blue dusk. Seen from a wet village lane: a young woman with dark red hair sits on the front step of a small cottage carving a pumpkin, warm light behind her, rain falling through it. An ordinary pumpkin, on a step, in the rain. Quiet, dread-laden, the world's last unbroken picture. No text, no captions, no borders, no watermark."
-  },
-  {
-    "id": 24,
-    "file": "ch-24",
-    "prompt": "Muted watercolor and ink book illustration in the tradition of classic British storybooks; loose expressive linework, soft translucent washes, visible paper texture; cinematic composition, strong single light source; nostalgic and melancholic. First grey light, 1 November 1981, near-monochrome ash and drizzle with one faint warm accent. The silhouette of a small cottage with its roof torn open, thin smoke still standing straight in the drizzle, dead leaves scattered along an empty lane. No people at all. Desolate, grieving. No text, no captions, no borders, no watermark."
-  },
-  {
-    "id": 25,
-    "file": "ch-25",
-    "prompt": "Muted watercolor and ink book illustration in the tradition of classic British storybooks; loose expressive linework, soft translucent washes, visible paper texture; cinematic composition, strong single light source; nostalgic and melancholic. Halloween night 1981, near-monochrome blue-black with warm windows and one lit pumpkin. A tall cloaked figure walks alone down the middle of a village lane through falling leaves, past lit cottage windows and small children in paper masks who do not look up. Ahead, the air parts like a curtain drawn aside and a hidden cottage appears: lit windows, a garden gate, a pumpkin glowing on the step. Ominous, inexorable. No text, no captions, no borders, no watermark."
-  },
-  {
-    "id": 26,
-    "file": "ch-26",
-    "prompt": "Muted watercolor and ink book illustration in the tradition of classic British storybooks; loose expressive linework, soft translucent washes, visible paper texture; cinematic composition, strong single light source; nostalgic and melancholic. Night of 1 November 1981, cold rain, ash-grey with a single warm lamp on a motorbike. In the dark garden of a smoking cottage whose roof is torn open: a hollow-faced young man with long dark hair lifts a small child with a fresh lightning-shaped cut on his forehead up into the arms of a weeping giant of a man. A large flying motorbike stands beside them in the wet grass. Shattered, sacrificial. No text, no captions, no borders, no watermark."
-  },
-  {
-    "id": 27,
-    "file": "ch-27",
-    "prompt": "Muted watercolor and ink book illustration in the tradition of classic British storybooks; loose expressive linework, soft translucent washes, visible paper texture; cinematic composition, strong single light source; nostalgic and melancholic. Midday, 1 November 1981, hard flat grey daylight and smoke. A London Muggle street blown open: a smoking crater in the pavement, scattered rubble, people fleeing. Twenty wizards with wands drawn ring one man, a young man with long dark hair standing alone in the wreckage of everything, head thrown back, laughing the sound a dog makes over the ruin of its house. A drain grate in the foreground. Monstrous, tragic. No text, no captions, no borders, no watermark."
-  },
-  {
-    "id": 28,
-    "file": "ch-28",
-    "prompt": "Muted watercolor and ink book illustration in the tradition of classic British storybooks; loose expressive linework, soft translucent washes, visible paper texture; cinematic composition, strong single light source; nostalgic and melancholic. Morning, 1 November 1981, drained grey with one weak shaft of daylight. A shabby young man with light-brown hair and a worn coat stands alone in a grey shop doorway, a newspaper shaking in his hands, its front page showing a photograph of a ruined cottage and headlines stacked like graves. Around him, blurred and out of focus, strangers celebrate in the street. Bereft, hollow. No text, no captions, no borders, no watermark."
-  },
-  {
-    "id": 29,
-    "file": "ch-29",
-    "prompt": "Muted watercolor and ink book illustration in the tradition of classic British storybooks; loose expressive linework, soft translucent washes, visible paper texture; cinematic composition, strong single light source; nostalgic and melancholic. June 1994, night, cold moonlight in bars through boarded windows, one warm accent. Inside a derelict boarded-up house: a worn man in a patched cardigan with light-brown hair and faint scars, and a gaunt wild-haired man like a skeleton in prison rags, both with wands raised at a kneeling, balding, wet-eyed man on the floorboards. A thirteen-year-old boy with messy black hair, round glasses and green eyes steps between the wands with his arms out, saying no. Feverish, redemptive. No text, no captions, no borders, no watermark."
-  },
-  {
-    "id": 30,
-    "file": "ch-30",
-    "prompt": "Muted watercolor and ink book illustration in the tradition of classic British storybooks; loose expressive linework, soft translucent washes, visible paper texture; cinematic composition, strong single light source; nostalgic and melancholic. Spring morning 1994, soft grey daylight with one small warm lamp. A quiet desk by a window: a greying, tired man in a worn cardigan sits with a cold cup of tea, a small old reading lamp still lit beside him, and a great parchment map spread open across the desk, four names blooming across it in green ink in sixteen-year-olds' handwriting, tiny named footprints moving through drawn corridors. Elegiac, faithful, the closing image of the book. No text, no captions, no borders, no watermark."
-  }
+ {
+  "id": 0,
+  "file": "ch-0",
+  "chapter": "Читателю",
+  "aspect": "3:2",
+  "prompt": "Muted watercolor and ink book illustration in the tradition of classic British storybooks. Loose expressive linework, soft translucent washes, visible paper texture. Cinematic composition, strong single light source. Nostalgic and melancholic, a memory recalled decades later. Painterly and restrained, never photographic. No text, no letters, no captions, no borders, no watermark. Warm palette: amber candlelight and firelight against deep blue-grey shadows, golden autumn, Scottish green. An old man's writing desk at night, seen close and empty of people: a small brass lamp with a green glass shade burning, a cup of cold tea, an old parchment map unrolled across the wood, a pen laid down mid-sentence, an empty chair pushed back. Mood: quiet, elegiac."
+ },
+ {
+  "id": 1,
+  "file": "ch-1",
+  "chapter": "People in this Story",
+  "aspect": "3:2",
+  "prompt": "Muted watercolor and ink book illustration in the tradition of classic British storybooks. Loose expressive linework, soft translucent washes, visible paper texture. Cinematic composition, strong single light source. Nostalgic and melancholic, a memory recalled decades later. Painterly and restrained, never photographic. No text, no letters, no captions, no borders, no watermark. Warm palette: amber candlelight and firelight against deep blue-grey shadows, golden autumn, Scottish green. A page of character studies on bare paper: four eleven-year-old boys in school robes standing loosely together, and a little apart from them a red-haired girl, each figure sketched separately with air around them. Mood: curious, introductory."
+ },
+ {
+  "id": 2,
+  "file": "ch-2",
+  "chapter": "Part One: The Castle",
+  "aspect": "3:2",
+  "prompt": "Muted watercolor and ink book illustration in the tradition of classic British storybooks. Loose expressive linework, soft translucent washes, visible paper texture. Cinematic composition, strong single light source. Nostalgic and melancholic, a memory recalled decades later. Painterly and restrained, never photographic. No text, no letters, no captions, no borders, no watermark. Warm palette: amber candlelight and firelight against deep blue-grey shadows, golden autumn, Scottish green. A pale eleven-year-old boy alone in a dim narrow hallway, holding an opened letter in both hands, late summer light falling through the window behind him, a man's shadow in the doorway beyond. Mood: fragile, hopeful."
+ },
+ {
+  "id": 3,
+  "file": "ch-3",
+  "chapter": "The Train",
+  "aspect": "3:2",
+  "prompt": "Muted watercolor and ink book illustration in the tradition of classic British storybooks. Loose expressive linework, soft translucent washes, visible paper texture. Cinematic composition, strong single light source. Nostalgic and melancholic, a memory recalled decades later. Painterly and restrained, never photographic. No text, no letters, no captions, no borders, no watermark. Warm palette: amber candlelight and firelight against deep blue-grey shadows, golden autumn, Scottish green. A small train compartment on a rainy September afternoon, green English fields streaming past the window. A boy with messy black hair and round glasses hands a box of sweets back to a small round boy like a king giving gold; a long-haired boy sprawls laughing with his feet on the seat; a grey-skinned boy sits apart in the corner. Chocolate frogs and an owl cage. Mood: warm, fateful."
+ },
+ {
+  "id": 4,
+  "file": "ch-4",
+  "chapter": "The Castle on the Water",
+  "aspect": "3:2",
+  "prompt": "Muted watercolor and ink book illustration in the tradition of classic British storybooks. Loose expressive linework, soft translucent washes, visible paper texture. Cinematic composition, strong single light source. Nostalgic and melancholic, a memory recalled decades later. Painterly and restrained, never photographic. No text, no letters, no captions, no borders, no watermark. Warm palette: amber candlelight and firelight against deep blue-grey shadows, golden autumn, Scottish green. Night on a black lake: little boats crossing by themselves, eleven-year-old children huddled together, a huge bearded giant holding a lamp at the front of the first boat. Above them a castle of a hundred towers and a thousand warm yellow windows stands on a mountain, its whole reflection trembling upside down in the water. Mood: awed, yearning."
+ },
+ {
+  "id": 5,
+  "file": "ch-5",
+  "chapter": "The Hat",
+  "aspect": "3:2",
+  "prompt": "Muted watercolor and ink book illustration in the tradition of classic British storybooks. Loose expressive linework, soft translucent washes, visible paper texture. Cinematic composition, strong single light source. Nostalgic and melancholic, a memory recalled decades later. Painterly and restrained, never photographic. No text, no letters, no captions, no borders, no watermark. Warm palette: amber candlelight and firelight against deep blue-grey shadows, golden autumn, Scottish green. A vast hall with no ceiling, only black night sky and a thousand candles burning in the air above four long tables of watching faces. On a stool at the front, a boy sits with an enormous shabby pointed hat fallen over his eyes. Mood: suspenseful, ceremonial."
+ },
+ {
+  "id": 6,
+  "file": "ch-6",
+  "chapter": "Four Beds",
+  "aspect": "3:2",
+  "prompt": "Muted watercolor and ink book illustration in the tradition of classic British storybooks. Loose expressive linework, soft translucent washes, visible paper texture. Cinematic composition, strong single light source. Nostalgic and melancholic, a memory recalled decades later. Painterly and restrained, never photographic. No text, no letters, no captions, no borders, no watermark. Warm palette: amber candlelight and firelight against deep blue-grey shadows, golden autumn, Scottish green. A round tower dormitory on a winter evening: four beds with red curtains, ice flowers grown on the inside of the window, clothes and books and sweet papers everywhere. By the fire a dark-haired boy watches a black-and-green letter burn to ash while another boy simply sits beside him, saying nothing. Mood: cosy, wounded."
+ },
+ {
+  "id": 7,
+  "file": "ch-7",
+  "chapter": "My Secret",
+  "aspect": "3:2",
+  "prompt": "Muted watercolor and ink book illustration in the tradition of classic British storybooks. Loose expressive linework, soft translucent washes, visible paper texture. Cinematic composition, strong single light source. Nostalgic and melancholic, a memory recalled decades later. Painterly and restrained, never photographic. No text, no letters, no captions, no borders, no watermark. Warm palette: amber candlelight and firelight against deep blue-grey shadows, golden autumn, Scottish green. The bottom of a night garden: a small wooden shed with a heavy door and a strong iron lock, standing alone under an enormous full moon. Far behind it, one lit kitchen window of a house. Mood: lonely, ominous."
+ },
+ {
+  "id": 8,
+  "file": "ch-8",
+  "chapter": "Small Kindnesses",
+  "aspect": "3:2",
+  "prompt": "Muted watercolor and ink book illustration in the tradition of classic British storybooks. Loose expressive linework, soft translucent washes, visible paper texture. Cinematic composition, strong single light source. Nostalgic and melancholic, a memory recalled decades later. Painterly and restrained, never photographic. No text, no letters, no captions, no borders, no watermark. Warm palette: amber candlelight and firelight against deep blue-grey shadows, golden autumn, Scottish green. A boy's bedside at night behind half-drawn curtains: a small brass lamp with a green glass shade newly arrived on the table, an open book, no note. Across the dark room another boy lies reading a magazine upside down, not looking up. Mood: tender, unspoken."
+ },
+ {
+  "id": 9,
+  "file": "ch-9",
+  "chapter": "The Boy Who Counted",
+  "aspect": "3:2",
+  "prompt": "Muted watercolor and ink book illustration in the tradition of classic British storybooks. Loose expressive linework, soft translucent washes, visible paper texture. Cinematic composition, strong single light source. Nostalgic and melancholic, a memory recalled decades later. Painterly and restrained, never photographic. No text, no letters, no captions, no borders, no watermark. Warm palette: amber candlelight and firelight against deep blue-grey shadows, golden autumn, Scottish green. An October evening in the round dormitory: three boys sitting close together on a bed over a sheet of paper covered with dates and small drawn circles like moons. In the doorway, a grey hollow-eyed boy has stopped dead, still holding his bag. Mood: tense, exposed."
+ },
+ {
+  "id": 10,
+  "file": "ch-10",
+  "chapter": "We Think It Is Brilliant",
+  "aspect": "3:2",
+  "prompt": "Muted watercolor and ink book illustration in the tradition of classic British storybooks. Loose expressive linework, soft translucent washes, visible paper texture. Cinematic composition, strong single light source. Nostalgic and melancholic, a memory recalled decades later. Painterly and restrained, never photographic. No text, no letters, no captions, no borders, no watermark. Warm palette: amber candlelight and firelight against deep blue-grey shadows, golden autumn, Scottish green. The same room minutes later: the grey boy sitting on the edge of the bed crying, a small round boy pressing his very last sweets into his hand, a third boy sitting on the floor with his back against the bed, waiting, saying nothing. Mood: tender, releasing."
+ },
+ {
+  "id": 11,
+  "file": "ch-11",
+  "chapter": "A Book in the Library",
+  "aspect": "3:2",
+  "prompt": "Muted watercolor and ink book illustration in the tradition of classic British storybooks. Loose expressive linework, soft translucent washes, visible paper texture. Cinematic composition, strong single light source. Nostalgic and melancholic, a memory recalled decades later. Painterly and restrained, never photographic. No text, no letters, no captions, no borders, no watermark. Warm palette: amber candlelight and firelight against deep blue-grey shadows, golden autumn, Scottish green. A school library by candlelight: a huge old book dropped onto the table with dust flying up like smoke, a boy with round glasses leaning over it with his glasses shining, two other boys closing in on either side of a fourth so that he is completely surrounded by towers of books. Mood: conspiratorial, devoted."
+ },
+ {
+  "id": 12,
+  "file": "ch-12",
+  "chapter": "Does It Hurt?",
+  "aspect": "3:2",
+  "prompt": "Muted watercolor and ink book illustration in the tradition of classic British storybooks. Loose expressive linework, soft translucent washes, visible paper texture. Cinematic composition, strong single light source. Nostalgic and melancholic, a memory recalled decades later. Painterly and restrained, never photographic. No text, no letters, no captions, no borders, no watermark. Warm palette: amber candlelight and firelight against deep blue-grey shadows, golden autumn, Scottish green. A cold empty stone corridor at night. A boy has taken off his round glasses and holds them in his hand, looking steadily at another boy; two more watch from against the wall, unusually still. One small lamp far down the corridor. Mood: serious, decisive."
+ },
+ {
+  "id": 13,
+  "file": "ch-13",
+  "chapter": "Three Years of Trying",
+  "aspect": "3:2",
+  "prompt": "Muted watercolor and ink book illustration in the tradition of classic British storybooks. Loose expressive linework, soft translucent washes, visible paper texture. Cinematic composition, strong single light source. Nostalgic and melancholic, a memory recalled decades later. Painterly and restrained, never photographic. No text, no letters, no captions, no borders, no watermark. Warm palette: amber candlelight and firelight against deep blue-grey shadows, golden autumn, Scottish green. A school bathroom floor, grey light from a high window: a small round boy sitting with his back against the wall, his open hands lying useless in his lap, crying. Another boy stands in the doorway without coming in. Mood: defeated, kindly."
+ },
+ {
+  "id": 14,
+  "file": "ch-14",
+  "chapter": "Three Animals",
+  "aspect": "3:2",
+  "prompt": "Muted watercolor and ink book illustration in the tradition of classic British storybooks. Loose expressive linework, soft translucent washes, visible paper texture. Cinematic composition, strong single light source. Nostalgic and melancholic, a memory recalled decades later. Painterly and restrained, never photographic. No text, no letters, no captions, no borders, no watermark. Warm palette: amber candlelight and firelight against deep blue-grey shadows, golden autumn, Scottish green. A common room after midnight lit only by dark red coals: where three boys stood there now stand a tall young stag with new antlers, a big shaggy grey dog and a small rat. On the stairs a boy has collapsed, his legs gone from under him, staring. Mood: joyful, miraculous."
+ },
+ {
+  "id": 15,
+  "file": "ch-15",
+  "chapter": "Four Names",
+  "aspect": "3:2",
+  "prompt": "Muted watercolor and ink book illustration in the tradition of classic British storybooks. Loose expressive linework, soft translucent washes, visible paper texture. Cinematic composition, strong single light source. Nostalgic and melancholic, a memory recalled decades later. Painterly and restrained, never photographic. No text, no letters, no captions, no borders, no watermark. Warm palette: amber candlelight and firelight against deep blue-grey shadows, golden autumn, Scottish green. Four in the morning by a dying fireplace, four mismatched cups of badly made tea. A boy in his night clothes stands on the table pointing a teaspoon like a wand while the others laugh up at him. Mood: absurd, golden."
+ },
+ {
+  "id": 16,
+  "file": "ch-16",
+  "chapter": "The Night We Ran",
+  "aspect": "3:2",
+  "prompt": "Muted watercolor and ink book illustration in the tradition of classic British storybooks. Loose expressive linework, soft translucent washes, visible paper texture. Cinematic composition, strong single light source. Nostalgic and melancholic, a memory recalled decades later. Painterly and restrained, never photographic. No text, no letters, no captions, no borders, no watermark. Warm palette: amber candlelight and firelight against deep blue-grey shadows, golden autumn, Scottish green. A hilltop at three in the morning under an enormous full moon: a wolf and a big grey dog running shoulder to shoulder, a stag ahead of them like a king, and a small rat riding between the stag's antlers. Far below, the scattered warm lights of a sleeping village. Mood: wild, exultant."
+ },
+ {
+  "id": 17,
+  "file": "ch-17",
+  "chapter": "The Castle at Night",
+  "aspect": "3:2",
+  "prompt": "Muted watercolor and ink book illustration in the tradition of classic British storybooks. Loose expressive linework, soft translucent washes, visible paper texture. Cinematic composition, strong single light source. Nostalgic and melancholic, a memory recalled decades later. Painterly and restrained, never photographic. No text, no letters, no captions, no borders, no watermark. Warm palette: amber candlelight and firelight against deep blue-grey shadows, golden autumn, Scottish green. Two o'clock in the morning on the slate roof above a tower: four boys lying and sitting among the slates under an enormous field of stars, one flat on his back with his hands behind his head looking up, one wrapped in a shared blanket, food spread between them. Mood: still, intimate."
+ },
+ {
+  "id": 18,
+  "file": "ch-18",
+  "chapter": "The Map",
+  "aspect": "3:2",
+  "prompt": "Muted watercolor and ink book illustration in the tradition of classic British storybooks. Loose expressive linework, soft translucent washes, visible paper texture. Cinematic composition, strong single light source. Nostalgic and melancholic, a memory recalled decades later. Painterly and restrained, never photographic. No text, no letters, no captions, no borders, no watermark. Warm palette: amber candlelight and firelight against deep blue-grey shadows, golden autumn, Scottish green. A late-night dormitory: four sixteen-year-olds bent over a large sheet of parchment by candlelight, tiny inked footprints moving along drawn corridors across it. Ink pots, quills, a spilled bottle, faces lit from below. Mood: clever, mischievous."
+ },
+ {
+  "id": 19,
+  "file": "ch-19",
+  "chapter": "Severus Snape",
+  "aspect": "3:2",
+  "prompt": "Muted watercolor and ink book illustration in the tradition of classic British storybooks. Loose expressive linework, soft translucent washes, visible paper texture. Cinematic composition, strong single light source. Nostalgic and melancholic, a memory recalled decades later. Painterly and restrained, never photographic. No text, no letters, no captions, no borders, no watermark. Warm palette: amber candlelight and firelight against deep blue-grey shadows, golden autumn, Scottish green. A cold stone corridor: a thin boy with lank black hair and old worn clothes passing a pale tired boy going the other way, the two of them exchanging one glance in the moment they draw level. Nobody else in the corridor. Mood: watchful, uneasy."
+ },
+ {
+  "id": 20,
+  "file": "ch-20",
+  "chapter": "The Worst Night",
+  "aspect": "3:2",
+  "prompt": "Muted watercolor and ink book illustration in the tradition of classic British storybooks. Loose expressive linework, soft translucent washes, visible paper texture. Cinematic composition, strong single light source. Nostalgic and melancholic, a memory recalled decades later. Painterly and restrained, never photographic. No text, no letters, no captions, no borders, no watermark. Warm palette: amber candlelight and firelight against deep blue-grey shadows, golden autumn, Scottish green. A black earthen tunnel under thick tree roots, a small circle of moonlight at its far mouth. A boy hauls another boy bodily back up the passage; behind them, at the dark end of the tunnel, two eyes catch the light. Mood: terrifying, urgent."
+ },
+ {
+  "id": 21,
+  "file": "ch-21",
+  "chapter": "What Stayed After",
+  "aspect": "3:2",
+  "prompt": "Muted watercolor and ink book illustration in the tradition of classic British storybooks. Loose expressive linework, soft translucent washes, visible paper texture. Cinematic composition, strong single light source. Nostalgic and melancholic, a memory recalled decades later. Painterly and restrained, never photographic. No text, no letters, no captions, no borders, no watermark. Warm palette: amber candlelight and firelight against deep blue-grey shadows, golden autumn, Scottish green. A grey morning in the round dormitory: two beds, one boy lying awake with his face to the wall, another sitting on the edge of his own bed with his head down and his hands hanging. The space of floor between the beds very wide. Mood: estranged, aching."
+ },
+ {
+  "id": 22,
+  "file": "ch-22",
+  "chapter": "Lily Evans",
+  "aspect": "3:2",
+  "prompt": "Muted watercolor and ink book illustration in the tradition of classic British storybooks. Loose expressive linework, soft translucent washes, visible paper texture. Cinematic composition, strong single light source. Nostalgic and melancholic, a memory recalled decades later. Painterly and restrained, never photographic. No text, no letters, no captions, no borders, no watermark. Warm palette: amber candlelight and firelight against deep blue-grey shadows, golden autumn, Scottish green. A sunlit school courtyard: a red-haired girl, furious and magnificent, telling off a strutting boy with round glasses in front of a laughing crowd. At the edge of the crowd a thin dark-haired boy watches without laughing. Mood: bright, bittersweet."
+ },
+ {
+  "id": 23,
+  "file": "ch-23",
+  "chapter": "One Word",
+  "aspect": "3:2",
+  "prompt": "Muted watercolor and ink book illustration in the tradition of classic British storybooks. Loose expressive linework, soft translucent washes, visible paper texture. Cinematic composition, strong single light source. Nostalgic and melancholic, a memory recalled decades later. Painterly and restrained, never photographic. No text, no letters, no captions, no borders, no watermark. Warm palette: amber candlelight and firelight against deep blue-grey shadows, golden autumn, Scottish green. A hot afternoon on the grass by a lake, students scattered everywhere after an exam. A thin dark-haired boy on the ground with grass in his hair; a red-haired girl turning her back on a boy with glasses to help him up; the crowd's laughter dying away. Mood: cruel, pivotal."
+ },
+ {
+  "id": 24,
+  "file": "ch-24",
+  "chapter": "The House of Black",
+  "aspect": "3:2",
+  "prompt": "Muted watercolor and ink book illustration in the tradition of classic British storybooks. Loose expressive linework, soft translucent washes, visible paper texture. Cinematic composition, strong single light source. Nostalgic and melancholic, a memory recalled decades later. Painterly and restrained, never photographic. No text, no letters, no captions, no borders, no watermark. Warm palette: amber candlelight and firelight against deep blue-grey shadows, golden autumn, Scottish green. A grand front doorstep at two in the morning in summer rain. A boy of sixteen stands there with one bag and a split lip and a face like a closed door, lit by the warm gold spilling out of the opened door where two kind old people stand. Mood: wounded, sheltering."
+ },
+ {
+  "id": 25,
+  "file": "ch-25",
+  "chapter": "Seventh Year",
+  "aspect": "3:2",
+  "prompt": "Muted watercolor and ink book illustration in the tradition of classic British storybooks. Loose expressive linework, soft translucent washes, visible paper texture. Cinematic composition, strong single light source. Nostalgic and melancholic, a memory recalled decades later. Painterly and restrained, never photographic. No text, no letters, no captions, no borders, no watermark. Warm palette: amber candlelight and firelight against deep blue-grey shadows, golden autumn, Scottish green. A common room notice board with a newspaper page pinned to it and a line of ink written underneath, firelight on the students' turned backs. Through the window behind them, very small and far away, a green skull-and-snake mark burning in the night sky. Mood: foreboding, hushed."
+ },
+ {
+  "id": 26,
+  "file": "ch-26",
+  "chapter": "The Roof",
+  "aspect": "3:2",
+  "prompt": "Muted watercolor and ink book illustration in the tradition of classic British storybooks. Loose expressive linework, soft translucent washes, visible paper texture. Cinematic composition, strong single light source. Nostalgic and melancholic, a memory recalled decades later. Painterly and restrained, never photographic. No text, no letters, no captions, no borders, no watermark. Warm palette: amber candlelight and firelight against deep blue-grey shadows, golden autumn, Scottish green. A slate roof above a tower at sunrise: four eighteen-year-olds watching the sun come up over a lake turning pink, a giant squid making slow circles far below. One of them stands, his glasses flashing in the light, saying something to the other three. Mood: solemn, golden."
+ },
+ {
+  "id": 27,
+  "file": "ch-27",
+  "chapter": "Part Two: The War",
+  "aspect": "3:2",
+  "prompt": "Muted watercolor and ink book illustration in the tradition of classic British storybooks. Loose expressive linework, soft translucent washes, visible paper texture. Cinematic composition, strong single light source. Nostalgic and melancholic, a memory recalled decades later. Painterly and restrained, never photographic. No text, no letters, no captions, no borders, no watermark. Cooling palette: overcast grey-blue, colour draining out of the world, warmth surviving only in small islands of lamplight. Four young people walking out through castle gates, seen from behind with their trunks. The castle behind them is warm and golden; the horizon ahead is darkening at the edges like a sheet of paper beginning to burn. The smallest of the four trails half a step behind. Mood: ominous, foreboding."
+ },
+ {
+  "id": 28,
+  "file": "ch-28",
+  "chapter": "Dark Days",
+  "aspect": "3:2",
+  "prompt": "Muted watercolor and ink book illustration in the tradition of classic British storybooks. Loose expressive linework, soft translucent washes, visible paper texture. Cinematic composition, strong single light source. Nostalgic and melancholic, a memory recalled decades later. Painterly and restrained, never photographic. No text, no letters, no captions, no borders, no watermark. Cooling palette: overcast grey-blue, colour draining out of the world, warmth surviving only in small islands of lamplight. A dim back room above a pub, curtains drawn, evening. A tired old teacher sets four cups of tea down in front of four young men; the lamplight is low and not one of the hands reaching for a cup is steady. Mood: dread, resolve."
+ },
+ {
+  "id": 29,
+  "file": "ch-29",
+  "chapter": "The Motorbike",
+  "aspect": "3:2",
+  "prompt": "Muted watercolor and ink book illustration in the tradition of classic British storybooks. Loose expressive linework, soft translucent washes, visible paper texture. Cinematic composition, strong single light source. Nostalgic and melancholic, a memory recalled decades later. Painterly and restrained, never photographic. No text, no letters, no captions, no borders, no watermark. Cooling palette: overcast grey-blue, colour draining out of the world, warmth surviving only in small islands of lamplight. A huge black motorbike flying low over dark fields at night, its rider's hair streaming back, moonlit cloud above and the small lights of houses far below. Mood: defiant, roaring."
+ },
+ {
+  "id": 30,
+  "file": "ch-30",
+  "chapter": "The Order of the Phoenix",
+  "aspect": "3:2",
+  "prompt": "Muted watercolor and ink book illustration in the tradition of classic British storybooks. Loose expressive linework, soft translucent washes, visible paper texture. Cinematic composition, strong single light source. Nostalgic and melancholic, a memory recalled decades later. Painterly and restrained, never photographic. No text, no letters, no captions, no borders, no watermark. Cooling palette: overcast grey-blue, colour draining out of the world, warmth surviving only in small islands of lamplight. A meeting by candlelight in a sealed kitchen: twenty-odd fighters crowded round a rough table, among them a scarred old man with a ruined face, a young half-giant, and an old wizard with half-moon glasses at the head of the table. In the corner, unnoticed by anyone, a small soft man sits listening. Mood: defiant, doomed."
+ },
+ {
+  "id": 31,
+  "file": "ch-31",
+  "chapter": "My Own Kind",
+  "aspect": "3:2",
+  "prompt": "Muted watercolor and ink book illustration in the tradition of classic British storybooks. Loose expressive linework, soft translucent washes, visible paper texture. Cinematic composition, strong single light source. Nostalgic and melancholic, a memory recalled decades later. Painterly and restrained, never photographic. No text, no letters, no captions, no borders, no watermark. Cooling palette: overcast grey-blue, colour draining out of the world, warmth surviving only in small islands of lamplight. A camp at the edge of the world: old farm buildings in bare hills, a fire burning low, ragged people sitting around it in the cold. A man of about fifty holds a worn photograph of two young daughters; a visitor sits on the ground among them, arguing quietly and losing. Mood: bleak, honest."
+ },
+ {
+  "id": 32,
+  "file": "ch-32",
+  "chapter": "The Wedding",
+  "aspect": "3:2",
+  "prompt": "Muted watercolor and ink book illustration in the tradition of classic British storybooks. Loose expressive linework, soft translucent washes, visible paper texture. Cinematic composition, strong single light source. Nostalgic and melancholic, a memory recalled decades later. Painterly and restrained, never photographic. No text, no letters, no captions, no borders, no watermark. Cooling palette: overcast grey-blue, colour draining out of the world, warmth surviving only in small islands of lamplight. An autumn garden at sunset: little lights coming on in the apple trees, kitchen tables carried out onto the grass. A barefoot bride in her mother's dress teaches a bewildered older man to wave a wand; a small man is asleep in a chair with cake on his shirt; two friends stand shoulder to shoulder at the fence looking out at the darkening fields. Mood: joyful, elegiac."
+ },
+ {
+  "id": 33,
+  "file": "ch-33",
+  "chapter": "A Warm Room and a Kind Voice",
+  "aspect": "3:2",
+  "prompt": "Muted watercolor and ink book illustration in the tradition of classic British storybooks. Loose expressive linework, soft translucent washes, visible paper texture. Cinematic composition, strong single light source. Nostalgic and melancholic, a memory recalled decades later. Painterly and restrained, never photographic. No text, no letters, no captions, no borders, no watermark. Cooling palette: overcast grey-blue, colour draining out of the world, warmth surviving only in small islands of lamplight. A dark corner of a pub: a soft round-faced man with wet eyes sits at a table over a half-pint, leaning slightly towards a smooth stranger whose face stays entirely in shadow. Firelight warms one side of the small man's face. Mood: insidious, pitiable."
+ },
+ {
+  "id": 34,
+  "file": "ch-34",
+  "chapter": "It Was Not a Fall",
+  "aspect": "3:2",
+  "prompt": "Muted watercolor and ink book illustration in the tradition of classic British storybooks. Loose expressive linework, soft translucent washes, visible paper texture. Cinematic composition, strong single light source. Nostalgic and melancholic, a memory recalled decades later. Painterly and restrained, never photographic. No text, no letters, no captions, no borders, no watermark. Cooling palette: overcast grey-blue, colour draining out of the world, warmth surviving only in small islands of lamplight. A single small figure walking away down a slope so gentle it is almost invisible, into thick fog. Faint footprints behind him. No horizon, no landmark, nothing to mark how far down he has already gone. Mood: quiet, dreadful."
+ },
+ {
+  "id": 35,
+  "file": "ch-35",
+  "chapter": "Friends Die",
+  "aspect": "3:2",
+  "prompt": "Muted watercolor and ink book illustration in the tradition of classic British storybooks. Loose expressive linework, soft translucent washes, visible paper texture. Cinematic composition, strong single light source. Nostalgic and melancholic, a memory recalled decades later. Painterly and restrained, never photographic. No text, no letters, no captions, no borders, no watermark. Cooling palette: overcast grey-blue, colour draining out of the world, warmth surviving only in small islands of lamplight. A kitchen on a July morning: a red-haired young woman stands at the table folding a letter into four and smoothing it flat with her hand, over and over, long after it is flat. A young man sits motionless with his glasses in his hands; another stands at the window like a man guarding a house that has already been robbed. Mood: numb, grieving."
+ },
+ {
+  "id": 36,
+  "file": "ch-36",
+  "chapter": "Locked Drawers",
+  "aspect": "3:2",
+  "prompt": "Muted watercolor and ink book illustration in the tradition of classic British storybooks. Loose expressive linework, soft translucent washes, visible paper texture. Cinematic composition, strong single light source. Nostalgic and melancholic, a memory recalled decades later. Painterly and restrained, never photographic. No text, no letters, no captions, no borders, no watermark. Cooling palette: overcast grey-blue, colour draining out of the world, warmth surviving only in small islands of lamplight. A sealed kitchen, curtains pinned shut, one lamp over a table ringed by tired faces. Painted faintly into the air between two of them, as if half-remembered, a small closed wooden drawer. Mood: poisoned, watchful."
+ },
+ {
+  "id": 37,
+  "file": "ch-37",
+  "chapter": "Harry",
+  "aspect": "3:2",
+  "prompt": "Muted watercolor and ink book illustration in the tradition of classic British storybooks. Loose expressive linework, soft translucent washes, visible paper texture. Cinematic composition, strong single light source. Nostalgic and melancholic, a memory recalled decades later. Painterly and restrained, never photographic. No text, no letters, no captions, no borders, no watermark. Cooling palette: overcast grey-blue, colour draining out of the world, warmth surviving only in small islands of lamplight. A warm bedroom in early August: a three-day-old baby with impossible black hair opening his green eyes. A young man holds him carefully, his whole guarded face fallen open; another young man's arm rests across his shoulders. Mood: tender, shadowed."
+ },
+ {
+  "id": 38,
+  "file": "ch-38",
+  "chapter": "The Prophecy",
+  "aspect": "3:2",
+  "prompt": "Muted watercolor and ink book illustration in the tradition of classic British storybooks. Loose expressive linework, soft translucent washes, visible paper texture. Cinematic composition, strong single light source. Nostalgic and melancholic, a memory recalled decades later. Painterly and restrained, never photographic. No text, no letters, no captions, no borders, no watermark. Cooling palette: overcast grey-blue, colour draining out of the world, warmth surviving only in small islands of lamplight. A small lit cottage room at night: an old wizard with half-moon glasses speaking quietly to a young couple, a cot standing behind them in the shadow. The couple's faces are receiving the worst sentence a parent can hear. Black window. Mood: grave, cold."
+ },
+ {
+  "id": 39,
+  "file": "ch-39",
+  "chapter": "The Hidden House",
+  "aspect": "3:2",
+  "prompt": "Muted watercolor and ink book illustration in the tradition of classic British storybooks. Loose expressive linework, soft translucent washes, visible paper texture. Cinematic composition, strong single light source. Nostalgic and melancholic, a memory recalled decades later. Painterly and restrained, never photographic. No text, no letters, no captions, no borders, no watermark. Cooling palette: overcast grey-blue, colour draining out of the world, warmth surviving only in small islands of lamplight. A cottage on a village lane painted twice in the same frame: one half of it solid, lit and real, the other half dissolving into empty wet grass as though it had never been built there at all. Mood: uncanny, protective."
+ },
+ {
+  "id": 40,
+  "file": "ch-40",
+  "chapter": "The Switch",
+  "aspect": "3:2",
+  "prompt": "Muted watercolor and ink book illustration in the tradition of classic British storybooks. Loose expressive linework, soft translucent washes, visible paper texture. Cinematic composition, strong single light source. Nostalgic and melancholic, a memory recalled decades later. Painterly and restrained, never photographic. No text, no letters, no captions, no borders, no watermark. Cooling palette: overcast grey-blue, colour draining out of the world, warmth surviving only in small islands of lamplight. A cottage kitchen in late October, firelight and tea, a child's stuffed toy on the floor, a clock ticking on the shelf. A young couple lean towards a soft wet-eyed man with bright, relieved, trusting faces, asking him for a favour. Mood: intimate, horrifying."
+ },
+ {
+  "id": 41,
+  "file": "ch-41",
+  "chapter": "A Wall of Glass",
+  "aspect": "3:2",
+  "prompt": "Muted watercolor and ink book illustration in the tradition of classic British storybooks. Loose expressive linework, soft translucent washes, visible paper texture. Cinematic composition, strong single light source. Nostalgic and melancholic, a memory recalled decades later. Painterly and restrained, never photographic. No text, no letters, no captions, no borders, no watermark. Cooling palette: overcast grey-blue, colour draining out of the world, warmth surviving only in small islands of lamplight. A bare rented room at night: a young man sitting on the end of a borrowed bed, holding a small hand mirror and looking at his own reflection in it instead of the face he had been speaking to. Darkness all round him. Mood: isolated, regretful."
+ },
+ {
+  "id": 42,
+  "file": "ch-42",
+  "chapter": "The Last Week",
+  "aspect": "3:2",
+  "prompt": "Muted watercolor and ink book illustration in the tradition of classic British storybooks. Loose expressive linework, soft translucent washes, visible paper texture. Cinematic composition, strong single light source. Nostalgic and melancholic, a memory recalled decades later. Painterly and restrained, never photographic. No text, no letters, no captions, no borders, no watermark. Cooling palette: overcast grey-blue, colour draining out of the world, warmth surviving only in small islands of lamplight. Rain on a village lane at dusk on the last day of October, seen from the road: a young woman on the front step carving a pumpkin, the cottage windows lit gold behind her, wet leaves on the path. Mood: quiet, dread-laden."
+ },
+ {
+  "id": 43,
+  "file": "ch-43",
+  "chapter": "Part Three: The Longest Night",
+  "aspect": "3:2",
+  "prompt": "Muted watercolor and ink book illustration in the tradition of classic British storybooks. Loose expressive linework, soft translucent washes, visible paper texture. Cinematic composition, strong single light source. Nostalgic and melancholic, a memory recalled decades later. Painterly and restrained, never photographic. No text, no letters, no captions, no borders, no watermark. Ashen near-monochrome palette: night, smoke, fog and wet stone, with a single warm accent somewhere in the frame. The first grey light of the first of November: the silhouette of a small cottage with its roof torn open, thin smoke still standing straight up in the drizzle, dead leaves blown along an empty lane. No people anywhere. Mood: desolate, grieving."
+ },
+ {
+  "id": 44,
+  "file": "ch-44",
+  "chapter": "Halloween",
+  "aspect": "3:2",
+  "prompt": "Muted watercolor and ink book illustration in the tradition of classic British storybooks. Loose expressive linework, soft translucent washes, visible paper texture. Cinematic composition, strong single light source. Nostalgic and melancholic, a memory recalled decades later. Painterly and restrained, never photographic. No text, no letters, no captions, no borders, no watermark. Ashen near-monochrome palette: night, smoke, fog and wet stone, with a single warm accent somewhere in the frame. A tall cloaked figure walking down the middle of a village lane through falling leaves on Halloween night, past lit windows and small children in paper masks who do not look up. Ahead of him a hidden cottage appears as though a curtain had been drawn aside: lit windows, a garden gate, a pumpkin on the step. Mood: inexorable, dreadful."
+ },
+ {
+  "id": 45,
+  "file": "ch-45",
+  "chapter": "The Ruined House",
+  "aspect": "3:2",
+  "prompt": "Muted watercolor and ink book illustration in the tradition of classic British storybooks. Loose expressive linework, soft translucent washes, visible paper texture. Cinematic composition, strong single light source. Nostalgic and melancholic, a memory recalled decades later. Painterly and restrained, never photographic. No text, no letters, no captions, no borders, no watermark. Ashen near-monochrome palette: night, smoke, fog and wet stone, with a single warm accent somewhere in the frame. The inside of a wrecked cottage seen from the blown-in front door: an empty hallway, the staircase beyond it, and through a doorway a wand lying forgotten on the arm of a sofa. Plaster dust in the air, half the ceiling down, no figures. Mood: hollow, unbearable."
+ },
+ {
+  "id": 46,
+  "file": "ch-46",
+  "chapter": "Take the Motorbike",
+  "aspect": "3:2",
+  "prompt": "Muted watercolor and ink book illustration in the tradition of classic British storybooks. Loose expressive linework, soft translucent washes, visible paper texture. Cinematic composition, strong single light source. Nostalgic and melancholic, a memory recalled decades later. Painterly and restrained, never photographic. No text, no letters, no captions, no borders, no watermark. Ashen near-monochrome palette: night, smoke, fog and wet stone, with a single warm accent somewhere in the frame. The dark garden of a smoking, roof-torn cottage in cold rain: a hollow-eyed young man lifts a baby with a fresh lightning-shaped cut on his forehead up into the arms of a weeping giant, while a big black motorbike stands beside them. Mood: shattered, sacrificial."
+ },
+ {
+  "id": 47,
+  "file": "ch-47",
+  "chapter": "Twelve People on a Street",
+  "aspect": "3:2",
+  "prompt": "Muted watercolor and ink book illustration in the tradition of classic British storybooks. Loose expressive linework, soft translucent washes, visible paper texture. Cinematic composition, strong single light source. Nostalgic and melancholic, a memory recalled decades later. Painterly and restrained, never photographic. No text, no letters, no captions, no borders, no watermark. Ashen near-monochrome palette: night, smoke, fog and wet stone, with a single warm accent somewhere in the frame. A London street at midday blown open: a smoking crater in the pavement, wreckage and abandoned shopping, twenty cloaked figures with wands drawn forming a ring around one man standing alone in the middle of it. A drain grate in the foreground. Mood: monstrous, tragic."
+ },
+ {
+  "id": 48,
+  "file": "ch-48",
+  "chapter": "No Trial",
+  "aspect": "3:2",
+  "prompt": "Muted watercolor and ink book illustration in the tradition of classic British storybooks. Loose expressive linework, soft translucent washes, visible paper texture. Cinematic composition, strong single light source. Nostalgic and melancholic, a memory recalled decades later. Painterly and restrained, never photographic. No text, no letters, no captions, no borders, no watermark. Ashen near-monochrome palette: night, smoke, fog and wet stone, with a single warm accent somewhere in the frame. A stone cell in a sea fortress: one barred window high in the wall, grey light falling on a young man sitting on the floor with his back against the stone. Beyond the bars, black water to the horizon. Mood: cold, endless."
+ },
+ {
+  "id": 49,
+  "file": "ch-49",
+  "chapter": "The Empty World",
+  "aspect": "3:2",
+  "prompt": "Muted watercolor and ink book illustration in the tradition of classic British storybooks. Loose expressive linework, soft translucent washes, visible paper texture. Cinematic composition, strong single light source. Nostalgic and melancholic, a memory recalled decades later. Painterly and restrained, never photographic. No text, no letters, no captions, no borders, no watermark. Ashen near-monochrome palette: night, smoke, fog and wet stone, with a single warm accent somewhere in the frame. A grey shop doorway on a November morning: a shabby young man standing alone with a newspaper shaking in his hands, a front-page photograph of a ruined cottage and headlines stacked like graves. Behind him, out of focus, strangers in the street are celebrating. Mood: bereft, hollow."
+ },
+ {
+  "id": 50,
+  "file": "ch-50",
+  "chapter": "Twelve Years",
+  "aspect": "3:2",
+  "prompt": "Muted watercolor and ink book illustration in the tradition of classic British storybooks. Loose expressive linework, soft translucent washes, visible paper texture. Cinematic composition, strong single light source. Nostalgic and melancholic, a memory recalled decades later. Painterly and restrained, never photographic. No text, no letters, no captions, no borders, no watermark. Ashen near-monochrome palette: night, smoke, fog and wet stone, with a single warm accent somewhere in the frame. A rented room at the top of a flight of stairs: a narrow bed, a cheap table, a coat far older than the man wearing it, a calendar on the wall with circles drawn on it, and a heavy door with a lock at the bottom of the stairs. Mood: worn, solitary."
+ },
+ {
+  "id": 51,
+  "file": "ch-51",
+  "chapter": "A Teacher Again",
+  "aspect": "3:2",
+  "prompt": "Muted watercolor and ink book illustration in the tradition of classic British storybooks. Loose expressive linework, soft translucent washes, visible paper texture. Cinematic composition, strong single light source. Nostalgic and melancholic, a memory recalled decades later. Painterly and restrained, never photographic. No text, no letters, no captions, no borders, no watermark. Ashen near-monochrome palette: night, smoke, fog and wet stone, with a single warm accent somewhere in the frame. A dark classroom in the castle: a shabby tired teacher in a worn cardigan stands just behind a thirteen-year-old boy as a great silver stag comes out of the boy's wand and fills the whole room with light. Mood: luminous, aching."
+ },
+ {
+  "id": 52,
+  "file": "ch-52",
+  "chapter": "The Shrieking Shack",
+  "aspect": "3:2",
+  "prompt": "Muted watercolor and ink book illustration in the tradition of classic British storybooks. Loose expressive linework, soft translucent washes, visible paper texture. Cinematic composition, strong single light source. Nostalgic and melancholic, a memory recalled decades later. Painterly and restrained, never photographic. No text, no letters, no captions, no borders, no watermark. Ashen near-monochrome palette: night, smoke, fog and wet stone, with a single warm accent somewhere in the frame. A boarded upstairs room in a ruined house by night, moonlight coming through the gaps in the boards: a worn teacher out of breath in the doorway, a skeletal wild-haired man with his wand raised, and a soft balding man with wet eyes on his knees between them. Mood: feverish, final."
+ },
+ {
+  "id": 53,
+  "file": "ch-53",
+  "chapter": "Harry Stops Us",
+  "aspect": "3:2",
+  "prompt": "Muted watercolor and ink book illustration in the tradition of classic British storybooks. Loose expressive linework, soft translucent washes, visible paper texture. Cinematic composition, strong single light source. Nostalgic and melancholic, a memory recalled decades later. Painterly and restrained, never photographic. No text, no letters, no captions, no borders, no watermark. Ashen near-monochrome palette: night, smoke, fog and wet stone, with a single warm accent somewhere in the frame. The same boarded room: a thirteen-year-old boy in school clothes steps out between two raised wands and the man kneeling on the floor, his arms spread, saying no. Mood: brave, redemptive."
+ },
+ {
+  "id": 54,
+  "file": "ch-54",
+  "chapter": "What I Know About Friendship",
+  "aspect": "3:2",
+  "prompt": "Muted watercolor and ink book illustration in the tradition of classic British storybooks. Loose expressive linework, soft translucent washes, visible paper texture. Cinematic composition, strong single light source. Nostalgic and melancholic, a memory recalled decades later. Painterly and restrained, never photographic. No text, no letters, no captions, no borders, no watermark. Ashen near-monochrome palette: night, smoke, fog and wet stone, with a single warm accent somewhere in the frame. A spring morning at a desk by a window: an aging man with grey at his temples, a cup of cold tea, the small brass lamp with the green glass shade still burning, and an old parchment map spread open with tiny named footprints moving along its drawn corridors. Mood: elegiac, faithful."
+ },
+ {
+  "id": 100,
+  "file": "cover",
+  "cover": true,
+  "chapter": "обложка",
+  "aspect": "3:4",
+  "prompt": "Muted watercolor and ink book illustration in the tradition of classic British storybooks. Loose expressive linework, soft translucent washes, visible paper texture. Cinematic composition, strong single light source. Nostalgic and melancholic, a memory recalled decades later. Painterly and restrained, never photographic. No text, no letters, no captions, no borders, no watermark. Warm palette: amber candlelight and firelight against deep blue-grey shadows, golden autumn, Scottish green. A vertical book cover composition. An enormous full moon hangs high in the frame and fills the upper sky; below it, low across the bottom, runs a dark hilltop ridge. Along that ridge, in strong silhouette against the moonlight, a stag with new antlers, a big shaggy dog and a wolf move together in one direction. A little apart from them a small rat sits motionless, turned the other way. Wide empty sky above the animals with room to breathe at the top of the frame. Bold simple shapes and high contrast between the pale moon and the dark ridge, so the image still reads clearly when it is very small. Mood: iconic, mythic, quietly ominous."
+ }
 ]
