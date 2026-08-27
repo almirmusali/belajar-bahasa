@@ -102,3 +102,10 @@ public/audio/_samples/
 # черновики конвейера
 /.scratch
 /data/audio-tasks.jsonl
+
+# Иллюстрации книг: в репозиторий уезжают webp (~21 МБ), исходные PNG (~155 МБ)
+# остаются локально — они пересоздаются из data/reading/illustrations/*.prompts.json
+public/reading/kabut-di-lembang/*.png
+public/reading/perahu-terakhir/*.png
+public/reading/kabut-di-lembang.png
+public/reading/perahu-terakhir.png
