@@ -120,7 +120,10 @@ def main():
         if only is not None and scene["id"] not in only:
             continue
         if scene.get("cover"):
-            out = REPO / "public" / "reading" / (args.slug + ".png")
+            # Обложка — двухслойная: модель рисует только арт, текст кладёт
+            # scripts/make-book-cover.py. Иначе перерисовка арта затирала бы
+            # готовую обложку с типографикой.
+            out = REPO / "data" / "reading" / "illustrations" / (args.slug + ".cover-art.png")
         else:
             out = REPO / "public" / "reading" / args.slug / (scene["file"] + ".png")
         if out.exists() and scene["id"] not in redo:

@@ -113,14 +113,26 @@ COVER = (
     # читаемые на маленькой карточке в списке книг. Крыса, отвернувшаяся от своих,
     # говорит главное о книге без единого слова — и это не спойлер: имя предателя
     # названо на первой странице.
+    #
+    # Животных обязательно четверо — это смысл книги. В первой версии модель слепила
+    # пса и волка в одного зверя, поэтому они разведены и по масти, и по сложению.
     "A vertical book cover composition. An enormous full moon hangs high in the frame "
     "and fills the upper sky; below it, low across the bottom, runs a dark hilltop "
-    "ridge. Along that ridge, in strong silhouette against the moonlight, a stag with "
-    "new antlers, a big shaggy dog and a wolf move together in one direction. A little "
-    "apart from them a small rat sits motionless, turned the other way. Wide empty sky "
-    "above the animals with room to breathe at the top of the frame. Bold simple "
-    "shapes and high contrast between the pale moon and the dark ridge, so the image "
-    "still reads clearly when it is very small."
+    "ridge. Exactly four animals are on that ridge, clearly separated from each other "
+    "in strong silhouette against the moonlight. Three of them walk together in one "
+    "direction: a tall stag with wide antlers, then a heavy shaggy black dog, then a "
+    "lean pale-grey wolf with a long low body and a dropped head — the dog and the "
+    "wolf must be unmistakably different animals in colour, size and shape. Well apart "
+    "from the other three, at the far end of the ridge, a small rat sits motionless, "
+    "turned the other way. Wide empty sky above the animals with room to breathe at "
+    "the top of the frame. Bold simple shapes and high contrast between the pale moon "
+    "and the dark ridge, so the image still reads clearly when it is very small. "
+    # Нижняя треть намеренно пустая: там ляжет название, и текст не должен
+    # перечёркивать животных — из-за этого первая версия обложки не годилась.
+    "Composition for a book cover with a title: the ridge with the animals sits "
+    "in the middle of the frame, and the entire lower third of the picture is "
+    "plain dark empty ground with almost no detail in it, deliberately left "
+    "clear and quiet."
 )
 
 
