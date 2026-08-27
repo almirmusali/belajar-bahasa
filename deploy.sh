@@ -1,18 +1,23 @@
 #!/bin/bash
-# Обновляет живой сервис Belajar Bahasa на этой же машине (Mac Studio).
+# Обновляет живой сервис Belajar Bahasa на Mac Studio.
 #
-# Никакого ssh: рабочая копия и запущенный сервис лежат рядом, просто в разных
-# папках. Сервис поднят launchd-агентом com.almir.belajar-bahasa из ~/belajar-bahasa
-# командой `next start -H 0.0.0.0 8766`, а разработка идёт в ~/Code/belajar-bahasa.
+# Копия одна: launchd-агент com.almir.belajar-bahasa поднимает `next start`
+# прямо из этой папки (см. WorkingDirectory в plist). Раньше рядом жила вторая,
+# «живая» копия в ~/belajar-bahasa, и deploy.sh синхронизировал её через rsync —
+# но агент её не читал, так что обновлялась папка, которую никто не отдаёт,
+# а вместе с ней копились бэкапы на семь гигабайт. Копию убрали 27.08.2026.
+#
+# Отсюда и главное правило: картинки и прочая статика из public/ отдаются с диска
+# и видны сразу, а страницы книг статические (dynamicParams = false) — новые
+# иллюстрации и обложки появляются на сайте только после пересборки.
 #
 # Использование:
-#   ./deploy.sh          — синхронизировать, собрать, перезапустить
+#   ./deploy.sh          — собрать и перезапустить
 #   ./deploy.sh --logs   — показать логи сервиса
 
 set -euo pipefail
 
-SRC="$HOME/Code/belajar-bahasa"
-LIVE="$HOME/belajar-bahasa"
+APP="$HOME/Code/belajar-bahasa"
 LABEL="com.almir.belajar-bahasa"
 LOG="$HOME/Library/Logs/belajar-bahasa.log"
 PORT=8766
@@ -24,36 +29,23 @@ if [[ "${1:-}" == "--logs" ]]; then
     exit 0
 fi
 
-echo "→ $SRC  →  $LIVE"
+cd "$APP"
 
-# Бэкап исходников (без node_modules и .next — они восстановятся сборкой).
-BK="$LIVE.backup-$(date +%Y%m%d-%H%M%S)"
-rsync -a --exclude node_modules --exclude .next "$LIVE/" "$BK/"
-echo "✓ бэкап: $BK"
+# .env.local в git не уходит и живёт только здесь — без него сервис теряет
+# аналитику читалки и админку, поэтому проверяем до сборки, а не после.
+for key in SUPABASE_SERVICE_ROLE_KEY ADMIN_EMAILS; do
+    grep -qE "^${key}=." .env.local 2>/dev/null \
+        || echo "! в .env.local нет $key — /admin и аналитика работать не будут"
+done
 
-# node_modules не трогаем — он на живой стороне свой и совпадает с package.json.
-# .env* исключены намеренно: у живой копии может быть своя конфигурация,
-# перезаписать её локальной (где лежит только ключ Voicer) значило бы сломать
-# сервис и зря увезти секрет.
-rsync -a --delete \
-    --exclude '.git' \
-    --exclude 'node_modules' \
-    --exclude '.next' \
-    --exclude '.env' --exclude '.env.local' --exclude '.env.*.local' \
-    --exclude '.audio-tmp' \
-    --exclude 'public/audio/_samples' \
-    --exclude 'deploy.sh' \
-    "$SRC/" "$LIVE/"
-echo "✓ файлы синхронизированы"
-
-cd "$LIVE"
+echo "→ сборка в $APP"
 rm -rf .next
 npm run build
 
 launchctl kickstart -k "gui/$(id -u)/$LABEL"
 echo "✓ сервис $LABEL перезапущен"
 
-sleep 3
+sleep 4
 code=$(curl -s -o /dev/null -w '%{http_code}' "http://localhost:$PORT/" || echo "нет ответа")
 echo "→ http://localhost:$PORT/ → $code"
 show_logs

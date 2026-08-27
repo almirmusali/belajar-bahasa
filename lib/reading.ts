@@ -1,3 +1,4 @@
+import crypto from "node:crypto";
 import fs from "node:fs";
 import path from "node:path";
 
@@ -52,14 +53,41 @@ export function getGlossary(slug: string): Glossary {
 }
 
 /**
+ * Короткий хеш содержимого файла для URL картинки.
+ *
+ * Service worker кеширует изображения cache-first, рассчитывая на то, что имена
+ * статики content-hashed и старый файл «никогда не просрочен». Для сборочных
+ * файлов Next это так, а обложки и иллюстрации живут по постоянным адресам вроде
+ * /reading/the-marauders.png — и перерисованная картинка навсегда оставалась у
+ * читателя старой. Хеш в query возвращает то самое правило в силу: сменилось
+ * содержимое — сменился URL — кеш промахнулся.
+ *
+ * Считается на сборке (страницы книг статические), результат запоминается.
+ */
+const contentTags = new Map<string, string>();
+
+function contentTag(file: string): string {
+  const known = contentTags.get(file);
+  if (known) return known;
+  const tag = crypto
+    .createHash("sha1")
+    .update(fs.readFileSync(file))
+    .digest("hex")
+    .slice(0, 8);
+  contentTags.set(file, tag);
+  return tag;
+}
+
+/**
  * Обложка книги — файл public/reading/<slug>.(svg|png|jpg|webp).
  * Нет файла — вернётся null, и карточка нарисует запасную заглушку.
  */
 export function coverUrl(slug: string): string | null {
   const dir = path.join(process.cwd(), "public", "reading");
   for (const ext of ["svg", "webp", "png", "jpg", "jpeg"]) {
-    if (fs.existsSync(path.join(dir, `${slug}.${ext}`))) {
-      return `/reading/${slug}.${ext}`;
+    const file = path.join(dir, `${slug}.${ext}`);
+    if (fs.existsSync(file)) {
+      return `/reading/${slug}.${ext}?v=${contentTag(file)}`;
     }
   }
   return null;
@@ -72,8 +100,9 @@ export function coverUrl(slug: string): string | null {
 export function chapterIllustrationUrl(slug: string, chapterId: number): string | null {
   const dir = path.join(process.cwd(), "public", "reading", slug);
   for (const ext of ["webp", "png", "jpg", "jpeg"]) {
-    if (fs.existsSync(path.join(dir, `ch-${chapterId}.${ext}`))) {
-      return `/reading/${slug}/ch-${chapterId}.${ext}`;
+    const file = path.join(dir, `ch-${chapterId}.${ext}`);
+    if (fs.existsSync(file)) {
+      return `/reading/${slug}/ch-${chapterId}.${ext}?v=${contentTag(file)}`;
     }
   }
   return null;
