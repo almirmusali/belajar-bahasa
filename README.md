@@ -236,6 +236,29 @@ npm run skazki:webp     # PNG → WebP перед коммитом
 Silicon) — у неё появились флаги `--prompts` и `--out-dir`, чтобы один генератор
 обслуживал оба раздела.
 
+Целую книгу выгоднее рисовать не локально, а на арендованной карте — той же
+моделью, иначе рисунок поедет посреди книги:
+
+```bash
+cd ~/Code/video-factory && python server/vast.py up --profile quality
+cd ~/Code/video-factory && python server/vast.py tunnel --profile quality   # держать открытым
+./scripts/gen-skazki-gpu.sh ezhinka-ulya zimage
+cd ~/Code/video-factory && python server/vast.py destroy --profile quality
+```
+
+Замеры на RTX A6000, одни и те же промпты, 1.35 Мпикс:
+
+| модель | где | на кадр | вся книга (221) |
+|--------|-----|---------|-----------------|
+| Z-Image Turbo | аренда | ~18 с | ~1 час, ~$0.55 |
+| FLUX.2 dev | аренда | ~52 с | ~3 ч 15 мин |
+| Z-Image Turbo | студия, M1 Max | ~85 с | ~5 ч 15 мин (при 0.75 Мпикс) |
+
+Обложки собираются в два слоя: модель рисует арт без текста в
+`data/skazki/<slug>/art/`, название кладёт поверх `scripts/make-skazki-covers.py`
+(диффузия не умеет буквы). Поэтому перерисовка арта не затирает готовую обложку,
+а сменить название можно вообще без генерации.
+
 ## Экспресс — частицы и аффиксы
 
 Отдельная вкладка `/express`: модуль из 32 юнитов с интерактивным тренажёром.
