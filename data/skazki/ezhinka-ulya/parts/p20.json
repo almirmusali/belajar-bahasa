@@ -1,0 +1,135 @@
+{
+  "num": 20,
+  "title": "Праздник Первой Звезды",
+  "theme": "Подарок, который не купишь",
+  "teaser": "Праздник Первой Звезды. У всех есть подарки, а у Ули только один орех и то, что она помнит про каждого.",
+  "moral": "— Самый лучший подарок — это когда я помню про тебя, — сказала Уля.",
+  "cliffhanger": "За окном тихо-тихо падал снег. Уля подумала про Квафика. Он спит на дне пруда и видит сны. Весной он проснётся — и это будет уже новая история.",
+  "question": "А что ты помнишь про своего друга такого, чего не помнит больше никто?",
+  "blocks": [
+    {
+      "type": "text",
+      "text": "Уля проснулась и сразу вспомнила: сегодня Праздник Первой Звезды!\n\nУля потянула лапки — раз!\n\nПотянула иголки — два!\n\nИ побежала в кладовку: топ-топ-топ.\n\nВ кладовке было пусто. Ведь была зима, а зимой в кладовке всегда пусто.\n\nУля посмотрела под листиком — пусто.\n\nУля посмотрела в скорлупке — пусто.\n\nУля посмотрела в дальнем углу — и там лежал он.\n\nОдин орех. Большой-пребольшой. Уля берегла его с самой осени. Она не съела его, даже когда очень хотелось. А хотелось много раз.\n\nУля взяла орех в лапки и вздохнула.\n\n— Один орех, — сказала она. — А зверей на поляне много.\n\nТишка. Бума. Пик. Ворчун. Соня. Тётушка Ух. И мама.\n\n— И всем надо подарки, — сказала Уля. — А у меня один орех.\n\nИ ей стало грустно."
+    },
+    {
+      "type": "image",
+      "id": 2001,
+      "file": "p20-1",
+      "aspect": "3:2",
+      "alt": "В пустой зимней кладовке лежит один большой орех.",
+      "prompt": "Soft watercolour and coloured pencil children's picture book illustration for ages 3-6. Warm, cosy, gentle. Rounded friendly shapes, thick soft outlines, visible paper grain, soft edges. Cute anthropomorphic forest animals with big kind eyes and simple expressive faces. Flat simple background, few elements, lots of empty space. Bright but soft palette, never harsh. Storybook staging, clear silhouette, instantly readable. Hand-painted, never photographic, no 3D render, no glossy CGI, no anime. No text, no letters, no numbers, no captions, no borders, no watermark, no signature. Winter palette: white snow, pale blue shadows, grey-violet sky, dark tree trunks, exactly one warm spot of colour in the frame. Ulya, a small girl hedgehog, soft light-brown quills, round black nose, big friendly eyes, wearing a tiny acorn on a cord around her neck The little hedgehog stands in her small empty winter pantry under the tree roots; in the far corner lies one big brown nut, warm against the cool blue shadows. Mood: quiet, thoughtful."
+    },
+    {
+      "type": "text",
+      "text": "— Мама, — сказала Уля. — Сегодня праздник, а у меня нет подарков.\n\n— Совсем нет? — спросила мама.\n\n— У меня один орех. И всё.\n\nМама села рядом с ней на сухие листья.\n\n— А что у тебя ещё есть?\n\nУля посмотрела на свои лапки. Лапки были пустые.\n\n— Ничего, — сказала Уля. — Ни ягодки, ни шишки, ни грибочка.\n\n— У тебя есть память, — сказала мама.\n\n— Память? — не поняла Уля.\n\n— Ты помнишь про каждого что-то своё. То, чего не помнит больше никто.\n\n— Разве это подарок?\n\n— Самый лучший, — сказала мама. — Его нельзя найти в кладовке. И его нельзя потерять.\n\n— А как его дарят? — спросила Уля.\n\n— Словами, — сказала мама. — Или местом рядом с собой. По-разному.\n\nУля почти ничего не поняла. Но решила подумать.\n\n— Пойду посмотрю на праздник, — сказала она. — Может, придумаю."
+    },
+    {
+      "type": "image",
+      "id": 2002,
+      "file": "p20-2",
+      "aspect": "3:2",
+      "alt": "Мама говорит Уле, что у неё есть память.",
+      "prompt": "Soft watercolour and coloured pencil children's picture book illustration for ages 3-6. Warm, cosy, gentle. Rounded friendly shapes, thick soft outlines, visible paper grain, soft edges. Cute anthropomorphic forest animals with big kind eyes and simple expressive faces. Flat simple background, few elements, lots of empty space. Bright but soft palette, never harsh. Storybook staging, clear silhouette, instantly readable. Hand-painted, never photographic, no 3D render, no glossy CGI, no anime. No text, no letters, no numbers, no captions, no borders, no watermark, no signature. Winter palette: white snow, pale blue shadows, grey-violet sky, dark tree trunks, exactly one warm spot of colour in the frame. Ulya's mother, a big warm hedgehog with soft brown quills Ulya, a small girl hedgehog, soft light-brown quills, round black nose, big friendly eyes, wearing a tiny acorn on a cord around her neck The big mother hedgehog sits beside the small one on dry leaves inside the burrow with one paw on her shoulder, talking gently. A single warm lamp glows behind them. Mood: tender, warm."
+    },
+    {
+      "type": "text",
+      "text": "На поляне уже готовили праздник.\n\nВорчун вешал на рябину фонарики. Он повесил один — раз. Повесил два. Повесил три. И все они висели криво, потому что Ворчун вешал их на глаз.\n\n— Криво! — крикнул ему Тишка.\n\n— ЧТО? — сказал Ворчун.\n\n— КРАСИВО! — крикнул Тишка. И подмигнул Уле.\n\nТишка носил шишки и складывал их горкой.\n\nБума прыгала выше всех и вешала фонарики на самые высокие ветки. Оп! Оп! Оп!\n\nА Пик пробовал ягоды. Он говорил, что это очень нужная работа: вдруг ягоды невкусные.\n\n— Уля! — крикнул Тишка. — А ты чего сидишь?\n\n— Думаю, — сказала Уля.\n\n— А что ты всем подаришь? — спросил Пик с полным ртом.\n\n— Не знаю, — честно сказала Уля.\n\n— Как это — не знаешь? — удивился Пик. — Праздник же сегодня!\n\n— Вот и думаю, — сказала Уля."
+    },
+    {
+      "type": "image",
+      "id": 2003,
+      "file": "p20-3",
+      "aspect": "3:2",
+      "alt": "Ворчун вешает на рябину кривые фонарики.",
+      "prompt": "Soft watercolour and coloured pencil children's picture book illustration for ages 3-6. Warm, cosy, gentle. Rounded friendly shapes, thick soft outlines, visible paper grain, soft edges. Cute anthropomorphic forest animals with big kind eyes and simple expressive faces. Flat simple background, few elements, lots of empty space. Bright but soft palette, never harsh. Storybook staging, clear silhouette, instantly readable. Hand-painted, never photographic, no 3D render, no glossy CGI, no anime. No text, no letters, no numbers, no captions, no borders, no watermark, no signature. Winter palette: white snow, pale blue shadows, grey-violet sky, dark tree trunks, exactly one warm spot of colour in the frame. Vorchun, a big badger with a black and white striped face, gentle despite his size Buma, a white rabbit girl with grey ears and long legs The big badger hangs small yellow paper lanterns on a bare rowan tree, all of them crooked, while the long-legged white rabbit jumps high to hang one on a top branch. Mood: busy, festive."
+    },
+    {
+      "type": "text",
+      "text": "Уля села на пенёк.\n\nОна думала про Пика. Как он поднял свои большие уши в метель.\n\nОна думала про Тишку. Про гром и про дупло.\n\nОна думала про Ворчуна. Как все раньше бежали от его холма.\n\nОна думала про Буму. Как та всегда стоит с краю.\n\nОна думала про маму. Как мама держала в лапке травку и не выпустила её под снегом.\n\nУля вспоминала, вспоминала, вспоминала.\n\nИ вдруг подпрыгнула прямо с пенька.\n\n— Я поняла! — сказала она. — Я знаю, что подарю!\n\n— Что? — крикнул Тишка.\n\n— Увидишь! — крикнула Уля.\n\nИ побежала домой за орехом. Топ-топ-топ-топ-топ!\n\nМама сидела у входа.\n\n— Придумала? — спросила мама.\n\n— Придумала! — сказала Уля. — Ты была права. Оно всё время было со мной."
+    },
+    {
+      "type": "image",
+      "id": 2004,
+      "file": "p20-4",
+      "aspect": "3:2",
+      "alt": "Уля сидит на пеньке и вспоминает про друзей.",
+      "prompt": "Soft watercolour and coloured pencil children's picture book illustration for ages 3-6. Warm, cosy, gentle. Rounded friendly shapes, thick soft outlines, visible paper grain, soft edges. Cute anthropomorphic forest animals with big kind eyes and simple expressive faces. Flat simple background, few elements, lots of empty space. Bright but soft palette, never harsh. Storybook staging, clear silhouette, instantly readable. Hand-painted, never photographic, no 3D render, no glossy CGI, no anime. No text, no letters, no numbers, no captions, no borders, no watermark, no signature. Winter palette: white snow, pale blue shadows, grey-violet sky, dark tree trunks, exactly one warm spot of colour in the frame. Ulya, a small girl hedgehog, soft light-brown quills, round black nose, big friendly eyes, wearing a tiny acorn on a cord around her neck The little hedgehog sits alone on a snowy tree stump with her chin on her paw, thinking hard; behind her one warm lantern glows on a branch. Mood: thoughtful, hopeful."
+    },
+    {
+      "type": "text",
+      "text": "Вечером все собрались под рябиной.\n\nНебо было синее-синее. Ещё не тёмное, но уже не светлое.\n\nФонарики Ворчуна горели жёлтым. Снег под ними тоже стал жёлтый и тёплый.\n\n— Смотрите наверх! — сказал Ворчун. — Сейчас!\n\nВсе задрали носы. И стали считать вместе:\n\n— Раз!\n\n— Два!\n\n— Три!\n\nИ на небе загорелась первая звезда. Маленькая и очень яркая.\n\n— С праздником! — закричали звери. — С Праздником Первой Звезды!\n\n— Ура! — закричал Пик.\n\n— УРА! — закричал Ворчун громче всех.\n\nА Соня проснулась и тоже сказала «ура», только тихо и с зевком.\n\n— А почему праздник называется так? — спросила Бума.\n\n— Потому что первую звезду ждут все вместе, — сказала мама. — И никто не начинает без других.\n\nУля посмотрела на звезду. Звезда была совсем маленькая, а видно её было всем."
+    },
+    {
+      "type": "image",
+      "id": 2005,
+      "file": "p20-5",
+      "aspect": "3:2",
+      "alt": "Все смотрят вверх и ждут первую звезду.",
+      "prompt": "Soft watercolour and coloured pencil children's picture book illustration for ages 3-6. Warm, cosy, gentle. Rounded friendly shapes, thick soft outlines, visible paper grain, soft edges. Cute anthropomorphic forest animals with big kind eyes and simple expressive faces. Flat simple background, few elements, lots of empty space. Bright but soft palette, never harsh. Storybook staging, clear silhouette, instantly readable. Hand-painted, never photographic, no 3D render, no glossy CGI, no anime. No text, no letters, no numbers, no captions, no borders, no watermark, no signature. Winter palette: white snow, pale blue shadows, grey-violet sky, dark tree trunks, exactly one warm spot of colour in the frame. Ulya, a small girl hedgehog, soft light-brown quills, round black nose, big friendly eyes, wearing a tiny acorn on a cord around her neck Tishka, a red squirrel kit with a huge fluffy tail Pik, a small grey mouse with very big round ears and a long thin tail Three small animals stand in the snow with their noses turned up to a deep blue evening sky where one bright star has just appeared above the rowan tree. Mood: wonder, joy."
+    },
+    {
+      "type": "text",
+      "text": "Потом стали дарить подарки.\n\nВорчун подарил каждому по жёлудю на шнурке. Он сам их выточил у себя на холме. Простые деревянные жёлуди, самые обычные, совсем не волшебные.\n\n— Чтобы у каждого был свой, — сказал Ворчун. — Как у Ули.\n\nТишка подарил всем шишки — по большой каждому. Бума подарила снежные шарики, круглые и гладкие, она катала их весь день.\n\nА Пик подошёл к Уле и протянул ей кусочек своего орешка. Самый большой кусочек.\n\n— Держи, — сказал Пик. — Я его не съел. Хотя очень-очень хотел.\n\n— Спасибо, — сказала Уля.\n\nИ тут все посмотрели на неё. Была её очередь.\n\nА у Ули не было мешка с подарками. У Ули вообще ничего не было в лапках."
+    },
+    {
+      "type": "image",
+      "id": 2006,
+      "file": "p20-6",
+      "aspect": "3:2",
+      "alt": "Ворчун раздаёт всем жёлуди на шнурках.",
+      "prompt": "Soft watercolour and coloured pencil children's picture book illustration for ages 3-6. Warm, cosy, gentle. Rounded friendly shapes, thick soft outlines, visible paper grain, soft edges. Cute anthropomorphic forest animals with big kind eyes and simple expressive faces. Flat simple background, few elements, lots of empty space. Bright but soft palette, never harsh. Storybook staging, clear silhouette, instantly readable. Hand-painted, never photographic, no 3D render, no glossy CGI, no anime. No text, no letters, no numbers, no captions, no borders, no watermark, no signature. Winter palette: white snow, pale blue shadows, grey-violet sky, dark tree trunks, exactly one warm spot of colour in the frame. Vorchun, a big badger with a black and white striped face, gentle despite his size Tishka, a red squirrel kit with a huge fluffy tail The big badger bends down and hands out little wooden acorns on cords to the small animals gathered around him in the snow. Mood: generous, cosy."
+    },
+    {
+      "type": "text",
+      "text": "Уля вышла в середину. Ей было чуть-чуть страшно.\n\n— У меня нет подарков для всех, — сказала она. — У меня есть кое-что другое.\n\nОна позвала:\n\n— Пик!\n\nПик подошёл. Уля достала из-за спины свой большой орех.\n\n— Я берегла его с осени, — сказала Уля. — Всю зиму. Я его не съела ни разу, хотя очень хотелось. Он твой.\n\n— Мне? — пискнул Пик.\n\n— Тебе. Потому что ты всегда голодный. И потому что в метель маму услышал ты.\n\nПик взял орех двумя лапками. Орех был больше его головы.\n\n— Ой, — сказал Пик. И больше ничего сказать не смог.\n\nОн повернул орех так и сяк. Понюхал. И вдруг протянул его обратно.\n\n— Давай пополам?\n\n— Нет, — засмеялась Уля. — Он весь твой. А пополам мы съедим завтра."
+    },
+    {
+      "type": "image",
+      "id": 2007,
+      "file": "p20-7",
+      "aspect": "3:2",
+      "alt": "Уля дарит Пику свой самый большой орех.",
+      "prompt": "Soft watercolour and coloured pencil children's picture book illustration for ages 3-6. Warm, cosy, gentle. Rounded friendly shapes, thick soft outlines, visible paper grain, soft edges. Cute anthropomorphic forest animals with big kind eyes and simple expressive faces. Flat simple background, few elements, lots of empty space. Bright but soft palette, never harsh. Storybook staging, clear silhouette, instantly readable. Hand-painted, never photographic, no 3D render, no glossy CGI, no anime. No text, no letters, no numbers, no captions, no borders, no watermark, no signature. Winter palette: white snow, pale blue shadows, grey-violet sky, dark tree trunks, exactly one warm spot of colour in the frame. Ulya, a small girl hedgehog, soft light-brown quills, round black nose, big friendly eyes, wearing a tiny acorn on a cord around her neck Pik, a small grey mouse with very big round ears and a long thin tail The hedgehog holds out a very big brown nut to the little mouse, who takes it with both paws; the nut is bigger than his head. Mood: joyful, moved."
+    },
+    {
+      "type": "text",
+      "text": "— Тишка! — позвала Уля.\n\nТишка прыгнул поближе.\n\n— У меня для тебя нет вещи, — сказала Уля. — У меня есть то, что я помню. Помнишь, ты боялся грома? Ты прятался в дупло и дрожал хвостом.\n\n— Ну помню, — сказал Тишка тихо. — Чего вспоминать-то.\n\n— А осенью был гром. Большой. И ты не спрятался. Ты сидел на ветке и держал Буму за лапу, чтобы ей не было страшно.\n\nТишка молчал.\n\n— Я это помню, — сказала Уля. — И никто, кроме меня, не помнит. А теперь будешь помнить и ты.\n\nТишка стал совсем красный. Даже краснее своего хвоста.\n\nПотом Уля повернулась к холму, набрала полный носик воздуха и крикнула во весь голос:\n\n— ВОРЧУН! ТЕБЯ БОЛЬШЕ НИКТО НЕ БОИТСЯ! ВООБЩЕ НИКТО!\n\nВорчун услышал с первого раза. Он не сказал «ЧТО?».\n\nОн моргнул. Потом вытер глаз лапой.\n\n— Снежинка попала, — сказал Ворчун. — Большая такая снежинка."
+    },
+    {
+      "type": "image",
+      "id": 2008,
+      "file": "p20-8",
+      "aspect": "3:2",
+      "alt": "Уля кричит Ворчуну на холм, и он вытирает глаз.",
+      "prompt": "Soft watercolour and coloured pencil children's picture book illustration for ages 3-6. Warm, cosy, gentle. Rounded friendly shapes, thick soft outlines, visible paper grain, soft edges. Cute anthropomorphic forest animals with big kind eyes and simple expressive faces. Flat simple background, few elements, lots of empty space. Bright but soft palette, never harsh. Storybook staging, clear silhouette, instantly readable. Hand-painted, never photographic, no 3D render, no glossy CGI, no anime. No text, no letters, no numbers, no captions, no borders, no watermark, no signature. Winter palette: white snow, pale blue shadows, grey-violet sky, dark tree trunks, exactly one warm spot of colour in the frame. Ulya, a small girl hedgehog, soft light-brown quills, round black nose, big friendly eyes, wearing a tiny acorn on a cord around her neck Vorchun, a big badger with a black and white striped face, gentle despite his size The tiny hedgehog shouts up the snowy hill with both paws around her mouth; the big badger stands still and wipes one eye with his paw. One warm lantern glows beside him. Mood: moving, warm."
+    },
+    {
+      "type": "text",
+      "text": "— Бума! — позвала Уля последней.\n\nБума стояла с краю. Она всегда стояла с краю, потому что пришла на поляну позже всех.\n\nУля подвинулась на бревне и похлопала лапкой рядом с собой.\n\n— Вот, — сказала Уля. — Это твоё место. Рядом со мной.\n\nБума посмотрела на место. Потом на Улю. Потом опять на место.\n\n— Моё? — спросила она тихо.\n\n— Твоё, — сказала Уля. — Оно всегда твоё. И я его никому не отдам. Даже Пику.\n\n— Эй! — сказал Пик, но он был не в обиде, потому что грыз орех.\n\nБума села. Она села очень осторожно, как будто место могло сломаться.\n\nПотом придвинулась поближе.\n\n— Спасибо, — сказала Бума. — Это самый хороший подарок. Мне ещё никогда не давали место.\n\n— Теперь есть, — сказала Уля. — Насовсем.\n\nИ они сели рядышком, плечо к плечу."
+    },
+    {
+      "type": "image",
+      "id": 2009,
+      "file": "p20-9",
+      "aspect": "3:2",
+      "alt": "Уля хлопает по месту рядом с собой, и Бума садится.",
+      "prompt": "Soft watercolour and coloured pencil children's picture book illustration for ages 3-6. Warm, cosy, gentle. Rounded friendly shapes, thick soft outlines, visible paper grain, soft edges. Cute anthropomorphic forest animals with big kind eyes and simple expressive faces. Flat simple background, few elements, lots of empty space. Bright but soft palette, never harsh. Storybook staging, clear silhouette, instantly readable. Hand-painted, never photographic, no 3D render, no glossy CGI, no anime. No text, no letters, no numbers, no captions, no borders, no watermark, no signature. Winter palette: white snow, pale blue shadows, grey-violet sky, dark tree trunks, exactly one warm spot of colour in the frame. Ulya, a small girl hedgehog, soft light-brown quills, round black nose, big friendly eyes, wearing a tiny acorn on a cord around her neck Buma, a white rabbit girl with grey ears and long legs Ulya pats the snowy log right beside her and the white rabbit girl sits down next to her; the two sit shoulder to shoulder. One warm lantern hangs above them. Mood: belonging, gentle."
+    },
+    {
+      "type": "text",
+      "text": "И тут случилось вот что.\n\nЖёлудь на шее у Пика засветился. Тёплый-тёплый. И загудел: жу-жу-жу.\n\nПотом засветился жёлудь у Тишки. Жу-жу-жу.\n\nПотом у Бумы. Потом у Ворчуна. Потом у Сони, которая как раз проснулась. Потом у Тётушки Ух на ветке.\n\nИ у мамы.\n\nА потом засветился и Улин жёлудь — тот самый, который погас в тёмном лесу и больше не горел.\n\nВся поляна стала жёлтая и тёплая. Огонёк, огонёк, огонёк — и ещё огонёк. И ещё, и ещё.\n\n— Мама, — прошептала Уля. — Почему они все горят?\n\n— Они горят, когда кто-то заметил другого, — сказала мама. — Раньше на поляне замечала только ты. А теперь умеют все.\n\nУля посмотрела вокруг и стала считать огоньки. Раз, два, три, четыре... Огоньков было ровно столько же, сколько зверей на поляне.\n\n— Значит, теперь никто не останется один, — сказала Уля.\n\n— Значит, так, — сказала мама."
+    },
+    {
+      "type": "image",
+      "id": 2010,
+      "file": "p20-10",
+      "aspect": "3:2",
+      "alt": "На всей поляне у каждого зверя светится жёлудь.",
+      "prompt": "Soft watercolour and coloured pencil children's picture book illustration for ages 3-6. Warm, cosy, gentle. Rounded friendly shapes, thick soft outlines, visible paper grain, soft edges. Cute anthropomorphic forest animals with big kind eyes and simple expressive faces. Flat simple background, few elements, lots of empty space. Bright but soft palette, never harsh. Storybook staging, clear silhouette, instantly readable. Hand-painted, never photographic, no 3D render, no glossy CGI, no anime. No text, no letters, no numbers, no captions, no borders, no watermark, no signature. Winter night palette: deep blue darkness and one warm yellow glow, never black. White snow, pale blue shadows, dark tree trunks. Ulya, a small girl hedgehog, soft light-brown quills, round black nose, big friendly eyes, wearing a tiny acorn on a cord around her neck Ulya's mother, a big warm hedgehog with soft brown quills Pik, a small grey mouse with very big round ears and a long thin tail A wide view of the whole snowy clearing under the rowan tree at night: every animal, big and small, wears a little acorn on a cord and all of the acorns glow warm yellow together, filling the deep blue night with small golden lights. Mood: magical, warm, happy."
+    },
+    {
+      "type": "text",
+      "text": "Праздник кончился поздно.\n\nЕли рябину. Пели песни. Тишка съехал с горки прямо в сугроб, и его откапывали всем праздником.\n\nА потом звери пошли по домам.\n\nИ на снегу качались маленькие жёлтые огоньки: один пошёл на сосну, один на холм, один за ручей, один под большой пень.\n\nУля стояла и смотрела, пока последний огонёк не пропал за деревьями.\n\nБыло тихо-тихо. Только снег скрипел под лапками: скрип-скрип.\n\n— Хороший был праздник, — сказала мама.\n\n— Самый хороший, — сказала Уля. — Мама, а тебе я ничего не подарила.\n\n— Подарила, — сказала мама. — Ты пришла за мной в метель. Такой подарок мне на всю жизнь хватит.\n\nУля уткнулась носиком маме в бок.\n\nУля пришла домой. Мама обняла её крепко-крепко.\n\nУля легла в кроватку и закрыла глазки."
+    }
+  ]
+}

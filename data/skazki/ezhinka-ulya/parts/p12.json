@@ -1,0 +1,135 @@
+{
+  "num": 12,
+  "title": "Куда исчез Квафик",
+  "theme": "Расставание и ожидание",
+  "teaser": "Кочка у ручья пустая. Квафика нет нигде. И надо узнать, куда он делся и когда вернётся.",
+  "moral": "— Я скучаю по Квафику. Значит, я его люблю, — сказала Уля.",
+  "cliffhanger": "Утром мама позвала Улю. А Уля не встала. Лапки не хотели. Мама потрогала её носик. Носик был горячий.",
+  "question": "А по кому скучаешь ты, когда его долго нет рядом?",
+  "blocks": [
+    {
+      "type": "text",
+      "text": "Уля не спала.\n\nОна лежала в кроватке и думала про Квафика.\n\nКвафик — это лягушонок. Зелёный, глазки круглые. Он живёт на кочке у ручья. Он поёт лучше всех на поляне.\n\nВчера был праздник снега. Пришли все.\n\nПришёл Пик. Пришёл Тишка. Пришла Бума. Пришли Ворчун и Соня.\n\nА Квафик не пришёл.\n\nУля повернулась на другой бочок. Потом на спинку. Потом опять на бочок.\n\nСон не приходил.\n\nЗа стенкой норки было тихо. Снег лежал и молчал.\n\nНаконец стало светло.\n\nУля потянула лапки — раз!\n\nПотянула иголки — два!\n\nИ пошла на улицу: топ-топ-топ.\n\nНет. Не пошла. Побежала.\n\nСкрип-скрип-скрип-скрип! — кричал снег под лапками.\n\nУля бежала к ручью и звала:\n\n— Квафик! Ква-а-афик!"
+    },
+    {
+      "type": "image",
+      "id": 1201,
+      "file": "p12-1",
+      "aspect": "3:2",
+      "alt": "Уля бежит по снегу к ручью рано утром.",
+      "prompt": "Soft watercolour and coloured pencil children's picture book illustration for ages 3-6. Warm, cosy, gentle. Rounded friendly shapes, thick soft outlines, visible paper grain, soft edges. Cute anthropomorphic forest animals with big kind eyes and simple expressive faces. Flat simple background, few elements, lots of empty space. Bright but soft palette, never harsh. Storybook staging, clear silhouette, instantly readable. Hand-painted, never photographic, no 3D render, no glossy CGI, no anime. No text, no letters, no numbers, no captions, no borders, no watermark, no signature. Winter palette: white snow, pale blue shadows, grey-lilac morning sky, dark tree trunks, exactly one warm accent in the frame. Ulya, a small girl hedgehog, soft light-brown quills, round black nose, big friendly eyes, wearing a tiny acorn on a cord around her neck. Ulya runs alone across a wide empty snowfield towards a frozen stream, calling out. A long line of small prints trails behind her. Mood: hurried, anxious."
+    },
+    {
+      "type": "text",
+      "text": "Кочка была на месте.\n\nНо на кочке лежал снег. Ровный-ровный. Как будто на ней давно никто не сидел.\n\nУля подошла близко.\n\n— Квафик? — сказала она тихо.\n\nНикто не ответил.\n\n— Квафик, это я!\n\nТишина.\n\n— Квафик, ты где?\n\nНад ручьём было пусто. Ручей замёрз у бережка. Лёд был тонкий и блестел.\n\nУля обошла кочку кругом. Раз.\n\nОбошла второй раз.\n\nОбошла третий раз.\n\nНикого. Нигде. Ни одного зелёного пятнышка.\n\nВ животе у Ули стало холодно. Холоднее, чем снег.\n\nОна потрогала жёлудь на шнурке. Жёлудь не светился. Совсем.\n\n— Ну и что это значит? — сказала Уля жёлудю. — Он пропал, а ты молчишь!\n\nЖёлудь молчал. Он был холодный и обыкновенный.\n\nУля постучала по кочке лапкой.\n\nТук. Тук. Тук.\n\n— Квафик, если ты там, ответь.\n\nНо ответил только ветер. Он тронул камыши, и они сказали: ш-ш-ш."
+    },
+    {
+      "type": "image",
+      "id": 1202,
+      "file": "p12-2",
+      "aspect": "3:2",
+      "alt": "Уля стоит перед пустой кочкой, засыпанной снегом.",
+      "prompt": "Soft watercolour and coloured pencil children's picture book illustration for ages 3-6. Warm, cosy, gentle. Rounded friendly shapes, thick soft outlines, visible paper grain, soft edges. Cute anthropomorphic forest animals with big kind eyes and simple expressive faces. Flat simple background, few elements, lots of empty space. Bright but soft palette, never harsh. Storybook staging, clear silhouette, instantly readable. Hand-painted, never photographic, no 3D render, no glossy CGI, no anime. No text, no letters, no numbers, no captions, no borders, no watermark, no signature. Winter palette: white snow, pale blue shadows, grey-lilac sky, dark tree trunks, exactly one warm accent in the frame. Ulya, a small girl hedgehog, soft light-brown quills, round black nose, big friendly eyes, wearing a tiny acorn on a cord around her neck. Ulya stands very small in front of an empty snow-covered hummock beside a frozen stream. Nothing else is in the frame. Mood: empty, quiet."
+    },
+    {
+      "type": "text",
+      "text": "Уля побежала за друзьями.\n\nЧерез минуту все стояли у кочки.\n\n— Будем искать, — сказала Уля. — Он маленький. Он мог спрятаться.\n\nСначала искали под листиками у ручья.\n\nПоднимали листик — а под ним снег.\n\nПоднимали второй — а под ним снег.\n\nПоднимали третий — а под ним опять снег.\n\nПотом искали в камышах.\n\nКамыши были сухие и стучали: тук-тук-тук.\n\nБума раздвигала их лапами. Тишка залезал наверх. Пик пролезал внизу.\n\nНикого.\n\nПотом искали под старой елью. Там снега не было, там было мягко и темно.\n\n— Квафик! — кричали все. — Квафи-ик!\n\nЕль качала лапами. И больше ничего.\n\n— Три раза, — сказала Уля. — Три раза не нашли.\n\n— Может, он в гости ушёл? — сказал Тишка.\n\n— Он не ходит в гости. Он всегда на кочке.\n\n— Может, он под лёд ушёл?\n\n— Он же там утонет!\n\n— Лягушки не тонут, — сказала Бума. — Кажется.\n\n— Кажется — это не считается, — сказала Уля."
+    },
+    {
+      "type": "image",
+      "id": 1203,
+      "file": "p12-3",
+      "aspect": "3:2",
+      "alt": "Бума и Тишка ищут Квафика в сухих камышах у замёрзшего ручья.",
+      "prompt": "Soft watercolour and coloured pencil children's picture book illustration for ages 3-6. Warm, cosy, gentle. Rounded friendly shapes, thick soft outlines, visible paper grain, soft edges. Cute anthropomorphic forest animals with big kind eyes and simple expressive faces. Flat simple background, few elements, lots of empty space. Bright but soft palette, never harsh. Storybook staging, clear silhouette, instantly readable. Hand-painted, never photographic, no 3D render, no glossy CGI, no anime. No text, no letters, no numbers, no captions, no borders, no watermark, no signature. Winter palette: white snow, pale blue shadows, grey-lilac sky, dark tree trunks, exactly one warm accent in the frame. Buma, a white rabbit girl with grey ears and long legs. Tishka, a red squirrel kit with a huge fluffy tail. Buma parts the dry winter reeds with her paws while Tishka peers down from the top of them, both searching for someone. Mood: searching, careful."
+    },
+    {
+      "type": "text",
+      "text": "Уля села прямо в снег.\n\n— А вдруг с ним что-то случилось? — сказала она.\n\n— Может, его унесло ветром, — сказал Пик.\n\n— Пик!\n\n— Ну он же лёгкий!\n\n— Не говори так, — сказала Уля. И у неё задрожал голос.\n\nПик замолчал и подошёл поближе.\n\n— Извини, — сказал он. — Я болтаю, когда мне страшно.\n\n— Мне тоже страшно, — сказала Уля.\n\nОни сидели на снегу все вчетвером и молчали.\n\nСнег был холодный. Небо было серое.\n\n— Он же наш друг, — сказала Уля. — Он поёт лучше всех. Он всегда сидит на этой кочке. Он всегда тут.\n\n— А теперь не тут, — сказала Бума тихо.\n\nИ тут сверху кто-то сказал:\n\n— Кто это тут плачет на морозе?"
+    },
+    {
+      "type": "image",
+      "id": 1204,
+      "file": "p12-4",
+      "aspect": "3:2",
+      "alt": "Уля сидит в снегу, опустив голову, а Пик садится рядом.",
+      "prompt": "Soft watercolour and coloured pencil children's picture book illustration for ages 3-6. Warm, cosy, gentle. Rounded friendly shapes, thick soft outlines, visible paper grain, soft edges. Cute anthropomorphic forest animals with big kind eyes and simple expressive faces. Flat simple background, few elements, lots of empty space. Bright but soft palette, never harsh. Storybook staging, clear silhouette, instantly readable. Hand-painted, never photographic, no 3D render, no glossy CGI, no anime. No text, no letters, no numbers, no captions, no borders, no watermark, no signature. Winter palette: white snow, pale blue shadows, grey-lilac sky, dark tree trunks, exactly one warm accent in the frame. Ulya, a small girl hedgehog, soft light-brown quills, round black nose, big friendly eyes, wearing a tiny acorn on a cord around her neck. Pik, a small grey mouse with very big round ears and a long thin tail. Ulya sits down in the snow with her head lowered, and little Pik quietly sits down right next to her and leans in. Mood: sad, together."
+    },
+    {
+      "type": "text",
+      "text": "На ветке сидела Тётушка Ух.\n\nБольшая круглая сова. В круглых очках.\n\nОна медленно спустилась пониже.\n\n— Здравствуйте, — сказали все.\n\n— Здравствуйте, — сказала Тётушка Ух. Она всегда говорила негромко и не спеша. — Что случилось?\n\n— Квафик пропал, — сказала Уля. — Его нигде нет. Мы искали три раза.\n\nТётушка Ух поправила очки.\n\n— А какое сейчас время года?\n\n— Зима, — сказала Уля.\n\n— А кто такой Квафик?\n\n— Лягушонок.\n\n— Ага, — сказала Тётушка Ух. — Тогда я знаю, где он.\n\nВсе подскочили.\n\n— Где?!\n\n— Сейчас расскажу, — сказала Тётушка Ух. — Только сначала сядьте. Это длинный рассказ.\n\nВсе сели. Даже Пик сел и не перебивал.\n\n— Сначала я скажу самое главное, — сказала Тётушка Ух. — Квафик живой. И с ним всё хорошо.\n\nУля выдохнула: фу-у-у.\n\nЕй сразу стало легче. Прямо сразу."
+    },
+    {
+      "type": "image",
+      "id": 1205,
+      "file": "p12-5",
+      "aspect": "3:2",
+      "alt": "Тётушка Ух в круглых очках сидит на ветке над снегом.",
+      "prompt": "Soft watercolour and coloured pencil children's picture book illustration for ages 3-6. Warm, cosy, gentle. Rounded friendly shapes, thick soft outlines, visible paper grain, soft edges. Cute anthropomorphic forest animals with big kind eyes and simple expressive faces. Flat simple background, few elements, lots of empty space. Bright but soft palette, never harsh. Storybook staging, clear silhouette, instantly readable. Hand-painted, never photographic, no 3D render, no glossy CGI, no anime. No text, no letters, no numbers, no captions, no borders, no watermark, no signature. Winter palette: white snow, pale blue shadows, grey-lilac sky, dark tree trunks, exactly one warm accent in the frame. Auntie Ukh, a big round owl doctor with round glasses. Ulya, a small girl hedgehog, soft light-brown quills, round black nose, big friendly eyes, wearing a tiny acorn on a cord around her neck. The round owl doctor sits on a low snowy branch and bends down to speak gently to tiny Ulya below. Mood: calm, wise."
+    },
+    {
+      "type": "text",
+      "text": "— Лягушки зимой спят, — сказала Тётушка Ух.\n\n— Как ночью? — спросила Уля.\n\n— Дольше. Гораздо дольше. Всю зиму.\n\n— Всю-всю?\n\n— Всю-всю, — сказала Тётушка Ух. — Это называется спячка.\n\n— А где он спит?\n\nТётушка Ух показала крылом на ручей.\n\n— Там. На дне. Внизу, под илом и листиками. Там мягко. И там не бывает мороза.\n\n— А ему не холодно?\n\n— Нет. Ему как раз хорошо.\n\n— А ему не страшно одному?\n\n— Он спит, — сказала Тётушка Ух. — Когда спишь, не страшно.\n\nУля молчала и думала.\n\n— Значит, он не пропал?\n\n— Не пропал.\n\n— И не заболел?\n\n— И не заболел.\n\n— И он проснётся?\n\n— Проснётся, — сказала Тётушка Ух. — Когда снег растает и вода станет тёплая. Весной.\n\n— Точно-точно?\n\n— Точно-точно. Так каждый год. Он спал прошлой зимой. И позапрошлой.\n\n— А он нас не забудет?\n\n— Не забудет, — сказала Тётушка Ух. — Друзей во сне не забывают."
+    },
+    {
+      "type": "image",
+      "id": 1206,
+      "file": "p12-6",
+      "aspect": "3:2",
+      "alt": "Тётушка Ух показывает крылом на замёрзший ручей.",
+      "prompt": "Soft watercolour and coloured pencil children's picture book illustration for ages 3-6. Warm, cosy, gentle. Rounded friendly shapes, thick soft outlines, visible paper grain, soft edges. Cute anthropomorphic forest animals with big kind eyes and simple expressive faces. Flat simple background, few elements, lots of empty space. Bright but soft palette, never harsh. Storybook staging, clear silhouette, instantly readable. Hand-painted, never photographic, no 3D render, no glossy CGI, no anime. No text, no letters, no numbers, no captions, no borders, no watermark, no signature. Winter palette: white snow, pale blue shadows, grey-lilac sky, dark tree trunks, exactly one warm accent in the frame. Auntie Ukh, a big round owl doctor with round glasses. Ulya, a small girl hedgehog, soft light-brown quills, round black nose, big friendly eyes, wearing a tiny acorn on a cord around her neck. The owl stretches one wing to point at the frozen stream while Ulya follows the direction with her eyes. Mood: explaining, gentle."
+    },
+    {
+      "type": "text",
+      "text": "Уля посмотрела на лёд.\n\nПод ним была тёмная вода. И где-то там, глубоко-глубоко, спал Квафик.\n\nУля представила его.\n\nЗелёный. Круглый. Глазки закрыты. Лапки поджаты. Сверху мягкие листики, как одеяло.\n\n— А он видит сны? — спросила Уля.\n\n— Может быть, — сказала Тётушка Ух.\n\n— А про что?\n\n— Про лето, наверное. Про мошек. Про тёплую воду.\n\n— А он про нас видит?\n\nТётушка Ух подумала.\n\n— Думаю, да, — сказала она.\n\nПик шмыгнул носом.\n\n— А весна — это скоро?\n\n— Не скоро, — честно сказала Тётушка Ух. — Сначала будет долгая зима.\n\n— А сколько это?\n\n— Много-много дней, — сказала сова. — Я не буду тебя обманывать. Это долго.\n\nУля вздохнула.\n\n— Спасибо, что сказали правду, — сказала она.\n\n— Правду всегда легче ждать, чем непонятное, — сказала Тётушка Ух."
+    },
+    {
+      "type": "image",
+      "id": 1207,
+      "file": "p12-7",
+      "aspect": "3:2",
+      "alt": "Квафик спит под водой, укрытый листиками.",
+      "prompt": "Soft watercolour and coloured pencil children's picture book illustration for ages 3-6. Warm, cosy, gentle. Rounded friendly shapes, thick soft outlines, visible paper grain, soft edges. Cute anthropomorphic forest animals with big kind eyes and simple expressive faces. Flat simple background, few elements, lots of empty space. Bright but soft palette, never harsh. Storybook staging, clear silhouette, instantly readable. Hand-painted, never photographic, no 3D render, no glossy CGI, no anime. No text, no letters, no numbers, no captions, no borders, no watermark, no signature. Winter palette: deep soft blue water, pale blue shadows, dark silt, one warm accent. Kvafik, a small round green frog with big round eyes. Kvafik sleeps peacefully at the bottom of the stream with his eyes closed and his legs tucked in, tucked under a blanket of soft brown leaves. Calm blue water all around him. Mood: safe, sleeping."
+    },
+    {
+      "type": "text",
+      "text": "Тётушка Ух улетела.\n\nДрузья разошлись по домам обедать.\n\nА Уля осталась у кочки одна.\n\nОна села рядом и стала смотреть на лёд.\n\nПотом пришла мама. Она села рядом и ничего не сказала.\n\n— Мама, — сказала Уля. — Он спит.\n\n— Я знаю.\n\n— Он не пропал. С ним всё хорошо.\n\n— Да.\n\nУля помолчала.\n\n— А мне всё равно плохо, — сказала Уля.\n\nИ заплакала.\n\n— Я скучаю, — говорила Уля. — Я по нему скучаю. Я хочу, чтобы он сидел тут. Прямо сейчас.\n\nМама обняла её.\n\n— Скучать можно, — сказала мама. — Скучать не стыдно.\n\n— А когда это пройдёт?\n\n— Не сразу, — сказала мама. — Ты его любишь. Поэтому скучаешь. Одно без другого не бывает.\n\nОни сидели долго. И Уля плакала, сколько хотела.\n\nМама не говорила «не плачь». Мама не говорила «ничего страшного».\n\nМама просто была рядом и была тёплая.\n\nПотом слёзы кончились сами."
+    },
+    {
+      "type": "image",
+      "id": 1208,
+      "file": "p12-8",
+      "aspect": "3:2",
+      "alt": "Мама обнимает плачущую Улю на снегу у кочки.",
+      "prompt": "Soft watercolour and coloured pencil children's picture book illustration for ages 3-6. Warm, cosy, gentle. Rounded friendly shapes, thick soft outlines, visible paper grain, soft edges. Cute anthropomorphic forest animals with big kind eyes and simple expressive faces. Flat simple background, few elements, lots of empty space. Bright but soft palette, never harsh. Storybook staging, clear silhouette, instantly readable. Hand-painted, never photographic, no 3D render, no glossy CGI, no anime. No text, no letters, no numbers, no captions, no borders, no watermark, no signature. Winter palette: white snow, pale blue shadows, grey-lilac sky, dark tree trunks, exactly one warm accent in the frame. Ulya, a small girl hedgehog, soft light-brown quills, round black nose, big friendly eyes, wearing a tiny acorn on a cord around her neck. Ulya's mother, a big warm hedgehog with soft brown quills. The mother hedgehog sits in the snow beside the empty hummock and holds crying Ulya close, saying nothing. Mood: tender, allowed to be sad."
+    },
+    {
+      "type": "text",
+      "text": "Потом Уля вытерла нос лапкой.\n\n— Мама, а что делают, когда ждут?\n\n— Ждут, — сказала мама. — И готовят встречу.\n\n— Как это?\n\n— Ну вот я, когда ты уходишь гулять, грею тебе ужин. Чтобы ты пришла — и сразу тепло.\n\nУля подумала.\n\nПотом вскочила.\n\n— Я знаю! Я оставлю ему подарок! Чтобы он проснулся — и сразу увидел!\n\nОна побежала за друзьями. Она бежала так быстро, что снег летел во все стороны.\n\n— Все сюда! — кричала Уля. — Мы делаем подарок Квафику!\n\n— Он же спит, — сказал Пик.\n\n— Ну и что! Он же проснётся!\n\nИ все побежали собирать.\n\n— А что дарят лягушонку? — крикнул Тишка на бегу.\n\n— Красивое! — крикнула Уля. — Такое, чтобы издалека было видно!"
+    },
+    {
+      "type": "image",
+      "id": 1209,
+      "file": "p12-9",
+      "aspect": "3:2",
+      "alt": "Уля бежит за друзьями по снегу, и снег летит во все стороны.",
+      "prompt": "Soft watercolour and coloured pencil children's picture book illustration for ages 3-6. Warm, cosy, gentle. Rounded friendly shapes, thick soft outlines, visible paper grain, soft edges. Cute anthropomorphic forest animals with big kind eyes and simple expressive faces. Flat simple background, few elements, lots of empty space. Bright but soft palette, never harsh. Storybook staging, clear silhouette, instantly readable. Hand-painted, never photographic, no 3D render, no glossy CGI, no anime. No text, no letters, no numbers, no captions, no borders, no watermark, no signature. Winter palette: white snow, pale blue shadows, grey-lilac sky, dark tree trunks, exactly one warm accent in the frame. Ulya, a small girl hedgehog, soft light-brown quills, round black nose, big friendly eyes, wearing a tiny acorn on a cord around her neck. Ulya runs across the snow with her arms up, snow flying from under her feet, calling to her friends. Mood: bright, an idea."
+    },
+    {
+      "type": "text",
+      "text": "Бума принесла еловых веточек.\n\nТишка принёс красных ягод рябины.\n\nПик принёс орешек и на этот раз не съел его. Он очень старался.\n\n— Я держался, — сказал Пик. — Я даже не нюхал.\n\n— Молодец, — сказала Уля.\n\nУля сплела веточки в кружок. Получился венок.\n\nВ венок вплели ягодки. Красные на зелёном — очень красиво.\n\nВенок положили на кочку.\n\nПотом рядом поставили три камушка. Один на другой. Маленькая башенка.\n\n— Это чтобы он нас узнал, — сказала Уля.\n\n— А снег его засыплет, — сказал Пик.\n\n— А мы будем счищать, — сказала Уля. — Каждый день.\n\nВсе встали вокруг кочки.\n\n— Спи, Квафик, — сказала Уля. — Мы тебя ждём.\n\n— Ждём, — сказала Бума.\n\n— Ждём, — сказал Тишка.\n\n— Ждём, — сказал Пик.\n\nПотом Уля счистила снег с кочки лапками.\n\nШух. Шух. Шух.\n\nКочка стала чистая и тёмная. А венок лежал сверху и был очень заметный.\n\n— Вот, — сказала Уля. — Теперь он точно увидит."
+    },
+    {
+      "type": "image",
+      "id": 1210,
+      "file": "p12-10",
+      "aspect": "3:2",
+      "alt": "Друзья положили на кочку венок из веточек и красных ягод.",
+      "prompt": "Soft watercolour and coloured pencil children's picture book illustration for ages 3-6. Warm, cosy, gentle. Rounded friendly shapes, thick soft outlines, visible paper grain, soft edges. Cute anthropomorphic forest animals with big kind eyes and simple expressive faces. Flat simple background, few elements, lots of empty space. Bright but soft palette, never harsh. Storybook staging, clear silhouette, instantly readable. Hand-painted, never photographic, no 3D render, no glossy CGI, no anime. No text, no letters, no numbers, no captions, no borders, no watermark, no signature. Winter palette: white snow, pale blue shadows, grey-lilac evening sky, dark tree trunks, exactly one warm accent in the frame. Ulya, a small girl hedgehog, soft light-brown quills, round black nose, big friendly eyes, wearing a tiny acorn on a cord around her neck. Buma, a white rabbit girl with grey ears and long legs. A small wreath of fir twigs and red rowan berries lies on the snowy hummock, with a tiny stack of three pebbles beside it, and Ulya and Buma stand quietly in front of it. Mood: tender, waiting."
+    },
+    {
+      "type": "text",
+      "text": "Домой Уля шла медленно.\n\nСкрип. Скрип. Скрип.\n\nЕй всё ещё было грустно. Грусть не ушла. Она просто стала потише.\n\n— Мама, — сказала Уля. — А я буду каждое утро приходить к кочке.\n\n— Хорошо, — сказала мама.\n\n— И буду счищать с кочки снег. Каждый-каждый день.\n\n— Хорошо.\n\n— И буду говорить ему «доброе утро». Даже если он не слышит.\n\n— Он услышит, — сказала мама. — Не ушками. Как-нибудь по-другому.\n\nУ норки Уля остановилась и посмотрела назад.\n\nПоляна была белая и тихая. Снежный ёж стоял на месте. А далеко-далеко у ручья была маленькая кочка с венком.\n\n— До весны, Квафик, — сказала Уля.\n\nИ помахала лапкой. Хотя её никто не видел.\n\nУля пришла домой. Мама обняла её крепко-крепко.\n\nУля легла в кроватку и закрыла глазки."
+    }
+  ]
+}

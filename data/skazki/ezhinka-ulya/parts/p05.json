@@ -1,0 +1,135 @@
+{
+  "num": 5,
+  "title": "Барсук, которого все боялись",
+  "theme": "предвзятость, страх незнакомого",
+  "teaser": "Кладовка снова упала. Починить её может только один зверь в лесу — барсук Ворчун с холма. А его все боятся.",
+  "moral": "— Я боялась не барсука. Я боялась того, чего не знала, — сказала Уля.",
+  "cliffhanger": "Ворчун остановился на тропинке и обернулся.\n— ЗИМОЙ БУДЕТ МЕТЕЛЬ! — крикнул он. — НАДО ВСЕХ СОСЧИТАТЬ!\nУля посмотрела на маму. Кого — всех?",
+  "question": "А ты когда-нибудь боялась кого-то, а потом оказалось, что он добрый?",
+  "blocks": [
+    {
+      "type": "text",
+      "text": "Кладовка упала опять. Бум!\n\nУля открыла глаза. За окошком было серое утро.\n\nУля потянула лапки — раз!\nПотянула иголки — два!\nИ пошла на улицу: топ-топ-топ.\n\nШишки лежали везде. На тропинке. На мху. И даже в лужице.\n\nВчера из этих шишек была стенка. Сегодня это была просто куча.\n\nПришёл Пик. Пришёл Тишка. Все трое сели рядом с кучей.\n\n— Опять упала, — сказала Уля.\n— Опять, — сказал Пик.\n— Опять, — сказал Тишка.\n\nТри носа смотрели на кучу. Никто ничего не придумал.\n\n— Нам нужен мастер, — сказал Тишка.\n— А кто такой мастер? — спросила Уля.\n— Тот, кто умеет строить крепко.\n— А кто у нас умеет?\n\nТишка помолчал. Потом сказал совсем тихо:\n— Ворчун.\n\nИ все замолчали.\n\n— Ворчун? — пискнул Пик. — Барсук с холма?\n— Барсук с холма, — сказал Тишка.\n\nПик спрятался за листик. Только уши торчали.\n\n— Давайте к нему сходим, — сказала Уля.\n— Нет, — сказал Пик из-за листика.\n— Нет, — сказал Тишка с ветки.\n— Почему нет?\n— Потому что, — сказал Пик.\n— «Потому что» — это не ответ, — сказала Уля.\n\nПик подумал и сказал честно:\n— Потому что страшно.\n\n— Мне тоже страшно, — сказала Уля. — Но кладовка сама не построится."
+    },
+    {
+      "type": "image",
+      "id": 501,
+      "file": "p05-1",
+      "aspect": "3:2",
+      "alt": "Уля и Пик сидят возле упавшей кучи шишек.",
+      "prompt": "Soft watercolour and coloured pencil children's picture book illustration for ages 3-6. Warm, cosy, gentle. Rounded friendly shapes, thick soft outlines, visible paper grain, soft edges. Cute anthropomorphic forest animals with big kind eyes and simple expressive faces. Flat simple background, few elements, lots of empty space. Bright but soft palette, never harsh. Storybook staging, clear silhouette, instantly readable. Hand-painted, never photographic, no 3D render, no glossy CGI, no anime. No text, no letters, no numbers, no captions, no borders, no watermark, no signature. Autumn palette: warm ochre, red rowan berries, ginger foliage, soft green moss, brown earth, cream sky, low golden light. Ulya, a small girl hedgehog, soft light-brown quills, round black nose, big friendly eyes, wearing a tiny acorn on a cord around her neck. Pik, a small grey mouse with very big round ears and a long thin tail. Ulya and Pik sit on the ground in front of a collapsed heap of pine cones under a rowan tree. Their shoulders droop. Mood: disappointed, gentle."
+    },
+    {
+      "type": "text",
+      "text": "— А почему вам страшно? — спросила Уля.\n\n— Он большой, — сказал Пик.\n— Он громкий, — сказал Тишка.\n— И у него полосатая морда. Чёрная и белая. Как будто он в маске, — сказал Пик и спрятался обратно.\n\n— Мне говорили, что он рычит по ночам, — сказал Тишка.\n— А мне говорили, что он топает так, что земля дрожит, — сказал Пик.\n— А кто говорил? — спросила Уля.\n— Ну… кто-то говорил, — сказал Пик.\n\nУля подумала.\n\n— А он тебя когда-нибудь обижал?\n— Нет, — сказал Пик.\n— А тебя, Тишка?\n— Нет.\n— А вы его видели? Близко?\n\nПик посмотрел на Тишку. Тишка посмотрел на Пика.\n\n— Нет, — сказали оба разом.\n\n— Значит, вы его совсем не знаете, — сказала Уля.\n— Знаем! — сказал Пик. — Он страшный!\n— А может, он просто большой, — сказала Уля.\n\nИ ей тоже стало немножко страшно.\n\nУля посмотрела вверх. Там, за деревьями, стоял холм. Барсучий холм.\nТропинка к нему шла вверх и пропадала в высокой траве."
+    },
+    {
+      "type": "image",
+      "id": 502,
+      "file": "p05-2",
+      "aspect": "3:2",
+      "alt": "Три маленьких зверька смотрят на далёкий барсучий холм.",
+      "prompt": "Soft watercolour and coloured pencil children's picture book illustration for ages 3-6. Warm, cosy, gentle. Rounded friendly shapes, thick soft outlines, visible paper grain, soft edges. Cute anthropomorphic forest animals with big kind eyes and simple expressive faces. Flat simple background, few elements, lots of empty space. Bright but soft palette, never harsh. Storybook staging, clear silhouette, instantly readable. Hand-painted, never photographic, no 3D render, no glossy CGI, no anime. No text, no letters, no numbers, no captions, no borders, no watermark, no signature. Autumn palette: warm ochre, red rowan berries, ginger foliage, soft green moss, brown earth, cream sky, low golden light. Ulya, a small girl hedgehog, soft light-brown quills, round black nose, big friendly eyes, wearing a tiny acorn on a cord around her neck. Pik, a small grey mouse with very big round ears and a long thin tail. Tishka, a red squirrel kit with a huge fluffy tail. Ulya, Pik and Tishka stand close together at the end of a path and look up at a distant grassy hill with a round wooden door. Mood: uneasy, curious."
+    },
+    {
+      "type": "text",
+      "text": "Уля пошла к маме. Мама сушила грибы на верёвочке.\n\n— Мам. А Ворчун злой?\n\nМама положила грибок и села рядом с Улей.\n\n— Я его давно не видела, — сказала мама. — Он живёт один на холме.\n— Совсем один?\n— Совсем.\n— А почему?\n— Не знаю, — сказала мама. — Может, к нему никто не ходит.\n\n— А он умеет строить?\n— Говорят, он построил половину нор в нашем лесу.\n— Половину?! — сказала Уля.\n— Давно. Когда я была маленькая, как ты.\n\nУля потрогала свой жёлудь на шнурке.\n\n— Мам. Мне страшно к нему идти.\n— Ты боишься. Это бывает, — сказала мама.\n— А что делать, если страшно?\n— Можно взять с собой друзей. И можно идти медленно.\n\n— А если он не откроет?\n— Тогда вернётесь домой, — сказала мама. — И ничего плохого не случится.\n\nМама обняла Улю крепко.\n\n— Ты справишься.\n\nУля вышла из норки и сказала громко:\n— Идём к Ворчуну! Медленно!\n\nПик вздохнул. Тишка вздохнул.\nНо пошли."
+    },
+    {
+      "type": "image",
+      "id": 503,
+      "file": "p05-3",
+      "aspect": "3:2",
+      "alt": "Мама-ежиха обнимает Улю в норке, рядом сушатся грибы.",
+      "prompt": "Soft watercolour and coloured pencil children's picture book illustration for ages 3-6. Warm, cosy, gentle. Rounded friendly shapes, thick soft outlines, visible paper grain, soft edges. Cute anthropomorphic forest animals with big kind eyes and simple expressive faces. Flat simple background, few elements, lots of empty space. Bright but soft palette, never harsh. Storybook staging, clear silhouette, instantly readable. Hand-painted, never photographic, no 3D render, no glossy CGI, no anime. No text, no letters, no numbers, no captions, no borders, no watermark, no signature. Autumn palette: warm ochre, red rowan berries, ginger foliage, soft green moss, brown earth, cream sky, low golden light. Ulya, a small girl hedgehog, soft light-brown quills, round black nose, big friendly eyes, wearing a tiny acorn on a cord around her neck. Ulya's mother, a big warm hedgehog with soft brown quills. Ulya's mother hugs Ulya inside their cosy burrow. A string of drying mushrooms hangs behind them. Mood: safe, warm."
+    },
+    {
+      "type": "text",
+      "text": "Тропинка шла вверх.\n\nСначала мимо малинника. Потом мимо старой ели. Потом мимо большого камня.\n\nТоп-топ-топ. Шур-шур-шур.\n\n— Далеко ещё? — спросил Пик.\n— Не знаю, — сказала Уля.\n— А можно я подожду тут?\n— Можно, — сказала Уля.\n\nПик подумал немножко.\n— Нет. Я с вами.\n\nНаверху был холм. В холме была дверь. Круглая, из старых досок.\nДверь была выше мамы. И выше двух мам.\n\nРядом с дверью стояла тачка. Лежала куча брёвен. И стояла лопата.\n\n— Ой, — сказал Тишка. — Как страшно.\n— Как аккуратно, — сказала Уля.\n\nБрёвна лежали ровно-ровно. Одно к одному. И лопата стояла ровно.\n\n— Стучать буду я, — сказала Уля.\n— Хорошо, — сказал Пик и отошёл подальше.\n— Совсем хорошо, — сказал Тишка и залез на ветку.\n\nУля подошла к двери и постучала. Тук.\nТихо.\n\nПостучала ещё раз. Тук-тук.\nТихо.\n\nПостучала третий раз, изо всех сил. Тук-тук-тук!\n\nИ тогда из-за двери загремело:\n— ЧТО-О-О?!"
+    },
+    {
+      "type": "image",
+      "id": 504,
+      "file": "p05-4",
+      "aspect": "3:2",
+      "alt": "Уля стучит в круглую дверь на холме, Пик прячется сзади.",
+      "prompt": "Soft watercolour and coloured pencil children's picture book illustration for ages 3-6. Warm, cosy, gentle. Rounded friendly shapes, thick soft outlines, visible paper grain, soft edges. Cute anthropomorphic forest animals with big kind eyes and simple expressive faces. Flat simple background, few elements, lots of empty space. Bright but soft palette, never harsh. Storybook staging, clear silhouette, instantly readable. Hand-painted, never photographic, no 3D render, no glossy CGI, no anime. No text, no letters, no numbers, no captions, no borders, no watermark, no signature. Autumn palette: warm ochre, red rowan berries, ginger foliage, soft green moss, brown earth, cream sky, low golden light. Ulya, a small girl hedgehog, soft light-brown quills, round black nose, big friendly eyes, wearing a tiny acorn on a cord around her neck. Pik, a small grey mouse with very big round ears and a long thin tail. Ulya raises her paw and knocks on a round wooden door set into a grassy hill. Pik peeks out from behind her. Mood: nervous, brave."
+    },
+    {
+      "type": "text",
+      "text": "Пик прыгнул в траву. Тишка прыгнул на сосну. Уля прыгнула за тачку.\n\nДверь открылась. Скри-и-ип!\n\nИз двери вышел барсук.\n\nОн был большой. Очень большой. Он был выше кустов.\nЛапы у него были широкие, как лопаты.\nА морда полосатая: белая, чёрная, белая.\n\nБарсук понюхал воздух. Потом посмотрел вокруг.\n\n— КТО ТУТ? — крикнул он.\n\nУля сидела за тачкой. Сердце стучало: тук-тук-тук.\n\n— Мне страшно, — сказала Уля тихо-тихо.\n— И мне, — пискнул Пик из травы.\n— И мне, — пискнул Тишка с сосны.\n\n— А он нас съест? — прошептал Пик.\n— Барсуки не едят ежей, — сказала Уля. — Барсуки едят червяков.\n— А мышей? — пискнул Пик ещё тише.\n\nУля посидела ещё немножко. Посчитала про себя: раз, два, три.\nИ вышла из-за тачки.\n\nОна была маленькая. Он был большой.\n\n— Здравствуйте, — сказала Уля.\n— ЧТО? — крикнул барсук.\n\nУля попятилась назад.\nНо не убежала. Лапки хотели убежать, а Уля их не пустила."
+    },
+    {
+      "type": "image",
+      "id": 505,
+      "file": "p05-5",
+      "aspect": "3:2",
+      "alt": "Большой барсук стоит в дверях, а маленькая Уля выходит ему навстречу.",
+      "prompt": "Soft watercolour and coloured pencil children's picture book illustration for ages 3-6. Warm, cosy, gentle. Rounded friendly shapes, thick soft outlines, visible paper grain, soft edges. Cute anthropomorphic forest animals with big kind eyes and simple expressive faces. Flat simple background, few elements, lots of empty space. Bright but soft palette, never harsh. Storybook staging, clear silhouette, instantly readable. Hand-painted, never photographic, no 3D render, no glossy CGI, no anime. No text, no letters, no numbers, no captions, no borders, no watermark, no signature. Autumn palette: warm ochre, red rowan berries, ginger foliage, soft green moss, brown earth, cream sky, low golden light. Ulya, a small girl hedgehog, soft light-brown quills, round black nose, big friendly eyes, wearing a tiny acorn on a cord around her neck. Vorchun, a big badger with a black and white striped face, gentle despite his size. Vorchun stands filling the open doorway of his hill home. Tiny Ulya steps out from behind an old wheelbarrow to face him. Mood: scared, brave."
+    },
+    {
+      "type": "text",
+      "text": "— Здравствуйте! — сказала Уля громче.\n— ЧТО? ГОВОРИ ГРОМЧЕ! — крикнул барсук.\n\n— Он злится! — прошептал Пик. — Бежим!\n\nДрузья побежали вниз по тропинке. Топ-топ-топ!\n\nУля пробежала три шага и остановилась.\n\n— Ты чего стоишь?! — крикнул Пик снизу. — Он же кричит!\n— Он кричит. Но он не бежит за нами, — сказала Уля. — Злые бегут.\n\nИ тут жёлудь на шнурке стал тёплым.\n\nИ вдруг жёлудь на шнурке засветился. Тёплый-тёплый. И загудел: жу-жу-жу.\n— Кому-то нужна помощь! — сказала Уля.\n\nУля посмотрела вокруг. Пик был тут. Тишка был тут.\nНикто не плакал. Никто не потерялся. Никто не застрял.\n\nТогда Уля обернулась назад.\n\nЖёлудь светил вверх, на холм. Прямо на барсука.\n\n— Это ему нужна помощь, — сказала Уля.\n— Ему?! — сказал Пик. — Он же большой!\n— Большой тоже может быть один, — сказала Уля."
+    },
+    {
+      "type": "image",
+      "id": 506,
+      "file": "p05-6",
+      "aspect": "3:2",
+      "alt": "Жёлудь на шнурке светится и указывает лучом на холм.",
+      "prompt": "Soft watercolour and coloured pencil children's picture book illustration for ages 3-6. Warm, cosy, gentle. Rounded friendly shapes, thick soft outlines, visible paper grain, soft edges. Cute anthropomorphic forest animals with big kind eyes and simple expressive faces. Flat simple background, few elements, lots of empty space. Bright but soft palette, never harsh. Storybook staging, clear silhouette, instantly readable. Hand-painted, never photographic, no 3D render, no glossy CGI, no anime. No text, no letters, no numbers, no captions, no borders, no watermark, no signature. Autumn palette: warm ochre, red rowan berries, ginger foliage, soft green moss, brown earth, cream sky, low golden light. Ulya, a small girl hedgehog, soft light-brown quills, round black nose, big friendly eyes, wearing a tiny acorn on a cord around her neck. Ulya stops on the path and turns around. The little acorn on her cord glows warm yellow and casts a soft beam up towards the hill. Mood: surprise, wonder."
+    },
+    {
+      "type": "text",
+      "text": "Уля пошла обратно. Медленно-медленно.\n\nБарсук стоял у двери и хмурился.\n\nУля подошла совсем близко. Она была ему по колено.\nРядом лежал пенёк. Уля залезла на пенёк.\nТеперь её нос был у самого его уха.\n\n— ЗДРАВ-СТВУЙ-ТЕ! — сказала Уля громко.\n\nБарсук вздрогнул. И вдруг улыбнулся.\n\n— А! — сказал он. — Теперь слышу.\n— Вы кричите, потому что злитесь?\n— Я кричу, потому что плохо слышу.\n— А как это — плохо слышу?\n— Это когда слова приходят тихо-тихо. Как будто издалека, — сказал барсук. — Я думаю, что все шепчут. А они не шепчут.\n\n— Ой, — сказала Уля. — А мы думали, что вы злой.\n— Я не злой, — сказал барсук. — Я Ворчун.\n\n— А почему ты живёшь один?\n— Со мной трудно разговаривать, — сказал Ворчун. — Все устают кричать и уходят.\n\nУля посмотрела на него снизу вверх. И решила не уходить."
+    },
+    {
+      "type": "image",
+      "id": 507,
+      "file": "p05-7",
+      "aspect": "3:2",
+      "alt": "Уля стоит на пеньке и говорит барсуку прямо в ухо.",
+      "prompt": "Soft watercolour and coloured pencil children's picture book illustration for ages 3-6. Warm, cosy, gentle. Rounded friendly shapes, thick soft outlines, visible paper grain, soft edges. Cute anthropomorphic forest animals with big kind eyes and simple expressive faces. Flat simple background, few elements, lots of empty space. Bright but soft palette, never harsh. Storybook staging, clear silhouette, instantly readable. Hand-painted, never photographic, no 3D render, no glossy CGI, no anime. No text, no letters, no numbers, no captions, no borders, no watermark, no signature. Autumn palette: warm ochre, red rowan berries, ginger foliage, soft green moss, brown earth, cream sky, low golden light. Ulya, a small girl hedgehog, soft light-brown quills, round black nose, big friendly eyes, wearing a tiny acorn on a cord around her neck. Vorchun, a big badger with a black and white striped face, gentle despite his size. Ulya stands on a small tree stump and speaks loudly right into the big badger's ear. He leans down and smiles. Mood: warm, funny."
+    },
+    {
+      "type": "text",
+      "text": "— Ворчун! У нас упала кладовка! — крикнула Уля прямо в ухо.\n— КЛАДОВКА? — сказал Ворчун. — Это я умею.\n\nОн взял свою тачку. Положил в неё молоток, колышки и верёвку.\nИ пошёл вниз по тропинке: тум-тум-тум.\n\nПик спрятался за Улю. Тишка залез на сосну повыше.\n\nВорчун посмотрел на кучу шишек. Долго.\n\n— Плохо, — сказал он. — Стенка без ног.\n— Как это — без ног? — спросила Уля.\n— А вот смотри.\n\nОн вбил в землю колышек. Тук-тук-тук.\nПотом второй. Тук-тук-тук.\nПотом третий. Тук-тук-тук.\n\n— Это ноги, — сказал Ворчун. — Теперь стенка никуда не убежит.\n\n— А верёвка зачем? — спросила Уля.\n— Чтобы ровно. Кривая стенка падает. Ровная стоит.\n\nУля запомнила. Ровная стоит.\n\nУля подавала колышки. Пик держал верёвку. Тишка носил кору для крыши."
+    },
+    {
+      "type": "image",
+      "id": 508,
+      "file": "p05-8",
+      "aspect": "3:2",
+      "alt": "Ворчун забивает колышек, Уля подаёт ему следующий.",
+      "prompt": "Soft watercolour and coloured pencil children's picture book illustration for ages 3-6. Warm, cosy, gentle. Rounded friendly shapes, thick soft outlines, visible paper grain, soft edges. Cute anthropomorphic forest animals with big kind eyes and simple expressive faces. Flat simple background, few elements, lots of empty space. Bright but soft palette, never harsh. Storybook staging, clear silhouette, instantly readable. Hand-painted, never photographic, no 3D render, no glossy CGI, no anime. No text, no letters, no numbers, no captions, no borders, no watermark, no signature. Autumn palette: warm ochre, red rowan berries, ginger foliage, soft green moss, brown earth, cream sky, low golden light. Ulya, a small girl hedgehog, soft light-brown quills, round black nose, big friendly eyes, wearing a tiny acorn on a cord around her neck. Vorchun, a big badger with a black and white striped face, gentle despite his size. Vorchun hammers a wooden peg into the ground while Ulya holds out the next peg to him with both paws. Mood: busy, teamwork."
+    },
+    {
+      "type": "text",
+      "text": "Работали долго. Солнышко ушло за старую ель.\n\nК вечеру кладовка стояла. С крышей. С дверцей. И с полочкой внутри.\n\n— Проверяем! — сказал Ворчун.\n\nУля толкнула стенку. Стенка стояла.\nПик прыгнул на крышу. Крыша стояла.\nТишка прыгнул с сосны прямо на дверцу. Бум! И дверца стояла.\n\n— А теперь подуй, — сказал Ворчун.\n\nУля набрала воздуха и подула: фу-у-у-у!\nКладовка даже не качнулась.\n\n— Ура-а-а! — закричали все трое.\n\n— Проверять надо три раза, — сказал Ворчун. — Один раз — это не проверил. Это посмотрел.\n\nВорчун сложил молоток в тачку.\n— Ну, я пошёл, — сказал он.\n\nИ тут Уле стало стыдно.\n\n— Ворчун! — крикнула она ему в ухо. — Прости!\n— ЗА ЧТО?\n— Мы тебя боялись. А ты хороший.\n\nВорчун постоял. Потом сел прямо на землю, чтобы быть поменьше.\n\n— Меня все боятся, — сказал он. — Я привык."
+    },
+    {
+      "type": "image",
+      "id": 509,
+      "file": "p05-9",
+      "aspect": "3:2",
+      "alt": "Тишка прыгает на крышу новой кладовки, и она стоит крепко.",
+      "prompt": "Soft watercolour and coloured pencil children's picture book illustration for ages 3-6. Warm, cosy, gentle. Rounded friendly shapes, thick soft outlines, visible paper grain, soft edges. Cute anthropomorphic forest animals with big kind eyes and simple expressive faces. Flat simple background, few elements, lots of empty space. Bright but soft palette, never harsh. Storybook staging, clear silhouette, instantly readable. Hand-painted, never photographic, no 3D render, no glossy CGI, no anime. No text, no letters, no numbers, no captions, no borders, no watermark, no signature. Autumn palette: warm ochre, red rowan berries, ginger foliage, soft green moss, brown earth, cream sky, low golden light. Ulya, a small girl hedgehog, soft light-brown quills, round black nose, big friendly eyes, wearing a tiny acorn on a cord around her neck. Tishka, a red squirrel kit with a huge fluffy tail. Tishka lands with a bounce on the roof of a small sturdy wooden storeroom while Ulya pushes its wall to test it. The storeroom holds. Mood: triumphant, playful."
+    },
+    {
+      "type": "text",
+      "text": "— А к тебе кто-нибудь приходит? — спросила Уля.\n— Кто?\n— К тебе. В гости.\n\nВорчун подумал долго.\n— Давно никто, — сказал он.\n\nУля залезла к нему на колено.\n— Тогда приходи к нам. Завтра.\n— ЧТО?\n— ПРИХОДИ К НАМ ЗАВТРА! — крикнули все трое разом.\n\nВорчун засмеялся. Смех у него был как гром. Только добрый.\n\nМама принесла полную корзинку рябины. Все сели у новой кладовки.\nВорчун ел рябину и хрумкал: хрум-хрум-хрум.\n\n— Вкусно, — сказал он. — И шумно у вас. Мне нравится шумно.\n— Почему? — спросила Уля.\n— Потому что тихо я и так слышу, — сказал Ворчун.\n\n— А ты умеешь считать?\n— Умею, — сказал Ворчун. — Я считаю брёвна. Только брёвна не разговаривают.\n\nВсе смеялись. И Пик тоже.\nХотя утром он прятался за листиком."
+    },
+    {
+      "type": "image",
+      "id": 510,
+      "file": "p05-10",
+      "aspect": "3:2",
+      "alt": "Ворчун сидит на земле и ест рябину вместе с Улей.",
+      "prompt": "Soft watercolour and coloured pencil children's picture book illustration for ages 3-6. Warm, cosy, gentle. Rounded friendly shapes, thick soft outlines, visible paper grain, soft edges. Cute anthropomorphic forest animals with big kind eyes and simple expressive faces. Flat simple background, few elements, lots of empty space. Bright but soft palette, never harsh. Storybook staging, clear silhouette, instantly readable. Hand-painted, never photographic, no 3D render, no glossy CGI, no anime. No text, no letters, no numbers, no captions, no borders, no watermark, no signature. Autumn palette: warm ochre, red rowan berries, ginger foliage, soft green moss, brown earth, cream sky, low golden light. Ulya, a small girl hedgehog, soft light-brown quills, round black nose, big friendly eyes, wearing a tiny acorn on a cord around her neck. Vorchun, a big badger with a black and white striped face, gentle despite his size. Vorchun sits down on the ground so he is not so tall, eating rowan berries from a basket with Ulya beside him in the golden evening light. Mood: cosy, friendly."
+    },
+    {
+      "type": "text",
+      "text": "Стало темнеть. Ворчун взял свою тачку.\n\n— СПАСИБО! — крикнула Уля в ухо.\n— ЧТО?\n— СПАСИБО!\n— А, — сказал Ворчун. — Пожалуйста.\n\nОн пошёл вверх по тропинке. Тум-тум-тум. И тачка скрипела: скрип-скрип.\n\nПик подошёл к Уле.\n— Знаешь что? — сказал он. — Он мне понравился.\n— А утром ты его боялся.\n— Утром я его не знал, — сказал Пик.\n\nПик и Тишка пошли по домам.\n\nУля постояла и посмотрела на новую кладовку.\nКладовка стояла ровно. На своих ногах.\n\nУля пришла домой. Мама обняла её крепко-крепко.\nУля легла в кроватку и закрыла глазки."
+    }
+  ]
+}

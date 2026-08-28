@@ -1,0 +1,135 @@
+{
+  "num": 2,
+  "title": "Кто шуршит в темноте",
+  "theme": "страх темноты",
+  "teaser": "Ночью жёлудь загорелся снова. За окном темно, а в темноте кто-то шуршит.",
+  "moral": "— Страшно — можно. Я всё равно пойду, — сказала Уля.",
+  "cliffhanger": "Утром Уля открыла кладовку. Кладовка была пустая. На дне лежали одни скорлупки.",
+  "question": "А что шуршит у тебя в комнате, когда становится темно?",
+  "blocks": [
+    {
+      "type": "text",
+      "text": "Ночью Уля проснулась.\nВ норке было темно. И что-то светилось.\n\nЭто светился жёлудь на шнурке. Тёплый-тёплый. И гудел: жу-жу-жу.\n\n— Кому-то нужна помощь! — сказала Уля.\n\nУля села в кроватке. Сердце застучало: тук-тук-тук.\nДнём помогать не страшно. А сейчас была ночь.\n\nУля потянула лапки — раз!\nПотянула иголки — два!\nИ пошла на улицу: топ-топ-топ.\n\nУ выхода Уля остановилась.\n\nСнаружи было темно. Совсем темно.\nНе видно ни рябины, ни тропинки, ни ручья.\n\nУля постояла. Уля подышала.\nУля посчитала: раз, два, три.\nИ пошла назад.\n\n— Мама, — сказала Уля тихо. — Мама.\n\nМама открыла один глаз.\n\n— Что, моя хорошая?\n— Мне страшно."
+    },
+    {
+      "type": "image",
+      "id": 201,
+      "file": "p02-1",
+      "aspect": "3:2",
+      "alt": "Уля сидит в кроватке, жёлудь светится в темноте.",
+      "prompt": "Soft watercolour and coloured pencil children's picture book illustration for ages 3-6. Warm, cosy, gentle. Rounded friendly shapes, thick soft outlines, visible paper grain, soft edges. Cute anthropomorphic forest animals with big kind eyes and simple expressive faces. Flat simple background, few elements, lots of empty space. Bright but soft palette, never harsh. Storybook staging, clear silhouette, instantly readable. Hand-painted, never photographic, no 3D render, no glossy CGI, no anime. No text, no letters, no numbers, no captions, no borders, no watermark, no signature. Autumn palette at night: deep warm blue, dark ginger leaves, brown earth, one small warm yellow glow lighting the scene, never black, never harsh. Ulya, a small girl hedgehog, soft light-brown quills, round black nose, big friendly eyes, wearing a tiny acorn on a cord around her neck. Ulya sits up in her little bed inside the dark burrow. The acorn on her cord glows warm yellow and lights her face and paws. Mood: hushed, a little scared."
+    },
+    {
+      "type": "text",
+      "text": "Мама села рядом.\nМама не сказала «не бойся».\nМама сказала по-другому:\n\n— Тебе страшно. Это бывает.\n\n— Там темно, — сказала Уля.\n— Темно, — согласилась мама.\n— А в темноте кто-то шуршит.\n— Шуршит, — согласилась мама. — Каждую ночь шуршит.\n\n— А кто?\n— Не знаю, — сказала мама. — Я не ходила смотреть.\n\nУля очень удивилась.\n\n— А можно посмотреть?\n— Можно, — сказала мама. — Только не одной. Возьми друга.\n\nУля потрогала жёлудь. Жёлудь светился жёлтым.\nНемножко. Как маленькая луна в лапках.\n\n— Мам. А страх уйдёт?\n— Нет, — сказала мама. — Он пойдёт с тобой рядом. Пусть идёт.\n— А он большой?\n— Он такой, каким ты его сделаешь, — сказала мама.\n\nУля кивнула. Хотя поняла не всё.\n\n— Мам, а ты пойдёшь со мной?\n— Нет, — сказала мама. — Я буду тут. Я услышу, если позовёшь.\n— А если я далеко?\n— Тогда позовёшь громко.\n\nУля вдохнула поглубже.\nИ пошла к Пику."
+    },
+    {
+      "type": "image",
+      "id": 202,
+      "file": "p02-2",
+      "aspect": "3:2",
+      "alt": "Мама и Уля сидят у входа в норку ночью.",
+      "prompt": "Soft watercolour and coloured pencil children's picture book illustration for ages 3-6. Warm, cosy, gentle. Rounded friendly shapes, thick soft outlines, visible paper grain, soft edges. Cute anthropomorphic forest animals with big kind eyes and simple expressive faces. Flat simple background, few elements, lots of empty space. Bright but soft palette, never harsh. Storybook staging, clear silhouette, instantly readable. Hand-painted, never photographic, no 3D render, no glossy CGI, no anime. No text, no letters, no numbers, no captions, no borders, no watermark, no signature. Autumn palette at night: deep warm blue, dark ginger leaves, brown earth, one small warm yellow glow lighting the scene, never black, never harsh. Ulya, a small girl hedgehog, soft light-brown quills, round black nose, big friendly eyes, wearing a tiny acorn on a cord around her neck. Ulya's mother, a big warm hedgehog with soft brown quills. Ulya and her mother sit close together at the dark burrow entrance, the small glowing acorn between them like a tiny lamp. Mood: calm, reassuring."
+    },
+    {
+      "type": "text",
+      "text": "Пик жил под корнем рябины.\n\nУля постучала. Тук-тук-тук.\nНикто.\n\nУля постучала ещё. Тук-тук-тук.\nНикто.\n\nУля постучала третий раз. Тук-тук-тук!\n\n— А-А-А! — закричали внутри.\n\nИз норки выскочил Пик. Уши торчком. Глаза круглые.\n\n— Кто?! Кто там?! Я не сплю! Я всё слышу!\n— Это я.\n— Уля! — Пик сел на землю. — Ты меня напугала.\n— Прости.\n— Я подумал, это... это... — Пик замолчал. — Я не знаю кто. Кто-то.\n\nУля показала жёлудь. Жёлудь гудел: жу-жу-жу.\n\n— Кому-то нужна помощь, — сказала Уля. — Пойдёшь со мной?\n— Ночью?!\n— Ночью.\n\nПик посмотрел на тёмный лес. Пик посмотрел на Улю.\nПотом опять на лес. Потом опять на Улю.\n\n— Пойду, — сказал Пик. — Только я боюсь.\n— И я боюсь, — сказала Уля. — Пошли вдвоём.\n— А вдвоём можно бояться?\n— Вдвоём даже лучше, — сказала Уля.\n\nПик сходил в норку. Пик вынес орешек.\n\n— Зачем орешек? — спросила Уля.\n— Когда я ем, мне не так страшно.\n— Тогда бери.\n\nИ Пик взял орешек. Хрум-хрум."
+    },
+    {
+      "type": "image",
+      "id": 203,
+      "file": "p02-3",
+      "aspect": "3:2",
+      "alt": "Пик выскакивает из норки с круглыми глазами.",
+      "prompt": "Soft watercolour and coloured pencil children's picture book illustration for ages 3-6. Warm, cosy, gentle. Rounded friendly shapes, thick soft outlines, visible paper grain, soft edges. Cute anthropomorphic forest animals with big kind eyes and simple expressive faces. Flat simple background, few elements, lots of empty space. Bright but soft palette, never harsh. Storybook staging, clear silhouette, instantly readable. Hand-painted, never photographic, no 3D render, no glossy CGI, no anime. No text, no letters, no numbers, no captions, no borders, no watermark, no signature. Autumn palette at night: deep warm blue, dark ginger leaves, brown earth, one small warm yellow glow lighting the scene, never black, never harsh. Ulya, a small girl hedgehog, soft light-brown quills, round black nose, big friendly eyes, wearing a tiny acorn on a cord around her neck. Pik, a small grey mouse with very big round ears and a long thin tail. Pik bursts out of his burrow under the tree root with his ears straight up and his eyes wide. Ulya stands in front of him holding the glowing acorn. Mood: startled, funny."
+    },
+    {
+      "type": "text",
+      "text": "Они пошли. Топ-топ-топ. Тип-тип-тип.\nУ Ули шаги были громкие. У Пика тихие.\n\nНочью поляна была другая. Совсем другая.\nКочка стала как большой зверь. Куст стал как большая лапа.\nНо это была просто кочка. И просто куст.\n\nИ вдруг слева: шур-шур-шур.\n\nПик прыгнул за Улю.\n\n— Что это?!\n— Не знаю.\n— Уля, я домой!\n— Подожди, — сказала Уля. — Давай посмотрим.\n\n— А если посмотрим и там страшное?\n— Тогда узнаем, какое оно, — сказала Уля.\n\nУля подняла жёлудь. Жёлудь светил жёлтым кружочком.\nУля посветила на куст.\n\nВ кружочке света лежал листик. Обычный жёлтый листик.\nВетер дул на него, и листик шуршал: шур-шур-шур.\n\n— Это листик, — сказала Уля.\n— Листик, — сказал Пик. — Я знал.\n— Ты не знал.\n— Я почти знал, — сказал Пик."
+    },
+    {
+      "type": "image",
+      "id": 204,
+      "file": "p02-4",
+      "aspect": "3:2",
+      "alt": "В кружке света на кусте лежит жёлтый листик.",
+      "prompt": "Soft watercolour and coloured pencil children's picture book illustration for ages 3-6. Warm, cosy, gentle. Rounded friendly shapes, thick soft outlines, visible paper grain, soft edges. Cute anthropomorphic forest animals with big kind eyes and simple expressive faces. Flat simple background, few elements, lots of empty space. Bright but soft palette, never harsh. Storybook staging, clear silhouette, instantly readable. Hand-painted, never photographic, no 3D render, no glossy CGI, no anime. No text, no letters, no numbers, no captions, no borders, no watermark, no signature. Autumn palette at night: deep warm blue, dark ginger leaves, brown earth, one small warm yellow glow lighting the scene, never black, never harsh. Ulya, a small girl hedgehog, soft light-brown quills, round black nose, big friendly eyes, wearing a tiny acorn on a cord around her neck. Pik, a small grey mouse with very big round ears and a long thin tail. Ulya holds the glowing acorn out towards a bush and a single yellow leaf is lit inside the small circle of light. Pik peeks out from behind her back. Mood: relief."
+    },
+    {
+      "type": "text",
+      "text": "Пошли дальше. Топ-топ-топ.\n\nЖёлудь гудел всё громче. Значит, шли правильно.\n\nИ вдруг сверху: кап. Кап. Кап.\n\nПику на нос упала капля.\n\n— Ай! Мокрое! Сверху мокрое!\n— Это дождик был вечером, — сказала Уля. — С веток капает.\n\nУля посветила вверх.\nВ кружочке света блестели капли на ветке.\nКап. Кап. Кап.\n\n— Одна, две, три, — посчитала Уля. — Красиво.\n— Красиво, — согласился Пик. И вытер нос.\n\nОни шли к старой сосне. Сосна была высокая-высокая.\nВерхушки не было видно совсем.\n\nЖёлудь гудел уже сильно. Жу-жу-жу-жу.\n\n— Это тут, — сказала Уля.\n— Уля.\n— Что?\n— А если там кто-то большой?\n\nУля остановилась. Уля не знала, что сказать.\n\n— Тогда мы убежим, — сказала Уля. — Я быстро бегаю.\n— А я ещё быстрее, — сказал Пик.\n— Знаю.\n— Я самый быстрый на поляне!\n— Тогда чего ты трясёшься?\n— Я не трясусь, — сказал Пик. — Я грею лапки.\n\nУля не стала спорить. Уля взяла Пика за лапку.\nЛапка была холодная. И правда тряслась."
+    },
+    {
+      "type": "image",
+      "id": 205,
+      "file": "p02-5",
+      "aspect": "3:2",
+      "alt": "Капли блестят на ветке над Улей и Пиком.",
+      "prompt": "Soft watercolour and coloured pencil children's picture book illustration for ages 3-6. Warm, cosy, gentle. Rounded friendly shapes, thick soft outlines, visible paper grain, soft edges. Cute anthropomorphic forest animals with big kind eyes and simple expressive faces. Flat simple background, few elements, lots of empty space. Bright but soft palette, never harsh. Storybook staging, clear silhouette, instantly readable. Hand-painted, never photographic, no 3D render, no glossy CGI, no anime. No text, no letters, no numbers, no captions, no borders, no watermark, no signature. Autumn palette at night: deep warm blue, dark ginger leaves, brown earth, one small warm yellow glow lighting the scene, never black, never harsh. Ulya, a small girl hedgehog, soft light-brown quills, round black nose, big friendly eyes, wearing a tiny acorn on a cord around her neck. Pik, a small grey mouse with very big round ears and a long thin tail. Ulya lifts the glowing acorn upward and three water drops shine on a branch above. Pik wipes his nose with a paw. Mood: quiet, pretty."
+    },
+    {
+      "type": "text",
+      "text": "Под сосной что-то было. Оно шевелилось.\nХрум. Шур. Хрум.\n\nПик схватил Улю за лапку. Крепко-крепко.\n\n— Уля...\n— Тише.\n\nОно опять зашевелилось. И тихо сказало:\n— Ой.\n\nУля подняла жёлудь повыше. И посветила.\n\nНа нижней ветке сидел Тишка. Бельчонок Тишка.\nРыжий хвост. Круглые глаза.\nОн держался за ветку всеми четырьмя лапками.\n\n— Тишка! Ты чего тут?\n— Я застрял, — сказал Тишка.\n— Как застрял? Ты же прыгаешь лучше всех!\n— Вверх — лучше всех, — сказал Тишка. — А вниз я не могу.\n\nПик отпустил Улину лапку.\n\n— Так это ты шуршал? Всю ночь?!\n— Я, — сказал Тишка совсем тихо. — Мне страшно.\n\n— А как ты туда залез? — спросила Уля.\n— Я полез за шишкой.\n— Ночью?\n— Днём. А потом стемнело. А я не заметил.\n\nТишка шмыгнул носом.\n\n— Я думал, посижу и слезу. А земли не видно.\nВдруг там дырка? Вдруг там вода?\n— Там листья, — сказала Уля.\n— Я не вижу листьев! — сказал Тишка. — Я вижу чёрное!"
+    },
+    {
+      "type": "image",
+      "id": 206,
+      "file": "p02-6",
+      "aspect": "3:2",
+      "alt": "Тишка вцепился в низкую ветку сосны.",
+      "prompt": "Soft watercolour and coloured pencil children's picture book illustration for ages 3-6. Warm, cosy, gentle. Rounded friendly shapes, thick soft outlines, visible paper grain, soft edges. Cute anthropomorphic forest animals with big kind eyes and simple expressive faces. Flat simple background, few elements, lots of empty space. Bright but soft palette, never harsh. Storybook staging, clear silhouette, instantly readable. Hand-painted, never photographic, no 3D render, no glossy CGI, no anime. No text, no letters, no numbers, no captions, no borders, no watermark, no signature. Autumn palette at night: deep warm blue, dark ginger leaves, brown earth, one small warm yellow glow lighting the scene, never black, never harsh. Ulya, a small girl hedgehog, soft light-brown quills, round black nose, big friendly eyes, wearing a tiny acorn on a cord around her neck. Tishka, a red squirrel kit with a huge fluffy tail. Tishka clings to a low pine branch with all four paws, his fluffy tail bunched up. Ulya stands below lifting the glowing acorn to see him. Mood: worried, tender."
+    },
+    {
+      "type": "text",
+      "text": "— Прыгай! — сказал Пик. — Тут низко.\n— Не могу.\n— Ну прыгай же!\n— НЕ МОГУ! — крикнул Тишка. И вцепился в ветку сильнее.\n\nУля посмотрела вниз. Под веткой была голая земля.\n\n— Давай нанесём листьев, — сказала Уля. — Будет мягко.\n\nОни носили листья. Туда-сюда. Туда-сюда. Туда-сюда.\nПик носил по одному. Уля носила целую охапку.\n\nПолучилась горка. Мягкая-премягкая.\nУля сама на неё села. Проверила.\n\n— Мягко! — крикнула Уля. — Я проверила!\n— И я проверил! — сказал Пик и плюхнулся рядом. Шурх!\n\n— Теперь прыгай!\n\nТишка посмотрел вниз. Тишка зажмурился.\n\n— Не могу. Там темно. Я не вижу, куда падать.\n\nПик сел на землю.\n\n— Всё, — сказал Пик. — Он тут навсегда.\n— Не навсегда, — сказала Уля.\n\nА сама подумала: а как?\n\nУля думала долго. Уля считала про себя: раз, два, три.\nИ придумала."
+    },
+    {
+      "type": "image",
+      "id": 207,
+      "file": "p02-7",
+      "aspect": "3:2",
+      "alt": "Уля и Пик носят охапки листьев под ветку.",
+      "prompt": "Soft watercolour and coloured pencil children's picture book illustration for ages 3-6. Warm, cosy, gentle. Rounded friendly shapes, thick soft outlines, visible paper grain, soft edges. Cute anthropomorphic forest animals with big kind eyes and simple expressive faces. Flat simple background, few elements, lots of empty space. Bright but soft palette, never harsh. Storybook staging, clear silhouette, instantly readable. Hand-painted, never photographic, no 3D render, no glossy CGI, no anime. No text, no letters, no numbers, no captions, no borders, no watermark, no signature. Autumn palette at night: deep warm blue, dark ginger leaves, brown earth, one small warm yellow glow lighting the scene, never black, never harsh. Ulya, a small girl hedgehog, soft light-brown quills, round black nose, big friendly eyes, wearing a tiny acorn on a cord around her neck. Pik, a small grey mouse with very big round ears and a long thin tail. Ulya carries a big armful of leaves while Pik drags one single leaf. A soft heap of leaves grows under the branch. Mood: busy, funny."
+    },
+    {
+      "type": "text",
+      "text": "— Тишка! — сказала Уля. — А вверх ты не боишься?\n— Вверх — нет.\n— Значит, не смотри вниз. Иди задом. Как будто идёшь вверх.\n\nТишка подумал.\n\n— Задом?\n— Задом. Хвостом вперёд. По стволу.\n— А я упаду.\n— Я стою внизу, — сказала Уля. — Я тут. Слышишь? Я тут.\n— И я тут! — сказал Пик. — Я тоже тут!\n\nТишка развернулся. Хвостом вниз. Лапки на ствол.\n\n— Мне страшно.\n— Мы считаем, — сказала Уля. — Раз!\n\nТишка спустил одну лапку.\n\n— Два!\n\nЕщё лапку.\n\n— Три!\n\nЕщё.\n\n— Раз! Два! Три!\n— Раз! Два! Три!\n\nТишка полз вниз и не смотрел. Совсем не смотрел.\n\nИ вдруг его хвост коснулся листьев.\nТишка сел на попу. Прямо в мягкую горку.\nШурх!"
+    },
+    {
+      "type": "image",
+      "id": 208,
+      "file": "p02-8",
+      "aspect": "3:2",
+      "alt": "Тишка спускается по стволу хвостом вниз.",
+      "prompt": "Soft watercolour and coloured pencil children's picture book illustration for ages 3-6. Warm, cosy, gentle. Rounded friendly shapes, thick soft outlines, visible paper grain, soft edges. Cute anthropomorphic forest animals with big kind eyes and simple expressive faces. Flat simple background, few elements, lots of empty space. Bright but soft palette, never harsh. Storybook staging, clear silhouette, instantly readable. Hand-painted, never photographic, no 3D render, no glossy CGI, no anime. No text, no letters, no numbers, no captions, no borders, no watermark, no signature. Autumn palette at night: deep warm blue, dark ginger leaves, brown earth, one small warm yellow glow lighting the scene, never black, never harsh. Ulya, a small girl hedgehog, soft light-brown quills, round black nose, big friendly eyes, wearing a tiny acorn on a cord around her neck. Tishka, a red squirrel kit with a huge fluffy tail. Tishka backs slowly down the pine trunk tail first, eyes squeezed shut. Ulya stands right underneath with both paws raised towards him. Mood: brave, tense."
+    },
+    {
+      "type": "text",
+      "text": "Тишка сидел в листьях и молчал.\nПотом сказал:\n\n— Я внизу.\n— Ты внизу! — закричал Пик.\n\nОни прыгали вокруг него. Все трое. Топ-топ-топ.\n\nПотом сели рядышком. Три спинки в тёмном лесу.\nЖёлудь тихонько погас.\n\n— Я тут долго сидел, — сказал Тишка. — Очень долго.\n— А почему не звал?\n— Стыдно, — сказал Тишка. — Все думают, что я смелый.\n— А ты смелый?\n— Наверху смелый. Внизу нет.\n\nУля подумала.\n\n— А я думала, ты чудище, — сказала она.\n— Я?! Чудище?\n— Ты шуршал.\n\nТишка засмеялся. Громко-громко. На весь лес.\n\n— Значит, страшный шорох — это я?\n— Ты, — сказал Пик. — И листик.\n— И капельки, — сказала Уля.\n\n— А если бы вы не пришли? — спросил Тишка.\n— Мы пришли, — сказала Уля.\n— А если бы нет?\n— Мы пришли, — сказала Уля ещё раз.\n\nТишка помолчал.\n\n— В следующий раз я позову, — сказал он. — Громко.\n— Позови, — сказала Уля. — Это не стыдно.\n— Совсем не стыдно, — сказал Пик. — Я зову всё время.\n\nИ они пошли домой. Втроём. По тёмному лесу.\nИ темнота была уже не такая тёмная."
+    },
+    {
+      "type": "image",
+      "id": 209,
+      "file": "p02-9",
+      "aspect": "3:2",
+      "alt": "Три друга сидят рядышком в куче листьев.",
+      "prompt": "Soft watercolour and coloured pencil children's picture book illustration for ages 3-6. Warm, cosy, gentle. Rounded friendly shapes, thick soft outlines, visible paper grain, soft edges. Cute anthropomorphic forest animals with big kind eyes and simple expressive faces. Flat simple background, few elements, lots of empty space. Bright but soft palette, never harsh. Storybook staging, clear silhouette, instantly readable. Hand-painted, never photographic, no 3D render, no glossy CGI, no anime. No text, no letters, no numbers, no captions, no borders, no watermark, no signature. Autumn palette at night: deep warm blue, dark ginger leaves, brown earth, one small warm yellow glow lighting the scene, never black, never harsh. Ulya, a small girl hedgehog, soft light-brown quills, round black nose, big friendly eyes, wearing a tiny acorn on a cord around her neck. Pik, a small grey mouse with very big round ears and a long thin tail. Tishka, a red squirrel kit with a huge fluffy tail. Ulya, Pik and Tishka sit side by side in the soft heap of leaves, three small backs in the dark wood, laughing. Mood: warm, happy."
+    },
+    {
+      "type": "text",
+      "text": "Уля шла и думала.\n\nДнём и ночью поляна одна и та же.\nКочка та же. Куст тот же. Сосна та же.\nПросто ночью не видно. И голова сама придумывает страшное.\n\n— Пик.\n— Что?\n— А чудищ нет?\n— Нет, — сказал Пик. — Есть Тишка.\n\nОни довели Тишку до сосны.\nТишка залез наверх — вжик! — в одну секунду.\n\n— Вверх я быстро! — крикнул он сверху.\n— Мы знаем! — крикнули Уля и Пик.\n\nПотом Пик убежал в свою норку. Тип-тип-тип.\n\nИ Уля осталась одна на тропинке. Одна в темноте.\nИ ей не было страшно.\nНу, чуть-чуть было. Но совсем чуть-чуть.\n\nМама ждала у рябины. Мама не спала.\n\n— Ну что? — спросила мама.\n— Там был листик, — сказала Уля. — И капельки. И Тишка."
+    },
+    {
+      "type": "image",
+      "id": 210,
+      "file": "p02-10",
+      "aspect": "3:2",
+      "alt": "Мама ждёт Улю у рябины перед рассветом.",
+      "prompt": "Soft watercolour and coloured pencil children's picture book illustration for ages 3-6. Warm, cosy, gentle. Rounded friendly shapes, thick soft outlines, visible paper grain, soft edges. Cute anthropomorphic forest animals with big kind eyes and simple expressive faces. Flat simple background, few elements, lots of empty space. Bright but soft palette, never harsh. Storybook staging, clear silhouette, instantly readable. Hand-painted, never photographic, no 3D render, no glossy CGI, no anime. No text, no letters, no numbers, no captions, no borders, no watermark, no signature. Autumn palette at night: deep warm blue, dark ginger leaves, brown earth, one small warm yellow glow lighting the scene, never black, never harsh. Ulya, a small girl hedgehog, soft light-brown quills, round black nose, big friendly eyes, wearing a tiny acorn on a cord around her neck. Ulya's mother, a big warm hedgehog with soft brown quills. Ulya walks along the path towards her mother, who waits under the big rowan tree. The sky at the edge is turning slightly pale. Mood: safe, sleepy."
+    },
+    {
+      "type": "text",
+      "text": "Мама засмеялась тихонько.\n\n— Ты справилась.\n— Мам. Мне было страшно всю дорогу. Прямо всю.\n— И ты всё равно шла?\n— Шла.\n— Вот это и есть смелая, — сказала мама.\n\n— А я думала, смелая — это когда не страшно.\n— Нет, — сказала мама. — Тогда бы это было просто.\n\nУля потрогала жёлудь. Он был тёмный и холодный.\n\n— Мам. А завтра темнота опять будет?\n— Будет.\n— Ну и пусть, — сказала Уля. — Я теперь знаю, кто там шуршит.\n\nУля зевнула. Большим-большим ртом.\nНебо на краю стало чуть-чуть светлее.\n\nУля пришла домой. Мама обняла её крепко-крепко.\nУля легла в кроватку и закрыла глазки."
+    }
+  ]
+}

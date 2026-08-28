@@ -106,9 +106,15 @@ def main():
     ap.add_argument("slug")
     ap.add_argument("--only", help="через запятую: только эти id")
     ap.add_argument("--redo", help="через запятую: перегенерировать, даже если файл есть")
+    # Книги читалки лежат в reading/, сказки — в skazki/. Пути параметризованы,
+    # чтобы у обоих разделов был один генератор: расходятся они только папками.
+    ap.add_argument("--prompts", help="путь к prompts.json (по умолчанию data/reading/illustrations/<slug>.prompts.json)")
+    ap.add_argument("--out-dir", help="куда класть картинки (по умолчанию public/reading/<slug>)")
     args = ap.parse_args()
 
-    pf = REPO / "data" / "reading" / "illustrations" / (args.slug + ".prompts.json")
+    pf = Path(args.prompts) if args.prompts else (
+        REPO / "data" / "reading" / "illustrations" / (args.slug + ".prompts.json"))
+    out_dir = Path(args.out_dir) if args.out_dir else REPO / "public" / "reading" / args.slug
     scenes = json.loads(pf.read_text())
     only = set(int(x) for x in args.only.split(",")) if args.only else None
     redo = set(int(x) for x in args.redo.split(",")) if args.redo else set()
@@ -125,8 +131,11 @@ def main():
             # готовую обложку с типографикой.
             out = REPO / "data" / "reading" / "illustrations" / (args.slug + ".cover-art.png")
         else:
-            out = REPO / "public" / "reading" / args.slug / (scene["file"] + ".png")
-        if out.exists() and scene["id"] not in redo:
+            out = out_dir / (scene["file"] + ".png")
+        # Готовой считается и уже пожатая картинка: у сказок PNG после
+        # конвертации удаляются (их 200, это 400 МБ), и проверка только по .png
+        # заставила бы следующий запуск перерисовать всю книгу заново.
+        if scene["id"] not in redo and (out.exists() or out.with_suffix(".webp").exists()):
             skipped += 1
             continue
         if generate(scene, out):

@@ -1,0 +1,135 @@
+{
+  "num": 13,
+  "title": "Уля болеет",
+  "theme": "болезнь и доктор",
+  "teaser": "У Ули горячий нос, и лапки совсем не хотят вставать. К норке под рябиной летит доктор — тётушка Ух.",
+  "moral": "— Болеть не стыдно. И просить помощи не стыдно, — сказала Уля.",
+  "cliffhanger": "Уля уже засыпала. И вдруг — жу-жу-жу. Жёлудь всё светился. А носик у Ули был давно холодный.",
+  "question": "А ты помнишь, как болела? Кто был рядом с тобой?",
+  "blocks": [
+    {
+      "type": "text",
+      "text": "За окном лежал снег. В норке было тихо.\n\nУля открыла глаза.\n\nУля потянула лапки — раз!\nЛапки не потянулись.\nПотянула иголки — два!\nИголки не потянулись.\nИ на улицу Уля не пошла.\n\n— Мама, — тихо позвала Уля. — Я не встаю.\n\nМама подошла и потрогала носик.\nНосик был горячий-горячий.\n\n— Ты заболела, — сказала мама.\n— Я не хочу болеть.\n— Я знаю, — сказала мама. — Так бывает.\n— А что такое болеть?\n— Это когда тело устало. Оно просит полежать.\n— А поляна? А снег? А друзья?\n— Никуда не денутся, — сказала мама. — Полежи.\n\nУля полежала. Полежала ещё немножко.\nИ полежала совсем чуть-чуть.\n\n— Уже всё? — спросила Уля.\n— Ещё нет, — сказала мама.\n— А когда?\n— Не сегодня.\n\nУля посмотрела в потолок. Потолок был из корней.\nУля сосчитала корни: раз, два, три, четыре.\n\n— Мам.\n— Что?\n— Мне не нравится болеть.\n— Мне тоже, — сказала мама."
+    },
+    {
+      "type": "image",
+      "id": 1301,
+      "file": "p13-1",
+      "aspect": "3:2",
+      "alt": "Мама трогает горячий носик Ули.",
+      "prompt": "Soft watercolour and coloured pencil children's picture book illustration for ages 3-6. Warm, cosy, gentle. Rounded friendly shapes, thick soft outlines, visible paper grain, soft edges. Cute anthropomorphic forest animals with big kind eyes and simple expressive faces. Flat simple background, few elements, lots of empty space. Bright but soft palette, never harsh. Storybook staging, clear silhouette, instantly readable. Hand-painted, never photographic, no 3D render, no glossy CGI, no anime. No text, no letters, no numbers, no captions, no borders, no watermark, no signature. Winter palette: white snow, pale light-blue shadows, grey-lilac sky, dark tree trunks, and exactly one warm spot of light in the frame. Ulya, a small girl hedgehog, soft light-brown quills, round black nose, big friendly eyes, wearing a tiny acorn on a cord around her neck. Ulya's mother, a big warm hedgehog with soft brown quills. Ulya lies in a small bed of dry leaves inside the cosy burrow. Her mother leans over and gently touches her hot little nose with one paw. Mood: tender."
+    },
+    {
+      "type": "text",
+      "text": "Тогда Уля решила встать сама.\n\nПопробовала — раз. Лапки задрожали. Уля села обратно.\nПопробовала — два. В голове закружилось. Уля села обратно.\nПопробовала — три. И упала на подушку. Пум!\n\n— Я сама! — сказала Уля.\n— Я вижу, — сказала мама.\n— Я всегда сама.\n— Сегодня не надо сама, — сказала мама. — Сегодня можно лежать.\n\nУля лежала и слушала.\nВ норке было тихо: ш-ш-ш.\nЗа стенкой падал снег.\n\nИ вдруг жёлудь на шнурке засветился. Тёплый-тёплый. И загудел: жу-жу-жу.\n\n— Кому-то нужна помощь! — сказала Уля.\n— Тебе, — сказала мама. — Тебе она и нужна.\n\nУля потрогала жёлудь лапкой. Он гудел тихо-тихо.\n\n— Наверное, он про меня, — сказала Уля. — Мне же плохо.\n— Наверное, — сказала мама.\n\nЖёлудь светился и гудел. Жу-жу-жу.\nИ не переставал."
+    },
+    {
+      "type": "image",
+      "id": 1302,
+      "file": "p13-2",
+      "aspect": "3:2",
+      "alt": "Уля лежит, а жёлудь на шнурке светится.",
+      "prompt": "Soft watercolour and coloured pencil children's picture book illustration for ages 3-6. Warm, cosy, gentle. Rounded friendly shapes, thick soft outlines, visible paper grain, soft edges. Cute anthropomorphic forest animals with big kind eyes and simple expressive faces. Flat simple background, few elements, lots of empty space. Bright but soft palette, never harsh. Storybook staging, clear silhouette, instantly readable. Hand-painted, never photographic, no 3D render, no glossy CGI, no anime. No text, no letters, no numbers, no captions, no borders, no watermark, no signature. Winter palette: white snow, pale light-blue shadows, grey-lilac sky, dark tree trunks, and exactly one warm spot of light in the frame. Ulya, a small girl hedgehog, soft light-brown quills, round black nose, big friendly eyes, wearing a tiny acorn on a cord around her neck. Ulya lies curled on her pillow under a leaf blanket. The tiny acorn on her cord glows warm yellow on her chest. Mood: quiet, curious."
+    },
+    {
+      "type": "text",
+      "text": "— Я позову Тётушку Ух, — сказала мама.\n\nУля спрятала нос под листик.\n\n— Доктора? Не надо доктора.\n— Ты боишься?\n— Боюсь, — сказала Уля.\n— А чего ты боишься?\n— Я не знаю, что она будет делать. Вдруг она сделает что-то, а я не знаю что.\n\nМама погладила иголки.\n\n— Тётушка Ух всегда говорит заранее. Сначала скажет. Потом сделает.\n— Совсем заранее?\n— Совсем заранее.\n— И не сделает быстро, пока я не смотрю?\n— Не сделает, — сказала мама. — Она так не умеет.\n\nМама вышла на порог и позвала:\n\n— У-у-ух! У-у-ух!\n\nНаверху зашумели крылья: ш-ш-ш.\nА потом в дверь постучали: тук-тук-тук.\n\nУля залезла под листик поглубже.\n\n— Мам, — прошептала Уля. — А ты будешь тут?\n— Буду.\n— Всё время?\n— Всё время. Вот тут, у кроватки.\n— И не уйдёшь?\n— И не уйду, — сказала мама."
+    },
+    {
+      "type": "image",
+      "id": 1303,
+      "file": "p13-3",
+      "aspect": "3:2",
+      "alt": "Тётушка Ух стучит в дверь норки.",
+      "prompt": "Soft watercolour and coloured pencil children's picture book illustration for ages 3-6. Warm, cosy, gentle. Rounded friendly shapes, thick soft outlines, visible paper grain, soft edges. Cute anthropomorphic forest animals with big kind eyes and simple expressive faces. Flat simple background, few elements, lots of empty space. Bright but soft palette, never harsh. Storybook staging, clear silhouette, instantly readable. Hand-painted, never photographic, no 3D render, no glossy CGI, no anime. No text, no letters, no numbers, no captions, no borders, no watermark, no signature. Winter palette: white snow, pale light-blue shadows, grey-lilac sky, dark tree trunks, and exactly one warm spot of light in the frame. Auntie Ukh, a big round owl doctor with round glasses. Auntie Ukh has landed in the snow by the roots of the big rowan tree and knocks at the small round burrow door. Mood: calm, expected."
+    },
+    {
+      "type": "text",
+      "text": "Тётушка Ух вошла в норку.\n\nОна была большая и круглая. На носу — круглые очки. Говорила она медленно и негромко.\n\n— Здравствуй, Уля. Сейчас я сяду вот тут. Больше ничего.\n\nИ села. И больше ничего.\n\n— Теперь я посмотрю на тебя. Просто посмотрю. Трогать не буду.\n\nИ посмотрела. И не трогала.\n\n— Тебе страшно? — спросила Тётушка Ух.\n— Немножко, — сказала Уля из-под листика.\n— Тогда я буду говорить всё заранее. И считать до трёх.\n— До трёх? — Уля выглянула одним глазом.\n— До трёх. На «три» я делаю. Раньше — нет.\n— А если я скажу «стоп»?\n— Тогда я подожду, — сказала Тётушка Ух.\n\nУля подумала.\n\n— А что у тебя в сумке?\n— Хочешь посмотреть? Смотри заранее.\n\nТётушка Ух открыла сумку.\n\n— Тут пёрышко. Им я трогаю носик.\n— А это?\n— Трубочка. Ей я слушаю животик.\n— А это?\n— Мешочек с малиной. Он вкусный.\n\n— Всё? — сказала Уля.\n— Всё. Больше в сумке ничего нет.\n\nИ Уля вылезла из-под листика."
+    },
+    {
+      "type": "image",
+      "id": 1304,
+      "file": "p13-4",
+      "aspect": "3:2",
+      "alt": "Сова показывает Уле, что лежит в сумке.",
+      "prompt": "Soft watercolour and coloured pencil children's picture book illustration for ages 3-6. Warm, cosy, gentle. Rounded friendly shapes, thick soft outlines, visible paper grain, soft edges. Cute anthropomorphic forest animals with big kind eyes and simple expressive faces. Flat simple background, few elements, lots of empty space. Bright but soft palette, never harsh. Storybook staging, clear silhouette, instantly readable. Hand-painted, never photographic, no 3D render, no glossy CGI, no anime. No text, no letters, no numbers, no captions, no borders, no watermark, no signature. Winter palette: white snow, pale light-blue shadows, grey-lilac sky, dark tree trunks, and exactly one warm spot of light in the frame. Ulya, a small girl hedgehog, soft light-brown quills, round black nose, big friendly eyes, wearing a tiny acorn on a cord around her neck. Auntie Ukh, a big round owl doctor with round glasses. Auntie Ukh sits beside the bed and holds her open bag low so Ulya can see inside it. Ulya peeks out from under her leaf blanket with one eye. Mood: gentle, careful."
+    },
+    {
+      "type": "text",
+      "text": "— Сейчас я потрогаю носик. Одним пёрышком. Раз, два, три.\n\nИ потрогала. Носик был горячий.\n\n— Сейчас я послушаю животик. Трубочка холодная. Я подую на неё: фу-у-у. Теперь тёплая. Раз, два, три.\n\nИ послушала. Внутри стучало: тук-тук, тук-тук.\n\n— Сейчас скажи «а-а-а». Я загляну в горлышко. Раз, два...\n\n— Стоп! — сказала Уля.\n\nИ Тётушка Ух остановилась. Совсем.\n\n— Я жду, — сказала она.\n— Я просто проверила, — сказала Уля.\n— Хорошо проверила, — сказала Тётушка Ух. — Начинаем сначала. Раз, два, три.\n\n— А-а-а, — сказала Уля.\n— Ещё разок. Погромче.\n— А-А-А!\n— Молодец.\n\n— Всё? — спросила Уля.\n— Всё, — сказала Тётушка Ух. — Я закончила.\n— И больше ничего не будет?\n— Не будет.\n\nУля выдохнула: фу-у-у. И страх куда-то ушёл."
+    },
+    {
+      "type": "image",
+      "id": 1305,
+      "file": "p13-5",
+      "aspect": "3:2",
+      "alt": "Сова греет трубочку и слушает животик.",
+      "prompt": "Soft watercolour and coloured pencil children's picture book illustration for ages 3-6. Warm, cosy, gentle. Rounded friendly shapes, thick soft outlines, visible paper grain, soft edges. Cute anthropomorphic forest animals with big kind eyes and simple expressive faces. Flat simple background, few elements, lots of empty space. Bright but soft palette, never harsh. Storybook staging, clear silhouette, instantly readable. Hand-painted, never photographic, no 3D render, no glossy CGI, no anime. No text, no letters, no numbers, no captions, no borders, no watermark, no signature. Winter palette: white snow, pale light-blue shadows, grey-lilac sky, dark tree trunks, and exactly one warm spot of light in the frame. Ulya, a small girl hedgehog, soft light-brown quills, round black nose, big friendly eyes, wearing a tiny acorn on a cord around her neck. Auntie Ukh, a big round owl doctor with round glasses. Auntie Ukh blows on a small wooden listening tube to warm it, then holds it to Ulya's tummy. Ulya lies still and watches. Mood: safe, careful."
+    },
+    {
+      "type": "text",
+      "text": "— Ты простыла, — сказала Тётушка Ух. — Зимой так бывает.\n— А когда я встану?\n— Через три дня.\n— Три — это много?\n— Три — это раз, два, три, — сказала Тётушка Ух.\n\nОна достала мешочек и положила на стол.\n\n— Тут малина. Заваривать и пить тёплым. Три раза в день.\n— А ещё что делать?\n— А ещё лежать.\n— Лежать — это не дело, — сказала Уля. — Это совсем ничего.\n— Это дело, — сказала Тётушка Ух. — Пока ты лежишь, тело чинит само себя.\n— Как Ворчун чинит крышу?\n— Как Ворчун чинит крышу. Только тихо и внутри.\n\nТётушка Ух поправила очки.\n\n— И ещё одно. Помощь принимать тоже надо уметь.\n— Я умею, — сказала Уля.\n— Посмотрим, — сказала Тётушка Ух и улетела: ш-ш-ш."
+    },
+    {
+      "type": "image",
+      "id": 1306,
+      "file": "p13-6",
+      "aspect": "3:2",
+      "alt": "Сова улетает, на пороге мешочек с малиной.",
+      "prompt": "Soft watercolour and coloured pencil children's picture book illustration for ages 3-6. Warm, cosy, gentle. Rounded friendly shapes, thick soft outlines, visible paper grain, soft edges. Cute anthropomorphic forest animals with big kind eyes and simple expressive faces. Flat simple background, few elements, lots of empty space. Bright but soft palette, never harsh. Storybook staging, clear silhouette, instantly readable. Hand-painted, never photographic, no 3D render, no glossy CGI, no anime. No text, no letters, no numbers, no captions, no borders, no watermark, no signature. Winter palette: white snow, pale light-blue shadows, grey-lilac sky, dark tree trunks, and exactly one warm spot of light in the frame. Auntie Ukh, a big round owl doctor with round glasses. Auntie Ukh flies away over the snowy clearing above the rowan tree. A small cloth bag of red raspberries stands on the doorstep below. Mood: relieved."
+    },
+    {
+      "type": "text",
+      "text": "Днём пришёл Пик.\n\n— Я принёс тебе орешек! Самый большой!\n— А ты не голодный?\n— Голодный, — вздохнул Пик. — Но орешек твой.\n\nПотом прискакал Тишка. Тук-тук-тук по крыше.\n\n— А я принёс шишку! Понюхай. Она пахнет лесом.\n\nУля понюхала. Шишка правда пахла лесом.\n\n— А на улице снег? — спросила Уля.\n— Снег! И горка! — сказал Тишка. — Мы без тебя не катаемся.\n— Совсем?\n— Совсем. Один разочек скатились. И перестали.\n\nПик посмотрел на орешек. Потом на Улю. Потом снова на орешек.\n\n— Пик, — сказала Уля. — Давай пополам.\n— Давай! — сказал Пик очень быстро.\n\nХрум-хрум-хрум.\n\nПотом пришёл Ворчун. Большой, полосатый.\n\n— ЧТО У НЕЁ? — спросил он громко.\n— Она простыла! — сказала мама.\n— ЧТО?\n— ПРО-СТЫ-ЛА!\n— А-а, — сказал Ворчун. — Тогда я починю дверь. У вас дует.\n\nИ починил: тук-тук-тук.\n\n— Спасибо! — крикнула Уля.\n— ЧТО?\n— СПА-СИ-БО!\n— А. Не за что."
+    },
+    {
+      "type": "image",
+      "id": 1307,
+      "file": "p13-7",
+      "aspect": "3:2",
+      "alt": "Ворчун чинит дверь норки.",
+      "prompt": "Soft watercolour and coloured pencil children's picture book illustration for ages 3-6. Warm, cosy, gentle. Rounded friendly shapes, thick soft outlines, visible paper grain, soft edges. Cute anthropomorphic forest animals with big kind eyes and simple expressive faces. Flat simple background, few elements, lots of empty space. Bright but soft palette, never harsh. Storybook staging, clear silhouette, instantly readable. Hand-painted, never photographic, no 3D render, no glossy CGI, no anime. No text, no letters, no numbers, no captions, no borders, no watermark, no signature. Winter palette: white snow, pale light-blue shadows, grey-lilac sky, dark tree trunks, and exactly one warm spot of light in the frame. Ulya, a small girl hedgehog, soft light-brown quills, round black nose, big friendly eyes, wearing a tiny acorn on a cord around her neck. Vorchun, a big badger with a black and white striped face, gentle despite his size. Vorchun hammers the little burrow door back into place, tap tap tap. Ulya watches him from her bed, wrapped in a blanket. Mood: busy, kind."
+    },
+    {
+      "type": "text",
+      "text": "К вечеру Уле стало скучно.\n\n— Все играют, — сказала она. — А я лежу.\n— Да, — сказала мама.\n— Я хочу на улицу.\n— Хочешь.\n— Я хочу на горку!\n— Хочешь.\n— Я СЕРЖУСЬ! — крикнула Уля и стукнула лапкой по подушке.\n\nИ заплакала. Кап-кап-кап.\n\n— Ты сердишься, — сказала мама. — Это бывает.\n— И мне обидно.\n— И обидно бывает.\n— И я маленькая. Я ничего не могу.\n\nМама села рядом на край кроватки.\n\n— Я тоже болела, когда была маленькая, — сказала мама.\n— Ты? Большая?\n— Тогда я была маленькая. И тоже сердилась.\n— А потом?\n— А потом встала.\n\nМама помолчала.\n\n— А ты помнишь, как Пик потерял ягодку? — спросила мама.\n— Помню.\n— Он тогда сам не справился.\n— Не справился, — сказала Уля. — Я ему помогла.\n— И тебе было плохо от этого?\n— Нет. Мне было хорошо.\n— Вот и Пику сейчас хорошо, — сказала мама.\n\nУля подумала об этом. И перестала плакать.\n\n— Хочешь, посидим вместе?\n— Хочу, — сказала Уля.\n\nИ они посидели вместе. Долго-долго."
+    },
+    {
+      "type": "image",
+      "id": 1308,
+      "file": "p13-8",
+      "aspect": "3:2",
+      "alt": "Уля плачет, мама сидит рядом.",
+      "prompt": "Soft watercolour and coloured pencil children's picture book illustration for ages 3-6. Warm, cosy, gentle. Rounded friendly shapes, thick soft outlines, visible paper grain, soft edges. Cute anthropomorphic forest animals with big kind eyes and simple expressive faces. Flat simple background, few elements, lots of empty space. Bright but soft palette, never harsh. Storybook staging, clear silhouette, instantly readable. Hand-painted, never photographic, no 3D render, no glossy CGI, no anime. No text, no letters, no numbers, no captions, no borders, no watermark, no signature. Winter palette: white snow, pale light-blue shadows, grey-lilac sky, dark tree trunks, and exactly one warm spot of light in the frame. Ulya, a small girl hedgehog, soft light-brown quills, round black nose, big friendly eyes, wearing a tiny acorn on a cord around her neck. Ulya's mother, a big warm hedgehog with soft brown quills. Ulya cries on her pillow with one paw thumping the bed. Her mother sits on the edge of the bed and simply stays close. Mood: sad, safe."
+    },
+    {
+      "type": "text",
+      "text": "На второй день Уля захотела пить.\n\nОна взяла кружку сама. Кружка задрожала. Чай пролился: кап-кап-кап.\n\n— Я помогу, — сказал Пик.\n— Я сама, — сказала Уля.\n— Ага, — сказал Пик и сел рядом.\n\nУля взяла кружку ещё раз. И чай пролился ещё раз.\n\nУля посмотрела на кружку. Потом на мокрое одеяло. Потом на Пика.\n\nСказать было трудно. Труднее, чем прыгать через ручей.\n\n— Пик, — сказала Уля. — Помоги мне, пожалуйста.\n— Ага! — обрадовался Пик и подставил лапки.\n\nИ они держали кружку вдвоём. И чай не пролился ни капельки.\nХлюп-хлюп-хлюп.\n\n— Спасибо, — сказала Уля.\n— Пожалуйста, — сказал Пик. — А можно я ещё посижу?\n— Можно, — сказала Уля.\n\nИ Пик сидел рядом весь день.\nОн рассказывал, какой на улице снег.\nА Уля слушала и не вставала.\n\n— Знаешь что? — сказала Уля.\n— Что?\n— Просить трудно. А потом хорошо.\n— Ага, — сказал Пик. — Я всегда прошу. Особенно поесть."
+    },
+    {
+      "type": "image",
+      "id": 1309,
+      "file": "p13-9",
+      "aspect": "3:2",
+      "alt": "Уля и Пик держат кружку вместе.",
+      "prompt": "Soft watercolour and coloured pencil children's picture book illustration for ages 3-6. Warm, cosy, gentle. Rounded friendly shapes, thick soft outlines, visible paper grain, soft edges. Cute anthropomorphic forest animals with big kind eyes and simple expressive faces. Flat simple background, few elements, lots of empty space. Bright but soft palette, never harsh. Storybook staging, clear silhouette, instantly readable. Hand-painted, never photographic, no 3D render, no glossy CGI, no anime. No text, no letters, no numbers, no captions, no borders, no watermark, no signature. Winter palette: white snow, pale light-blue shadows, grey-lilac sky, dark tree trunks, and exactly one warm spot of light in the frame. Ulya, a small girl hedgehog, soft light-brown quills, round black nose, big friendly eyes, wearing a tiny acorn on a cord around her neck. Pik, a small grey mouse with very big round ears and a long thin tail. Pik holds one side of a big cup of warm raspberry tea while Ulya holds the other side. Steam rises between them. Mood: warm, friendly."
+    },
+    {
+      "type": "text",
+      "text": "На третий день Уля проснулась и потрогала свой нос.\n\nНос был холодный.\n\nУля потянула лапки — раз!\nПотянула иголки — два!\nИ пошла на улицу: топ-топ-топ.\n\nСнег скрипел: скрип-скрип-скрип. Солнце было низкое и жёлтое.\n\nПрилетела Тётушка Ух. Посмотрела. Послушала. И сказала:\n\n— Здорова.\n— Совсем?\n— Совсем. А помощь принимать научилась?\n— Научилась, — сказала Уля. — Это трудно.\n— Трудно, — согласилась Тётушка Ух.\n\n— Ты справилась, — сказала мама.\n— Мне помогали, — сказала Уля.\n— И это тоже ты, — сказала мама.\n\nУля посмотрела на жёлудь. Жёлудь всё гудел: жу-жу-жу.\n\n— Ты можешь уже не гудеть, — сказала ему Уля. — Я здорова.\n\nЖёлудь гудел.\n\nПрибежал Пик. Прискакал Тишка. Пришёл Ворчун.\n\n— Все пришли! — обрадовалась Уля.\n— Все, — сказал Пик. И почесал ухо. — Почти все."
+    },
+    {
+      "type": "image",
+      "id": 1310,
+      "file": "p13-10",
+      "aspect": "3:2",
+      "alt": "Уля тянет лапки на пороге в снегу.",
+      "prompt": "Soft watercolour and coloured pencil children's picture book illustration for ages 3-6. Warm, cosy, gentle. Rounded friendly shapes, thick soft outlines, visible paper grain, soft edges. Cute anthropomorphic forest animals with big kind eyes and simple expressive faces. Flat simple background, few elements, lots of empty space. Bright but soft palette, never harsh. Storybook staging, clear silhouette, instantly readable. Hand-painted, never photographic, no 3D render, no glossy CGI, no anime. No text, no letters, no numbers, no captions, no borders, no watermark, no signature. Winter palette: white snow, pale light-blue shadows, grey-lilac sky, dark tree trunks, and exactly one warm spot of light in the frame. Ulya, a small girl hedgehog, soft light-brown quills, round black nose, big friendly eyes, wearing a tiny acorn on a cord around her neck. Ulya stands on the doorstep of the burrow in the deep snow and stretches both paws up high. The low sun is yellow behind the rowan. Mood: happy, free."
+    },
+    {
+      "type": "text",
+      "text": "Весь день друзья катали снежные шарики.\n\nОдин шарик — Пику. Один — Тишке. Один — Ворчуну.\n\nШарики катились с горки и падали в сугроб. Бум! Бум! Бум!\n\nУля бегала и смеялась. И совсем не устала.\nНу, немножко устала.\n\n— Ты же болела, — сказал Пик.\n— Уже нет, — сказала Уля. — Уже всё.\n\n— А было страшно? — спросил Тишка.\n— Сначала страшно. Потом нет.\n— А доктор?\n— Тётушка Ух всё говорит заранее, — сказала Уля. — Поэтому не страшно.\n\nТишка подумал.\n\n— Я тоже так хочу. Только не болеть.\n— Так и я не хочу, — сказала Уля.\n\nИ они засмеялись.\n\nПотом небо стало розовым. Потом синим. Потом совсем тёмным.\n\n— До завтра! — крикнул Пик.\n— До завтра! — крикнул Тишка.\n— ЧТО? — крикнул Ворчун.\n— ДО ЗАВТРА!\n— А. И вам.\n\nУля пришла домой. Мама обняла её крепко-крепко.\nУля легла в кроватку и закрыла глазки."
+    }
+  ]
+}

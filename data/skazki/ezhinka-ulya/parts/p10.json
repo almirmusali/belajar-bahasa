@@ -1,0 +1,135 @@
+{
+  "num": 10,
+  "title": "Оленёнок ищет маму",
+  "theme": "Разлука с мамой",
+  "teaser": "Малыш пришёл к рябине совсем рано. Он не знает, где его мама. И вся поляна идёт её искать.",
+  "moral": "— Мама всегда возвращается. Даже если долго, — сказала Уля.",
+  "cliffhanger": "Ночью Уля проснулась. За окошком было тихо-тихо. Слишком тихо. Уля выглянула — и ахнула. С неба падало что-то белое.",
+  "question": "А ты скучаешь, когда мама уходит? Куда она всегда возвращается?",
+  "blocks": [
+    {
+      "type": "text",
+      "text": "Кто-то топал у норки.\n\nТоп. Топ. Топ.\n\nУля открыла глаза. Было ещё совсем рано. Солнышко только-только вылезло.\n\nТоп. Топ. Топ.\n\nШаги были большие. Очень большие.\n\nУля потянула лапки — раз!\n\nПотянула иголки — два!\n\nИ пошла на улицу: топ-топ-топ.\n\nУ рябины стоял Малыш.\n\nОленёнок. Ноги как палки, шубка рыжая, белые пятнышки.\n\nОн ходил вокруг дерева. Туда. Сюда. И опять туда.\n\n— Малыш! — обрадовалась Уля. — Ты пришёл!\n\nМалыш посмотрел на неё. Глаза у него были мокрые.\n\n— Уля, — сказал он. — Я потерял маму.\n\nУля перестала улыбаться.\n\n— Как потерял?\n\n— Я не знаю. Она была. А потом её не стало.\n\n— Давно?\n\n— Два дня, — сказал Малыш. — Или три.\n\n— А как это было?\n\n— Мы шли по лесу. Я увидел бабочку. Я побежал за бабочкой.\n\n— А потом?\n\n— А потом бабочка улетела. И мамы нигде не было.\n\nМалыш вздохнул. Вздох у него был большой, как он сам.\n\n— Я звал. Я долго звал. Я охрип.\n\nУля взяла его за ногу лапкой.\n\n— Ты не виноват, — сказала она."
+    },
+    {
+      "type": "image",
+      "id": 1001,
+      "file": "p10-1",
+      "aspect": "3:2",
+      "alt": "Малыш ходит вокруг рябины рано утром, а Уля смотрит из норки.",
+      "prompt": "Soft watercolour and coloured pencil children's picture book illustration for ages 3-6. Warm, cosy, gentle. Rounded friendly shapes, thick soft outlines, visible paper grain, soft edges. Cute anthropomorphic forest animals with big kind eyes and simple expressive faces. Flat simple background, few elements, lots of empty space. Bright but soft palette, never harsh. Storybook staging, clear silhouette, instantly readable. Hand-painted, never photographic, no 3D render, no glossy CGI, no anime. No text, no letters, no numbers, no captions, no borders, no watermark, no signature. Autumn palette: warm ochre, red rowan berries, ginger foliage, soft green moss, brown earth, cream sky, low golden light. A young deer fawn, tall but babyish, with white spots. Ulya, a small girl hedgehog, soft light-brown quills, round black nose, big friendly eyes, wearing a tiny acorn on a cord around her neck. The lost fawn walks in a circle around a big rowan tree in the early morning. Tiny Ulya watches him from the doorway of her burrow under its roots. Mood: quiet, worried."
+    },
+    {
+      "type": "text",
+      "text": "И вдруг жёлудь на шнурке засветился. Тёплый-тёплый. И загудел: жу-жу-жу.\n\n— Кому-то нужна помощь! — сказала Уля.\n\n— Мне, — сказал Малыш. — Мне нужна помощь.\n\nУля подошла к нему близко-близко.\n\nОна хотела обнять его всего. Но он был очень большой. И Уля обняла ему ногу.\n\n— Мы найдём твою маму, — сказала Уля.\n\n— А если не найдём?\n\n— Найдём, — сказала Уля. — Мамы не пропадают. Мамы ищут.\n\n— Правда?\n\n— Правда. Моя мама всегда меня находит.\n\nМалыш шмыгнул носом.\n\n— Мне грустно, — сказал он. — И страшно. Сразу два.\n\n— Так бывает, — сказала Уля. — Два чувства сразу. И даже три.\n\n— А ты когда-нибудь терялась?\n\n— Один раз, — сказала Уля. — В малиннике. Малина была высокая, а я маленькая.\n\n— И что ты сделала?\n\n— Я села и заплакала. А мама пришла и нашла меня.\n\n— Сама пришла?\n\n— Сама, — сказала Уля. — Пойдём. Надо всех позвать."
+    },
+    {
+      "type": "image",
+      "id": 1002,
+      "file": "p10-2",
+      "aspect": "3:2",
+      "alt": "Уля обнимает ногу оленёнка, а жёлудь светится.",
+      "prompt": "Soft watercolour and coloured pencil children's picture book illustration for ages 3-6. Warm, cosy, gentle. Rounded friendly shapes, thick soft outlines, visible paper grain, soft edges. Cute anthropomorphic forest animals with big kind eyes and simple expressive faces. Flat simple background, few elements, lots of empty space. Bright but soft palette, never harsh. Storybook staging, clear silhouette, instantly readable. Hand-painted, never photographic, no 3D render, no glossy CGI, no anime. No text, no letters, no numbers, no captions, no borders, no watermark, no signature. Autumn palette: warm ochre, red rowan berries, ginger foliage, soft green moss, brown earth, cream sky, low golden light. Ulya, a small girl hedgehog, soft light-brown quills, round black nose, big friendly eyes, wearing a tiny acorn on a cord around her neck. A young deer fawn, tall but babyish, with white spots. Tiny Ulya hugs the fawn's long front leg with both arms because he is far too big to hug. The acorn at her neck glows warm yellow. Mood: comforting, small and big."
+    },
+    {
+      "type": "text",
+      "text": "Уля побежала за друзьями.\n\nСначала к сосне.\n\n— Тишка! Спускайся! Мы ищем маму!\n\n— Чью маму? — крикнул Тишка сверху.\n\n— Малыша!\n\nТишка съехал по стволу: вжух!\n\nПотом Уля побежала к норке Пика.\n\n— Пик! Вставай! Мы ищем маму!\n\n— Я ещё не завтракал, — сказал Пик из норки.\n\n— Пик.\n\n— Иду, — сказал Пик. И взял орешек с собой.\n\nПотом Уля прискакала к Буме.\n\n— Бума! Пойдём искать маму!\n\nБума не спросила ничего. Она просто пошла.\n\nВсе встали вокруг Малыша. Он был выше всех в четыре раза.\n\n— Как искать? — спросил Пик.\n\n— Будем звать, — сказала Уля. — Все вместе. Громко.\n\n— А если она далеко?\n\n— Тогда будем кричать очень громко.\n\n— А если она совсем-совсем далеко?\n\n— Пик, — сказала Уля. — Мы всё равно будем кричать."
+    },
+    {
+      "type": "image",
+      "id": 1003,
+      "file": "p10-3",
+      "aspect": "3:2",
+      "alt": "Тишка съезжает вниз по стволу сосны.",
+      "prompt": "Soft watercolour and coloured pencil children's picture book illustration for ages 3-6. Warm, cosy, gentle. Rounded friendly shapes, thick soft outlines, visible paper grain, soft edges. Cute anthropomorphic forest animals with big kind eyes and simple expressive faces. Flat simple background, few elements, lots of empty space. Bright but soft palette, never harsh. Storybook staging, clear silhouette, instantly readable. Hand-painted, never photographic, no 3D render, no glossy CGI, no anime. No text, no letters, no numbers, no captions, no borders, no watermark, no signature. Autumn palette: warm ochre, red rowan berries, ginger foliage, soft green moss, brown earth, cream sky, low golden light. Tishka, a red squirrel kit with a huge fluffy tail. Ulya, a small girl hedgehog, soft light-brown quills, round black nose, big friendly eyes, wearing a tiny acorn on a cord around her neck. Tishka slides down the pine trunk in a rush of ginger fur while Ulya calls up to him from below. Mood: urgent, busy."
+    },
+    {
+      "type": "text",
+      "text": "Они пришли к ручью. Там было далеко слышно.\n\nВсе набрали воздуха.\n\n— МА-МА! — крикнули все вместе.\n\nЛес ответил тихо: ма-ма-ма...\n\n— Это кто? — испугался Пик.\n\n— Это эхо, — сказала Бума. — Это лес повторяет за нами.\n\nОни крикнули второй раз.\n\n— МА-МА!\n\nЛес опять сказал: ма-ма-ма...\n\nОни крикнули третий раз. Совсем громко.\n\n— МА-МА-А-А!\n\nСлетели две птички. Упал жёлтый листик.\n\nИ больше ничего.\n\nВсе замолчали и слушали. Долго слушали.\n\nНикто не пришёл.\n\n— Не получилось, — сказала Уля.\n\nМалыш опустил голову совсем низко.\n\n— Не сдавайся, — сказала Уля. — Мы только один раз попробовали.\n\n— А я устал, — сказал Малыш.\n\n— Тогда мы покричим за тебя, — сказала Бума.\n\nИ они покричали ещё. Все вместе, а Малыш молчал и отдыхал."
+    },
+    {
+      "type": "image",
+      "id": 1004,
+      "file": "p10-4",
+      "aspect": "3:2",
+      "alt": "Друзья кричат хором у ручья, приложив лапки ко рту.",
+      "prompt": "Soft watercolour and coloured pencil children's picture book illustration for ages 3-6. Warm, cosy, gentle. Rounded friendly shapes, thick soft outlines, visible paper grain, soft edges. Cute anthropomorphic forest animals with big kind eyes and simple expressive faces. Flat simple background, few elements, lots of empty space. Bright but soft palette, never harsh. Storybook staging, clear silhouette, instantly readable. Hand-painted, never photographic, no 3D render, no glossy CGI, no anime. No text, no letters, no numbers, no captions, no borders, no watermark, no signature. Autumn palette: warm ochre, red rowan berries, ginger foliage, soft green moss, brown earth, cream sky, low golden light. Ulya, a small girl hedgehog, soft light-brown quills, round black nose, big friendly eyes, wearing a tiny acorn on a cord around her neck. Pik, a small grey mouse with very big round ears and a long thin tail. Buma, a white rabbit girl with grey ears and long legs. The three friends stand at the edge of a small stream and shout together with their paws cupped around their mouths. Mood: hopeful, loud."
+    },
+    {
+      "type": "text",
+      "text": "— Давайте искать следы! — сказал Пик.\n\nВсе легли на землю и стали смотреть.\n\nПод листиком — нет следов.\n\nПод грибочком — нет следов.\n\nПод камушком — нет следов.\n\nА вот у тропинки — есть!\n\n— Следы! — запищал Пик. — Большие! Это она!\n\nВсе побежали по следам. Топ-топ-топ!\n\nСледы шли к холму. Потом за куст. Потом к большой норе.\n\nИ из норы вышел...\n\n— ЧТО ЗА ШУМ? — сказал Ворчун.\n\nПик сел прямо в лужу от неожиданности.\n\n— Это твои следы, — сказала Уля грустно.\n\n— ЧТО?\n\n— ТВОИ СЛЕДЫ! — крикнула Уля.\n\n— Мои, — согласился Ворчун. — Я тут хожу. Я тут живу.\n\n— Второй раз не получилось, — сказала Уля.\n\n— ЧТО НЕ ПОЛУЧИЛОСЬ? — спросил Ворчун.\n\n— МЫ ИЩЕМ МАМУ ОЛЕНЁНКА!\n\nВорчун посмотрел на Малыша. Потом на лес. Потом взял свою палку.\n\n— Тогда я с вами, — сказал он. — Я тут все тропинки знаю."
+    },
+    {
+      "type": "image",
+      "id": 1005,
+      "file": "p10-5",
+      "aspect": "3:2",
+      "alt": "Друзья идут по большим следам, а из норы выходит Ворчун.",
+      "prompt": "Soft watercolour and coloured pencil children's picture book illustration for ages 3-6. Warm, cosy, gentle. Rounded friendly shapes, thick soft outlines, visible paper grain, soft edges. Cute anthropomorphic forest animals with big kind eyes and simple expressive faces. Flat simple background, few elements, lots of empty space. Bright but soft palette, never harsh. Storybook staging, clear silhouette, instantly readable. Hand-painted, never photographic, no 3D render, no glossy CGI, no anime. No text, no letters, no numbers, no captions, no borders, no watermark, no signature. Autumn palette: warm ochre, red rowan berries, ginger foliage, soft green moss, brown earth, cream sky, low golden light. Vorchun, a big badger with a black and white striped face, gentle despite his size. Pik, a small grey mouse with very big round ears and a long thin tail. Vorchun steps out of his burrow on the hill, and startled Pik sits down in a puddle. A trail of big paw prints leads to the burrow door. Mood: funny, deflating."
+    },
+    {
+      "type": "text",
+      "text": "Уля села на землю.\n\nЕй стало плохо в животе. Как будто там холодный камушек.\n\nОна подумала про Малыша. Он ходит один. Уже три дня. И зовёт маму.\n\nА потом Уля подумала про себя.\n\nА если её мама уйдёт за ягодами? И не придёт?\n\nИ Уля будет ходить вокруг рябины. Туда. Сюда. И опять туда.\n\nУ Ули задрожал носик.\n\n— Ты чего? — спросил Пик.\n\n— Я боюсь, — сказала Уля. — Я боюсь потерять маму.\n\nОна сказала это вслух. И сразу заплакала.\n\nВорчун сел рядом. Земля даже стукнула: бум.\n\n— Правильно боишься, — сказал Ворчун. — Кого любишь, того и боишься потерять.\n\n— И что делать?\n\n— Искать, — сказал Ворчун. — Всегда искать.\n\nОн подумал и добавил громко:\n\n— И ещё вот что. Мама тоже ищет. Прямо сейчас. Всегда двое ищут, а не один.\n\nУля вытерла нос лапкой.\n\n— Правда двое?\n\n— Правда, — сказал Ворчун. — Так всегда бывает.\n\nИ Уля встала. Холодный камушек в животе стал поменьше."
+    },
+    {
+      "type": "image",
+      "id": 1006,
+      "file": "p10-6",
+      "aspect": "3:2",
+      "alt": "Уля сидит на земле и плачет, рядом садится Ворчун.",
+      "prompt": "Soft watercolour and coloured pencil children's picture book illustration for ages 3-6. Warm, cosy, gentle. Rounded friendly shapes, thick soft outlines, visible paper grain, soft edges. Cute anthropomorphic forest animals with big kind eyes and simple expressive faces. Flat simple background, few elements, lots of empty space. Bright but soft palette, never harsh. Storybook staging, clear silhouette, instantly readable. Hand-painted, never photographic, no 3D render, no glossy CGI, no anime. No text, no letters, no numbers, no captions, no borders, no watermark, no signature. Autumn palette: warm ochre, red rowan berries, ginger foliage, soft green moss, brown earth, cream sky, low golden light. Ulya, a small girl hedgehog, soft light-brown quills, round black nose, big friendly eyes, wearing a tiny acorn on a cord around her neck. Vorchun, a big badger with a black and white striped face, gentle despite his size. Ulya sits on the mossy ground with tears on her cheeks, and the big badger sits down beside her, not saying much. Mood: sad, held."
+    },
+    {
+      "type": "text",
+      "text": "— Я знаю! — крикнул вдруг Тишка. — Надо посмотреть сверху!\n\nИ он полез на самую высокую сосну.\n\nПрыг на ветку — раз!\n\nПрыг на ветку — два!\n\nПрыг на ветку — три!\n\nТишка залез на самую макушку. Оттуда он был как маленькая рыжая точка.\n\nВсе задрали головы.\n\n— Видишь? — крикнула Уля.\n\n— Вижу ручей!\n\n— А ещё?\n\n— Вижу холм!\n\n— А ещё?\n\nТишка замолчал. Потом закричал так, что чуть не упал:\n\n— ВИЖУ! Там, за холмом! Рыжее пятно! Оно ходит!\n\n— Оно большое? — крикнула Уля.\n\n— Больше Малыша!\n\nМалыш поднял голову. Уши у него встали торчком.\n\n— Слезай! — крикнула Уля. — Показывай куда!\n\nТишка съехал вниз и показал лапкой.\n\n— Туда. За холм. Мимо старой ели.\n\n— Третий раз, — сказала Уля. — Пойдём."
+    },
+    {
+      "type": "image",
+      "id": 1007,
+      "file": "p10-7",
+      "aspect": "3:2",
+      "alt": "Тишка на самой макушке сосны смотрит вдаль.",
+      "prompt": "Soft watercolour and coloured pencil children's picture book illustration for ages 3-6. Warm, cosy, gentle. Rounded friendly shapes, thick soft outlines, visible paper grain, soft edges. Cute anthropomorphic forest animals with big kind eyes and simple expressive faces. Flat simple background, few elements, lots of empty space. Bright but soft palette, never harsh. Storybook staging, clear silhouette, instantly readable. Hand-painted, never photographic, no 3D render, no glossy CGI, no anime. No text, no letters, no numbers, no captions, no borders, no watermark, no signature. Autumn palette: warm ochre, red rowan berries, ginger foliage, soft green moss, brown earth, cream sky, low golden light. Tishka, a red squirrel kit with a huge fluffy tail. Tishka stands on the very top of a tall pine, one paw over his eyes, looking far away over a low hill. Wide empty cream sky. Mood: discovery, high up."
+    },
+    {
+      "type": "text",
+      "text": "Они пошли за холм.\n\nВпереди шёл Ворчун. Он знал дорогу.\n\nПотом Малыш. Потом Уля. Потом Бума и Тишка. Пик шёл последний и болтал.\n\n— А вдруг это не она? А вдруг это большой рыжий камень? А камни ходят?\n\n— Пик, — сказала Бума.\n\n— Молчу.\n\nОни шли долго. Тропинка была узкая. Листья шуршали: шур-шур-шур.\n\nПотом Ворчун остановился и поднял лапу.\n\nВсе остановились.\n\nИ услышали.\n\nКто-то ходил за деревьями и звал. Тихо и хрипло. Как будто уже долго-долго звал.\n\nМалыш задрожал весь.\n\n— Это мама, — прошептал он.\n\n— Ты уверен? — спросила Уля.\n\n— Я её голос знаю, — сказал Малыш. — Я его всегда знаю.\n\nИ побежал."
+    },
+    {
+      "type": "image",
+      "id": 1008,
+      "file": "p10-8",
+      "aspect": "3:2",
+      "alt": "Друзья идут цепочкой по узкой тропинке за Ворчуном.",
+      "prompt": "Soft watercolour and coloured pencil children's picture book illustration for ages 3-6. Warm, cosy, gentle. Rounded friendly shapes, thick soft outlines, visible paper grain, soft edges. Cute anthropomorphic forest animals with big kind eyes and simple expressive faces. Flat simple background, few elements, lots of empty space. Bright but soft palette, never harsh. Storybook staging, clear silhouette, instantly readable. Hand-painted, never photographic, no 3D render, no glossy CGI, no anime. No text, no letters, no numbers, no captions, no borders, no watermark, no signature. Autumn palette: warm ochre, red rowan berries, ginger foliage, soft green moss, brown earth, cream sky, low golden light. Vorchun, a big badger with a black and white striped face, gentle despite his size. A young deer fawn, tall but babyish, with white spots. Ulya, a small girl hedgehog, soft light-brown quills, round black nose, big friendly eyes, wearing a tiny acorn on a cord around her neck. The badger leads a little line of friends along a narrow path between dark trunks, the fawn walking right behind him. Mood: determined, on the way."
+    },
+    {
+      "type": "text",
+      "text": "За деревьями стояла большая олениха.\n\nОна была высокая. Выше Малыша. Выше Ворчуна. Выше всех.\n\nНоги у неё дрожали. Она искала три дня и не спала.\n\n— Мама! — крикнул Малыш.\n\nОлениха повернулась.\n\nИ побежала.\n\nОни встретились посередине. Мама наклонила голову и потрогала Малыша носом. Везде-везде. Ушки, спинку, ножки. Как будто считала: все на месте?\n\nМалыш стоял и не двигался. И у него текли слёзы. И он улыбался.\n\n— Я тебя искала, — сказала олениха. — Я всё время тебя искала.\n\n— А я думал, ты ушла, — сказал Малыш.\n\n— Я не ушла, — сказала мама. — Я заблудилась. А ты меня нашёл.\n\nПик громко шмыгнул носом.\n\n— Я не плачу, — сказал Пик. — Мне листик в глаз попал.\n\n— И мне, — сказал Тишка.\n\n— И мне, — сказала Бума.\n\n— И мне, — сказала Уля.\n\nЛистиков в тот день летало много."
+    },
+    {
+      "type": "image",
+      "id": 1009,
+      "file": "p10-9",
+      "aspect": "3:2",
+      "alt": "Мама-олениха и Малыш встретились и трогают друг друга носами.",
+      "prompt": "Soft watercolour and coloured pencil children's picture book illustration for ages 3-6. Warm, cosy, gentle. Rounded friendly shapes, thick soft outlines, visible paper grain, soft edges. Cute anthropomorphic forest animals with big kind eyes and simple expressive faces. Flat simple background, few elements, lots of empty space. Bright but soft palette, never harsh. Storybook staging, clear silhouette, instantly readable. Hand-painted, never photographic, no 3D render, no glossy CGI, no anime. No text, no letters, no numbers, no captions, no borders, no watermark, no signature. Autumn palette: warm ochre, red rowan berries, ginger foliage, soft green moss, brown earth, cream sky, low golden light. A young deer fawn, tall but babyish, with white spots, and his tall mother deer. The mother deer bends her long neck down and touches her fawn's face with her nose while he presses against her. An empty clearing behind them. Mood: reunion, overwhelming relief."
+    },
+    {
+      "type": "text",
+      "text": "Малыш попрощался со всеми.\n\n— Я приду весной, — сказал он.\n\n— Приходи, — сказала Уля. — Мы будем тут.\n\nОлениха наклонила голову перед маленькой ежинкой. Совсем низко.\n\n— Спасибо, — сказала она. — Вы нашли моего малыша.\n\n— Это Тишка нашёл, — сказала Уля. — Он сверху смотрел.\n\n— Это все нашли, — сказал Ворчун громко.\n\nПотом они ушли. Две рыжие спинки между деревьями. Большая и поменьше.\n\nУля смотрела, пока их было видно. И ещё немножко смотрела, когда уже не было видно.\n\nПотом она побежала домой. Очень быстро. Топ-топ-топ, топ-топ-топ!\n\nМама сидела у норки и чистила рябину.\n\nУля подбежала и уткнулась ей в бок.\n\n— Ты чего? — удивилась мама.\n\n— Мама, — сказала Уля. — Ты же всегда вернёшься?\n\nМама отложила рябину.\n\n— Всегда, — сказала мама. — Иногда долго. Но всегда.\n\n— А если ты заблудишься?\n\n— Тогда я буду тебя искать.\n\n— А я буду искать тебя.\n\n— Вот, — сказала мама. — Значит, найдёмся."
+    },
+    {
+      "type": "image",
+      "id": 1010,
+      "file": "p10-10",
+      "aspect": "3:2",
+      "alt": "Уля уткнулась маме в бок у норки под рябиной.",
+      "prompt": "Soft watercolour and coloured pencil children's picture book illustration for ages 3-6. Warm, cosy, gentle. Rounded friendly shapes, thick soft outlines, visible paper grain, soft edges. Cute anthropomorphic forest animals with big kind eyes and simple expressive faces. Flat simple background, few elements, lots of empty space. Bright but soft palette, never harsh. Storybook staging, clear silhouette, instantly readable. Hand-painted, never photographic, no 3D render, no glossy CGI, no anime. No text, no letters, no numbers, no captions, no borders, no watermark, no signature. Autumn palette: warm ochre, red rowan berries, ginger foliage, soft green moss, brown earth, cream sky, low golden light. Ulya, a small girl hedgehog, soft light-brown quills, round black nose, big friendly eyes, wearing a tiny acorn on a cord around her neck. Ulya's mother, a big warm hedgehog with soft brown quills. Ulya runs up and buries her face in her mother's side by the burrow door under the red rowan tree at sunset. Mood: warm, homecoming."
+    },
+    {
+      "type": "text",
+      "text": "Они сидели у норки и смотрели на небо.\n\nНебо было розовое, а потом сиреневое.\n\n— Мама, а куда ушли птички? — спросила Уля.\n\n— Улетели. Скоро холодно будет.\n\n— А холодно — это когда?\n\n— Скоро, — сказала мама. — Совсем скоро.\n\n— А мы куда денемся?\n\n— А мы будем дома. В тёплой норке.\n\n— Вместе?\n\n— Вместе, — сказала мама.\n\nСтало прохладно. Уля поёжилась.\n\nВетер тронул рябину, и упало сразу много листиков. Целый дождик.\n\n— Пойдём в норку, — сказала мама.\n\nУля пришла домой. Мама обняла её крепко-крепко.\n\nУля легла в кроватку и закрыла глазки."
+    }
+  ]
+}

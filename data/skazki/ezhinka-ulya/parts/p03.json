@@ -1,0 +1,135 @@
+{
+  "num": 3,
+  "title": "Кто съел орешки",
+  "theme": "не обвиняй, пока не спросил",
+  "teaser": "Утром кладовка оказалась пустой. Уля точно знает, кто виноват. Только она ещё никого не спросила.",
+  "moral": "— Сначала спроси. А сердиться будешь потом, — сказала Уля.",
+  "cliffhanger": "Ночью Соня постучала в норку. — Скоро зима, — сказала Соня. — А у вас пусто. У вас даже кладовки нет.",
+  "question": "А тебя когда-нибудь ругали за то, чего ты не делала?",
+  "blocks": [
+    {
+      "type": "text",
+      "text": "Утром мама ахнула.\n— Ой! — сказала мама. — Ой-ой-ой.\n\nУля открыла глаза.\n\nУля потянула лапки — раз!\nПотянула иголки — два!\nИ пошла на улицу: топ-топ-топ.\n\nМама стояла у кладовки. Кладовка была под корнем рябины.\nТам лежали орешки. Много орешков.\nУля вчера их считала. Двадцать и ещё пять.\n\nУля заглянула внутрь.\n\nКладовка была пустая. Совсем пустая.\nНа дне лежали одни скорлупки.\n\n— Мама! А где орешки?\n— Не знаю, — сказала мама.\n— Их кто-то съел!\n— Похоже, — сказала мама.\n\nУля села на землю.\nВ животе стало горячо. И в ушах зашумело.\n\n— Кто?! Кто съел мои орешки?!\n\nМама села рядом на землю.\n\n— Ты злишься, — сказала мама. — Это бывает.\n— Я не злюсь! Я хочу знать кто!\n— Хорошо, — сказала мама. — Пойди и узнай.\n\nУля вскочила.\n\n— Уля.\n— Что?\n— Узнай, — сказала мама. — А не придумай.\n\nНо Уля уже бежала. И почти не слышала."
+    },
+    {
+      "type": "image",
+      "id": 301,
+      "file": "p03-1",
+      "aspect": "3:2",
+      "alt": "Мама и Уля смотрят в пустую кладовку.",
+      "prompt": "Soft watercolour and coloured pencil children's picture book illustration for ages 3-6. Warm, cosy, gentle. Rounded friendly shapes, thick soft outlines, visible paper grain, soft edges. Cute anthropomorphic forest animals with big kind eyes and simple expressive faces. Flat simple background, few elements, lots of empty space. Bright but soft palette, never harsh. Storybook staging, clear silhouette, instantly readable. Hand-painted, never photographic, no 3D render, no glossy CGI, no anime. No text, no letters, no numbers, no captions, no borders, no watermark, no signature. Autumn palette: warm ochre, red rowan berries, ginger foliage, soft green moss, brown earth, cream sky, low golden light. Ulya, a small girl hedgehog, soft light-brown quills, round black nose, big friendly eyes, wearing a tiny acorn on a cord around her neck. Ulya's mother, a big warm hedgehog with soft brown quills. Ulya and her mother look into the empty little storeroom under the rowan roots. Only a few empty nutshells lie on the bottom. Mood: dismayed."
+    },
+    {
+      "type": "text",
+      "text": "Прибежал Пик. Тип-тип-тип.\n\n— Что случилось? Я слышал крик!\n\nУля посмотрела на Пика.\nПик жевал. Пик всегда жевал.\n\n— Что у тебя во рту? — спросила Уля.\n— Травинка.\n— Покажи!\n\nПик показал. Это была травинка.\n\n— Всё равно, — сказала Уля. — Ты всё время хочешь есть.\n— Хочу, — сказал Пик.\n— И ночью ты брал орешек!\n— Свой брал. Из своей норки.\n— Значит, это ты!\n\nПик перестал жевать. Уши у Пика опустились.\n\n— Я? — сказал он тихо.\n— Ты.\n— Я не брал.\n— А кто?\n\nПик молчал. Пик смотрел в землю.\n\n— Мне обидно, — сказал Пик.\n\nИ ушёл. Медленно. Тип. Тип. Тип.\n\n— Уля, — сказала мама. — Ты его спросила?\n— Я его спросила!\n— Нет, — сказала мама. — Ты ему сказала. Это разное."
+    },
+    {
+      "type": "image",
+      "id": 302,
+      "file": "p03-2",
+      "aspect": "3:2",
+      "alt": "Пик уходит, опустив уши, Уля смотрит вслед.",
+      "prompt": "Soft watercolour and coloured pencil children's picture book illustration for ages 3-6. Warm, cosy, gentle. Rounded friendly shapes, thick soft outlines, visible paper grain, soft edges. Cute anthropomorphic forest animals with big kind eyes and simple expressive faces. Flat simple background, few elements, lots of empty space. Bright but soft palette, never harsh. Storybook staging, clear silhouette, instantly readable. Hand-painted, never photographic, no 3D render, no glossy CGI, no anime. No text, no letters, no numbers, no captions, no borders, no watermark, no signature. Autumn palette: warm ochre, red rowan berries, ginger foliage, soft green moss, brown earth, cream sky, low golden light. Ulya, a small girl hedgehog, soft light-brown quills, round black nose, big friendly eyes, wearing a tiny acorn on a cord around her neck. Pik, a small grey mouse with very big round ears and a long thin tail. Pik walks slowly away with his big ears drooping down. Ulya stands behind him with her mouth open, watching him go. Mood: hurt, quiet."
+    },
+    {
+      "type": "text",
+      "text": "Уля побежала к сосне. Топ-топ-топ.\n\n— Тишка! Спускайся!\n\nТишка спустился. Медленно, задом, как научился ночью.\n\n— У нас пропали орешки, — сказала Уля.\n— Ой, — сказал Тишка.\n— «Ой»? Почему «ой»?!\n— Просто ой.\n\nУля прищурилась.\n\n— Тишка. А ты любишь орешки?\n— Люблю.\n— А у тебя в дупле есть орешки?\n— Есть.\n— Ага!!!\n\nТишка сел на землю.\n\n— У меня свои, — сказал он. — Я их всё лето собирал. Хочешь, покажу?\n— Хочу!\n\nТишка сбегал наверх. Вжик!\nТишка скинул вниз орешек. Потом ещё. Потом ещё.\n\nОрешки упали к Улиным лапкам.\nОни были длинные. А в кладовке были круглые.\n\n— Не те, — сказала Уля тихо.\n— Не те, — сказал Тишка. — Я же говорил.\n\nУле стало неловко.\n\n— А почему ты сказал «ой»? — спросила она.\n— Потому что орешки жалко, — сказал Тишка. — Зима же скоро.\n— Ой, — сказала Уля.\n— Вот именно что ой.\n\nТишка почесал ухо задней лапкой.\n\n— А ты кого-нибудь ещё спрашивала?\n— Пика.\n— И что он?\n— Он обиделся, — сказала Уля. И посмотрела в сторону."
+    },
+    {
+      "type": "image",
+      "id": 303,
+      "file": "p03-3",
+      "aspect": "3:2",
+      "alt": "Тишка сбрасывает свои длинные орешки с сосны.",
+      "prompt": "Soft watercolour and coloured pencil children's picture book illustration for ages 3-6. Warm, cosy, gentle. Rounded friendly shapes, thick soft outlines, visible paper grain, soft edges. Cute anthropomorphic forest animals with big kind eyes and simple expressive faces. Flat simple background, few elements, lots of empty space. Bright but soft palette, never harsh. Storybook staging, clear silhouette, instantly readable. Hand-painted, never photographic, no 3D render, no glossy CGI, no anime. No text, no letters, no numbers, no captions, no borders, no watermark, no signature. Autumn palette: warm ochre, red rowan berries, ginger foliage, soft green moss, brown earth, cream sky, low golden light. Ulya, a small girl hedgehog, soft light-brown quills, round black nose, big friendly eyes, wearing a tiny acorn on a cord around her neck. Tishka, a red squirrel kit with a huge fluffy tail. Tishka drops long nuts down from the pine trunk while Ulya stands below and the nuts land by her paws. Mood: eager, awkward."
+    },
+    {
+      "type": "text",
+      "text": "Уля пошла к кочке у воды.\n\nНа кочке сидел Квафик. Зелёный, круглые глаза.\nКвафик тихонько пел. Ква-а-а. Ква-а-а.\nОн пел лучше всех на поляне.\n\n— Квафик! Это ты съел орешки?\n\nКвафик перестал петь.\nКвафик стал совсем маленький на своей кочке.\n\n— Я... я... — сказал Квафик.\n— Что?!\n— Я не ем орешки, — прошептал Квафик. — Я ем мошек.\n\n— Ой, — сказала Уля.\n— Ой, — сказал Тишка.\n\nКвафик отвернулся. Ему было стыдно, что на него кричат.\n\n— Прости, — сказала Уля.\n\nКвафик кивнул. Но петь больше не стал.\n\nУля села на траву.\n\nДрузей у неё было трое. И обиженных теперь тоже трое.\nА орешков всё равно не было.\n\n— Тишка, — сказала Уля. — Я делаю что-то не так.\n— Ага, — сказал Тишка.\n— А что?\n— Ты кричишь сначала. А спрашиваешь потом.\n\nУля вздохнула. Длинно-длинно.\nЖивот всё ещё был горячий. Но уже меньше."
+    },
+    {
+      "type": "image",
+      "id": 304,
+      "file": "p03-4",
+      "aspect": "3:2",
+      "alt": "Квафик отвернулся на кочке у воды.",
+      "prompt": "Soft watercolour and coloured pencil children's picture book illustration for ages 3-6. Warm, cosy, gentle. Rounded friendly shapes, thick soft outlines, visible paper grain, soft edges. Cute anthropomorphic forest animals with big kind eyes and simple expressive faces. Flat simple background, few elements, lots of empty space. Bright but soft palette, never harsh. Storybook staging, clear silhouette, instantly readable. Hand-painted, never photographic, no 3D render, no glossy CGI, no anime. No text, no letters, no numbers, no captions, no borders, no watermark, no signature. Autumn palette: warm ochre, red rowan berries, ginger foliage, soft green moss, brown earth, cream sky, low golden light. Ulya, a small girl hedgehog, soft light-brown quills, round black nose, big friendly eyes, wearing a tiny acorn on a cord around her neck. Kvafik, a small round green frog with big round eyes. Kvafik sits small on his tussock by the water, turned away and hunched. Ulya stands at the edge of the water looking sorry. Mood: shy, sorry."
+    },
+    {
+      "type": "text",
+      "text": "И вдруг жёлудь на шнурке засветился. Тёплый-тёплый. И загудел: жу-жу-жу.\n\n— Кому-то нужна помощь! — сказала Уля.\n\n— Кому? — спросил Тишка.\n— Сейчас узнаем.\n\nУля сделала шаг. Жёлудь загудел громче.\nУля сделала другой шаг. Жёлудь загудел тише.\n\n— Туда, — сказала Уля.\n\nОни пошли. Топ-топ-топ. Скок-скок-скок.\n\nЖёлудь вёл их мимо ручья. Мимо малинника. Мимо большого пня.\nИ привёл к старой ели.\n\nПод елью лежала куча листьев.\nИ эта куча дышала.\n\nВверх. Вниз. Вверх. Вниз.\n\n— Куча дышит, — прошептала Уля.\n— Кучи не дышат, — прошептал Тишка.\n— А эта дышит.\n— Значит, это не куча, — прошептал Тишка.\n\n— Она живая, — прошептал Тишка и спрятался за Улю.\n— Тише, — сказала Уля.\n\nИ в куче листьев кто-то зевнул. Громко-прегромко.\n\n— А-А-А-ах."
+    },
+    {
+      "type": "image",
+      "id": 305,
+      "file": "p03-5",
+      "aspect": "3:2",
+      "alt": "Куча листьев под елью тихонько дышит.",
+      "prompt": "Soft watercolour and coloured pencil children's picture book illustration for ages 3-6. Warm, cosy, gentle. Rounded friendly shapes, thick soft outlines, visible paper grain, soft edges. Cute anthropomorphic forest animals with big kind eyes and simple expressive faces. Flat simple background, few elements, lots of empty space. Bright but soft palette, never harsh. Storybook staging, clear silhouette, instantly readable. Hand-painted, never photographic, no 3D render, no glossy CGI, no anime. No text, no letters, no numbers, no captions, no borders, no watermark, no signature. Autumn palette: warm ochre, red rowan berries, ginger foliage, soft green moss, brown earth, cream sky, low golden light. Ulya, a small girl hedgehog, soft light-brown quills, round black nose, big friendly eyes, wearing a tiny acorn on a cord around her neck. Tishka, a red squirrel kit with a huge fluffy tail. A big heap of fallen leaves under an old spruce puffs slightly up and down as if breathing. Ulya and Tishka lean forward and stare at it. Mood: curious, mysterious."
+    },
+    {
+      "type": "text",
+      "text": "Уля разгребла листья. Шур-шур-шур.\n\nПод листьями лежал зверёк. Совсем маленький.\nСеренький, пушистый, с большими глазами.\nИ с хвостиком, как щёточка.\n\nОн зевал.\n\nА вокруг него лежали скорлупки. Много скорлупок. Круглых.\n\nТишка открыл рот.\n\n— Скорлупки! Уля, смотри! Это она! Это она съела!\n\nУля посмотрела на скорлупки.\nВнутри опять стало горячо.\nВот сейчас она закричит. Вот сейчас скажет: «Воровка!»\n\nНо Уля вспомнила Пика.\nКак у него опустились уши. И как он ушёл: тип, тип, тип.\n\nИ Уля закрыла рот.\nИ спросила по-другому:\n\n— Привет. Тебя как зовут?\n— Со-о-о-оня, — зевнул зверёк.\n— Соня, это ты съела наши орешки?\n— Я, — сказала Соня. И заплакала."
+    },
+    {
+      "type": "image",
+      "id": 306,
+      "file": "p03-6",
+      "aspect": "3:2",
+      "alt": "Соня зевает в листьях, вокруг скорлупки.",
+      "prompt": "Soft watercolour and coloured pencil children's picture book illustration for ages 3-6. Warm, cosy, gentle. Rounded friendly shapes, thick soft outlines, visible paper grain, soft edges. Cute anthropomorphic forest animals with big kind eyes and simple expressive faces. Flat simple background, few elements, lots of empty space. Bright but soft palette, never harsh. Storybook staging, clear silhouette, instantly readable. Hand-painted, never photographic, no 3D render, no glossy CGI, no anime. No text, no letters, no numbers, no captions, no borders, no watermark, no signature. Autumn palette: warm ochre, red rowan berries, ginger foliage, soft green moss, brown earth, cream sky, low golden light. Ulya, a small girl hedgehog, soft light-brown quills, round black nose, big friendly eyes, wearing a tiny acorn on a cord around her neck. Sonya, a tiny sleepy dormouse, always yawning. Ulya pushes the leaves aside and finds Sonya curled there, yawning hugely, with round empty nutshells scattered all around her. Mood: surprised, gentle."
+    },
+    {
+      "type": "text",
+      "text": "— Не плачь, — сказала Уля. — Ты почему плачешь?\n— Я думала, вы будете ругаться.\n— Мы... — Уля посмотрела на Тишку. — Мы сначала спрашиваем.\n\nСоня вытерла глаза лапкой.\n\n— Я пришла издалека, — сказала она. — Я шла долго. Три дня и три ночи.\n— Зачем?\n— В моём лесу больше нет дома.\n\nСоня зевнула. Она зевала, даже когда плакала.\n\n— Я пришла ночью. Я никого тут не знаю.\nЯ хотела постучать. А потом побоялась.\n\n— Почему?\n— А вдруг прогонят?\n\nСоня опустила голову.\n\n— И я нашла орешки. И съела. Все.\nЯ была очень голодная. Я не хотела воровать.\n\nУля молчала. Уля думала.\nЕй было ужасно стыдно. Стыдно прямо до ушей.\n\nОна подумала так.\nСоня была голодная — а Уля кричала на Пика.\nСоня боялась постучать — а Уля кричала на Тишку.\nСоня плакала под листьями — а Уля кричала на Квафика.\n\n— Соня, — сказала Уля. — Ты не воровка.\n— Правда?\n— Правда. Ты была голодная. Это разное.\n\nСоня перестала плакать. И зевнула."
+    },
+    {
+      "type": "image",
+      "id": 307,
+      "file": "p03-7",
+      "aspect": "3:2",
+      "alt": "Соня плачет и зевает, Уля сидит рядом.",
+      "prompt": "Soft watercolour and coloured pencil children's picture book illustration for ages 3-6. Warm, cosy, gentle. Rounded friendly shapes, thick soft outlines, visible paper grain, soft edges. Cute anthropomorphic forest animals with big kind eyes and simple expressive faces. Flat simple background, few elements, lots of empty space. Bright but soft palette, never harsh. Storybook staging, clear silhouette, instantly readable. Hand-painted, never photographic, no 3D render, no glossy CGI, no anime. No text, no letters, no numbers, no captions, no borders, no watermark, no signature. Autumn palette: warm ochre, red rowan berries, ginger foliage, soft green moss, brown earth, cream sky, low golden light. Ulya, a small girl hedgehog, soft light-brown quills, round black nose, big friendly eyes, wearing a tiny acorn on a cord around her neck. Sonya, a tiny sleepy dormouse, always yawning. Sonya wipes her eyes with a paw while yawning at the same time. Ulya sits close beside her in the leaves, listening. Mood: sad, kind."
+    },
+    {
+      "type": "text",
+      "text": "— Тишка, — сказала Уля. — Побудь с ней. Я приду.\n\nИ Уля побежала. Топ-топ-топ-топ.\nНе домой. К Пиковой норке.\n\nПик сидел спиной ко входу.\n\n— Пик.\n— Уйди.\n— Пик, я...\n— Ты сказала, что я вор.\n\nУля села рядом. Совсем рядом.\n\n— Мне стыдно, — сказала Уля. — Очень стыдно.\n\nПик не повернулся.\n\n— Я не спросила. Я сразу сказала. Так нельзя.\n\nПик молчал.\n\n— Прости меня, Пик.\n\nПик повернулся. Нос у него был мокрый.\n\n— Мне было очень обидно, — сказал он.\n— Я знаю.\n— Прямо вот тут, — Пик показал лапкой на грудку. — Тут было горячо.\n— И у меня тут горячо, — сказала Уля. — С самого утра."
+    },
+    {
+      "type": "image",
+      "id": 308,
+      "file": "p03-8",
+      "aspect": "3:2",
+      "alt": "Уля извиняется перед Пиком у его норки.",
+      "prompt": "Soft watercolour and coloured pencil children's picture book illustration for ages 3-6. Warm, cosy, gentle. Rounded friendly shapes, thick soft outlines, visible paper grain, soft edges. Cute anthropomorphic forest animals with big kind eyes and simple expressive faces. Flat simple background, few elements, lots of empty space. Bright but soft palette, never harsh. Storybook staging, clear silhouette, instantly readable. Hand-painted, never photographic, no 3D render, no glossy CGI, no anime. No text, no letters, no numbers, no captions, no borders, no watermark, no signature. Autumn palette: warm ochre, red rowan berries, ginger foliage, soft green moss, brown earth, cream sky, low golden light. Ulya, a small girl hedgehog, soft light-brown quills, round black nose, big friendly eyes, wearing a tiny acorn on a cord around her neck. Pik, a small grey mouse with very big round ears and a long thin tail. Ulya sits right next to Pik at the entrance of his burrow. He has turned his head towards her with a wet nose. Mood: honest, tender."
+    },
+    {
+      "type": "text",
+      "text": "Они посидели рядом. Молча. Раз. Два. Три.\n\nПотом Пик шмыгнул носом.\n\n— Ладно, — сказал он. — Ты извинилась. Я слышал.\n— Слышал?\n— Слышал. Я хорошо слышу. У меня уши вон какие.\n\nПик встал и отряхнулся.\n\n— А орешки-то кто съел?\n— Соня, — сказала Уля. — Она голодная. Она из другого леса.\n— Голодная?! — сказал Пик. — Это плохо! Голодная — это очень плохо!\n\nПро голод Пик знал больше всех на поляне.\n\nОн нырнул в норку. Он вытащил три орешка. Свои. Последние.\n\n— Пошли, — сказал Пик.\n\n— А ты не сердишься на неё? — спросила Уля.\n— Сержусь немножко, — сказал Пик. — Но кушать важнее.\n\nИ они побежали собирать еду.\nТишка притащил длинные орешки. Целых пять.\nМама дала сухих ягод. Целую горсть.\nА Квафик не принёс ничего. Квафик просто пришёл и сел рядом."
+    },
+    {
+      "type": "image",
+      "id": 309,
+      "file": "p03-9",
+      "aspect": "3:2",
+      "alt": "Друзья несут еду в лапках через поляну.",
+      "prompt": "Soft watercolour and coloured pencil children's picture book illustration for ages 3-6. Warm, cosy, gentle. Rounded friendly shapes, thick soft outlines, visible paper grain, soft edges. Cute anthropomorphic forest animals with big kind eyes and simple expressive faces. Flat simple background, few elements, lots of empty space. Bright but soft palette, never harsh. Storybook staging, clear silhouette, instantly readable. Hand-painted, never photographic, no 3D render, no glossy CGI, no anime. No text, no letters, no numbers, no captions, no borders, no watermark, no signature. Autumn palette: warm ochre, red rowan berries, ginger foliage, soft green moss, brown earth, cream sky, low golden light. Pik, a small grey mouse with very big round ears and a long thin tail. Tishka, a red squirrel kit with a huge fluffy tail. Pik carries three nuts pressed to his chest and Tishka drags a bundle of long nuts, both hurrying across the clearing. Mood: busy, warm."
+    },
+    {
+      "type": "text",
+      "text": "Соня сидела в листьях и смотрела.\nПеред ней росла горка еды. Всё выше и выше.\n\n— Это мне? — спросила Соня.\n— Тебе, — сказала Уля.\n— Всё?\n— Всё.\n\nСоня взяла орешек. Хрум-хрум.\nВзяла ягодку. Хрум-хрум.\nВзяла ещё орешек. Хрум... и зевнула прямо посередине.\n\nВсе засмеялись. И Соня тоже засмеялась.\n\n— А где ты будешь жить? — спросила Уля.\n— Не знаю.\n— Живи тут, — сказала Уля. — Тут ёлка. Тут листья. Тут мы.\n\nСоня посмотрела на неё большими глазами.\n\n— Правда?\n— Правда.\n\nИ жёлудь на шнурке погас. Тихо-тихо.\nЗначит, помощь больше не нужна.\n\nА Квафик наконец запел. Ква-а-а. Ква-а-а.\n\nУля подошла к нему.\n\n— Квафик. Я на тебя накричала. Прости.\n— Ква, — сказал Квафик. И покраснел бы, если бы умел.\n— Это «да»?\n— Это «да», — сказал Квафик.\n\nИ запел ещё громче."
+    },
+    {
+      "type": "image",
+      "id": 310,
+      "file": "p03-10",
+      "aspect": "3:2",
+      "alt": "Горка еды перед Соней, все смеются.",
+      "prompt": "Soft watercolour and coloured pencil children's picture book illustration for ages 3-6. Warm, cosy, gentle. Rounded friendly shapes, thick soft outlines, visible paper grain, soft edges. Cute anthropomorphic forest animals with big kind eyes and simple expressive faces. Flat simple background, few elements, lots of empty space. Bright but soft palette, never harsh. Storybook staging, clear silhouette, instantly readable. Hand-painted, never photographic, no 3D render, no glossy CGI, no anime. No text, no letters, no numbers, no captions, no borders, no watermark, no signature. Autumn palette: warm ochre, red rowan berries, ginger foliage, soft green moss, brown earth, cream sky, low golden light. Ulya, a small girl hedgehog, soft light-brown quills, round black nose, big friendly eyes, wearing a tiny acorn on a cord around her neck. Sonya, a tiny sleepy dormouse, always yawning. Pik, a small grey mouse with very big round ears and a long thin tail. A little heap of nuts and dried berries is piled in front of Sonya, who holds one nut and yawns. Ulya and Pik laugh beside her. Mood: joyful, welcoming."
+    },
+    {
+      "type": "text",
+      "text": "Солнце садилось. Низкое и жёлтое.\nВсе расходились по норкам.\n\n— Пик, — сказала Уля на тропинке. — Ты правда меня простил?\n— Правда, — сказал Пик. — Только сначала спрашивай. Ладно?\n— Ладно.\n\nМама ждала у рябины.\n\n— А орешков на зиму нет, — сказала Уля. — Совсем нет.\n— Соберём ещё, — сказала мама. — Ты справилась с главным.\n— С чем?\n— Ты вернулась к Пику.\n\nУля потрогала жёлудь. Тихий и тёмный.\n\n— Мам. А почему я сразу решила, что это Пик?\n— А почему?\n— Потому что он всё время ест, — сказала Уля. — Я так подумала. И всё.\n— Вот и получилось всё, — сказала мама.\n\nУля зевнула.\n\n— Завтра я сначала спрошу.\n— Хорошо, — сказала мама.\n— И послезавтра тоже.\n— Ещё лучше.\n\nУля пришла домой. Мама обняла её крепко-крепко.\nУля легла в кроватку и закрыла глазки."
+    }
+  ]
+}

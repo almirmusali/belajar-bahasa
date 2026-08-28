@@ -6,7 +6,7 @@ const nextConfig = {
   // нужны: страницы читалки статические (dynamicParams = false), а озвучка
   // отдаётся как обычная статика.
   outputFileTracingExcludes: {
-    "*": ["./public/audio/**", "./public/reading/**"],
+    "*": ["./public/audio/**", "./public/reading/**", "./public/skazki/**"],
   },
 };
 

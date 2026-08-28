@@ -1,0 +1,135 @@
+{
+  "num": 6,
+  "title": "Самая красивая ягода",
+  "theme": "жадность, умение делиться",
+  "teaser": "На поляне считают всех перед зимой. И вдруг оказывается, что в малиннике осталась одна-единственная ягода. Уля находит её первой.",
+  "moral": "— Когда ешь один, даже малина кислая, — сказала Уля.",
+  "cliffhanger": "И тут за окошком зашуршало: шур-шур-шур.\nУля выглянула.\nУ рябины стоял кто-то белый, с длинными серыми ушами.\nЗначит, их девять?",
+  "question": "А тебе бывало трудно поделиться чем-то самым любимым?",
+  "blocks": [
+    {
+      "type": "text",
+      "text": "Кто-то громко постучал в дверь. Тук-тук-тук!\n\nУля открыла глаза. За окошком было светло и холодно.\n\nУля потянула лапки — раз!\nПотянула иголки — два!\nИ пошла на улицу: топ-топ-топ.\n\nУ норки стоял Ворчун. Большой, полосатый, со своей тачкой.\n\n— ДОБРОЕ УТРО! — крикнул он.\n— Доброе утро, — сказала Уля.\n\nОна залезла на пенёк, к самому его уху.\n— ДОБРОЕ УТРО!\n— Вот, — сказал Ворчун. — Теперь слышу.\n\n— Зимой будет метель, — сказал Ворчун.\n— А что такое метель?\n— Это когда снег летит и кружится. И ничего не видно.\n— Совсем ничего?\n— Совсем. Даже свою лапу не видно.\n\nУля подумала.\n— Это страшно.\n— Поэтому надо всех сосчитать, — сказал Ворчун.\n— Зачем?\n— Чтобы зимой никто не потерялся.\n\n— А ты не потеряешься? — спросила Уля.\n— Я большой, — сказал Ворчун. — Меня видно.\n\n— А если кто-нибудь всё-таки выйдет в метель?\n— Тогда его надо будет найти, — сказал Ворчун. — А чтобы найти, надо знать, сколько нас."
+    },
+    {
+      "type": "image",
+      "id": 601,
+      "file": "p06-1",
+      "aspect": "3:2",
+      "alt": "Ворчун с тачкой стоит у норки, Уля говорит ему в ухо с пенька.",
+      "prompt": "Soft watercolour and coloured pencil children's picture book illustration for ages 3-6. Warm, cosy, gentle. Rounded friendly shapes, thick soft outlines, visible paper grain, soft edges. Cute anthropomorphic forest animals with big kind eyes and simple expressive faces. Flat simple background, few elements, lots of empty space. Bright but soft palette, never harsh. Storybook staging, clear silhouette, instantly readable. Hand-painted, never photographic, no 3D render, no glossy CGI, no anime. No text, no letters, no numbers, no captions, no borders, no watermark, no signature. Autumn palette: warm ochre, red rowan berries, ginger foliage, soft green moss, brown earth, cream sky, low golden light. Ulya, a small girl hedgehog, soft light-brown quills, round black nose, big friendly eyes, wearing a tiny acorn on a cord around her neck. Vorchun, a big badger with a black and white striped face, gentle despite his size. Vorchun stands beside his wooden wheelbarrow at the burrow door in the cold morning. Ulya stands on a stump and speaks into his ear. Mood: brisk, friendly."
+    },
+    {
+      "type": "text",
+      "text": "Уля очень любила считать.\n\nОна сбегала к ручью и принесла камушки.\nОдин зверь — один камушек.\n\n— Я, — сказала Уля и положила камушек. — Раз.\n— Мама. Два.\n— Пик. Три.\n— Тишка. Четыре.\n— Квафик. Пять.\n— Соня. Шесть.\n— Тётушка Ух. Семь.\n— И ты, Ворчун. Восемь!\n\n— А Ворчуна считать? — спросил Пик. — Он же на холме живёт.\n— Считать, — сказала Уля. — Он наш.\n\n— ВОСЕМЬ, — сказал Ворчун. — Хорошо.\n\n— А камушки зачем? — спросил Пик.\n— Чтобы не забыть, — сказала Уля. — Камушки не забывают.\n\nУля сложила все восемь камушков в ямку под рябиной и накрыла корой.\n— Это наш счёт, — сказала она.\n\n— Теперь еда, — сказал Ворчун.\n— Какая еда?\n— Зимой еды нет совсем. Всё надо собрать сейчас.\n\nДрузья пошли смотреть кладовку. Ту самую, крепкую, на ножках.\n\nВнутри лежали орешки. Много.\nЛежали грибы. Много.\nЛежала рябина. Много.\n\n— Хорошо, — сказал Ворчун и уехал на свой холм.\n\nА Тишка вдруг сказал:\n— А малины нет."
+    },
+    {
+      "type": "image",
+      "id": 602,
+      "file": "p06-2",
+      "aspect": "3:2",
+      "alt": "Уля выкладывает камушки в ряд и считает.",
+      "prompt": "Soft watercolour and coloured pencil children's picture book illustration for ages 3-6. Warm, cosy, gentle. Rounded friendly shapes, thick soft outlines, visible paper grain, soft edges. Cute anthropomorphic forest animals with big kind eyes and simple expressive faces. Flat simple background, few elements, lots of empty space. Bright but soft palette, never harsh. Storybook staging, clear silhouette, instantly readable. Hand-painted, never photographic, no 3D render, no glossy CGI, no anime. No text, no letters, no numbers, no captions, no borders, no watermark, no signature. Autumn palette: warm ochre, red rowan berries, ginger foliage, soft green moss, brown earth, cream sky, low golden light. Ulya, a small girl hedgehog, soft light-brown quills, round black nose, big friendly eyes, wearing a tiny acorn on a cord around her neck. Ulya carefully lays small pebbles in a neat row on the ground, counting them with one paw raised. Mood: focused, proud."
+    },
+    {
+      "type": "text",
+      "text": "— Малина кончилась, — сказал Пик грустно. — Я вчера смотрел.\n— Совсем-совсем? — спросила Уля.\n— Совсем.\n\n— Одна была, — сказал Квафик тихо. — Я видел вчера. Самая последняя.\n\n— А зачем нам малина? — сказал Тишка. — У нас же есть орешки.\n— Малина — это малина, — сказал Пик очень серьёзно.\n\nВсе посмотрели на малинник.\n\nМалинник стоял голый. Листья жёлтые. Веточки колючие.\n\n— Пойдём искать! — сказала Уля.\n\nИ все пошли: топ-топ-топ, шур-шур-шур.\n\nИскали под листиком — нет.\nИскали под веточкой — нет.\nИскали под колючкой — нет.\n\nУля стала считать веточки: раз, два, три, четыре… и сбилась.\n— Тут очень много веточек, — сказала она.\n\nПик заглянул в траву. Тишка залез наверх. Квафик посмотрел снизу.\n\n— Нету, — сказал Пик.\n— Нету, — сказал Тишка.\n— Нету, — сказал Квафик.\n\nА Уля отошла к самому краю малинника.\nТам листики были мокрые и холодные. Уля поднимала их один за другим.\n\nИ под большим жёлтым листом она её увидела."
+    },
+    {
+      "type": "image",
+      "id": 603,
+      "file": "p06-3",
+      "aspect": "3:2",
+      "alt": "Друзья ищут ягоду в голом осеннем малиннике.",
+      "prompt": "Soft watercolour and coloured pencil children's picture book illustration for ages 3-6. Warm, cosy, gentle. Rounded friendly shapes, thick soft outlines, visible paper grain, soft edges. Cute anthropomorphic forest animals with big kind eyes and simple expressive faces. Flat simple background, few elements, lots of empty space. Bright but soft palette, never harsh. Storybook staging, clear silhouette, instantly readable. Hand-painted, never photographic, no 3D render, no glossy CGI, no anime. No text, no letters, no numbers, no captions, no borders, no watermark, no signature. Autumn palette: warm ochre, red rowan berries, ginger foliage, soft green moss, brown earth, cream sky, low golden light. Pik, a small grey mouse with very big round ears and a long thin tail. Tishka, a red squirrel kit with a huge fluffy tail. Kvafik, a small round green frog with big round eyes. Pik, Tishka and Kvafik search a bare autumn raspberry bush, one in the grass, one up on a branch, one looking from below. Mood: busy, hopeful."
+    },
+    {
+      "type": "text",
+      "text": "Малина была одна. Но какая!\n\nБольшая и розовая. Она блестела, как будто мокрая.\nСамая красивая ягода на всей поляне.\n\nУля протянула лапку. И остановилась.\n\nВнутри стало горячо.\n\n«Моя, — подумала Уля. — Я её нашла. Я первая».\n\nУля посмотрела на ягоду ещё раз. Ягода была одна. А друзей четверо.\n«Если поделить, будет по чуть-чуть, — подумала Уля. — А мне хочется всю».\n\n— Уля! — крикнул Пик издалека. — Ты нашла что-нибудь?\n\nУля быстро сорвала ягоду. И спрятала за спину.\n— Нет! — сказала она. — Тут нету!\n\nСердце застучало: тук-тук-тук.\n\nУля сама не знала, почему сказала «нет».\nПросто не хотела делиться. Совсем-совсем не хотела.\n\nУля понюхала ягоду. Пахло летом.\n\nОна положила ягоду в мягкий мох и накрыла листиком.\n— Полежи тут, — прошептала Уля. — Я потом приду."
+    },
+    {
+      "type": "image",
+      "id": 604,
+      "file": "p06-4",
+      "aspect": "3:2",
+      "alt": "Уля прячет за спиной красивую розовую малину.",
+      "prompt": "Soft watercolour and coloured pencil children's picture book illustration for ages 3-6. Warm, cosy, gentle. Rounded friendly shapes, thick soft outlines, visible paper grain, soft edges. Cute anthropomorphic forest animals with big kind eyes and simple expressive faces. Flat simple background, few elements, lots of empty space. Bright but soft palette, never harsh. Storybook staging, clear silhouette, instantly readable. Hand-painted, never photographic, no 3D render, no glossy CGI, no anime. No text, no letters, no numbers, no captions, no borders, no watermark, no signature. Autumn palette: warm ochre, red rowan berries, ginger foliage, soft green moss, brown earth, cream sky, low golden light. Ulya, a small girl hedgehog, soft light-brown quills, round black nose, big friendly eyes, wearing a tiny acorn on a cord around her neck. Ulya holds one big shiny pink raspberry hidden behind her back and looks away to the side. A large yellow leaf lies at her feet. Mood: secretive, uneasy."
+    },
+    {
+      "type": "text",
+      "text": "Друзья прибежали к Уле.\n\n— Ну что? — спросил Тишка.\n— Ничего, — сказала Уля.\n— Точно ничего? — спросил Пик.\n— Точно.\n— Совсем-совсем ничего? — спросил Квафик.\n— Совсем, — сказала Уля.\n\nИ все три раза она смотрела в другую сторону.\n\n— А ты чего такая красная? — спросил Тишка.\n— Я не красная.\n— Ты красная.\n— Это от беготни, — сказала Уля.\n\nИ это тоже была неправда.\n\n— Жалко, — вздохнул Пик. — Я так люблю малину.\n— И я, — сказал Тишка.\n— И я, — сказал Квафик.\n\nУле стало жарко. Как будто она сидела у самой печки.\n\n— Ладно! — сказал Тишка. — Пойдёмте в догонялки!\n— Пойдём! — закричали все.\n— Я потом, — сказала Уля. — Я тут посижу немножко.\n\n— Точно посидишь? — удивился Пик. — Ты же любишь догонялки.\n— Люблю, — сказала Уля. — Но я посижу.\n\nПик посмотрел на неё немножко. Потом побежал за всеми.\n\nДрузья убежали. Топ-топ-топ.\nИ стало очень тихо."
+    },
+    {
+      "type": "image",
+      "id": 605,
+      "file": "p06-5",
+      "aspect": "3:2",
+      "alt": "Друзья убегают играть, Уля остаётся сидеть одна.",
+      "prompt": "Soft watercolour and coloured pencil children's picture book illustration for ages 3-6. Warm, cosy, gentle. Rounded friendly shapes, thick soft outlines, visible paper grain, soft edges. Cute anthropomorphic forest animals with big kind eyes and simple expressive faces. Flat simple background, few elements, lots of empty space. Bright but soft palette, never harsh. Storybook staging, clear silhouette, instantly readable. Hand-painted, never photographic, no 3D render, no glossy CGI, no anime. No text, no letters, no numbers, no captions, no borders, no watermark, no signature. Autumn palette: warm ochre, red rowan berries, ginger foliage, soft green moss, brown earth, cream sky, low golden light. Ulya, a small girl hedgehog, soft light-brown quills, round black nose, big friendly eyes, wearing a tiny acorn on a cord around her neck. Pik, a small grey mouse with very big round ears and a long thin tail. Pik runs off to play with the others in the distance while Ulya stays sitting alone on the moss. Mood: lonely, quiet."
+    },
+    {
+      "type": "text",
+      "text": "Уля пошла к своему мху.\n\nОна оглянулась три раза: раз, два, три. Никого.\n\nУля подняла листик. Ягода лежала на месте. Красивая-красивая.\n\nУля села и откусила маленький кусочек.\nХрум.\n\nИ вдруг ягода оказалась… никакая.\nНе сладкая. И не кислая. Просто никакая.\n\nУля пожевала и проглотила.\n\nИздалека слышался смех. Пик пищал. Тишка хохотал. Квафик квакал.\n\nУля посмотрела на ягоду. Осталось ещё много.\n\nОна откусила второй раз. И опять ничего.\nОна откусила третий раз и жевала долго-долго.\nЯгода была мягкая. И совсем не радостная.\n\nУля попробовала засмеяться сама с собой.\nПолучилось тихо и глупо.\n\n— Может, она старая? — сказала Уля.\n\nНо ягода была свежая. Самая свежая на поляне.\n\n— Почему невкусно? — сказала Уля вслух.\n\nНикто не ответил.\nРядом никого не было."
+    },
+    {
+      "type": "image",
+      "id": 606,
+      "file": "p06-6",
+      "aspect": "3:2",
+      "alt": "Уля ест ягоду одна под старой елью, и ей невкусно.",
+      "prompt": "Soft watercolour and coloured pencil children's picture book illustration for ages 3-6. Warm, cosy, gentle. Rounded friendly shapes, thick soft outlines, visible paper grain, soft edges. Cute anthropomorphic forest animals with big kind eyes and simple expressive faces. Flat simple background, few elements, lots of empty space. Bright but soft palette, never harsh. Storybook staging, clear silhouette, instantly readable. Hand-painted, never photographic, no 3D render, no glossy CGI, no anime. No text, no letters, no numbers, no captions, no borders, no watermark, no signature. Autumn palette: warm ochre, red rowan berries, ginger foliage, soft green moss, brown earth, cream sky, low golden light. Ulya, a small girl hedgehog, soft light-brown quills, round black nose, big friendly eyes, wearing a tiny acorn on a cord around her neck. Ulya sits alone under an old spruce and nibbles the raspberry with a flat, unhappy face. Far away, tiny friends are playing. Mood: hollow, sad."
+    },
+    {
+      "type": "text",
+      "text": "Уля сидела долго.\n\nЕй стало грустно. Потом ещё грустнее.\n\nИ вдруг жёлудь на шнурке засветился. Тёплый-тёплый. И загудел: жу-жу-жу.\n— Кому-то нужна помощь! — сказала Уля.\n\nУля вскочила.\n\nПосмотрела налево — никого.\nПосмотрела направо — никого.\nПосмотрела назад — никого.\n\nА жёлудь светил вниз. Прямо на её лапки.\n\n— На меня? — сказала Уля. — Жёлудь, ты перепутал. Мне не нужна помощь. Мне просто грустно.\n\nНо жёлудь не перепутал. Он гудел ровно и тепло: жу-жу-жу.\n\nУля посмотрела на жёлудь.\n— А ты умеешь показывать только чужую беду?\n\nЖёлудь светил ровно.\n\n— Значит, и мою тоже, — сказала Уля.\n\nУля села обратно на мох. И сказала совсем тихо:\n— Мне плохо.\n\nИ немножко поплакала. Совсем чуть-чуть.\n\nПотом взяла ягоду и пошла домой."
+    },
+    {
+      "type": "image",
+      "id": 607,
+      "file": "p06-7",
+      "aspect": "3:2",
+      "alt": "Светящийся жёлудь освещает лапки самой Ули.",
+      "prompt": "Soft watercolour and coloured pencil children's picture book illustration for ages 3-6. Warm, cosy, gentle. Rounded friendly shapes, thick soft outlines, visible paper grain, soft edges. Cute anthropomorphic forest animals with big kind eyes and simple expressive faces. Flat simple background, few elements, lots of empty space. Bright but soft palette, never harsh. Storybook staging, clear silhouette, instantly readable. Hand-painted, never photographic, no 3D render, no glossy CGI, no anime. No text, no letters, no numbers, no captions, no borders, no watermark, no signature. Autumn palette: warm ochre, red rowan berries, ginger foliage, soft green moss, brown earth, cream sky, low golden light. Ulya, a small girl hedgehog, soft light-brown quills, round black nose, big friendly eyes, wearing a tiny acorn on a cord around her neck. Ulya sits on the moss while the glowing acorn on her cord shines a warm yellow light down onto her own paws. Mood: tender, sad."
+    },
+    {
+      "type": "text",
+      "text": "Мама сидела у норки и чистила орешки.\n\n— Мам, — сказала Уля. — Я плохая.\n— Иди сюда, — сказала мама.\n\nУля залезла к маме на колени и показала ягоду.\n\n— Я её спрятала. Я сказала, что не нашла. А я нашла.\n— Понятно, — сказала мама.\n— Ты будешь ругаться?\n— Нет, — сказала мама. — Ты не хотела делиться. Это бывает.\n— Бывает? — удивилась Уля.\n— Конечно. Со всеми бывает.\n\n— Мам. А я жадина?\n— Ты Уля, — сказала мама. — А жадность — это не ты. Это то, что иногда приходит.\n— Как дождик?\n— Как дождик, — сказала мама. — Пришёл и ушёл.\n\nУля вытерла нос.\n\n— А что мне теперь делать?\n— А ты как думаешь? — спросила мама.\n— Не знаю.\n— Подумай. Я подожду, — сказала мама и погладила Улины иголки.\n\n— А почему она невкусная?\n\nМама подумала.\n— А помнишь, как вы ели рябину все вместе, с Ворчуном?\n— Помню. Было вкусно.\n— А что было вкусно? Рябина? Или вместе?\n\nУля молчала долго."
+    },
+    {
+      "type": "image",
+      "id": 608,
+      "file": "p06-8",
+      "aspect": "3:2",
+      "alt": "Уля сидит у мамы на коленях и показывает ягоду.",
+      "prompt": "Soft watercolour and coloured pencil children's picture book illustration for ages 3-6. Warm, cosy, gentle. Rounded friendly shapes, thick soft outlines, visible paper grain, soft edges. Cute anthropomorphic forest animals with big kind eyes and simple expressive faces. Flat simple background, few elements, lots of empty space. Bright but soft palette, never harsh. Storybook staging, clear silhouette, instantly readable. Hand-painted, never photographic, no 3D render, no glossy CGI, no anime. No text, no letters, no numbers, no captions, no borders, no watermark, no signature. Autumn palette: warm ochre, red rowan berries, ginger foliage, soft green moss, brown earth, cream sky, low golden light. Ulya, a small girl hedgehog, soft light-brown quills, round black nose, big friendly eyes, wearing a tiny acorn on a cord around her neck. Ulya's mother, a big warm hedgehog with soft brown quills. Ulya sits on her mother's lap by the burrow, holding out the raspberry in both paws. Her mother listens. Mood: safe, warm."
+    },
+    {
+      "type": "text",
+      "text": "— Вместе, — сказала наконец Уля.\n\nОна слезла с маминых колен.\n\n— Мам, а можно ягоду разделить?\n— Можно.\n\nМама принесла тоненькую щепочку. Уля разделила ягоду.\n\nРаз — половинка.\nДва — ещё пополам.\nИ получилось четыре кусочка. Малюсеньких.\n\n— А если они не захотят со мной играть? — спросила Уля.\n— Может, и не сразу, — сказала мама. — Но правду всё равно лучше сказать.\n— Почему?\n— Потому что неправду тяжело носить. Она тяжелее ягоды.\n\nУля положила кусочки на листик. Взяла листик двумя лапками.\nИ пошла: топ-топ-топ.\n\nИдти было страшно. Не так, как к Ворчуну. По-другому.\n\nПо дороге Уля остановилась три раза. И три раза пошла дальше.\n\nОна шла и повторяла себе:\n— Скажу правду. Скажу правду. Скажу правду."
+    },
+    {
+      "type": "image",
+      "id": 609,
+      "file": "p06-9",
+      "aspect": "3:2",
+      "alt": "Уля несёт листик с четырьмя кусочками малины по тропинке.",
+      "prompt": "Soft watercolour and coloured pencil children's picture book illustration for ages 3-6. Warm, cosy, gentle. Rounded friendly shapes, thick soft outlines, visible paper grain, soft edges. Cute anthropomorphic forest animals with big kind eyes and simple expressive faces. Flat simple background, few elements, lots of empty space. Bright but soft palette, never harsh. Storybook staging, clear silhouette, instantly readable. Hand-painted, never photographic, no 3D render, no glossy CGI, no anime. No text, no letters, no numbers, no captions, no borders, no watermark, no signature. Autumn palette: warm ochre, red rowan berries, ginger foliage, soft green moss, brown earth, cream sky, low golden light. Ulya, a small girl hedgehog, soft light-brown quills, round black nose, big friendly eyes, wearing a tiny acorn on a cord around her neck. Ulya walks along a path carrying a leaf with four tiny pieces of raspberry on it, holding it level with both paws. Mood: determined, careful."
+    },
+    {
+      "type": "text",
+      "text": "Друзья сидели у ручья.\n\n— Я вам сказала неправду, — сказала Уля.\n\nВсе замолчали.\n\n— Я нашла малину. Я её спрятала. Я не хотела делиться.\n\nПик открыл рот. Тишка захлопал глазами. Квафик моргнул.\n\n— А потом я ела её одна, — сказала Уля. — И знаете что? Она была невкусная.\n— Малина? Невкусная? — не поверил Пик.\n— Совсем.\n\n— А почему ты её спрятала? — спросил Тишка.\n— Не знаю, — сказала Уля. — Внутри стало горячо, и я спрятала.\n— У меня тоже так бывает, — вдруг сказал Квафик. — С мухами.\n\nИ все засмеялись. Даже Уля.\n\n— А мы тебя искали, — сказал Пик. — Догонялки без тебя не считаются.\n\nУля протянула листик.\n— Тут по кусочку. Всем.\n\nПик взял кусочек. Тишка взял кусочек. Квафик взял кусочек.\nИ все откусили разом.\n\n— М-м-м! — сказал Пик.\n— Вкусно! — сказал Тишка.\n— Сладко! — сказал Квафик.\n\nА Уля жевала свой кусочек и думала:\nи правда сладко. Кусочек тот же самый. А теперь сладкий."
+    },
+    {
+      "type": "image",
+      "id": 610,
+      "file": "p06-10",
+      "aspect": "3:2",
+      "alt": "Уля угощает друзей кусочками малины у ручья.",
+      "prompt": "Soft watercolour and coloured pencil children's picture book illustration for ages 3-6. Warm, cosy, gentle. Rounded friendly shapes, thick soft outlines, visible paper grain, soft edges. Cute anthropomorphic forest animals with big kind eyes and simple expressive faces. Flat simple background, few elements, lots of empty space. Bright but soft palette, never harsh. Storybook staging, clear silhouette, instantly readable. Hand-painted, never photographic, no 3D render, no glossy CGI, no anime. No text, no letters, no numbers, no captions, no borders, no watermark, no signature. Autumn palette: warm ochre, red rowan berries, ginger foliage, soft green moss, brown earth, cream sky, low golden light. Ulya, a small girl hedgehog, soft light-brown quills, round black nose, big friendly eyes, wearing a tiny acorn on a cord around her neck. Pik, a small grey mouse with very big round ears and a long thin tail. Tishka, a red squirrel kit with a huge fluffy tail. Ulya holds out a leaf with tiny raspberry pieces by the stream. Pik and Tishka each take one and taste it. Mood: joyful, sweet."
+    },
+    {
+      "type": "text",
+      "text": "— А ты не сердишься? — спросила Уля у Пика.\n— Немножко, — сказал Пик честно. — Но я уже перестал.\n— А ты, Тишка?\n— Я про малину уже забыл, — сказал Тишка. — Пойдём завтра за орешками?\n— Пойдём!\n\nСолнышко село. Стало прохладно. Квафик уплыл на свою кочку.\n\nУля пришла домой. Мама обняла её крепко-крепко.\n\n— Мам, а завтра малина будет?\n— Не будет, — сказала мама. — До самого лета.\n— Долго.\n— Долго, — сказала мама. — Зато орешков полная кладовка.\n\nМама укрыла Улю тёплым листиком.\n\n— Мам, а завтра можно позвать Ворчуна?\n— Можно.\n— Тогда нас будет девять. Ой, нет. Восемь. Он уже посчитан.\n\n— Мам. А восемь — это много?\n— Восемь — это вся наша поляна, — сказала мама.\n— Тогда много, — сказала Уля.\n\nУля легла в кроватку и закрыла глазки."
+    }
+  ]
+}

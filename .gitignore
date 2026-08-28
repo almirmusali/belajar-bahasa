@@ -109,3 +109,13 @@ public/reading/kabut-di-lembang/*.png
 public/reading/perahu-terakhir/*.png
 public/reading/kabut-di-lembang.png
 public/reading/perahu-terakhir.png
+
+# Сказки: в репозиторий уезжают только webp — исходные PNG остаются локально,
+# они пересоздаются из data/skazki/<slug>.prompts.json. Конвейер
+# (scripts/run-skazki.sh) удаляет PNG сам, правило нужно на случай ручного
+# прогона генератора без конвертации.
+public/skazki/*/*.png
+
+# Арт обложек до наложения названия: регенерируется из covers.json, в репозиторий
+# уезжают только готовые обложки из public/skazki/.
+data/skazki/*/art/

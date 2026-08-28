@@ -8,6 +8,7 @@ const ru: Dict = {
   nav_express: "Экспресс",
   nav_vocab: "Словарь",
   nav_reading: "Чтение",
+  nav_skazki: "Сказки",
   switch_lang_title: "Переключить язык интерфейса",
 
   // Home
@@ -221,6 +222,7 @@ const id: Dict = {
   nav_express: "Ekspres",
   nav_vocab: "Kosakata",
   nav_reading: "Bacaan",
+  nav_skazki: "Dongeng",
   switch_lang_title: "Ganti bahasa antarmuka",
 
   home_badge: "Bahasa Rusia",

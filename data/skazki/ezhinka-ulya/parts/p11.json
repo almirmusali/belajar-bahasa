@@ -1,0 +1,135 @@
+{
+  "num": 11,
+  "title": "Первый снег",
+  "theme": "Радость нового",
+  "teaser": "Ночью с неба полетело что-то белое. Утром вся поляна стала другой, и никто из малышей не знал, что с этим делать.",
+  "moral": "— Новое бывает страшное. А бывает как снег, — сказала Уля.",
+  "cliffhanger": "Уля лежала в кроватке и считала друзей. Пик, Тишка, Бума, Ворчун, Соня. И вдруг села. А где Квафик? Квафика не было весь день.",
+  "question": "А что тебе больше всего нравится делать зимой на улице?",
+  "blocks": [
+    {
+      "type": "text",
+      "text": "Ночью Уля проснулась.\n\nВ норке было тихо. Слишком тихо.\n\nНочью всегда что-то шумит. Ветер. Ручей. Листики. А тут — ничего.\n\nУля вылезла из кроватки и подошла к выходу.\n\nОна выглянула наружу.\n\n— Ой, — сказала Уля.\n\nС неба летело что-то белое.\n\nМного-много белого. Тихо-тихо.\n\nОно кружилось и падало. И совсем не шумело.\n\n— Мама! — позвала Уля. — Мама, небо сломалось!\n\nМама пришла и посмотрела.\n\n— Ничего не сломалось, — сказала мама. — Это снег.\n\n— Снег? А что такое снег?\n\n— Это вода, — сказала мама. — Только холодная и белая. И она летит сверху.\n\n— А она не кончится?\n\n— Не кончится, — сказала мама. — Теперь до весны.\n\n— А его можно трогать?\n\n— Можно.\n\n— А он холодный?\n\n— Очень.\n\n— А он мягкий или твёрдый?\n\n— Завтра узнаешь, — сказала мама и засмеялась.\n\nУля стояла и смотрела. Долго-долго.\n\nПотом мама унесла её в кроватку. А Уля всё равно смотрела в потолок и улыбалась."
+    },
+    {
+      "type": "image",
+      "id": 1101,
+      "file": "p11-1",
+      "aspect": "3:2",
+      "alt": "Уля выглядывает из норки ночью, а с неба падает снег.",
+      "prompt": "Soft watercolour and coloured pencil children's picture book illustration for ages 3-6. Warm, cosy, gentle. Rounded friendly shapes, thick soft outlines, visible paper grain, soft edges. Cute anthropomorphic forest animals with big kind eyes and simple expressive faces. Flat simple background, few elements, lots of empty space. Bright but soft palette, never harsh. Storybook staging, clear silhouette, instantly readable. Hand-painted, never photographic, no 3D render, no glossy CGI, no anime. No text, no letters, no numbers, no captions, no borders, no watermark, no signature. Winter palette: white snow, pale blue shadows, grey-lilac sky, dark tree trunks; a night scene in deep blue, never black, with exactly one warm yellow glow. Ulya, a small girl hedgehog, soft light-brown quills, round black nose, big friendly eyes, wearing a tiny acorn on a cord around her neck. Ulya stands in the round doorway of her burrow at night, looking up with an open mouth as big soft snowflakes fall. Warm yellow light spills out of the burrow behind her. Mood: wonder, hush."
+    },
+    {
+      "type": "text",
+      "text": "Утром Уля открыла глаза.\n\nВ норке было светло. Очень светло. Светлее, чем всегда.\n\nУля потянула лапки — раз!\n\nПотянула иголки — два!\n\nИ пошла на улицу: топ-топ-топ.\n\nИ остановилась.\n\nПоляны не было.\n\nТо есть поляна была. Но совсем другая.\n\nВсё было белое. Земля белая. Кочка белая. Куст белый. Даже пенёк надел белую шапку.\n\nРябина стояла в белом, и красные ягодки торчали сверху, как бусинки.\n\nУля сделала один шаг.\n\nСкрип, — сказал снег.\n\nУля сделала ещё шаг.\n\nСкрип-скрип.\n\nЕщё шаг.\n\nСкрип-скрип-скрип!\n\nУля засмеялась. Снег разговаривал с её лапками!\n\nОна побежала. Скрип-скрип-скрип-скрип-скрип!\n\nПотом обернулась. Сзади за ней шла дорожка из маленьких следов.\n\nУля посчитала их.\n\n— Раз, два, три, четыре... — считала Уля. — Много!\n\nСледы были только её. На всей поляне больше ничьих не было.\n\n— Я первая! — сказала Уля. — Я самая первая на снегу!"
+    },
+    {
+      "type": "image",
+      "id": 1102,
+      "file": "p11-2",
+      "aspect": "3:2",
+      "alt": "Уля идёт по белому снегу, а за ней остаётся дорожка следов.",
+      "prompt": "Soft watercolour and coloured pencil children's picture book illustration for ages 3-6. Warm, cosy, gentle. Rounded friendly shapes, thick soft outlines, visible paper grain, soft edges. Cute anthropomorphic forest animals with big kind eyes and simple expressive faces. Flat simple background, few elements, lots of empty space. Bright but soft palette, never harsh. Storybook staging, clear silhouette, instantly readable. Hand-painted, never photographic, no 3D render, no glossy CGI, no anime. No text, no letters, no numbers, no captions, no borders, no watermark, no signature. Winter palette: white snow, pale blue shadows, grey-lilac sky, dark tree trunks, exactly one warm accent in the frame. Ulya, a small girl hedgehog, soft light-brown quills, round black nose, big friendly eyes, wearing a tiny acorn on a cord around her neck. Ulya walks across deep fresh snow, looking back over her shoulder at the line of tiny footprints behind her. A rowan tree with red berries under snow is the only warm accent. Mood: delighted, brand new."
+    },
+    {
+      "type": "text",
+      "text": "— УЛЯ-А-А! — закричал кто-то.\n\nЭто был Тишка. Он сидел на сосне и не слезал.\n\n— Что это? — крикнул Тишка. — Куда всё делось?\n\n— Это снег! — крикнула Уля. — Слезай!\n\n— А оно кусается?\n\n— Не знаю! Я его ещё не трогала!\n\nПрискакала Бума. Уши у неё были в белых крапинках.\n\nПрибежал Пик. Он бежал по снегу и проваливался. Плюх! Плюх! Плюх!\n\n— Помогите! — пищал Пик. — Я тону!\n\nУля вытащила его за хвостик.\n\nПик отряхнулся: фыр-фыр-фыр.\n\n— Мне не нравится, — сказал Пик. — Оно холодное. И мокрое. И его очень много.\n\n— Тебе страшно? — спросила Уля.\n\n— Немножко, — сказал Пик. — Ну ладно. Много.\n\n— Мне тоже было немножко, — сказала Уля. — А теперь мне радостно.\n\n— А как ты перестала бояться?\n\n— Я потрогала, — сказала Уля. — Когда потрогаешь, оно уже не незнакомое.\n\n— А если оно кусается?\n\n— Тогда я тебя вытащу, — сказала Уля. — Как сейчас."
+    },
+    {
+      "type": "image",
+      "id": 1103,
+      "file": "p11-3",
+      "aspect": "3:2",
+      "alt": "Пик провалился в снег, и Уля вытаскивает его за хвостик.",
+      "prompt": "Soft watercolour and coloured pencil children's picture book illustration for ages 3-6. Warm, cosy, gentle. Rounded friendly shapes, thick soft outlines, visible paper grain, soft edges. Cute anthropomorphic forest animals with big kind eyes and simple expressive faces. Flat simple background, few elements, lots of empty space. Bright but soft palette, never harsh. Storybook staging, clear silhouette, instantly readable. Hand-painted, never photographic, no 3D render, no glossy CGI, no anime. No text, no letters, no numbers, no captions, no borders, no watermark, no signature. Winter palette: white snow, pale blue shadows, grey-lilac sky, dark tree trunks, exactly one warm accent in the frame. Ulya, a small girl hedgehog, soft light-brown quills, round black nose, big friendly eyes, wearing a tiny acorn on a cord around her neck. Pik, a small grey mouse with very big round ears and a long thin tail. Pik has sunk into deep snow up to his ears, and Ulya pulls him out by his long tail. Snow puffs around them. Mood: funny, helping."
+    },
+    {
+      "type": "text",
+      "text": "— А давайте потрогаем вместе, — сказала Уля.\n\nВсе положили лапки на снег.\n\n— Раз, — сказала Уля.\n\n— Два, — сказала Бума.\n\n— Три! — пискнул Пик.\n\nИ они потрогали.\n\nСнег был холодный. Но он не кусался. Он просто таял.\n\nПик посмотрел на свою лапку. На ней была капелька воды.\n\n— Оно превратилось! — сказал Пик. — Оно было белое, а стало мокрое!\n\n— Это вода, — сказала Бума. — Мне мама говорила.\n\nТишка наконец слез с сосны. Он спрыгнул прямо в сугроб.\n\nБульк! Тишка пропал.\n\nПотом из снега торчал только рыжий хвост.\n\n— Тишка? — сказала Уля.\n\n— Мне тут хорошо! — сказал хвост.\n\nПотом из сугроба вылезла рыжая мордочка. Вся в снегу.\n\n— Оно мягкое! — крикнул Тишка. — Оно как перинка!\n\nИ он прыгнул ещё раз. Бульк!\n\nИ ещё раз. Бульк!\n\nИ ещё разочек. Бульк!"
+    },
+    {
+      "type": "image",
+      "id": 1104,
+      "file": "p11-4",
+      "aspect": "3:2",
+      "alt": "Тишка нырнул в сугроб, наружу торчит только рыжий хвост.",
+      "prompt": "Soft watercolour and coloured pencil children's picture book illustration for ages 3-6. Warm, cosy, gentle. Rounded friendly shapes, thick soft outlines, visible paper grain, soft edges. Cute anthropomorphic forest animals with big kind eyes and simple expressive faces. Flat simple background, few elements, lots of empty space. Bright but soft palette, never harsh. Storybook staging, clear silhouette, instantly readable. Hand-painted, never photographic, no 3D render, no glossy CGI, no anime. No text, no letters, no numbers, no captions, no borders, no watermark, no signature. Winter palette: white snow, pale blue shadows, grey-lilac sky, dark tree trunks, exactly one warm accent in the frame. Tishka, a red squirrel kit with a huge fluffy tail. Ulya, a small girl hedgehog, soft light-brown quills, round black nose, big friendly eyes, wearing a tiny acorn on a cord around her neck. Only Tishka's big ginger tail sticks out of a deep snowdrift, and Ulya leans over the hole looking puzzled. Mood: playful, silly."
+    },
+    {
+      "type": "text",
+      "text": "Потом снег пошёл опять.\n\nОн падал сверху, медленно-медленно.\n\n— Смотрите! — сказала Бума. — Их можно ловить!\n\nОна встала на задние лапы и открыла рот.\n\nСнежинка упала ей на язык.\n\n— Ой! — сказала Бума. — Она исчезла!\n\nВсе задрали головы и открыли рты.\n\nУля поймала одну — раз!\n\nПоймала вторую — два!\n\nПоймала третью — три!\n\nВсе три растаяли на языке. И все три были холодные и вкусные.\n\n— Они как маленькие звёздочки, — сказала Уля.\n\n— Я поймал восемь! — крикнул Пик.\n\n— Ты не считал.\n\n— Я примерно считал.\n\nОни стояли посреди поляны, задрав носы. И снег падал им на иголки, на ушки и на хвостики.\n\n— А откуда он берётся? — спросила Уля.\n\n— Из тучки, — сказала Бума.\n\n— А в тучке кто его делает?\n\nВсе задумались. Никто не знал.\n\n— Наверное, никто, — сказала Бума. — Он сам."
+    },
+    {
+      "type": "image",
+      "id": 1105,
+      "file": "p11-5",
+      "aspect": "3:2",
+      "alt": "Друзья задрали головы и ловят снежинки языком.",
+      "prompt": "Soft watercolour and coloured pencil children's picture book illustration for ages 3-6. Warm, cosy, gentle. Rounded friendly shapes, thick soft outlines, visible paper grain, soft edges. Cute anthropomorphic forest animals with big kind eyes and simple expressive faces. Flat simple background, few elements, lots of empty space. Bright but soft palette, never harsh. Storybook staging, clear silhouette, instantly readable. Hand-painted, never photographic, no 3D render, no glossy CGI, no anime. No text, no letters, no numbers, no captions, no borders, no watermark, no signature. Winter palette: white snow, pale blue shadows, grey-lilac sky, dark tree trunks, exactly one warm accent in the frame. Ulya, a small girl hedgehog, soft light-brown quills, round black nose, big friendly eyes, wearing a tiny acorn on a cord around her neck. Buma, a white rabbit girl with grey ears and long legs. Ulya and Buma stand on their hind legs with heads tipped back and mouths open, catching falling snowflakes on their tongues. Mood: joyful, weightless."
+    },
+    {
+      "type": "text",
+      "text": "— А давайте что-нибудь построим! — сказала Уля. Она очень любила строить.\n\n— Из чего?\n\n— Из снега!\n\nПервый раз они насыпали кучку.\n\nКучка была красивая. Но она рассыпалась. Пуф!\n\n— Не держится, — сказала Уля.\n\nВторой раз они слепили комок и стали его катать.\n\nКомок катился и рос. Стал большой-пребольшой!\n\nА потом он поехал с горки.\n\n— Держи! — закричала Уля.\n\nВсе побежали за комком. Комок доехал до куста и — бум! — развалился.\n\n— Два раза не получилось, — сказала Уля.\n\n— Может, хватит? — сказал Пик.\n\n— Не хватит, — сказала Уля. — Третий раз всегда получается.\n\n— А если не получится?\n\n— Тогда будет четвёртый, — сказала Уля."
+    },
+    {
+      "type": "image",
+      "id": 1106,
+      "file": "p11-6",
+      "aspect": "3:2",
+      "alt": "Большой снежный ком катится с горки, а Уля бежит за ним.",
+      "prompt": "Soft watercolour and coloured pencil children's picture book illustration for ages 3-6. Warm, cosy, gentle. Rounded friendly shapes, thick soft outlines, visible paper grain, soft edges. Cute anthropomorphic forest animals with big kind eyes and simple expressive faces. Flat simple background, few elements, lots of empty space. Bright but soft palette, never harsh. Storybook staging, clear silhouette, instantly readable. Hand-painted, never photographic, no 3D render, no glossy CGI, no anime. No text, no letters, no numbers, no captions, no borders, no watermark, no signature. Winter palette: white snow, pale blue shadows, grey-lilac sky, dark tree trunks, exactly one warm accent in the frame. Ulya, a small girl hedgehog, soft light-brown quills, round black nose, big friendly eyes, wearing a tiny acorn on a cord around her neck. Buma, a white rabbit girl with grey ears and long legs. A big runaway snowball rolls down a slope while Ulya and Buma chase after it with their arms out. Mood: chaotic, funny."
+    },
+    {
+      "type": "text",
+      "text": "Третий раз они делали по-другому.\n\nСнег надо было прижимать. Крепко-крепко.\n\nБума прижимала лапами. Уля носиком. Тишка хвостом. Пик просто сидел сверху и говорил, куда класть.\n\nПолучился большой круглый ком.\n\nНа него положили ком поменьше.\n\nА сверху — совсем маленький.\n\n— Кто это? — спросила Бума.\n\n— Это ёж, — сказала Уля.\n\n— У ежей есть иголки.\n\n— Сейчас будут.\n\nОни натыкали в снег веточки. Много-много веточек.\n\nПотом Тишка принёс две ягодки рябины — это глазки.\n\nА Бума нашла шишку — это носик.\n\nВсе отошли и посмотрели.\n\nПосреди поляны стоял снежный ёж. Большой, круглый и колючий.\n\n— Он на тебя похож! — сказал Пик.\n\n— Он на меня похож, — согласилась Уля.\n\n— А он живой? — спросил Пик тихонько.\n\n— Нет, — сказала Уля. — Он снежный.\n\n— А давайте с ним дружить?\n\n— Давайте, — сказала Уля. — Только он не умеет разговаривать.\n\n— Ничего, — сказал Пик. — Я за двоих поговорю."
+    },
+    {
+      "type": "image",
+      "id": 1107,
+      "file": "p11-7",
+      "aspect": "3:2",
+      "alt": "Друзья слепили снежного ежа с иголками из веточек.",
+      "prompt": "Soft watercolour and coloured pencil children's picture book illustration for ages 3-6. Warm, cosy, gentle. Rounded friendly shapes, thick soft outlines, visible paper grain, soft edges. Cute anthropomorphic forest animals with big kind eyes and simple expressive faces. Flat simple background, few elements, lots of empty space. Bright but soft palette, never harsh. Storybook staging, clear silhouette, instantly readable. Hand-painted, never photographic, no 3D render, no glossy CGI, no anime. No text, no letters, no numbers, no captions, no borders, no watermark, no signature. Winter palette: white snow, pale blue shadows, grey-lilac sky, dark tree trunks, exactly one warm accent in the frame. Ulya, a small girl hedgehog, soft light-brown quills, round black nose, big friendly eyes, wearing a tiny acorn on a cord around her neck. Tishka, a red squirrel kit with a huge fluffy tail. A big round snow hedgehog covered in twig spines stands in the middle of the clearing with two red rowan berries for eyes, and Ulya and Tishka admire it. Mood: proud, cheerful."
+    },
+    {
+      "type": "text",
+      "text": "— ЧТО ЭТО ТУТ У ВАС? — сказал кто-то громко.\n\nПришёл Ворчун. Он был весь в снегу, и на носу у него лежала белая шапочка.\n\n— СНЕЖНЫЙ ЁЖ! — крикнула Уля.\n\n— Хороший ёж, — сказал Ворчун. — Крепкий.\n\nПотом он посмотрел на чистый снег.\n\n— А так умеете?\n\nИ Ворчун лёг на спину прямо в сугроб. Бум!\n\nОн помахал лапами вверх-вниз, вверх-вниз.\n\nПотом встал.\n\nНа снегу остался большой след. Как будто птица.\n\n— Ух ты! — сказали все.\n\nИ все легли в снег.\n\nМахали лапами Уля, Бума и Тишка. Махал даже Пик, только у него получился очень маленький.\n\nПотом они встали и посмотрели.\n\nНа снегу было пять птиц. Одна большая и четыре маленьких.\n\n— Красиво, — сказал Ворчун.\n\n— ЧТО? — крикнул Пик ему в ухо.\n\n— Я и так слышу, — сказал Ворчун. — Я сказал: красиво."
+    },
+    {
+      "type": "image",
+      "id": 1108,
+      "file": "p11-8",
+      "aspect": "3:2",
+      "alt": "Ворчун лежит на спине в снегу и машет лапами.",
+      "prompt": "Soft watercolour and coloured pencil children's picture book illustration for ages 3-6. Warm, cosy, gentle. Rounded friendly shapes, thick soft outlines, visible paper grain, soft edges. Cute anthropomorphic forest animals with big kind eyes and simple expressive faces. Flat simple background, few elements, lots of empty space. Bright but soft palette, never harsh. Storybook staging, clear silhouette, instantly readable. Hand-painted, never photographic, no 3D render, no glossy CGI, no anime. No text, no letters, no numbers, no captions, no borders, no watermark, no signature. Winter palette: white snow, pale blue shadows, grey-lilac sky, dark tree trunks, exactly one warm accent in the frame. Vorchun, a big badger with a black and white striped face, gentle despite his size. Ulya, a small girl hedgehog, soft light-brown quills, round black nose, big friendly eyes, wearing a tiny acorn on a cord around her neck. The big badger lies on his back in the snow waving his arms, and tiny Ulya flops down beside him to copy. Wing shapes are pressed into the snow around them. Mood: happy, carefree."
+    },
+    {
+      "type": "text",
+      "text": "Играли долго. Потом Уля перестала чувствовать лапки.\n\n— Ой, — сказала она. — У меня лапки как чужие.\n\n— И у меня, — сказал Пик. Он был весь синенький.\n\nИ тут пришла мама.\n\n— Так, — сказала мама. — Все ко мне.\n\nОна привела их в норку.\n\nВ норке было тепло. Пахло рябиной.\n\nМама налила всем горячей воды с рябиной. От кружек шёл пар.\n\nПик держал кружку двумя лапками и грел нос.\n\n— Фу-у-у, — дул Пик. — Фу-у-у.\n\n— Мама, — сказала Уля. — А снег теперь всегда будет?\n\n— До весны, — сказала мама.\n\n— А это долго?\n\n— Долго. Но не навсегда.\n\nУля подумала.\n\n— Мама, а мне сегодня было так радостно, что даже щекотно.\n\n— Это хорошо, — сказала мама.\n\n— А почему?\n\n— Потому что новое, — сказала мама. — Новое всегда сначала щекотное."
+    },
+    {
+      "type": "image",
+      "id": 1109,
+      "file": "p11-9",
+      "aspect": "3:2",
+      "alt": "Все греются в норке и держат кружки с горячей рябиной.",
+      "prompt": "Soft watercolour and coloured pencil children's picture book illustration for ages 3-6. Warm, cosy, gentle. Rounded friendly shapes, thick soft outlines, visible paper grain, soft edges. Cute anthropomorphic forest animals with big kind eyes and simple expressive faces. Flat simple background, few elements, lots of empty space. Bright but soft palette, never harsh. Storybook staging, clear silhouette, instantly readable. Hand-painted, never photographic, no 3D render, no glossy CGI, no anime. No text, no letters, no numbers, no captions, no borders, no watermark, no signature. Winter palette outside, but this is the one warm interior: golden lamplight, white snow visible through the round doorway, pale blue shadows beyond. Ulya, a small girl hedgehog, soft light-brown quills, round black nose, big friendly eyes, wearing a tiny acorn on a cord around her neck. Pik, a small grey mouse with very big round ears and a long thin tail. Ulya's mother, a big warm hedgehog with soft brown quills. Inside the glowing burrow the mother hands out steaming cups, and Pik holds his with both paws to warm his nose. Mood: cosy, thawing out."
+    },
+    {
+      "type": "text",
+      "text": "Вечером они устроили праздник снега.\n\nЭто Уля придумала.\n\n— Раз снег первый раз, — сказала она, — значит, надо праздник.\n\nОни сделали круг на поляне. Утоптали снег: топ-топ-топ.\n\nБума притащила еловую лапу. Тишка принёс орешков. Ворчун принёс большое полено, чтобы сидеть.\n\nПришла Соня. Она зевнула один раз, потом второй, потом третий.\n\n— Праздник — это хорошо, — сказала Соня. — Особенно если сидеть.\n\nВсе сели в круг.\n\nНебо стало тёмно-синее. Вышла первая звёздочка.\n\nИз норки светилось жёлтое окошко.\n\nОни ели орешки и смотрели, как падает снег.\n\n— Хорошо, — сказала Бума.\n\n— Очень хорошо, — сказал Пик с полным ртом.\n\n— А давайте каждый скажет, что ему сегодня больше всего понравилось, — сказала Уля.\n\n— Прыгать в сугроб, — сказал Тишка.\n\n— Ловить снежинки, — сказала Бума.\n\n— Греться, — сказал Пик.\n\n— Спать, — сказала Соня и зевнула.\n\n— А мне — как снег скрипит, — сказала Уля.\n\nУля сидела и думала, что сегодня был самый белый день в её жизни."
+    },
+    {
+      "type": "image",
+      "id": 1110,
+      "file": "p11-10",
+      "aspect": "3:2",
+      "alt": "Друзья сидят в кругу на снегу вечером, а из норки светится окошко.",
+      "prompt": "Soft watercolour and coloured pencil children's picture book illustration for ages 3-6. Warm, cosy, gentle. Rounded friendly shapes, thick soft outlines, visible paper grain, soft edges. Cute anthropomorphic forest animals with big kind eyes and simple expressive faces. Flat simple background, few elements, lots of empty space. Bright but soft palette, never harsh. Storybook staging, clear silhouette, instantly readable. Hand-painted, never photographic, no 3D render, no glossy CGI, no anime. No text, no letters, no numbers, no captions, no borders, no watermark, no signature. Winter palette: deep blue evening, white snow, pale blue shadows, dark tree trunks, exactly one warm yellow glow, never black. Ulya, a small girl hedgehog, soft light-brown quills, round black nose, big friendly eyes, wearing a tiny acorn on a cord around her neck. Buma, a white rabbit girl with grey ears and long legs. Tishka, a red squirrel kit with a huge fluffy tail. A small circle of friends sits together on the trodden snow under the first star, with one warm yellow burrow window glowing behind them. Mood: peaceful, festive."
+    },
+    {
+      "type": "text",
+      "text": "Потом все разошлись по домам.\n\nПик пошёл в свою норку. Тишка полез в дупло. Бума ускакала, а следы за ней были длинные-длинные.\n\nВорчун унёс своё полено.\n\nУля посмотрела на снежного ежа. Он стоял посреди поляны и никуда не собирался.\n\n— До завтра, — сказала ему Уля.\n\nСнежный ёж молчал. Но глазки-ягодки блестели.\n\nНа поляне было светло от снега. Даже ночью.\n\nСнег скрипел под лапками: скрип-скрип-скрип.\n\nУля пришла домой. Мама обняла её крепко-крепко.\n\nУля легла в кроватку и закрыла глазки."
+    }
+  ]
+}
