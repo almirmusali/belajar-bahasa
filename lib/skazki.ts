@@ -98,3 +98,17 @@ export function illustrationUrl(slug: string, file: string): string | null {
   }
   return null;
 }
+
+/**
+ * Озвучка части — public/skazki/<slug>/audio/pNN.mp3, один трек на часть.
+ * Нет файла — вернётся null, и страница просто отрисуется без плеера:
+ * озвучка добирается по частям и стоит квоты, поэтому её может не быть.
+ */
+export function audioUrl(slug: string, num: number): string | null {
+  const file = path.join(
+    process.cwd(), "public", "skazki", slug, "audio",
+    `p${String(num).padStart(2, "0")}.mp3`,
+  );
+  if (!fs.existsSync(file)) return null;
+  return `/skazki/${slug}/audio/p${String(num).padStart(2, "0")}.mp3?v=${contentTag(file)}`;
+}

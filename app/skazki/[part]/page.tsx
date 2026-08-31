@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { SiteHeader } from "@/components/site-header";
-import { DEFAULT_SKAZKA, getSkazka, illustrationUrl } from "@/lib/skazki";
+import { DEFAULT_SKAZKA, audioUrl, getSkazka, illustrationUrl } from "@/lib/skazki";
 
 export const dynamicParams = false;
 
@@ -39,6 +39,7 @@ export default async function SkazkaPart({
   const prev = book.parts.find((x) => x.num === num - 1);
   const next = book.parts.find((x) => x.num === num + 1);
   const cover = illustrationUrl(book.slug, `p${String(num).padStart(2, "0")}-cover`);
+  const audio = audioUrl(book.slug, num);
 
   return (
     <div className="min-h-screen bg-[#fdf8ef] text-[#3b2f26] dark:bg-[#171310] dark:text-[#ece1d4]">
@@ -75,6 +76,21 @@ export default async function SkazkaPart({
         <p className="mt-4 text-center text-sm text-[#a08a72] dark:text-[#8b7a68]">
           ~{p.minutes} минут вслух{p.theme ? ` · ${p.theme}` : ""}
         </p>
+
+        {/* Озвучка есть не у всех частей — она добирается по одной и стоит
+            квоты, поэтому плеер появляется только там, где файл уже лежит.
+            Нативный <audio> взят намеренно: на телефоне он даёт управление с
+            локскрина, а родителю в тёмной комнате это важнее своей вёрстки. */}
+        {audio ? (
+          <div className="mx-auto mt-6 max-w-md rounded-2xl bg-[#f4e9d6] px-4 py-4 dark:bg-[#221b15]">
+            <p className="mb-2 text-center text-xs uppercase tracking-widest text-[#a0794a] dark:text-[#c9a978]">
+              Послушать сказку
+            </p>
+            <audio controls preload="none" src={audio} className="w-full">
+              Ваш браузер не умеет проигрывать аудио.
+            </audio>
+          </div>
+        ) : null}
 
         {/* Текст крупный намеренно: читает взрослый вслух, часто в полутьме,
             держа телефон на вытянутой руке над кроватью. */}

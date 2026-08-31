@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { SiteHeader } from "@/components/site-header";
-import { DEFAULT_SKAZKA, getSkazka, illustrationUrl } from "@/lib/skazki";
+import { DEFAULT_SKAZKA, audioUrl, getSkazka, illustrationUrl } from "@/lib/skazki";
 
 export const dynamic = "force-static";
 
@@ -99,7 +99,8 @@ export default function SkazkiIndex() {
                     {part.teaser}
                   </span>
                   <span className="mt-1 block text-xs text-[#a08a72] dark:text-[#8b7a68]">
-                    ~{part.minutes} мин{part.theme ? ` · ${part.theme}` : ""}
+                    {audioUrl(book.slug, part.num) ? "🎧 " : ""}~{part.minutes} мин
+                    {part.theme ? ` · ${part.theme}` : ""}
                   </span>
                 </Link>
               </li>

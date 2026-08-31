@@ -20,6 +20,9 @@
     "skazki:build": "node scripts/build-skazki.mjs ezhinka-ulya",
     "skazki:images": "python3 scripts/generate-illustrations-local.py ezhinka-ulya --prompts data/skazki/ezhinka-ulya.prompts.json --out-dir public/skazki/ezhinka-ulya",
     "skazki:webp": "node scripts/webp-skazki.mjs ezhinka-ulya",
+    "skazki:audio": "node scripts/generate-audio-skazki.mjs",
+    "skazki:audio:voices": "node scripts/generate-audio-skazki.mjs voices",
+    "skazki:audio:sample": "node scripts/generate-audio-skazki.mjs sample",
     "audio:reading": "node scripts/generate-audio-voicer.mjs --reading",
     "audio:express": "node scripts/generate-audio-voicer.mjs --express"
   },
