@@ -7,192 +7,33 @@
   {
    "id": 0,
    "num": null,
-   "title": "Buat Pembaca",
+   "title": "К читателю",
    "blocks": [
     {
      "kind": "p",
+     "lang": "ru",
      "sent": [
       {
-       "id": "Cerita ini ditulis pakai bahasa Indonesia sehari-hari.",
+       "id": "Эта книга написана на разговорном индонезийском.",
        "seg": [
         {
-         "t": "Cerita ini ditulis pakai bahasa Indonesia sehari-hari.",
+         "t": "Эта книга написана на разговорном индонезийском.",
          "tk": [
           {
-           "w": "Cerita"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "ini"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "ditulis"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "pakai"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "bahasa"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "Indonesia"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "sehari-hari"
-          },
-          {
-           "s": "."
+           "s": "Эта книга написана на разговорном индонезийском."
           }
          ]
         }
        ]
       },
       {
-       "id": "Bukan bahasa buku, bukan bahasa berita.",
+       "id": "Не на языке учебников и не на языке новостей — на том, на котором люди болтают за обеденным столом, в варунге, в машине.",
        "seg": [
         {
-         "t": "Bukan bahasa buku, bukan bahasa berita.",
+         "t": "Не на языке учебников и не на языке новостей — на том, на котором люди болтают за обеденным столом, в варунге, в машине.",
          "tk": [
           {
-           "w": "Bukan"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "bahasa"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "buku"
-          },
-          {
-           "s": ", "
-          },
-          {
-           "w": "bukan"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "bahasa"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "berita"
-          },
-          {
-           "s": "."
-          }
-         ]
-        }
-       ]
-      },
-      {
-       "id": "Bahasa yang dipakai orang waktu ngobrol di meja makan, di warung, di mobil.",
-       "seg": [
-        {
-         "t": "Bahasa yang dipakai orang waktu ngobrol di meja makan, di warung, di mobil.",
-         "tk": [
-          {
-           "w": "Bahasa"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "yang"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "dipakai"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "orang"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "waktu"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "ngobrol"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "di"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "meja"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "makan"
-          },
-          {
-           "s": ", "
-          },
-          {
-           "w": "di"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "warung"
-          },
-          {
-           "s": ", "
-          },
-          {
-           "w": "di"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "mobil"
-          },
-          {
-           "s": "."
+           "s": "Не на языке учебников и не на языке новостей — на том, на котором люди болтают за обеденным столом, в варунге, в машине."
           }
          ]
         }
@@ -202,66 +43,16 @@
     },
     {
      "kind": "p",
+     "lang": "ru",
      "sent": [
       {
-       "id": "Ada beberapa hal yang perlu kamu tahu sebelum mulai:",
+       "id": "Несколько вещей, которые стоит знать до начала:",
        "seg": [
         {
-         "t": "Ada beberapa hal yang perlu kamu tahu sebelum mulai:",
+         "t": "Несколько вещей, которые стоит знать до начала:",
          "tk": [
           {
-           "w": "Ada"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "beberapa"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "hal"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "yang"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "perlu"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "kamu"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "tahu"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "sebelum"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "mulai"
-          },
-          {
-           "s": ":"
+           "s": "Несколько вещей, которые стоит знать до начала:"
           }
          ]
         }
@@ -271,47 +62,30 @@
     },
     {
      "kind": "p",
+     "lang": "ru",
      "sent": [
       {
-       "id": "Partikel.",
+       "id": "Частицы.",
        "seg": [
         {
-         "t": "Partikel.",
+         "t": "Частицы.",
          "em": "b",
          "tk": [
           {
-           "w": "Partikel"
-          },
-          {
-           "s": "."
+           "s": "Частицы."
           }
          ]
         }
        ]
       },
       {
-       "id": "Kata-kata kecil kayak sih, dong, kok, deh, nih, tuh, kan, ya, lah, aja.",
+       "id": "Маленькие слова вроде sih, dong, kok, deh, nih, tuh, kan, ya, lah, aja.",
        "seg": [
         {
-         "t": "Kata-kata kecil kayak ",
+         "t": "Маленькие слова вроде ",
          "tk": [
           {
-           "w": "Kata-kata"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "kecil"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "kayak"
-          },
-          {
-           "s": " "
+           "s": "Маленькие слова вроде "
           }
          ]
         },
@@ -389,156 +163,26 @@
        ]
       },
       {
-       "id": "Kata-kata ini nggak punya arti sendiri, tapi mereka yang bikin kalimat terdengar hidup.",
+       "id": "Своего значения у них почти нет, но именно они делают фразу живой.",
        "seg": [
         {
-         "t": "Kata-kata ini nggak punya arti sendiri, tapi mereka yang bikin kalimat terdengar hidup.",
+         "t": "Своего значения у них почти нет, но именно они делают фразу живой.",
          "tk": [
           {
-           "w": "Kata-kata"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "ini"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "nggak"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "punya"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "arti"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "sendiri"
-          },
-          {
-           "s": ", "
-          },
-          {
-           "w": "tapi"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "mereka"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "yang"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "bikin"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "kalimat"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "terdengar"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "hidup"
-          },
-          {
-           "s": "."
+           "s": "Своего значения у них почти нет, но именно они делают фразу живой."
           }
          ]
         }
        ]
       },
       {
-       "id": "Perhatiin gimana mereka dipakai.",
+       "id": "Следи, как они употребляются, — это самое важное в книге.",
        "seg": [
         {
-         "t": "Perhatiin gimana mereka dipakai.",
+         "t": "Следи, как они употребляются, — это самое важное в книге.",
          "tk": [
           {
-           "w": "Perhatiin"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "gimana"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "mereka"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "dipakai"
-          },
-          {
-           "s": "."
-          }
-         ]
-        }
-       ]
-      },
-      {
-       "id": "Ini bagian paling penting.",
-       "seg": [
-        {
-         "t": "Ini bagian paling penting.",
-         "tk": [
-          {
-           "w": "Ini"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "bagian"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "paling"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "penting"
-          },
-          {
-           "s": "."
+           "s": "Следи, как они употребляются, — это самое важное в книге."
           }
          ]
         }
@@ -548,123 +192,43 @@
     },
     {
      "kind": "p",
+     "lang": "ru",
      "sent": [
       {
-       "id": "Bahasa Sunda.",
+       "id": "Сунданский.",
        "seg": [
         {
-         "t": "Bahasa Sunda.",
+         "t": "Сунданский.",
          "em": "b",
          "tk": [
           {
-           "w": "Bahasa"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "Sunda"
-          },
-          {
-           "s": "."
+           "s": "Сунданский."
           }
          ]
         }
        ]
       },
       {
-       "id": "Ceritanya di Lembang, dekat Bandung.",
+       "id": "Действие происходит в Лембанге, под Бандунгом.",
        "seg": [
         {
-         "t": "Ceritanya di Lembang, dekat Bandung.",
+         "t": "Действие происходит в Лембанге, под Бандунгом.",
          "tk": [
           {
-           "w": "Ceritanya"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "di"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "Lembang"
-          },
-          {
-           "s": ", "
-          },
-          {
-           "w": "dekat"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "Bandung"
-          },
-          {
-           "s": "."
+           "s": "Действие происходит в Лембанге, под Бандунгом."
           }
          ]
         }
        ]
       },
       {
-       "id": "Orang sini campur bahasa Indonesia sama bahasa Sunda: punten, mangga, atuh, teh, mah, euy, pisan.",
+       "id": "Здесь мешают индонезийский с сунданским: punten, mangga, atuh, teh, mah, euy, pisan.",
        "seg": [
         {
-         "t": "Orang sini campur bahasa Indonesia sama bahasa Sunda: ",
+         "t": "Здесь мешают индонезийский с сунданским: ",
          "tk": [
           {
-           "w": "Orang"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "sini"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "campur"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "bahasa"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "Indonesia"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "sama"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "bahasa"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "Sunda"
-          },
-          {
-           "s": ": "
+           "s": "Здесь мешают индонезийский с сунданским: "
           }
          ]
         },
@@ -724,70 +288,13 @@
        ]
       },
       {
-       "id": "Nggak usah takut, artinya ada di daftar kata di belakang.",
+       "id": "Не пугайся — значения всех этих слов есть в словаре в конце книги.",
        "seg": [
         {
-         "t": "Nggak usah takut, artinya ada di daftar kata di belakang.",
+         "t": "Не пугайся — значения всех этих слов есть в словаре в конце книги.",
          "tk": [
           {
-           "w": "Nggak"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "usah"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "takut"
-          },
-          {
-           "s": ", "
-          },
-          {
-           "w": "artinya"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "ada"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "di"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "daftar"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "kata"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "di"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "belakang"
-          },
-          {
-           "s": "."
+           "s": "Не пугайся — значения всех этих слов есть в словаре в конце книги."
           }
          ]
         }
@@ -797,25 +304,20 @@
     },
     {
      "kind": "p",
+     "lang": "ru",
      "sent": [
       {
-       "id": "Gue dan lo.",
+       "id": "Gue и lo.",
        "seg": [
         {
-         "t": "Gue dan lo.",
+         "t": "Gue и lo.",
          "em": "b",
          "tk": [
           {
            "w": "Gue"
           },
           {
-           "s": " "
-          },
-          {
-           "w": "dan"
-          },
-          {
-           "s": " "
+           "s": " и "
           },
           {
            "w": "lo"
@@ -828,40 +330,13 @@
        ]
       },
       {
-       "id": "Anak muda dari Jakarta ngomong gue dan lo.",
+       "id": "Молодёжь из Джакарты говорит gue («я») и lo («ты»).",
        "seg": [
         {
-         "t": "Anak muda dari Jakarta ngomong ",
+         "t": "Молодёжь из Джакарты говорит ",
          "tk": [
           {
-           "w": "Anak"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "muda"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "dari"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "Jakarta"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "ngomong"
-          },
-          {
-           "s": " "
+           "s": "Молодёжь из Джакарты говорит "
           }
          ]
         },
@@ -875,16 +350,10 @@
          ]
         },
         {
-         "t": " dan ",
+         "t": " («я») и ",
          "tk": [
           {
-           "s": " "
-          },
-          {
-           "w": "dan"
-          },
-          {
-           "s": " "
+           "s": " («я») и "
           }
          ]
         },
@@ -898,50 +367,23 @@
          ]
         },
         {
-         "t": ".",
+         "t": " («ты»).",
          "tk": [
           {
-           "s": "."
+           "s": " («ты»)."
           }
          ]
         }
        ]
       },
       {
-       "id": "Orang yang lebih tua ngomong saya dan pakai nama.",
+       "id": "Люди постарше говорят saya и обращаются по имени.",
        "seg": [
         {
-         "t": "Orang yang lebih tua ngomong ",
+         "t": "Люди постарше говорят ",
          "tk": [
           {
-           "w": "Orang"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "yang"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "lebih"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "tua"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "ngomong"
-          },
-          {
-           "s": " "
+           "s": "Люди постарше говорят "
           }
          ]
         },
@@ -955,120 +397,36 @@
          ]
         },
         {
-         "t": " dan pakai nama.",
+         "t": " и обращаются по имени.",
          "tk": [
           {
-           "s": " "
-          },
-          {
-           "w": "dan"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "pakai"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "nama"
-          },
-          {
-           "s": "."
+           "s": " и обращаются по имени."
           }
          ]
         }
        ]
       },
       {
-       "id": "Ini bukan salah, ini beda gaya.",
+       "id": "Это не ошибка, это разница стилей.",
        "seg": [
         {
-         "t": "Ini bukan salah, ini beda gaya.",
+         "t": "Это не ошибка, это разница стилей.",
          "tk": [
           {
-           "w": "Ini"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "bukan"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "salah"
-          },
-          {
-           "s": ", "
-          },
-          {
-           "w": "ini"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "beda"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "gaya"
-          },
-          {
-           "s": "."
+           "s": "Это не ошибка, это разница стилей."
           }
          ]
         }
        ]
       },
       {
-       "id": "Perhatiin siapa ngomong apa sama siapa.",
+       "id": "Обращай внимание, кто как с кем говорит.",
        "seg": [
         {
-         "t": "Perhatiin siapa ngomong apa sama siapa.",
+         "t": "Обращай внимание, кто как с кем говорит.",
          "tk": [
           {
-           "w": "Perhatiin"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "siapa"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "ngomong"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "apa"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "sama"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "siapa"
-          },
-          {
-           "s": "."
+           "s": "Обращай внимание, кто как с кем говорит."
           }
          ]
         }
@@ -1078,6 +436,7 @@
     },
     {
      "kind": "p",
+     "lang": "ru",
      "sent": [
       {
        "id": "Nggak, udah, gimana, kenapa, ngapain.",
@@ -1121,46 +480,13 @@
        ]
       },
       {
-       "id": "Di buku pelajaran kamu bakal ketemu tidak, sudah, bagaimana, mengapa, sedang apa.",
+       "id": "В учебнике ты встретишь tidak, sudah, bagaimana, mengapa, sedang apa — «не», «уже», «как», «почему», «чем занят».",
        "seg": [
         {
-         "t": "Di buku pelajaran kamu bakal ketemu ",
+         "t": "В учебнике ты встретишь ",
          "tk": [
           {
-           "w": "Di"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "buku"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "pelajaran"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "kamu"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "bakal"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "ketemu"
-          },
-          {
-           "s": " "
+           "s": "В учебнике ты встретишь "
           }
          ]
         },
@@ -1204,74 +530,23 @@
          ]
         },
         {
-         "t": ".",
+         "t": " — «не», «уже», «как», «почему», «чем занят».",
          "tk": [
           {
-           "s": "."
+           "s": " — «не», «уже», «как», «почему», «чем занят»."
           }
          ]
         }
        ]
       },
       {
-       "id": "Di hidup nyata, hampir nggak ada yang ngomong gitu.",
+       "id": "В живой речи так почти никто не говорит: всюду звучат короткие разговорные формы.",
        "seg": [
         {
-         "t": "Di hidup nyata, hampir nggak ada yang ngomong gitu.",
+         "t": "В живой речи так почти никто не говорит: всюду звучат короткие разговорные формы.",
          "tk": [
           {
-           "w": "Di"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "hidup"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "nyata"
-          },
-          {
-           "s": ", "
-          },
-          {
-           "w": "hampir"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "nggak"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "ada"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "yang"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "ngomong"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "gitu"
-          },
-          {
-           "s": "."
+           "s": "В живой речи так почти никто не говорит: всюду звучат короткие разговорные формы."
           }
          ]
         }
@@ -1281,210 +556,42 @@
     },
     {
      "kind": "p",
+     "lang": "ru",
      "sent": [
       {
-       "id": "Di belakang ada daftar kata.",
+       "id": "В конце книги — словарь.",
        "seg": [
         {
-         "t": "Di belakang ada daftar kata.",
+         "t": "В конце книги — словарь.",
          "tk": [
           {
-           "w": "Di"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "belakang"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "ada"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "daftar"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "kata"
-          },
-          {
-           "s": "."
+           "s": "В конце книги — словарь."
           }
          ]
         }
        ]
       },
       {
-       "id": "Tapi coba baca dulu tanpa buka daftar.",
+       "id": "Но попробуй сначала читать, не заглядывая в него.",
        "seg": [
         {
-         "t": "Tapi coba baca dulu tanpa buka daftar.",
+         "t": "Но попробуй сначала читать, не заглядывая в него.",
          "tk": [
           {
-           "w": "Tapi"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "coba"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "baca"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "dulu"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "tanpa"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "buka"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "daftar"
-          },
-          {
-           "s": "."
+           "s": "Но попробуй сначала читать, не заглядывая в него."
           }
          ]
         }
        ]
       },
       {
-       "id": "Kalau ada satu-dua kata yang nggak kamu ngerti, lanjut aja.",
+       "id": "Если одно-два слова непонятны — читай дальше: обычно смысл становится ясен из самой истории.",
        "seg": [
         {
-         "t": "Kalau ada satu-dua kata yang nggak kamu ngerti, lanjut aja.",
+         "t": "Если одно-два слова непонятны — читай дальше: обычно смысл становится ясен из самой истории.",
          "tk": [
           {
-           "w": "Kalau"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "ada"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "satu-dua"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "kata"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "yang"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "nggak"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "kamu"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "ngerti"
-          },
-          {
-           "s": ", "
-          },
-          {
-           "w": "lanjut"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "aja"
-          },
-          {
-           "s": "."
-          }
-         ]
-        }
-       ]
-      },
-      {
-       "id": "Biasanya kamu bakal ngerti dari ceritanya.",
-       "seg": [
-        {
-         "t": "Biasanya kamu bakal ngerti dari ceritanya.",
-         "tk": [
-          {
-           "w": "Biasanya"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "kamu"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "bakal"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "ngerti"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "dari"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "ceritanya"
-          },
-          {
-           "s": "."
+           "s": "Если одно-два слова непонятны — читай дальше: обычно смысл становится ясен из самой истории."
           }
          ]
         }
@@ -1494,24 +601,16 @@
     },
     {
      "kind": "p",
+     "lang": "ru",
      "sent": [
       {
-       "id": "Selamat membaca.",
+       "id": "Приятного чтения.",
        "seg": [
         {
-         "t": "Selamat membaca.",
+         "t": "Приятного чтения.",
          "tk": [
           {
-           "w": "Selamat"
-          },
-          {
-           "s": " "
-          },
-          {
-           "w": "membaca"
-          },
-          {
-           "s": "."
+           "s": "Приятного чтения."
           }
          ]
         }

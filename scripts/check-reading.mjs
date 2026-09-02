@@ -40,14 +40,19 @@ for (const slug of slugs) {
   const tr = readJson(path.join(DIR, `${slug}.translations.json`), {});
   const gl = readJson(path.join(DIR, `${slug}.glossary.json`), {});
 
+  // Русское в книге перевода не требует: у абзацев с lang: "ru" читалка
+  // сама не показывает ⇄, а русский заголовок главы переводить некуда.
+  const isRu = (t) =>
+    (t.match(/[А-Яа-яЁё]/g) ?? []).length > (t.match(/[A-Za-z]/g) ?? []).length;
+
   const sentences = new Set();
   const words = new Set();
   for (const heading of [book.title, book.subtitle, ...book.chapters.map((c) => c.title)]) {
-    if (heading) sentences.add(heading);
+    if (heading && !isRu(heading)) sentences.add(heading);
   }
   for (const ch of book.chapters) {
     for (const b of ch.blocks) {
-      if (b.kind === "v" || b.kind === "t") continue;
+      if (b.kind === "v" || b.kind === "t" || b.lang === "ru") continue;
       for (const s of b.sent) {
         sentences.add(s.id);
         for (const seg of s.seg) for (const tk of seg.tk) if (tk.w) words.add(tk.w.toLowerCase());

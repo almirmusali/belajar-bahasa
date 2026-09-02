@@ -29,12 +29,31 @@ export function getAudioElement(): HTMLAudioElement | null {
 }
 
 /**
+ * Заявить систему о себе как о полноценном плеере.
+ *
+ * Аудиосессия по умолчанию («auto») трактуется как фоновый звук страницы:
+ * подсказка навигатора не приглушает нас, а забирает звук целиком. Тип
+ * `playback` — это то, чем объявляют себя музыкальные приложения; с ним чужая
+ * короткая реплика чаще всего только приглушает нашу озвучку.
+ *
+ * API есть не везде (WebKit 16.4+), поэтому всё под try/catch.
+ */
+function claimPlaybackSession(): void {
+  try {
+    const session = (navigator as unknown as { audioSession?: { type: string } })
+      .audioSession;
+    if (session) session.type = "playback";
+  } catch {}
+}
+
+/**
  * Разблокировать звук. Вызывать строго из обработчика касания/клика:
  * короткий play() по тишине выдаёт элементу разрешение на дальнейшую
  * работу, в том числе в фоне.
  */
 export function unlockAudio(): void {
   const a = getAudioElement();
+  claimPlaybackSession();
   if (!a || a.dataset.unlocked === "1") return;
   a.dataset.unlocked = "1";
   a.src = SILENCE_URL;
@@ -56,25 +75,84 @@ export type PlayOutcome = "ended" | "error" | "cancelled";
 // событий он уже не получит.
 let settlePending: ((outcome: PlayOutcome) => void) | null = null;
 
+// Сколько ждём, что звук вообще пойдёт после play().
+const START_MS = 8000;
+// Звук идёт — вот столько тишины считаем нормальной паузой между событиями
+// `timeupdate`, дольше — что-то случилось.
+const STALL_MS = 1500;
+// Замолчали посреди фразы: так выглядит перехват звука чужим приложением
+// (подсказка навигатора, звонок). Пробуем вернуть звук в течение этого окна.
+const RESUME_WINDOW_MS = 60000;
+// Столько же, но для случая «фраза так и не началась» на элементе, который
+// вообще ещё ни разу не звучал: там вероятнее не перехват, а потерянное
+// разрешение, и висеть минуту незачем.
+const RESUME_WINDOW_COLD_MS = 10000;
+
+// Элемент хоть раз реально звучал — значит, разрешение на звук у него есть.
+// Тогда «play() молчит» почти всегда означает перехват, а не запрет.
+let everPlayed = false;
+// Как часто просим систему вернуть нам звук.
+const RESUME_EVERY_MS = 600;
+
+// Тот, кто сейчас ждёт звука, оставляет здесь способ разбудить себя: сигналы
+// «сессия снова наша» и «страница вернулась на экран» приходят снаружи playUrl.
+let requestResume: (() => void) | null = null;
+let signalsAttached = false;
+
+function attachResumeSignals(): void {
+  if (signalsAttached || typeof window === "undefined") return;
+  signalsAttached = true;
+  const wake = () => requestResume?.();
+  document.addEventListener("visibilitychange", wake);
+  window.addEventListener("focus", wake);
+  window.addEventListener("pageshow", wake);
+  try {
+    const session = (
+      navigator as unknown as {
+        audioSession?: EventTarget & { type: string };
+      }
+    ).audioSession;
+    // Черновой AudioSession API: сюда прилетает конец перехвата — самый
+    // честный сигнал «навигатор договорил, можно продолжать».
+    session?.addEventListener?.("statechange", wake);
+  } catch {}
+}
+
 /**
  * Проиграть один URL на общем элементе. Возвращает, чем закончилось:
  * "ended" — доиграл, "error" — файла нет или не смог, "cancelled" — прервали.
+ *
+ * Отдельная забота — перехват звука. Когда чужое приложение (навигатор,
+ * звонок) забирает аудио, элемент просто встаёт: ни `ended`, ни `error` не
+ * приходит. Раньше обещание в этот момент повисало навсегда, и вся очередь
+ * озвучки замирала — со стороны это выглядело как «поиграло пару карточек и
+ * встало на паузу». Теперь за звуком следит сторож: пока фраза должна
+ * звучать, он повторяет play(), а если вернуть звук так и не вышло — закрывает
+ * обещание, чтобы очередь пошла дальше.
  */
 export function playUrl(url: string, token: () => boolean): Promise<PlayOutcome> {
   const a = getAudioElement();
   if (!a) return Promise.resolve("error");
 
+  attachResumeSignals();
   settlePending?.("cancelled");
 
   return new Promise((resolve) => {
     let settled = false;
     let started = false;
+    let timer = 0;
+    // Когда заметили тишину. 0 — звук идёт.
+    let silentSince = 0;
 
     const cleanup = () => {
       a.onplaying = null;
       a.onended = null;
       a.onerror = null;
+      a.onpause = null;
+      a.ontimeupdate = null;
+      window.clearTimeout(timer);
       if (settlePending === done) settlePending = null;
+      if (requestResume === wake) requestResume = null;
     };
     const done = (outcome: PlayOutcome) => {
       if (settled) return;
@@ -84,16 +162,67 @@ export function playUrl(url: string, token: () => boolean): Promise<PlayOutcome>
     };
     settlePending = done;
 
+    const arm = (ms: number) => {
+      window.clearTimeout(timer);
+      timer = window.setTimeout(check, ms);
+    };
+    // Звук слышно — сбрасываем счётчик перехвата.
+    const heard = () => {
+      silentSince = 0;
+      arm(STALL_MS);
+    };
+    const wake = () => {
+      if (!settled && silentSince) arm(0);
+    };
+    requestResume = wake;
+
+    const check = () => {
+      if (settled) return;
+      if (!token()) return done("cancelled");
+      if (a.ended) return done("ended");
+      // Битый или отсутствующий файл виден сразу — тут не перехват.
+      if (a.error) return done(started ? "ended" : "error");
+      const now = Date.now();
+      if (!silentSince) silentSince = now;
+      const limit =
+        started || everPlayed ? RESUME_WINDOW_MS : RESUME_WINDOW_COLD_MS;
+      if (now - silentSince > limit) {
+        // Сдаёмся. Уже звучавшую фразу вторым голосом не переспрашиваем.
+        return done(started ? "ended" : "error");
+      }
+      a.play().catch(() => {});
+      arm(RESUME_EVERY_MS);
+    };
+
     a.onplaying = () => {
       started = true;
+      everPlayed = true;
+      heard();
+    };
+    // Пока идёт звук, `timeupdate` приходит несколько раз в секунду — это и
+    // есть признак жизни, по которому сторож отодвигается.
+    a.ontimeupdate = () => {
+      if (started && !a.paused) heard();
     };
     a.onended = () => done("ended");
     // Сбой после старта означает, что фраза уже прозвучала — второй раз
     // читать её системным голосом не нужно.
     a.onerror = () => done(started ? "ended" : "error");
+    // Внезапная пауза посреди фразы — это перехват. Проверяем сразу, не ожидая
+    // сторожа. (Пауза до старта — это смена src, её пропускаем.)
+    a.onpause = () => {
+      if (started && !a.ended) arm(0);
+    };
 
     a.src = url;
-    a.play().catch(() => done(started ? "ended" : "error"));
+    arm(START_MS);
+    a.play().catch(() => {
+      // Отказ бывает двух видов: файла нет (тогда придёт и `error`) и система
+      // не дала звук (перехват, потерянное разрешение). Первый закрываем
+      // сразу, со вторым идём в сторожа — он попробует ещё.
+      if (a.error) done("error");
+      else arm(RESUME_EVERY_MS);
+    });
   });
 }
 
@@ -104,6 +233,8 @@ export function stopAudioElement(): void {
   a.onplaying = null;
   a.onended = null;
   a.onerror = null;
+  a.onpause = null;
+  a.ontimeupdate = null;
   a.pause();
   // src не чистим: пустой src у общего элемента на iOS роняет разрешение,
   // и следующий play() уже в фоне не сработает.

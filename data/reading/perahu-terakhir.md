@@ -4,31 +4,29 @@
 
 ---
 
-## Buat Pembaca
+## К читателю
 
-Buku ini lebih mudah dari buku biasa.
+Эта книга проще обычной.
 
-Kalimatnya pendek. Katanya sedikit. Kata yang sama diulang banyak kali — itu sengaja. Kalau kamu ketemu satu kata lima kali, kata itu bakal nempel sendiri di kepala kamu.
+Предложения короткие. Слов немного. Одни и те же слова повторяются много раз — это нарочно. Если слово попадётся тебе пять раз, оно запомнится само собой.
 
-Semua orang di buku ini pakai **saya, aku, kamu**. Nggak ada *gue* dan *lo*. Itu supaya kamu bisa fokus ke satu gaya dulu.
+Все герои говорят **saya, aku, kamu**. Никаких *gue* и *lo* — сначала спокойно освоишь один стиль.
 
-Yang dipakai banyak di sini:
+Вот что здесь встречается чаще всего:
 
-- **nggak** (= tidak), **udah** (= sudah), **belum**
-- **aja** (= saja), **banget** (= sekali), **terus** (= lalu)
-- **kayak** (= seperti), **bikin** (= membuat), **kasih** (= memberi)
-- partikel kecil: **sih, kok, ya, kan, dong, deh**
+> **Разговорные формы**
+> nggak — не, нет (= tidak) · udah — уже (= sudah) · belum — ещё не · aja — просто, только (= saja) · banget — очень (= sekali) · terus — потом, дальше (= lalu) · kayak — как, вроде (= seperti) · bikin — делать (= membuat) · kasih — давать (= memberi) · sih, kok, ya, kan, dong, deh — частицы, они делают речь живой
 
-Habis tiap bab ada kotak **Kata Baru**. Di situ cuma kata-kata penting. Bukan semua kata — cuma yang bakal kamu pakai lagi nanti.
+После каждой главы есть врезка **Kata Baru** — «новые слова». Там не все слова подряд, а только важные — те, что ещё не раз тебе пригодятся.
 
-Cara baca yang saya sarankan:
-1. Baca satu bab sampai habis. Jangan berhenti.
-2. Baca kotak Kata Baru.
-3. Baca bab itu lagi. Sekarang lebih cepat, kan?
+Как я советую читать:
+1. Прочитай главу до конца, не останавливаясь.
+2. Прочитай врезку Kata Baru.
+3. Прочитай главу ещё раз. Заметно быстрее, правда?
 
-Satu bab per hari. Dua puluh satu hari.
+Одна глава в день. Двадцать один день.
 
-Selamat membaca.
+Приятного чтения.
 
 ---
 

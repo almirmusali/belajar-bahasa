@@ -14,7 +14,7 @@ const ru: Dict = {
   // Home
   home_badge: "Bahasa Indonesia",
   home_subtitle:
-    "Курс по образцу «Полиглота»: короткие уроки, грамматические матрицы и устные упражнения. Подходит тем, кто начинает с нуля.",
+    "Короткие уроки, грамматические матрицы и устные упражнения. Подходит тем, кто начинает с нуля.",
   reading_voice_on: "Озвучка",
   reading_voice_off: "Озвучка выключена",
   home_cta_lessons: "К урокам",
@@ -33,7 +33,7 @@ const ru: Dict = {
   vocab_badge: "Словарь",
   vocab_title: "Карточки со словами",
   vocab_subtitle:
-    "Quizlet-стиль: выбери набор, нажми «Авто» и слова сами листаются с озвучкой. Скорость и направление настраиваются.",
+    "Выбери набор, нажми «Авто» — и слова сами листаются с озвучкой. Скорость и направление настраиваются.",
   vocab_learned_link: "Выученные слова",
   vocab_empty_title: "Нет ни одного набора",
   vocab_empty_subtitle: "Добавь папку в data/vocab/ — формат описан в README.",
@@ -194,17 +194,17 @@ const ru: Dict = {
   // Landing
   landing_title: "Индонезийский — с нуля и по-русски",
   landing_subtitle:
-    "Уроки по методу «Полиглота», словарь-карточки с озвучкой, книги с переводом каждого слова и тренажёр частиц. Прогресс привязан к аккаунту и синхронизируется между устройствами.",
+    "Короткие уроки, словарь-карточки с озвучкой, книги с переводом каждого слова и тренажёр частиц. Прогресс привязан к аккаунту и синхронизируется между устройствами.",
   landing_cta_signup: "Создать аккаунт",
   landing_cta_login: "Войти",
   landing_free_note: "Бесплатно. Нужна только почта.",
   landing_locked_badge: "После регистрации",
   landing_feat_lessons_title: "Уроки",
   landing_feat_lessons_text:
-    "18 коротких уроков по образцу «Полиглота»: грамматические матрицы и устные упражнения — от нуля до уверенной речи.",
+    "18 коротких уроков: грамматические матрицы и устные упражнения — от нуля до уверенной речи.",
   landing_feat_vocab_title: "Словарь",
   landing_feat_vocab_text:
-    "Карточки в стиле Quizlet: сотни слов по темам, автолистание и озвучка. Открыт без регистрации — попробуй прямо сейчас.",
+    "Карточки со словами: сотни слов по темам, автолистание и озвучка. Открыт без регистрации — попробуй прямо сейчас.",
   landing_feat_reading_title: "Книги",
   landing_feat_reading_text:
     "Читалка с настоящими книгами: перевод любого слова по наведению, перевод и озвучка целых абзацев.",
@@ -227,7 +227,7 @@ const id: Dict = {
 
   home_badge: "Bahasa Rusia",
   home_subtitle:
-    "Kursus bergaya «Polyglot»: pelajaran singkat, matriks tata bahasa, dan latihan lisan. Cocok untuk pemula dari nol.",
+    "Pelajaran singkat, matriks tata bahasa, dan latihan lisan. Cocok untuk pemula dari nol.",
   home_cta_lessons: "Ke pelajaran",
   home_cta_vocab: "Kosakata",
   home_lesson: "Pelajaran",
@@ -242,7 +242,7 @@ const id: Dict = {
   vocab_badge: "Kosakata",
   vocab_title: "Kartu kosakata",
   vocab_subtitle:
-    "Gaya Quizlet: pilih koleksi, tekan «Otomatis» dan kartu akan berganti sendiri dengan suara. Kecepatan dan arah dapat diatur.",
+    "Pilih koleksi, tekan «Otomatis» — kartu akan berganti sendiri dengan suara. Kecepatan dan arah dapat diatur.",
   vocab_learned_link: "Kata yang sudah dipelajari",
   vocab_empty_title: "Belum ada koleksi",
   vocab_empty_subtitle:
@@ -406,17 +406,17 @@ const id: Dict = {
   // Landing
   landing_title: "Bahasa Indonesia — dari nol, dalam bahasa Rusia",
   landing_subtitle:
-    "Pelajaran ala «Poliglot», kartu kosakata bersuara, buku dengan terjemahan setiap kata, dan latihan partikel. Progres tersimpan di akun dan tersinkron antar perangkat.",
+    "Pelajaran singkat, kartu kosakata bersuara, buku dengan terjemahan setiap kata, dan latihan partikel. Progres tersimpan di akun dan tersinkron antar perangkat.",
   landing_cta_signup: "Buat akun",
   landing_cta_login: "Masuk",
   landing_free_note: "Gratis. Cukup pakai email.",
   landing_locked_badge: "Setelah daftar",
   landing_feat_lessons_title: "Pelajaran",
   landing_feat_lessons_text:
-    "18 pelajaran singkat ala «Poliglot»: matriks tata bahasa dan latihan lisan — dari nol sampai lancar bicara.",
+    "18 pelajaran singkat: matriks tata bahasa dan latihan lisan — dari nol sampai lancar bicara.",
   landing_feat_vocab_title: "Kosakata",
   landing_feat_vocab_text:
-    "Kartu gaya Quizlet: ratusan kata per topik, putar otomatis, dan suara. Terbuka tanpa daftar — coba sekarang.",
+    "Kartu kosakata: ratusan kata per topik, putar otomatis, dan suara. Terbuka tanpa daftar — coba sekarang.",
   landing_feat_reading_title: "Buku",
   landing_feat_reading_text:
     "Pembaca buku sungguhan: arahkan kursor untuk terjemahan kata, terjemahan dan suara per paragraf.",

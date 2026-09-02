@@ -4,23 +4,23 @@
 
 ---
 
-## Buat Pembaca
+## К читателю
 
-Cerita ini ditulis pakai bahasa Indonesia sehari-hari. Bukan bahasa buku, bukan bahasa berita. Bahasa yang dipakai orang waktu ngobrol di meja makan, di warung, di mobil.
+Эта книга написана на разговорном индонезийском. Не на языке учебников и не на языке новостей — на том, на котором люди болтают за обеденным столом, в варунге, в машине.
 
-Ada beberapa hal yang perlu kamu tahu sebelum mulai:
+Несколько вещей, которые стоит знать до начала:
 
-**Partikel.** Kata-kata kecil kayak *sih, dong, kok, deh, nih, tuh, kan, ya, lah, aja*. Kata-kata ini nggak punya arti sendiri, tapi mereka yang bikin kalimat terdengar hidup. Perhatiin gimana mereka dipakai. Ini bagian paling penting.
+**Частицы.** Маленькие слова вроде *sih, dong, kok, deh, nih, tuh, kan, ya, lah, aja*. Своего значения у них почти нет, но именно они делают фразу живой. Следи, как они употребляются, — это самое важное в книге.
 
-**Bahasa Sunda.** Ceritanya di Lembang, dekat Bandung. Orang sini campur bahasa Indonesia sama bahasa Sunda: *punten, mangga, atuh, teh, mah, euy, pisan*. Nggak usah takut, artinya ada di daftar kata di belakang.
+**Сунданский.** Действие происходит в Лембанге, под Бандунгом. Здесь мешают индонезийский с сунданским: *punten, mangga, atuh, teh, mah, euy, pisan*. Не пугайся — значения всех этих слов есть в словаре в конце книги.
 
-**Gue dan lo.** Anak muda dari Jakarta ngomong *gue* dan *lo*. Orang yang lebih tua ngomong *saya* dan pakai nama. Ini bukan salah, ini beda gaya. Perhatiin siapa ngomong apa sama siapa.
+**Gue и lo.** Молодёжь из Джакарты говорит *gue* («я») и *lo* («ты»). Люди постарше говорят *saya* и обращаются по имени. Это не ошибка, это разница стилей. Обращай внимание, кто как с кем говорит.
 
-**Nggak, udah, gimana, kenapa, ngapain.** Di buku pelajaran kamu bakal ketemu *tidak, sudah, bagaimana, mengapa, sedang apa*. Di hidup nyata, hampir nggak ada yang ngomong gitu.
+**Nggak, udah, gimana, kenapa, ngapain.** В учебнике ты встретишь *tidak, sudah, bagaimana, mengapa, sedang apa* — «не», «уже», «как», «почему», «чем занят». В живой речи так почти никто не говорит: всюду звучат короткие разговорные формы.
 
-Di belakang ada daftar kata. Tapi coba baca dulu tanpa buka daftar. Kalau ada satu-dua kata yang nggak kamu ngerti, lanjut aja. Biasanya kamu bakal ngerti dari ceritanya.
+В конце книги — словарь. Но попробуй сначала читать, не заглядывая в него. Если одно-два слова непонятны — читай дальше: обычно смысл становится ясен из самой истории.
 
-Selamat membaca.
+Приятного чтения.
 
 ---
 

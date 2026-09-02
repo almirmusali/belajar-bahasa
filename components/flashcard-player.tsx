@@ -1,6 +1,13 @@
 "use client";
 
-import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import {
+  useCallback,
+  useEffect,
+  useLayoutEffect,
+  useMemo,
+  useRef,
+  useState,
+} from "react";
 import {
   ArrowLeftRight,
   Check,
@@ -43,6 +50,12 @@ import {
   unlockAudio,
 } from "@/lib/audio-element";
 import { cn } from "@/lib/utils";
+
+// На сервере layout-эффектов нет, и React предупреждает о самом их вызове.
+// На клиенте нужен именно layout: обычный useEffect отработает уже после
+// отрисовки кадра, и прыжок на сохранённую карточку станет заметен.
+const useIsomorphicLayoutEffect =
+  typeof window === "undefined" ? useEffect : useLayoutEffect;
 
 type Direction = "target-first" | "translation-first";
 type SideKind = "target" | "translation";
@@ -87,20 +100,24 @@ export function FlashcardPlayer({
   const [baseOrder, setBaseOrder] = useState<number[]>(() =>
     words.map((_, i) => i),
   );
-  // Инициализируем pos значением, восстановленным из localStorage синхронно,
-  // чтобы избежать вспышки «карточка 1 → потом прыжок на сохранённую»
-  const [pos, setPos] = useState<number>(() => {
-    if (typeof window === "undefined") return 0;
+  const [pos, setPos] = useState(0);
+
+  // Сохранённая карточка восстанавливается не в useState, а в layout-эффекте.
+  // Прямо в useState нельзя: на сервере localStorage нет, там всегда выходит
+  // первая карточка, и React ловит расхождение разметки («Hydration failed»),
+  // а с ним выбрасывает и перерисовывает поддерево. Layout-эффект выполняется
+  // после гидрации, но до отрисовки кадра, поэтому вспышки «карточка 1 →
+  // сохранённая» по-прежнему не видно.
+  useIsomorphicLayoutEffect(() => {
     try {
-      const store = readSetState();
-      const lastWordId = store[slug]?.lastWordId;
-      if (!lastWordId) return 0;
+      const lastWordId = readSetState()[slug]?.lastWordId;
+      if (!lastWordId) return;
       const idx = words.findIndex((w) => w.id === lastWordId);
-      return idx >= 0 ? idx : 0;
-    } catch {
-      return 0;
-    }
-  });
+      if (idx > 0) setPos(idx);
+    } catch {}
+    // Только при первом появлении набора: дальше позицию ведёт сам плеер.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
   const [side, setSide] = useState<0 | 1>(0);
   const [direction, setDirection] = useState<Direction>("target-first");
   const [playing, setPlaying] = useState(false);
