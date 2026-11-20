@@ -190,6 +190,11 @@ let md = fs.readFileSync(src, "utf8");
 // стала бы абзацем прозы.
 const langMatch = md.match(/<!--\s*lang:\s*([a-z]{2})\s*-->/);
 if (langMatch) lang = langMatch[1];
+// Голос студийной озвучки — <!-- voice: almir -->: MP3 книги тогда лежат в
+// public/audio/voice/<голос>/ (scripts/generate-audio-lumean.mjs), а не в общей
+// папке словаря, где фраза из другой книги звучала бы чужим голосом.
+const voiceMatch = md.match(/<!--\s*voice:\s*([a-z0-9-]+)\s*-->/);
+const voice = voiceMatch ? voiceMatch[1] : undefined;
 md = md.replace(/<!--[\s\S]*?-->/g, "");
 
 // Приложение (словарь, грамматика) — русскоязычный справочник. Его не
@@ -327,6 +332,7 @@ const book = {
   title,
   subtitle,
   lang,
+  ...(voice ? { voice } : {}),
   chapters,
   appendix: appendixMd.trim(),
 };

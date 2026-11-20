@@ -50,6 +50,11 @@ export type Book = {
    * потому что у старых JSON поля нет — читатели берут `?? "id"`.
    */
   lang?: BookLang;
+  /**
+   * Голос студийной озвучки книги (`<!-- voice: almir -->` в .md). Есть —
+   * MP3 фраз и отдельных слов лежат в public/audio/voice/<voice>/.
+   */
+  voice?: string;
   chapters: Chapter[];
   appendix: string;
 };

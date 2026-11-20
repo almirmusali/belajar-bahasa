@@ -1,3 +1,4 @@
+<!-- voice: almir -->
 # PERAHU TERAKHIR
 
 ### Cerita detektif — bahasa Indonesia mudah

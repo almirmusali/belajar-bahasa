@@ -97,6 +97,7 @@ export default async function ChapterPage({
             translations={translations}
             glossary={glossary}
             lang={book.lang ?? "id"}
+            voice={book.voice}
           />
         </div>
 

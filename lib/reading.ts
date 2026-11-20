@@ -121,7 +121,7 @@ export function hasStudioAudio(book: Book): boolean {
     for (const b of ch.blocks) {
       if (!isProse(b)) continue;
       for (const s of b.sent) {
-        if (fs.existsSync(path.join(dir, audioFilename(s.id, b.lang ?? book.lang ?? "id")))) {
+        if (fs.existsSync(path.join(dir, audioFilename(s.id, b.lang ?? book.lang ?? "id", book.voice)))) {
           return true;
         }
         if (++checked >= 20) return false;

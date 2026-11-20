@@ -26,7 +26,7 @@ const BCP47: Record<AudioLang, string> = {
  */
 export function speak(
   text: string,
-  opts?: { onEnd?: () => void; lang?: AudioLang },
+  opts?: { onEnd?: () => void; lang?: AudioLang; urls?: string[] },
 ): () => void {
   const lang = opts?.lang ?? "id";
   let audio: HTMLAudioElement | null = null;
@@ -81,38 +81,46 @@ export function speak(
     window.speechSynthesis.cancel();
   }
 
-  const url = audioUrl(text, lang);
-  if (!url) {
-    webSpeech();
-    return stop;
-  }
+  // Адреса пробуются по очереди: у книги со своим голосом сначала её файл,
+  // потом общий файл словаря, и только потом системный синтезатор.
+  const urls = opts?.urls ?? [audioUrl(text, lang)].filter((u): u is string => !!u);
 
-  const el = new Audio(url);
-  audio = el;
-  let started = false;
-  el.onplaying = () => {
-    started = true;
+  const tryUrl = (i: number) => {
+    if (stopped || settled) return;
+    const url = urls[i];
+    if (!url) {
+      webSpeech();
+      return;
+    }
+    const el = new Audio(url);
+    audio = el;
+    let started = false;
+    let failed = false;
+    el.onplaying = () => {
+      started = true;
+    };
+    const clear = () => {
+      if (audio === el) audio = null;
+    };
+    el.onended = () => {
+      settled = true;
+      clear();
+      finish();
+    };
+    // Ошибка после старта — слово уже прозвучало, второй раз читать не нужно,
+    // иначе пользователь услышит и MP3, и системный голос. 404 роняет и
+    // onerror, и play().catch() — защёлка failed не даёт перейти дальше дважды.
+    const fail = () => {
+      if (failed) return;
+      failed = true;
+      clear();
+      if (!started) tryUrl(i + 1);
+      else finish();
+    };
+    el.onerror = fail;
+    el.play().catch(fail);
   };
-  const clear = () => {
-    if (audio === el) audio = null;
-  };
-  el.onended = () => {
-    settled = true;
-    clear();
-    finish();
-  };
-  // Ошибка после старта — слово уже прозвучало, второй раз читать не нужно,
-  // иначе пользователь услышит и MP3, и системный голос.
-  el.onerror = () => {
-    clear();
-    if (!started) webSpeech();
-    else finish();
-  };
-  el.play().catch(() => {
-    clear();
-    if (!started) webSpeech();
-    else finish();
-  });
+  tryUrl(0);
 
   return stop;
 }

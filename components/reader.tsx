@@ -10,7 +10,7 @@ import {
   type GlossaryEntry,
   type Prose,
 } from "@/lib/reading-types";
-import type { AudioLang } from "@/lib/audio-url";
+import { audioUrl, wordAudioUrl, type AudioLang } from "@/lib/audio-url";
 import { speak } from "@/lib/speak";
 import { track } from "@/lib/track";
 import {
@@ -30,7 +30,10 @@ import { cn } from "@/lib/utils";
 //   2a. звёздочка во всплывашке — слово уходит в «Избранное» и потом учится
 //      карточками в разделе «Словарь»;
 //   3. значок 🔊 там же — озвучка абзаца: предложения читаются подряд, текущее
-//      подсвечивается (MP3 из public/audio, иначе системный Web Speech).
+//      подсвечивается (MP3 из public/audio, иначе системный Web Speech);
+//   3a. 🔊 во всплывашке слова и у слов врезки «Kata Baru» — слово отдельно,
+//      начитанное само по себе (у книги со своим голосом — public/audio/voice/
+//      <голос>/<lang>/w/, иначе файл словаря или системный голос).
 //
 // Плюс закладка: читалка следит за прокруткой и запоминает абзац, на котором
 // читатель остановился (lib/use-reading-progress). При следующем открытии
@@ -87,6 +90,7 @@ export function Reader({
   translations,
   glossary,
   lang = "id",
+  voice,
 }: {
   slug: string;
   chapter: number;
@@ -94,12 +98,15 @@ export function Reader({
   translations: Record<string, string>;
   glossary: Glossary;
   lang?: BookLang;
+  /** Голос студийной озвучки книги (поле `voice` в её JSON), см. lib/audio-url.ts. */
+  voice?: string;
 }) {
   const [popup, setPopup] = useState<Popup | null>(null);
   const [open, setOpen] = useState<Record<number, boolean>>({});
   const [showAll, setShowAll] = useState(false);
   const [playing, setPlaying] = useState<string | null>(null);
-  const [voice, setVoice] = useState(true);
+  // Тумблер «Озвучка» (не путать с пропом voice — голосом книги).
+  const [voice_, setVoice] = useState(true);
   const stopRef = useRef<(() => void) | null>(null);
   const queueRef = useRef<string[]>([]);
   const { toggleFavorite, isFavorite } = useWordSets();
@@ -407,9 +414,33 @@ export function Reader({
         return;
       }
       setPlaying(id);
-      stopRef.current = speak(id, { onEnd: next, lang: say });
+      stopRef.current = speak(id, {
+        onEnd: next,
+        lang: say,
+        // Свой голос книги, а если фразы в нём нет — прежний общий файл.
+        urls: voice ? [audioUrl(id, say, voice)!, audioUrl(id, say)!] : undefined,
+      });
     };
     next();
+  };
+
+  // Слово отдельно. Ключ «играет» — с префиксом w:, чтобы не подсвечивать
+  // предложение с тем же текстом («Bohong.» и bohong — разные записи).
+  const speakWord = (word: string) => {
+    const say: AudioLang = lang;
+    const key = `w:${word.toLowerCase()}`;
+    if (playing === key) {
+      stopSpeaking();
+      return;
+    }
+    stopSpeaking();
+    setPlaying(key);
+    const common = audioUrl(word.toLowerCase(), say)!;
+    stopRef.current = speak(word, {
+      lang: say,
+      urls: voice ? [wordAudioUrl(word, say, voice), common] : [common],
+      onEnd: () => setPlaying((p) => (p === key ? null : p)),
+    });
   };
 
   const chapterPct = blocks.length
@@ -448,13 +479,13 @@ export function Reader({
         <button
           type="button"
           onClick={() => {
-            if (voice) stopSpeaking();
+            if (voice_) stopSpeaking();
             setVoice((v) => !v);
           }}
-          aria-pressed={voice}
+          aria-pressed={voice_}
           className={cn(
             "inline-flex items-center gap-1.5 rounded-md border px-2.5 py-1 text-xs font-medium transition",
-            voice
+            voice_
               ? "border-primary bg-primary text-primary-foreground"
               : "hover:bg-secondary",
           )}
@@ -530,14 +561,20 @@ export function Reader({
             {block.kind === "t" ? (
               <TableView head={block.head} rows={block.rows} />
             ) : !isProse(block) ? (
-              <VocabBoxView title={block.title} items={block.items} />
+              <VocabBoxView
+                title={block.title}
+                items={block.items}
+                voice={voice_}
+                playing={playing}
+                onSpeak={speakWord}
+              />
             ) : (
               <ParagraphView
                 block={block}
                 translations={translations}
                 lookup={lookup}
                 playing={playing}
-                voice={voice}
+                voice={voice_}
                 open={open[bi] ?? showAll}
                 onToggle={() => toggle(bi)}
                 onSpeak={() => {
@@ -555,6 +592,9 @@ export function Reader({
         <WordPopup
           popup={popup}
           starred={isFavorite(popup.word.toLowerCase())}
+          voice={voice_}
+          playing={playing === `w:${popup.word.toLowerCase()}`}
+          onSpeak={() => speakWord(popup.word)}
           onStar={() =>
             toggleFavorite({
               id: popup.word.toLowerCase(),
@@ -795,9 +835,15 @@ function TableView({ head, rows }: { head: string[]; rows: string[][] }) {
 function VocabBoxView({
   title,
   items,
+  voice,
+  playing,
+  onSpeak,
 }: {
   title: string;
   items: { id: string; ru: string }[];
+  voice: boolean;
+  playing: string | null;
+  onSpeak: (word: string) => void;
 }) {
   return (
     <aside className="rounded-xl border bg-secondary/40 px-4 py-3 text-base leading-relaxed sm:px-5">
@@ -806,8 +852,29 @@ function VocabBoxView({
       </h2>
       <dl className="mt-2 grid gap-x-6 gap-y-1 sm:grid-cols-2">
         {items.map((item, i) => (
-          <div key={i} className="flex gap-2 text-[0.95rem] leading-snug">
-            <dt className="font-medium">{item.id}</dt>
+          <div key={i} className="flex items-baseline gap-2 text-[0.95rem] leading-snug">
+            <dt className="font-medium">
+              {voice ? (
+                <button
+                  type="button"
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    onSpeak(item.id.replace(/\s+/g, " ").trim());
+                  }}
+                  title="Прослушать слово"
+                  className={cn(
+                    "-mx-1 inline-flex items-baseline gap-1 rounded px-1 text-left transition hover:bg-primary/15",
+                    playing === `w:${item.id.replace(/\s+/g, " ").trim().toLowerCase()}` &&
+                      "bg-primary/15 text-primary",
+                  )}
+                >
+                  {item.id}
+                  <Volume2 className="h-3 w-3 shrink-0 translate-y-[0.1em] text-muted-foreground/60" />
+                </button>
+              ) : (
+                item.id
+              )}
+            </dt>
             <dd className="text-muted-foreground">— {item.ru}</dd>
           </div>
         ))}
@@ -820,10 +887,16 @@ function WordPopup({
   popup,
   starred,
   onStar,
+  voice,
+  playing,
+  onSpeak,
 }: {
   popup: Popup;
   starred: boolean;
   onStar: () => void;
+  voice: boolean;
+  playing: boolean;
+  onSpeak: () => void;
 }) {
   const ref = useRef<HTMLDivElement>(null);
   const [left, setLeft] = useState(popup.x);
@@ -864,6 +937,23 @@ function WordPopup({
             </div>
           )}
         </div>
+        {voice && (
+          <button
+            type="button"
+            onClick={onSpeak}
+            title={playing ? "Остановить" : "Прослушать слово"}
+            aria-label={playing ? "Остановить" : "Прослушать слово"}
+            aria-pressed={playing}
+            className={cn(
+              "inline-flex h-7 w-7 shrink-0 items-center justify-center rounded-md transition coarse:h-9 coarse:w-9",
+              playing
+                ? "bg-primary/10 text-primary"
+                : "text-muted-foreground/70 hover:bg-secondary hover:text-foreground",
+            )}
+          >
+            <Volume2 className="h-4 w-4" />
+          </button>
+        )}
         <button
           type="button"
           onClick={onStar}
