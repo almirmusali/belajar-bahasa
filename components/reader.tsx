@@ -63,6 +63,12 @@ const FONT_KEY = "belajar:reading:font";
 // читатель уже умеет, а строка в липкой панели — украденная высота экрана.
 const HINT_KEY = "belajar:reading:hint-done";
 
+// Сколько всплывашка живёт после ухода курсора: хватает, чтобы перевести
+// мышь со слова на значки, и не так долго, чтобы она висела без дела.
+const HIDE_DELAY_MS = 250;
+// Прокрутка меньше этой — всплывашка едет за словом, больше — закрывается.
+const SCROLL_CLOSE_PX = 64;
+
 // Строка чтения: px от верха окна, сразу под липкой панелью. Закладка стоит
 // на последнем абзаце, который ушёл выше неё. Возврат к закладке ставит абзац
 // на эту же строку — иначе закладка при каждом открытии уползала бы назад.
@@ -325,14 +331,37 @@ export function Reader({
   // нескольких секунд учитывается один раз.
   const lastLookup = useRef<{ word: string; t: number } | null>(null);
 
+  // Слово, над которым стоит всплывашка, и прокрутка в момент открытия: по
+  // ним всплывашка едет за словом при мелкой прокрутке, а не закрывается.
+  const anchorRef = useRef<{ el: HTMLElement; scrollY: number } | null>(null);
+
+  // Закрытие по уходу курсора — с задержкой. Между словом и всплывашкой есть
+  // щель в пару пикселей, и курсор по дороге к значку озвучки проходит через
+  // абзац: мгновенное закрытие гасило всплывашку раньше, чем до неё дотянешься.
+  const hideTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const cancelHide = useCallback(() => {
+    if (hideTimer.current) clearTimeout(hideTimer.current);
+    hideTimer.current = null;
+  }, []);
+  const hideSoon = useCallback(() => {
+    cancelHide();
+    hideTimer.current = setTimeout(() => {
+      hideTimer.current = null;
+      setPopup(null);
+    }, HIDE_DELAY_MS);
+  }, [cancelHide]);
+  useEffect(() => cancelHide, [cancelHide]);
+
   const showWord = useCallback(
     (el: HTMLElement) => {
+      cancelHide();
       const word = el.dataset.w;
       const entry = word ? lookup(word) : null;
       if (!word || !entry) {
         setPopup(null);
         return;
       }
+      anchorRef.current = { el, scrollY: window.scrollY };
       const seen = lastLookup.current;
       if (!seen || seen.word !== word || Date.now() - seen.t > 3000) {
         track("word_lookup", slug, chapter, { word: word.toLowerCase() });
@@ -347,7 +376,7 @@ export function Reader({
         y: r.top,
       });
     },
-    [lookup, slug, chapter],
+    [lookup, slug, chapter, cancelHide],
   );
 
   // Слов в главе сотни: вешать обработчик на каждый span — лишняя работа и
@@ -356,10 +385,13 @@ export function Reader({
     if (!hoverable) return;
     const target = e.target as HTMLElement;
     // Курсор поехал на саму всплывашку — она нужна живой, там звёздочка.
-    if (target.closest("[data-tip]")) return;
+    if (target.closest("[data-tip]")) {
+      cancelHide();
+      return;
+    }
     const word = target.closest<HTMLElement>("[data-w]");
     if (word) showWord(word);
-    else setPopup(null);
+    else hideSoon();
   };
 
   const onClick = (e: React.MouseEvent) => {
@@ -370,23 +402,48 @@ export function Reader({
 
   // Тап мимо текста тоже закрывает подсказку: иначе на телефоне она висит
   // над абзацем до следующего тапа по слову и загораживает чтение.
+  //
+  // А вот прокрутка закрывает её только заметная. На телефоне `scroll` и
+  // `resize` приходят и без участия читателя: докатывается инерция прошлого
+  // свайпа, Safari разворачивает свою панель от тапа у нижнего края — и
+  // всплывашка гасла через миг после тапа, до значка озвучки было не успеть.
+  const popupOpen = popup !== null;
   useEffect(() => {
-    if (!popup) return;
+    if (!popupOpen) return;
+    const width = window.innerWidth;
     const onDocClick = (e: MouseEvent) => {
       const el = e.target as HTMLElement | null;
       if (el?.closest("[data-w]") || el?.closest("[data-tip]")) return;
       setPopup(null);
     };
-    const hide = () => setPopup(null);
+    const follow = () => {
+      const anchor = anchorRef.current;
+      if (
+        !anchor ||
+        !anchor.el.isConnected ||
+        Math.abs(window.scrollY - anchor.scrollY) > SCROLL_CLOSE_PX
+      ) {
+        setPopup(null);
+        return;
+      }
+      const r = anchor.el.getBoundingClientRect();
+      setPopup((p) => p && { ...p, x: r.left + r.width / 2, y: r.top });
+    };
+    // Высота окна на телефоне меняется от панелей браузера — это не повод
+    // закрываться. Сменилась ширина (поворот экрана) — вёрстка уже другая.
+    const onResize = () => {
+      if (window.innerWidth !== width) setPopup(null);
+      else follow();
+    };
     document.addEventListener("click", onDocClick);
-    window.addEventListener("scroll", hide, { passive: true });
-    window.addEventListener("resize", hide);
+    window.addEventListener("scroll", follow, { passive: true });
+    window.addEventListener("resize", onResize);
     return () => {
       document.removeEventListener("click", onDocClick);
-      window.removeEventListener("scroll", hide);
-      window.removeEventListener("resize", hide);
+      window.removeEventListener("scroll", follow);
+      window.removeEventListener("resize", onResize);
     };
-  }, [popup]);
+  }, [popupOpen]);
 
   // Ключ — индекс абзаца в главе: перевод раскрывается целым абзацем.
   const toggle = (bi: number) => {
@@ -534,7 +591,7 @@ export function Reader({
         onMouseLeave={(e) => {
           const to = e.relatedTarget as HTMLElement | null;
           if (to?.closest?.("[data-tip]")) return;
-          setPopup(null);
+          if (hoverable) hideSoon();
         }}
         onClick={onClick}
         // touch-manipulation убирает задержку и зум по двойному тапу;
@@ -595,6 +652,13 @@ export function Reader({
           voice={voice_}
           playing={playing === `w:${popup.word.toLowerCase()}`}
           onSpeak={() => speakWord(popup.word)}
+          onEnter={cancelHide}
+          onLeave={(e) => {
+            if (!hoverable) return;
+            const to = e.relatedTarget as HTMLElement | null;
+            if (to?.closest?.("[data-w]")) return;
+            hideSoon();
+          }}
           onStar={() =>
             toggleFavorite({
               id: popup.word.toLowerCase(),
@@ -890,6 +954,8 @@ function WordPopup({
   voice,
   playing,
   onSpeak,
+  onEnter,
+  onLeave,
 }: {
   popup: Popup;
   starred: boolean;
@@ -897,6 +963,8 @@ function WordPopup({
   voice: boolean;
   playing: boolean;
   onSpeak: () => void;
+  onEnter: () => void;
+  onLeave: (e: React.MouseEvent) => void;
 }) {
   const ref = useRef<HTMLDivElement>(null);
   const [left, setLeft] = useState(popup.x);
@@ -923,6 +991,8 @@ function WordPopup({
     <div
       ref={ref}
       data-tip
+      onMouseEnter={onEnter}
+      onMouseLeave={onLeave}
       style={{ left, top: popup.y - 2 }}
       className="fixed z-50 max-w-[min(20rem,92vw)] -translate-x-1/2 -translate-y-full select-none pb-2"
     >
